@@ -1,0 +1,285 @@
+{
+  "new_round3_sealed_accessed": false,
+  "validation_reused_development_not_independent_final_evidence": true,
+  "results": {
+    "baseline": {
+      "status": "candidate_unvalidated",
+      "deployable": false,
+      "training_rows": 258,
+      "supervised_class_counts": {
+        "stage": 14,
+        "other": 220,
+        "gold": 9,
+        "level": 13,
+        "hp": 2
+      },
+      "thresholds": {
+        "stage": 0.5,
+        "gold": 1.000001,
+        "hp": 1.000001,
+        "level": 1.000001
+      },
+      "validation_metrics": {
+        "n_labelled": 10,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 5,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.5,
+        "precision": 1.0,
+        "per_field": {
+          "stage": {
+            "n_labelled": 5,
+            "correct": 5,
+            "wrong": 0,
+            "abstain": 0,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 1.0,
+            "precision": 1.0
+          },
+          "gold": {
+            "n_labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.0,
+            "precision": null
+          },
+          "hp": {
+            "n_labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": null,
+            "precision": null
+          },
+          "level": {
+            "n_labelled": 3,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 3,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.0,
+            "precision": null
+          }
+        },
+        "per_mode": {
+          "nature": {
+            "n_labelled": 7,
+            "correct": 3,
+            "wrong": 0,
+            "abstain": 4,
+            "false_positive_absent": 0,
+            "correct_absence": 0,
+            "coverage": 0.42857142857142855,
+            "precision": 1.0
+          },
+          "orange": {
+            "n_labelled": 3,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 1,
+            "false_positive_absent": 0,
+            "correct_absence": 12,
+            "coverage": 0.6666666666666666,
+            "precision": 1.0
+          }
+        }
+      },
+      "artifact_sha256": "4742b8f494de04f88c7c2a98914b341eb7632785be1b958e9ba0c9938e3bdb41"
+    },
+    "enhanced": {
+      "status": "candidate_unvalidated",
+      "deployable": false,
+      "training_rows": 255,
+      "supervised_class_counts": {
+        "stage": 11,
+        "other": 220,
+        "gold": 9,
+        "level": 13,
+        "hp": 2
+      },
+      "thresholds": {
+        "stage": 0.5,
+        "gold": 1.000001,
+        "hp": 1.000001,
+        "level": 1.000001
+      },
+      "validation_metrics": {
+        "n_labelled": 10,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 5,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.5,
+        "precision": 1.0,
+        "per_field": {
+          "stage": {
+            "n_labelled": 5,
+            "correct": 5,
+            "wrong": 0,
+            "abstain": 0,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 1.0,
+            "precision": 1.0
+          },
+          "gold": {
+            "n_labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.0,
+            "precision": null
+          },
+          "hp": {
+            "n_labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": null,
+            "precision": null
+          },
+          "level": {
+            "n_labelled": 3,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 3,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.0,
+            "precision": null
+          }
+        },
+        "per_mode": {
+          "nature": {
+            "n_labelled": 7,
+            "correct": 3,
+            "wrong": 0,
+            "abstain": 4,
+            "false_positive_absent": 0,
+            "correct_absence": 0,
+            "coverage": 0.42857142857142855,
+            "precision": 1.0
+          },
+          "orange": {
+            "n_labelled": 3,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 1,
+            "false_positive_absent": 0,
+            "correct_absence": 12,
+            "coverage": 0.6666666666666666,
+            "precision": 1.0
+          }
+        }
+      },
+      "artifact_sha256": "3dd26045ba8c998056e497bc0b332ca1ad4c6e90252f1a6c1b5878cd6ac577e1"
+    },
+    "expanded_v3": {
+      "status": "candidate_unvalidated",
+      "deployable": false,
+      "training_rows": 267,
+      "supervised_class_counts": {
+        "stage": 14,
+        "other": 226,
+        "gold": 10,
+        "level": 15,
+        "hp": 2
+      },
+      "thresholds": {
+        "stage": 1.000001,
+        "gold": 1.000001,
+        "hp": 1.000001,
+        "level": 0.98
+      },
+      "validation_metrics": {
+        "n_labelled": 10,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 8,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.2,
+        "precision": 1.0,
+        "per_field": {
+          "stage": {
+            "n_labelled": 5,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 5,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.0,
+            "precision": null
+          },
+          "gold": {
+            "n_labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.0,
+            "precision": null
+          },
+          "hp": {
+            "n_labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": null,
+            "precision": null
+          },
+          "level": {
+            "n_labelled": 3,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 1,
+            "false_positive_absent": 0,
+            "correct_absence": 3,
+            "coverage": 0.6666666666666666,
+            "precision": 1.0
+          }
+        },
+        "per_mode": {
+          "nature": {
+            "n_labelled": 7,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 6,
+            "false_positive_absent": 0,
+            "correct_absence": 0,
+            "coverage": 0.14285714285714285,
+            "precision": 1.0
+          },
+          "orange": {
+            "n_labelled": 3,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 2,
+            "false_positive_absent": 0,
+            "correct_absence": 12,
+            "coverage": 0.3333333333333333,
+            "precision": 1.0
+          }
+        }
+      },
+      "artifact_sha256": "0bd663c3b582dd5745730c1fb140db1898ab47ee592bd023eb0e8e409eccf6dc"
+    }
+  }
+}

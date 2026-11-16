@@ -1,0 +1,48 @@
+{
+  "version": "0.2.0",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 16188
+    },
+    {
+      "route": "/static/app.js",
+      "status": 200,
+      "bytes": 58492
+    },
+    {
+      "route": "/validation/expanded-screens-2026-11-11/",
+      "status": 200,
+      "bytes": 23704
+    },
+    {
+      "route": "/validation/expanded-screens-2026-11-11/summary.json",
+      "status": 200,
+      "bytes": 241159
+    },
+    {
+      "route": "/training/",
+      "status": 200,
+      "bytes": 2212
+    },
+    {
+      "route": "/training/field-v3/training_report.json",
+      "status": 200,
+      "bytes": 39536
+    },
+    {
+      "route": "/training/card-tier-candidate/report.json",
+      "status": 200,
+      "bytes": 3802
+    }
+  ],
+  "missing_match_id_rejected": true,
+  "production_match_history": {
+    "total": 0,
+    "events": []
+  },
+  "both_modes_probability_null_and_untrained": true,
+  "browser_automation": "not_completed_previous_CUA_connection_timeout",
+  "note": "Final HTTP smoke after shared source-binding fix; no feedback or match event written."
+}

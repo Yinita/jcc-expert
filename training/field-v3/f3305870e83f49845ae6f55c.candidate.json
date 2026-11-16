@@ -1,0 +1,1126 @@
+{
+  "mode": "shared",
+  "patch": "18.6",
+  "feature_version": "ocr-field-geometry-1",
+  "model_id": "f3305870e83f49845ae6f55c",
+  "status": "candidate_unvalidated",
+  "deployable": false,
+  "calibration_method": "development_temperature_scaling",
+  "kind": "supervised_OCR_line_field_assignment_not_win_probability",
+  "created_at": "2026-11-11T08:12:35.959904+00:00",
+  "group_partitions": {
+    "train": [
+      "sohu_1068964903",
+      "source_taptap_867251881297052929"
+    ],
+    "calibration": [
+      "youxituoluo_534823"
+    ],
+    "validation": [
+      "chuapp_291576",
+      "source_chuapp_291737"
+    ]
+  },
+  "annotation_stats": {
+    "consumed_nature_01": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "other": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      }
+    },
+    "consumed_nature_02": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      }
+    },
+    "consumed_nature_03": {
+      "supervised_rows": 5,
+      "labels": {
+        "other": 2,
+        "hp": 1,
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 35
+      }
+    },
+    "consumed_nature_04": {
+      "supervised_rows": 4,
+      "labels": {
+        "stage": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 27
+      }
+    },
+    "consumed_nature_05": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      }
+    },
+    "nature_dev_01": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 64
+      }
+    },
+    "nature_dev_02": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 55
+      }
+    },
+    "nature_dev_03": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 2,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      }
+    },
+    "nature_dev_04": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 59
+      }
+    },
+    "nature_dev_05": {
+      "supervised_rows": 2,
+      "labels": {
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 36
+      }
+    },
+    "nature_dev_06": {
+      "supervised_rows": 4,
+      "labels": {
+        "hp": 1,
+        "level": 1,
+        "stage": 1,
+        "gold": 1
+      },
+      "ignored": {
+        "unlabelled_line": 24
+      }
+    },
+    "nature_dev_07": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 52
+      }
+    },
+    "nature_dev_08": {
+      "supervised_rows": 4,
+      "labels": {
+        "stage": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 37
+      }
+    },
+    "nature_dev_09": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 41
+      }
+    },
+    "nature_dev_10": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 45
+      }
+    },
+    "nature_dev_11": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 43
+      }
+    },
+    "orange_exp_01": {
+      "supervised_rows": 29,
+      "labels": {
+        "other": 29
+      },
+      "ignored": {}
+    },
+    "orange_exp_02": {
+      "supervised_rows": 23,
+      "labels": {
+        "other": 23
+      },
+      "ignored": {}
+    },
+    "orange_exp_03": {
+      "supervised_rows": 26,
+      "labels": {
+        "other": 26
+      },
+      "ignored": {}
+    },
+    "orange_exp_04": {
+      "supervised_rows": 37,
+      "labels": {
+        "other": 37
+      },
+      "ignored": {}
+    },
+    "orange_exp_05": {
+      "supervised_rows": 24,
+      "labels": {
+        "other": 24
+      },
+      "ignored": {}
+    },
+    "orange_exp_06": {
+      "supervised_rows": 15,
+      "labels": {
+        "other": 15
+      },
+      "ignored": {}
+    },
+    "orange_chuapp_03": {
+      "supervised_rows": 35,
+      "labels": {
+        "other": 35
+      },
+      "ignored": {}
+    },
+    "orange_chuapp_04": {
+      "supervised_rows": 30,
+      "labels": {
+        "stage": 1,
+        "other": 27,
+        "hp": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 8
+      }
+    },
+    "orange_chuapp_08": {
+      "supervised_rows": 25,
+      "labels": {
+        "other": 25
+      },
+      "ignored": {}
+    }
+  },
+  "supervised_class_counts": {
+    "stage": 14,
+    "other": 82,
+    "gold": 9,
+    "level": 13,
+    "hp": 2
+  },
+  "n_supervised_rows": 296,
+  "n_training_rows": 120,
+  "limitations": [
+    "Only explicitly annotated lines supervise training; unknown labels are not negatives.",
+    "Temperature and thresholds are selected on development calibration groups. Validation groups are not used to tune thresholds.",
+    "Old consumed holdout groups are development validation, not a new unseen test. sealed_test is never opened.",
+    "This model assigns OCR lines to UI fields; values must parse from OCR. It does not predict wins.",
+    "Small or source-limited validation cannot establish deployment accuracy or real-match benefits."
+  ],
+  "reason": "Separate validation coverage/precision has not met the declared minimum; Shared recognition requires separate sufficient nature and orange validation",
+  "calibration": {
+    "status": "development_temperature_fit",
+    "rows": 5,
+    "nll": 0.00010608835642086734,
+    "groups": [
+      "youxituoluo_534823"
+    ]
+  },
+  "temperature": 0.3,
+  "thresholds": {
+    "stage": 0.5,
+    "gold": 1.000001,
+    "hp": 1.000001,
+    "level": 1.000001
+  },
+  "threshold_selection_calibration": {
+    "stage": {
+      "n_labelled": 2,
+      "correct": 2,
+      "wrong": 0,
+      "abstain": 0,
+      "false_positive_absent": 0,
+      "correct_absence": 0,
+      "coverage": 1.0,
+      "precision": 1.0
+    }
+  },
+  "validation_metrics": {
+    "n_labelled": 6,
+    "correct": 2,
+    "wrong": 0,
+    "abstain": 4,
+    "false_positive_absent": 0,
+    "correct_absence": 20,
+    "coverage": 0.3333333333333333,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 2,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 20,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "2-3",
+        "predicted": "2-3",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": 100,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": 4,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      }
+    ]
+  },
+  "unvalidated_preview_validation_metrics": {
+    "n_labelled": 6,
+    "correct": 3,
+    "wrong": 0,
+    "abstain": 3,
+    "false_positive_absent": 0,
+    "correct_absence": 20,
+    "coverage": 0.5,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 2,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 2,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.5,
+        "precision": 1.0
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 20,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "2-3",
+        "predicted": "2-3",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": 100,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": 4,
+        "predicted": 4,
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      }
+    ]
+  },
+  "min_validation_answers": 20,
+  "target_precision": 0.98,
+  "trained_classes": [
+    "gold",
+    "hp",
+    "level",
+    "other",
+    "stage"
+  ],
+  "validated_modes": [],
+  "learned_feature_weights": {
+    "gold": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": 1.428305489272661
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.6446239610381954
+      },
+      {
+        "feature": "cy",
+        "coefficient": 0.57935205605727
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.5676789006001915
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": -0.5663688162910852
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": -0.44964855570188755
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.4161599941498533
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.40477480653865666
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": -0.30832179457487296
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": -0.30832179457487296
+      }
+    ],
+    "hp": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.9991855878468866
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": 0.8882090041878623
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": 0.7858557648164931
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.7725969966889547
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": -0.42363496754483304
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.3697712380085565
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": -0.36948137507000683
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.36868305898440146
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.3669729704891562
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.3653878216873077
+      }
+    ],
+    "level": [
+      {
+        "feature": "y_bucket=9",
+        "coefficient": 0.8337442457966843
+      },
+      {
+        "feature": "x_bucket=1",
+        "coefficient": 0.8280756050163514
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": 0.5484658713273057
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": 0.4570414987452504
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": 0.4570414987452504
+      },
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.42799445988035484
+      },
+      {
+        "feature": "cx",
+        "coefficient": -0.3829959965533561
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.3816764813769806
+      },
+      {
+        "feature": "x",
+        "coefficient": -0.37514735077907607
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.29979814829869866
+      }
+    ],
+    "other": [
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.7078640195870385
+      },
+      {
+        "feature": "mode=nature",
+        "coefficient": -0.6454385234745528
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": -0.6454385234745528
+      },
+      {
+        "feature": "screen=orange_menu",
+        "coefficient": 0.6423181181189959
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": 0.6423181181189959
+      },
+      {
+        "feature": "x_bucket=0",
+        "coefficient": 0.4814736302215145
+      },
+      {
+        "feature": "x_bucket=6",
+        "coefficient": 0.46923408256973115
+      },
+      {
+        "feature": "x_bucket=3",
+        "coefficient": -0.38371435122553543
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": -0.3191089224233691
+      },
+      {
+        "feature": "y_bucket=9",
+        "coefficient": -0.3125202820977676
+      }
+    ],
+    "stage": [
+      {
+        "feature": "x_bucket=3",
+        "coefficient": 0.8085796487505077
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": 0.7832607955057803
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": 0.6383222310628917
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": -0.6100910747385095
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": -0.6100910747385095
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.40287176625311344
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.4021516747586939
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.32768045676313023
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": -0.25409857523327234
+      },
+      {
+        "feature": "screen=orange_menu",
+        "coefficient": -0.25409857523327234
+      }
+    ]
+  },
+  "artifact_sha256": "1b580f5d86a76ed171e382cf2e1f2b86b3b81c73dd3fb7fe70ee3b1e4795563c",
+  "experiment": {
+    "version": "V3",
+    "purpose": "Third candidate experiment; split fixed from development label coverage before refit, not selected using validation outcomes.",
+    "parent_annotations_sha256": "fe86670c133685638d11aa1728fe016ac4998fecc2ee2efd3bd3f7da0d733e5d",
+    "fixed_source_plan": {
+      "sohu_1068964903": "train",
+      "source_taptap_867251881297052929": "train",
+      "youxituoluo_534823": "calibration",
+      "chuapp_291576": "validation",
+      "source_chuapp_291737": "validation"
+    },
+    "validation_reused": true,
+    "validation_is_independent_final_evidence": false,
+    "sealed_test_read": false,
+    "deployment_gates_unchanged": {
+      "minimum_validation_answers_per_mode": 20,
+      "target_precision": 0.98,
+      "minimum_validation_source_groups": 2
+    },
+    "validation_check_number": 3,
+    "final_evidence_eligible": false,
+    "description": "The validation source groups are reused development evidence. Thresholds were selected on the declared calibration source only; no new sealed labels or images were passed to training."
+  }
+}

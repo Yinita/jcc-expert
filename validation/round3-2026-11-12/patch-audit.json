@@ -1,0 +1,1043 @@
+{
+  "audit_version": 1,
+  "checked_at": "2026-11-12T08:09:54.864977+00:00",
+  "audit_status": "official_18.6a_announcement_verified_but_full_static_rules_not_synchronized",
+  "read_only_existing_assets": true,
+  "announcement": {
+    "title": "《金铲铲之战》18.6a版本 11月12日更新公告",
+    "direct_official_url": "https://weibo.com/ttarticle/p/show?id=2309405364132915576925",
+    "official_short_url": "https://t.cn/AXYlttZF",
+    "official_identity_mirror": "https://www.sina.cn/news/detail/5364132918329366.html",
+    "official_account": "金铲铲之战",
+    "official_weibo_uid": "7504806444",
+    "identity_evidence": "Sina微博认证标记为金铲铲之战官方微博，原官方短链正常302/跳转到该微博文章。",
+    "published_at": "2026-11-11T18:20:00+08:00",
+    "scheduled_effective_at": "2026-11-12T12:00:00+08:00",
+    "scheduled_effective_at_caveat": "公告注明具体时间以实际为准；+08:00按国服语境解释。",
+    "actual_rollout_verified": false,
+    "update_method": "不停机更新",
+    "server_scope": "全服",
+    "download_sizes_mb": {
+      "Android": 170,
+      "iOS": 168
+    },
+    "full_text_obtained": true,
+    "retrieval": "Public ordinary HTTP GET followed official short-link redirect; complete article body present in public HTML .WB_editor_iframe. No authentication used. web search also corroborates official announcement title and author.",
+    "raw_html_file": "work/round3_patch_audit/official_short.html",
+    "raw_html_sha256": "7f97ec1cabddae14842ecc1ec0aadb5bcffc670a7a33fe1bf917d6661ac79bf9",
+    "text_file": "work/round3_patch_audit/official_weibo_text.txt",
+    "taptap_direct_moment_url": null,
+    "taptap_limit": "搜索命中最新标题，但论坛请求返回列表在不同索引/视图时间不一致，未假装取得直接moment。官方微博完整正文已足以核验。"
+  },
+  "nature": {
+    "announcement_lists_numerical_balance_changes": false,
+    "listed_bug_fixes": [
+      {
+        "entity": "纳尔",
+        "change": "修复抓取并投掷目标时偶现无法正确投掷的问题。"
+      }
+    ],
+    "interpretation": "该公告自然之力节仅列上述修复；不能把画之灵/传奇的同名英雄调整串入自然之力。未以客户端实测确认修复已部署。"
+  },
+  "orange": {
+    "announced_portal_encounter_changes": [
+      {
+        "operation": "remove",
+        "entity_type": "encounter",
+        "name": "虚张声势",
+        "portals": [
+          "未知传送门"
+        ]
+      },
+      {
+        "operation": "add_to_portals",
+        "entity_type": "encounter",
+        "name": "没有奇遇",
+        "portals": [
+          "稳定传送门",
+          "波动传送门",
+          "未知传送门"
+        ],
+        "effect": "本局游戏不会出现奇遇"
+      }
+    ],
+    "announced_time_card_changes": [
+      {
+        "name": "王国后裔",
+        "official_id": "7230112",
+        "field": "额外提供的希维尔数量",
+        "old": 2,
+        "new": 1,
+        "unit": "个",
+        "scope_note": "仅按公告实际表述记录，不推断改掉其他技能、触发回合或来源。"
+      }
+    ],
+    "optimizations_and_fixes": [
+      {
+        "kind": "description_clarification",
+        "entity": "大橘大利卡片保护券",
+        "detail": "优化描述：使用后24小时生效期内，出战卡组中的第1张卡片不会损毁。"
+      },
+      {
+        "kind": "presentation",
+        "entity": "对局记录",
+        "detail": "优化呈现形式。"
+      },
+      {
+        "kind": "bug_fix",
+        "entity": "对局等待段位框",
+        "detail": "修复错误段位框展示。"
+      },
+      {
+        "kind": "bug_fix",
+        "entity": "流浪的救世者/瑞兹",
+        "official_card_id": "7250047",
+        "detail": "修复升星后偶现地区羁绊+1效果失效。"
+      },
+      {
+        "kind": "description_fix",
+        "entity": "天衣药水",
+        "official_card_id": "7230111",
+        "detail": "修复卡牌详细描述不正确，公告未给出逐字新版描述。"
+      }
+    ]
+  },
+  "separately_labelled_base_mode_section": {
+    "official_section": "英雄联盟传奇·伊泽瑞尔的寻宝之旅·平衡性调整",
+    "orange_inheritance_verified": false,
+    "do_not_automatically_apply_to_orange": true,
+    "changes": [
+      {
+        "entity": "伊泽瑞尔",
+        "field": "技能伤害",
+        "old": [
+          400,
+          640,
+          3000
+        ],
+        "new": [
+          450,
+          730,
+          3500
+        ]
+      },
+      {
+        "entity": "伊泽瑞尔",
+        "field": "技能施放所需暴击次数",
+        "old": 8,
+        "new": 6
+      },
+      {
+        "entity": "迦娜",
+        "field": "法力值",
+        "old": [
+          0,
+          50
+        ],
+        "new": [
+          0,
+          40
+        ]
+      },
+      {
+        "entity": "斯莫德",
+        "field": "技能伤害",
+        "old": [
+          300,
+          450,
+          4000
+        ],
+        "new": [
+          270,
+          405,
+          3600
+        ]
+      },
+      {
+        "entity": "怪兽/雷克塞",
+        "field": "物理加成(%)",
+        "old": 1,
+        "new": 0.5
+      },
+      {
+        "entity": "7祖安",
+        "field": "额外加成(%)",
+        "old": 50,
+        "new": 40
+      },
+      {
+        "entity": "复仇焰魂",
+        "field": "灼烧伤害倍数",
+        "old": 3,
+        "new": 2.5
+      }
+    ],
+    "listed_bug_fixes": [
+      "战时补给：拳套达成任务偶现不掉落拳套"
+    ]
+  },
+  "other_mode_excluded_from_nature_orange": {
+    "official_section": "画之灵·平衡性调整",
+    "entities": [
+      "希维尔",
+      "凯特琳",
+      "迦娜",
+      "塔姆",
+      "拉克丝",
+      "婕拉",
+      "索拉卡",
+      "沃利贝尔",
+      "阿木木",
+      "青花瓷"
+    ],
+    "reason": "模式不同，同名英雄不跨模式套用数值。全部原文可在已存官方正文核对。"
+  },
+  "cdn_audit": {
+    "version_index_url": "https://game.gtimg.cn/images/lol/act/jkzlk/js/config/versiondataconfig.js",
+    "version_index_http": {
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js/config/versiondataconfig.js",
+      "cache_bust_url": "https://game.gtimg.cn/images/lol/act/jkzlk/js/config/versiondataconfig.js?audit=20261112",
+      "status_code": 200,
+      "sha256": "c2a11671e8d1ada8eaf9371837d617a7a57d212c892066ec5213b35422434be7",
+      "cache_bust_canonical_equals_plain": true,
+      "date": "Wed, 04 Nov 2026 03:33:20 GMT",
+      "last_modified": "Wed, 04 Nov 2026 03:29:55 GMT",
+      "etag": "\"6aeaa6b3-24e11\""
+    },
+    "version_index_matching_entries": [
+      {
+        "scope": "nature",
+        "current_entry": {
+          "version_start_time": "2026-11-03",
+          "version": "18.18.6",
+          "season": "S19",
+          "is_newest_version": 1,
+          "mode": "18",
+          "name": "自然之力",
+          "raceurl": "/18/18.18.6-S19/race.js",
+          "joburl": "/18/18.18.6-S19/job.js",
+          "herourl": "/18/18.18.6-S19/chess.js",
+          "legendurl": "/18/18.18.6-S19/legend.js",
+          "galaxyurl": "/18/18.18.6-S19/galaxy.js",
+          "missionurl": "/18/18.18.6-S19/mission.js",
+          "adventureurl": "/18/18.18.6-S19/adventure.js",
+          "goopurl": "/18/18.18.6-S19/goop.js",
+          "godurl": "/18/18.18.6-S19/god.js",
+          "hexurl": "/18/18.18.6-S19/hex.js",
+          "equipurl": "/18/18.18.6-S19/equip.js",
+          "tinyherourl": "/18/18.18.6-S19/tinyhero.js",
+          "traiturl": "/18/18.18.6-S19/trait.js",
+          "configurl": "/18/18.18.6-S19/config.js",
+          "monsterurl": "/18/18.18.6-S19/monster.js",
+          "cardurl": "/18/18.18.6-S19/card.js",
+          "lang": "CN"
+        },
+        "old_entry_equal": true
+      },
+      {
+        "scope": "orange",
+        "current_entry": {
+          "version_start_time": "2026-10-13 19:49:20",
+          "version": "18.18.1",
+          "season": "S400001",
+          "is_newest_version": 1,
+          "mode": "16",
+          "name": "英雄联盟传奇",
+          "raceurl": "/16/18.18.1-S400001/race.js",
+          "joburl": "/16/18.18.1-S400001/job.js",
+          "herourl": "/16/18.18.1-S400001/chess.js",
+          "legendurl": "/16/18.18.1-S400001/legend.js",
+          "galaxyurl": "/16/18.18.1-S400001/galaxy.js",
+          "missionurl": "/16/18.18.1-S400001/mission.js",
+          "adventureurl": "/16/18.18.1-S400001/adventure.js",
+          "goopurl": "/16/18.18.1-S400001/goop.js",
+          "godurl": "/16/18.18.1-S400001/god.js",
+          "hexurl": "/16/18.18.1-S400001/hex.js",
+          "equipurl": "/16/18.18.1-S400001/equip.js",
+          "tinyherourl": "/16/18.18.1-S400001/tinyhero.js",
+          "traiturl": "/16/18.18.1-S400001/trait.js",
+          "configurl": "/16/18.18.1-S400001/config.js",
+          "monsterurl": "/16/18.18.1-S400001/monster.js",
+          "cardurl": "/16/18.18.1-S400001/card.js",
+          "lang": "CN"
+        },
+        "old_entry_equal": true
+      }
+    ],
+    "matching_entries_unchanged": true,
+    "announced_patch_entry_found": false,
+    "registry_static_files_checked": 24,
+    "registry_raw_hashes_equal": 24,
+    "registry_data_hashes_equal": 24,
+    "additional_static_config_files_checked": 1,
+    "additional_static_config_unchanged": true,
+    "comparisons": [
+      {
+        "registry_id": "S001",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/chess.js",
+        "old_registry_sha256": "e5723a64c6a0eb87984e633d2a0bc1c5d23845d29167849d3e151d3b09215260",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053c-5db88\"",
+        "last_modified": "Tue, 03 Nov 2026 16:01:00 GMT",
+        "response_date": "Wed, 04 Nov 2026 03:37:05 GMT",
+        "bytes": 383880,
+        "new_sha256": "e5723a64c6a0eb87984e633d2a0bc1c5d23845d29167849d3e151d3b09215260",
+        "snapshot_file": "work/round3_patch_audit/cdn/S001_chess.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:19",
+        "old_snapshot_file": "work/official_nature/herourl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:19",
+        "new_data_sha256": "fecd751b7198bdd8bf2e704bcc1fc3b01bd5ed5773d0bfff1e950e4b29c11818",
+        "old_data_sha256": "fecd751b7198bdd8bf2e704bcc1fc3b01bd5ed5773d0bfff1e950e4b29c11818",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S002",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/race.js",
+        "old_registry_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053b-513a\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:59 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:05:07 GMT",
+        "bytes": 20794,
+        "new_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210",
+        "snapshot_file": "work/round3_patch_audit/cdn/S002_race.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:18",
+        "old_snapshot_file": "work/official_nature/raceurl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:18",
+        "new_data_sha256": "5f4cb5865519cb0b7e6ffb8525d63578aa187d03b76fd13f424ac140ca2d0269",
+        "old_data_sha256": "5f4cb5865519cb0b7e6ffb8525d63578aa187d03b76fd13f424ac140ca2d0269",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S003",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/job.js",
+        "old_registry_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053a-178f\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:58 GMT",
+        "response_date": "Wed, 04 Nov 2026 04:08:09 GMT",
+        "bytes": 6031,
+        "new_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb",
+        "snapshot_file": "work/round3_patch_audit/cdn/S003_job.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:18",
+        "old_snapshot_file": "work/official_nature/joburl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:18",
+        "new_data_sha256": "369068d102b91bbb5f7155daec095a3c1fb8cc85eba40b5171cc5084a7669366",
+        "old_data_sha256": "369068d102b91bbb5f7155daec095a3c1fb8cc85eba40b5171cc5084a7669366",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S004",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/hex.js",
+        "old_registry_sha256": "a25473dd7610d50c85e52fc905ad575f0a385e9d0e003c24cd5cba94960a2df6",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053b-160fc\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:59 GMT",
+        "response_date": "Wed, 04 Nov 2026 03:39:41 GMT",
+        "bytes": 90364,
+        "new_sha256": "a25473dd7610d50c85e52fc905ad575f0a385e9d0e003c24cd5cba94960a2df6",
+        "snapshot_file": "work/round3_patch_audit/cdn/S004_hex.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:19",
+        "old_snapshot_file": "work/official_nature/hexurl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:19",
+        "new_data_sha256": "75198333632f45d91f8661f0a0bc20a5440f1a68ebb1602f9e1eb09670796e7e",
+        "old_data_sha256": "75198333632f45d91f8661f0a0bc20a5440f1a68ebb1602f9e1eb09670796e7e",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S005",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/equip.js",
+        "old_registry_sha256": "61f784513cc7b10bd54cbf84b0969baf34417115ba9f8b4c49d5cf1aa96fb1d6",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053b-11f7f\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:59 GMT",
+        "response_date": "Wed, 04 Nov 2026 03:39:41 GMT",
+        "bytes": 73599,
+        "new_sha256": "61f784513cc7b10bd54cbf84b0969baf34417115ba9f8b4c49d5cf1aa96fb1d6",
+        "snapshot_file": "work/round3_patch_audit/cdn/S005_equip.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:19",
+        "old_snapshot_file": "work/official_nature/equipurl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:19",
+        "new_data_sha256": "0ce73853b976b82e4ea61e1ae45edac372b5a3c16d89a485da2aa7b730dd3946",
+        "old_data_sha256": "0ce73853b976b82e4ea61e1ae45edac372b5a3c16d89a485da2aa7b730dd3946",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S006",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/adventure.js",
+        "old_registry_sha256": "498a74fb0cbd7a6f447173c9bcc791e512c91de0f9d687fe7b43c7e21d232e12",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053b-17285\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:59 GMT",
+        "response_date": "Wed, 04 Nov 2026 03:37:05 GMT",
+        "bytes": 94853,
+        "new_sha256": "498a74fb0cbd7a6f447173c9bcc791e512c91de0f9d687fe7b43c7e21d232e12",
+        "snapshot_file": "work/round3_patch_audit/cdn/S006_adventure.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:19",
+        "old_snapshot_file": "work/official_nature/adventureurl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:19",
+        "new_data_sha256": "83285b0b8781157c260483449fbf567b936ab88cc478838010fd925bea2ea6b3",
+        "old_data_sha256": "83285b0b8781157c260483449fbf567b936ab88cc478838010fd925bea2ea6b3",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S007",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/galaxy.js",
+        "old_registry_sha256": "451cb17f00c199813c84e60de09d437cba3aad1d9689e638721bacc042a51a9e",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053a-12db\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:58 GMT",
+        "response_date": "Wed, 04 Nov 2026 03:48:21 GMT",
+        "bytes": 4827,
+        "new_sha256": "451cb17f00c199813c84e60de09d437cba3aad1d9689e638721bacc042a51a9e",
+        "snapshot_file": "work/round3_patch_audit/cdn/S007_galaxy.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:19",
+        "old_snapshot_file": "work/official_nature/galaxyurl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:19",
+        "new_data_sha256": "ea61d6faf17ccc1f7461742b0fd0ee7b900d21cf2cfeaaffb0cb1fbdd401b3e7",
+        "old_data_sha256": "ea61d6faf17ccc1f7461742b0fd0ee7b900d21cf2cfeaaffb0cb1fbdd401b3e7",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S008",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/trait.js",
+        "old_registry_sha256": "85fd295cb0cbb3bc95e0d52720db8c70bac1d6042737efd1dedb381b0bf6d879",
+        "scopes": [
+          "nature"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea053b-1b8d5\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:59 GMT",
+        "response_date": "Thu, 12 Nov 2026 07:22:11 GMT",
+        "bytes": 112853,
+        "new_sha256": "85fd295cb0cbb3bc95e0d52720db8c70bac1d6042737efd1dedb381b0bf6d879",
+        "snapshot_file": "work/round3_patch_audit/cdn/S008_trait.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.6",
+        "source_season": "S19",
+        "source_generated_at": "2026-11-03 22:28:18",
+        "old_snapshot_file": "work/official_nature/traiturl.json",
+        "old_source_version": "18.18.6",
+        "old_source_generated_at": "2026-11-03 22:28:18",
+        "new_data_sha256": "ed32e99f403d8a47216bfcbbac9ac7ddd22d3b82648e362996d8d6b3ea060ffe",
+        "old_data_sha256": "ed32e99f403d8a47216bfcbbac9ac7ddd22d3b82648e362996d8d6b3ea060ffe",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S009",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/race.js",
+        "old_registry_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052e-92a0\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:46 GMT",
+        "response_date": "Wed, 11 Nov 2026 12:00:58 GMT",
+        "bytes": 37536,
+        "new_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927",
+        "snapshot_file": "work/round3_patch_audit/cdn/S009_race.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:56",
+        "old_snapshot_file": "work/official_orange/raceurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:56",
+        "new_data_sha256": "383354a0b405e25028375c2fbd3d2a9bd3789d4deb48b0c3d28047b0cb6c70e4",
+        "old_data_sha256": "383354a0b405e25028375c2fbd3d2a9bd3789d4deb48b0c3d28047b0cb6c70e4",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S010",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/job.js",
+        "old_registry_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052d-1b72\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:45 GMT",
+        "response_date": "Wed, 04 Nov 2026 05:24:53 GMT",
+        "bytes": 7026,
+        "new_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d",
+        "snapshot_file": "work/round3_patch_audit/cdn/S010_job.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:56",
+        "old_snapshot_file": "work/official_orange/joburl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:56",
+        "new_data_sha256": "106092146aa8ff3f18ce8d7c682f71b620a617d5b83493fc2589552e5ed87718",
+        "old_data_sha256": "106092146aa8ff3f18ce8d7c682f71b620a617d5b83493fc2589552e5ed87718",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S011",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/chess.js",
+        "old_registry_sha256": "64092922d8a5c2e05020d3a9dd3f152b1274d756797effa965544b8a23dcf56c",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052f-a2b16\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:47 GMT",
+        "response_date": "Tue, 03 Nov 2026 16:11:57 GMT",
+        "bytes": 666390,
+        "new_sha256": "64092922d8a5c2e05020d3a9dd3f152b1274d756797effa965544b8a23dcf56c",
+        "snapshot_file": "work/round3_patch_audit/cdn/S011_chess.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/herourl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "41ca07c82b4f9fd97dcdbb1f4021506f5c89d5b99bb73a334b2c8912c1388d1f",
+        "old_data_sha256": "41ca07c82b4f9fd97dcdbb1f4021506f5c89d5b99bb73a334b2c8912c1388d1f",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S012",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/legend.js",
+        "old_registry_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052d-5c\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:45 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:05:07 GMT",
+        "bytes": 92,
+        "new_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "snapshot_file": "work/round3_patch_audit/cdn/S012_legend.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/legendurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "old_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S013",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/galaxy.js",
+        "old_registry_sha256": "7ab956654ba307c5f7d5de108cc79491811b60a85472318012f95f0bcb5acb71",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052d-2397\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:45 GMT",
+        "response_date": "Tue, 03 Nov 2026 17:16:30 GMT",
+        "bytes": 9111,
+        "new_sha256": "7ab956654ba307c5f7d5de108cc79491811b60a85472318012f95f0bcb5acb71",
+        "snapshot_file": "work/round3_patch_audit/cdn/S013_galaxy.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/galaxyurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "c1560277ed0e3c4e1b0799185af383445a26c86f2a3cf2418f5e031f29ac3865",
+        "old_data_sha256": "c1560277ed0e3c4e1b0799185af383445a26c86f2a3cf2418f5e031f29ac3865",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S014",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/mission.js",
+        "old_registry_sha256": "a2ad1671b2212988bd08f0cf149305f05177bd4960b69c16e5e9890f3ae0e52b",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6af191ed-5250\"",
+        "last_modified": "Mon, 09 Nov 2026 09:27:09 GMT",
+        "response_date": "Mon, 09 Nov 2026 09:30:34 GMT",
+        "bytes": 21072,
+        "new_sha256": "a2ad1671b2212988bd08f0cf149305f05177bd4960b69c16e5e9890f3ae0e52b",
+        "snapshot_file": "work/round3_patch_audit/cdn/S014_mission.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-05 18:48:14",
+        "old_snapshot_file": "work/official_orange/missionurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-05 18:48:14",
+        "new_data_sha256": "9a9fee199782d83d5095be4ca507bf0d3b3898c3497a78fa966aeb2e18470b8f",
+        "old_data_sha256": "9a9fee199782d83d5095be4ca507bf0d3b3898c3497a78fa966aeb2e18470b8f",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S015",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/adventure.js",
+        "old_registry_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052c-5c\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:44 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:05:07 GMT",
+        "bytes": 92,
+        "new_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "snapshot_file": "work/round3_patch_audit/cdn/S015_adventure.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/adventureurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "old_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S016",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/goop.js",
+        "old_registry_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052d-5c\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:45 GMT",
+        "response_date": "Thu, 12 Nov 2026 04:50:56 GMT",
+        "bytes": 92,
+        "new_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "snapshot_file": "work/round3_patch_audit/cdn/S016_goop.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/goopurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "old_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S017",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/god.js",
+        "old_registry_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052c-5c\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:44 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:05:07 GMT",
+        "bytes": 92,
+        "new_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "snapshot_file": "work/round3_patch_audit/cdn/S017_god.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/godurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "old_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S018",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/hex.js",
+        "old_registry_sha256": "0546364c2c0093acefe967c160b85e919ac4638a5bd0ab5dae8042b060d16fea",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052e-18b0c\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:46 GMT",
+        "response_date": "Tue, 03 Nov 2026 16:15:00 GMT",
+        "bytes": 101132,
+        "new_sha256": "0546364c2c0093acefe967c160b85e919ac4638a5bd0ab5dae8042b060d16fea",
+        "snapshot_file": "work/round3_patch_audit/cdn/S018_hex.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:56",
+        "old_snapshot_file": "work/official_orange/hexurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:56",
+        "new_data_sha256": "533b87712b020e0a71be3be92f7f749f3725223a3ef261fe46d8ceb4125a4e13",
+        "old_data_sha256": "533b87712b020e0a71be3be92f7f749f3725223a3ef261fe46d8ceb4125a4e13",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S019",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/equip.js",
+        "old_registry_sha256": "ab387864cd9895a6692e4bcc33de879cbf6b56798c9fe1695601ff3524feef20",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6af191ed-187d8\"",
+        "last_modified": "Mon, 09 Nov 2026 09:27:09 GMT",
+        "response_date": "Mon, 09 Nov 2026 09:34:43 GMT",
+        "bytes": 100312,
+        "new_sha256": "ab387864cd9895a6692e4bcc33de879cbf6b56798c9fe1695601ff3524feef20",
+        "snapshot_file": "work/round3_patch_audit/cdn/S019_equip.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-09 17:24:09",
+        "old_snapshot_file": "work/official_orange/equipurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-09 17:24:09",
+        "new_data_sha256": "a919eb2fdd4ac765f4792fca12def09211a64c25ae040b432eb5848452cae7ee",
+        "old_data_sha256": "a919eb2fdd4ac765f4792fca12def09211a64c25ae040b432eb5848452cae7ee",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S020",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/tinyhero.js",
+        "old_registry_sha256": "69c609f6f7cdbfe3dd119ba52b5fe9d6bf65643895b7e6611e19ffeda4df7e2f",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052f-eac27\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:47 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:05:08 GMT",
+        "bytes": 961575,
+        "new_sha256": "69c609f6f7cdbfe3dd119ba52b5fe9d6bf65643895b7e6611e19ffeda4df7e2f",
+        "snapshot_file": "work/round3_patch_audit/cdn/S020_tinyhero.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:46",
+        "old_snapshot_file": "work/official_orange/tinyherourl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:46",
+        "new_data_sha256": "5243c7f8e0ce35cd892a34ba55c8c5824bedaf1db986845c4773e27771ef2099",
+        "old_data_sha256": "5243c7f8e0ce35cd892a34ba55c8c5824bedaf1db986845c4773e27771ef2099",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S021",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/trait.js",
+        "old_registry_sha256": "b1384f321efcfcc5e488e0acc9256bc5927ec2dcdcb6aadb77a1bee3eed9e04f",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052e-241ee\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:46 GMT",
+        "response_date": "Tue, 03 Nov 2026 16:11:57 GMT",
+        "bytes": 147950,
+        "new_sha256": "b1384f321efcfcc5e488e0acc9256bc5927ec2dcdcb6aadb77a1bee3eed9e04f",
+        "snapshot_file": "work/round3_patch_audit/cdn/S021_trait.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:56",
+        "old_snapshot_file": "work/official_orange/traiturl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:56",
+        "new_data_sha256": "0df7d42d339ed5d930f679356c292f1bb0636c0599aa3df4de863d94fa0d7362",
+        "old_data_sha256": "0df7d42d339ed5d930f679356c292f1bb0636c0599aa3df4de863d94fa0d7362",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S022",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/config.js",
+        "old_registry_sha256": "4aa394aa0cc2b3c50e68546b33efe66718b78dccc322fb680e5324f8ecd3b346",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea0530-1df58a\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:48 GMT",
+        "response_date": "Mon, 09 Nov 2026 06:30:11 GMT",
+        "bytes": 1963402,
+        "new_sha256": "4aa394aa0cc2b3c50e68546b33efe66718b78dccc322fb680e5324f8ecd3b346",
+        "snapshot_file": "work/round3_patch_audit/cdn/S022_config.js",
+        "raw_hash_matches": true,
+        "source_version": "227",
+        "source_season": "400001",
+        "source_generated_at": "2026-11-03 22:20:47",
+        "old_snapshot_file": "work/official_orange/configurl.json",
+        "old_source_version": "227",
+        "old_source_generated_at": "2026-11-03 22:20:47",
+        "new_data_sha256": "d5482f2476450a4e2417eca0a90d143eb7ee9702c5a7996d90a4e7d13810336a",
+        "old_data_sha256": "d5482f2476450a4e2417eca0a90d143eb7ee9702c5a7996d90a4e7d13810336a",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S023",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/monster.js",
+        "old_registry_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052d-5c\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:45 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:05:08 GMT",
+        "bytes": 92,
+        "new_sha256": "5bf22c28ba6659f662802c43ef9cefa1ad55a322ee614cb877d02e342c42ecc2",
+        "snapshot_file": "work/round3_patch_audit/cdn/S023_monster.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/monsterurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "old_data_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "data_matches": true,
+        "canonical_document_matches": true
+      },
+      {
+        "registry_id": "S024",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/card.js",
+        "old_registry_sha256": "b7674db6d43de092f9c04903f4bd6ab18dc60e92b853331440139087af6e2f6c",
+        "scopes": [
+          "orange"
+        ],
+        "status_code": 200,
+        "etag": "\"6aea052e-e294\"",
+        "last_modified": "Tue, 03 Nov 2026 16:00:46 GMT",
+        "response_date": "Tue, 03 Nov 2026 16:15:00 GMT",
+        "bytes": 58004,
+        "new_sha256": "b7674db6d43de092f9c04903f4bd6ab18dc60e92b853331440139087af6e2f6c",
+        "snapshot_file": "work/round3_patch_audit/cdn/S024_card.js",
+        "raw_hash_matches": true,
+        "source_version": "18.18.1",
+        "source_season": "S400001",
+        "source_generated_at": "2026-11-03 22:20:57",
+        "old_snapshot_file": "work/official_orange/cardurl.json",
+        "old_source_version": "18.18.1",
+        "old_source_generated_at": "2026-11-03 22:20:57",
+        "new_data_sha256": "a06ae5075b3dba26eaf462b714aa989122f65ca2485d453e91105519fc19e99b",
+        "old_data_sha256": "a06ae5075b3dba26eaf462b714aa989122f65ca2485d453e91105519fc19e99b",
+        "data_matches": true,
+        "canonical_document_matches": true
+      }
+    ],
+    "additional_comparisons": [
+      {
+        "name": "nature_config",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/config.js",
+        "old_snapshot_file": "work/official_nature/configurl.json",
+        "snapshot_file": "work/round3_patch_audit/nature_config.json",
+        "new_sha256": "3a3b80f8a7dc51e8eb510433be65aecd74a8f5776cb65eb9263e0bdfd34a7d97",
+        "old_sha256": "3a3b80f8a7dc51e8eb510433be65aecd74a8f5776cb65eb9263e0bdfd34a7d97",
+        "new_canonical_sha256": "8dfa9bc0bce9e359c4cbcd90209a13f1ee7c25fd3e786141a4568b125b6fdd62",
+        "old_canonical_sha256": "8dfa9bc0bce9e359c4cbcd90209a13f1ee7c25fd3e786141a4568b125b6fdd62",
+        "canonical_document_matches": true,
+        "etag": "\"6aea053d-18ad94\"",
+        "last_modified": "Tue, 03 Nov 2026 16:01:01 GMT",
+        "response_date": "Thu, 12 Nov 2026 08:08:06 GMT",
+        "source_version": "233"
+      },
+      {
+        "name": "nature_lineups",
+        "url": "https://game.gtimg.cn/images/lol/act/jkzlkauto/json/lineupJson/m19/11/18/lineup_detail_total.json",
+        "old_snapshot_file": "work/official_nature/lineups.json",
+        "snapshot_file": "work/round3_patch_audit/nature_lineups.json",
+        "new_sha256": "d34b0f1fcc74a4761b792ec57f8980348562b9a11b4cf7f2f03324f272de7837",
+        "old_sha256": "15c51ed77eb9fd02a46f8efbb4acbb80683afb0ec089eb196d1a36ab1a9e898d",
+        "new_canonical_sha256": "dc279e85fbd9ae9c0f99aab3e6d3689b3a1723977f362648151e45a2ac23b324",
+        "old_canonical_sha256": "89c8bafc5c12665fcff18240a4f1b4aa66b8f85b5f03a00812d7fab26516ddd3",
+        "canonical_document_matches": false,
+        "etag": "\"6af30965-8f389\"",
+        "last_modified": "Tue, 10 Nov 2026 12:09:09 GMT",
+        "response_date": "Tue, 10 Nov 2026 12:40:08 GMT",
+        "source_version": null
+      }
+    ],
+    "lineup_difference": {
+      "old_count": 64,
+      "new_count": 64,
+      "changes": [
+        {
+          "id": "4912",
+          "name": null,
+          "added": false,
+          "removed": false,
+          "changed_fields": [
+            "rel_time",
+            "author",
+            "lineupauthor_data"
+          ],
+          "changes": {}
+        }
+      ],
+      "interpretation": "64条均保留；仅ID4912的author/lineupauthor_data/rel_time变更，阵容/装备/运营字段无变化。这是署名/发布时间差异，不是18.6a完整规则更新。",
+      "old_author": "JSL赛事官方阵容推荐",
+      "new_author": "铲铲赛事官",
+      "old_rel_time": "2026-11-08 23:23:20",
+      "new_rel_time": "2026-11-10 20:05:52"
+    },
+    "cache_boundary": "结果只表明本次公开CDN返回的文件与旧快照相同；不证明实时客户端仍执行旧规则，也不证明源站已同步热修。索引加cache-bust请求内容相同；保留HTTP Date/ETag/Last-Modified，不把它们当作客户端生效时间。"
+  },
+  "concrete_staleness_evidence": {
+    "time_card_id": "7230112",
+    "name": "王国后裔",
+    "observed_current_cdn_args": "round=2-5^count=2^detail=20006",
+    "observed_current_cdn_description": "解锁并获得2个【希维尔】。【战争女神】羁绊现在也会增幅【希维尔】。",
+    "announced_new_count": 1,
+    "conclusion": "本次CDN读取仍是count=2，与18.6a公告2→1冲突。"
+  },
+  "name_and_version_boundaries": [
+    {
+      "entity": "虚张声势",
+      "warning": "公告移除未知传送门奇遇，不等于删除同名时间卡片。",
+      "existing_same_name_time_card_id": "7210034",
+      "existing_same_name_time_card_args": "cardStar=5^gold=2^round=1-1^detail=20046"
+    },
+    {
+      "entity": "没有奇遇",
+      "warning": "旧galaxy.js已经列有ID965，但裸枚举不包含三种传送门出现概率/资格；不能拿条目存在作为新门规则已同步的证据。",
+      "preexisting_encounter_id": "965"
+    },
+    {
+      "entity": "内部版本",
+      "warning": "自然之力18.18.6/S19、大橘18.18.1/S400001和config.js里的233/227是静态内部版本，不能重命名成用户补丁18.6a。"
+    }
+  ],
+  "knowledge_bundle_local_consistency": [
+    {
+      "file": "nature_facts.json",
+      "bundle_sha256": "3211d551a0eb71c031580cc1ba6926a7df06610a53e69499f9a3370a40c1c449",
+      "app_sha256": "3211d551a0eb71c031580cc1ba6926a7df06610a53e69499f9a3370a40c1c449",
+      "bundle_and_app_bytes_equal": true,
+      "scope": {
+        "game": "金铲铲之战",
+        "server": "CN",
+        "mode": "自然之力",
+        "community_season": "S18",
+        "official_mode_id": "18",
+        "official_season_id": "S19",
+        "official_version": "18.18.6",
+        "user_patch": "18.6",
+        "official_config_start": "2026-11-03",
+        "patch_live_date": "2026-11-04",
+        "collected_date": "2026-11-10"
+      }
+    },
+    {
+      "file": "orange_base_facts.json",
+      "bundle_sha256": "610dd1dfd468c023b86071ffef2074ffbc0a8322b4442921062868c0a1938272",
+      "app_sha256": "610dd1dfd468c023b86071ffef2074ffbc0a8322b4442921062868c0a1938272",
+      "bundle_and_app_bytes_equal": true,
+      "scope": {
+        "game": "金铲铲之战",
+        "server": "CN",
+        "mode": "大橘大利",
+        "base_season_name": "英雄联盟传奇·伊泽瑞尔的寻宝之旅",
+        "official_mode_id": "16",
+        "official_season_id": "S400001",
+        "official_version": "18.18.1",
+        "user_patch": "18.6",
+        "official_config_start": "2026-10-13 19:49:20",
+        "patch_live_date": "2026-11-04",
+        "collected_date": "2026-11-10"
+      }
+    },
+    {
+      "file": "orange_official_facts.json",
+      "bundle_sha256": "96ece31c509946bed0828aa0f6789ab1cd185f453fd9613879950b66f3aafe41",
+      "app_sha256": "96ece31c509946bed0828aa0f6789ab1cd185f453fd9613879950b66f3aafe41",
+      "bundle_and_app_bytes_equal": true,
+      "scope": null
+    }
+  ],
+  "full_18_6a_sync_supported": false,
+  "missing_for_full_sync": [
+    "尚无已验证的18.6a完整官方结构化规则包或当前客户端全量规则快照",
+    "三类传送门奇遇资格、权重与禁用表不在现有裸枚举中",
+    "公告未给天衣药水修正后的完整详细描述",
+    "传奇平衡改动是否逐项继承大橘尚未用对应客户端/配置验证",
+    "热修实际完成时间未做实时客户端确认"
+  ],
+  "recommended_policy_inference": [
+    "保持旧知识包18.6身份与原始官方内部版本，不将其静默标为18.6a。",
+    "对18.6a当前对局采用版本未支持/停止当前补丁推荐的保护；历史18.6画面可单独标历史版本。",
+    "可以保留公告级差异提示，但提示不构成可执行的完整18.6a规则包。",
+    "自然之力数值未在该公告列出调整，也仍有纳尔行为修复，不能声称字节相同意味着补丁完全等价。"
+  ]
+}

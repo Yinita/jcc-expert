@@ -1,0 +1,102 @@
+{
+  "sources": [
+    {
+      "id": "bili_BV1uCti6oEk7",
+      "url": "https://www.bilibili.com/video/BV1uCti6oEk7/",
+      "title": "【金铲铲s18】上分首选 永森刘斯 上限极高 后面直接转95",
+      "author": "听雨猫-金铲铲教学",
+      "sampling_plan": "Fixed 300-second spacing at 120, 420, 720, 1020 seconds; one original video group, not four matches.",
+      "role": "development",
+      "downloaded_at": "2026-11-12",
+      "grouping_rule": "All images/frames from one original article/video share one group. Public test-session articles may share an event and do not establish match independence.",
+      "publication_date": "2026-09-04T06:40:38+00:00",
+      "duration_seconds": 2185,
+      "cid": 41572239790,
+      "original_dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "rotate": 0
+      },
+      "metadata_api": "https://api.bilibili.com/x/web-interface/view?bvid=BV1uCti6oEk7",
+      "video_file": "candidates/BV1uCti6oEk7.mp4",
+      "video_sha256": "1da594def12b9577f3857051cbae812e3913408b9d8a5a3f92851b6912ba71d0",
+      "patch": null,
+      "server_status": "Public post-release video; formal/live/test server and exact patch not visually established."
+    },
+    {
+      "id": "bili_BV1iX8462E3c",
+      "url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "title": "金铲铲之战自然之力01",
+      "author": "Kirito昊",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "role": "sealed_test",
+      "downloaded_at": "2026-11-12",
+      "grouping_rule": "All images/frames from one original article/video share one group. Public test-session articles may share an event and do not establish match independence.",
+      "publication_date": "2026-08-23T05:42:07+00:00",
+      "duration_seconds": 116,
+      "cid": 41181643718,
+      "original_dimensions": {
+        "width": 1898,
+        "height": 1080,
+        "rotate": 0
+      },
+      "metadata_api": "https://api.bilibili.com/x/web-interface/view?bvid=BV1iX8462E3c",
+      "video_file": "candidates/BV1iX8462E3c.mp4",
+      "video_sha256": "617c9a45ba876968b360c1ba759afe3d6e9d16c6493c6c99204808b7fe84ef24",
+      "patch": null,
+      "server_status": "Public post-release video; formal/live/test server and exact patch not visually established."
+    },
+    {
+      "id": "bili_BV1Z6tJ6REny",
+      "url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "title": "花到上头顺流而下完整版来了，遇到让你轻松三星五费",
+      "author": "熊六开花",
+      "sampling_plan": "Fixed 20-second spacing at 50 and 70 seconds; edited square crop of original public gameplay video.",
+      "role": "sealed_test",
+      "downloaded_at": "2026-11-12",
+      "grouping_rule": "All images/frames from one original article/video share one group. Public test-session articles may share an event and do not establish match independence.",
+      "publication_date": "2026-09-02T09:27:00+00:00",
+      "duration_seconds": 88,
+      "cid": 41519549128,
+      "original_dimensions": {
+        "width": 1080,
+        "height": 1080,
+        "rotate": 0
+      },
+      "metadata_api": "https://api.bilibili.com/x/web-interface/view?bvid=BV1Z6tJ6REny",
+      "video_file": "candidates/BV1Z6tJ6REny.mp4",
+      "video_sha256": "5e29e8892e60843ea742e03e050fa110a7194891d8d5da4a03b3fbaaf8099bf0",
+      "patch": null,
+      "server_status": "Public post-release video; formal/live/test server and exact patch not visually established."
+    },
+    {
+      "id": "taptap_840465181304686223",
+      "url": "https://www.taptap.cn/moment/840465181304686223",
+      "alternate_url": "https://m.sohu.com/a/1066710710_116126",
+      "title": "《金铲铲之战》「自然之力」赛季：每一局都为你而定",
+      "author": "游戏茶馆",
+      "publication_date": "2026-08-24",
+      "role": "development",
+      "image_urls": {
+        "chaguan_3.img": "https://img2-tc.tapimg.com/video/cover/a8c7ad4f1830d73fec7cd9049f6f6e35.png"
+      },
+      "downloaded_at": "2026-11-12",
+      "grouping_rule": "All images/frames from one original article/video share one group. Public test-session articles may share an event and do not establish match independence.",
+      "publication_date_note": "2026-08-24 09:43 is the author-account Sohu mirror publication time; TapTap displays modified 08/23, not a verified original publication timestamp."
+    },
+    {
+      "id": "wanplus_507000",
+      "url": "https://www.wanplus.cn/article/507000.html",
+      "title": "从峡谷野怪到自然仙灵，《金铲铲之战》新赛季把“自然之力”搬上棋盘",
+      "author": "玩加电竞",
+      "publication_date": "2026-08-19",
+      "role": "development",
+      "image_urls": {
+        "wanplus_3.img": "https://static.wanplus.cn/2026/8/19/178714338500094.png",
+        "wanplus_4.img": "https://static.wanplus.cn/2026/8/19/178714340600058.png"
+      },
+      "downloaded_at": "2026-11-12",
+      "grouping_rule": "All images/frames from one original article/video share one group. Public test-session articles may share an event and do not establish match independence."
+    }
+  ]
+}

@@ -1,0 +1,3065 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-11-12T08:24:53.322302+00:00",
+  "metadata": {
+    "recognizer_module": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/vision.py",
+    "recognizer_sha256": "3322fb5c0b804a81652f92b577f423f55436230b7f23fa90857b16aa5288f8cb",
+    "annotations_sha256": "8d599e37c8878803c11af41845488176a1368f7bb568176f42dd7a12f75c0c45",
+    "sample_count": 7,
+    "created_at": "2026-11-12T08:24:53.310623+00:00",
+    "annotation_metadata": {
+      "purpose": "New7 sealed test, first labels accessed after FREEZE; no adaptive tuning."
+    },
+    "paired_shared_ocr_runtime": true,
+    "default_only": true,
+    "performance_comparison_eligible": false,
+    "freeze_sha256": "80ec5b525d9c4f5e216811c26b1bb883b5c706532aef91f3050c54530bb69182",
+    "runtime": {
+      "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "packages": {
+        "Pillow": "11.3.0",
+        "numpy": "2.2.6",
+        "opencv-python": "4.13.0.92",
+        "scikit-learn": "1.7.2",
+        "pydantic": "2.10.6"
+      },
+      "tesseract": "tesseract 4.1.1"
+    }
+  },
+  "definitions": {
+    "correct": "有人工标签且识别值与标签完全一致",
+    "wrong": "有人工标签且识别输出非空，但与标签不一致或格式无效",
+    "abstain": "有人工标签但识别值为null/缺失；运行失败也计弃答，另计错误数",
+    "unlabelled": "标签缺失或null，不加入正确、错误、弃答分母",
+    "coverage": "(correct+wrong)/(correct+wrong+abstain)",
+    "precision": "correct/(correct+wrong)，零回答时为null，不是100%",
+    "end_to_end_correct_rate": "correct/(correct+wrong+abstain)",
+    "group_balanced_macro": "先在同一原始画面组内计算指标，再平均非null组指标；不是独立样本置信区间",
+    "latency": "单次recognize总耗时，包含OCR/图标匹配；不含推荐检查。每track独立缓存，首次调用含冷启动。",
+    "shop_empty": "标签null为未标注；{empty:true}为已知空格，输出null仍是弃答而非正确。"
+  },
+  "limitations": [
+    "默认识别与人工区域辅助是不同任务；后者不能宣传为全自动识别准确率。",
+    "profile track仅覆盖提供区域的样本。配对比较应使用default_on_profile_subset，而非直接比较不同样本总体。",
+    "holdout由标注声明，不是自动独立验证；人工区域若针对每图调节，不能当作冻结布局泛化结果。",
+    "group_id只能依赖采集者诚实标注原始画面；工具另外检查解码后完全重复的图片，无法自动证明所有裁片同源关系。",
+    "按同一原始画面分组，不把原图与其裁片当独立评测证据。没有组声明的样本仅按相同像素去重，holdout独立性未确认。",
+    "没有完整实体标注时，不计算英雄候选全量召回率或把未标注候选判错。",
+    "needs_confirmation/空个人概率是交互安全契约检查。截图识别指标与比赛第一率提升无等价关系。",
+    "没有训练、保存对局或将识别结果自动置为confirmed；截图和标签不会进入用户训练数据库。"
+  ],
+  "samples": [
+    {
+      "id": "r3_nature_sealed_01",
+      "mode": "nature",
+      "group_id": "bili_BV1iX8462E3c",
+      "source_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "width": 1264,
+      "height": 720,
+      "field_boxes": {
+        "stage": [
+          0.367089,
+          0.009722,
+          0.02057,
+          0.023611
+        ],
+        "gold": [
+          0.502373,
+          0.784722,
+          0.015823,
+          0.022222
+        ],
+        "hp": [
+          0.916139,
+          0.254167,
+          0.026108,
+          0.034722
+        ],
+        "level": [
+          0.183544,
+          0.784722,
+          0.007911,
+          0.025
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.197785,
+            0.875,
+            0.010285,
+            0.022222
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.198576,
+            0.955556,
+            0.010285,
+            0.022222
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.628165,
+            0.009722,
+            0.018196,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "21",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [],
+      "notes": [
+        "Slot 5 is natural charm 高阶变形术. Own HP row is the enlarged highlighted row; no HP inferred from a health bar."
+      ],
+      "shop_names": [
+        "沃里克",
+        "慎",
+        "赫卡里姆",
+        "莫甘娜",
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "pixel_sha256": "56f4892724266370a110e49c3a3ea2ecdfbe3290e2812bce0974ac3987e2c500",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "source_image_url": null,
+      "video_id": "BV1iX8462E3c",
+      "timestamp_seconds": 60,
+      "frame_sha256": "56f4892724266370a110e49c3a3ea2ecdfbe3290e2812bce0974ac3987e2c500",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "image_size": {
+        "width": 1264,
+        "height": 720
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "r3_nature_sealed_02",
+      "mode": "nature",
+      "group_id": "bili_BV1iX8462E3c",
+      "source_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "width": 1264,
+      "height": 720,
+      "field_boxes": {
+        "stage": [
+          0.367089,
+          0.009722,
+          0.02057,
+          0.023611
+        ],
+        "hp": [
+          0.916139,
+          0.254167,
+          0.026108,
+          0.034722
+        ],
+        "level": [
+          0.431962,
+          0.131944,
+          0.009494,
+          0.023611
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.63212,
+            0.009722,
+            0.010285,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "1",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.546677,
+            0.743056,
+            0.012658,
+            0.018056
+          ],
+          "kind": "item_choice_countdown",
+          "text": "26",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [
+        "gold",
+        "shop"
+      ],
+      "notes": [
+        "Equipment-selection overlay covers shop, gold and ordinary level HUD. Level visible only in own named little-legend badge. Four item options are not shop hero slots."
+      ],
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "pixel_sha256": "4bc28ad7f6e718210ca7bc5fcb38fb5162caf04629c7b0551f4c4f674593ff0f",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "source_image_url": null,
+      "video_id": "BV1iX8462E3c",
+      "timestamp_seconds": 80,
+      "frame_sha256": "4bc28ad7f6e718210ca7bc5fcb38fb5162caf04629c7b0551f4c4f674593ff0f",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "image_size": {
+        "width": 1264,
+        "height": 720
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "r3_nature_sealed_03",
+      "mode": "nature",
+      "group_id": "bili_BV1iX8462E3c",
+      "source_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "width": 1264,
+      "height": 720,
+      "field_boxes": {
+        "stage": [
+          0.367089,
+          0.009722,
+          0.02057,
+          0.023611
+        ],
+        "gold": [
+          0.501582,
+          0.784722,
+          0.017405,
+          0.022222
+        ],
+        "hp": [
+          0.916139,
+          0.254167,
+          0.026108,
+          0.034722
+        ],
+        "level": [
+          0.183544,
+          0.784722,
+          0.007911,
+          0.025
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.197785,
+            0.875,
+            0.010285,
+            0.022222
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.198576,
+            0.955556,
+            0.010285,
+            0.022222
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.628165,
+            0.009722,
+            0.018196,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "17",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.564873,
+            0.788889,
+            0.011076,
+            0.023611
+          ],
+          "kind": "streak_counter",
+          "text": "4",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [],
+      "notes": [
+        "Battle stage; own HUD remains visible."
+      ],
+      "shop_names": [
+        "沃里克",
+        "慎",
+        "赫卡里姆",
+        "莫甘娜",
+        "慎"
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "pixel_sha256": "c9f79fdff12e5b381eb632038eff84d205f595c26b2c2f6c0c956852bcd7b792",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "source_image_url": null,
+      "video_id": "BV1iX8462E3c",
+      "timestamp_seconds": 100,
+      "frame_sha256": "c9f79fdff12e5b381eb632038eff84d205f595c26b2c2f6c0c956852bcd7b792",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "image_size": {
+        "width": 1264,
+        "height": 720
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "r3_nature_sealed_04",
+      "mode": "nature",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "source_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "width": 720,
+      "height": 720,
+      "field_boxes": {
+        "gold": [
+          0.883333,
+          0.872222,
+          0.061111,
+          0.044444
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.209722,
+            0.004167,
+            0.036111,
+            0.027778
+          ],
+          "kind": "countdown",
+          "text": "20",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.902778,
+            0.629167,
+            0.029167,
+            0.034722
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.231944,
+            0.411111,
+            0.023611,
+            0.034722
+          ],
+          "kind": "shop_price",
+          "text": "3",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.944444,
+            0.411111,
+            0.023611,
+            0.034722
+          ],
+          "kind": "charm_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.881944,
+            0.788889,
+            0.040278,
+            0.036111
+          ],
+          "kind": "streak_counter",
+          "text": "10",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [
+        "stage",
+        "hp",
+        "level"
+      ],
+      "notes": [
+        "Original public video is edited to a square right-side crop. No full stage, HP, or level exists in frame. Partial shop cannot establish all five slot identities with certainty, so labels remain null."
+      ],
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "pixel_sha256": "58de9bec7c89853d83fe7162af1a9b0a2ca363bd3954cf45bb7ce6208473679f",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "source_image_url": null,
+      "video_id": "BV1Z6tJ6REny",
+      "timestamp_seconds": 50,
+      "frame_sha256": "58de9bec7c89853d83fe7162af1a9b0a2ca363bd3954cf45bb7ce6208473679f",
+      "sampling_plan": "Fixed 20-second spacing at 50 and 70 seconds; edited square crop of original public gameplay video.",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "image_size": {
+        "width": 720,
+        "height": 720
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "r3_nature_sealed_05",
+      "mode": "nature",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "source_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "width": 720,
+      "height": 720,
+      "field_boxes": {
+        "gold": [
+          0.868056,
+          0.881944,
+          0.059722,
+          0.043056
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.191667,
+            0.019444,
+            0.036111,
+            0.029167
+          ],
+          "kind": "countdown",
+          "text": "20",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.865278,
+            0.638889,
+            0.040278,
+            0.038889
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.209722,
+            0.427778,
+            0.023611,
+            0.034722
+          ],
+          "kind": "shop_price",
+          "text": "3",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.926389,
+            0.427778,
+            0.023611,
+            0.034722
+          ],
+          "kind": "charm_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.879167,
+            0.793056,
+            0.022222,
+            0.034722
+          ],
+          "kind": "streak_counter",
+          "text": "1",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [
+        "stage",
+        "hp",
+        "level"
+      ],
+      "notes": [
+        "Same original video and edited square crop; not an independent match. Missing four leftward shop slots/partial cards must not be invented."
+      ],
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "pixel_sha256": "d426d300e2f102389061a7cf1bbeddc9bf10317dca20fda34498e41e1bd628b5",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "source_image_url": null,
+      "video_id": "BV1Z6tJ6REny",
+      "timestamp_seconds": 70,
+      "frame_sha256": "d426d300e2f102389061a7cf1bbeddc9bf10317dca20fda34498e41e1bd628b5",
+      "sampling_plan": "Fixed 20-second spacing at 50 and 70 seconds; edited square crop of original public gameplay video.",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "image_size": {
+        "width": 720,
+        "height": 720
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_r3_01",
+      "image_url": "https://img2-tc.tapimg.com/moment/etag/FsvvyNU2aWg_Yj41AjB7j-os0fgS_20261108141903.jpg/_tap_ugc.jpg",
+      "image_size": {
+        "width": 1080,
+        "height": 486
+      },
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "exact_decoded_duplicate_old": false,
+      "mode": "orange",
+      "patch": null,
+      "group_id": "source_taptap_868497523528958560",
+      "source_id": "taptap_868497523528958560",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "source_image_url": "https://img2-tc.tapimg.com/moment/etag/FsvvyNU2aWg_Yj41AjB7j-os0fgS_20261108141903.jpg/_tap_ugc.jpg",
+      "date": "2026-11-08",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "training_allowed": false,
+      "server_status": "unverified",
+      "mode_confirmed": true,
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230072",
+          "entity_id": "7230072",
+          "card_id": "7230072",
+          "name": "寻炉乡",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.459,
+            0.202,
+            0.161,
+            0.57
+          ],
+          "title_bbox": [
+            0.482,
+            0.552,
+            0.112,
+            0.037
+          ],
+          "role": "displayed_deck_card",
+          "box_precision": "manual_approximate"
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240091",
+          "entity_id": "7240091",
+          "card_id": "7240091",
+          "name": "灼烧炼狱",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.632,
+            0.202,
+            0.161,
+            0.57
+          ],
+          "title_bbox": [
+            0.655,
+            0.552,
+            0.112,
+            0.037
+          ],
+          "role": "displayed_deck_card",
+          "box_precision": "manual_approximate"
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220018",
+          "entity_id": "7220018",
+          "card_id": "7220018",
+          "name": "回响打捞术",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.803,
+            0.202,
+            0.161,
+            0.57
+          ],
+          "title_bbox": [
+            0.825,
+            0.552,
+            0.112,
+            0.037
+          ],
+          "role": "displayed_deck_card",
+          "box_precision": "manual_approximate"
+        }
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-12",
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "notes": {
+        "current_state": "Lobby and historic record values are not current match state. Null means unknown/not applicable, not an empty shop.",
+        "entity_semantics": "Visible deck cards remain candidates and do not establish current-match possession. Historic row heroes, levels and gains are not current board or current gold.",
+        "server_status": "Published after official launch; exact screenshot client build, patch and capture date are not independently verified.",
+        "split_integrity": "Whole new article group reserved; no OCR or recognizer has been run on these images before freezing.",
+        "duplicates": "No exact decoded pixel hash equals any old all_annotations sample; semantic independence of all shared game assets is not guaranteed."
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_r3_02",
+      "image_url": "https://img2-tc.tapimg.com/moment/etag/Fn0arhEkamRH_kq4vrLI0meLeHH0_20261108141905.jpg/_tap_ugc.jpg",
+      "image_size": {
+        "width": 1080,
+        "height": 486
+      },
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "exact_decoded_duplicate_old": false,
+      "mode": "orange",
+      "patch": null,
+      "group_id": "source_taptap_868497523528958560",
+      "source_id": "taptap_868497523528958560",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "source_image_url": "https://img2-tc.tapimg.com/moment/etag/Fn0arhEkamRH_kq4vrLI0meLeHH0_20261108141905.jpg/_tap_ugc.jpg",
+      "date": "2026-11-08",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "training_allowed": false,
+      "server_status": "unverified",
+      "mode_confirmed": true,
+      "match_id": null,
+      "screen_type": "orange_match_history",
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "field_boxes": {},
+      "card_boxes": [],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-12",
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "notes": {
+        "current_state": "Lobby and historic record values are not current match state. Null means unknown/not applicable, not an empty shop.",
+        "entity_semantics": "Visible deck cards remain candidates and do not establish current-match possession. Historic row heroes, levels and gains are not current board or current gold.",
+        "server_status": "Published after official launch; exact screenshot client build, patch and capture date are not independently verified.",
+        "split_integrity": "Whole new article group reserved; no OCR or recognizer has been run on these images before freezing.",
+        "duplicates": "No exact decoded pixel hash equals any old all_annotations sample; semantic independence of all shared game assets is not guaranteed."
+      },
+      "grouping_explicit": true
+    }
+  ],
+  "grouping": {
+    "unique_original_groups": 3,
+    "all_groups_explicit": true,
+    "holdout_groups_explicit": true,
+    "declared_cross_split_or_exact_duplicate_leakage": false,
+    "split_counts": {
+      "holdout": 7
+    }
+  },
+  "tracks": {
+    "default": {
+      "labelled": 22,
+      "correct": 12,
+      "wrong": 0,
+      "abstain": 10,
+      "unlabelled": 41,
+      "answered": 12,
+      "coverage": 0.5454545454545454,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.5454545454545454,
+      "samples": 7,
+      "recognition_errors": 0,
+      "unique_original_groups": 3,
+      "per_field": {
+        "stage": {
+          "labelled": 3,
+          "correct": 3,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 4,
+          "answered": 3,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 4,
+          "correct": 1,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 3,
+          "answered": 1,
+          "coverage": 0.25,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.25
+        },
+        "hp": {
+          "labelled": 3,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 4,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "level": {
+          "labelled": 3,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 4,
+          "answered": 2,
+          "coverage": 0.6666666666666666,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.6666666666666666
+        },
+        "shop[0]": {
+          "labelled": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 2,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "shop[1]": {
+          "labelled": 2,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[2]": {
+          "labelled": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 2,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "shop[3]": {
+          "labelled": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 2,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "shop[4]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 6,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        }
+      },
+      "latency_ms": {
+        "n": 7,
+        "mean": 6152.483115139018,
+        "p50": 6733.757848007372,
+        "p95": 12825.547712098338
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 7
+      },
+      "contract_checks_run": 7,
+      "unconfirmed_states": 7,
+      "null_personal_probability_checks": 7,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.3,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.3
+      }
+    },
+    "profile": {
+      "labelled": 0,
+      "correct": 0,
+      "wrong": 0,
+      "abstain": 0,
+      "unlabelled": 0,
+      "answered": 0,
+      "coverage": null,
+      "precision": null,
+      "end_to_end_correct_rate": null,
+      "samples": 0,
+      "recognition_errors": 0,
+      "unique_original_groups": 0,
+      "per_field": {
+        "stage": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "gold": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "hp": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "level": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[0]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[1]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[2]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[3]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "p50": null,
+        "p95": null
+      },
+      "recommendation_status_counts": {},
+      "contract_checks_run": 0,
+      "unconfirmed_states": 0,
+      "null_personal_probability_checks": 0,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      }
+    }
+  },
+  "default_on_profile_subset": {
+    "labelled": 0,
+    "correct": 0,
+    "wrong": 0,
+    "abstain": 0,
+    "unlabelled": 0,
+    "answered": 0,
+    "coverage": null,
+    "precision": null,
+    "end_to_end_correct_rate": null,
+    "samples": 0,
+    "recognition_errors": 0,
+    "unique_original_groups": 0,
+    "per_field": {
+      "stage": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "gold": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "hp": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "level": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[0]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[1]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[2]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[3]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[4]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      }
+    },
+    "latency_ms": {
+      "n": 0,
+      "mean": null,
+      "p50": null,
+      "p95": null
+    },
+    "recommendation_status_counts": {},
+    "contract_checks_run": 0,
+    "unconfirmed_states": 0,
+    "null_personal_probability_checks": 0,
+    "safety_contract_failures": 0,
+    "group_balanced_macro": {
+      "coverage": null,
+      "precision": null,
+      "end_to_end_correct_rate": null
+    }
+  },
+  "by_split": {
+    "development": {
+      "default": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    },
+    "holdout": {
+      "default": {
+        "labelled": 22,
+        "correct": 12,
+        "wrong": 0,
+        "abstain": 10,
+        "unlabelled": 41,
+        "answered": 12,
+        "coverage": 0.5454545454545454,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.5454545454545454,
+        "samples": 7,
+        "recognition_errors": 0,
+        "unique_original_groups": 3,
+        "per_field": {
+          "stage": {
+            "labelled": 3,
+            "correct": 3,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 4,
+            "answered": 3,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 4,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 3,
+            "unlabelled": 3,
+            "answered": 1,
+            "coverage": 0.25,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 0.25
+          },
+          "hp": {
+            "labelled": 3,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 3,
+            "unlabelled": 4,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "level": {
+            "labelled": 3,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 4,
+            "answered": 2,
+            "coverage": 0.6666666666666666,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 0.6666666666666666
+          },
+          "shop[0]": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "shop[1]": {
+            "labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[2]": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "shop[3]": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "shop[4]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 6,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          }
+        },
+        "latency_ms": {
+          "n": 7,
+          "mean": 6152.483115139018,
+          "p50": 6733.757848007372,
+          "p95": 12825.547712098338
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 7
+        },
+        "contract_checks_run": 7,
+        "unconfirmed_states": 7,
+        "null_personal_probability_checks": 7,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.3,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.3
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    }
+  },
+  "by_mode": {
+    "nature": {
+      "default": {
+        "labelled": 22,
+        "correct": 12,
+        "wrong": 0,
+        "abstain": 10,
+        "unlabelled": 23,
+        "answered": 12,
+        "coverage": 0.5454545454545454,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.5454545454545454,
+        "samples": 5,
+        "recognition_errors": 0,
+        "unique_original_groups": 2,
+        "per_field": {
+          "stage": {
+            "labelled": 3,
+            "correct": 3,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 3,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 4,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 3,
+            "unlabelled": 1,
+            "answered": 1,
+            "coverage": 0.25,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 0.25
+          },
+          "hp": {
+            "labelled": 3,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 3,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "level": {
+            "labelled": 3,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 2,
+            "answered": 2,
+            "coverage": 0.6666666666666666,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 0.6666666666666666
+          },
+          "shop[0]": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "shop[1]": {
+            "labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[2]": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "shop[3]": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "shop[4]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 4,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          }
+        },
+        "latency_ms": {
+          "n": 5,
+          "mean": 5798.74502979801,
+          "p50": 6733.757848007372,
+          "p95": 10008.789400791284
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 5
+        },
+        "contract_checks_run": 5,
+        "unconfirmed_states": 5,
+        "null_personal_probability_checks": 5,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.3,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.3
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    },
+    "orange": {
+      "default": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 18,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 2,
+        "recognition_errors": 0,
+        "unique_original_groups": 1,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 2,
+          "mean": 7036.828328491538,
+          "p50": 7036.828328491538,
+          "p95": 13315.26954354922
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 2
+        },
+        "contract_checks_run": 2,
+        "unconfirmed_states": 2,
+        "null_personal_probability_checks": 2,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    }
+  },
+  "runs": [
+    {
+      "sample_id": "r3_nature_sealed_01",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 1866.3716110168025,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": 7,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12508",
+          "predicted": "12508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13500",
+          "predicted": "13500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "14501",
+          "predicted": "14501",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 67,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_01-74cf9668-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_01",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_02",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 6733.757848007372,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 53,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_02-86d60d14-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_02",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_03",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "profile_origin": "unspecified",
+      "labelled_fields": 9,
+      "latency_ms": 515.0069459923543,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 39,
+          "predicted": 39,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": 8,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12508",
+          "predicted": "12508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13500",
+          "predicted": "13500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "14501",
+          "predicted": "14501",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        }
+      ],
+      "evidence_count": 83,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_03-47ccd77c-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_03",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "profile_origin": "unspecified",
+      "labelled_fields": 9,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_04",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 10055.119419994298,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 23,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_04-caccc533-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_04",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_05",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 9823.469323979225,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": 20,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_05-863af7ec-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_05",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_r3_01",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 60.782533983001485,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 45,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_r3_01-2b6d76cc-default.json"
+    },
+    {
+      "sample_id": "orange_r3_01",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_r3_02",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 14012.874123000074,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 41,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_r3_02-2cd8c7dd-default.json"
+    },
+    {
+      "sample_id": "orange_r3_02",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ]
+}

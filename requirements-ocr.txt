@@ -1,0 +1,3 @@
+# Install in an isolated Python 3.10 environment; inference uses bundled models.
+rapidocr==3.10.0
+onnxruntime==1.23.2

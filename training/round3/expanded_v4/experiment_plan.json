@@ -1,0 +1,41 @@
+{
+  "created_before_new_OCR_and_fit": "2026-11-12T08:07:14.073806+00:00",
+  "scope": "Old38 consumed development plus seven explicitly authorized new development screenshots; no round3 sealed input",
+  "source_plan": {
+    "chuapp_291576": "validation",
+    "sohu_1068964903": "train",
+    "source_chuapp_291737": "train",
+    "source_taptap_867454613899445849": "calibration",
+    "source_taptap_867151065470994551": "calibration",
+    "youxituoluo_534823": "calibration",
+    "source_taptap_867251881297052929": "train",
+    "ali213_1032951": "train",
+    "17173_08242026_093003976": "validation",
+    "source_3dm_3746579": "validation",
+    "source_taptap_867484028389820540": "validation",
+    "bili_BV1uCti6oEk7": "calibration",
+    "taptap_840465181304686223": "train",
+    "wanplus_507000": "train"
+  },
+  "new_source_plan": {
+    "bili_BV1uCti6oEk7": "calibration",
+    "taptap_840465181304686223": "train",
+    "wanplus_507000": "train"
+  },
+  "old_validation_groups_unchanged": true,
+  "input_hashes": {
+    "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/annotations_consumed38.json": "207a91e15e933b59f5188075b1f0d6907c991a3f11100220fc151798ba17a07e",
+    "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_screens/nature/annotations.json": "9f35f9a2c4b9ca31687d3b6aa2302d96d77f57c18648b002f26487baec771eff"
+  },
+  "target_precision": 0.98,
+  "minimum_validation_answers_per_mode": 20,
+  "validation_reuse_experiments": [
+    "baseline_v1",
+    "enhanced_v2",
+    "expanded_v3",
+    "expanded_v4"
+  ],
+  "extra_experiment_reason": "Fix discarded exact OCR values when manual digit ROIs are narrower than rows containing icons or level suffix; selected only from development alignment audit",
+  "validation_is_independent_final_evidence": false,
+  "candidate_activation_allowed": false
+}

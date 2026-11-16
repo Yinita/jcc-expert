@@ -1,0 +1,2185 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-11-11T04:07:19.599259+00:00",
+  "metadata": {
+    "recognizer_module": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/vision_v010_baseline.py",
+    "recognizer_sha256": "e56d704a41c4e092b0cae793d55be196deaa60695d75fcdefd2ebb6623caff02",
+    "annotations_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/orange/annotations.json",
+    "annotations_sha256": "5d856865d86ae806e07766723f511162bfb9a4cfa6c8c02c604511393d5da77e",
+    "data_dir": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/data",
+    "assets_manifest_sha256": "e3df98b55989c2de863a244da4eea5a18722960e1a0844f63378811d1534bc6c",
+    "split_filter": "all",
+    "contract_checks_enabled": true,
+    "annotation_dataset_note": null,
+    "annotation_metadata": {
+      "schema_version": "1.0",
+      "purpose": "真实公开金铲铲大橘大利截图的人工标注；用于识别评测，不是胜率或训练对局样本",
+      "collected_date": "2026-11-11",
+      "annotation_method": "independent_manual_visual_inspection_with_view_image; IDs mapped by exact readable card names to official knowledge data, without inspecting recognizer predictions",
+      "limitations": [
+        "5张样本包含三卡方案、超级时间弹层、卡册、局内卡片弹层和出战卡组，不冒充5张普通备战商店截图。",
+        "截图来自3篇文章/帖子；同一篇触乐文章的所有截图保守放在同一development来源组，两个TapTap帖子分别作为holdout来源组。图片数不代表独立对局数，无法确认match_id。",
+        "所有样本server_status均未验证；来源发布日期与正式上线相近，不能仅凭发布日期断言截图来自正式服，亦不能确认具体补丁。",
+        "labels中的null均为未标注或信息不可见，不能据此计识别正确；商店没有显示的槽位保留null，不当作真正空槽。",
+        "卡片内的1-3、2-7等为效果生效回合，不是当前stage；局外金橘余额和奖励价值不是当前对局gold。",
+        "labels.entities只覆盖人工能清楚读到的部分卡名，entities_complete为false，不能据此计算全量候选召回率。卡片插图也不能自动当作已上场英雄。",
+        "有layout_profile的样本均为每图手工区域辅助；不能当作无人工定位的自动识别成绩或冻结布局泛化评测。",
+        "未读取任何识别器预测来修改标签；本标注不包含比赛结果，也不评估阵容获胜概率。"
+      ]
+    },
+    "sample_count": 5,
+    "runtime": {
+      "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "packages": {
+        "Pillow": "11.3.0",
+        "numpy": "2.2.6",
+        "opencv-python": "4.13.0.92",
+        "scikit-learn": "1.7.2",
+        "pydantic": "2.10.6"
+      },
+      "tesseract": "tesseract 4.1.1"
+    },
+    "data_sha256": {
+      "nature_facts.json": "3211d551a0eb71c031580cc1ba6926a7df06610a53e69499f9a3370a40c1c449",
+      "orange_base_facts.json": "610dd1dfd468c023b86071ffef2074ffbc0a8322b4442921062868c0a1938272",
+      "orange_official_facts.json": "96ece31c509946bed0828aa0f6789ab1cd185f453fd9613879950b66f3aafe41",
+      "orange_research.json": "08715ad7ce8c6087b2589cbfdc6cefa6fba4325140271e27b07c84f3c9b875d3",
+      "statistics_external.json": "1dd8d340eba8378a458e12b13519f0717fc70796050f1d1f0a51e34fbb7c3d2f"
+    },
+    "contract_module_sha256": {
+      "engine.py": "e8a9f3c406278d5804c492148fb98a7f544550be6625f973a2d362430f3bb6c8",
+      "probability.py": "ee57f96a3cfa92bc22652de1649c86da790ac987605060ebe82e523771f5109c"
+    },
+    "command": [
+      "/usr/bin/python3",
+      "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/scripts/evaluate_screenshots.py",
+      "--annotations",
+      "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/orange/annotations.json",
+      "--output",
+      "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_eval/orange_baseline",
+      "--recognizer-module",
+      "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/vision_v010_baseline.py",
+      "--require-explicit-groups"
+    ]
+  },
+  "definitions": {
+    "correct": "有人工标签且识别值与标签完全一致",
+    "wrong": "有人工标签且识别输出非空，但与标签不一致或格式无效",
+    "abstain": "有人工标签但识别值为null/缺失；运行失败也计弃答，另计错误数",
+    "unlabelled": "标签缺失或null，不加入正确、错误、弃答分母",
+    "coverage": "(correct+wrong)/(correct+wrong+abstain)",
+    "precision": "correct/(correct+wrong)，零回答时为null，不是100%",
+    "end_to_end_correct_rate": "correct/(correct+wrong+abstain)",
+    "group_balanced_macro": "先在同一原始画面组内计算指标，再平均非null组指标；不是独立样本置信区间",
+    "latency": "单次recognize总耗时，包含OCR/图标匹配；不含推荐检查。每track独立缓存，首次调用含冷启动。",
+    "shop_empty": "标签null为未标注；{empty:true}为已知空格，输出null仍是弃答而非正确。"
+  },
+  "limitations": [
+    "默认识别与人工区域辅助是不同任务；后者不能宣传为全自动识别准确率。",
+    "profile track仅覆盖提供区域的样本。配对比较应使用default_on_profile_subset，而非直接比较不同样本总体。",
+    "holdout由标注声明，不是自动独立验证；人工区域若针对每图调节，不能当作冻结布局泛化结果。",
+    "group_id只能依赖采集者诚实标注原始画面；工具另外检查解码后完全重复的图片，无法自动证明所有裁片同源关系。",
+    "按同一原始画面分组，不把原图与其裁片当独立评测证据。没有组声明的样本仅按相同像素去重，holdout独立性未确认。",
+    "没有完整实体标注时，不计算英雄候选全量召回率或把未标注候选判错。",
+    "needs_confirmation/空个人概率是交互安全契约检查。截图识别指标与比赛第一率提升无等价关系。",
+    "没有训练、保存对局或将识别结果自动置为confirmed；截图和标签不会进入用户训练数据库。"
+  ],
+  "samples": [
+    {
+      "id": "orange_chuapp_03",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "server_status": "unverified",
+      "patch": null,
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外卡组方案界面，选中速升3星方案；只标出清楚可读的三张时间卡。",
+        "not_gold": "右上1.3万是局外余额，不标为对局gold。",
+        "not_stage": "卡片正文2-7、4-2、2-5是生效回合，不是当前对局回合。",
+        "server_status": "图片没有足够的正式服/测试服或补丁标识。"
+      },
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "image_size": {
+        "width": 1600,
+        "height": 736
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/8046aeafc0d8903e.PNG",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_chuapp_04",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "match_id": null,
+      "screen_type": "orange_super_time",
+      "server_status": "unverified",
+      "patch": null,
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "profile_origin": "per_sample_manual",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "超级时间第一轮目标选择弹层；有真实对局背景，不是终局战绩。",
+        "stage": "顶部当前回合2-3清楚可见。",
+        "hp": "右上最大的独立金色圈高亮头像左侧显示100，以下其他玩家为红圈并显示姓名/名次列表。这里标本方高亮头像的100。",
+        "level": "左下购买经验按钮旁黑金圆圈显示4，上方经验0/10。",
+        "gold": "下方资源区域受弹层遮挡；卡片奖励总价值0和300不是当前对局金币，不据此猜测gold。",
+        "not_stage": "中央前7/前5是挑战目标，不是当前stage。",
+        "server_status": "体验文章中使用的客户端画面；无法确认正式服或具体开发版本。"
+      },
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "image_size": {
+        "width": 2622,
+        "height": 1206
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/5606aeafe03d8e2a.png",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_chuapp_08",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "match_id": null,
+      "screen_type": "orange_card_collection",
+      "server_status": "unverified",
+      "patch": null,
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外卡册；上排四张完整卡片名称可读，下排卡片只有局部画面，不标注。",
+        "not_deck": "卡册中显示4张以上卡片，不等于已经选择4张出战卡，也不能标为当前三卡。",
+        "not_stage": "卡片正文1-3、1-2、3-5均为效果生效回合。",
+        "server_status": "未见明确客户端服别/补丁号。"
+      },
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "image_size": {
+        "width": 2556,
+        "height": 1179
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/4526aeb07715c14c.jpg",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_azir_video_first",
+      "mode": "orange",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "source_id": "taptap_867454613899445849",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "holdout",
+      "match_id": null,
+      "screen_type": "board_with_card_activation_overlay",
+      "server_status": "unverified",
+      "patch": null,
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "profile_origin": "per_sample_manual",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "一手视频首帧，真实局内背景上有王牌猎手IV激活卡片、系统提示和视频字幕，未将其当作干净普通备战图。",
+        "stage": "顶栏当前回合1-4可见；尽管正文卡片也写1-4，标签依据是顶栏。",
+        "level": "左下等级圆圈显示3；购买经验按钮中的4是花费，不是等级。",
+        "gold": "顶部21是阶段计时，左下4是购买经验费用；均不标gold，真实金币区域未见。",
+        "hp": "画面右侧未包含可明确归属本方的血量，保留null。",
+        "entities": "仅标注中央大卡清楚可读的王牌猎手IV；左上其他小卡名称不够清楚，不猜测。",
+        "server_status": "原帖日期为2026-11-05，但首帧没有可证明正式服/先遣服/具体补丁的标识。"
+      },
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "image_size": {
+        "width": 3840,
+        "height": 2160
+      },
+      "source_image_url": "https://img-tc.tapimg.com/video-picture/tid-6aec4913f6d91e745e4dab9a/first.jpg",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_taptap_loadout",
+      "mode": "orange",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "source_id": "taptap_867151065470994551",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "holdout",
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "server_status": "unverified",
+      "patch": null,
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外稳定传送门出战卡组；不使用同一帖子中的战绩截图作为当前备战状态。",
+        "not_gold": "右上1170是局外金橘余额，开始游戏按钮中的0是入场费用；均不是对局gold。",
+        "not_stage": "卡片中的3-1、4-2、2-1为卡片效果回合。",
+        "portal": "界面稳定传送门和能量≤8可读，但本数据集不据此确认所有正式服门规则。",
+        "server_status": "图片未给出具体服别或补丁，保留未验证。"
+      },
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "image_size": {
+        "width": 2480,
+        "height": 1116
+      },
+      "source_image_url": "https://img2-tc.tapimg.com/moment/etag/FhkTUQRkpQPNnZd_xixDUEfroHPJ_20261104210838.jpg",
+      "source_manifest_claimed_page_date": "2026-11-04",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "grouping_explicit": true
+    }
+  ],
+  "grouping": {
+    "unique_original_groups": 3,
+    "all_groups_explicit": true,
+    "holdout_groups_explicit": true,
+    "declared_cross_split_or_exact_duplicate_leakage": false,
+    "split_counts": {
+      "development": 3,
+      "holdout": 2
+    }
+  },
+  "tracks": {
+    "default": {
+      "labelled": 5,
+      "correct": 1,
+      "wrong": 0,
+      "abstain": 4,
+      "unlabelled": 40,
+      "answered": 1,
+      "coverage": 0.2,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.2,
+      "samples": 5,
+      "recognition_errors": 0,
+      "unique_original_groups": 3,
+      "per_field": {
+        "stage": {
+          "labelled": 2,
+          "correct": 1,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 3,
+          "answered": 1,
+          "coverage": 0.5,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5
+        },
+        "gold": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "hp": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 4,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "level": {
+          "labelled": 2,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 3,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[0]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[1]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[2]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[3]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 5,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 5,
+        "mean": 18433.868029002042,
+        "p50": 16631.087872003263,
+        "p95": 24414.922375802416
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 5
+      },
+      "contract_checks_run": 5,
+      "unconfirmed_states": 5,
+      "null_personal_probability_checks": 5,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.16666666666666666,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.16666666666666666
+      }
+    },
+    "profile": {
+      "labelled": 5,
+      "correct": 3,
+      "wrong": 0,
+      "abstain": 2,
+      "unlabelled": 13,
+      "answered": 3,
+      "coverage": 0.6,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.6,
+      "samples": 2,
+      "recognition_errors": 0,
+      "unique_original_groups": 2,
+      "per_field": {
+        "stage": {
+          "labelled": 2,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 2,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 2,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "hp": {
+          "labelled": 1,
+          "correct": 1,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 1,
+          "answered": 1,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "level": {
+          "labelled": 2,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[0]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 2,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[1]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 2,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[2]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 2,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[3]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 2,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 2,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 2,
+        "mean": 2633.1758864980657,
+        "p50": 2633.1758864980657,
+        "p95": 3512.9891848504485
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 2
+      },
+      "contract_checks_run": 2,
+      "unconfirmed_states": 2,
+      "null_personal_probability_checks": 2,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.5833333333333333,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.5833333333333333
+      }
+    }
+  },
+  "default_on_profile_subset": {
+    "labelled": 5,
+    "correct": 1,
+    "wrong": 0,
+    "abstain": 4,
+    "unlabelled": 13,
+    "answered": 1,
+    "coverage": 0.2,
+    "precision": 1.0,
+    "end_to_end_correct_rate": 0.2,
+    "samples": 2,
+    "recognition_errors": 0,
+    "unique_original_groups": 2,
+    "per_field": {
+      "stage": {
+        "labelled": 2,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 1,
+        "unlabelled": 0,
+        "answered": 1,
+        "coverage": 0.5,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.5
+      },
+      "gold": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 2,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "hp": {
+        "labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "unlabelled": 1,
+        "answered": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "end_to_end_correct_rate": 0.0
+      },
+      "level": {
+        "labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "end_to_end_correct_rate": 0.0
+      },
+      "shop[0]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 2,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[1]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 2,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[2]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 2,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[3]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 2,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[4]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 2,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      }
+    },
+    "latency_ms": {
+      "n": 2,
+      "mean": 19944.226543000696,
+      "p50": 19944.226543000696,
+      "p95": 25115.1040966015
+    },
+    "recommendation_status_counts": {
+      "needs_confirmation": 2
+    },
+    "contract_checks_run": 2,
+    "unconfirmed_states": 2,
+    "null_personal_probability_checks": 2,
+    "safety_contract_failures": 0,
+    "group_balanced_macro": {
+      "coverage": 0.16666666666666666,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.16666666666666666
+    }
+  },
+  "by_split": {
+    "development": {
+      "default": {
+        "labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "unlabelled": 24,
+        "answered": 1,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.3333333333333333,
+        "samples": 3,
+        "recognition_errors": 0,
+        "unique_original_groups": 1,
+        "per_field": {
+          "stage": {
+            "labelled": 1,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 1,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "level": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 3,
+          "mean": 16715.30753400293,
+          "p50": 16631.087872003263,
+          "p95": 19047.533709105483
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 3
+        },
+        "contract_checks_run": 3,
+        "unconfirmed_states": 3,
+        "null_personal_probability_checks": 3,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.3333333333333333,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.3333333333333333
+        }
+      },
+      "profile": {
+        "labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "unlabelled": 6,
+        "answered": 2,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.6666666666666666,
+        "samples": 1,
+        "recognition_errors": 0,
+        "unique_original_groups": 1,
+        "per_field": {
+          "stage": {
+            "labelled": 1,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 1,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 1,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 1,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "level": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 1,
+          "mean": 3610.7462180007133,
+          "p50": 3610.7462180007133,
+          "p95": 3610.7462180007133
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 1
+        },
+        "contract_checks_run": 1,
+        "unconfirmed_states": 1,
+        "null_personal_probability_checks": 1,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.6666666666666666,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.6666666666666666
+        }
+      }
+    },
+    "holdout": {
+      "default": {
+        "labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "unlabelled": 16,
+        "answered": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "end_to_end_correct_rate": 0.0,
+        "samples": 2,
+        "recognition_errors": 0,
+        "unique_original_groups": 2,
+        "per_field": {
+          "stage": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 2,
+          "mean": 21011.708771500707,
+          "p50": 21011.708771500707,
+          "p95": 25221.8523194515
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 2
+        },
+        "contract_checks_run": 2,
+        "unconfirmed_states": 2,
+        "null_personal_probability_checks": 2,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        }
+      },
+      "profile": {
+        "labelled": 2,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 1,
+        "unlabelled": 7,
+        "answered": 1,
+        "coverage": 0.5,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.5,
+        "samples": 1,
+        "recognition_errors": 0,
+        "unique_original_groups": 1,
+        "per_field": {
+          "stage": {
+            "labelled": 1,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 1,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 1,
+          "mean": 1655.605554995418,
+          "p50": 1655.605554995418,
+          "p95": 1655.605554995418
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 1
+        },
+        "contract_checks_run": 1,
+        "unconfirmed_states": 1,
+        "null_personal_probability_checks": 1,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.5,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5
+        }
+      }
+    }
+  },
+  "by_mode": {
+    "orange": {
+      "default": {
+        "labelled": 5,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 4,
+        "unlabelled": 40,
+        "answered": 1,
+        "coverage": 0.2,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.2,
+        "samples": 5,
+        "recognition_errors": 0,
+        "unique_original_groups": 3,
+        "per_field": {
+          "stage": {
+            "labelled": 2,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 3,
+            "answered": 1,
+            "coverage": 0.5,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 0.5
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 4,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "level": {
+            "labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "unlabelled": 3,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 5,
+          "mean": 18433.868029002042,
+          "p50": 16631.087872003263,
+          "p95": 24414.922375802416
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 5
+        },
+        "contract_checks_run": 5,
+        "unconfirmed_states": 5,
+        "null_personal_probability_checks": 5,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.16666666666666666,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.16666666666666666
+        }
+      },
+      "profile": {
+        "labelled": 5,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 2,
+        "unlabelled": 13,
+        "answered": 3,
+        "coverage": 0.6,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.6,
+        "samples": 2,
+        "recognition_errors": 0,
+        "unique_original_groups": 2,
+        "per_field": {
+          "stage": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 1,
+            "correct": 1,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 1,
+            "answered": 1,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "level": {
+            "labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 2,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 2,
+          "mean": 2633.1758864980657,
+          "p50": 2633.1758864980657,
+          "p95": 3512.9891848504485
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 2
+        },
+        "contract_checks_run": 2,
+        "unconfirmed_states": 2,
+        "null_personal_probability_checks": 2,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.5833333333333333,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5833333333333333
+        }
+      }
+    }
+  },
+  "runs": [
+    {
+      "sample_id": "orange_chuapp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 19316.02769100573,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 33,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_03-da69453f-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_04",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 3,
+      "latency_ms": 14198.807038999803,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-3",
+          "predicted": "2-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 4,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 18,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_04-74eed507-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_04",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 3,
+      "profile_sha256": "34f792b2953f5fcf5f88099516035d46e8ca164a9bfc3fc39bc675967a13fe65",
+      "latency_ms": 3610.7462180007133,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-3",
+          "predicted": "2-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": 100,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "level",
+          "expected": 4,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_04-74eed507-profile.json"
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 16631.087872003263,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_08-92dc33bb-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_azir_video_first",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 2,
+      "latency_ms": 25689.646047001588,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "1-4",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_azir_video_first-3b2e36cd-default.json"
+    },
+    {
+      "sample_id": "orange_azir_video_first",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 2,
+      "profile_sha256": "efbe9d70c8789a2a7194c44ec1307b37dfeaa0ac1bef1abff371a249d228ac78",
+      "latency_ms": 1655.605554995418,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "1-4",
+          "predicted": "1-4",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_azir_video_first-3b2e36cd-profile.json"
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 16333.771495999827,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 29,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_taptap_loadout-6b11089d-default.json"
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ]
+}

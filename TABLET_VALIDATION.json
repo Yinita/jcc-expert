@@ -1,0 +1,26 @@
+{
+  "version": "0.3.1",
+  "task": "tablet LAN entry",
+  "targeted_tests": {
+    "initial_new_and_API_feedback_regressions": 24,
+    "final_access_cookie_configuration": 4
+  },
+  "actual_private_interface_HTTP": {
+    "anonymous_private_data": 401,
+    "authenticated_page_and_API": 200,
+    "untrusted_origin_write": 403,
+    "unknown_host": 400,
+    "no_events_written": true
+  },
+  "QR_roundtrip_decode": "passed",
+  "listen_address": "10.30.64.139:8766",
+  "same_origin_frontend": true,
+  "browser_on_actual_tablet": "not_yet_connected",
+  "touch_changes": [
+    "single active primary pointer",
+    "cancel on lost capture",
+    "single-column workspace on tablet",
+    "larger coarse-pointer controls"
+  ],
+  "original_local_service": "127.0.0.1:8765 retained"
+}

@@ -1,0 +1,1580 @@
+{
+  "kind": "supervised_OCR_line_field_assignment_not_win_probability",
+  "mode": "shared",
+  "patch": "18.6",
+  "feature_version": "ocr-field-geometry-2",
+  "created_at": "2026-11-12T07:56:36.642241+00:00",
+  "group_partitions": {
+    "train": [
+      "ali213_1032951",
+      "sohu_1068964903",
+      "source_chuapp_291737",
+      "source_taptap_867251881297052929"
+    ],
+    "calibration": [
+      "source_taptap_867151065470994551",
+      "source_taptap_867454613899445849",
+      "youxituoluo_534823"
+    ],
+    "validation": [
+      "17173_08242026_093003976",
+      "chuapp_291576",
+      "source_3dm_3746579",
+      "source_taptap_867484028389820540"
+    ]
+  },
+  "annotation_stats": {
+    "consumed_nature_01": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "other": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_02": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_03": {
+      "supervised_rows": 5,
+      "labels": {
+        "other": 2,
+        "hp": 1,
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 35
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_04": {
+      "supervised_rows": 3,
+      "labels": {
+        "gold": 1,
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 27,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_05": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_chuapp_03": {
+      "supervised_rows": 35,
+      "labels": {
+        "other": 35
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_chuapp_04": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 38
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_chuapp_08": {
+      "supervised_rows": 25,
+      "labels": {
+        "other": 25
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_collection",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_azir_video_first": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 19
+      },
+      "annotation_context": "board_with_card_activation_overlay",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_taptap_loadout": {
+      "supervised_rows": 33,
+      "labels": {
+        "other": 33
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_dev_01": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 64
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_02": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 55
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_03": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_04": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 59
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_05": {
+      "supervised_rows": 2,
+      "labels": {
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 36
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_06": {
+      "supervised_rows": 4,
+      "labels": {
+        "hp": 1,
+        "level": 1,
+        "stage": 1,
+        "gold": 1
+      },
+      "ignored": {
+        "unlabelled_line": 24
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_07": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 52
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_08": {
+      "supervised_rows": 3,
+      "labels": {
+        "gold": 1,
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 37,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_09": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 41
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_10": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 45
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_11": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 43
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_01": {
+      "supervised_rows": 29,
+      "labels": {
+        "other": 29
+      },
+      "ignored": {},
+      "annotation_context": "orange_starter_deck_selection",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_02": {
+      "supervised_rows": 23,
+      "labels": {
+        "other": 23
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_repair",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_03": {
+      "supervised_rows": 26,
+      "labels": {
+        "other": 26
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_rewards",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_04": {
+      "supervised_rows": 37,
+      "labels": {
+        "other": 37
+      },
+      "ignored": {},
+      "annotation_context": "orange_deck_editor",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_05": {
+      "supervised_rows": 24,
+      "labels": {
+        "other": 24
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_06": {
+      "supervised_rows": 15,
+      "labels": {
+        "other": 15
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_01": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 17
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_02": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 34
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_sealed_03": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 9
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_sealed_04": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 49
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_05": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 38
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_06": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 7
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_07": {
+      "supervised_rows": 22,
+      "labels": {
+        "other": 22
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_08": {
+      "supervised_rows": 21,
+      "labels": {
+        "other": 21
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_09": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 13
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_10": {
+      "supervised_rows": 32,
+      "labels": {
+        "other": 32
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_11": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 31
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    }
+  },
+  "supervised_class_counts": {
+    "stage": 11,
+    "other": 220,
+    "gold": 9,
+    "level": 13,
+    "hp": 2
+  },
+  "n_supervised_rows": 371,
+  "n_training_rows": 255,
+  "context_policy": "OCR_only_context_derived_identically_for_training_and_serving; annotation.screen_type_is_diagnostic_only",
+  "data_quality": {
+    "positive_only_images": 12,
+    "source_groups_with_other": [
+      "chuapp_291576",
+      "sohu_1068964903",
+      "source_3dm_3746579",
+      "source_chuapp_291737",
+      "source_taptap_867151065470994551",
+      "source_taptap_867251881297052929",
+      "source_taptap_867484028389820540"
+    ],
+    "class_source_groups": {
+      "stage": [
+        "sohu_1068964903"
+      ],
+      "gold": [
+        "sohu_1068964903"
+      ],
+      "hp": [
+        "sohu_1068964903"
+      ],
+      "level": [
+        "sohu_1068964903"
+      ],
+      "other": [
+        "sohu_1068964903",
+        "source_chuapp_291737",
+        "source_taptap_867251881297052929"
+      ]
+    },
+    "duplicate_rows_removed": 3,
+    "annotation_context_mismatch_images": 25
+  },
+  "limitations": [
+    "Only explicitly annotated lines supervise training; unknown labels are not negatives.",
+    "Temperature and thresholds are selected on development calibration groups. Validation groups are not used to tune thresholds.",
+    "Old consumed holdout groups are development validation, not a new unseen test. sealed_test is never opened.",
+    "This model assigns OCR lines to UI fields; values must parse from OCR. It does not predict wins.",
+    "Small or source-limited validation cannot establish deployment accuracy or real-match benefits."
+  ],
+  "status": "candidate_unvalidated",
+  "deployable": false,
+  "reason": "Separate validation coverage/precision has not met the declared minimum; Shared recognition requires separate sufficient nature and orange validation",
+  "calibration": {
+    "status": "development_temperature_fit",
+    "rows": 38,
+    "nll": 0.0005312862034695637,
+    "equal_source_group_weights": true,
+    "groups": [
+      "source_taptap_867151065470994551",
+      "youxituoluo_534823"
+    ]
+  },
+  "temperature": 0.3,
+  "thresholds": {
+    "stage": 0.5,
+    "gold": 1.000001,
+    "hp": 1.000001,
+    "level": 1.000001
+  },
+  "threshold_selection_calibration": {
+    "stage": {
+      "n_labelled": 3,
+      "correct": 2,
+      "wrong": 0,
+      "abstain": 1,
+      "false_positive_absent": 0,
+      "correct_absence": 1,
+      "coverage": 0.6666666666666666,
+      "precision": 1.0
+    }
+  },
+  "validation_metrics": {
+    "n_labelled": 10,
+    "correct": 5,
+    "wrong": 0,
+    "abstain": 5,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.5,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 3,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 4,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.42857142857142855,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": "2-6",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": "5-2",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": null,
+        "outcome": "abstain"
+      }
+    ]
+  },
+  "unvalidated_preview_validation_metrics": {
+    "n_labelled": 10,
+    "correct": 6,
+    "wrong": 0,
+    "abstain": 4,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.6,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 4,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.42857142857142855,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 1.0,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": "2-6",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": "5-2",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": 6,
+        "outcome": "correct"
+      }
+    ]
+  },
+  "min_validation_answers": 20,
+  "target_precision": 0.98,
+  "trained_classes": [
+    "gold",
+    "hp",
+    "level",
+    "other",
+    "stage"
+  ],
+  "validated_modes": [],
+  "learned_feature_weights": {
+    "gold": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": 1.7641118029634948
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": -0.7345889066943143
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.7249300068035983
+      },
+      {
+        "feature": "cy",
+        "coefficient": 0.7035702482818201
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.6891270448826039
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": -0.567616877092248
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.4817959636426165
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.4676859460935565
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": -0.3628249199634171
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": -0.3628249199634171
+      }
+    ],
+    "hp": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -1.26248385042941
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": 1.105450482032086
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": 0.9744979464539558
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.8918759340276693
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": -0.5089983153934546
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.4590026526090652
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.4567707559275341
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": 0.43191966257910835
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": 0.43191966257910835
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": -0.4301388631597296
+      }
+    ],
+    "level": [
+      {
+        "feature": "y_bucket=9",
+        "coefficient": 0.9728141528931766
+      },
+      {
+        "feature": "x_bucket=1",
+        "coefficient": 0.9675960388882044
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": 0.6310412967378314
+      },
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.5064552951815516
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": 0.5014064674775355
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": 0.5014064674775355
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.4479003007025662
+      },
+      {
+        "feature": "cx",
+        "coefficient": -0.44125028133147143
+      },
+      {
+        "feature": "x",
+        "coefficient": -0.4326191908397496
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.34208584813638776
+      }
+    ],
+    "other": [
+      {
+        "feature": "mode=nature",
+        "coefficient": -0.828235462811843
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": -0.828235462811843
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": 0.819954101013452
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.7872791096641757
+      },
+      {
+        "feature": "x_bucket=0",
+        "coefficient": 0.5621513927226484
+      },
+      {
+        "feature": "x_bucket=6",
+        "coefficient": 0.5577366420963612
+      },
+      {
+        "feature": "x_bucket=3",
+        "coefficient": -0.47456919669803654
+      },
+      {
+        "feature": "screen=orange_menu",
+        "coefficient": 0.41747294691603914
+      },
+      {
+        "feature": "screen=unknown",
+        "coefficient": 0.40248115409741314
+      },
+      {
+        "feature": "digits",
+        "coefficient": -0.39912621788699515
+      }
+    ],
+    "stage": [
+      {
+        "feature": "x_bucket=3",
+        "coefficient": 0.9459060882177478
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": 0.9219508888964114
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": 0.7519982778495308
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": -0.693840508014756
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": -0.693840508014756
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.460872493620435
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.45973144583290004
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.38162653046452494
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": 0.3417428427070936
+      },
+      {
+        "feature": "mode=nature",
+        "coefficient": 0.3417428427070936
+      }
+    ]
+  },
+  "artifact": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/enhanced/3561bda113759e5137e2ffb9.candidate.joblib",
+  "artifact_sha256": "3dd26045ba8c998056e497bc0b332ca1ad4c6e90252f1a6c1b5878cd6ac577e1",
+  "metadata": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/enhanced/3561bda113759e5137e2ffb9.candidate.json",
+  "experiment": "Round3 old38 consumed-development candidate experiment",
+  "independent_test_evidence": false,
+  "new_round3_sealed_accessed": false,
+  "input_annotations_sha256": "207a91e15e933b59f5188075b1f0d6907c991a3f11100220fc151798ba17a07e",
+  "ocr_raw_sha256": {
+    "consumed_nature_01": "52a54222d46d37c51a81fa56d1135c1bb5278810b039957cd6eeca2055e9313d",
+    "consumed_nature_02": "28b387a65295b33dbb164d7cfbe94299e3ae40a98810562fcfca85f2c3fa062a",
+    "consumed_nature_03": "4e03ac01215fe6c9c25c3568f2dbd8ca6686f41cf2c3084f9bf185e8ccf35f86",
+    "consumed_nature_04": "10c20b91d69d36b7ea8544a3f4fb804113ff9ac4be4975583a9e8a17e05f645e",
+    "consumed_nature_05": "8c0296687f171f7420fb861dbceb6a5498e4a6c8113afc564e03fc1e2f22cb40",
+    "orange_chuapp_03": "8c3a8fc09813142a3bde4b0877bdc695056a28461efcc7486baa2aab17aef88a",
+    "orange_chuapp_04": "81356d3e7986ea8233ca748a6d3b59d1eb044bd9296888cdfe9edd0c58ad85c3",
+    "orange_chuapp_08": "8fa7f8b7f206bd001124a57dacfc3f5a36a5714336280a653658699e1be9006f",
+    "orange_azir_video_first": "cab0fd53495bb9de53dc85f10276718e35608fd598b04973313a5ad7c269461d",
+    "orange_taptap_loadout": "fc8699286a0e931d0b8bf56902a85b9dabb6baff281ccc44ea2f99f999ec1d8e",
+    "nature_dev_01": "7a0caa81445c8cc05b851b43eeb2657bf03b8e5220e29526e8d9521082001dd2",
+    "nature_dev_02": "1bd1b1695b6a401889a07e3d3c3c74433874473fc4777af1a2dc314bd6a56f1c",
+    "nature_dev_03": "8b2c4d95a660c7d277e7de33c0f5dbfef1110ee815d883a97b9d626d33a9aec7",
+    "nature_dev_04": "892d9c23db792e6f9c6174968205bd66e12ec8d5194cfd292a4379e421a3e5c8",
+    "nature_dev_05": "8d7a737ab8fa5f1280442b76a351731cb0158f9f6fc95b4415191d88dda2725f",
+    "nature_dev_06": "373c79262a1b3bd517885d3ec71b3a9b4fc27bdbfe0b5ec88e9dae845405cfc5",
+    "nature_dev_07": "05c6a7461246939648239979aa1f2c677b725f409c8a042735da92b675c1caeb",
+    "nature_dev_08": "c5ea2b1fa72b73b94097c5dcc8dba3c5ffd59e152ed56bf03b87aa73ef5a5a74",
+    "nature_dev_09": "ba0ce50fdda3ffd82f10d20ce4b53186175eaaaa9f79d71c68ee57c768730cec",
+    "nature_dev_10": "dc67c99fc99a42204f9f4a1b4fc812fb20d844de392d68e25b919c3c82d7fa77",
+    "nature_dev_11": "9098613e5aa4e81ff23b8edf403d34170b65ba513a79fde69f09414abfb09342",
+    "orange_exp_01": "d78d9f468482ca420852b5a9ed9d1a1bbfe6cc6cdd6c539944cee0a1d35d36b2",
+    "orange_exp_02": "c4cba7432af8d4375076fbe0efdf4a1e405152639b16005ec198c4a0aabd5625",
+    "orange_exp_03": "f1f382c3f2fa38f60e496e3d1d82f2d1c457e27d4e83b6ce09af5aa6627d375b",
+    "orange_exp_04": "09a6c76153c7950e03b577feb482d773a8fbc0f053cba5996f259e65608465f1",
+    "orange_exp_05": "89c5adbe1f613ba877dde396c2057932618e6974e96d8ec7c3a76af96cc3cbc9",
+    "orange_exp_06": "f6341c2309e1ca78a50b1e1c4e1068b00bd9c1ae4e3e748dc9092275c4bd593d",
+    "nature_sealed_01": "135e7e7c4fcd9475174b82c7bd7273ffb96379345770e7f1fd7d818782aaf1f3",
+    "nature_sealed_02": "2e787e4256e9fab8617f930a95dcbf68562ac58acd98e242eb420c77f94d701d",
+    "nature_sealed_03": "78745e7134eb0fd55e261e55fc22c43b47206e28bca36848c8a6e6186b0e7b33",
+    "nature_sealed_04": "b333da016339c614d934721fab50ef5522831c2a5f4bcd0a41e51348121138d3",
+    "nature_sealed_05": "2f0b6db229094b6915d73066361c456431f9335a821c97eb7208595041a782e9",
+    "nature_sealed_06": "c5c5c5cb76d389a446437bf0034770793a5c645dfff3e210eaf1f855de66a2a0",
+    "orange_exp_07": "38fa7f052e3645534e4d5e635a613ac1c835d1ce7a8346878c235259a44a1076",
+    "orange_exp_08": "1025dd6b6e4dd7742cc64676129975a7046ef93fc98ff22a1ebfd91a1ac38c8e",
+    "orange_exp_09": "d8116549f7c6808c3c28de443f51dbfc5d04cc3cacbe32ca560a21541d9f0578",
+    "orange_exp_10": "3098fb1adf34aea840d6438fefa36c0128aa67c7d1fca47200bc32759cb98cf3",
+    "orange_exp_11": "8c426edb33e629a4dd92c57f0f565c7a2419e17a91a745dd40200e7db8d9f3c6"
+  },
+  "serving_context_validation_metrics": {
+    "n_labelled": 10,
+    "correct": 5,
+    "wrong": 0,
+    "abstain": 5,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.5,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 3,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 4,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.42857142857142855,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": "2-6",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": "5-2",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": null,
+        "outcome": "abstain"
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "version": "0.3.0",
+  "date": "2026-11-12",
+  "python": "3.10.12",
+  "tests": {
+    "total": 127,
+    "passed": 127,
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -m pytest -q",
+    "verification": "full_suite",
+    "seconds": 62.4,
+    "coverage": [
+      "OCR including actual Tesseract on synthetic text",
+      "official portrait synthetic matching",
+      "5-slot shop preservation",
+      "version and mode isolation",
+      "item and gold budget conservation",
+      "unknown fields",
+      "HTTP upload-to-recommend boundaries",
+      "result deduplication by screenshot content",
+      "canonical hero ID storage",
+      "grouped probability training/calibration/test",
+      "model integrity and no demo predictions",
+      "real screenshot evaluator counts abstentions",
+      "source-group and image duplicate leakage guards",
+      "offline isolated neural OCR adapter",
+      "Roman tier ambiguity rejection",
+      "partial calibration preserves independent shop recognition",
+      "resident isolated OCR and immutable pixel LRU cache",
+      "automatic top five-slot shop anchors",
+      "single-character exact hero names",
+      "manual numeric feedback deduplication and no win-data mutation",
+      "real supervised field candidate and deployment gates",
+      "sealed sample skipped before file or label access",
+      "Roman HOG-SVM candidate isolation",
+      "new feedback uses deployed automatic HUD preprocessing",
+      "shared pixel-content match binding for recognition feedback and result events",
+      "legacy screenshot/hash migration and immutable legacy source groups",
+      "metadata/lossless reencoding deduplication and concurrent binding conflicts",
+      "circular mobile HUD requires XP text and visual rings",
+      "partial top shop preserves gaps and requires slot zero anchor",
+      "different-trait hero form ambiguity",
+      "title suffix pixels and scene roles",
+      "card profile cannot infer tier or ownership from illustration",
+      "positive/negative annotation protocol and incremental merge",
+      "OCR-only context and tight digit ROI training",
+      "new patch preserved on upload and mismatches blocked"
+    ]
+  },
+  "frontend": {
+    "modern_node_syntax": "passed_Node_24.22.0",
+    "static_dom_contracts": {
+      "static_ids": 97,
+      "dynamic_ids": [
+        "layout-preview"
+      ],
+      "missing_literal_references": 0
+    },
+    "post_ROI_browser_automation": "not_completed_CUA_connection_timeout",
+    "browser_automation": "not_repeated_previous_CUA_connection_timeout",
+    "static_training_reports": "mounted_read_only_at_/training_with_index"
+  },
+  "real_game_screenshot_accuracy": {
+    "status": "round3_public_frames_not_verified_formal_build",
+    "images": 52,
+    "source_groups": 17,
+    "development": {
+      "images": 45,
+      "source_groups": 14,
+      "labelled": 124,
+      "baseline": {
+        "correct": 57,
+        "wrong": 0,
+        "abstain": 67
+      },
+      "optimized": {
+        "correct": 96,
+        "wrong": 0,
+        "abstain": 28
+      },
+      "whole_image_OCR": "recorded_actual_outputs_replayed_with_live_HUD_crops",
+      "independent_final_evidence": false
+    },
+    "new_source_holdout": {
+      "images": 7,
+      "source_groups": 3,
+      "labelled": 22,
+      "baseline": {
+        "correct": 12,
+        "wrong": 0,
+        "abstain": 10
+      },
+      "optimized": {
+        "correct": 12,
+        "wrong": 0,
+        "abstain": 10
+      },
+      "fresh_end_to_end": true,
+      "freeze_verified_before_and_after": true
+    },
+    "summary": "validation/round3-2026-11-12/summary.json",
+    "explicit_absence": {
+      "development_checks": 65,
+      "development_false_outputs": 0,
+      "sealed_checks": 18,
+      "sealed_false_outputs": 0,
+      "separate_from_positive_scores": true
+    },
+    "partial_entity_diagnostic": {
+      "development_regions": 41,
+      "baseline_hits": 31,
+      "optimized_hits": 41,
+      "sealed_regions": 3,
+      "baseline_sealed_hits": 3,
+      "optimized_sealed_hits": 3,
+      "is_full_recall_or_precision": false
+    }
+  },
+  "real_game_win_rate_improvement": "not_evaluated",
+  "pretrained_probability_model": false,
+  "dependencies": {
+    "fastapi": "0.136.1",
+    "uvicorn": "0.47.0",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "Pillow": "11.3.0",
+    "joblib": "1.5.3",
+    "python-multipart": "0.0.32"
+  },
+  "tesseract": "tesseract 4.1.1",
+  "optional_ocr_runtime": {
+    "rapidocr": "3.10.0",
+    "onnxruntime": "1.23.2",
+    "network_during_inference": false,
+    "models_bundled_in_wheel": true,
+    "model_bytes": 31749509
+  },
+  "recognition_training": {
+    "field_v3": {
+      "status": "candidate_unvalidated",
+      "deployable": false,
+      "images": 25,
+      "source_groups": 5,
+      "supervised_rows": 296,
+      "fit_rows": 120,
+      "positive_fit_rows": 38,
+      "other_fit_rows": 82,
+      "reused_development_validation": {
+        "labelled": 6,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 4,
+        "correct_absence_separate": 20
+      },
+      "new_sealed_samples_used": 0
+    },
+    "card_tier": {
+      "status": "candidate_not_integrated",
+      "deployable": false,
+      "real_fit_crops": 3,
+      "real_development_validation_crops": 1,
+      "purged_cross_group_card_crops": 2,
+      "synthetic_fit": 480,
+      "synthetic_font_holdout": 120,
+      "synthetic_correct": 72,
+      "new_sealed_samples_used": 0
+    },
+    "round3": {
+      "trained_candidates": 4,
+      "production_enabled": false,
+      "final_v4": {
+        "fit_rows": 268,
+        "positive_fit_rows": 42,
+        "other_fit_rows": 226,
+        "reused_development_validation": {
+          "labelled": 10,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 8
+        },
+        "new_sealed_used": 0,
+        "restored_training_supervision_rows": 12,
+        "restored_rows_are_recognition_successes": false,
+        "exact_reproduction_weight_hash_match": true
+      },
+      "report": "training/round3/final_summary.json"
+    }
+  },
+  "live_http_smoke": {
+    "status": "passed_v0.3.0_actual_public_development_image",
+    "report": "validation/round3-2026-11-12/live-smoke.json",
+    "stage": "3-5",
+    "gold": 51,
+    "level": 6,
+    "shop_slots_recognized": 5,
+    "confirmed": false,
+    "personal_probability": null,
+    "patch_18_6_status": "needs_confirmation",
+    "patch_18_6a_status": "blocked",
+    "production_match_history": 0
+  },
+  "version_watch": {
+    "rules_patch": "18.6",
+    "latest_announced_patch": "18.6a",
+    "static_CDN_configs_unchanged": 25,
+    "full_18_6a_sync_supported": false,
+    "mismatched_recommendation_policy": "blocked",
+    "report": "validation/round3-2026-11-12/patch-audit.json"
+  }
+}

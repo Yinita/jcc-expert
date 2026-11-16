@@ -1,0 +1,1284 @@
+{
+  "mode": "shared",
+  "patch": "18.6",
+  "feature_version": "ocr-field-geometry-2",
+  "model_id": "3561bda113759e5137e2ffb9",
+  "status": "candidate_unvalidated",
+  "deployable": false,
+  "calibration_method": "development_temperature_scaling",
+  "kind": "supervised_OCR_line_field_assignment_not_win_probability",
+  "created_at": "2026-11-12T07:56:36.642241+00:00",
+  "group_partitions": {
+    "train": [
+      "ali213_1032951",
+      "sohu_1068964903",
+      "source_chuapp_291737",
+      "source_taptap_867251881297052929"
+    ],
+    "calibration": [
+      "source_taptap_867151065470994551",
+      "source_taptap_867454613899445849",
+      "youxituoluo_534823"
+    ],
+    "validation": [
+      "17173_08242026_093003976",
+      "chuapp_291576",
+      "source_3dm_3746579",
+      "source_taptap_867484028389820540"
+    ]
+  },
+  "annotation_stats": {
+    "consumed_nature_01": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "other": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_02": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_03": {
+      "supervised_rows": 5,
+      "labels": {
+        "other": 2,
+        "hp": 1,
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 35
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_04": {
+      "supervised_rows": 3,
+      "labels": {
+        "gold": 1,
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 27,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_05": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_chuapp_03": {
+      "supervised_rows": 35,
+      "labels": {
+        "other": 35
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_chuapp_04": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 38
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_chuapp_08": {
+      "supervised_rows": 25,
+      "labels": {
+        "other": 25
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_collection",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_azir_video_first": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 19
+      },
+      "annotation_context": "board_with_card_activation_overlay",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_taptap_loadout": {
+      "supervised_rows": 33,
+      "labels": {
+        "other": 33
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_dev_01": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 64
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_02": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 55
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_03": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_04": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 59
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_05": {
+      "supervised_rows": 2,
+      "labels": {
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 36
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_06": {
+      "supervised_rows": 4,
+      "labels": {
+        "hp": 1,
+        "level": 1,
+        "stage": 1,
+        "gold": 1
+      },
+      "ignored": {
+        "unlabelled_line": 24
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_07": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 52
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_08": {
+      "supervised_rows": 3,
+      "labels": {
+        "gold": 1,
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 37,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_09": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 41
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_10": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 45
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_11": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 43
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_01": {
+      "supervised_rows": 29,
+      "labels": {
+        "other": 29
+      },
+      "ignored": {},
+      "annotation_context": "orange_starter_deck_selection",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_02": {
+      "supervised_rows": 23,
+      "labels": {
+        "other": 23
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_repair",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_03": {
+      "supervised_rows": 26,
+      "labels": {
+        "other": 26
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_rewards",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_04": {
+      "supervised_rows": 37,
+      "labels": {
+        "other": 37
+      },
+      "ignored": {},
+      "annotation_context": "orange_deck_editor",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_05": {
+      "supervised_rows": 24,
+      "labels": {
+        "other": 24
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_06": {
+      "supervised_rows": 15,
+      "labels": {
+        "other": 15
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_01": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 17
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_02": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 34
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_sealed_03": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 9
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_sealed_04": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 49
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_05": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 38
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_06": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 7
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_07": {
+      "supervised_rows": 22,
+      "labels": {
+        "other": 22
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_08": {
+      "supervised_rows": 21,
+      "labels": {
+        "other": 21
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_09": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 13
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_10": {
+      "supervised_rows": 32,
+      "labels": {
+        "other": 32
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_11": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 31
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    }
+  },
+  "supervised_class_counts": {
+    "stage": 11,
+    "other": 220,
+    "gold": 9,
+    "level": 13,
+    "hp": 2
+  },
+  "n_supervised_rows": 371,
+  "n_training_rows": 255,
+  "context_policy": "OCR_only_context_derived_identically_for_training_and_serving; annotation.screen_type_is_diagnostic_only",
+  "data_quality": {
+    "positive_only_images": 12,
+    "source_groups_with_other": [
+      "chuapp_291576",
+      "sohu_1068964903",
+      "source_3dm_3746579",
+      "source_chuapp_291737",
+      "source_taptap_867151065470994551",
+      "source_taptap_867251881297052929",
+      "source_taptap_867484028389820540"
+    ],
+    "class_source_groups": {
+      "stage": [
+        "sohu_1068964903"
+      ],
+      "gold": [
+        "sohu_1068964903"
+      ],
+      "hp": [
+        "sohu_1068964903"
+      ],
+      "level": [
+        "sohu_1068964903"
+      ],
+      "other": [
+        "sohu_1068964903",
+        "source_chuapp_291737",
+        "source_taptap_867251881297052929"
+      ]
+    },
+    "duplicate_rows_removed": 3,
+    "annotation_context_mismatch_images": 25
+  },
+  "limitations": [
+    "Only explicitly annotated lines supervise training; unknown labels are not negatives.",
+    "Temperature and thresholds are selected on development calibration groups. Validation groups are not used to tune thresholds.",
+    "Old consumed holdout groups are development validation, not a new unseen test. sealed_test is never opened.",
+    "This model assigns OCR lines to UI fields; values must parse from OCR. It does not predict wins.",
+    "Small or source-limited validation cannot establish deployment accuracy or real-match benefits."
+  ],
+  "reason": "Separate validation coverage/precision has not met the declared minimum; Shared recognition requires separate sufficient nature and orange validation",
+  "calibration": {
+    "status": "development_temperature_fit",
+    "rows": 38,
+    "nll": 0.0005312862034695637,
+    "equal_source_group_weights": true,
+    "groups": [
+      "source_taptap_867151065470994551",
+      "youxituoluo_534823"
+    ]
+  },
+  "temperature": 0.3,
+  "thresholds": {
+    "stage": 0.5,
+    "gold": 1.000001,
+    "hp": 1.000001,
+    "level": 1.000001
+  },
+  "threshold_selection_calibration": {
+    "stage": {
+      "n_labelled": 3,
+      "correct": 2,
+      "wrong": 0,
+      "abstain": 1,
+      "false_positive_absent": 0,
+      "correct_absence": 1,
+      "coverage": 0.6666666666666666,
+      "precision": 1.0
+    }
+  },
+  "validation_metrics": {
+    "n_labelled": 10,
+    "correct": 5,
+    "wrong": 0,
+    "abstain": 5,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.5,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 3,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 4,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.42857142857142855,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": "2-6",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": "5-2",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": null,
+        "outcome": "abstain"
+      }
+    ]
+  },
+  "unvalidated_preview_validation_metrics": {
+    "n_labelled": 10,
+    "correct": 6,
+    "wrong": 0,
+    "abstain": 4,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.6,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 4,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.42857142857142855,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 1.0,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": "2-6",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": "5-2",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": 6,
+        "outcome": "correct"
+      }
+    ]
+  },
+  "min_validation_answers": 20,
+  "target_precision": 0.98,
+  "trained_classes": [
+    "gold",
+    "hp",
+    "level",
+    "other",
+    "stage"
+  ],
+  "validated_modes": [],
+  "learned_feature_weights": {
+    "gold": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": 1.7641118029634948
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": -0.7345889066943143
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.7249300068035983
+      },
+      {
+        "feature": "cy",
+        "coefficient": 0.7035702482818201
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.6891270448826039
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": -0.567616877092248
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.4817959636426165
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.4676859460935565
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": -0.3628249199634171
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": -0.3628249199634171
+      }
+    ],
+    "hp": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -1.26248385042941
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": 1.105450482032086
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": 0.9744979464539558
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.8918759340276693
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": -0.5089983153934546
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.4590026526090652
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.4567707559275341
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": 0.43191966257910835
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": 0.43191966257910835
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": -0.4301388631597296
+      }
+    ],
+    "level": [
+      {
+        "feature": "y_bucket=9",
+        "coefficient": 0.9728141528931766
+      },
+      {
+        "feature": "x_bucket=1",
+        "coefficient": 0.9675960388882044
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": 0.6310412967378314
+      },
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.5064552951815516
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": 0.5014064674775355
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": 0.5014064674775355
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.4479003007025662
+      },
+      {
+        "feature": "cx",
+        "coefficient": -0.44125028133147143
+      },
+      {
+        "feature": "x",
+        "coefficient": -0.4326191908397496
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.34208584813638776
+      }
+    ],
+    "other": [
+      {
+        "feature": "mode=nature",
+        "coefficient": -0.828235462811843
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": -0.828235462811843
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": 0.819954101013452
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.7872791096641757
+      },
+      {
+        "feature": "x_bucket=0",
+        "coefficient": 0.5621513927226484
+      },
+      {
+        "feature": "x_bucket=6",
+        "coefficient": 0.5577366420963612
+      },
+      {
+        "feature": "x_bucket=3",
+        "coefficient": -0.47456919669803654
+      },
+      {
+        "feature": "screen=orange_menu",
+        "coefficient": 0.41747294691603914
+      },
+      {
+        "feature": "screen=unknown",
+        "coefficient": 0.40248115409741314
+      },
+      {
+        "feature": "digits",
+        "coefficient": -0.39912621788699515
+      }
+    ],
+    "stage": [
+      {
+        "feature": "x_bucket=3",
+        "coefficient": 0.9459060882177478
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": 0.9219508888964114
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": 0.7519982778495308
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": -0.693840508014756
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": -0.693840508014756
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.460872493620435
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.45973144583290004
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.38162653046452494
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": 0.3417428427070936
+      },
+      {
+        "feature": "mode=nature",
+        "coefficient": 0.3417428427070936
+      }
+    ]
+  },
+  "artifact_sha256": "3dd26045ba8c998056e497bc0b332ca1ad4c6e90252f1a6c1b5878cd6ac577e1"
+}

@@ -1,0 +1,146 @@
+{
+  "status": "candidate_not_integrated",
+  "real_counts": {
+    "train": 3,
+    "validation": 1,
+    "train_segmented": 3,
+    "validation_segmented": 1,
+    "train_classes": {
+      "I": 2,
+      "II": 1
+    },
+    "validation_classes": {
+      "I": 1
+    }
+  },
+  "source_group_split": {
+    "training": [
+      "source_chuapp_291737"
+    ],
+    "validation": [
+      "source_taptap_867251881297052929"
+    ],
+    "purged_shared_card_identity_count": 2,
+    "purged_records": [
+      "orange_exp_02:2",
+      "orange_exp_03:2"
+    ],
+    "card_name_intersection_train_validation": []
+  },
+  "synthetic_counts": {
+    "train": 480,
+    "validation": 120
+  },
+  "synthetic_validation": {
+    "correct": 72,
+    "total": 120,
+    "font_family": "liberation_serif"
+  },
+  "real_training_evaluation": {
+    "count": 3,
+    "outcomes": {
+      "correct": 2,
+      "abstain": 1
+    },
+    "records": [
+      {
+        "id": "orange_exp_01:2",
+        "group": "source_chuapp_291737",
+        "name": "微型复制 I",
+        "tier": "I",
+        "segmentation_error": null,
+        "prediction": {
+          "tier": "I",
+          "confidence": 0.6732,
+          "status": "candidate_only",
+          "safe_to_apply": false
+        },
+        "outcome": "correct"
+      },
+      {
+        "id": "orange_exp_01:7",
+        "group": "source_chuapp_291737",
+        "name": "次级复制 II",
+        "tier": "II",
+        "segmentation_error": null,
+        "prediction": {
+          "tier": null,
+          "confidence": 0.6428,
+          "status": "ambiguous_glyph",
+          "safe_to_apply": false
+        },
+        "outcome": "abstain"
+      },
+      {
+        "id": "orange_exp_01:8",
+        "group": "source_chuapp_291737",
+        "name": "次级复制 I",
+        "tier": "I",
+        "segmentation_error": null,
+        "prediction": {
+          "tier": "I",
+          "confidence": 0.6667,
+          "status": "candidate_only",
+          "safe_to_apply": false
+        },
+        "outcome": "correct"
+      }
+    ]
+  },
+  "real_group_validation": {
+    "count": 1,
+    "outcomes": {
+      "correct": 1
+    },
+    "records": [
+      {
+        "id": "orange_exp_04:5",
+        "group": "source_taptap_867251881297052929",
+        "name": "扩军令 I",
+        "tier": "I",
+        "segmentation_error": null,
+        "prediction": {
+          "tier": "I",
+          "confidence": 0.6626,
+          "status": "candidate_only",
+          "safe_to_apply": false
+        },
+        "outcome": "correct"
+      }
+    ]
+  },
+  "limitations": [
+    "Only development annotations were loaded; no sealed screenshots or labels were inspected.",
+    "Real validation contains very few independent examples and may not cover II/III/IV/V.",
+    "Synthetic validation is not real-game accuracy; it measures glyph classification after ideal segmentation.",
+    "Title segmentation can reject or include Chinese strokes; failed/ambiguous crops are abstentions.",
+    "No recognizer integration and no card-ID mutation; model is an unapproved candidate."
+  ],
+  "weight_files": [
+    {
+      "file": "svm_I.xml",
+      "bytes": 37706,
+      "sha256": "69c88f4d893dc41a7d83b07a7585251fbe43a500764d8e957e45c51c89bd2779"
+    },
+    {
+      "file": "svm_II.xml",
+      "bytes": 56193,
+      "sha256": "e40c908969f58fdd678b6e7f093fda7142b83d6efd96266bc2bc6b3ebea5458a"
+    },
+    {
+      "file": "svm_III.xml",
+      "bytes": 68329,
+      "sha256": "e12ee79fa241861faccd163e06bd3a61358ccbb66e3ddf376372e9dc451cea1a"
+    },
+    {
+      "file": "svm_IV.xml",
+      "bytes": 49355,
+      "sha256": "0f5847f896359ef9919ab043ca5af70bd960efc2512b82d7c7589771218a42d5"
+    },
+    {
+      "file": "svm_V.xml",
+      "bytes": 43044,
+      "sha256": "8eca0d1aa99c4f1189031656f7dc1b8b52a1a56ffbe410f487b62491ddd141cb"
+    }
+  ]
+}

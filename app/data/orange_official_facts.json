@@ -1,0 +1,4639 @@
+{
+  "as_of": "2026-11-10",
+  "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/card.js",
+  "source_type": "official_website_configuration",
+  "sha256": "b7674db6d43de092f9c04903f4bd6ab18dc60e92b853331440139087af6e2f6c",
+  "source_meta": {
+    "version": "18.18.1",
+    "season": "S400001",
+    "setId": "16",
+    "time": "2026-11-03 22:20:57"
+  },
+  "count": 201,
+  "fields_notice": "原始参数名保留，未逐个解释语义；稀有度对应能量依据社区规则，须客户端复核；未复制效果长文；无对局胜率。官网数据内版本18.18.1不等同公告补丁18.6。",
+  "cards": [
+    {
+      "id": "7210014",
+      "name_zh": "小额奖金 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "gold": "4",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210014_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210015",
+      "name_zh": "金币流 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "gold": "8",
+        "round": "4-1",
+        "gold2": "1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210015_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210016",
+      "name_zh": "财源滚滚 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "6-1"
+      ],
+      "parameters_raw": {
+        "gold": "50",
+        "round": "6-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210016_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210017",
+      "name_zh": "散件补给 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210017_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210018",
+      "name_zh": "铁匠铺 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210018_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210019",
+      "name_zh": "反曲之弓",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210019_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210020",
+      "name_zh": "侦察小队",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "0",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210020_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210021",
+      "name_zh": "中坚力量 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-3"
+      ],
+      "parameters_raw": {
+        "num": "3",
+        "cost": "3",
+        "count": "1",
+        "round": "2-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210021_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210022",
+      "name_zh": "四费援兵 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "num": "3",
+        "cost": "4",
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210022_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210023",
+      "name_zh": "王牌猎手 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "num": "3",
+        "cost": "5",
+        "count": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210023_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210024",
+      "name_zh": "精锐援兵 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "cost": "2",
+        "count": "1",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210025_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210025",
+      "name_zh": "帮忙，好伙计！ I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "star": "3",
+        "cost": "1",
+        "flatCount": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210026_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210026",
+      "name_zh": "金色军团 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "5-3"
+      ],
+      "parameters_raw": {
+        "cost": "5",
+        "count": "5",
+        "round": "5-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210027_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210027",
+      "name_zh": "次级复制 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210128_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210028",
+      "name_zh": "微型复制 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210028_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210030",
+      "name_zh": "纹章补给 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "flatCount": "1",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210030_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210032",
+      "name_zh": "升级 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "xp": "8",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210032_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210033",
+      "name_zh": "经验盛宴 I",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "5-5"
+      ],
+      "parameters_raw": {
+        "xp": "44",
+        "round": "5-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210033_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7210034",
+      "name_zh": "虚张声势",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "0",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-1"
+      ],
+      "parameters_raw": {
+        "cardStar": "5",
+        "gold": "2",
+        "round": "1-1",
+        "detail": "20046"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210034_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220015",
+      "name_zh": "假人朋友",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220015_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220018",
+      "name_zh": "回响打捞术",
+      "rarity_tier": 1,
+      "rarity_zh": "基础",
+      "deck_energy_assuming_tier_mapping": 1,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "0",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "1-4",
+        "detail": "20040"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220018_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220024",
+      "name_zh": "小额奖金 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-2"
+      ],
+      "parameters_raw": {
+        "gold": "6",
+        "round": "2-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220024_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220026",
+      "name_zh": "财源滚滚 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "6-2"
+      ],
+      "parameters_raw": {
+        "gold": "75",
+        "round": "6-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220026_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220027",
+      "name_zh": "散件补给 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "3-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220027_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220028",
+      "name_zh": "铁匠铺 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220028_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220030",
+      "name_zh": "杰作熔铸 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-6"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "4-6"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220030_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220031",
+      "name_zh": "物法皆防 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220031_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220032",
+      "name_zh": "物法皆攻 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220032_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220033",
+      "name_zh": "手套高手 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220033_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220034",
+      "name_zh": "中坚力量 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "cost": "3",
+        "count": "1",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220034_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220036",
+      "name_zh": "王牌猎手 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-6"
+      ],
+      "parameters_raw": {
+        "cost": "5",
+        "count": "1",
+        "round": "4-6"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220036_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220037",
+      "name_zh": "先遣小队",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-2"
+      ],
+      "parameters_raw": {
+        "cost": "2",
+        "count": "3",
+        "round": "2-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220037_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220038",
+      "name_zh": "精锐援兵 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "star": "3",
+        "cost": "2",
+        "count": "1",
+        "round": "4-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220038_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220039",
+      "name_zh": "微型复制 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "count": "3",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220039_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220040",
+      "name_zh": "次级复制 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-2"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "4-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220139_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220042",
+      "name_zh": "纹章补给 II",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "flatCount": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220042_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220044",
+      "name_zh": "百炼成钢",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "xp": "2",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220044_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220045",
+      "name_zh": "有意失利",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "xp": "2",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220045_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220046",
+      "name_zh": "快乐开D I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "times": "6",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220046_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220047",
+      "name_zh": "后期D牌主义 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "times": "12",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220047_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220048",
+      "name_zh": "命运卡片 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-1"
+      ],
+      "parameters_raw": {
+        "round": "1-1",
+        "cardStar": "2",
+        "gold": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220048_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220049",
+      "name_zh": "投资新手",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-3"
+      ],
+      "parameters_raw": {
+        "itemCount": "2",
+        "count": "1",
+        "itemCount1": "1",
+        "round": "2-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220049_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220050",
+      "name_zh": "熔铸之神的馈赠",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220050_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220052",
+      "name_zh": "买一赠二 I",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "unlockCost": "2",
+        "sellStar": "1",
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220052_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220053",
+      "name_zh": "2星C位开局",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-3"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "count": "1",
+        "round": "2-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220053_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220054",
+      "name_zh": "停火协议",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "itemCount1": "1",
+        "itemCount2": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220054_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220055",
+      "name_zh": "双城故事",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "itemCount1": "1",
+        "itemCount2": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220056_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220056",
+      "name_zh": "极境之民",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "itemCount1": "1",
+        "itemCount2": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220055_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220057",
+      "name_zh": "常世之外",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "itemCount1": "1",
+        "itemCount2": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220057_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7220058",
+      "name_zh": "口袋变形",
+      "rarity_tier": 2,
+      "rarity_zh": "勇士",
+      "deck_energy_assuming_tier_mapping": 2,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "num": "1",
+        "round": "1-4",
+        "detail": "20045"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220058_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230005",
+      "name_zh": "金辉尽绘",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "400001",
+        "1001"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "extraCount": "1",
+        "round": "3-1",
+        "times": "3",
+        "star": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230005_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230032",
+      "name_zh": "小额奖金 III",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "gold": "9",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230032_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230034",
+      "name_zh": "财源滚滚 III",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "6-3"
+      ],
+      "parameters_raw": {
+        "gold": "120",
+        "round": "6-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230034_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230035",
+      "name_zh": "基础锻造",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "level": "5",
+        "count": "1",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230035_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230036",
+      "name_zh": "散件大礼包",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "5-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "5-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230036_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230037",
+      "name_zh": "杰作熔铸 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "5-3"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "5-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230037_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230038",
+      "name_zh": "神器补给",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230038_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230039",
+      "name_zh": "物法皆防 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230039_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230040",
+      "name_zh": "物法皆攻 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230040_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230041",
+      "name_zh": "手套高手 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230041_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230043",
+      "name_zh": "双重暴击",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230043_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230044",
+      "name_zh": "离子巨杀",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230044_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230045",
+      "name_zh": "幸运宝箱",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230045_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230047",
+      "name_zh": "扩军令 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "0",
+        "1006"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "plus": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230047_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230048",
+      "name_zh": "四费援兵 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "cost": "4",
+        "count": "1",
+        "round": "3-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230048_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230049",
+      "name_zh": "王牌猎手 III",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-7"
+      ],
+      "parameters_raw": {
+        "cost": "5",
+        "count": "3",
+        "round": "4-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230049_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230050",
+      "name_zh": "强力盟友 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "gold": "10",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230050_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230051",
+      "name_zh": "援兵组合",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "cost": "2",
+        "count": "3",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230051_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230052",
+      "name_zh": "帮忙，好伙计！ II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-2"
+      ],
+      "parameters_raw": {
+        "star": "3",
+        "cost": "1",
+        "flatCount": "2",
+        "round": "4-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230052_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230053",
+      "name_zh": "金色军团 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "5-5"
+      ],
+      "parameters_raw": {
+        "cost": "5",
+        "count": "1",
+        "round": "5-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230053_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230054",
+      "name_zh": "混合复制",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230054_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230055",
+      "name_zh": "次级复制 III",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "count": "3",
+        "round": "4-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230055_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230057",
+      "name_zh": "纹章补给 III",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "flatCount": "2",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230058_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230058",
+      "name_zh": "纹章之书 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "4-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230057_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230060",
+      "name_zh": "经验叠经验",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-1"
+      ],
+      "parameters_raw": {
+        "xp": "4",
+        "round": "2-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230060_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230061",
+      "name_zh": "绝处逢生",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "hp": "50",
+        "xp": "40",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230061_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230062",
+      "name_zh": "快乐开D II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-3"
+      ],
+      "parameters_raw": {
+        "times": "5",
+        "round": "2-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230062_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230063",
+      "name_zh": "后期D牌主义 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "times": "15",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230063_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230064",
+      "name_zh": "蓝色法球",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "gold": "8",
+        "count": "1",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230064_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230065",
+      "name_zh": "金球之礼",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "gold": "20",
+        "count": "1",
+        "round": "1-2",
+        "level": "6"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230065_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230066",
+      "name_zh": "棱彩法球 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "gold": "40",
+        "count": "1",
+        "round": "4-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230066_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230067",
+      "name_zh": "白银之选",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230067_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230068",
+      "name_zh": "命运：黄金阶",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230068_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230069",
+      "name_zh": "命运：棱彩阶",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230069_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230070",
+      "name_zh": "符文强化 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "gold": "20",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230070_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230071",
+      "name_zh": "命运卡片 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-1"
+      ],
+      "parameters_raw": {
+        "round": "1-1",
+        "cardStar": "3",
+        "gold": "5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230071_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230072",
+      "name_zh": "寻炉乡",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "count": "8",
+        "equipnum": "1",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230072_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230081",
+      "name_zh": "炉家人 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-5",
+        "detail": "20035|20036"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230081_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230084",
+      "name_zh": "时光之力 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-5",
+        "detail": "20037|20038"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230084_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230085",
+      "name_zh": "贪欲恶魔 I",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-7",
+        "detail": "20001|20002"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230085_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230087",
+      "name_zh": "范德尔",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "round": "3-1",
+        "pct": "20"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230087_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230088",
+      "name_zh": "上古守护者",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230088_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230089",
+      "name_zh": "世界最大“恶人”",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230089_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230090",
+      "name_zh": "日月光华",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230090_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230091",
+      "name_zh": "买一赠二 II",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "unlockCost": "3",
+        "sellStar": "1",
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230091_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230094",
+      "name_zh": "坚决之阵",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "pct": "35",
+        "count": "1",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230094_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230096",
+      "name_zh": "汲取之阵",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "pct": "20",
+        "count": "1",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230096_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230103",
+      "name_zh": "同盟药水",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-1",
+        "detail": "20022"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230103_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230105",
+      "name_zh": "能抗就能打",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "pct": "30",
+        "pct1": "10",
+        "hpThreshold": "3000",
+        "perHpThresh": "1000",
+        "num": "3000",
+        "round": "1-3",
+        "detail": "20017"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230105_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230107",
+      "name_zh": "帝国反抗者",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "round": "2-5",
+        "maxhp": "25/40/60/100",
+        "detail": "20018"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230107_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230108",
+      "name_zh": "重峦叠嶂",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "round": "2-5",
+        "pct": "100",
+        "detail": "20019"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230108_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230110",
+      "name_zh": "升星药水",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-1"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "count": "1",
+        "round": "2-1",
+        "detail": "20023"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230110_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230111",
+      "name_zh": "天衣药水",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-1",
+        "detail": "20024"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230111_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230112",
+      "name_zh": "王国后裔",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "round": "2-5",
+        "count": "2",
+        "detail": "20006"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230112_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230113",
+      "name_zh": "祖安试验",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "round": "1-4",
+        "detail": "20020",
+        "hplip": "60",
+        "hppct": "40"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230113_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7230114",
+      "name_zh": "坚毅药水",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-1",
+        "detail": "20039"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230114_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240005",
+      "name_zh": "暗裔之刃",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "pct": "5",
+        "count": "1",
+        "round": "3-5",
+        "times": "30",
+        "detail": "20015"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240006_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240006",
+      "name_zh": "暗裔之怒",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "pct": "3",
+        "count": "1",
+        "maxStack": "30",
+        "round": "3-5",
+        "detail": "20016"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240005_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240016",
+      "name_zh": "小额奖金 IV",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "gold": "12",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240016_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240017",
+      "name_zh": "金币流 II",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "gold": "15",
+        "round": "4-3",
+        "gold2": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240017_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240018",
+      "name_zh": "掘金者",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "gold": "16",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240018_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240019",
+      "name_zh": "铁匠铺 III",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240019_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240020",
+      "name_zh": "光明宝箱",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "round": "4-1",
+        "count": "1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240020_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240021",
+      "name_zh": "凯旋熔炉",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "round": "1-2",
+        "num": "10"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240021_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240022",
+      "name_zh": "辅助三宝",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240022_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240023",
+      "name_zh": "极致攻防",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "itemCount1": "1",
+        "round": "3-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240023_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240024",
+      "name_zh": "扩军令 II",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "0",
+        "1006"
+      ],
+      "activation_rounds": [
+        "5-6"
+      ],
+      "parameters_raw": {
+        "plus": "2",
+        "round": "5-6"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240024_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240025",
+      "name_zh": "幸运宝箱堆 I",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-1"
+      ],
+      "parameters_raw": {
+        "count": "3",
+        "round": "4-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240025_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240026",
+      "name_zh": "四费援军",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "cost": "4",
+        "count": "2",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240026_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240027",
+      "name_zh": "王牌猎手团",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "5-2"
+      ],
+      "parameters_raw": {
+        "cost": "5",
+        "count": "2",
+        "round": "5-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240027_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240028",
+      "name_zh": "双子星",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "cost": "1",
+        "count": "1",
+        "star": "2",
+        "cost1": "1",
+        "cost2": "2",
+        "cost3": "3",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240028_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240030",
+      "name_zh": "纹章补给 IV",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "flatCount": "2",
+        "round": "4-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240030_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240031",
+      "name_zh": "金锅铲冠冕",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240031_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240032",
+      "name_zh": "羁绊大师",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "6-2"
+      ],
+      "parameters_raw": {
+        "plus": "1",
+        "round": "6-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240032_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240033",
+      "name_zh": "升级 II",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "xp": "12",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240033_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240034",
+      "name_zh": "经验盛宴 II",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "5-7"
+      ],
+      "parameters_raw": {
+        "xp": "100",
+        "round": "5-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240034_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240035",
+      "name_zh": "浮金门票",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "pct": "35",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240035_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240036",
+      "name_zh": "拾荒人",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "times": "3",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240036_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240037",
+      "name_zh": "彩球之礼",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "level": "8",
+        "count": "1",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240037_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240038",
+      "name_zh": "黄金之选",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240038_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240039",
+      "name_zh": "棱彩之选 I",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "4-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "4-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240039_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240040",
+      "name_zh": "符文强化 II",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "gold": "8",
+        "round": "1-3",
+        "gold2": "10"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240040_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240041",
+      "name_zh": "时间引擎保险",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "0",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240041_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240042",
+      "name_zh": "命运卡片 III",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-1"
+      ],
+      "parameters_raw": {
+        "round": "1-1",
+        "cardStar": "4",
+        "gold": "7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240042_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240058",
+      "name_zh": "多重投资",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "silverCoin": "100",
+        "soul": "45",
+        "sunShard": "50",
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240058_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240059",
+      "name_zh": "夺魂海怪",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "5-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "hpFlat": "20",
+        "round": "5-1",
+        "num": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240059_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240060",
+      "name_zh": "力量的召唤",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "copyStar": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240060_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240061",
+      "name_zh": "恶魔降世",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "plus": "2",
+        "copyStar": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240061_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240062",
+      "name_zh": "旧日蛮神",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "plus": "2",
+        "copyStar": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240062_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240063",
+      "name_zh": "苦痛典狱",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "plus": "2",
+        "copyStar": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240063_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240064",
+      "name_zh": "买一赠二 III",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "unlockCost": "4",
+        "sellStar": "1",
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240064_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240068",
+      "name_zh": "峡谷先锋奇袭！",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "times": "2",
+        "round": "4-5",
+        "detail": "20028"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240068_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240069",
+      "name_zh": "迅捷蟹奇袭！",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "times": "2",
+        "round": "3-5",
+        "detail": "20029"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240069_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240071",
+      "name_zh": "斗士之阵",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "count": "2",
+        "hpPerm": "60",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240071_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240072",
+      "name_zh": "不屈之阵",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "sec": "1",
+        "round": "2-5",
+        "detail": "20011"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240072_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240073",
+      "name_zh": "败者的智慧",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "5-1"
+      ],
+      "parameters_raw": {
+        "equipnum": "3",
+        "round": "5-1",
+        "num": "2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240073_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240077",
+      "name_zh": "四星的第一步",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "star": "3",
+        "star1": "3",
+        "count": "1",
+        "round": "1-3",
+        "timedelay": "5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240077_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240080",
+      "name_zh": "命运之轮：厄斐琉斯",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "times": "10",
+        "round": "1-4",
+        "count": "1",
+        "detail": "20005"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240080_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240087",
+      "name_zh": "暗裔之风",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "range": "1",
+        "round": "3-5",
+        "detail": "20014"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240087_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240088",
+      "name_zh": "暗裔之霸符",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "pct": "50",
+        "count": "1",
+        "manaRecover": "10",
+        "manaRecoverLow": "30",
+        "round": "3-5",
+        "detail": "20013"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240088_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240089",
+      "name_zh": "富贵险中求",
+      "rarity_tier": 3,
+      "rarity_zh": "王者",
+      "deck_energy_assuming_tier_mapping": 3,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-1"
+      ],
+      "parameters_raw": {
+        "num1": "100",
+        "num2": "200",
+        "num3": "400",
+        "num4": "800",
+        "round": "1-1",
+        "detail": "20051"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240089_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240090",
+      "name_zh": "伊莉丝夫人",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "round": "2-7",
+        "detail": "20031"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240090_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240091",
+      "name_zh": "灼烧炼狱",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4",
+        "3-7"
+      ],
+      "parameters_raw": {
+        "round2": "3-7",
+        "pct": "200",
+        "count": "1",
+        "flatCount": "1",
+        "round": "1-4",
+        "detail": "20034"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240091_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240092",
+      "name_zh": "部分变形重组",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "num": "3",
+        "round": "3-1",
+        "cost": "1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240092_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240093",
+      "name_zh": "大神降临",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "round": "3-7",
+        "cost": "7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240093_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240094",
+      "name_zh": "三顾炉乡",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "level": "7、8、9",
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240094_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240095",
+      "name_zh": "破格征召",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "num": "4",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240095_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240096",
+      "name_zh": "解锁天梯",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "400001",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "gold": "2",
+        "heronum": "25",
+        "round": "1-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240096_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7240097",
+      "name_zh": "中庸之道",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "gold": "8",
+        "legendhp": "15",
+        "round": "1-3",
+        "detail": "20050"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240097_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250010",
+      "name_zh": "利滚利",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "interest": "7",
+        "gold": "20",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250010_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250011",
+      "name_zh": "自选神器",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "choiceFrom": "4",
+        "choiceTo": "1",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250011_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250012",
+      "name_zh": "熔铸之神的杰作 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "5-3"
+      ],
+      "parameters_raw": {
+        "count": "3",
+        "round": "5-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250012_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250013",
+      "name_zh": "幸运宝箱堆 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-1",
+        "times": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250013_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250014",
+      "name_zh": "手套专家",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "0",
+        "1003"
+      ],
+      "activation_rounds": [
+        "2-3",
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "2-3",
+        "round2": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250014_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250015",
+      "name_zh": "王牌猎手 IV",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "cost": "5",
+        "count": "1",
+        "round": "1-4"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250015_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250016",
+      "name_zh": "强力盟友 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "0",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "gold": "16",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250016_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250017",
+      "name_zh": "复制复制复制…",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "6-3"
+      ],
+      "parameters_raw": {
+        "count": "5",
+        "round": "6-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250017_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250018",
+      "name_zh": "纹章之书 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250018_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250019",
+      "name_zh": "羁绊神树",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "0",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "classNum": "2",
+        "equipNum": "3",
+        "round": "4-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250019_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250020",
+      "name_zh": "经验流",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "xp": "3",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250020_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250021",
+      "name_zh": "快乐开D III",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "5-3"
+      ],
+      "parameters_raw": {
+        "times": "40",
+        "round": "5-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250021_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250022",
+      "name_zh": "金色法球 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "gold": "20",
+        "count": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250022_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250023",
+      "name_zh": "棱彩法球 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "5-3"
+      ],
+      "parameters_raw": {
+        "gold": "80",
+        "count": "2",
+        "round": "5-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250023_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250025",
+      "name_zh": "棱彩之选 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "0",
+        "1004"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250025_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250026",
+      "name_zh": "登峰烈阳",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-3"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "count": "2",
+        "plus": "1",
+        "traitTier": "3",
+        "round": "2-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250026_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250029",
+      "name_zh": "行走于棱彩之道",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-4",
+        "6-1"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "traitTier": "10",
+        "traitTier1": "10",
+        "round": "1-4",
+        "round2": "6-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250029_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250031",
+      "name_zh": "炉家人 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "plusRound": "1",
+        "round": "3-7",
+        "detail": "20035|20036|20047"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250031_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250034",
+      "name_zh": "时光之力 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-1",
+        "detail": "20037|20038"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250034_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250035",
+      "name_zh": "贪欲恶魔 II",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-3"
+      ],
+      "parameters_raw": {
+        "gold": "2",
+        "count": "1",
+        "round": "3-3",
+        "detail": "20001|20002"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250035_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250036",
+      "name_zh": "黑玫瑰夜市",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-3"
+      ],
+      "parameters_raw": {
+        "star": "2",
+        "sellStar": "1",
+        "round": "1-3",
+        "num": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250036_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250037",
+      "name_zh": "穿梭未来",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "400001",
+        "1001"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "star": "8",
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250037_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250039",
+      "name_zh": "投资高手",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "特殊",
+      "source_tags": [
+        "400001",
+        "1006"
+      ],
+      "activation_rounds": [
+        "1-4"
+      ],
+      "parameters_raw": {
+        "pct1": "15",
+        "pct2": "50",
+        "count": "1",
+        "round": "1-4",
+        "detail": "20025"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250039_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250040",
+      "name_zh": "少女的炎魔",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "plus": "1",
+        "round": "2-7",
+        "detail": "20042"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250040_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250041",
+      "name_zh": "黑夜恐惧",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "sec": "2",
+        "sec1": "8",
+        "round": "2-7",
+        "detail": "20033"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250041_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250042",
+      "name_zh": "系魂圣枪",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-7"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "indepCount": "2",
+        "slots": "1",
+        "round": "2-7"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250042_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250044",
+      "name_zh": "宿命的抉择",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "强化",
+      "source_tags": [
+        "400001",
+        "1004"
+      ],
+      "activation_rounds": [
+        "2-5",
+        "4-3"
+      ],
+      "parameters_raw": {
+        "round2": "4-3",
+        "count": "1",
+        "round": "2-5"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250044_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250045",
+      "name_zh": "全职高手",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "count": "7",
+        "round": "4-5",
+        "detail": "20044"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250045_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250046",
+      "name_zh": "德玛西亚巨像",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "round": "3-5",
+        "detail": "20041"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250046_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250047",
+      "name_zh": "流浪的救世者",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "400001",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-5"
+      ],
+      "parameters_raw": {
+        "plus": "1",
+        "round": "4-5",
+        "detail": "20049"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250047_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250048",
+      "name_zh": "虚空入侵",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "3",
+        "round": "3-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250048_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250049",
+      "name_zh": "量身定制",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "round": "3-5",
+        "equipNum": "1",
+        "detail": "20048"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250049_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250050",
+      "name_zh": "无极之道",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "round": "2-5",
+        "detail": "20003"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250050_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250051",
+      "name_zh": "登神长阶",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "2-5"
+      ],
+      "parameters_raw": {
+        "round": "2-5",
+        "detail": "20004"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250051_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250052",
+      "name_zh": "力量之阵",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "1-1"
+      ],
+      "parameters_raw": {
+        "pct": "12",
+        "count": "1",
+        "round": "1-1"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250052_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250056",
+      "name_zh": "传说的主角",
+      "rarity_tier": 4,
+      "rarity_zh": "史诗",
+      "deck_energy_assuming_tier_mapping": 4,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "装备",
+      "source_tags": [
+        "400001",
+        "1003"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "itemCount": "1",
+        "count": "1",
+        "flatCount": "1",
+        "round": "3-1",
+        "detail": "20032"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250056_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250059",
+      "name_zh": "万物落笔端",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-5"
+      ],
+      "parameters_raw": {
+        "round": "3-5",
+        "cost": "3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250059_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250060",
+      "name_zh": "塔利斯议员",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "3-1"
+      ],
+      "parameters_raw": {
+        "count": "1",
+        "round": "3-1",
+        "detail": "20043"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250060_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250061",
+      "name_zh": "远古巨龙",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "弈子",
+      "source_tags": [
+        "400001",
+        "1002"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "pct": "20",
+        "pct1": "20",
+        "round": "4-3",
+        "detail": "20027"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250061_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250068",
+      "name_zh": "高处不胜寒",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "400001",
+        "1005"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "count": "3",
+        "tier1": "2",
+        "tier2": "4",
+        "tier3": "6",
+        "num": "1",
+        "num1": "2",
+        "round": "1-2",
+        "detail": "20030"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250068_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250069",
+      "name_zh": "双城传说",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "羁绊",
+      "source_tags": [
+        "400001",
+        "1005"
+      ],
+      "activation_rounds": [
+        "4-3"
+      ],
+      "parameters_raw": {
+        "round": "4-3"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250069_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    },
+    {
+      "id": "7250071",
+      "name_zh": "永恒的心",
+      "rarity_tier": 5,
+      "rarity_zh": "传说",
+      "deck_energy_assuming_tier_mapping": 5,
+      "energy_mapping_status": "community_rule_matches_official_tier_not_client_verified",
+      "category": "经济",
+      "source_tags": [
+        "0",
+        "1001"
+      ],
+      "activation_rounds": [
+        "1-2"
+      ],
+      "parameters_raw": {
+        "gold": "2",
+        "round": "1-2"
+      },
+      "icon_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250071_icon.png",
+      "rule_status": "official_web_configuration_not_live_client_verified"
+    }
+  ],
+  "community_comparison": {
+    "source_url": "https://jcc.np5.top/tools/orange-fortune",
+    "count": 201,
+    "ids_names_rarity_all_match": true,
+    "note": "社区页面标注先遣服，但201个ID/名称/品阶与2026-11-03官网卡配置完全一致；效果/门票未据此确认。"
+  }
+}

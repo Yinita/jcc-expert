@@ -1,0 +1,969 @@
+{
+  "purpose": "52 genuine public UI screenshots. All former tests are consumed development; 7 new source-held frames evaluated once after freeze. Not independent matches or win-outcome data.",
+  "images": 7,
+  "source_groups": 17,
+  "samples": [
+    {
+      "id": "r3_nature_sealed_01",
+      "file": "images/r3_nature_sealed_01.png",
+      "mode": "nature",
+      "group_id": "bili_BV1iX8462E3c",
+      "source_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": "5-1",
+        "gold": 51,
+        "hp": 64,
+        "level": 7,
+        "shop": [
+          "12508",
+          "12503",
+          "13500",
+          "14501",
+          null
+        ]
+      },
+      "width": 1264,
+      "height": 720,
+      "field_boxes": {
+        "stage": [
+          0.367089,
+          0.009722,
+          0.02057,
+          0.023611
+        ],
+        "gold": [
+          0.502373,
+          0.784722,
+          0.015823,
+          0.022222
+        ],
+        "hp": [
+          0.916139,
+          0.254167,
+          0.026108,
+          0.034722
+        ],
+        "level": [
+          0.183544,
+          0.784722,
+          0.007911,
+          0.025
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.197785,
+            0.875,
+            0.010285,
+            0.022222
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.198576,
+            0.955556,
+            0.010285,
+            0.022222
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.628165,
+            0.009722,
+            0.018196,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "21",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [],
+      "notes": [
+        "Slot 5 is natural charm 高阶变形术. Own HP row is the enlarged highlighted row; no HP inferred from a health bar."
+      ],
+      "shop_names": [
+        "沃里克",
+        "慎",
+        "赫卡里姆",
+        "莫甘娜",
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "pixel_sha256": "56f4892724266370a110e49c3a3ea2ecdfbe3290e2812bce0974ac3987e2c500",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "source_image_url": null,
+      "video_id": "BV1iX8462E3c",
+      "timestamp_seconds": 60,
+      "frame_sha256": "56f4892724266370a110e49c3a3ea2ecdfbe3290e2812bce0974ac3987e2c500",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "original_filename": "r3_nature_sealed_01.png",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559"
+    },
+    {
+      "id": "r3_nature_sealed_02",
+      "file": "images/r3_nature_sealed_02.png",
+      "mode": "nature",
+      "group_id": "bili_BV1iX8462E3c",
+      "source_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": "5-1",
+        "gold": null,
+        "hp": 64,
+        "level": 8,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "width": 1264,
+      "height": 720,
+      "field_boxes": {
+        "stage": [
+          0.367089,
+          0.009722,
+          0.02057,
+          0.023611
+        ],
+        "hp": [
+          0.916139,
+          0.254167,
+          0.026108,
+          0.034722
+        ],
+        "level": [
+          0.431962,
+          0.131944,
+          0.009494,
+          0.023611
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.63212,
+            0.009722,
+            0.010285,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "1",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.546677,
+            0.743056,
+            0.012658,
+            0.018056
+          ],
+          "kind": "item_choice_countdown",
+          "text": "26",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [
+        "gold",
+        "shop"
+      ],
+      "notes": [
+        "Equipment-selection overlay covers shop, gold and ordinary level HUD. Level visible only in own named little-legend badge. Four item options are not shop hero slots."
+      ],
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "pixel_sha256": "4bc28ad7f6e718210ca7bc5fcb38fb5162caf04629c7b0551f4c4f674593ff0f",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "source_image_url": null,
+      "video_id": "BV1iX8462E3c",
+      "timestamp_seconds": 80,
+      "frame_sha256": "4bc28ad7f6e718210ca7bc5fcb38fb5162caf04629c7b0551f4c4f674593ff0f",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "original_filename": "r3_nature_sealed_02.png",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2"
+    },
+    {
+      "id": "r3_nature_sealed_03",
+      "file": "images/r3_nature_sealed_03.png",
+      "mode": "nature",
+      "group_id": "bili_BV1iX8462E3c",
+      "source_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": "5-1",
+        "gold": 39,
+        "hp": 64,
+        "level": 8,
+        "shop": [
+          "12508",
+          "12503",
+          "13500",
+          "14501",
+          "12503"
+        ]
+      },
+      "width": 1264,
+      "height": 720,
+      "field_boxes": {
+        "stage": [
+          0.367089,
+          0.009722,
+          0.02057,
+          0.023611
+        ],
+        "gold": [
+          0.501582,
+          0.784722,
+          0.017405,
+          0.022222
+        ],
+        "hp": [
+          0.916139,
+          0.254167,
+          0.026108,
+          0.034722
+        ],
+        "level": [
+          0.183544,
+          0.784722,
+          0.007911,
+          0.025
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.197785,
+            0.875,
+            0.010285,
+            0.022222
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.198576,
+            0.955556,
+            0.010285,
+            0.022222
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.628165,
+            0.009722,
+            0.018196,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "17",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.564873,
+            0.788889,
+            0.011076,
+            0.023611
+          ],
+          "kind": "streak_counter",
+          "text": "4",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [],
+      "notes": [
+        "Battle stage; own HUD remains visible."
+      ],
+      "shop_names": [
+        "沃里克",
+        "慎",
+        "赫卡里姆",
+        "莫甘娜",
+        "慎"
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "pixel_sha256": "c9f79fdff12e5b381eb632038eff84d205f595c26b2c2f6c0c956852bcd7b792",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "source_image_url": null,
+      "video_id": "BV1iX8462E3c",
+      "timestamp_seconds": 100,
+      "frame_sha256": "c9f79fdff12e5b381eb632038eff84d205f595c26b2c2f6c0c956852bcd7b792",
+      "sampling_plan": "Fixed 20-second spacing at 60, 80, 100 seconds in gameplay segment; opening 0-40 seconds is a non-game meme and excluded.",
+      "original_filename": "r3_nature_sealed_03.png",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202"
+    },
+    {
+      "id": "r3_nature_sealed_04",
+      "file": "images/r3_nature_sealed_04.png",
+      "mode": "nature",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "source_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": null,
+        "gold": 51,
+        "hp": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "width": 720,
+      "height": 720,
+      "field_boxes": {
+        "gold": [
+          0.883333,
+          0.872222,
+          0.061111,
+          0.044444
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.209722,
+            0.004167,
+            0.036111,
+            0.027778
+          ],
+          "kind": "countdown",
+          "text": "20",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.902778,
+            0.629167,
+            0.029167,
+            0.034722
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.231944,
+            0.411111,
+            0.023611,
+            0.034722
+          ],
+          "kind": "shop_price",
+          "text": "3",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.944444,
+            0.411111,
+            0.023611,
+            0.034722
+          ],
+          "kind": "charm_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.881944,
+            0.788889,
+            0.040278,
+            0.036111
+          ],
+          "kind": "streak_counter",
+          "text": "10",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [
+        "stage",
+        "hp",
+        "level"
+      ],
+      "notes": [
+        "Original public video is edited to a square right-side crop. No full stage, HP, or level exists in frame. Partial shop cannot establish all five slot identities with certainty, so labels remain null."
+      ],
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "pixel_sha256": "58de9bec7c89853d83fe7162af1a9b0a2ca363bd3954cf45bb7ce6208473679f",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "source_image_url": null,
+      "video_id": "BV1Z6tJ6REny",
+      "timestamp_seconds": 50,
+      "frame_sha256": "58de9bec7c89853d83fe7162af1a9b0a2ca363bd3954cf45bb7ce6208473679f",
+      "sampling_plan": "Fixed 20-second spacing at 50 and 70 seconds; edited square crop of original public gameplay video.",
+      "original_filename": "r3_nature_sealed_04.png",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5"
+    },
+    {
+      "id": "r3_nature_sealed_05",
+      "file": "images/r3_nature_sealed_05.png",
+      "mode": "nature",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "source_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": null,
+        "gold": 20,
+        "hp": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "width": 720,
+      "height": 720,
+      "field_boxes": {
+        "gold": [
+          0.868056,
+          0.881944,
+          0.059722,
+          0.043056
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "field_boxes_origin": "per_sample_manual",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.191667,
+            0.019444,
+            0.036111,
+            0.029167
+          ],
+          "kind": "countdown",
+          "text": "20",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.865278,
+            0.638889,
+            0.040278,
+            0.038889
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.209722,
+            0.427778,
+            0.023611,
+            0.034722
+          ],
+          "kind": "shop_price",
+          "text": "3",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.926389,
+            0.427778,
+            0.023611,
+            0.034722
+          ],
+          "kind": "charm_price",
+          "text": "2",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        },
+        {
+          "bbox": [
+            0.879167,
+            0.793056,
+            0.022222,
+            0.034722
+          ],
+          "kind": "streak_counter",
+          "text": "1",
+          "not_fields": [
+            "stage",
+            "gold",
+            "hp",
+            "level"
+          ]
+        }
+      ],
+      "absent_fields": [
+        "stage",
+        "hp",
+        "level"
+      ],
+      "notes": [
+        "Same original video and edited square crop; not an independent match. Missing four leftward shop slots/partial cards must not be invented."
+      ],
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "label_method": "manual_view_image",
+      "recognizer_used": false,
+      "sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "pixel_sha256": "d426d300e2f102389061a7cf1bbeddc9bf10317dca20fda34498e41e1bd628b5",
+      "season": "S18 自然之力",
+      "season_confirmed": true,
+      "patch": null,
+      "server_status": "post_release_public_video_unverified_server",
+      "platform": "jcc_mobile_interface",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "source_image_url": null,
+      "video_id": "BV1Z6tJ6REny",
+      "timestamp_seconds": 70,
+      "frame_sha256": "d426d300e2f102389061a7cf1bbeddc9bf10317dca20fda34498e41e1bd628b5",
+      "sampling_plan": "Fixed 20-second spacing at 50 and 70 seconds; edited square crop of original public gameplay video.",
+      "original_filename": "r3_nature_sealed_05.png",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde"
+    },
+    {
+      "id": "orange_r3_01",
+      "file": "images/orange_r3_01.jpg",
+      "image_url": "https://img2-tc.tapimg.com/moment/etag/FsvvyNU2aWg_Yj41AjB7j-os0fgS_20261108141903.jpg/_tap_ugc.jpg",
+      "image_size": {
+        "width": 1080,
+        "height": 486
+      },
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "exact_decoded_duplicate_old": false,
+      "mode": "orange",
+      "patch": null,
+      "group_id": "source_taptap_868497523528958560",
+      "source_id": "taptap_868497523528958560",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "source_image_url": "https://img2-tc.tapimg.com/moment/etag/FsvvyNU2aWg_Yj41AjB7j-os0fgS_20261108141903.jpg/_tap_ugc.jpg",
+      "date": "2026-11-08",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "training_allowed": false,
+      "server_status": "unverified",
+      "mode_confirmed": true,
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230072",
+            "entity_id": "7230072",
+            "card_id": "7230072",
+            "name": "寻炉乡",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.459,
+              0.202,
+              0.161,
+              0.57
+            ],
+            "title_bbox": [
+              0.482,
+              0.552,
+              0.112,
+              0.037
+            ],
+            "role": "displayed_deck_card",
+            "box_precision": "manual_approximate"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240091",
+            "entity_id": "7240091",
+            "card_id": "7240091",
+            "name": "灼烧炼狱",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.632,
+              0.202,
+              0.161,
+              0.57
+            ],
+            "title_bbox": [
+              0.655,
+              0.552,
+              0.112,
+              0.037
+            ],
+            "role": "displayed_deck_card",
+            "box_precision": "manual_approximate"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220018",
+            "entity_id": "7220018",
+            "card_id": "7220018",
+            "name": "回响打捞术",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.803,
+              0.202,
+              0.161,
+              0.57
+            ],
+            "title_bbox": [
+              0.825,
+              0.552,
+              0.112,
+              0.037
+            ],
+            "role": "displayed_deck_card",
+            "box_precision": "manual_approximate"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230072",
+          "entity_id": "7230072",
+          "card_id": "7230072",
+          "name": "寻炉乡",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.459,
+            0.202,
+            0.161,
+            0.57
+          ],
+          "title_bbox": [
+            0.482,
+            0.552,
+            0.112,
+            0.037
+          ],
+          "role": "displayed_deck_card",
+          "box_precision": "manual_approximate"
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240091",
+          "entity_id": "7240091",
+          "card_id": "7240091",
+          "name": "灼烧炼狱",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.632,
+            0.202,
+            0.161,
+            0.57
+          ],
+          "title_bbox": [
+            0.655,
+            0.552,
+            0.112,
+            0.037
+          ],
+          "role": "displayed_deck_card",
+          "box_precision": "manual_approximate"
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220018",
+          "entity_id": "7220018",
+          "card_id": "7220018",
+          "name": "回响打捞术",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.803,
+            0.202,
+            0.161,
+            0.57
+          ],
+          "title_bbox": [
+            0.825,
+            0.552,
+            0.112,
+            0.037
+          ],
+          "role": "displayed_deck_card",
+          "box_precision": "manual_approximate"
+        }
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-12",
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "notes": {
+        "current_state": "Lobby and historic record values are not current match state. Null means unknown/not applicable, not an empty shop.",
+        "entity_semantics": "Visible deck cards remain candidates and do not establish current-match possession. Historic row heroes, levels and gains are not current board or current gold.",
+        "server_status": "Published after official launch; exact screenshot client build, patch and capture date are not independently verified.",
+        "split_integrity": "Whole new article group reserved; no OCR or recognizer has been run on these images before freezing.",
+        "duplicates": "No exact decoded pixel hash equals any old all_annotations sample; semantic independence of all shared game assets is not guaranteed."
+      },
+      "original_filename": "orange_r3_01.jpg"
+    },
+    {
+      "id": "orange_r3_02",
+      "file": "images/orange_r3_02.jpg",
+      "image_url": "https://img2-tc.tapimg.com/moment/etag/Fn0arhEkamRH_kq4vrLI0meLeHH0_20261108141905.jpg/_tap_ugc.jpg",
+      "image_size": {
+        "width": 1080,
+        "height": 486
+      },
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "exact_decoded_duplicate_old": false,
+      "mode": "orange",
+      "patch": null,
+      "group_id": "source_taptap_868497523528958560",
+      "source_id": "taptap_868497523528958560",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "source_image_url": "https://img2-tc.tapimg.com/moment/etag/Fn0arhEkamRH_kq4vrLI0meLeHH0_20261108141905.jpg/_tap_ugc.jpg",
+      "date": "2026-11-08",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "training_allowed": false,
+      "server_status": "unverified",
+      "mode_confirmed": true,
+      "match_id": null,
+      "screen_type": "orange_match_history",
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": []
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "field_boxes": {},
+      "card_boxes": [],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-12",
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "notes": {
+        "current_state": "Lobby and historic record values are not current match state. Null means unknown/not applicable, not an empty shop.",
+        "entity_semantics": "Visible deck cards remain candidates and do not establish current-match possession. Historic row heroes, levels and gains are not current board or current gold.",
+        "server_status": "Published after official launch; exact screenshot client build, patch and capture date are not independently verified.",
+        "split_integrity": "Whole new article group reserved; no OCR or recognizer has been run on these images before freezing.",
+        "duplicates": "No exact decoded pixel hash equals any old all_annotations sample; semantic independence of all shared game assets is not guaranteed."
+      },
+      "original_filename": "orange_r3_02.jpg"
+    }
+  ]
+}

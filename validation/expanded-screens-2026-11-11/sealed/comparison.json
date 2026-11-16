@@ -1,0 +1,273 @@
+{
+  "images": 11,
+  "source_groups": 4,
+  "freeze_verified_before_and_after": true,
+  "revisions": {
+    "baseline": {
+      "labelled": 13,
+      "correct": 5,
+      "wrong": 0,
+      "abstain": 8,
+      "unlabelled": 86,
+      "answered": 5,
+      "coverage": 0.38461538461538464,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.38461538461538464,
+      "samples": 11,
+      "recognition_errors": 0,
+      "unique_original_groups": 4,
+      "per_field": {
+        "stage": {
+          "labelled": 5,
+          "correct": 5,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 6,
+          "answered": 5,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "hp": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 11,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "level": {
+          "labelled": 3,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 8,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[0]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[1]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[2]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[3]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 11,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 11,
+        "mean": 11121.141864268628,
+        "p50": 8469.576709991088,
+        "p95": 19740.712892002193
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 11
+      },
+      "contract_checks_run": 11,
+      "unconfirmed_states": 11,
+      "null_personal_probability_checks": 11,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.47222222222222215,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.47222222222222215
+      }
+    },
+    "optimized": {
+      "labelled": 13,
+      "correct": 5,
+      "wrong": 0,
+      "abstain": 8,
+      "unlabelled": 86,
+      "answered": 5,
+      "coverage": 0.38461538461538464,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.38461538461538464,
+      "samples": 11,
+      "recognition_errors": 0,
+      "unique_original_groups": 4,
+      "per_field": {
+        "stage": {
+          "labelled": 5,
+          "correct": 5,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 6,
+          "answered": 5,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "hp": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 11,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "level": {
+          "labelled": 3,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 8,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[0]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[1]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[2]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[3]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 11,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 11,
+        "mean": 7855.667388270376,
+        "p50": 5419.873066988657,
+        "p95": 20426.07225550455
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 11
+      },
+      "contract_checks_run": 11,
+      "unconfirmed_states": 11,
+      "null_personal_probability_checks": 11,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.47222222222222215,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.47222222222222215
+      }
+    }
+  }
+}

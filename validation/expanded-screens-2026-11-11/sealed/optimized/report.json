@@ -1,0 +1,3118 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-11-11T08:29:31.617213+00:00",
+  "metadata": {
+    "recognizer_module": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/vision.py",
+    "recognizer_sha256": "da33df0b78779768b0fa7edd88ec275da4ba185fa26accaddd5987d69966a5dc",
+    "annotations_sha256": "175e347a54346d202b7780ca3b74a6ae589e5ee037e03acac8e5a83cc852eb3c",
+    "sample_count": 11,
+    "created_at": "2026-11-11T08:29:31.605961+00:00",
+    "annotation_metadata": {
+      "purpose": "Eleven newly sealed images first read after FREEZE.json; no adaptive tuning this round; default-only"
+    },
+    "paired_shared_ocr_runtime": true,
+    "default_only": true,
+    "performance_comparison_eligible": false,
+    "freeze_sha256": "2f09c76bc65c6f627ef734100ff0bb06a8b9c76f658c629b87093c05190262e8",
+    "runtime": {
+      "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+      "packages": {
+        "Pillow": "11.3.0",
+        "numpy": "2.2.6",
+        "opencv-python": "4.13.0.92",
+        "scikit-learn": "1.7.2",
+        "pydantic": "2.10.6"
+      },
+      "tesseract": "tesseract 4.1.1"
+    }
+  },
+  "definitions": {
+    "correct": "有人工标签且识别值与标签完全一致",
+    "wrong": "有人工标签且识别输出非空，但与标签不一致或格式无效",
+    "abstain": "有人工标签但识别值为null/缺失；运行失败也计弃答，另计错误数",
+    "unlabelled": "标签缺失或null，不加入正确、错误、弃答分母",
+    "coverage": "(correct+wrong)/(correct+wrong+abstain)",
+    "precision": "correct/(correct+wrong)，零回答时为null，不是100%",
+    "end_to_end_correct_rate": "correct/(correct+wrong+abstain)",
+    "group_balanced_macro": "先在同一原始画面组内计算指标，再平均非null组指标；不是独立样本置信区间",
+    "latency": "单次recognize总耗时，包含OCR/图标匹配；不含推荐检查。每track独立缓存，首次调用含冷启动。",
+    "shop_empty": "标签null为未标注；{empty:true}为已知空格，输出null仍是弃答而非正确。"
+  },
+  "limitations": [
+    "默认识别与人工区域辅助是不同任务；后者不能宣传为全自动识别准确率。",
+    "profile track仅覆盖提供区域的样本。配对比较应使用default_on_profile_subset，而非直接比较不同样本总体。",
+    "holdout由标注声明，不是自动独立验证；人工区域若针对每图调节，不能当作冻结布局泛化结果。",
+    "group_id只能依赖采集者诚实标注原始画面；工具另外检查解码后完全重复的图片，无法自动证明所有裁片同源关系。",
+    "按同一原始画面分组，不把原图与其裁片当独立评测证据。没有组声明的样本仅按相同像素去重，holdout独立性未确认。",
+    "没有完整实体标注时，不计算英雄候选全量召回率或把未标注候选判错。",
+    "needs_confirmation/空个人概率是交互安全契约检查。截图识别指标与比赛第一率提升无等价关系。",
+    "没有训练、保存对局或将识别结果自动置为confirmed；截图和标签不会进入用户训练数据库。"
+  ],
+  "samples": [
+    {
+      "id": "nature_sealed_01",
+      "mode": "nature",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "source_image_url": "https://img2.ali213.net/picfile/News/2026/08/20/584_2026082055931308.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 584,
+      "original_height": 278,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "对局中的英雄/羁绊详情画面；商店不可见。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "image_size": {
+        "width": 584,
+        "height": 278
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "nature_sealed_02",
+      "mode": "nature",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "source_image_url": "https://img2.ali213.net/picfile/News/2026/08/20/584_2026082055932488.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 584,
+      "original_height": 310,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "作者原始英雄技能详情裁图；不把敌方小小英雄等级或技能数值当本方资源。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "image_size": {
+        "width": 584,
+        "height": 310
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "nature_sealed_03",
+      "mode": "nature",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "source_image_url": "https://img2.ali213.net/picfile/News/2026/08/20/584_202608205593312.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 584,
+      "original_height": 316,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实强化符文详情，资源区域不在图内。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "image_size": {
+        "width": 584,
+        "height": 316
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "nature_sealed_04",
+      "mode": "nature",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "source_image_url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/ARmWHRbuaywhvsy.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 453,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实战斗，羁绊详情展开，右侧为伤害统计非玩家HP。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "image_size": {
+        "width": 1080,
+        "height": 453
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "nature_sealed_05",
+      "mode": "nature",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "source_image_url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/rNuqvdbuaywhuot.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 293,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "作者原始商店裁图；第5槽生生不息仙灵。"
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "charm"
+      ],
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "image_size": {
+        "width": 1080,
+        "height": 293
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "nature_sealed_06",
+      "mode": "nature",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "source_image_url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/pJCvdQbuaywhpgr.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 666,
+      "original_height": 460,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实强化选项卡裁图；不将卡片说明获得的1个单位当人口。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "image_size": {
+        "width": 666,
+        "height": 460
+      },
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_exp_07",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793787296_626252_jpeg_r.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_card_detail",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "training_allowed": false,
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_exp_08",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793787306_117943_jpeg_r.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_card_detail",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "training_allowed": false,
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_exp_09",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793786304_205057_jpeg_r.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_super_time",
+      "image_size": {
+        "width": 1080,
+        "height": 496
+      },
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "Super-time modal occludes most board and resource HUD; only clearly legible top-stage and any visible level are annotated.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "training_allowed": false,
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_exp_10",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "source_image_url": "https://img2-tc.tapimg.com/video/cover/FoEI8iIMsg9N5pvVlXTitQ2mzWM5_20261105191148.jpg",
+      "date": null,
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "screen_type": "orange_loadout",
+      "image_size": {
+        "width": 2400,
+        "height": 1080
+      },
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "mode": "orange",
+      "source_id": "taptap_867484028389820540",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "training_allowed": false,
+      "grouping_explicit": true
+    },
+    {
+      "id": "orange_exp_11",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793787277_310135.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_super_time",
+      "image_size": {
+        "width": 1048,
+        "height": 480
+      },
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "Super-time modal occludes most board and resource HUD; only clearly legible top-stage and any visible level are annotated.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "training_allowed": false,
+      "grouping_explicit": true
+    }
+  ],
+  "grouping": {
+    "unique_original_groups": 4,
+    "all_groups_explicit": true,
+    "holdout_groups_explicit": true,
+    "declared_cross_split_or_exact_duplicate_leakage": false,
+    "split_counts": {
+      "holdout": 11
+    }
+  },
+  "tracks": {
+    "default": {
+      "labelled": 13,
+      "correct": 5,
+      "wrong": 0,
+      "abstain": 8,
+      "unlabelled": 86,
+      "answered": 5,
+      "coverage": 0.38461538461538464,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.38461538461538464,
+      "samples": 11,
+      "recognition_errors": 0,
+      "unique_original_groups": 4,
+      "per_field": {
+        "stage": {
+          "labelled": 5,
+          "correct": 5,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 6,
+          "answered": 5,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "hp": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 11,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "level": {
+          "labelled": 3,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 8,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[0]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[1]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[2]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[3]": {
+          "labelled": 1,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 1,
+          "unlabelled": 10,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 11,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 11,
+        "mean": 7855.667388270376,
+        "p50": 5419.873066988657,
+        "p95": 20426.07225550455
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 11
+      },
+      "contract_checks_run": 11,
+      "unconfirmed_states": 11,
+      "null_personal_probability_checks": 11,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.47222222222222215,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.47222222222222215
+      }
+    },
+    "profile": {
+      "labelled": 0,
+      "correct": 0,
+      "wrong": 0,
+      "abstain": 0,
+      "unlabelled": 0,
+      "answered": 0,
+      "coverage": null,
+      "precision": null,
+      "end_to_end_correct_rate": null,
+      "samples": 0,
+      "recognition_errors": 0,
+      "unique_original_groups": 0,
+      "per_field": {
+        "stage": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "gold": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "hp": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "level": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[0]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[1]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[2]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[3]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        },
+        "shop[4]": {
+          "labelled": 0,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 0,
+          "answered": 0,
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "p50": null,
+        "p95": null
+      },
+      "recommendation_status_counts": {},
+      "contract_checks_run": 0,
+      "unconfirmed_states": 0,
+      "null_personal_probability_checks": 0,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      }
+    }
+  },
+  "default_on_profile_subset": {
+    "labelled": 0,
+    "correct": 0,
+    "wrong": 0,
+    "abstain": 0,
+    "unlabelled": 0,
+    "answered": 0,
+    "coverage": null,
+    "precision": null,
+    "end_to_end_correct_rate": null,
+    "samples": 0,
+    "recognition_errors": 0,
+    "unique_original_groups": 0,
+    "per_field": {
+      "stage": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "gold": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "hp": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "level": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[0]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[1]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[2]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[3]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      },
+      "shop[4]": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null
+      }
+    },
+    "latency_ms": {
+      "n": 0,
+      "mean": null,
+      "p50": null,
+      "p95": null
+    },
+    "recommendation_status_counts": {},
+    "contract_checks_run": 0,
+    "unconfirmed_states": 0,
+    "null_personal_probability_checks": 0,
+    "safety_contract_failures": 0,
+    "group_balanced_macro": {
+      "coverage": null,
+      "precision": null,
+      "end_to_end_correct_rate": null
+    }
+  },
+  "by_split": {
+    "development": {
+      "default": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    },
+    "holdout": {
+      "default": {
+        "labelled": 13,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 8,
+        "unlabelled": 86,
+        "answered": 5,
+        "coverage": 0.38461538461538464,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.38461538461538464,
+        "samples": 11,
+        "recognition_errors": 0,
+        "unique_original_groups": 4,
+        "per_field": {
+          "stage": {
+            "labelled": 5,
+            "correct": 5,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 6,
+            "answered": 5,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 10,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 11,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 3,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 3,
+            "unlabelled": 8,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 10,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[1]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 10,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[2]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 10,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[3]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 10,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 11,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 11,
+          "mean": 7855.667388270376,
+          "p50": 5419.873066988657,
+          "p95": 20426.07225550455
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 11
+        },
+        "contract_checks_run": 11,
+        "unconfirmed_states": 11,
+        "null_personal_probability_checks": 11,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.47222222222222215,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.47222222222222215
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    }
+  },
+  "by_mode": {
+    "nature": {
+      "default": {
+        "labelled": 10,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 7,
+        "unlabelled": 44,
+        "answered": 3,
+        "coverage": 0.3,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.3,
+        "samples": 6,
+        "recognition_errors": 0,
+        "unique_original_groups": 2,
+        "per_field": {
+          "stage": {
+            "labelled": 3,
+            "correct": 3,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 3,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 6,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 2,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 2,
+            "unlabelled": 4,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[1]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[2]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[3]": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 6,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 6,
+          "mean": 2947.692200827684,
+          "p50": 1825.4647359935916,
+          "p95": 7615.579669240105
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 6
+        },
+        "contract_checks_run": 6,
+        "unconfirmed_states": 6,
+        "null_personal_probability_checks": 6,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.375,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.375
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    },
+    "orange": {
+      "default": {
+        "labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "unlabelled": 42,
+        "answered": 2,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.6666666666666666,
+        "samples": 5,
+        "recognition_errors": 0,
+        "unique_original_groups": 2,
+        "per_field": {
+          "stage": {
+            "labelled": 2,
+            "correct": 2,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 3,
+            "answered": 2,
+            "coverage": 1.0,
+            "precision": 1.0,
+            "end_to_end_correct_rate": 1.0
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 1,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 1,
+            "unlabelled": 4,
+            "answered": 0,
+            "coverage": 0.0,
+            "precision": null,
+            "end_to_end_correct_rate": 0.0
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 5,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 5,
+          "mean": 13745.237613201607,
+          "p50": 15119.543959997827,
+          "p95": 21835.67272000073
+        },
+        "recommendation_status_counts": {
+          "needs_confirmation": 5
+        },
+        "contract_checks_run": 5,
+        "unconfirmed_states": 5,
+        "null_personal_probability_checks": 5,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": 0.6666666666666666,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.6666666666666666
+        }
+      },
+      "profile": {
+        "labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "unlabelled": 0,
+        "answered": 0,
+        "coverage": null,
+        "precision": null,
+        "end_to_end_correct_rate": null,
+        "samples": 0,
+        "recognition_errors": 0,
+        "unique_original_groups": 0,
+        "per_field": {
+          "stage": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "gold": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "hp": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "level": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[0]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[1]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[2]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[3]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          },
+          "shop[4]": {
+            "labelled": 0,
+            "correct": 0,
+            "wrong": 0,
+            "abstain": 0,
+            "unlabelled": 0,
+            "answered": 0,
+            "coverage": null,
+            "precision": null,
+            "end_to_end_correct_rate": null
+          }
+        },
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "p50": null,
+          "p95": null
+        },
+        "recommendation_status_counts": {},
+        "contract_checks_run": 0,
+        "unconfirmed_states": 0,
+        "null_personal_probability_checks": 0,
+        "safety_contract_failures": 0,
+        "group_balanced_macro": {
+          "coverage": null,
+          "precision": null,
+          "end_to_end_correct_rate": null
+        }
+      }
+    }
+  },
+  "runs": [
+    {
+      "sample_id": "nature_sealed_01",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 5419.873066988657,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "6-3",
+          "predicted": "6-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 10,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_01-90f4cfe7-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_01",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_02",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 3386.517062986968,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 35,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_02-356bf13d-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_02",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_03",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 118.61915999907069,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 15,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_03-e702e97b-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_03",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_04",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 8347.481869990588,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-6",
+          "predicted": "2-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 27,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 55,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_04-4165e716-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_04",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_05",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "profile_origin": "unspecified",
+      "labelled_fields": 5,
+      "latency_ms": 264.4124090002151,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-1",
+          "predicted": "4-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12509",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12514",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "12511",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "13503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 44,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_05-5bc5d245-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_05",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "profile_origin": "unspecified",
+      "labelled_fields": 5,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_06",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 149.24963600060437,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 11,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_06-ed2f671a-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_06",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_07",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 18076.738148010918,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 25,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_07-cc6b1b69-default.json"
+    },
+    {
+      "sample_id": "orange_exp_07",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_08",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 15119.543959997827,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 26,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_08-6869ef62-default.json"
+    },
+    {
+      "sample_id": "orange_exp_08",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_09",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 22775.406362998183,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-2",
+          "predicted": "5-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 14,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_09-497f438a-default.json"
+    },
+    {
+      "sample_id": "orange_exp_09",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_10",
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 492.9938309942372,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 36,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_10-68ecb9c6-default.json"
+    },
+    {
+      "sample_id": "orange_exp_10",
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_11",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 12261.50576400687,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-1",
+          "predicted": "4-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 6,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 32,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_11-497dca61-default.json"
+    },
+    {
+      "sample_id": "orange_exp_11",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ]
+}

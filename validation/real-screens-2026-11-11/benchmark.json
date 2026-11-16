@@ -1,0 +1,825 @@
+{
+  "date": "2026-11-11",
+  "note": "Images are fetched separately from cited public sources; no embedded screenshot redistribution.",
+  "samples": [
+    {
+      "id": "nature_01",
+      "mode": "nature",
+      "source_id": "nature_01",
+      "group_id": "chuapp_291576",
+      "match_id": null,
+      "split": "development",
+      "season_confirmed": true,
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "labels": {
+        "stage": "3-5",
+        "gold": 50,
+        "hp": null,
+        "level": 5,
+        "xp": 4,
+        "shop": [
+          "12507",
+          "12500",
+          "12500",
+          {
+            "empty": true
+          },
+          "12514"
+        ]
+      },
+      "shop_names": [
+        "暗影狼",
+        "峡谷迅捷蟹",
+        "峡谷迅捷蟹",
+        null,
+        "提莫"
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "empty",
+        "hero"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "shop_layout": "bottom",
+        "shop_normalized_bbox": [
+          0.249,
+          0.824,
+          0.629,
+          0.176
+        ],
+        "hp": "右侧排行榜经来源编辑模糊，不能核对本方血量。",
+        "shop": "第4槽整格为已购买后的深色空槽；其余卡片为二星二费，售价6不等于弈子基础费用。"
+      },
+      "layout_profile": {
+        "name": "开发样本人工数值区域",
+        "aspect_ratio": 1.6,
+        "slots": [
+          {
+            "field": "stage",
+            "bbox": [
+              0.35,
+              0.005,
+              0.036,
+              0.037
+            ]
+          },
+          {
+            "field": "gold",
+            "bbox": [
+              0.5,
+              0.768,
+              0.027,
+              0.035
+            ]
+          },
+          {
+            "field": "level",
+            "bbox": [
+              0.132,
+              0.765,
+              0.034,
+              0.042
+            ]
+          }
+        ]
+      },
+      "profile_note": "人工指定数值区域，仅用于开发图辅助识别；不代表自动定位或泛化能力。",
+      "file": "images/nature_01.jpg",
+      "source_url": "https://www.chuapp.com/article/291576.html",
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-08-19/5146a857f777fe72.jpg",
+      "image_sha256": "ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55"
+    },
+    {
+      "id": "nature_02",
+      "mode": "nature",
+      "source_id": "nature_02",
+      "group_id": "sohu_1068964903",
+      "match_id": null,
+      "split": "holdout",
+      "season_confirmed": true,
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "labels": {
+        "stage": "3-5",
+        "gold": 51,
+        "hp": null,
+        "level": 6,
+        "xp": 6,
+        "shop": [
+          "11508",
+          "11511",
+          "11508",
+          "12513",
+          "13509"
+        ]
+      },
+      "shop_names": [
+        "绯红树怪",
+        "苍蓝哨戒",
+        "绯红树怪",
+        "魔沼蛙",
+        "深红锋喙鸟"
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "hero"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "shop_layout": "top",
+        "shop_normalized_bbox": [
+          0.147,
+          0.035,
+          0.814,
+          0.44
+        ],
+        "hp": "本图未显示可归属本方的明确血量数值。",
+        "shop": "商店5张卡均有可读名称。"
+      },
+      "file": "images/nature_02.jpg",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q7.itc.cn/images01/20260828/1659763ba658445ea34471b5fe46c9e7.jpeg",
+      "image_sha256": "ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9"
+    },
+    {
+      "id": "nature_03",
+      "mode": "nature",
+      "source_id": "nature_03",
+      "group_id": "sohu_1068964903",
+      "match_id": null,
+      "split": "holdout",
+      "season_confirmed": true,
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "labels": {
+        "stage": "2-1",
+        "gold": 9,
+        "hp": 100,
+        "level": 3,
+        "xp": 2,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "shop_layout": "closed",
+        "hp": "右侧八个玩家均清楚显示100，因此本方血量也可确定为100；不依赖不清楚的头像归属。",
+        "shop": "商店已收起；不把未显示槽位标成真实空槽。",
+        "board": "真实战斗画面上叠加森林向导仙灵说明。"
+      },
+      "file": "images/nature_03.jpg",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q4.itc.cn/images01/20260828/68d30353d5b44fa3b9453d80783838c9.jpeg",
+      "image_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7"
+    },
+    {
+      "id": "nature_04",
+      "mode": "nature",
+      "source_id": "nature_04",
+      "group_id": "sohu_1068964903",
+      "match_id": null,
+      "split": "holdout",
+      "season_confirmed": true,
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "labels": {
+        "stage": "3-1",
+        "gold": 39,
+        "hp": null,
+        "level": 5,
+        "xp": 6,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "shop_layout": "closed",
+        "hp": "虽有排行榜，无法足够清楚地把某行头像与本方绑定；不猜测84是否本方血量。",
+        "shop": "商店已收起；5槽未知。",
+        "board": "真实备战棋盘，快速悬赏说明覆盖右侧棋盘。"
+      },
+      "file": "images/nature_04.jpg",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q3.itc.cn/images01/20260828/faf3e31719b34db8b0dd2e64cb7accdf.jpeg",
+      "image_sha256": "1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231"
+    },
+    {
+      "id": "nature_05",
+      "mode": "nature",
+      "source_id": "nature_05",
+      "group_id": "sohu_1068964903",
+      "match_id": null,
+      "split": "holdout",
+      "season_confirmed": true,
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "labels": {
+        "stage": "5-5",
+        "gold": 18,
+        "hp": null,
+        "level": 7,
+        "xp": 16,
+        "shop": [
+          "12509",
+          "13506",
+          "13508",
+          "13505",
+          null
+        ]
+      },
+      "shop_names": [
+        "芸阿娜",
+        "黛安娜",
+        "崔丝塔娜",
+        "卡兹克",
+        null
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "charm"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "shop_layout": "top",
+        "shop_normalized_bbox": [
+          0.147,
+          0.035,
+          0.836,
+          0.45
+        ],
+        "hp": "本图没有排行榜或可读本方血量。",
+        "shop": "第5槽是自然仙灵大型变形，不是英雄，也不是真空槽；shop[4]=null并由shop_kinds单独标明。",
+        "board": "真实对局画面，左侧商店第一格有仙灵花边装饰但芸阿娜名字和售价可读。"
+      },
+      "file": "images/nature_05.jpg",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q4.itc.cn/images01/20260828/8e4e500894b94f0db85aea6b74b8aa27.jpeg",
+      "image_sha256": "83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2"
+    },
+    {
+      "id": "orange_chuapp_03",
+      "file": "images/orange_chuapp_03.png",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240035",
+            "entity_id": "7240035",
+            "name": "浮金门票",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.2975,
+              0.0897,
+              0.1738,
+              0.5938
+            ],
+            "role": "displayed_deck_card"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220040",
+            "entity_id": "7220040",
+            "name": "次级复制 II",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.4956,
+              0.0883,
+              0.1706,
+              0.591
+            ],
+            "role": "displayed_deck_card"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7210027",
+            "entity_id": "7210027",
+            "name": "次级复制 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.69,
+              0.091,
+              0.1713,
+              0.5897
+            ],
+            "role": "displayed_deck_card"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外卡组方案界面，选中速升3星方案；只标出清楚可读的三张时间卡。",
+        "not_gold": "右上1.3万是局外余额，不标为对局gold。",
+        "not_stage": "卡片正文2-7、4-2、2-5是生效回合，不是当前对局回合。",
+        "server_status": "图片没有足够的正式服/测试服或补丁标识。"
+      },
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "image_size": {
+        "width": 1600,
+        "height": 736
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/8046aeafc0d8903e.PNG",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "image_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7"
+    },
+    {
+      "id": "orange_chuapp_04",
+      "file": "images/orange_chuapp_04.png",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "match_id": null,
+      "screen_type": "orange_super_time",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": "2-3",
+        "hp": 100,
+        "gold": null,
+        "level": 4,
+        "xp": 0,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": []
+      },
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "profile_origin": "per_sample_manual",
+      "layout_profile": {
+        "name": "chuapp-04 scalar regions manually annotated",
+        "aspect_ratio": 2.174129353233831,
+        "slots": [
+          {
+            "field": "stage",
+            "bbox": [
+              0.364,
+              0.008,
+              0.031,
+              0.036
+            ],
+            "label": "顶部真实当前回合"
+          },
+          {
+            "field": "hp",
+            "bbox": [
+              0.899,
+              0.128,
+              0.038,
+              0.048
+            ],
+            "label": "右上单独高亮头像左侧本方100血"
+          },
+          {
+            "field": "level",
+            "bbox": [
+              0.136,
+              0.931,
+              0.021,
+              0.045
+            ],
+            "label": "左下经验购买按钮旁等级4"
+          }
+        ]
+      },
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "超级时间第一轮目标选择弹层；有真实对局背景，不是终局战绩。",
+        "stage": "顶部当前回合2-3清楚可见。",
+        "hp": "右上最大的独立金色圈高亮头像左侧显示100，以下其他玩家为红圈并显示姓名/名次列表。这里标本方高亮头像的100。",
+        "level": "左下购买经验按钮旁黑金圆圈显示4，上方经验0/10。",
+        "gold": "下方资源区域受弹层遮挡；卡片奖励总价值0和300不是当前对局金币，不据此猜测gold。",
+        "not_stage": "中央前7/前5是挑战目标，不是当前stage。",
+        "server_status": "体验文章中使用的客户端画面；无法确认正式服或具体开发版本。"
+      },
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "image_size": {
+        "width": 2622,
+        "height": 1206
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/5606aeafe03d8e2a.png",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "image_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805"
+    },
+    {
+      "id": "orange_chuapp_08",
+      "file": "images/orange_chuapp_08.jpg",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "match_id": null,
+      "screen_type": "orange_card_collection",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250036",
+            "entity_id": "7250036",
+            "name": "黑玫瑰夜市",
+            "field": "card_inventory",
+            "bbox": [
+              0.137,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250071",
+            "entity_id": "7250071",
+            "name": "永恒的心",
+            "field": "card_inventory",
+            "bbox": [
+              0.343,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240005",
+            "entity_id": "7240005",
+            "name": "暗裔之刃",
+            "field": "card_inventory",
+            "bbox": [
+              0.55,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240006",
+            "entity_id": "7240006",
+            "name": "暗裔之怒",
+            "field": "card_inventory",
+            "bbox": [
+              0.757,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外卡册；上排四张完整卡片名称可读，下排卡片只有局部画面，不标注。",
+        "not_deck": "卡册中显示4张以上卡片，不等于已经选择4张出战卡，也不能标为当前三卡。",
+        "not_stage": "卡片正文1-3、1-2、3-5均为效果生效回合。",
+        "server_status": "未见明确客户端服别/补丁号。"
+      },
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "image_size": {
+        "width": 2556,
+        "height": 1179
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/4526aeb07715c14c.jpg",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "image_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90"
+    },
+    {
+      "id": "orange_azir_video_first",
+      "file": "images/orange_azir_video_first.jpg",
+      "mode": "orange",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "source_id": "taptap_867454613899445849",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "holdout",
+      "match_id": null,
+      "screen_type": "board_with_card_activation_overlay",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": "1-4",
+        "hp": null,
+        "gold": null,
+        "level": 3,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250015",
+            "entity_id": "7250015",
+            "name": "王牌猎手 IV",
+            "field": "card_activation_overlay",
+            "bbox": [
+              0.531,
+              0.184,
+              0.255,
+              0.68
+            ],
+            "role": "foreground_activated_card"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "profile_origin": "per_sample_manual",
+      "layout_profile": {
+        "name": "azir-video-first scalar regions manually annotated",
+        "aspect_ratio": 1.7777777777777777,
+        "slots": [
+          {
+            "field": "stage",
+            "bbox": [
+              0.521,
+              0.007,
+              0.028,
+              0.037
+            ],
+            "label": "顶部当前回合1-4"
+          },
+          {
+            "field": "level",
+            "bbox": [
+              0.141,
+              0.93,
+              0.02,
+              0.049
+            ],
+            "label": "左下黑色圆圈等级3"
+          }
+        ]
+      },
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "一手视频首帧，真实局内背景上有王牌猎手IV激活卡片、系统提示和视频字幕，未将其当作干净普通备战图。",
+        "stage": "顶栏当前回合1-4可见；尽管正文卡片也写1-4，标签依据是顶栏。",
+        "level": "左下等级圆圈显示3；购买经验按钮中的4是花费，不是等级。",
+        "gold": "顶部21是阶段计时，左下4是购买经验费用；均不标gold，真实金币区域未见。",
+        "hp": "画面右侧未包含可明确归属本方的血量，保留null。",
+        "entities": "仅标注中央大卡清楚可读的王牌猎手IV；左上其他小卡名称不够清楚，不猜测。",
+        "server_status": "原帖日期为2026-11-05，但首帧没有可证明正式服/先遣服/具体补丁的标识。"
+      },
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "image_size": {
+        "width": 3840,
+        "height": 2160
+      },
+      "source_image_url": "https://img-tc.tapimg.com/video-picture/tid-6aec4913f6d91e745e4dab9a/first.jpg",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "image_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116"
+    },
+    {
+      "id": "orange_taptap_loadout",
+      "file": "images/orange_taptap_loadout.jpg",
+      "mode": "orange",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "source_id": "taptap_867151065470994551",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "holdout",
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230005",
+            "entity_id": "7230005",
+            "name": "金辉尽绘",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.485,
+              0.21,
+              0.161,
+              0.558
+            ],
+            "role": "selected_loadout_card"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220040",
+            "entity_id": "7220040",
+            "name": "次级复制 II",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.655,
+              0.21,
+              0.16,
+              0.558
+            ],
+            "role": "selected_loadout_card"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230103",
+            "entity_id": "7230103",
+            "name": "同盟药水",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.824,
+              0.21,
+              0.16,
+              0.558
+            ],
+            "role": "selected_loadout_card"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外稳定传送门出战卡组；不使用同一帖子中的战绩截图作为当前备战状态。",
+        "not_gold": "右上1170是局外金橘余额，开始游戏按钮中的0是入场费用；均不是对局gold。",
+        "not_stage": "卡片中的3-1、4-2、2-1为卡片效果回合。",
+        "portal": "界面稳定传送门和能量≤8可读，但本数据集不据此确认所有正式服门规则。",
+        "server_status": "图片未给出具体服别或补丁，保留未验证。"
+      },
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "image_size": {
+        "width": 2480,
+        "height": 1116
+      },
+      "source_image_url": "https://img2-tc.tapimg.com/moment/etag/FhkTUQRkpQPNnZd_xixDUEfroHPJ_20261104210838.jpg",
+      "source_manifest_claimed_page_date": "2026-11-04",
+      "image_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e"
+    }
+  ]
+}

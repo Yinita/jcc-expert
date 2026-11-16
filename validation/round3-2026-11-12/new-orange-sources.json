@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "taptap_868497523528958560",
+      "group_id": "source_taptap_868497523528958560",
+      "url": "https://www.taptap.cn/moment/868497523528958560",
+      "author": "山里灵活的狗",
+      "published_date": "2026-11-08",
+      "source_type": "player_first_person_public_post",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "included_sample_ids": [
+        "orange_r3_01",
+        "orange_r3_02"
+      ],
+      "images": [
+        {
+          "id": "orange_r3_01",
+          "image_url": "https://img2-tc.tapimg.com/moment/etag/FsvvyNU2aWg_Yj41AjB7j-os0fgS_20261108141903.jpg/_tap_ugc.jpg",
+          "image_size": {
+            "width": 1080,
+            "height": 486
+          },
+          "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+          "decoded_image_sha256": "803fc22ab850d7f9655ac95a2dbaf15de97eeaa24e2096ebd77ef50fde72918d"
+        },
+        {
+          "id": "orange_r3_02",
+          "image_url": "https://img2-tc.tapimg.com/moment/etag/Fn0arhEkamRH_kq4vrLI0meLeHH0_20261108141905.jpg/_tap_ugc.jpg",
+          "image_size": {
+            "width": 1080,
+            "height": 486
+          },
+          "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+          "decoded_image_sha256": "61a61d75f97cd7dadb2a9bd792437b677966f82afb62046ce09d95e7d7be8bc2"
+        }
+      ],
+      "build_status": "unverified",
+      "whole_group_reserved": true
+    }
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://www.taptap.cn/moment/867955058627578778",
+      "date_shown": "modified 11/06",
+      "downloaded_sample_ids": [
+        "orange_r3_03",
+        "orange_r3_04",
+        "orange_r3_05",
+        "orange_r3_06"
+      ],
+      "reason": "Contains formation planner, cropped isolated card panels and a combat/record panel. Not admitted as a whole-client real-match screenshot benchmark in this batch. No OCR or recognizer run."
+    },
+    {
+      "url": "https://www.taptap.cn/moment/864871600091040348",
+      "embed_url": "https://www.taptap.cn/video/6031898/m-preview",
+      "published_date": "2026-10-29",
+      "reason": "Official pre-release vertical promotional composition. Manually inspected sampled video frames; not admitted as real-client captures."
+    }
+  ],
+  "freezing": {
+    "card_reader_sha256_before_new_images_recognition": "c72a6d18954d4189fa7776d66b9a37fce3b59f32d2836c75c8982f5fd875479d",
+    "recognition_performed_before_root_freeze": false,
+    "labels_disclosed_to_implementing_root": false
+  }
+}

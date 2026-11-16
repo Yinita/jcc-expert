@@ -1,0 +1,273 @@
+{
+  "images": 45,
+  "source_groups": 14,
+  "freeze_verified_before_and_after": false,
+  "revisions": {
+    "baseline": {
+      "labelled": 124,
+      "correct": 57,
+      "wrong": 0,
+      "abstain": 67,
+      "unlabelled": 281,
+      "answered": 57,
+      "coverage": 0.4596774193548387,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.4596774193548387,
+      "samples": 45,
+      "recognition_errors": 0,
+      "unique_original_groups": 14,
+      "per_field": {
+        "stage": {
+          "labelled": 30,
+          "correct": 30,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 15,
+          "answered": 30,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 19,
+          "correct": 4,
+          "wrong": 0,
+          "abstain": 15,
+          "unlabelled": 26,
+          "answered": 4,
+          "coverage": 0.21052631578947367,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.21052631578947367
+        },
+        "hp": {
+          "labelled": 7,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 7,
+          "unlabelled": 38,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "level": {
+          "labelled": 28,
+          "correct": 4,
+          "wrong": 0,
+          "abstain": 24,
+          "unlabelled": 17,
+          "answered": 4,
+          "coverage": 0.14285714285714285,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.14285714285714285
+        },
+        "shop[0]": {
+          "labelled": 9,
+          "correct": 5,
+          "wrong": 0,
+          "abstain": 4,
+          "unlabelled": 36,
+          "answered": 5,
+          "coverage": 0.5555555555555556,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5555555555555556
+        },
+        "shop[1]": {
+          "labelled": 9,
+          "correct": 5,
+          "wrong": 0,
+          "abstain": 4,
+          "unlabelled": 36,
+          "answered": 5,
+          "coverage": 0.5555555555555556,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5555555555555556
+        },
+        "shop[2]": {
+          "labelled": 9,
+          "correct": 3,
+          "wrong": 0,
+          "abstain": 6,
+          "unlabelled": 36,
+          "answered": 3,
+          "coverage": 0.3333333333333333,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.3333333333333333
+        },
+        "shop[3]": {
+          "labelled": 9,
+          "correct": 4,
+          "wrong": 0,
+          "abstain": 5,
+          "unlabelled": 36,
+          "answered": 4,
+          "coverage": 0.4444444444444444,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.4444444444444444
+        },
+        "shop[4]": {
+          "labelled": 4,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 41,
+          "answered": 2,
+          "coverage": 0.5,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5
+        }
+      },
+      "latency_ms": {
+        "n": 45,
+        "mean": 5678.571558086615,
+        "p50": 5468.005091999657,
+        "p95": 13314.366058603624
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 45
+      },
+      "contract_checks_run": 45,
+      "unconfirmed_states": 45,
+      "null_personal_probability_checks": 45,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.4585260750068052,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.4585260750068052
+      }
+    },
+    "optimized": {
+      "labelled": 124,
+      "correct": 96,
+      "wrong": 0,
+      "abstain": 28,
+      "unlabelled": 281,
+      "answered": 96,
+      "coverage": 0.7741935483870968,
+      "precision": 1.0,
+      "end_to_end_correct_rate": 0.7741935483870968,
+      "samples": 45,
+      "recognition_errors": 0,
+      "unique_original_groups": 14,
+      "per_field": {
+        "stage": {
+          "labelled": 30,
+          "correct": 30,
+          "wrong": 0,
+          "abstain": 0,
+          "unlabelled": 15,
+          "answered": 30,
+          "coverage": 1.0,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 1.0
+        },
+        "gold": {
+          "labelled": 19,
+          "correct": 16,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 26,
+          "answered": 16,
+          "coverage": 0.8421052631578947,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.8421052631578947
+        },
+        "hp": {
+          "labelled": 7,
+          "correct": 0,
+          "wrong": 0,
+          "abstain": 7,
+          "unlabelled": 38,
+          "answered": 0,
+          "coverage": 0.0,
+          "precision": null,
+          "end_to_end_correct_rate": 0.0
+        },
+        "level": {
+          "labelled": 28,
+          "correct": 23,
+          "wrong": 0,
+          "abstain": 5,
+          "unlabelled": 17,
+          "answered": 23,
+          "coverage": 0.8214285714285714,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.8214285714285714
+        },
+        "shop[0]": {
+          "labelled": 9,
+          "correct": 7,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 36,
+          "answered": 7,
+          "coverage": 0.7777777777777778,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.7777777777777778
+        },
+        "shop[1]": {
+          "labelled": 9,
+          "correct": 7,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 36,
+          "answered": 7,
+          "coverage": 0.7777777777777778,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.7777777777777778
+        },
+        "shop[2]": {
+          "labelled": 9,
+          "correct": 5,
+          "wrong": 0,
+          "abstain": 4,
+          "unlabelled": 36,
+          "answered": 5,
+          "coverage": 0.5555555555555556,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5555555555555556
+        },
+        "shop[3]": {
+          "labelled": 9,
+          "correct": 6,
+          "wrong": 0,
+          "abstain": 3,
+          "unlabelled": 36,
+          "answered": 6,
+          "coverage": 0.6666666666666666,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.6666666666666666
+        },
+        "shop[4]": {
+          "labelled": 4,
+          "correct": 2,
+          "wrong": 0,
+          "abstain": 2,
+          "unlabelled": 41,
+          "answered": 2,
+          "coverage": 0.5,
+          "precision": 1.0,
+          "end_to_end_correct_rate": 0.5
+        }
+      },
+      "latency_ms": {
+        "n": 45,
+        "mean": 3549.686382443247,
+        "p50": 2470.8848879963625,
+        "p95": 10609.578698402034
+      },
+      "recommendation_status_counts": {
+        "needs_confirmation": 45
+      },
+      "contract_checks_run": 45,
+      "unconfirmed_states": 45,
+      "null_personal_probability_checks": 45,
+      "safety_contract_failures": 0,
+      "group_balanced_macro": {
+        "coverage": 0.7094682700666474,
+        "precision": 1.0,
+        "end_to_end_correct_rate": 0.7094682700666474
+      }
+    }
+  }
+}

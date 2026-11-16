@@ -1,0 +1,3000 @@
+{
+  "run": {
+    "sample_id": "consumed_nature_03",
+    "group_id": "sohu_1068964903",
+    "split": "development",
+    "mode": "nature",
+    "track": "default",
+    "source_url": "https://m.sohu.com/a/1068964903_121827626",
+    "file_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7",
+    "decoded_image_sha256": "035044aff234642d90eede1a1da2af61983494a861e2d8c02237df6549c416de",
+    "profile_origin": "unspecified",
+    "labelled_fields": 4,
+    "latency_ms": 10136.531010997714,
+    "status": "ok",
+    "outcomes": [
+      {
+        "field": "stage",
+        "expected": "2-1",
+        "predicted": "2-1",
+        "label_present": true,
+        "outcome": "correct"
+      },
+      {
+        "field": "gold",
+        "expected": 9,
+        "predicted": null,
+        "label_present": true,
+        "outcome": "abstain"
+      },
+      {
+        "field": "hp",
+        "expected": 100,
+        "predicted": null,
+        "label_present": true,
+        "outcome": "abstain"
+      },
+      {
+        "field": "level",
+        "expected": 3,
+        "predicted": null,
+        "label_present": true,
+        "outcome": "abstain"
+      },
+      {
+        "field": "shop[0]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[1]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[2]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[3]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[4]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      }
+    ],
+    "evidence_count": 43,
+    "contract_check": {
+      "recommendation_status": "needs_confirmation",
+      "recognition_unconfirmed": true,
+      "personal_probability_is_null": true,
+      "model_status": "needs_confirmation",
+      "candidate_count": 3,
+      "passed": true
+    }
+  },
+  "recognition": {
+    "state": {
+      "mode": "nature",
+      "patch": "18.6",
+      "stage": "2-1",
+      "hp": null,
+      "gold": null,
+      "level": null,
+      "board": [],
+      "bench": [],
+      "shop": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "item_ids": [],
+      "augment_ids": [],
+      "offered_augment_ids": [],
+      "orange_card_ids": [],
+      "confirmed": false
+    },
+    "evidence": [
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "28",
+        "confidence": 1.0,
+        "bbox": [
+          0.6263636363636363,
+          0.004989816700610998,
+          0.021363636363636362,
+          0.033930753564154786
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "B",
+        "confidence": 0.6072,
+        "bbox": [
+          0.12222222222222222,
+          0.026476578411405296,
+          0.022222222222222223,
+          0.04480651731160896
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "沃里克小果酱",
+        "confidence": 0.9736,
+        "bbox": [
+          0.737037037037037,
+          0.024439918533604887,
+          0.07314814814814814,
+          0.04276985743380855
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "兴",
+        "confidence": 0.5827,
+        "bbox": [
+          0.9398148148148148,
+          0.032586558044806514,
+          0.020370370370370372,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "峡谷野怪",
+        "confidence": 0.9995,
+        "bbox": [
+          0.11296296296296296,
+          0.109979633401222,
+          0.05277777777777778,
+          0.038696537678207736
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "沃里克小果酱",
+        "confidence": 0.9997,
+        "bbox": [
+          0.8787037037037037,
+          0.09979633401221996,
+          0.0712962962962963,
+          0.04276985743380855
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "3/5/7/10",
+        "confidence": 0.9998,
+        "bbox": [
+          0.11296296296296296,
+          0.1425661914460285,
+          0.09444444444444444,
+          0.04073319755600815
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9175925925925926,
+          0.13034623217922606,
+          0.03148148148148148,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "魔战士",
+        "confidence": 1.0,
+        "bbox": [
+          0.11203703703703703,
+          0.19144602851323828,
+          0.04259259259259259,
+          0.04480651731160896
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "森林向导",
+        "confidence": 0.9999,
+        "bbox": [
+          0.6342592592592593,
+          0.17718940936863545,
+          0.06481481481481481,
+          0.048879837067209775
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "五一",
+        "confidence": 0.9892,
+        "bbox": [
+          0.9212962962962963,
+          0.18329938900203666,
+          0.025925925925925925,
+          0.038696537678207736
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "1/2",
+        "confidence": 0.9983,
+        "bbox": [
+          0.11388888888888889,
+          0.2240325865580448,
+          0.046296296296296294,
+          0.04480651731160896
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9175925925925926,
+          0.21181262729124237,
+          0.03148148148148148,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "主宰",
+        "confidence": 0.9982,
+        "bbox": [
+          0.1111111111111111,
+          0.27494908350305497,
+          0.03148148148148148,
+          0.04480651731160896
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "英雄",
+        "confidence": 1.0,
+        "bbox": [
+          0.6564814814814814,
+          0.2668024439918534,
+          0.03796296296296296,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9,
+          0.285132382892057,
+          0.03888888888888889,
+          0.054989816700611
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "2",
+        "confidence": 0.9999,
+        "bbox": [
+          0.14166666666666666,
+          0.31160896130346233,
+          0.016666666666666666,
+          0.038696537678207736
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "神谕",
+        "confidence": 0.9973,
+        "bbox": [
+          0.11203703703703703,
+          0.3625254582484725,
+          0.030555555555555555,
+          0.038696537678207736
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "1/2",
+        "confidence": 0.998,
+        "bbox": [
+          0.11296296296296296,
+          0.39307535641547864,
+          0.04722222222222222,
+          0.04480651731160896
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "38",
+        "confidence": 0.9999,
+        "bbox": [
+          0.5787037037037037,
+          0.37678207739307534,
+          0.03796296296296296,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "获得1名随机4费英雄。",
+        "confidence": 0.9999,
+        "bbox": [
+          0.6351851851851852,
+          0.35845213849287166,
+          0.11574074074074074,
+          0.034623217922606926
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "无敌地裁缝",
+        "confidence": 0.9997,
+        "bbox": [
+          0.8907407407407407,
+          0.37067209775967414,
+          0.05925925925925926,
+          0.034623217922606926
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9166666666666666,
+          0.39918533604887985,
+          0.032407407407407406,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "爱如写意山水画",
+        "confidence": 0.9999,
+        "bbox": [
+          0.8685185185185185,
+          0.45010183299389,
+          0.08148148148148149,
+          0.04073319755600815
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9157407407407407,
+          0.4786150712830957,
+          0.03333333333333333,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "3",
+        "confidence": 0.9999,
+        "bbox": [
+          0.17777777777777778,
+          0.5519348268839104,
+          0.011111111111111112,
+          0.028513238289205704
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "哈士柴",
+        "confidence": 0.9998,
+        "bbox": [
+          0.18888888888888888,
+          0.515274949083503,
+          0.03981481481481482,
+          0.04276985743380855
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "哗啦哗啦",
+        "confidence": 0.9936,
+        "bbox": [
+          0.9018518518518519,
+          0.5336048879837068,
+          0.04814814814814815,
+          0.03665987780040733
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9166666666666666,
+          0.5621181262729125,
+          0.032407407407407406,
+          0.04684317718940937
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "香菇维摩",
+        "confidence": 0.9999,
+        "bbox": [
+          0.9009259259259259,
+          0.615071283095723,
+          0.04814814814814815,
+          0.034623217922606926
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9185185185185185,
+          0.6476578411405295,
+          0.02962962962962963,
+          0.04073319755600815
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "常念莫奈繁星",
+        "confidence": 0.9996,
+        "bbox": [
+          0.8814814814814815,
+          0.6985743380855397,
+          0.06666666666666667,
+          0.03394433129667346
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "100",
+        "confidence": 1.0,
+        "bbox": [
+          0.9175925925925926,
+          0.725050916496945,
+          0.032407407407407406,
+          0.04480651731160896
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "2/6",
+        "confidence": 0.9827,
+        "bbox": [
+          0.06851851851851852,
+          0.7596741344195519,
+          0.026851851851851852,
+          0.04073319755600815
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "4",
+        "confidence": 1.0,
+        "bbox": [
+          0.0824074074074074,
+          0.8513238289205702,
+          0.012037037037037037,
+          0.03054989816700611
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "购买经验",
+        "confidence": 1.0,
+        "bbox": [
+          0.05246913580246913,
+          0.8852681602172437,
+          0.05771604938271605,
+          0.038696537678207736
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "3",
+        "confidence": 0.9999,
+        "bbox": [
+          0.11574074074074074,
+          0.9348268839103869,
+          0.012037037037037037,
+          0.032586558044806514
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "2-1",
+        "confidence": 0.9992,
+        "bbox": [
+          0.35818181818181816,
+          0.004989816700610998,
+          0.024545454545454544,
+          0.03692464358452138
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "李扶白局",
+        "confidence": 0.5711,
+        "bbox": [
+          0.6372727272727272,
+          0.18362525458248474,
+          0.05818181818181818,
+          0.014969450101832994
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "04",
+        "confidence": 0.9349,
+        "bbox": [
+          0.0691358024691358,
+          0.846571622539036,
+          0.02746913580246914,
+          0.038696537678207736
+        ]
+      },
+      {
+        "field": "stage",
+        "kind": "ocr_scalar",
+        "value": "2-1",
+        "text": "2-1",
+        "confidence": 0.9992,
+        "bbox": [
+          0.35818181818181816,
+          0.004989816700610998,
+          0.024545454545454544,
+          0.03692464358452138
+        ],
+        "requires_confirmation": true
+      },
+      {
+        "field": "candidates",
+        "kind": "ocr_entity_candidate",
+        "entity_id": "12508",
+        "entity_type": "hero",
+        "name": "沃里克",
+        "text": "沃里克小果酱",
+        "confidence": 0.9736,
+        "bbox": [
+          0.737037037037037,
+          0.024439918533604887,
+          0.07314814814814814,
+          0.04276985743380855
+        ],
+        "alternatives": [],
+        "requires_confirmation": true
+      },
+      {
+        "field": "candidates",
+        "kind": "ocr_entity_candidate",
+        "entity_id": "12508",
+        "entity_type": "hero",
+        "name": "沃里克",
+        "text": "沃里克小果酱",
+        "confidence": 0.9997,
+        "bbox": [
+          0.8787037037037037,
+          0.09979633401221996,
+          0.0712962962962963,
+          0.04276985743380855
+        ],
+        "alternatives": [],
+        "requires_confirmation": true
+      }
+    ],
+    "uncertain": [
+      {
+        "field": "state",
+        "reason": "截图识别尚未确认；相似度和OCR分数不是校准后的准确率。"
+      },
+      {
+        "field": "board",
+        "reason": "未设置棋盘/商店区域；识别到的名字和图标仅列候选，请手动加入并确认。"
+      }
+    ],
+    "screen_type": "board",
+    "image_size": {
+      "width": 1080,
+      "height": 491
+    },
+    "capabilities": {
+      "offline": true,
+      "ocr_engine": "rapidocr_onnx_cpu_offline",
+      "template_assets_cached": 65,
+      "layout_profile_used": false,
+      "global_template_scan_limit": 160,
+      "automatic_shop_rules": [
+        "five_names_three_icons",
+        "complete_top_or_bottom_name_grid",
+        "anchored_bottom_name_grid"
+      ],
+      "automatic_star_detection": false,
+      "automatic_item_attachment": false,
+      "supervised_field_predictions": 0,
+      "hidden_information": false,
+      "scores_are_calibrated_probabilities": false
+    }
+  },
+  "recommendation": {
+    "mode": "nature",
+    "patch": "18.6",
+    "status": "needs_confirmation",
+    "errors": [],
+    "warnings": [
+      "截图或输入尚未确认；以下只是预览，请逐项核对后再执行。",
+      "缺少hp、gold、level；不提供精确搜牌预算或固定回合操作。"
+    ],
+    "state_probability": null,
+    "score_semantics": {
+      "kind": "heuristic_fit_score",
+      "range": [
+        0,
+        100
+      ],
+      "is_probability": false,
+      "description": "0—100为当前资源与候选路线的启发式适配分，不是吃鸡率、前四率或战斗胜率。外部终局统计不参与此评分。",
+      "nature_weights": {
+        "roster": 40,
+        "items": 25,
+        "traits": 15,
+        "augments": 10,
+        "transition": 10
+      },
+      "orange_weights": {
+        "cards": 50,
+        "roster": 20,
+        "items": 10,
+        "traits": 10,
+        "transition": 10
+      }
+    },
+    "candidates": [
+      {
+        "id": "nature-4765",
+        "name": "【巨龙九五】3峡谷怪物2主宰2烈焰",
+        "score": 0.0,
+        "score_breakdown": {
+          "roster": 0.0,
+          "items": 0.0,
+          "traits": 0.0,
+          "augments": 0.0,
+          "transition": 0.0
+        },
+        "state_probability": null,
+        "reasons": [
+          "已持有目标0/8种；装备适配0%为资源匹配程度。",
+          "缺失目标一星购入价格下界38金币；不含刷新、升级和追星费用，且不代表可刷到。"
+        ],
+        "main_board": [
+          {
+            "hero_id": "15451",
+            "name": "塔里克",
+            "cost": 5,
+            "position": "1,3",
+            "item_ids": [
+              "2025",
+              "2028",
+              "2034"
+            ],
+            "item_names": [
+              "振奋盔甲",
+              "石像鬼石板甲",
+              "狂徒铠甲"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15450",
+            "name": "茂凯",
+            "cost": 5,
+            "position": "1,4",
+            "item_ids": [
+              "2044"
+            ],
+            "item_names": [
+              "秘法手套"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "14503",
+            "name": "阿木木",
+            "cost": 4,
+            "position": "1,5",
+            "item_ids": [
+              "2044"
+            ],
+            "item_names": [
+              "秘法手套"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "14500",
+            "name": "苍蓝雕纹魔像",
+            "cost": 4,
+            "position": "1,6",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15458",
+            "name": "远古巨龙",
+            "cost": 5,
+            "position": "2,3",
+            "item_ids": [
+              "2001",
+              "2037",
+              "2039"
+            ],
+            "item_names": [
+              "无尽之刃",
+              "最后的轻语",
+              "正义之手"
+            ],
+            "is_carry": true,
+            "target_stars": 3
+          },
+          {
+            "hero_id": "15453",
+            "name": "凯南",
+            "cost": 5,
+            "position": "2,4",
+            "item_ids": [
+              "2044"
+            ],
+            "item_names": [
+              "秘法手套"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15455",
+            "name": "德莱文",
+            "cost": 5,
+            "position": "4,1",
+            "item_ids": [
+              "2010",
+              "2045",
+              "2013"
+            ],
+            "item_names": [
+              "鬼索的狂暴之刃",
+              "锐利之刃",
+              "海妖之怒"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15457",
+            "name": "艾翁",
+            "cost": 5,
+            "position": "4,7",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          }
+        ],
+        "transition_boards": [
+          {
+            "level": 6,
+            "label": "官方6人口过渡参考",
+            "units": [
+              {
+                "hero_id": "12503",
+                "name": "慎",
+                "cost": 2,
+                "position": "1,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11500",
+                "name": "奥恩",
+                "cost": 1,
+                "position": "1,4",
+                "item_ids": [
+                  "2028",
+                  "2025",
+                  "2034"
+                ],
+                "item_names": [
+                  "石像鬼石板甲",
+                  "振奋盔甲",
+                  "狂徒铠甲"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11507",
+                "name": "韦鲁斯",
+                "cost": 1,
+                "position": "4,1",
+                "item_ids": [
+                  "2010",
+                  "2001",
+                  "2037"
+                ],
+                "item_names": [
+                  "鬼索的狂暴之刃",
+                  "无尽之刃",
+                  "最后的轻语"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11509",
+                "name": "霞",
+                "cost": 1,
+                "position": "4,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12511",
+                "name": "乐芙兰",
+                "cost": 2,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "label": "官方8人口过渡参考",
+            "units": [
+              {
+                "hero_id": "13500",
+                "name": "赫卡里姆",
+                "cost": 3,
+                "position": "1,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12503",
+                "name": "慎",
+                "cost": 2,
+                "position": "1,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11500",
+                "name": "奥恩",
+                "cost": 1,
+                "position": "1,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11501",
+                "name": "洛",
+                "cost": 1,
+                "position": "1,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14503",
+                "name": "阿木木",
+                "cost": 4,
+                "position": "1,6",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11507",
+                "name": "韦鲁斯",
+                "cost": 1,
+                "position": "4,1",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11509",
+                "name": "霞",
+                "cost": 1,
+                "position": "4,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12511",
+                "name": "乐芙兰",
+                "cost": 2,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          },
+          {
+            "level": 9,
+            "label": "官方9人口过渡参考",
+            "units": [
+              {
+                "hero_id": "15451",
+                "name": "塔里克",
+                "cost": 5,
+                "position": "1,3",
+                "item_ids": [
+                  "2025",
+                  "2028",
+                  "2034"
+                ],
+                "item_names": [
+                  "振奋盔甲",
+                  "石像鬼石板甲",
+                  "狂徒铠甲"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15450",
+                "name": "茂凯",
+                "cost": 5,
+                "position": "1,4",
+                "item_ids": [
+                  "2044"
+                ],
+                "item_names": [
+                  "秘法手套"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14503",
+                "name": "阿木木",
+                "cost": 4,
+                "position": "1,5",
+                "item_ids": [
+                  "2044"
+                ],
+                "item_names": [
+                  "秘法手套"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14500",
+                "name": "苍蓝雕纹魔像",
+                "cost": 4,
+                "position": "1,6",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15458",
+                "name": "远古巨龙",
+                "cost": 5,
+                "position": "2,3",
+                "item_ids": [
+                  "2001",
+                  "2037",
+                  "2039"
+                ],
+                "item_names": [
+                  "无尽之刃",
+                  "最后的轻语",
+                  "正义之手"
+                ],
+                "is_carry": true,
+                "target_stars": 3
+              },
+              {
+                "hero_id": "15453",
+                "name": "凯南",
+                "cost": 5,
+                "position": "2,4",
+                "item_ids": [
+                  "2044"
+                ],
+                "item_names": [
+                  "秘法手套"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15455",
+                "name": "德莱文",
+                "cost": 5,
+                "position": "4,1",
+                "item_ids": [
+                  "2010",
+                  "2045",
+                  "2013"
+                ],
+                "item_names": [
+                  "鬼索的狂暴之刃",
+                  "锐利之刃",
+                  "海妖之怒"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15457",
+                "name": "艾翁",
+                "cost": 5,
+                "position": "4,7",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          }
+        ],
+        "items_plan": [
+          {
+            "hero_id": "15458",
+            "hero_name": "远古巨龙",
+            "item_id": "2001",
+            "item_name": "无尽之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15458",
+            "hero_name": "远古巨龙",
+            "item_id": "2037",
+            "item_name": "最后的轻语",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15458",
+            "hero_name": "远古巨龙",
+            "item_id": "2039",
+            "item_name": "正义之手",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1004",
+                "name": "女神之泪",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15451",
+            "hero_name": "塔里克",
+            "item_id": "2025",
+            "item_name": "振奋盔甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1004",
+                "name": "女神之泪",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1007",
+                "name": "巨人腰带",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15451",
+            "hero_name": "塔里克",
+            "item_id": "2028",
+            "item_name": "石像鬼石板甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1005",
+                "name": "锁子甲",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15451",
+            "hero_name": "塔里克",
+            "item_id": "2034",
+            "item_name": "狂徒铠甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1007",
+                "name": "巨人腰带",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15450",
+            "hero_name": "茂凯",
+            "item_id": "2044",
+            "item_name": "秘法手套",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14503",
+            "hero_name": "阿木木",
+            "item_id": "2044",
+            "item_name": "秘法手套",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15453",
+            "hero_name": "凯南",
+            "item_id": "2044",
+            "item_name": "秘法手套",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15455",
+            "hero_name": "德莱文",
+            "item_id": "2010",
+            "item_name": "鬼索的狂暴之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1003",
+                "name": "无用大棒",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15455",
+            "hero_name": "德莱文",
+            "item_id": "2045",
+            "item_name": "锐利之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15455",
+            "hero_name": "德莱文",
+            "item_id": "2013",
+            "item_name": "海妖之怒",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          }
+        ],
+        "augment_choices": [],
+        "actions": {
+          "buy": [],
+          "hold": [],
+          "sell_candidates": [],
+          "roll_plan": {
+            "mode": "conditional",
+            "max_gold_spend": null,
+            "gold_floor": null,
+            "stop_conditions": [
+              "先补齐血量、金币和等级，再决定搜牌或升级。",
+              "当前阵容或血量无法确认时不安排固定回合梭哈。"
+            ],
+            "note": "输入不完整；没有估计搜中概率，也不推断缺失金币/血量。"
+          },
+          "visible_shop_purchase_cost": null,
+          "level_plan": {
+            "current_level": null,
+            "target_level": 9,
+            "action": "wait_for_information",
+            "upgrade_cost": null,
+            "xp_needed": null,
+            "quality_requirements": [
+              {
+                "hero_id": "15458",
+                "name": "远古巨龙",
+                "target_stars": 3,
+                "current_best_stars": 0
+              },
+              {
+                "hero_id": "15451",
+                "name": "塔里克",
+                "target_stars": 2,
+                "current_best_stars": 0
+              }
+            ],
+            "note": "目标人口来自候选模板；升级前先比较上述主C/前排质量与当前对手。当前经验和版本升级经验表未接入，不估算精确升级金币，不强制某回合升级。"
+          }
+        },
+        "sources": [
+          {
+            "name": "官方掌盟阵容模板",
+            "url": "https://game.gtimg.cn/images/lol/act/jkzlkauto/json/lineupJson/m19/11/18/lineup_detail_total.json",
+            "template_id": "4765",
+            "author": "兔铲铲之战",
+            "published_at": "2026-08-20 11:11:32",
+            "submitted_at": "2026-08-12 10:04:09",
+            "verified_strength_patch": null,
+            "note": "配置已切当前版本；攻略原内容和强度可能较旧。"
+          }
+        ],
+        "template_warnings": [
+          "6级模板含5个英雄",
+          "9级模板含8个英雄",
+          "羁绊仅按唯一英雄基础计数；拉克丝等特殊计数未模拟。"
+        ],
+        "transition_cost": {
+          "missing_one_star_purchase_lower_bound": 38,
+          "roll_cost": null,
+          "xp_cost": null
+        },
+        "external_terminal_prior": {
+          "kind": "external_terminal_prior",
+          "source_name": "金铲铲大数据（非官方）",
+          "source_url": "https://www.dataj.cc/comp/89",
+          "comp_name": "巨龙95",
+          "top4_rate": 54.69,
+          "first_rate": 24.23,
+          "avg_placement": 4.16,
+          "sample_count": 5696,
+          "match_method": "终局阵容英雄集合近似匹配",
+          "roster_jaccard": 1.0,
+          "used_in_score": false,
+          "warning": "非官方历史成型阵容统计；抽样与队列未披露。存在成型选择偏差，不能解释为当前状态或执行此操作后的胜率。"
+        },
+        "operation_timing_reference": {
+          "early_info": [],
+          "d_time": [
+            "9人口",
+            "10人口"
+          ],
+          "location_info": [],
+          "enemy_info": [],
+          "hex_info": [],
+          "equipment_info": [],
+          "adventure_info": []
+        },
+        "timing_reference_note": "旧攻略节奏索引；不是对当前状态的固定回合指令。",
+        "filtered_stale_references": []
+      },
+      {
+        "id": "nature-4766",
+        "name": "【永森九五】3永恒之森2斗士2主宰2裁决使",
+        "score": 0.0,
+        "score_breakdown": {
+          "roster": 0.0,
+          "items": 0.0,
+          "traits": 0.0,
+          "augments": 0.0,
+          "transition": 0.0
+        },
+        "state_probability": null,
+        "reasons": [
+          "已持有目标0/9种；装备适配0%为资源匹配程度。",
+          "缺失目标一星购入价格下界40金币；不含刷新、升级和追星费用，且不代表可刷到。"
+        ],
+        "main_board": [
+          {
+            "hero_id": "15450",
+            "name": "茂凯",
+            "cost": 5,
+            "position": "1,3",
+            "item_ids": [
+              "2044"
+            ],
+            "item_names": [
+              "秘法手套"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "14503",
+            "name": "阿木木",
+            "cost": 4,
+            "position": "1,4",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "12501",
+            "name": "阿利斯塔",
+            "cost": 2,
+            "position": "1,5",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15451",
+            "name": "塔里克",
+            "cost": 5,
+            "position": "1,6",
+            "item_ids": [
+              "2034",
+              "2028",
+              "2023"
+            ],
+            "item_names": [
+              "狂徒铠甲",
+              "石像鬼石板甲",
+              "圣盾使的誓约"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15453",
+            "name": "凯南",
+            "cost": 5,
+            "position": "2,1",
+            "item_ids": [
+              "2044"
+            ],
+            "item_names": [
+              "秘法手套"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15460",
+            "name": "纳尔",
+            "cost": 5,
+            "position": "3,6",
+            "item_ids": [
+              "2012",
+              "2007",
+              "2006"
+            ],
+            "item_names": [
+              "泰坦的坚决",
+              "斯特拉克的挑战护手",
+              "汲取剑"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15457",
+            "name": "艾翁",
+            "cost": 5,
+            "position": "4,3",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "14508",
+            "name": "伊泽瑞尔",
+            "cost": 4,
+            "position": "4,6",
+            "item_ids": [
+              "2022",
+              "2045",
+              "2037"
+            ],
+            "item_names": [
+              "蓝霸符",
+              "锐利之刃",
+              "最后的轻语"
+            ],
+            "is_carry": true,
+            "target_stars": 3
+          },
+          {
+            "hero_id": "15455",
+            "name": "德莱文",
+            "cost": 5,
+            "position": "4,7",
+            "item_ids": [
+              "2010",
+              "2013",
+              "2045"
+            ],
+            "item_names": [
+              "鬼索的狂暴之刃",
+              "海妖之怒",
+              "锐利之刃"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          }
+        ],
+        "transition_boards": [
+          {
+            "level": 6,
+            "label": "官方6人口过渡参考",
+            "units": [
+              {
+                "hero_id": "11500",
+                "name": "奥恩",
+                "cost": 1,
+                "position": "1,4",
+                "item_ids": [
+                  "2025",
+                  "2028",
+                  "2034"
+                ],
+                "item_names": [
+                  "振奋盔甲",
+                  "石像鬼石板甲",
+                  "狂徒铠甲"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12503",
+                "name": "慎",
+                "cost": 2,
+                "position": "1,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11507",
+                "name": "韦鲁斯",
+                "cost": 1,
+                "position": "4,1",
+                "item_ids": [
+                  "2022",
+                  "2045",
+                  "2042"
+                ],
+                "item_names": [
+                  "蓝霸符",
+                  "锐利之刃",
+                  "强袭者的链枷"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11509",
+                "name": "霞",
+                "cost": 1,
+                "position": "4,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12511",
+                "name": "乐芙兰",
+                "cost": 2,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "label": "官方8人口过渡参考",
+            "units": [
+              {
+                "hero_id": "12501",
+                "name": "阿利斯塔",
+                "cost": 2,
+                "position": "1,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "13500",
+                "name": "赫卡里姆",
+                "cost": 3,
+                "position": "1,3",
+                "item_ids": [
+                  "2025",
+                  "2028",
+                  "2032"
+                ],
+                "item_names": [
+                  "振奋盔甲",
+                  "石像鬼石板甲",
+                  "薄暮法袍"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11500",
+                "name": "奥恩",
+                "cost": 1,
+                "position": "1,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15453",
+                "name": "凯南",
+                "cost": 5,
+                "position": "2,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15460",
+                "name": "纳尔",
+                "cost": 5,
+                "position": "2,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14508",
+                "name": "伊泽瑞尔",
+                "cost": 4,
+                "position": "4,1",
+                "item_ids": [
+                  "2022",
+                  "2045",
+                  "2037"
+                ],
+                "item_names": [
+                  "蓝霸符",
+                  "锐利之刃",
+                  "最后的轻语"
+                ],
+                "is_carry": false,
+                "target_stars": 3
+              },
+              {
+                "hero_id": "12511",
+                "name": "乐芙兰",
+                "cost": 2,
+                "position": "4,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11509",
+                "name": "霞",
+                "cost": 1,
+                "position": "4,6",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          },
+          {
+            "level": 9,
+            "label": "官方9人口过渡参考",
+            "units": [
+              {
+                "hero_id": "15450",
+                "name": "茂凯",
+                "cost": 5,
+                "position": "1,3",
+                "item_ids": [
+                  "2044"
+                ],
+                "item_names": [
+                  "秘法手套"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14503",
+                "name": "阿木木",
+                "cost": 4,
+                "position": "1,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12501",
+                "name": "阿利斯塔",
+                "cost": 2,
+                "position": "1,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15451",
+                "name": "塔里克",
+                "cost": 5,
+                "position": "1,6",
+                "item_ids": [
+                  "2034",
+                  "2028",
+                  "2023"
+                ],
+                "item_names": [
+                  "狂徒铠甲",
+                  "石像鬼石板甲",
+                  "圣盾使的誓约"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15453",
+                "name": "凯南",
+                "cost": 5,
+                "position": "2,1",
+                "item_ids": [
+                  "2044"
+                ],
+                "item_names": [
+                  "秘法手套"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15460",
+                "name": "纳尔",
+                "cost": 5,
+                "position": "3,6",
+                "item_ids": [
+                  "2012",
+                  "2007",
+                  "2006"
+                ],
+                "item_names": [
+                  "泰坦的坚决",
+                  "斯特拉克的挑战护手",
+                  "汲取剑"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15457",
+                "name": "艾翁",
+                "cost": 5,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14508",
+                "name": "伊泽瑞尔",
+                "cost": 4,
+                "position": "4,6",
+                "item_ids": [
+                  "2022",
+                  "2045",
+                  "2037"
+                ],
+                "item_names": [
+                  "蓝霸符",
+                  "锐利之刃",
+                  "最后的轻语"
+                ],
+                "is_carry": true,
+                "target_stars": 3
+              },
+              {
+                "hero_id": "15455",
+                "name": "德莱文",
+                "cost": 5,
+                "position": "4,7",
+                "item_ids": [
+                  "2010",
+                  "2013",
+                  "2045"
+                ],
+                "item_names": [
+                  "鬼索的狂暴之刃",
+                  "海妖之怒",
+                  "锐利之刃"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          }
+        ],
+        "items_plan": [
+          {
+            "hero_id": "14508",
+            "hero_name": "伊泽瑞尔",
+            "item_id": "2022",
+            "item_name": "蓝霸符",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1004",
+                "name": "女神之泪",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14508",
+            "hero_name": "伊泽瑞尔",
+            "item_id": "2045",
+            "item_name": "锐利之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14508",
+            "hero_name": "伊泽瑞尔",
+            "item_id": "2037",
+            "item_name": "最后的轻语",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15450",
+            "hero_name": "茂凯",
+            "item_id": "2044",
+            "item_name": "秘法手套",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15451",
+            "hero_name": "塔里克",
+            "item_id": "2034",
+            "item_name": "狂徒铠甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1007",
+                "name": "巨人腰带",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15451",
+            "hero_name": "塔里克",
+            "item_id": "2028",
+            "item_name": "石像鬼石板甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1005",
+                "name": "锁子甲",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15451",
+            "hero_name": "塔里克",
+            "item_id": "2023",
+            "item_name": "圣盾使的誓约",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1004",
+                "name": "女神之泪",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1005",
+                "name": "锁子甲",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15453",
+            "hero_name": "凯南",
+            "item_id": "2044",
+            "item_name": "秘法手套",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15460",
+            "hero_name": "纳尔",
+            "item_id": "2012",
+            "item_name": "泰坦的坚决",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1005",
+                "name": "锁子甲",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15460",
+            "hero_name": "纳尔",
+            "item_id": "2007",
+            "item_name": "斯特拉克的挑战护手",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1007",
+                "name": "巨人腰带",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15460",
+            "hero_name": "纳尔",
+            "item_id": "2006",
+            "item_name": "汲取剑",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15455",
+            "hero_name": "德莱文",
+            "item_id": "2010",
+            "item_name": "鬼索的狂暴之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1003",
+                "name": "无用大棒",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15455",
+            "hero_name": "德莱文",
+            "item_id": "2013",
+            "item_name": "海妖之怒",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15455",
+            "hero_name": "德莱文",
+            "item_id": "2045",
+            "item_name": "锐利之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          }
+        ],
+        "augment_choices": [],
+        "actions": {
+          "buy": [],
+          "hold": [],
+          "sell_candidates": [],
+          "roll_plan": {
+            "mode": "conditional",
+            "max_gold_spend": null,
+            "gold_floor": null,
+            "stop_conditions": [
+              "先补齐血量、金币和等级，再决定搜牌或升级。",
+              "当前阵容或血量无法确认时不安排固定回合梭哈。"
+            ],
+            "note": "输入不完整；没有估计搜中概率，也不推断缺失金币/血量。"
+          },
+          "visible_shop_purchase_cost": null,
+          "level_plan": {
+            "current_level": null,
+            "target_level": 9,
+            "action": "wait_for_information",
+            "upgrade_cost": null,
+            "xp_needed": null,
+            "quality_requirements": [
+              {
+                "hero_id": "14508",
+                "name": "伊泽瑞尔",
+                "target_stars": 3,
+                "current_best_stars": 0
+              },
+              {
+                "hero_id": "15450",
+                "name": "茂凯",
+                "target_stars": 2,
+                "current_best_stars": 0
+              }
+            ],
+            "note": "目标人口来自候选模板；升级前先比较上述主C/前排质量与当前对手。当前经验和版本升级经验表未接入，不估算精确升级金币，不强制某回合升级。"
+          }
+        },
+        "sources": [
+          {
+            "name": "官方掌盟阵容模板",
+            "url": "https://game.gtimg.cn/images/lol/act/jkzlkauto/json/lineupJson/m19/11/18/lineup_detail_total.json",
+            "template_id": "4766",
+            "author": "金铲铲葡葡萄",
+            "published_at": "2026-08-31 10:20:03",
+            "submitted_at": "2026-08-12 10:34:19",
+            "verified_strength_patch": null,
+            "note": "配置已切当前版本；攻略原内容和强度可能较旧。"
+          }
+        ],
+        "template_warnings": [
+          "6级模板含5个英雄",
+          "羁绊仅按唯一英雄基础计数；拉克丝等特殊计数未模拟。"
+        ],
+        "transition_cost": {
+          "missing_one_star_purchase_lower_bound": 40,
+          "roll_cost": null,
+          "xp_cost": null
+        },
+        "external_terminal_prior": {
+          "kind": "external_terminal_prior",
+          "source_name": "金铲铲大数据（非官方）",
+          "source_url": "https://www.dataj.cc/comp/91",
+          "comp_name": "永森95",
+          "top4_rate": 52,
+          "first_rate": 23.2,
+          "avg_placement": 4.11,
+          "sample_count": 125,
+          "match_method": "终局阵容英雄集合近似匹配",
+          "roster_jaccard": 1.0,
+          "used_in_score": false,
+          "warning": "非官方历史成型阵容统计；抽样与队列未披露。存在成型选择偏差，不能解释为当前状态或执行此操作后的胜率。"
+        },
+        "operation_timing_reference": {
+          "early_info": [],
+          "d_time": [
+            "8人口",
+            "9人口"
+          ],
+          "location_info": [],
+          "enemy_info": [
+            "8级"
+          ],
+          "hex_info": [],
+          "equipment_info": [],
+          "adventure_info": []
+        },
+        "timing_reference_note": "旧攻略节奏索引；不是对当前状态的固定回合指令。",
+        "filtered_stale_references": []
+      },
+      {
+        "id": "nature-4767",
+        "name": "【莲华阿狸】7莲华2斗士2法师",
+        "score": 0.0,
+        "score_breakdown": {
+          "roster": 0.0,
+          "items": 0.0,
+          "traits": 0.0,
+          "augments": 0.0,
+          "transition": 0.0
+        },
+        "state_probability": null,
+        "reasons": [
+          "已持有目标0/9种；装备适配0%为资源匹配程度。",
+          "缺失目标一星购入价格下界30金币；不含刷新、升级和追星费用，且不代表可刷到。"
+        ],
+        "main_board": [
+          {
+            "hero_id": "12505",
+            "name": "约里克",
+            "cost": 1,
+            "position": "1,2",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15452",
+            "name": "纳尔",
+            "cost": 5,
+            "position": "1,3",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15450",
+            "name": "茂凯",
+            "cost": 5,
+            "position": "1,4",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "14505",
+            "name": "瑟提",
+            "cost": 4,
+            "position": "1,5",
+            "item_ids": [
+              "2019",
+              "2028",
+              "2034"
+            ],
+            "item_names": [
+              "离子火花",
+              "石像鬼石板甲",
+              "狂徒铠甲"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "13507",
+            "name": "易",
+            "cost": 3,
+            "position": "2,4",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "15454",
+            "name": "艾希",
+            "cost": 5,
+            "position": "4,1",
+            "item_ids": [
+              "2009",
+              "2010",
+              "2001"
+            ],
+            "item_names": [
+              "红霸符",
+              "鬼索的狂暴之刃",
+              "无尽之刃"
+            ],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "12509",
+            "name": "芸阿娜",
+            "cost": 2,
+            "position": "4,3",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "11510",
+            "name": "卡尔玛",
+            "cost": 1,
+            "position": "4,5",
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": 2
+          },
+          {
+            "hero_id": "14511",
+            "name": "阿狸",
+            "cost": 4,
+            "position": "4,7",
+            "item_ids": [
+              "2038",
+              "2022",
+              "2014"
+            ],
+            "item_names": [
+              "珠光护手",
+              "蓝霸符",
+              "纳什之牙"
+            ],
+            "is_carry": true,
+            "target_stars": 3
+          }
+        ],
+        "transition_boards": [
+          {
+            "level": 6,
+            "label": "官方6人口过渡参考",
+            "units": [
+              {
+                "hero_id": "11501",
+                "name": "洛",
+                "cost": 1,
+                "position": "1,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12505",
+                "name": "约里克",
+                "cost": 1,
+                "position": "1,4",
+                "item_ids": [
+                  "2019",
+                  "2034",
+                  "2028"
+                ],
+                "item_names": [
+                  "离子火花",
+                  "狂徒铠甲",
+                  "石像鬼石板甲"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11510",
+                "name": "卡尔玛",
+                "cost": 1,
+                "position": "4,1",
+                "item_ids": [
+                  "2022",
+                  "2038",
+                  "2014"
+                ],
+                "item_names": [
+                  "蓝霸符",
+                  "珠光护手",
+                  "纳什之牙"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12509",
+                "name": "芸阿娜",
+                "cost": 2,
+                "position": "4,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12511",
+                "name": "乐芙兰",
+                "cost": 2,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "label": "官方8人口过渡参考",
+            "units": [
+              {
+                "hero_id": "12505",
+                "name": "约里克",
+                "cost": 1,
+                "position": "1,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15452",
+                "name": "纳尔",
+                "cost": 5,
+                "position": "1,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14505",
+                "name": "瑟提",
+                "cost": 4,
+                "position": "1,5",
+                "item_ids": [
+                  "2019",
+                  "2028",
+                  "2034"
+                ],
+                "item_names": [
+                  "离子火花",
+                  "石像鬼石板甲",
+                  "狂徒铠甲"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "13507",
+                "name": "易",
+                "cost": 3,
+                "position": "2,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15454",
+                "name": "艾希",
+                "cost": 5,
+                "position": "4,1",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12509",
+                "name": "芸阿娜",
+                "cost": 2,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11510",
+                "name": "卡尔玛",
+                "cost": 1,
+                "position": "4,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14511",
+                "name": "阿狸",
+                "cost": 4,
+                "position": "4,7",
+                "item_ids": [
+                  "2022",
+                  "2038",
+                  "2014"
+                ],
+                "item_names": [
+                  "蓝霸符",
+                  "珠光护手",
+                  "纳什之牙"
+                ],
+                "is_carry": false,
+                "target_stars": 3
+              }
+            ]
+          },
+          {
+            "level": 9,
+            "label": "官方9人口过渡参考",
+            "units": [
+              {
+                "hero_id": "12505",
+                "name": "约里克",
+                "cost": 1,
+                "position": "1,2",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15452",
+                "name": "纳尔",
+                "cost": 5,
+                "position": "1,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15450",
+                "name": "茂凯",
+                "cost": 5,
+                "position": "1,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14505",
+                "name": "瑟提",
+                "cost": 4,
+                "position": "1,5",
+                "item_ids": [
+                  "2019",
+                  "2028",
+                  "2034"
+                ],
+                "item_names": [
+                  "离子火花",
+                  "石像鬼石板甲",
+                  "狂徒铠甲"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "13507",
+                "name": "易",
+                "cost": 3,
+                "position": "2,4",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "15454",
+                "name": "艾希",
+                "cost": 5,
+                "position": "4,1",
+                "item_ids": [
+                  "2009",
+                  "2010",
+                  "2001"
+                ],
+                "item_names": [
+                  "红霸符",
+                  "鬼索的狂暴之刃",
+                  "无尽之刃"
+                ],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "12509",
+                "name": "芸阿娜",
+                "cost": 2,
+                "position": "4,3",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "11510",
+                "name": "卡尔玛",
+                "cost": 1,
+                "position": "4,5",
+                "item_ids": [],
+                "item_names": [],
+                "is_carry": false,
+                "target_stars": 2
+              },
+              {
+                "hero_id": "14511",
+                "name": "阿狸",
+                "cost": 4,
+                "position": "4,7",
+                "item_ids": [
+                  "2038",
+                  "2022",
+                  "2014"
+                ],
+                "item_names": [
+                  "珠光护手",
+                  "蓝霸符",
+                  "纳什之牙"
+                ],
+                "is_carry": true,
+                "target_stars": 3
+              }
+            ]
+          }
+        ],
+        "items_plan": [
+          {
+            "hero_id": "14511",
+            "hero_name": "阿狸",
+            "item_id": "2038",
+            "item_name": "珠光护手",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1003",
+                "name": "无用大棒",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14511",
+            "hero_name": "阿狸",
+            "item_id": "2022",
+            "item_name": "蓝霸符",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1004",
+                "name": "女神之泪",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14511",
+            "hero_name": "阿狸",
+            "item_id": "2014",
+            "item_name": "纳什之牙",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1007",
+                "name": "巨人腰带",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14505",
+            "hero_name": "瑟提",
+            "item_id": "2019",
+            "item_name": "离子火花",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1003",
+                "name": "无用大棒",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14505",
+            "hero_name": "瑟提",
+            "item_id": "2028",
+            "item_name": "石像鬼石板甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1005",
+                "name": "锁子甲",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1006",
+                "name": "负极斗篷",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "14505",
+            "hero_name": "瑟提",
+            "item_id": "2034",
+            "item_name": "狂徒铠甲",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1007",
+                "name": "巨人腰带",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15454",
+            "hero_name": "艾希",
+            "item_id": "2009",
+            "item_name": "红霸符",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 2
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15454",
+            "hero_name": "艾希",
+            "item_id": "2010",
+            "item_name": "鬼索的狂暴之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1002",
+                "name": "反曲之弓",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1003",
+                "name": "无用大棒",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          },
+          {
+            "hero_id": "15454",
+            "hero_name": "艾希",
+            "item_id": "2001",
+            "item_name": "无尽之刃",
+            "status": "missing",
+            "components": [
+              {
+                "id": "1001",
+                "name": "暴风之剑",
+                "owned": 0,
+                "required": 1
+              },
+              {
+                "id": "1009",
+                "name": "拳套",
+                "owned": 0,
+                "required": 1
+              }
+            ],
+            "note": "尚缺；其他弈子身上的装备不视为可直接搬移。"
+          }
+        ],
+        "augment_choices": [],
+        "actions": {
+          "buy": [],
+          "hold": [],
+          "sell_candidates": [],
+          "roll_plan": {
+            "mode": "conditional",
+            "max_gold_spend": null,
+            "gold_floor": null,
+            "stop_conditions": [
+              "先补齐血量、金币和等级，再决定搜牌或升级。",
+              "当前阵容或血量无法确认时不安排固定回合梭哈。"
+            ],
+            "note": "输入不完整；没有估计搜中概率，也不推断缺失金币/血量。"
+          },
+          "visible_shop_purchase_cost": null,
+          "level_plan": {
+            "current_level": null,
+            "target_level": 9,
+            "action": "wait_for_information",
+            "upgrade_cost": null,
+            "xp_needed": null,
+            "quality_requirements": [
+              {
+                "hero_id": "14511",
+                "name": "阿狸",
+                "target_stars": 3,
+                "current_best_stars": 0
+              },
+              {
+                "hero_id": "12505",
+                "name": "约里克",
+                "target_stars": 2,
+                "current_best_stars": 0
+              }
+            ],
+            "note": "目标人口来自候选模板；升级前先比较上述主C/前排质量与当前对手。当前经验和版本升级经验表未接入，不估算精确升级金币，不强制某回合升级。"
+          }
+        },
+        "sources": [
+          {
+            "name": "官方掌盟阵容模板",
+            "url": "https://game.gtimg.cn/images/lol/act/jkzlkauto/json/lineupJson/m19/11/18/lineup_detail_total.json",
+            "template_id": "4767",
+            "author": "兔铲铲之战",
+            "published_at": "2026-08-19 12:50:28",
+            "submitted_at": "2026-08-12 10:45:23",
+            "verified_strength_patch": null,
+            "note": "配置已切当前版本；攻略原内容和强度可能较旧。"
+          }
+        ],
+        "template_warnings": [
+          "6级模板含5个英雄",
+          "羁绊仅按唯一英雄基础计数；拉克丝等特殊计数未模拟。"
+        ],
+        "transition_cost": {
+          "missing_one_star_purchase_lower_bound": 30,
+          "roll_cost": null,
+          "xp_cost": null
+        },
+        "external_terminal_prior": null,
+        "operation_timing_reference": {
+          "early_info": [],
+          "d_time": [
+            "4杠2",
+            "8人口",
+            "9人口",
+            "10人口"
+          ],
+          "location_info": [],
+          "enemy_info": [],
+          "hex_info": [],
+          "equipment_info": [],
+          "adventure_info": []
+        },
+        "timing_reference_note": "旧攻略节奏索引；不是对当前状态的固定回合指令。",
+        "filtered_stale_references": []
+      }
+    ],
+    "missing_inputs": [
+      "hp",
+      "gold",
+      "level"
+    ],
+    "normalized_state": {
+      "mode": "nature",
+      "patch": "18.6",
+      "stage": "2-1",
+      "hp": null,
+      "gold": null,
+      "level": null,
+      "board": [],
+      "bench": [],
+      "shop": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "item_ids": [],
+      "augment_ids": [],
+      "offered_augment_ids": [],
+      "orange_card_ids": [],
+      "confirmed": false
+    },
+    "template_count_considered": 64
+  },
+  "probability_model": {
+    "status": "needs_confirmation",
+    "state_probability": null,
+    "reason": "请先确认识别状态。"
+  }
+}

@@ -1,0 +1,5630 @@
+{
+  "baseline": [
+    {
+      "sample_id": "consumed_nature_01",
+      "group_id": "chuapp_291576",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/article/291576.html",
+      "file_sha256": "ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55",
+      "decoded_image_sha256": "a63bd2cae6218a7d32cc55a222c66578a6c9e9702592113b67b974bb8f7798d8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 12506.342021995806,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-5",
+          "predicted": "3-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 50,
+          "predicted": 50,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": 5,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12507",
+          "predicted": "12507",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12500",
+          "predicted": "12500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "12500",
+          "predicted": "12500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": {
+            "empty": true
+          },
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "12514",
+          "predicted": "12514",
+          "label_present": true,
+          "outcome": "correct"
+        }
+      ],
+      "evidence_count": 56,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_01-983f8c36-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_01",
+      "group_id": "chuapp_291576",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/article/291576.html",
+      "file_sha256": "ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55",
+      "decoded_image_sha256": "a63bd2cae6218a7d32cc55a222c66578a6c9e9702592113b67b974bb8f7798d8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9",
+      "decoded_image_sha256": "8c25f44d3b7108ed36406d5ba20d38c825431f7378f8dccb2bcee7722b4e5342",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 10058.689154000604,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-5",
+          "predicted": "3-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 6,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "11508",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "11511",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "11508",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "12513",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "13509",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        }
+      ],
+      "evidence_count": 51,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_02-3565a4fb-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9",
+      "decoded_image_sha256": "8c25f44d3b7108ed36406d5ba20d38c825431f7378f8dccb2bcee7722b4e5342",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7",
+      "decoded_image_sha256": "035044aff234642d90eede1a1da2af61983494a861e2d8c02237df6549c416de",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "latency_ms": 5760.922257002676,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-1",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "gold",
+          "expected": 9,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 39,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_03-a2a2fa2d-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7",
+      "decoded_image_sha256": "035044aff234642d90eede1a1da2af61983494a861e2d8c02237df6549c416de",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231",
+      "decoded_image_sha256": "722a63d0e17d81799c6fea5a855dead7ebad2fa8952968b82f088dbca15ce5ff",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 10123.055359988939,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-1",
+          "predicted": "3-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 39,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 29,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_04-8d37b780-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231",
+      "decoded_image_sha256": "722a63d0e17d81799c6fea5a855dead7ebad2fa8952968b82f088dbca15ce5ff",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2",
+      "decoded_image_sha256": "6cdfe12a02fc3e5dc269ee1dc883615084dff29a1e4f674dbe12a2aa26571242",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "latency_ms": 4826.627864007605,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-5",
+          "predicted": "5-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 18,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12509",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "13506",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13508",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "13505",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 54,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_05-0ef3d29e-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2",
+      "decoded_image_sha256": "6cdfe12a02fc3e5dc269ee1dc883615084dff29a1e4f674dbe12a2aa26571242",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 8049.07712599379,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 36,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_03-da69453f-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_04",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 3,
+      "latency_ms": 6812.282950006193,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-3",
+          "predicted": "2-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 4,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 39,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_04-74eed507-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_04",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 6628.604956000345,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 29,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_08-92dc33bb-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_azir_video_first",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 2,
+      "latency_ms": 10251.023657998303,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "1-4",
+          "predicted": "1-4",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 22,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_azir_video_first-3b2e36cd-default.json"
+    },
+    {
+      "sample_id": "orange_azir_video_first",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 7934.387407003669,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_taptap_loadout-6b11089d-default.json"
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_01",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038",
+      "decoded_image_sha256": "bed74f277a1abb873c49b8469e89662cb7a55a0b78a766c47798ee217a3450ce",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 5458.678292008699,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-6",
+          "predicted": "2-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 69,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_01-0e39fd72-default.json"
+    },
+    {
+      "sample_id": "nature_dev_01",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038",
+      "decoded_image_sha256": "bed74f277a1abb873c49b8469e89662cb7a55a0b78a766c47798ee217a3450ce",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe",
+      "decoded_image_sha256": "9703bdd3beb536ff24ad3d8979090620d8d8ec2ed804b9f8a2ab67f9e75da74a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 8436.747728002956,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 28,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 60,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_02-9d7247ee-default.json"
+    },
+    {
+      "sample_id": "nature_dev_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe",
+      "decoded_image_sha256": "9703bdd3beb536ff24ad3d8979090620d8d8ec2ed804b9f8a2ab67f9e75da74a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6",
+      "decoded_image_sha256": "bcf0c9ec70e8d553eab67f8fddf4de7444f7f617b1c2466c1721444b8b6bd1db",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 10757.849540997995,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-2",
+          "predicted": "4-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 46,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_03-b2e97515-default.json"
+    },
+    {
+      "sample_id": "nature_dev_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6",
+      "decoded_image_sha256": "bcf0c9ec70e8d553eab67f8fddf4de7444f7f617b1c2466c1721444b8b6bd1db",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531",
+      "decoded_image_sha256": "bc999b62baa43e1eb50ef4a8bed98d0e18ddeb88d231f6bc7a98437fa3e8c3d5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 11110.03994999919,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-1",
+          "predicted": "3-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 36,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 68,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_04-c114b7a9-default.json"
+    },
+    {
+      "sample_id": "nature_dev_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531",
+      "decoded_image_sha256": "bc999b62baa43e1eb50ef4a8bed98d0e18ddeb88d231f6bc7a98437fa3e8c3d5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87",
+      "decoded_image_sha256": "56f2ec9b2ca3c0ab68f62f83db5b792aad1a6b8982df519658db35df23467dec",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 12412.163312998018,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-2",
+          "predicted": "2-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 4,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 35,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_05-23370045-default.json"
+    },
+    {
+      "sample_id": "nature_dev_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87",
+      "decoded_image_sha256": "56f2ec9b2ca3c0ab68f62f83db5b792aad1a6b8982df519658db35df23467dec",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_06",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa",
+      "decoded_image_sha256": "b6212627a14085581c8e7c63ba9d182578345d51f708f4f0e657aacd5d8f8c62",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "latency_ms": 11082.446707005147,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-1",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "gold",
+          "expected": 2,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 25,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_06-86ebc3de-default.json"
+    },
+    {
+      "sample_id": "nature_dev_06",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa",
+      "decoded_image_sha256": "b6212627a14085581c8e7c63ba9d182578345d51f708f4f0e657aacd5d8f8c62",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_07",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee",
+      "decoded_image_sha256": "5682763752e5a2084a6a8a96aacd87e186a88f12023f237ed9feba51ba6a1276",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 12746.530247997725,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "6-2",
+          "predicted": "6-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 11,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 10,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 62,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_07-a5be60d1-default.json"
+    },
+    {
+      "sample_id": "nature_dev_07",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee",
+      "decoded_image_sha256": "5682763752e5a2084a6a8a96aacd87e186a88f12023f237ed9feba51ba6a1276",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_08",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a",
+      "decoded_image_sha256": "69e87a809b6272e9ac4ca4b64197f13a4f094fd06c04d6c837e557cc33c0a6a2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 12044.277982990025,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-7",
+          "predicted": "4-7",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 47,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 37,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_08-d3064a7a-default.json"
+    },
+    {
+      "sample_id": "nature_dev_08",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a",
+      "decoded_image_sha256": "69e87a809b6272e9ac4ca4b64197f13a4f094fd06c04d6c837e557cc33c0a6a2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_09",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c",
+      "decoded_image_sha256": "4ed5258edfeaa73ee53aa8d0c4be26c51909a06b883c748f47b7b04178b08b6f",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "latency_ms": 11657.909753004787,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-6",
+          "predicted": "4-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 58,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12501",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "13515",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": {
+            "empty": true
+          },
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "15467",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 46,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_09-a0997578-default.json"
+    },
+    {
+      "sample_id": "nature_dev_09",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c",
+      "decoded_image_sha256": "4ed5258edfeaa73ee53aa8d0c4be26c51909a06b883c748f47b7b04178b08b6f",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_10",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75",
+      "decoded_image_sha256": "e42876b9ae13c61ed73c9b32eceece13cb0ae28eadc293ec6e8be0068ec6b3e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 7053.643802006263,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-5",
+          "predicted": "2-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 48,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_10-c1672700-default.json"
+    },
+    {
+      "sample_id": "nature_dev_10",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75",
+      "decoded_image_sha256": "e42876b9ae13c61ed73c9b32eceece13cb0ae28eadc293ec6e8be0068ec6b3e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_11",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b",
+      "decoded_image_sha256": "118435dd2530eaa3731ceb7fc21a17f37d7a5329442c347cf90c7c316ad1ebf2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 7481.8482939881505,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-7",
+          "predicted": "4-7",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 44,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 54,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_11-4e9e60ad-default.json"
+    },
+    {
+      "sample_id": "nature_dev_11",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b",
+      "decoded_image_sha256": "118435dd2530eaa3731ceb7fc21a17f37d7a5329442c347cf90c7c316ad1ebf2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_01",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167",
+      "decoded_image_sha256": "dc4e01b1c7252730d3b380f4a1490ff2399adeb84acc6bc7529876cdf359f0e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 23356.81704900344,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 39,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_01-275ab742-default.json"
+    },
+    {
+      "sample_id": "orange_exp_01",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167",
+      "decoded_image_sha256": "dc4e01b1c7252730d3b380f4a1490ff2399adeb84acc6bc7529876cdf359f0e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_02",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1",
+      "decoded_image_sha256": "05c49709b9084077856dbdad70b904803a20c95b25505adf73245a66115dbd1b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 15318.669006010168,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 26,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_02-ceb3ebc9-default.json"
+    },
+    {
+      "sample_id": "orange_exp_02",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1",
+      "decoded_image_sha256": "05c49709b9084077856dbdad70b904803a20c95b25505adf73245a66115dbd1b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1",
+      "decoded_image_sha256": "e06e4bad7d71f79262ed967845aaa9e1eae15f7f2f549104312d9f1abd7c71e4",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 12045.126898010494,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 32,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_03-eb092886-default.json"
+    },
+    {
+      "sample_id": "orange_exp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1",
+      "decoded_image_sha256": "e06e4bad7d71f79262ed967845aaa9e1eae15f7f2f549104312d9f1abd7c71e4",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_04",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9",
+      "decoded_image_sha256": "264cdb0f814e6b8585167e0ccfa02857b5849eeba70032357398d7d265179d7b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 8148.0335499945795,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 42,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_04-fc469c42-default.json"
+    },
+    {
+      "sample_id": "orange_exp_04",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9",
+      "decoded_image_sha256": "264cdb0f814e6b8585167e0ccfa02857b5849eeba70032357398d7d265179d7b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_05",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b",
+      "decoded_image_sha256": "ba16ed1c62dcee7f4170df94a567a714aeff327fead73782bacc194270f405c8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 6435.286642998108,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 27,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_05-e3768f46-default.json"
+    },
+    {
+      "sample_id": "orange_exp_05",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b",
+      "decoded_image_sha256": "ba16ed1c62dcee7f4170df94a567a714aeff327fead73782bacc194270f405c8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_06",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a",
+      "decoded_image_sha256": "c97bf4a7f899e71affb994974c9ec9725f82b7923efc5038393d8eba491e2af0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 5882.2346679953625,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 16,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_06-c8b74051-default.json"
+    },
+    {
+      "sample_id": "orange_exp_06",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a",
+      "decoded_image_sha256": "c97bf4a7f899e71affb994974c9ec9725f82b7923efc5038393d8eba491e2af0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ],
+  "optimized": [
+    {
+      "sample_id": "consumed_nature_01",
+      "group_id": "chuapp_291576",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/article/291576.html",
+      "file_sha256": "ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55",
+      "decoded_image_sha256": "a63bd2cae6218a7d32cc55a222c66578a6c9e9702592113b67b974bb8f7798d8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 1733.4140279999701,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-5",
+          "predicted": "3-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 50,
+          "predicted": 50,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": 5,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12507",
+          "predicted": "12507",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12500",
+          "predicted": "12500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "12500",
+          "predicted": "12500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": {
+            "empty": true
+          },
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "12514",
+          "predicted": "12514",
+          "label_present": true,
+          "outcome": "correct"
+        }
+      ],
+      "evidence_count": 56,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_01-983f8c36-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_01",
+      "group_id": "chuapp_291576",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/article/291576.html",
+      "file_sha256": "ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55",
+      "decoded_image_sha256": "a63bd2cae6218a7d32cc55a222c66578a6c9e9702592113b67b974bb8f7798d8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9",
+      "decoded_image_sha256": "8c25f44d3b7108ed36406d5ba20d38c825431f7378f8dccb2bcee7722b4e5342",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 1749.3448029999854,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-5",
+          "predicted": "3-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 6,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "11508",
+          "predicted": "11508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "11511",
+          "predicted": "11511",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "11508",
+          "predicted": "11508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "12513",
+          "predicted": "12513",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "13509",
+          "predicted": "13509",
+          "label_present": true,
+          "outcome": "correct"
+        }
+      ],
+      "evidence_count": 58,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_02-3565a4fb-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9",
+      "decoded_image_sha256": "8c25f44d3b7108ed36406d5ba20d38c825431f7378f8dccb2bcee7722b4e5342",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7",
+      "decoded_image_sha256": "035044aff234642d90eede1a1da2af61983494a861e2d8c02237df6549c416de",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "latency_ms": 7582.26920600282,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-1",
+          "predicted": "2-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 9,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 43,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_03-a2a2fa2d-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7",
+      "decoded_image_sha256": "035044aff234642d90eede1a1da2af61983494a861e2d8c02237df6549c416de",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231",
+      "decoded_image_sha256": "722a63d0e17d81799c6fea5a855dead7ebad2fa8952968b82f088dbca15ce5ff",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 7620.349094999256,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-1",
+          "predicted": "3-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 39,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 33,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_04-8d37b780-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231",
+      "decoded_image_sha256": "722a63d0e17d81799c6fea5a855dead7ebad2fa8952968b82f088dbca15ce5ff",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "consumed_nature_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2",
+      "decoded_image_sha256": "6cdfe12a02fc3e5dc269ee1dc883615084dff29a1e4f674dbe12a2aa26571242",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "latency_ms": 1066.6381109913345,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-5",
+          "predicted": "5-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 18,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12509",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "13506",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13508",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "13505",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 56,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/consumed_nature_05-0ef3d29e-default.json"
+    },
+    {
+      "sample_id": "consumed_nature_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2",
+      "decoded_image_sha256": "6cdfe12a02fc3e5dc269ee1dc883615084dff29a1e4f674dbe12a2aa26571242",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 1434.0389749995666,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_03-da69453f-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "decoded_image_sha256": "e14858e0ec73ba98b69937123548b4f6f47b68039a44bda514cce3fc948c9e9d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_04",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 3,
+      "latency_ms": 6400.908733005053,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-3",
+          "predicted": "2-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 4,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 39,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_04-74eed507-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_04",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "decoded_image_sha256": "bcabd744c483d659d5f11040c440fd5796c8897ee49da6e930a2cccdec49efd6",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 270.7573959924048,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 29,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_chuapp_08-92dc33bb-default.json"
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "decoded_image_sha256": "97b995169cad47252322bc936f17d375cf1d9d37211d2d7b510cafa640807be0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_azir_video_first",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 2,
+      "latency_ms": 10303.826214003493,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "1-4",
+          "predicted": "1-4",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 22,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_azir_video_first-3b2e36cd-default.json"
+    },
+    {
+      "sample_id": "orange_azir_video_first",
+      "group_id": "source_taptap_867454613899445849",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867454613899445849",
+      "file_sha256": "324fe3ca94f50dd1b75ba7f48956d23b6ac0707e7783138506adfd1009c35116",
+      "decoded_image_sha256": "6ae15136b999788d4b365d2558b2ecb266448eb75e9ab5a0e2d299d070cd2520",
+      "profile_origin": "per_sample_manual",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 467.0344290061621,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_taptap_loadout-6b11089d-default.json"
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "group_id": "source_taptap_867151065470994551",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867151065470994551",
+      "file_sha256": "57c76950e769ae9bc4810a4b61750fc76c29dc8cb047a6ed815a7f9ddfa6197e",
+      "decoded_image_sha256": "59839a63cc6a8383bd2c1a61342bee8bdd286f0d254e281834f9d07cdc154db9",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_01",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038",
+      "decoded_image_sha256": "bed74f277a1abb873c49b8469e89662cb7a55a0b78a766c47798ee217a3450ce",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 4900.457962008659,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-6",
+          "predicted": "2-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 72,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_01-0e39fd72-default.json"
+    },
+    {
+      "sample_id": "nature_dev_01",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038",
+      "decoded_image_sha256": "bed74f277a1abb873c49b8469e89662cb7a55a0b78a766c47798ee217a3450ce",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe",
+      "decoded_image_sha256": "9703bdd3beb536ff24ad3d8979090620d8d8ec2ed804b9f8a2ab67f9e75da74a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 11454.164217997459,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 28,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 64,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_02-9d7247ee-default.json"
+    },
+    {
+      "sample_id": "nature_dev_02",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe",
+      "decoded_image_sha256": "9703bdd3beb536ff24ad3d8979090620d8d8ec2ed804b9f8a2ab67f9e75da74a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6",
+      "decoded_image_sha256": "bcf0c9ec70e8d553eab67f8fddf4de7444f7f617b1c2466c1721444b8b6bd1db",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 11229.878394005937,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-2",
+          "predicted": "4-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 52,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_03-b2e97515-default.json"
+    },
+    {
+      "sample_id": "nature_dev_03",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6",
+      "decoded_image_sha256": "bcf0c9ec70e8d553eab67f8fddf4de7444f7f617b1c2466c1721444b8b6bd1db",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531",
+      "decoded_image_sha256": "bc999b62baa43e1eb50ef4a8bed98d0e18ddeb88d231f6bc7a98437fa3e8c3d5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 10773.275775994989,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "3-1",
+          "predicted": "3-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 36,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 72,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_04-c114b7a9-default.json"
+    },
+    {
+      "sample_id": "nature_dev_04",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531",
+      "decoded_image_sha256": "bc999b62baa43e1eb50ef4a8bed98d0e18ddeb88d231f6bc7a98437fa3e8c3d5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87",
+      "decoded_image_sha256": "56f2ec9b2ca3c0ab68f62f83db5b792aad1a6b8982df519658db35df23467dec",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 11732.766640998307,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-2",
+          "predicted": "2-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 4,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 41,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_05-23370045-default.json"
+    },
+    {
+      "sample_id": "nature_dev_05",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87",
+      "decoded_image_sha256": "56f2ec9b2ca3c0ab68f62f83db5b792aad1a6b8982df519658db35df23467dec",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_06",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa",
+      "decoded_image_sha256": "b6212627a14085581c8e7c63ba9d182578345d51f708f4f0e657aacd5d8f8c62",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "latency_ms": 11044.57519800053,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-1",
+          "predicted": "2-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 2,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 100,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 3,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 29,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_06-86ebc3de-default.json"
+    },
+    {
+      "sample_id": "nature_dev_06",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa",
+      "decoded_image_sha256": "b6212627a14085581c8e7c63ba9d182578345d51f708f4f0e657aacd5d8f8c62",
+      "profile_origin": "unspecified",
+      "labelled_fields": 4,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_07",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee",
+      "decoded_image_sha256": "5682763752e5a2084a6a8a96aacd87e186a88f12023f237ed9feba51ba6a1276",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 11975.581574006355,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "6-2",
+          "predicted": "6-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 11,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 10,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 66,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_07-a5be60d1-default.json"
+    },
+    {
+      "sample_id": "nature_dev_07",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee",
+      "decoded_image_sha256": "5682763752e5a2084a6a8a96aacd87e186a88f12023f237ed9feba51ba6a1276",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_08",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a",
+      "decoded_image_sha256": "69e87a809b6272e9ac4ca4b64197f13a4f094fd06c04d6c837e557cc33c0a6a2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 10051.231904988526,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-7",
+          "predicted": "4-7",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 47,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 43,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_08-d3064a7a-default.json"
+    },
+    {
+      "sample_id": "nature_dev_08",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a",
+      "decoded_image_sha256": "69e87a809b6272e9ac4ca4b64197f13a4f094fd06c04d6c837e557cc33c0a6a2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_09",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c",
+      "decoded_image_sha256": "4ed5258edfeaa73ee53aa8d0c4be26c51909a06b883c748f47b7b04178b08b6f",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "latency_ms": 1843.6337540042587,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-6",
+          "predicted": "4-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 58,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12501",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "13515",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": {
+            "empty": true
+          },
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "15467",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 49,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_09-a0997578-default.json"
+    },
+    {
+      "sample_id": "nature_dev_09",
+      "group_id": "sohu_1068964903",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "file_sha256": "6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c",
+      "decoded_image_sha256": "4ed5258edfeaa73ee53aa8d0c4be26c51909a06b883c748f47b7b04178b08b6f",
+      "profile_origin": "unspecified",
+      "labelled_fields": 7,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_10",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75",
+      "decoded_image_sha256": "e42876b9ae13c61ed73c9b32eceece13cb0ae28eadc293ec6e8be0068ec6b3e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 6635.857512999792,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-5",
+          "predicted": "2-5",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 50,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_10-c1672700-default.json"
+    },
+    {
+      "sample_id": "nature_dev_10",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75",
+      "decoded_image_sha256": "e42876b9ae13c61ed73c9b32eceece13cb0ae28eadc293ec6e8be0068ec6b3e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_dev_11",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b",
+      "decoded_image_sha256": "118435dd2530eaa3731ceb7fc21a17f37d7a5329442c347cf90c7c316ad1ebf2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 9424.905599007616,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-7",
+          "predicted": "4-7",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 44,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 58,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_dev_11-4e9e60ad-default.json"
+    },
+    {
+      "sample_id": "nature_dev_11",
+      "group_id": "youxituoluo_534823",
+      "split": "development",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://youxituoluo.com/534823.html",
+      "file_sha256": "2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b",
+      "decoded_image_sha256": "118435dd2530eaa3731ceb7fc21a17f37d7a5329442c347cf90c7c316ad1ebf2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_01",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167",
+      "decoded_image_sha256": "dc4e01b1c7252730d3b380f4a1490ff2399adeb84acc6bc7529876cdf359f0e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 1374.6554760000436,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 38,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_01-275ab742-default.json"
+    },
+    {
+      "sample_id": "orange_exp_01",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167",
+      "decoded_image_sha256": "dc4e01b1c7252730d3b380f4a1490ff2399adeb84acc6bc7529876cdf359f0e6",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_02",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1",
+      "decoded_image_sha256": "05c49709b9084077856dbdad70b904803a20c95b25505adf73245a66115dbd1b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 365.6202449928969,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 26,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_02-ceb3ebc9-default.json"
+    },
+    {
+      "sample_id": "orange_exp_02",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1",
+      "decoded_image_sha256": "05c49709b9084077856dbdad70b904803a20c95b25505adf73245a66115dbd1b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1",
+      "decoded_image_sha256": "e06e4bad7d71f79262ed967845aaa9e1eae15f7f2f549104312d9f1abd7c71e4",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 307.787270998233,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 32,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_03-eb092886-default.json"
+    },
+    {
+      "sample_id": "orange_exp_03",
+      "group_id": "source_chuapp_291737",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "file_sha256": "d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1",
+      "decoded_image_sha256": "e06e4bad7d71f79262ed967845aaa9e1eae15f7f2f549104312d9f1abd7c71e4",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_04",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9",
+      "decoded_image_sha256": "264cdb0f814e6b8585167e0ccfa02857b5849eeba70032357398d7d265179d7b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 1178.3809960033977,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 42,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_04-fc469c42-default.json"
+    },
+    {
+      "sample_id": "orange_exp_04",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9",
+      "decoded_image_sha256": "264cdb0f814e6b8585167e0ccfa02857b5849eeba70032357398d7d265179d7b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_05",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b",
+      "decoded_image_sha256": "ba16ed1c62dcee7f4170df94a567a714aeff327fead73782bacc194270f405c8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 6486.323361998075,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 28,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_05-e3768f46-default.json"
+    },
+    {
+      "sample_id": "orange_exp_05",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b",
+      "decoded_image_sha256": "ba16ed1c62dcee7f4170df94a567a714aeff327fead73782bacc194270f405c8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_06",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a",
+      "decoded_image_sha256": "c97bf4a7f899e71affb994974c9ec9725f82b7923efc5038393d8eba491e2af0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 798.4930950042326,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 18,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_06-c8b74051-default.json"
+    },
+    {
+      "sample_id": "orange_exp_06",
+      "group_id": "source_taptap_867251881297052929",
+      "split": "development",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "file_sha256": "265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a",
+      "decoded_image_sha256": "c97bf4a7f899e71affb994974c9ec9725f82b7923efc5038393d8eba491e2af0",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ]
+}

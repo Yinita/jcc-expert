@@ -1,0 +1,540 @@
+{
+  "date": "2026-11-12",
+  "scope": "Only old 38 already-consumed screenshots; no round3 new sealed source opened.",
+  "totals": {
+    "scalar_correct": 25,
+    "shop_abstention_outside_field_model_scope": 13,
+    "correct_OCR_available_but_state_abstained": 27,
+    "no_OCR_line_matching_roi": 1,
+    "scalar_label_without_reliable_roi": 7
+  },
+  "groups": {
+    "chuapp_291576": {
+      "images": 1,
+      "mode": "nature",
+      "labelled_scalar_fields": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "positive_boxes": 3,
+      "negative_boxes": 3
+    },
+    "sohu_1068964903": {
+      "images": 13,
+      "mode": "nature",
+      "labelled_scalar_fields": {
+        "stage": 13,
+        "gold": 10,
+        "level": 13,
+        "hp": 2
+      },
+      "positive_boxes": 38,
+      "negative_boxes": 10
+    },
+    "source_chuapp_291737": {
+      "images": 6,
+      "mode": "orange",
+      "labelled_scalar_fields": {
+        "stage": 1,
+        "hp": 1,
+        "level": 1
+      },
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "source_taptap_867454613899445849": {
+      "images": 1,
+      "mode": "orange",
+      "labelled_scalar_fields": {
+        "stage": 1,
+        "level": 1
+      },
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "source_taptap_867151065470994551": {
+      "images": 1,
+      "mode": "orange",
+      "labelled_scalar_fields": {},
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "youxituoluo_534823": {
+      "images": 2,
+      "mode": "nature",
+      "labelled_scalar_fields": {
+        "stage": 2,
+        "level": 2,
+        "gold": 1
+      },
+      "positive_boxes": 5,
+      "negative_boxes": 0
+    },
+    "source_taptap_867251881297052929": {
+      "images": 3,
+      "mode": "orange",
+      "labelled_scalar_fields": {},
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "ali213_1032951": {
+      "images": 3,
+      "mode": "nature",
+      "labelled_scalar_fields": {
+        "stage": 1,
+        "level": 1
+      },
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "17173_08242026_093003976": {
+      "images": 3,
+      "mode": "nature",
+      "labelled_scalar_fields": {
+        "stage": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "source_3dm_3746579": {
+      "images": 4,
+      "mode": "orange",
+      "labelled_scalar_fields": {
+        "stage": 2,
+        "level": 1
+      },
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    },
+    "source_taptap_867484028389820540": {
+      "images": 1,
+      "mode": "orange",
+      "labelled_scalar_fields": {},
+      "positive_boxes": 0,
+      "negative_boxes": 0
+    }
+  },
+  "context_mismatches": [
+    {
+      "id": "consumed_nature_01",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "consumed_nature_02",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "consumed_nature_03",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "consumed_nature_04",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "consumed_nature_05",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_01",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_02",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_03",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_04",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_05",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_06",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_07",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_08",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_09",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_10",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_dev_11",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "orange_exp_01",
+      "annotation_context": "orange_starter_deck_selection",
+      "runtime_context": "unknown"
+    },
+    {
+      "id": "orange_exp_03",
+      "annotation_context": "orange_card_rewards",
+      "runtime_context": "unknown"
+    },
+    {
+      "id": "orange_exp_05",
+      "annotation_context": "orange_card_detail",
+      "runtime_context": "unknown"
+    },
+    {
+      "id": "orange_exp_06",
+      "annotation_context": "orange_card_detail",
+      "runtime_context": "unknown"
+    },
+    {
+      "id": "nature_sealed_01",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_sealed_04",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "nature_sealed_05",
+      "annotation_context": "unknown",
+      "runtime_context": "board"
+    },
+    {
+      "id": "orange_exp_07",
+      "annotation_context": "orange_card_detail",
+      "runtime_context": "unknown"
+    },
+    {
+      "id": "orange_exp_08",
+      "annotation_context": "orange_card_detail",
+      "runtime_context": "unknown"
+    }
+  ],
+  "context_mismatch_images": 25,
+  "missing_rois": {
+    "hp": 1,
+    "level": 5,
+    "gold": 1
+  },
+  "cases": [
+    {
+      "id": "consumed_nature_02",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 51,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_02",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 6,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_03",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 9,
+      "outcome": "abstain",
+      "category": "no_OCR_line_matching_roi"
+    },
+    {
+      "id": "consumed_nature_03",
+      "group": "sohu_1068964903",
+      "field": "hp",
+      "expected": 100,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_03",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 3,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_04",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 39,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_04",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 5,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_05",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 18,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "consumed_nature_05",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 7,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "orange_chuapp_04",
+      "group": "source_chuapp_291737",
+      "field": "hp",
+      "expected": 100,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    },
+    {
+      "id": "orange_chuapp_04",
+      "group": "source_chuapp_291737",
+      "field": "level",
+      "expected": 4,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    },
+    {
+      "id": "orange_azir_video_first",
+      "group": "source_taptap_867454613899445849",
+      "field": "level",
+      "expected": 3,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    },
+    {
+      "id": "nature_dev_01",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 5,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_02",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 28,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_02",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 8,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_03",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 7,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_04",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 36,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_04",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 5,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_05",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 4,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_06",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 2,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_06",
+      "group": "sohu_1068964903",
+      "field": "hp",
+      "expected": 100,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_06",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 3,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_07",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 11,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_07",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 10,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_08",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 47,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_08",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 7,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_09",
+      "group": "sohu_1068964903",
+      "field": "gold",
+      "expected": 58,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_09",
+      "group": "sohu_1068964903",
+      "field": "level",
+      "expected": 8,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_10",
+      "group": "youxituoluo_534823",
+      "field": "level",
+      "expected": 5,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_11",
+      "group": "youxituoluo_534823",
+      "field": "gold",
+      "expected": 44,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_dev_11",
+      "group": "youxituoluo_534823",
+      "field": "level",
+      "expected": 8,
+      "outcome": "abstain",
+      "category": "correct_OCR_available_but_state_abstained"
+    },
+    {
+      "id": "nature_sealed_01",
+      "group": "ali213_1032951",
+      "field": "level",
+      "expected": 10,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    },
+    {
+      "id": "nature_sealed_04",
+      "group": "17173_08242026_093003976",
+      "field": "gold",
+      "expected": 27,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    },
+    {
+      "id": "nature_sealed_04",
+      "group": "17173_08242026_093003976",
+      "field": "level",
+      "expected": 5,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    },
+    {
+      "id": "orange_exp_11",
+      "group": "source_3dm_3746579",
+      "field": "level",
+      "expected": 6,
+      "outcome": "abstain",
+      "category": "scalar_label_without_reliable_roi"
+    }
+  ],
+  "feedback_flow_findings": [
+    "Current feedback endpoint persists only labels+field_boxes, no explicit other negative_boxes. A user corpus of positives only is rejected by trainer before fitting.",
+    "Training features use manually supplied screen_type while production may use unknown; manual page category can become an unavailable-at-inference feature.",
+    "Positive OCR duplicates can inflate supervised line counts; calibration negatives and per-mode classes are sparse."
+  ]
+}

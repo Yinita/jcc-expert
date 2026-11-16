@@ -1,0 +1,74 @@
+{
+  "matched": 8,
+  "annotated": 11,
+  "rows": [
+    {
+      "sample_id": "orange_azir_video_first",
+      "name": "王牌猎手 IV",
+      "id": "7250015",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "name": "黑玫瑰夜市",
+      "id": "7250036",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "name": "永恒的心",
+      "id": "7250071",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "name": "暗裔之刃",
+      "id": "7240005",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_chuapp_08",
+      "name": "暗裔之怒",
+      "id": "7240006",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "name": "金辉尽绘",
+      "id": "7230005",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "name": "次级复制 II",
+      "id": "7220040",
+      "matched": false
+    },
+    {
+      "sample_id": "orange_taptap_loadout",
+      "name": "同盟药水",
+      "id": "7230103",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "name": "浮金门票",
+      "id": "7240035",
+      "matched": true
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "name": "次级复制 II",
+      "id": "7220040",
+      "matched": false
+    },
+    {
+      "sample_id": "orange_chuapp_03",
+      "name": "次级复制 I",
+      "id": "7210027",
+      "matched": false
+    }
+  ],
+  "unexpected_state_fields": [],
+  "warning": "仅已人工标注卡片及其区域的候选命中，不是全量召回率或候选精确率。"
+}

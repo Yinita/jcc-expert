@@ -1,0 +1,110 @@
+{
+  "frozen_at": "2026-11-11T08:24:48.593482+00:00",
+  "purpose": "Before first opening/running eleven newly sealed test labels. No tuning on this test this round. Candidate weights inactive.",
+  "files": [
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/vision.py",
+      "sha256": "da33df0b78779768b0fa7edd88ec275da4ba185fa26accaddd5987d69966a5dc"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/ocr_backend.py",
+      "sha256": "19225812297a6f37b61833cb4dd904ee58c255acfa37ddc41b2d28090d7f2b3d"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/field_model.py",
+      "sha256": "bda6bfb4d9eec88ffceb28fe83c6a2a93f9bcb45cfc76bc983df9f00570c88c9"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/card_tier_model.py",
+      "sha256": "f9e51e14fd1560214ab2e7026673f2d956c564bc793015466448ab0fa6851c4f"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/engine.py",
+      "sha256": "e8a9f3c406278d5804c492148fb98a7f544550be6625f973a2d362430f3bb6c8"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/probability.py",
+      "sha256": "ee57f96a3cfa92bc22652de1649c86da790ac987605060ebe82e523771f5109c"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/data/statistics_external.json",
+      "sha256": "1dd8d340eba8378a458e12b13519f0717fc70796050f1d1f0a51e34fbb7c3d2f"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/data/orange_official_facts.json",
+      "sha256": "96ece31c509946bed0828aa0f6789ab1cd185f453fd9613879950b66f3aafe41"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/data/orange_research.json",
+      "sha256": "08715ad7ce8c6087b2589cbfdc6cefa6fba4325140271e27b07c84f3c9b875d3"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/data/orange_base_facts.json",
+      "sha256": "610dd1dfd468c023b86071ffef2074ffbc0a8322b4442921062868c0a1938272"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/data/nature_facts.json",
+      "sha256": "3211d551a0eb71c031580cc1ba6926a7df06610a53e69499f9a3370a40c1c449"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/app/assets/manifest.json",
+      "sha256": "e3df98b55989c2de863a244da4eea5a18722960e1a0844f63378811d1534bc6c"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/baseline/vision_v011.py",
+      "sha256": "9921224ab6cb8a448d8963e6f3d171f5f5f8baabbf62ed05cccc2a450645d5b3"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/baseline/ocr_backend_v011.py",
+      "sha256": "b3edcb17e13d1f78f2d41549dabcb1ec7905e386f4e6d956c0046bb98056c511"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/scripts/evaluate_expanded.py",
+      "sha256": "0661d907ccdff2308f866586c77e48f42391128af8610a14593cf6cbc795c1f0"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/scripts/evaluate_screenshots.py",
+      "sha256": "e9bd4132fc793e82d25332cecb2494753b562d92ccc39b94f4e0e31a9b9fa8d3"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/field_training_expanded_v3/model/training_report.json",
+      "sha256": "ae907d6bd939af26ecf7446699aede0a3a362132f77ca985800299aaa9f3dd81"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/field_training_expanded_v3/model/f3305870e83f49845ae6f55c.candidate.joblib",
+      "sha256": "1b580f5d86a76ed171e382cf2e1f2b86b3b81c73dd3fb7fe70ee3b1e4795563c"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/field_training_expanded_v3/model/f3305870e83f49845ae6f55c.candidate.json",
+      "sha256": "3e3ecac94cbaf6a026d248b231df9fdcb9709bb321d5215f4333ead798f083bd"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/svm_II.xml",
+      "sha256": "e40c908969f58fdd678b6e7f093fda7142b83d6efd96266bc2bc6b3ebea5458a"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/svm_III.xml",
+      "sha256": "e12ee79fa241861faccd163e06bd3a61358ccbb66e3ddf376372e9dc451cea1a"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/svm_V.xml",
+      "sha256": "8eca0d1aa99c4f1189031656f7dc1b8b52a1a56ffbe410f487b62491ddd141cb"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/report.json",
+      "sha256": "089e47f8a902feebbfc9681b2c74850d1a212adf54ad3d5e822c54e884322e51"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/svm_I.xml",
+      "sha256": "69c88f4d893dc41a7d83b07a7585251fbe43a500764d8e957e45c51c89bd2779"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/manifest.json",
+      "sha256": "456d4212a23fb43e386420bbd81a5e629ac0ec21e4c4fc24a81599556f5f3ef6"
+    },
+    {
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/var/models/card-tier-candidate/svm_IV.xml",
+      "sha256": "0f5847f896359ef9919ab043ca5af70bd960efc2512b82d7c7589771218a42d5"
+    }
+  ]
+}

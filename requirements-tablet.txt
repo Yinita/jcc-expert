@@ -1,0 +1,2 @@
+# Optional, used only to draw the local connection QR code.
+qrcode==8.2

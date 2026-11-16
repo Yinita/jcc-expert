@@ -1,0 +1,23 @@
+{
+  "fixed_before_fit": true,
+  "source_plan": {
+    "sohu_1068964903": "train",
+    "source_chuapp_291737": "train",
+    "ali213_1032951": "train",
+    "source_taptap_867251881297052929": "train",
+    "youxituoluo_534823": "calibration",
+    "source_taptap_867454613899445849": "calibration",
+    "source_taptap_867151065470994551": "calibration",
+    "chuapp_291576": "validation",
+    "17173_08242026_093003976": "validation",
+    "source_3dm_3746579": "validation",
+    "source_taptap_867484028389820540": "validation"
+  },
+  "candidate_activation_allowed": false,
+  "target_precision": 0.98,
+  "minimum_validation_answers_per_mode": 20,
+  "minimum_validation_groups": 2,
+  "old_38_all_consumed": true,
+  "new_round3_sealed_accessed": false,
+  "comparison": "Old features/trainer vs OCR-only shared context + dedup + source-weighted/calibration-negative guard, identical old labels/lines/source partitions."
+}

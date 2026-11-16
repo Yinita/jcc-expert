@@ -1,0 +1,1462 @@
+{
+  "baseline": [
+    {
+      "sample_id": "r3_nature_sealed_01",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 6602.090453990968,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": 7,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12508",
+          "predicted": "12508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13500",
+          "predicted": "13500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "14501",
+          "predicted": "14501",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 67,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_01-74cf9668-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_01",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_02",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 9738.548296008958,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 53,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_02-86d60d14-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_02",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_03",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "profile_origin": "unspecified",
+      "labelled_fields": 9,
+      "latency_ms": 5721.796808007639,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 39,
+          "predicted": 39,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": 8,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12508",
+          "predicted": "12508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13500",
+          "predicted": "13500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "14501",
+          "predicted": "14501",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        }
+      ],
+      "evidence_count": 83,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_03-47ccd77c-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_03",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "profile_origin": "unspecified",
+      "labelled_fields": 9,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_04",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 13359.856035007397,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 23,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_04-caccc533-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_04",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_05",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 10404.907943011494,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": 20,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_05-863af7ec-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_05",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_r3_01",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 3537.059447990032,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 45,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_r3_01-2b6d76cc-default.json"
+    },
+    {
+      "sample_id": "orange_r3_01",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_r3_02",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 16019.655614014482,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 41,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_r3_02-2cd8c7dd-default.json"
+    },
+    {
+      "sample_id": "orange_r3_02",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ],
+  "optimized": [
+    {
+      "sample_id": "r3_nature_sealed_01",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "latency_ms": 1866.3716110168025,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 7,
+          "predicted": 7,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12508",
+          "predicted": "12508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13500",
+          "predicted": "13500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "14501",
+          "predicted": "14501",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 67,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_01-74cf9668-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_01",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "f9189632160d3b9756d587f58f7797e2554aae00ea4d445ea062004f68041b41",
+      "decoded_image_sha256": "4766162adc7c967f001fef699695f66cad35c2514b8c70345658bf61b4124559",
+      "profile_origin": "unspecified",
+      "labelled_fields": 8,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_02",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 6733.757848007372,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 53,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_02-86d60d14-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_02",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "5e2dd58f89db36857dc746e0a9af446febed3a20de2883dfc4b3b4d95b0892cf",
+      "decoded_image_sha256": "aa8e382297907f02ca6cc0e0f463bfaa1d6694e75381a5f5583d7ece80de76b2",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_03",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "profile_origin": "unspecified",
+      "labelled_fields": 9,
+      "latency_ms": 515.0069459923543,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-1",
+          "predicted": "5-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 39,
+          "predicted": 39,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "hp",
+          "expected": 64,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "level",
+          "expected": 8,
+          "predicted": 8,
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12508",
+          "predicted": "12508",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "13500",
+          "predicted": "13500",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "14501",
+          "predicted": "14501",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "shop[4]",
+          "expected": "12503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        }
+      ],
+      "evidence_count": 83,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_03-47ccd77c-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_03",
+      "group_id": "bili_BV1iX8462E3c",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1iX8462E3c/",
+      "file_sha256": "63881ccdea0c45fa48b074126e244942ed1d604bc33a729bcf4e7d9f0dccb994",
+      "decoded_image_sha256": "477b752fc6ba0d6aeeeb49d416ec637be7d7542f50d7aaa7b092cae932a86202",
+      "profile_origin": "unspecified",
+      "labelled_fields": 9,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_04",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 10055.119419994298,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": 51,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 23,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_04-caccc533-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_04",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "1e4bfa0d7ddfab2a705b90fe8fc919e8283d1c51a4fd1d991e86ade03a8d6f5c",
+      "decoded_image_sha256": "47b007e3817827c9b65354123db3dde655cd90bcbb6a194682b10e958e3326c5",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "r3_nature_sealed_05",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 9823.469323979225,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": 20,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/r3_nature_sealed_05-863af7ec-default.json"
+    },
+    {
+      "sample_id": "r3_nature_sealed_05",
+      "group_id": "bili_BV1Z6tJ6REny",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://www.bilibili.com/video/BV1Z6tJ6REny/",
+      "file_sha256": "5b35ba28ff6cf0b9125f0aec8333fb50515e96a547e7ef7b2862b290adc55ff3",
+      "decoded_image_sha256": "928151a11fbebe8573d22128acc750e05b4214bb2e163b55d14bbd5d164f0dde",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_r3_01",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 60.782533983001485,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 45,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_r3_01-2b6d76cc-default.json"
+    },
+    {
+      "sample_id": "orange_r3_01",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+      "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_r3_02",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 14012.874123000074,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 41,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_r3_02-2cd8c7dd-default.json"
+    },
+    {
+      "sample_id": "orange_r3_02",
+      "group_id": "source_taptap_868497523528958560",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/868497523528958560",
+      "file_sha256": "29a30fa6e8ff7b911cf272e0aecf62c7ac79524b434af3600be0f051835bec79",
+      "decoded_image_sha256": "e70cb8b73034bd354e68e483f617da40b9c3b4e0139a1a790214520da180126a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ]
+}

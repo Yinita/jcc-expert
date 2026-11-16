@@ -1,0 +1,1228 @@
+{
+  "run": {
+    "sample_id": "orange_r3_01",
+    "group_id": "source_taptap_868497523528958560",
+    "split": "holdout",
+    "mode": "orange",
+    "track": "default",
+    "source_url": "https://www.taptap.cn/moment/868497523528958560",
+    "file_sha256": "71585c3c73338f2f1dc3eb65a380ebc4e73e557385cbec6b7926df9b767dc6ee",
+    "decoded_image_sha256": "6249c37b3c85eb831c5902c221940ed5efe913b2c2ade1f937aef026d31bde7e",
+    "profile_origin": "unspecified",
+    "labelled_fields": 0,
+    "latency_ms": 60.782533983001485,
+    "status": "ok",
+    "outcomes": [
+      {
+        "field": "stage",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "gold",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "hp",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "level",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[0]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[1]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[2]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[3]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      },
+      {
+        "field": "shop[4]",
+        "expected": null,
+        "predicted": null,
+        "label_present": false,
+        "outcome": "unlabelled"
+      }
+    ],
+    "evidence_count": 45,
+    "contract_check": {
+      "recommendation_status": "needs_confirmation",
+      "recognition_unconfirmed": true,
+      "personal_probability_is_null": true,
+      "model_status": "needs_confirmation",
+      "candidate_count": 3,
+      "passed": true
+    }
+  },
+  "recognition": {
+    "state": {
+      "mode": "orange",
+      "patch": "18.6",
+      "stage": null,
+      "hp": null,
+      "gold": null,
+      "level": null,
+      "board": [],
+      "bench": [],
+      "shop": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "item_ids": [],
+      "augment_ids": [],
+      "offered_augment_ids": [],
+      "orange_card_ids": [],
+      "confirmed": false
+    },
+    "evidence": [
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "大橘大利·未知传送门？",
+        "confidence": 0.9855,
+        "bbox": [
+          0.04722222222222222,
+          0.02263374485596708,
+          0.23981481481481481,
+          0.053497942386831275
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "再升2级可得大奖",
+        "confidence": 1.0,
+        "bbox": [
+          0.665,
+          0.03528079145363096,
+          0.07681818181818181,
+          0.031248701001787425
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "9050",
+        "confidence": 1.0,
+        "bbox": [
+          0.9092592592592592,
+          0.030864197530864196,
+          0.037037037037037035,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "出战卡组",
+        "confidence": 0.9998,
+        "bbox": [
+          0.45999999999999996,
+          0.13305898491083673,
+          0.07227272727272727,
+          0.050401130648044225
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "(0)方案",
+        "confidence": 0.8573,
+        "bbox": [
+          0.8361111111111111,
+          0.13786008230452676,
+          0.04814814814814815,
+          0.043209876543209874
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "勾更换",
+        "confidence": 0.8074,
+        "bbox": [
+          0.9009259259259259,
+          0.13786008230452676,
+          0.046296296296296294,
+          0.043209876543209874
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "回",
+        "confidence": 0.851,
+        "bbox": [
+          0.05648148148148148,
+          0.37448559670781895,
+          0.028703703703703703,
+          0.06172839506172839
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "卡组",
+        "confidence": 0.9994,
+        "bbox": [
+          0.05648148148148148,
+          0.42592592592592593,
+          0.02962962962962963,
+          0.047325102880658436
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "队伍",
+        "confidence": 0.9996,
+        "bbox": [
+          0.05462962962962963,
+          0.5596707818930041,
+          0.03148148148148148,
+          0.047325102880658436
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "寻炉乡",
+        "confidence": 0.999,
+        "bbox": [
+          0.5185185185185185,
+          0.551440329218107,
+          0.03888888888888889,
+          0.04526748971193416
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "灼烧炼狱",
+        "confidence": 0.9996,
+        "bbox": [
+          0.6851851851851852,
+          0.5555555555555556,
+          0.04814814814814815,
+          0.03909465020576132
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "回响打捞术",
+        "confidence": 0.998,
+        "bbox": [
+          0.85,
+          0.5555555555555556,
+          0.058333333333333334,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "1/2",
+        "confidence": 0.9995,
+        "bbox": [
+          0.05925925925925926,
+          0.602880658436214,
+          0.023148148148148147,
+          0.03292181069958848
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "装时，获得1个[奥恩】和1",
+        "confidence": 0.9627,
+        "bbox": [
+          0.4787037037037037,
+          0.6213991769547325,
+          0.11666666666666667,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "12当你首次合成8件成",
+        "confidence": 0.9727,
+        "bbox": [
+          0.48055555555555557,
+          0.5946502057613169,
+          0.1175925925925926,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "1并强化【复仇焰魂】羁绊",
+        "confidence": 0.9131,
+        "bbox": [
+          0.649074074074074,
+          0.6234567901234568,
+          0.12129629629629629,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "14获得1个【日炎斗道",
+        "confidence": 0.9437,
+        "bbox": [
+          0.6518518518518519,
+          0.5967078189300411,
+          0.11574074074074074,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "1-4",
+        "confidence": 0.996,
+        "bbox": [
+          0.8222222222222222,
+          0.5987654320987654,
+          0.030555555555555555,
+          0.030864197530864196
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "获得2个【打捞",
+        "confidence": 0.967,
+        "bbox": [
+          0.8611111111111112,
+          0.5967078189300411,
+          0.07037037037037037,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "术1。",
+        "confidence": 0.8325,
+        "bbox": [
+          0.8611111111111112,
+          0.6234567901234568,
+          0.032407407407407406,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "损卡风险：全部3张卡片",
+        "confidence": 0.9997,
+        "bbox": [
+          0.18796296296296297,
+          0.6502057613168725,
+          0.12129629629629629,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "件随机神器。",
+        "confidence": 0.9998,
+        "bbox": [
+          0.5046296296296297,
+          0.6481481481481481,
+          0.06111111111111111,
+          0.0411522633744856
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "。3-7时，获得1个",
+        "confidence": 0.9933,
+        "bbox": [
+          0.6638888888888889,
+          0.6460905349794238,
+          0.08888888888888889,
+          0.04526748971193416
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "红霸符]。",
+        "confidence": 0.9062,
+        "bbox": [
+          0.6805555555555556,
+          0.676954732510288,
+          0.05277777777777778,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "本场奇遇",
+        "confidence": 1.0,
+        "bbox": [
+          0.20925925925925926,
+          0.779835390946502,
+          0.06666666666666667,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "卡片保护",
+        "confidence": 1.0,
+        "bbox": [
+          0.5231481481481481,
+          0.7695473251028807,
+          0.053703703703703705,
+          0.04938271604938271
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "准入：3张卡片；能量≤15",
+        "confidence": 0.9959,
+        "bbox": [
+          0.787962962962963,
+          0.7880658436213992,
+          0.16018518518518518,
+          0.0411522633744856
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "开始游戏",
+        "confidence": 1.0,
+        "bbox": [
+          0.8416666666666667,
+          0.8497942386831275,
+          0.08055555555555556,
+          0.05761316872427984
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "点击此处开始聊天...",
+        "confidence": 0.9887,
+        "bbox": [
+          0.4305555555555556,
+          0.8827160493827161,
+          0.1175925925925926,
+          0.043209876543209874
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "Q1",
+        "confidence": 0.8705,
+        "bbox": [
+          0.8601851851851852,
+          0.8930041152263375,
+          0.03888888888888889,
+          0.053497942386831275
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "阵容",
+        "confidence": 0.9989,
+        "bbox": [
+          0.05092592592592592,
+          0.9238683127572016,
+          0.025925925925925925,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "战备",
+        "confidence": 1.0,
+        "bbox": [
+          0.11574074074074074,
+          0.9238683127572016,
+          0.026851851851851852,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "招募",
+        "confidence": 0.9642,
+        "bbox": [
+          0.18055555555555555,
+          0.9238683127572016,
+          0.026851851851851852,
+          0.037037037037037035
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "房间培音",
+        "confidence": 0.8068,
+        "bbox": [
+          0.2361111111111111,
+          0.9176954732510288,
+          0.046296296296296294,
+          0.04526748971193416
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "房间麦克风",
+        "confidence": 0.9671,
+        "bbox": [
+          0.2972222222222222,
+          0.9259259259259259,
+          0.053703703703703705,
+          0.03497942386831276
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "？",
+        "confidence": 0.5532,
+        "bbox": [
+          0.25,
+          0.026208587936983,
+          0.03772727272727273,
+          0.05443322109988776
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "G",
+        "confidence": 0.7236,
+        "bbox": [
+          0.18858024691358025,
+          0.776406035665295,
+          0.011111111111111112,
+          0.043209876543209874
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "招",
+        "confidence": 1.0,
+        "bbox": [
+          0.18179012345679013,
+          0.9252400548696845,
+          0.017901234567901235,
+          0.0336076817558299
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "准入：",
+        "confidence": 0.9947,
+        "bbox": [
+          0.8046296296296297,
+          0.7914951989026063,
+          0.043209876543209874,
+          0.03292181069958848
+        ]
+      },
+      {
+        "field": "text",
+        "kind": "ocr_text",
+        "text": "3张卡片；能量≤15",
+        "confidence": 0.9991,
+        "bbox": [
+          0.8450617283950618,
+          0.7914951989026063,
+          0.10154320987654321,
+          0.0336076817558299
+        ]
+      },
+      {
+        "field": "candidates",
+        "kind": "ocr_entity_candidate",
+        "entity_id": "15281",
+        "entity_type": "hero",
+        "name": "奥恩",
+        "text": "装时，获得1个[奥恩】和1",
+        "confidence": 0.9627,
+        "bbox": [
+          0.4787037037037037,
+          0.6213991769547325,
+          0.11666666666666667,
+          0.03497942386831276
+        ],
+        "alternatives": [],
+        "requires_confirmation": true
+      },
+      {
+        "field": "candidates",
+        "kind": "ocr_entity_candidate",
+        "entity_id": "2009",
+        "entity_type": "item",
+        "name": "红霸符",
+        "text": "红霸符]。",
+        "confidence": 0.9062,
+        "bbox": [
+          0.6805555555555556,
+          0.676954732510288,
+          0.05277777777777778,
+          0.037037037037037035
+        ],
+        "alternatives": [],
+        "requires_confirmation": true
+      },
+      {
+        "field": "candidates",
+        "kind": "card_title_candidate",
+        "entity_type": "card",
+        "entity_id": "7230072",
+        "name": "寻炉乡",
+        "text": "寻炉乡",
+        "bbox": [
+          0.5185185185185185,
+          0.551440329218107,
+          0.03888888888888889,
+          0.04526748971193416
+        ],
+        "title_bbox": [
+          0.5185185185185185,
+          0.551440329218107,
+          0.03888888888888889,
+          0.04526748971193416
+        ],
+        "bbox_semantics": "observed_title_text",
+        "confidence": 0.999,
+        "method": "exact_title_ocr",
+        "suffix_pixels": null,
+        "local_ocr": [],
+        "role": "displayed_deck_card",
+        "menu_type": "orange_loadout",
+        "alternatives": [],
+        "requires_confirmation": true,
+        "safe_to_apply": false
+      },
+      {
+        "field": "candidates",
+        "kind": "card_title_candidate",
+        "entity_type": "card",
+        "entity_id": "7240091",
+        "name": "灼烧炼狱",
+        "text": "灼烧炼狱",
+        "bbox": [
+          0.6851851851851852,
+          0.5555555555555556,
+          0.04814814814814815,
+          0.03909465020576132
+        ],
+        "title_bbox": [
+          0.6851851851851852,
+          0.5555555555555556,
+          0.04814814814814815,
+          0.03909465020576132
+        ],
+        "bbox_semantics": "observed_title_text",
+        "confidence": 0.9996,
+        "method": "exact_title_ocr",
+        "suffix_pixels": null,
+        "local_ocr": [],
+        "role": "displayed_deck_card",
+        "menu_type": "orange_loadout",
+        "alternatives": [],
+        "requires_confirmation": true,
+        "safe_to_apply": false
+      },
+      {
+        "field": "candidates",
+        "kind": "card_title_candidate",
+        "entity_type": "card",
+        "entity_id": "7220018",
+        "name": "回响打捞术",
+        "text": "回响打捞术",
+        "bbox": [
+          0.85,
+          0.5555555555555556,
+          0.058333333333333334,
+          0.037037037037037035
+        ],
+        "title_bbox": [
+          0.85,
+          0.5555555555555556,
+          0.058333333333333334,
+          0.037037037037037035
+        ],
+        "bbox_semantics": "observed_title_text",
+        "confidence": 0.998,
+        "method": "exact_title_ocr",
+        "suffix_pixels": null,
+        "local_ocr": [],
+        "role": "displayed_deck_card",
+        "menu_type": "orange_loadout",
+        "alternatives": [],
+        "requires_confirmation": true,
+        "safe_to_apply": false
+      }
+    ],
+    "uncertain": [
+      {
+        "field": "state",
+        "reason": "截图识别尚未确认；相似度和OCR分数不是校准后的准确率。"
+      },
+      {
+        "field": "board",
+        "reason": "未设置棋盘/商店区域；识别到的名字和图标仅列候选，请手动加入并确认。"
+      },
+      {
+        "field": "state",
+        "reason": "这是局外卡片页面；卡片生效回合和金橘不能当作当前对局回合或金币。"
+      }
+    ],
+    "screen_type": "orange_loadout",
+    "image_size": {
+      "width": 1080,
+      "height": 486
+    },
+    "capabilities": {
+      "offline": true,
+      "ocr_engine": "rapidocr_onnx_cpu_offline",
+      "template_assets_cached": 325,
+      "layout_profile_used": false,
+      "global_template_scan_limit": 160,
+      "automatic_shop_rules": [
+        "five_names_three_icons",
+        "complete_top_or_bottom_name_grid",
+        "anchored_bottom_name_grid",
+        "visual_hud_partial_top_name_grid"
+      ],
+      "automatic_star_detection": false,
+      "automatic_item_attachment": false,
+      "supervised_field_predictions": 0,
+      "visual_mobile_hud_fields": [],
+      "visual_mobile_hud_detected": false,
+      "card_title_reader": {
+        "local_title_ocr_calls": 0,
+        "local_title_ocr_budget": 0,
+        "suffix_pixels_supported": [
+          "I",
+          "II",
+          "III"
+        ],
+        "confidence_calibrated": false,
+        "card_ownership_inferred": false,
+        "experimental_tier_svm_used": false
+      },
+      "card_menu_type": "orange_loadout",
+      "image_patch_inferred": false,
+      "reference_rules_patch": "18.6",
+      "hidden_information": false,
+      "scores_are_calibrated_probabilities": false
+    }
+  },
+  "recommendation": {
+    "mode": "orange",
+    "patch": "18.6",
+    "status": "needs_confirmation",
+    "errors": [],
+    "warnings": [
+      "截图或输入尚未确认；以下只是预览，请逐项核对后再执行。",
+      "缺少hp、gold、level；不提供精确搜牌预算或固定回合操作。",
+      "大橘大利门能量上限和全局增益卡限制未完成客户端核验；构筑合法性为待核验，不把社区8/10/15当硬规则。"
+    ],
+    "state_probability": null,
+    "score_semantics": {
+      "kind": "heuristic_fit_score",
+      "range": [
+        0,
+        100
+      ],
+      "is_probability": false,
+      "description": "0—100为当前资源与候选路线的启发式适配分，不是吃鸡率、前四率或战斗胜率。外部终局统计不参与此评分。",
+      "nature_weights": {
+        "roster": 40,
+        "items": 25,
+        "traits": 15,
+        "augments": 10,
+        "transition": 10
+      },
+      "orange_weights": {
+        "cards": 50,
+        "roster": 20,
+        "items": 10,
+        "traits": 10,
+        "transition": 10
+      }
+    },
+    "candidates": [
+      {
+        "id": "orange-0",
+        "name": "奥恩神器流",
+        "score": 0.0,
+        "score_breakdown": {
+          "cards": 0.0,
+          "roster": 0.0,
+          "items": 0.0,
+          "traits": 0.0,
+          "transition": 0.0
+        },
+        "state_probability": null,
+        "reasons": [
+          "装备供给推动奥恩与神器解锁；先看实际合成和触发进度。",
+          "与已填带入卡片匹配0/3张。",
+          "只有构筑与任务核心资料，没有完整终局棋盘和装备样本。"
+        ],
+        "main_board": [
+          {
+            "hero_id": "15281",
+            "name": "奥恩",
+            "cost": 5,
+            "position": null,
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": null
+          }
+        ],
+        "board_status": "core_only_no_full_board_template",
+        "transition_boards": [],
+        "items_plan": [],
+        "augment_choices": [],
+        "orange_cards": [
+          {
+            "id": "7220018",
+            "name": "回响打捞术",
+            "owned": false,
+            "rarity_tier": 1,
+            "energy_assumption": 1,
+            "activation_rounds": [
+              "1-4"
+            ]
+          },
+          {
+            "id": "7240019",
+            "name": "铁匠铺 III",
+            "owned": false,
+            "rarity_tier": 4,
+            "energy_assumption": 4,
+            "activation_rounds": [
+              "2-5"
+            ]
+          },
+          {
+            "id": "7230072",
+            "name": "寻炉乡",
+            "owned": false,
+            "rarity_tier": 3,
+            "energy_assumption": 3,
+            "activation_rounds": [
+              "1-2"
+            ]
+          }
+        ],
+        "deck_change_required": false,
+        "use_timing": "verify_current_cards_then_use",
+        "legality": {
+          "status": "pending_client_rules",
+          "three_distinct_known_cards": true,
+          "portal_energy_verified": false,
+          "global_buff_limit_verified": false,
+          "energy_sum_assumption": 8,
+          "note": "三张卡ID已确认且不重复；能量和全局增益限制未核验，尚不能宣称完全合法。"
+        },
+        "unlock_chains": [],
+        "actions": {
+          "buy": [],
+          "hold": [],
+          "sell_candidates": [],
+          "roll_plan": {
+            "mode": "conditional",
+            "max_gold_spend": null,
+            "gold_floor": null,
+            "stop_conditions": [
+              "先补齐血量、金币和等级，再决定搜牌或升级。",
+              "当前阵容或血量无法确认时不安排固定回合梭哈。"
+            ],
+            "note": "输入不完整；没有估计搜中概率，也不推断缺失金币/血量。"
+          },
+          "visible_shop_purchase_cost": null,
+          "level_plan": {
+            "current_level": null,
+            "target_level": null,
+            "action": "need_full_lineup",
+            "upgrade_cost": null,
+            "xp_needed": null,
+            "quality_requirements": [],
+            "note": "只有卡组与解锁核心，目标人口和完整过渡棋盘尚未知；保留现有单位，先补齐对局及任务进度，不据此给精确升级或卖牌指令。"
+          }
+        },
+        "sources": [
+          {
+            "name": "构筑资料",
+            "url": "https://news.17173.com/content/10282026/113816156.shtml",
+            "type": "official_content_mirror_prelaunch",
+            "published": "2026-10-28"
+          },
+          {
+            "name": "官方卡片配置",
+            "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/card.js"
+          }
+        ],
+        "template_warnings": [
+          "卡组效果及强度未实机验证；解锁条件不能只看数字或实体名称。"
+        ],
+        "external_terminal_prior": null,
+        "recipe_validation_status": "recipe_source_verified_effects_and_performance_unverified"
+      },
+      {
+        "id": "orange-1",
+        "name": "灼烧炼狱流",
+        "score": 0.0,
+        "score_breakdown": {
+          "cards": 0.0,
+          "roster": 0.0,
+          "items": 0.0,
+          "traits": 0.0,
+          "transition": 0.0
+        },
+        "state_probability": null,
+        "reasons": [
+          "先解锁并强化布兰德，再用复制资源提高低费单位质量。",
+          "与已填带入卡片匹配0/3张。",
+          "只有构筑与任务核心资料，没有完整终局棋盘和装备样本。"
+        ],
+        "main_board": [
+          {
+            "hero_id": "12422",
+            "name": "布兰德",
+            "cost": 2,
+            "position": null,
+            "item_ids": [],
+            "item_names": [],
+            "is_carry": false,
+            "target_stars": null
+          }
+        ],
+        "board_status": "core_only_no_full_board_template",
+        "transition_boards": [],
+        "items_plan": [],
+        "augment_choices": [],
+        "orange_cards": [
+          {
+            "id": "7240091",
+            "name": "灼烧炼狱",
+            "owned": false,
+            "rarity_tier": 4,
+            "energy_assumption": 4,
+            "activation_rounds": [
+              "1-4",
+              "3-7"
+            ]
+          },
+          {
+            "id": "7210027",
+            "name": "次级复制 I",
+            "owned": false,
+            "rarity_tier": 1,
+            "energy_assumption": 1,
+            "activation_rounds": [
+              "2-5"
+            ]
+          },
+          {
+            "id": "7230005",
+            "name": "金辉尽绘",
+            "owned": false,
+            "rarity_tier": 3,
+            "energy_assumption": 3,
+            "activation_rounds": [
+              "3-1"
+            ]
+          }
+        ],
+        "deck_change_required": false,
+        "use_timing": "verify_current_cards_then_use",
+        "legality": {
+          "status": "pending_client_rules",
+          "three_distinct_known_cards": true,
+          "portal_energy_verified": false,
+          "global_buff_limit_verified": false,
+          "energy_sum_assumption": 8,
+          "note": "三张卡ID已确认且不重复；能量和全局增益限制未核验，尚不能宣称完全合法。"
+        },
+        "unlock_chains": [
+          {
+            "hero_id": "12422",
+            "hero_name": "布兰德",
+            "tasks": [
+              {
+                "task_id": 1242201,
+                "task_type": "完成以下任务",
+                "entity_mentions": [
+                  "日炎斗篷",
+                  "非坦克"
+                ],
+                "numeric_tokens": [
+                  "1"
+                ],
+                "progress": "unknown",
+                "condition_verified": false,
+                "note": "这些是官方任务检索字段，数字未绑定完整条件；请在客户端核对触发、进度和解锁顺序。"
+              }
+            ],
+            "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/mission.js",
+            "relation": "task_mentions_not_executable_trigger_chain"
+          }
+        ],
+        "actions": {
+          "buy": [],
+          "hold": [],
+          "sell_candidates": [],
+          "roll_plan": {
+            "mode": "conditional",
+            "max_gold_spend": null,
+            "gold_floor": null,
+            "stop_conditions": [
+              "先补齐血量、金币和等级，再决定搜牌或升级。",
+              "当前阵容或血量无法确认时不安排固定回合梭哈。"
+            ],
+            "note": "输入不完整；没有估计搜中概率，也不推断缺失金币/血量。"
+          },
+          "visible_shop_purchase_cost": null,
+          "level_plan": {
+            "current_level": null,
+            "target_level": null,
+            "action": "need_full_lineup",
+            "upgrade_cost": null,
+            "xp_needed": null,
+            "quality_requirements": [],
+            "note": "只有卡组与解锁核心，目标人口和完整过渡棋盘尚未知；保留现有单位，先补齐对局及任务进度，不据此给精确升级或卖牌指令。"
+          }
+        },
+        "sources": [
+          {
+            "name": "构筑资料",
+            "url": "https://news.17173.com/content/10292026/103252891.shtml",
+            "type": "official_content_mirror_prelaunch",
+            "published": "2026-10-29"
+          },
+          {
+            "name": "官方卡片配置",
+            "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/card.js"
+          }
+        ],
+        "template_warnings": [
+          "卡组效果及强度未实机验证；解锁条件不能只看数字或实体名称。"
+        ],
+        "external_terminal_prior": null,
+        "recipe_validation_status": "recipe_source_verified_effects_and_performance_unverified"
+      },
+      {
+        "id": "orange-10",
+        "name": "七费降临流",
+        "score": 0.0,
+        "score_breakdown": {
+          "cards": 0.0,
+          "roster": 0,
+          "items": 0.0,
+          "traits": 0,
+          "transition": 0.0
+        },
+        "state_probability": null,
+        "reasons": [
+          "安排前三个解锁购买位置，让高费解锁吃到夜市升星。",
+          "与已填带入卡片匹配0/3张。",
+          "只有构筑与任务核心资料，没有完整终局棋盘和装备样本。"
+        ],
+        "main_board": [],
+        "board_status": "core_only_no_full_board_template",
+        "transition_boards": [],
+        "items_plan": [],
+        "augment_choices": [],
+        "orange_cards": [
+          {
+            "id": "7250036",
+            "name": "黑玫瑰夜市",
+            "owned": false,
+            "rarity_tier": 5,
+            "energy_assumption": 5,
+            "activation_rounds": [
+              "1-3"
+            ]
+          },
+          {
+            "id": "7240093",
+            "name": "大神降临",
+            "owned": false,
+            "rarity_tier": 4,
+            "energy_assumption": 4,
+            "activation_rounds": [
+              "3-7"
+            ]
+          },
+          {
+            "id": "7250046",
+            "name": "德玛西亚巨像",
+            "owned": false,
+            "rarity_tier": 5,
+            "energy_assumption": 5,
+            "activation_rounds": [
+              "3-5"
+            ]
+          }
+        ],
+        "deck_change_required": false,
+        "use_timing": "verify_current_cards_then_use",
+        "legality": {
+          "status": "pending_client_rules",
+          "three_distinct_known_cards": true,
+          "portal_energy_verified": false,
+          "global_buff_limit_verified": false,
+          "energy_sum_assumption": 14,
+          "note": "三张卡ID已确认且不重复；能量和全局增益限制未核验，尚不能宣称完全合法。"
+        },
+        "unlock_chains": [],
+        "actions": {
+          "buy": [],
+          "hold": [],
+          "sell_candidates": [],
+          "roll_plan": {
+            "mode": "conditional",
+            "max_gold_spend": null,
+            "gold_floor": null,
+            "stop_conditions": [
+              "先补齐血量、金币和等级，再决定搜牌或升级。",
+              "当前阵容或血量无法确认时不安排固定回合梭哈。"
+            ],
+            "note": "输入不完整；没有估计搜中概率，也不推断缺失金币/血量。"
+          },
+          "visible_shop_purchase_cost": null,
+          "level_plan": {
+            "current_level": null,
+            "target_level": null,
+            "action": "need_full_lineup",
+            "upgrade_cost": null,
+            "xp_needed": null,
+            "quality_requirements": [],
+            "note": "只有卡组与解锁核心，目标人口和完整过渡棋盘尚未知；保留现有单位，先补齐对局及任务进度，不据此给精确升级或卖牌指令。"
+          }
+        },
+        "sources": [
+          {
+            "name": "构筑资料",
+            "url": "https://www.sina.cn/media/7504806444",
+            "type": "official_weibo_syndication_search_snippet",
+            "published": "2026-11-06"
+          },
+          {
+            "name": "官方卡片配置",
+            "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/card.js"
+          }
+        ],
+        "template_warnings": [
+          "卡组效果及强度未实机验证；解锁条件不能只看数字或实体名称。"
+        ],
+        "external_terminal_prior": null,
+        "recipe_validation_status": "provisional_search_or_secondary_source"
+      }
+    ],
+    "missing_inputs": [
+      "hp",
+      "gold",
+      "level",
+      "stage"
+    ],
+    "normalized_state": {
+      "mode": "orange",
+      "patch": "18.6",
+      "stage": null,
+      "hp": null,
+      "gold": null,
+      "level": null,
+      "board": [],
+      "bench": [],
+      "shop": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "item_ids": [],
+      "augment_ids": [],
+      "offered_augment_ids": [],
+      "orange_card_ids": [],
+      "confirmed": false
+    },
+    "unresolved_recipe_aliases": [
+      {
+        "name": "灵活定阵流",
+        "aliases": [
+          "强力盟友"
+        ]
+      },
+      {
+        "name": "多地区瑞兹流",
+        "aliases": [
+          "熔炉之神的杰作"
+        ]
+      }
+    ]
+  },
+  "probability_model": {
+    "status": "needs_confirmation",
+    "state_probability": null,
+    "reason": "请先确认识别状态。"
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "purpose": "Frozen public screenshot labels; images downloaded separately via source_image_url with SHA256; do not train on sealed records.",
+  "samples": [
+    {
+      "id": "nature_sealed_01",
+      "file": "images/nature_sealed_01.jpg",
+      "mode": "nature",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": "6-3",
+        "gold": null,
+        "hp": null,
+        "level": 10,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "source_image_url": "https://img2.ali213.net/picfile/News/2026/08/20/584_2026082055931308.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 584,
+      "original_height": 278,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "对局中的英雄/羁绊详情画面；商店不可见。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "original_id": "nature_sealed_01",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ba6b48a29b440b65ef08aeae6d218e03c1e03a97a89ad2dc9f95c04cc2488bcf"
+    },
+    {
+      "id": "nature_sealed_02",
+      "file": "images/nature_sealed_02.jpg",
+      "mode": "nature",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": null,
+        "gold": null,
+        "hp": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "source_image_url": "https://img2.ali213.net/picfile/News/2026/08/20/584_2026082055932488.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 584,
+      "original_height": 310,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "作者原始英雄技能详情裁图；不把敌方小小英雄等级或技能数值当本方资源。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "original_id": "nature_sealed_02",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "36629d3614431f298a47638221c3f4fdb07462272b9c9b5bf065dfe71a46622c"
+    },
+    {
+      "id": "nature_sealed_03",
+      "file": "images/nature_sealed_03.jpg",
+      "mode": "nature",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": null,
+        "gold": null,
+        "hp": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities": [
+          {
+            "kind": "augment",
+            "id": "20762",
+            "name": "世纪和解",
+            "scope": "visible_selected_augment"
+          }
+        ]
+      },
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "source_image_url": "https://img2.ali213.net/picfile/News/2026/08/20/584_202608205593312.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 584,
+      "original_height": 316,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实强化符文详情，资源区域不在图内。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "original_id": "nature_sealed_03",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "070f213ef3fbd96148563ca0fc5fa6609df0f4cf87d99ea3bf43e7e7bb26d60c"
+    },
+    {
+      "id": "nature_sealed_04",
+      "file": "images/nature_sealed_04.png",
+      "mode": "nature",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": "2-6",
+        "gold": 27,
+        "hp": null,
+        "level": 5,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "source_image_url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/ARmWHRbuaywhvsy.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 453,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实战斗，羁绊详情展开，右侧为伤害统计非玩家HP。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "original_id": "nature_sealed_04",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "a2a61d55d726b5408bedded07c1d4a47a1d85ccd8b5b926093e4321e80b26187"
+    },
+    {
+      "id": "nature_sealed_05",
+      "file": "images/nature_sealed_05.png",
+      "mode": "nature",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": "4-1",
+        "gold": null,
+        "hp": null,
+        "level": null,
+        "shop": [
+          "12509",
+          "12514",
+          "12511",
+          "13503",
+          null
+        ]
+      },
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "source_image_url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/rNuqvdbuaywhuot.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 293,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "作者原始商店裁图；第5槽生生不息仙灵。"
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "charm"
+      ],
+      "original_id": "nature_sealed_05",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "02f6b47aa67104a80a3ab2c772231830dd96a5b178a7595c3ada587409830237"
+    },
+    {
+      "id": "nature_sealed_06",
+      "file": "images/nature_sealed_06.png",
+      "mode": "nature",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "evaluation_role": "sealed_test",
+      "labels": {
+        "stage": null,
+        "gold": null,
+        "hp": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities": [
+          {
+            "kind": "augment",
+            "id": "20762",
+            "name": "世纪和解",
+            "scope": "visible_augment_option"
+          }
+        ]
+      },
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "source_image_url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/pJCvdQbuaywhpgr.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 666,
+      "original_height": 460,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {},
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实强化选项卡裁图；不将卡片说明获得的1个单位当人口。"
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "original_id": "nature_sealed_06",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "4274d5d44ac231a78fb82ca42e4a11886323d6ba666dc3cc75f77db3209250b0"
+    },
+    {
+      "id": "orange_exp_07",
+      "file": "images/orange_exp_07.jpeg",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793787296_626252_jpeg_r.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_card_detail",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250015",
+            "entity_id": "7250015",
+            "card_id": "7250015",
+            "name": "王牌猎手 IV",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.4,
+              0.08,
+              0.205,
+              0.7
+            ],
+            "role": "detail_preview",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate"
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "374e29fbfdf3609fe83bb0ae270d5082dc2e755e533f7e8ce60e9c2d50955a94",
+      "training_allowed": false,
+      "original_id": "orange_exp_07"
+    },
+    {
+      "id": "orange_exp_08",
+      "file": "images/orange_exp_08.jpeg",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793787306_117943_jpeg_r.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_card_detail",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250044",
+            "entity_id": "7250044",
+            "card_id": "7250044",
+            "name": "宿命的抉择",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.4,
+              0.08,
+              0.205,
+              0.7
+            ],
+            "role": "detail_preview",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate"
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "30fcc99b744bebaca18e9789a2df887f4608277db0018c2e4b925cabc86fd320",
+      "training_allowed": false,
+      "original_id": "orange_exp_08"
+    },
+    {
+      "id": "orange_exp_09",
+      "file": "images/orange_exp_09.jpeg",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793786304_205057_jpeg_r.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_super_time",
+      "image_size": {
+        "width": 1080,
+        "height": 496
+      },
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": "5-2",
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": []
+      },
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "Super-time modal occludes most board and resource HUD; only clearly legible top-stage and any visible level are annotated.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "decoded_image_sha256": "46f22970c889ed08924166b7d4378f1368ce217f3d9d88041a7ee28cb238ed49",
+      "training_allowed": false,
+      "original_id": "orange_exp_09"
+    },
+    {
+      "id": "orange_exp_10",
+      "file": "images/orange_exp_10.jpg",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "source_image_url": "https://img2-tc.tapimg.com/video/cover/FoEI8iIMsg9N5pvVlXTitQ2mzWM5_20261105191148.jpg",
+      "date": null,
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "screen_type": "orange_loadout",
+      "image_size": {
+        "width": 2400,
+        "height": 1080
+      },
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "mode": "orange",
+      "source_id": "taptap_867484028389820540",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250044",
+            "entity_id": "7250044",
+            "card_id": "7250044",
+            "name": "宿命的抉择",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.487,
+              0.2,
+              0.155,
+              0.56
+            ],
+            "role": "displayed_deck_card",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250017",
+            "entity_id": "7250017",
+            "card_id": "7250017",
+            "name": "复制复制复制…",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.662,
+              0.2,
+              0.155,
+              0.56
+            ],
+            "role": "displayed_deck_card",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250056",
+            "entity_id": "7250056",
+            "card_id": "7250056",
+            "name": "传说的主角",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.83,
+              0.2,
+              0.155,
+              0.56
+            ],
+            "role": "displayed_deck_card",
+            "rarity_tier": 4,
+            "box_precision": "manual_approximate"
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "3e52ae2c0f2587185ec32c7cbf0dac2a0a9afac4742dacc310159bf361105b8c",
+      "training_allowed": false,
+      "original_id": "orange_exp_10"
+    },
+    {
+      "id": "orange_exp_11",
+      "file": "images/orange_exp_11.jpeg",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "source_image_url": "https://img.3dmgame.com/uploads/images/news/20261104/1793787277_310135.jpeg",
+      "date": "2026-11-04",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "screen_type": "orange_super_time",
+      "image_size": {
+        "width": 1048,
+        "height": 480
+      },
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "mode": "orange",
+      "source_id": "3dm_3746579",
+      "evaluation_role": "sealed_test",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": "4-1",
+        "hp": null,
+        "gold": null,
+        "level": 6,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": []
+      },
+      "field_boxes": {},
+      "card_boxes": [],
+      "shop_kinds": [
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded",
+        "occluded"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "Super-time modal occludes most board and resource HUD; only clearly legible top-stage and any visible level are annotated.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "decoded_image_sha256": "50a12c36579b0133c3f8397f92e513368c549d4c4d45e1f7725ec85d51396d51",
+      "training_allowed": false,
+      "original_id": "orange_exp_11"
+    }
+  ]
+}

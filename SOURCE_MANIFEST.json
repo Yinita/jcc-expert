@@ -1,0 +1,4057 @@
+{
+  "version": "0.3.1",
+  "publication": "Yinita/jcc-expert",
+  "notice": "Tracked source and research artifacts only. Local uploads, SQLite data, access codes/QR, environments and screenshot archives are excluded. Candidate models remain inactive.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "04d27d8fdb31e644d6dc88817999105c20024d8e3216326ab55a69b69357c4aa",
+      "bytes": 205
+    },
+    {
+      "path": "README.md",
+      "sha256": "8282cf7def6860066d04346dc2028399ca44a276c9131101a830a81982f12d21",
+      "bytes": 10145
+    },
+    {
+      "path": "TABLET.md",
+      "sha256": "8d8c1fa49cff0b0b0eb71e36b2f1f6540a01f8f05c46cbb5a0120d856aad2b2f",
+      "bytes": 2185
+    },
+    {
+      "path": "TABLET_VALIDATION.json",
+      "sha256": "c704dbbd99f3e9325f8cc40b70503c40a32bdeccaf3fa9dff444f7807773a7ce",
+      "bytes": 767
+    },
+    {
+      "path": "VALIDATION.json",
+      "sha256": "ff57513fa84e447a1bfdf76eba570d2412392f3f972de2efd97585797c2a9787",
+      "bytes": 6828
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "d7343a82a752209b6df6d2af2522fff489ee1325204712d6ea37baf5ad7a987f",
+      "bytes": 54
+    },
+    {
+      "path": "app/assets/manifest.json",
+      "sha256": "e3df98b55989c2de863a244da4eea5a18722960e1a0844f63378811d1534bc6c",
+      "bytes": 143935
+    },
+    {
+      "path": "app/assets/nature/heros/11500.png",
+      "sha256": "63be1dfdd9891191d1fe7758d430e861e058f6a4b0c9a5bdaf3827ce471f0fb5",
+      "bytes": 22816
+    },
+    {
+      "path": "app/assets/nature/heros/11501.png",
+      "sha256": "e1ba20205cd80d6136dc56e9645ba4950a21e1defcc31c6735c9127242e4e246",
+      "bytes": 23427
+    },
+    {
+      "path": "app/assets/nature/heros/11502.png",
+      "sha256": "84c5920193246355035c32f916c30a6963edc723fa0d268ede995153f198736c",
+      "bytes": 24264
+    },
+    {
+      "path": "app/assets/nature/heros/11503.png",
+      "sha256": "a7bb677dd23e5a9425ea633c4ee6269b0c2984c410563ee813ee7be5752485f6",
+      "bytes": 26178
+    },
+    {
+      "path": "app/assets/nature/heros/11504.png",
+      "sha256": "badeeb1092e3975f8eab960324e4edbbe02a2a12132498a0691c48417c222fc3",
+      "bytes": 24435
+    },
+    {
+      "path": "app/assets/nature/heros/11505.png",
+      "sha256": "685c89d40d24f001060768af8dd8a1d66619dad7feb97f86c9484cfeebbfb080",
+      "bytes": 23219
+    },
+    {
+      "path": "app/assets/nature/heros/11506.png",
+      "sha256": "4eca4f959ef655408566c8a34e8aadfdd4ab4bf5e8960668f328be3d6b69bd4f",
+      "bytes": 21206
+    },
+    {
+      "path": "app/assets/nature/heros/11507.png",
+      "sha256": "4a92741f29d1c176e7ca602f30b80fb9bb754f3ebccf7acd937405b56fd2c387",
+      "bytes": 23659
+    },
+    {
+      "path": "app/assets/nature/heros/11508.png",
+      "sha256": "8e201a4a9558f0755a209c84cb2369a9064f2af35813e11473c689f60b9bec03",
+      "bytes": 23570
+    },
+    {
+      "path": "app/assets/nature/heros/11509.png",
+      "sha256": "cd6a6f472758c3f3728370a54f1545979d7a552662c025205e0f0c6d35fd5f0f",
+      "bytes": 22024
+    },
+    {
+      "path": "app/assets/nature/heros/11510.png",
+      "sha256": "a9d66cf7e546468107af1d1557852d993d794c3a844598c3acd064df26031787",
+      "bytes": 25831
+    },
+    {
+      "path": "app/assets/nature/heros/11511.png",
+      "sha256": "7c1c525533c937230bcf4df2c3865cf835a9c281ce9e938031e832dd4224dd48",
+      "bytes": 22085
+    },
+    {
+      "path": "app/assets/nature/heros/11512.png",
+      "sha256": "f9a8c5f8c14b1f3e0bb76ab1c20c9565a7e13189cb429aa7e9c807f5980ca819",
+      "bytes": 21300
+    },
+    {
+      "path": "app/assets/nature/heros/12500.png",
+      "sha256": "4d3e124473edbc8911a8640cb43f2e6d785498e599b16186109f4a6fc8da489d",
+      "bytes": 25815
+    },
+    {
+      "path": "app/assets/nature/heros/12501.png",
+      "sha256": "00839dcb928861beb8bc6eba14db6d323a7a24b2fc1c6392013494819d676a74",
+      "bytes": 24525
+    },
+    {
+      "path": "app/assets/nature/heros/12502.png",
+      "sha256": "83232e5efb873628b93b8157ed76f479ad1bbe4f63b94e12ad459e28a177e738",
+      "bytes": 26409
+    },
+    {
+      "path": "app/assets/nature/heros/12503.png",
+      "sha256": "d9d0968db4c3137096490fc3be76b3af7f6f99510392a0f5b8a347b08e1e297d",
+      "bytes": 21576
+    },
+    {
+      "path": "app/assets/nature/heros/12504.png",
+      "sha256": "4703a1d5a484b6df91237068ade9d69ea4bb87079926de05cb9a0ac8079fa186",
+      "bytes": 24843
+    },
+    {
+      "path": "app/assets/nature/heros/12505.png",
+      "sha256": "c1550c77fe1cacf25225fe7e9d28423158cb8d7a4987f5c3f343ddd161fd7624",
+      "bytes": 23960
+    },
+    {
+      "path": "app/assets/nature/heros/12507.png",
+      "sha256": "154fb3229fe404ffeb8453f1c7c3937dd4fc5b8de3757e3a1d33814203fbdb32",
+      "bytes": 26133
+    },
+    {
+      "path": "app/assets/nature/heros/12508.png",
+      "sha256": "b6e3dd43445d271f104ef1bc1ff679088f7827a1bfb421991621364589c22257",
+      "bytes": 23106
+    },
+    {
+      "path": "app/assets/nature/heros/12509.png",
+      "sha256": "3e076e50607afa21a225cbf803f9041e69861198a67588c1bbc828139d56aa68",
+      "bytes": 26671
+    },
+    {
+      "path": "app/assets/nature/heros/12510.png",
+      "sha256": "a334717e128e6c4391070d2cabbeba0d8aeec9995dedfcbbdf2425836422c9ab",
+      "bytes": 25247
+    },
+    {
+      "path": "app/assets/nature/heros/12511.png",
+      "sha256": "194321b196d06b1af9ae7ab6b1f63a1b4cef131aee5433d6af4819e50337da45",
+      "bytes": 24493
+    },
+    {
+      "path": "app/assets/nature/heros/12512.png",
+      "sha256": "57c2e6e4b87c1eab157881e27b4e5c4b0d9c13a14d2a11b955f2c923073052d0",
+      "bytes": 23138
+    },
+    {
+      "path": "app/assets/nature/heros/12513.png",
+      "sha256": "a4d777f3a09aa8c798b1dc7d8f2a1bc4fd498a884fa6a56895f2a3f7a86ddead",
+      "bytes": 23617
+    },
+    {
+      "path": "app/assets/nature/heros/12514.png",
+      "sha256": "30ef6dfa398869e401ce33355f5f1cebe7bf75f82807abcda7c009ad9cb67484",
+      "bytes": 25412
+    },
+    {
+      "path": "app/assets/nature/heros/13500.png",
+      "sha256": "b48ca822aa219860f820c51f85c843ab224b256de2d55a2666322010fe8ef24a",
+      "bytes": 25815
+    },
+    {
+      "path": "app/assets/nature/heros/13501.png",
+      "sha256": "c41fdc59c6e735ab16f416db565b5f72cc8221fea31ffefa2a3c8568b49c6153",
+      "bytes": 25186
+    },
+    {
+      "path": "app/assets/nature/heros/13502.png",
+      "sha256": "9bb9305e72e47f41f6e0a6fff1871e8f46ba765f0381369995537dd52ae5e6e9",
+      "bytes": 24875
+    },
+    {
+      "path": "app/assets/nature/heros/13503.png",
+      "sha256": "ed71a11c1a89896b6a212909f89f43ffd2efa1fec6b39a7f94f4263c719ae40c",
+      "bytes": 23749
+    },
+    {
+      "path": "app/assets/nature/heros/13504.png",
+      "sha256": "3be8a7d549942166f21e23f9d6e3864158fadf52a4ca2291ece3817640704a03",
+      "bytes": 26120
+    },
+    {
+      "path": "app/assets/nature/heros/13505.png",
+      "sha256": "596abf0c6d7b450b8c9607b1aafc8226a3b41cf571311697d6f9e552142ab86e",
+      "bytes": 21968
+    },
+    {
+      "path": "app/assets/nature/heros/13506.png",
+      "sha256": "ae026b8b08da4809e09354f9154c7e0d2f6191184c02c6d44fab198da1d634b6",
+      "bytes": 24460
+    },
+    {
+      "path": "app/assets/nature/heros/13507.png",
+      "sha256": "0dbb0ee2ed3f37b2dbb1a040e282244f317460242cdfab4a1c05dd74eca75253",
+      "bytes": 26474
+    },
+    {
+      "path": "app/assets/nature/heros/13508.png",
+      "sha256": "b6c01dac95f05404a78ddd16e5c6454e789588fa7b27f03a9b7a20171fb311b5",
+      "bytes": 22844
+    },
+    {
+      "path": "app/assets/nature/heros/13509.png",
+      "sha256": "f8e62702ef883ea0bb98a775feafe9ca15feae433a41c6a6c017e4484cb13bed",
+      "bytes": 24485
+    },
+    {
+      "path": "app/assets/nature/heros/13510.png",
+      "sha256": "a56cf8738169121f77b8763d3c6e8aaaf1f71c6d846bca78970bed9399b0d50e",
+      "bytes": 25408
+    },
+    {
+      "path": "app/assets/nature/heros/13511.png",
+      "sha256": "7680ac29f62c0e0630105b7bc513dc63cb152366c254d22d2c4790226d851d27",
+      "bytes": 24390
+    },
+    {
+      "path": "app/assets/nature/heros/13512.png",
+      "sha256": "f88b1808fdda0cb1822ccdb339e0595eb0b2213a5654c3ac4f4c26b8701245c5",
+      "bytes": 26341
+    },
+    {
+      "path": "app/assets/nature/heros/13515.png",
+      "sha256": "f149360f28b7dfd046ba31a45f682ad3bd617fea751b2ef43620888890b1b998",
+      "bytes": 23557
+    },
+    {
+      "path": "app/assets/nature/heros/14500.png",
+      "sha256": "0f4f9a033de57175895960e19c3aee2a9b17ad55f7b091fa2422bc00b1109c7e",
+      "bytes": 24240
+    },
+    {
+      "path": "app/assets/nature/heros/14501.png",
+      "sha256": "331f153200158462628eedad375dd885bef5f8ec884ba2096209410b329ca589",
+      "bytes": 24446
+    },
+    {
+      "path": "app/assets/nature/heros/14502.png",
+      "sha256": "0852e394037e4c457bd2038847aa0355f405a8f83e053973b268473d4deb8dcf",
+      "bytes": 26707
+    },
+    {
+      "path": "app/assets/nature/heros/14503.png",
+      "sha256": "64e77afb3fb0199af65f9e6791f19a8748e83f87ae3336c8b725cee25310d30d",
+      "bytes": 24865
+    },
+    {
+      "path": "app/assets/nature/heros/14504.png",
+      "sha256": "b2d6abcbe560090810ee48abc886e5180a4e3a474b4f208a80125a6c562885c1",
+      "bytes": 24662
+    },
+    {
+      "path": "app/assets/nature/heros/14505.png",
+      "sha256": "886aeb68f503b17c780ee3598cdde094cc930029a2de0dd22e95474a9745d0a2",
+      "bytes": 23052
+    },
+    {
+      "path": "app/assets/nature/heros/14506.png",
+      "sha256": "86d1afd32e3b08458f982001be81688d278a8ba44deae8aaf9b8251b77135418",
+      "bytes": 25124
+    },
+    {
+      "path": "app/assets/nature/heros/14507.png",
+      "sha256": "7d8d3d44e43b2e63e97ffaefb74fcca99dc94f65f5f8d5c9816966a610c9a8bd",
+      "bytes": 24494
+    },
+    {
+      "path": "app/assets/nature/heros/14508.png",
+      "sha256": "d4e3bcc88947f44e224a7350c203e25632e8f970ddfb18d99a8748c7395405b5",
+      "bytes": 25380
+    },
+    {
+      "path": "app/assets/nature/heros/14509.png",
+      "sha256": "0a4428e9ee693e6f74d46c92e77af4d3e338f6ac4e8f5e7d6dfc8552811738be",
+      "bytes": 23770
+    },
+    {
+      "path": "app/assets/nature/heros/14510.png",
+      "sha256": "b059c522a50e416e13ad416efc2755ffdf4e97043f2548db9a25be12370ac307",
+      "bytes": 27233
+    },
+    {
+      "path": "app/assets/nature/heros/14511.png",
+      "sha256": "7764ca867c1176d2845a645e5a57ea2dcf0269b9a13e3a440dcfce91a8b5baac",
+      "bytes": 25618
+    },
+    {
+      "path": "app/assets/nature/heros/14512.png",
+      "sha256": "eb1a0b74c036de20388d74dd8fd52acfc402dc2f6ae3cf5b4775580467f171c1",
+      "bytes": 26017
+    },
+    {
+      "path": "app/assets/nature/heros/14513.png",
+      "sha256": "8486d3fc15cf8bb8e6386be806f6b3f628e47805e1e4cf559859bd9d7f84d1af",
+      "bytes": 27330
+    },
+    {
+      "path": "app/assets/nature/heros/15450.png",
+      "sha256": "3f092ecf66728b06595e20f17e3a43792c454ce48316a2e4ef846673878a6f08",
+      "bytes": 23927
+    },
+    {
+      "path": "app/assets/nature/heros/15451.png",
+      "sha256": "f03a1889056171a436415d3813938936ba2875a0ad31dc4bbb50b25dad133ff9",
+      "bytes": 23519
+    },
+    {
+      "path": "app/assets/nature/heros/15452.png",
+      "sha256": "6ad00a2441d8a0258d6ec20e9beb9e45cc15ec179d586c2390d30f186f253b0c",
+      "bytes": 24583
+    },
+    {
+      "path": "app/assets/nature/heros/15453.png",
+      "sha256": "3866d885ee733f3c887b6731a68ed79521559efe4622d682d112c813a755a568",
+      "bytes": 24092
+    },
+    {
+      "path": "app/assets/nature/heros/15454.png",
+      "sha256": "133f509f5648fbaa6e0cd1e14663e6dd28eb43180e38d0592b216189194708ef",
+      "bytes": 25813
+    },
+    {
+      "path": "app/assets/nature/heros/15455.png",
+      "sha256": "41132a2304135b1870fa0b4ec51aa101b570dfdf2d5ca0daf508d00767874126",
+      "bytes": 24171
+    },
+    {
+      "path": "app/assets/nature/heros/15456.png",
+      "sha256": "b8e877c180582079b8540b45996072e8cad2fe58fe654501e2deed9517ead65e",
+      "bytes": 24097
+    },
+    {
+      "path": "app/assets/nature/heros/15457.png",
+      "sha256": "4f4090b8fdb5dc1718e76d7e27c71b9ad2bff117e757bd02861c1be21c9b9fac",
+      "bytes": 25262
+    },
+    {
+      "path": "app/assets/nature/heros/15458.png",
+      "sha256": "6bb1940bee5399074fb50c1aa0315f4ffef72b2ba0710955f612739cdea52847",
+      "bytes": 21468
+    },
+    {
+      "path": "app/assets/nature/heros/15459.png",
+      "sha256": "260db08c27a56ec2d025d19780454376d453f4797eeb828f50ba8b7d4962d953",
+      "bytes": 25271
+    },
+    {
+      "path": "app/assets/orange/cards/7210014.png",
+      "sha256": "fd5457db3f3c796ec4206680667d452b5fcd028595a8a7adf54b1169d743802a",
+      "bytes": 175667
+    },
+    {
+      "path": "app/assets/orange/cards/7210015.png",
+      "sha256": "9b9887c6b439e7937a235f124016ba2727b1c8bd98b5d0f63884b49208462d9a",
+      "bytes": 187458
+    },
+    {
+      "path": "app/assets/orange/cards/7210016.png",
+      "sha256": "3b73b9d9bec0441f9db4a8da9f0ece9a6353ea30e7dde6aeaaf7dc01841d0114",
+      "bytes": 181940
+    },
+    {
+      "path": "app/assets/orange/cards/7210017.png",
+      "sha256": "0abb7b799251fb3d625c1b905c02913beb7f1044d594171dc31e021f05f50850",
+      "bytes": 183059
+    },
+    {
+      "path": "app/assets/orange/cards/7210018.png",
+      "sha256": "17eb11549234715ce9cd6c91e1ffe0821abbd918f153763a6d59046cad6a1492",
+      "bytes": 181828
+    },
+    {
+      "path": "app/assets/orange/cards/7210019.png",
+      "sha256": "ea4c2b37bb17e79b2fe20a2249200144da3b9b964bf5c9665197b9acc1badc49",
+      "bytes": 166280
+    },
+    {
+      "path": "app/assets/orange/cards/7210020.png",
+      "sha256": "ce539141a2eae860acb1a569763bc9fcf0980e8dcb6cb2f85b89f671761b96db",
+      "bytes": 165895
+    },
+    {
+      "path": "app/assets/orange/cards/7210021.png",
+      "sha256": "2152d28c93077e7743db0b31fe11e6f4ab1ed64bf9c2f965188fde7ed329d1fb",
+      "bytes": 185275
+    },
+    {
+      "path": "app/assets/orange/cards/7210022.png",
+      "sha256": "be7991bb8b8582e89349a4da2cbefcb6cd17fb945596bab0df40b942d1f4fa79",
+      "bytes": 184296
+    },
+    {
+      "path": "app/assets/orange/cards/7210023.png",
+      "sha256": "41c6925fc192318e9fe9f80e80b9bd182a9129253a7127178e0b7f83cb1b2070",
+      "bytes": 183452
+    },
+    {
+      "path": "app/assets/orange/cards/7210024.png",
+      "sha256": "1462063b4f0cb97ea5f914c83ce13f9b4abb36e51e645001890dbb857d10bbe9",
+      "bytes": 186872
+    },
+    {
+      "path": "app/assets/orange/cards/7210025.png",
+      "sha256": "de827864c85f1b0814dfa11ef2152197fc725961663f9f659e19a036f9827a40",
+      "bytes": 180645
+    },
+    {
+      "path": "app/assets/orange/cards/7210026.png",
+      "sha256": "3d42d6d7eedf42e8b652074cd4d11cc0d83190c79e199f2033172e12dbc89b13",
+      "bytes": 185852
+    },
+    {
+      "path": "app/assets/orange/cards/7210027.png",
+      "sha256": "6d80ec372568b06a3b20adcd6dcdfca22ab456bd42375d6b9651c7f499fb244c",
+      "bytes": 185813
+    },
+    {
+      "path": "app/assets/orange/cards/7210028.png",
+      "sha256": "a07528ee89eadb8964e455d79436565f906ca58d2157266f6ee0177fe66f04a8",
+      "bytes": 187284
+    },
+    {
+      "path": "app/assets/orange/cards/7210030.png",
+      "sha256": "3765ef279dec56926388819c24638e52a1d084199759f2cffbcaeed593a0f2f7",
+      "bytes": 188033
+    },
+    {
+      "path": "app/assets/orange/cards/7210032.png",
+      "sha256": "6fa834d2f1d2f475d47f8d3ff72e8260d44b7e19291db391917f414260f0f7a3",
+      "bytes": 174797
+    },
+    {
+      "path": "app/assets/orange/cards/7210033.png",
+      "sha256": "29e1199cf2a0b26175f45feba60f1c760346a2226dc73c71c34d753350e90e19",
+      "bytes": 181204
+    },
+    {
+      "path": "app/assets/orange/cards/7210034.png",
+      "sha256": "481c3f138574478186a7fe1e7579cad245f2a5b3cebed572d79240efb8401ae2",
+      "bytes": 162356
+    },
+    {
+      "path": "app/assets/orange/cards/7220015.png",
+      "sha256": "833cd6e84c964d7abacd4270df67780c80dd1ae7e2d3335bbec43e5e377c630a",
+      "bytes": 203561
+    },
+    {
+      "path": "app/assets/orange/cards/7220018.png",
+      "sha256": "8d2eaf6667f5be2538470f35cdeca4eb2fe143c05f2d2bff7a27ea6f44d18556",
+      "bytes": 159327
+    },
+    {
+      "path": "app/assets/orange/cards/7220024.png",
+      "sha256": "da79c5d32b840fc651cf4d2f1c33b5209d66bc01373ffb65ca1a38782124ec23",
+      "bytes": 197042
+    },
+    {
+      "path": "app/assets/orange/cards/7220026.png",
+      "sha256": "7419dcd4f43bcfabb980d98469199f540c2caff87d5a016b7f5dbe2413c92771",
+      "bytes": 206077
+    },
+    {
+      "path": "app/assets/orange/cards/7220027.png",
+      "sha256": "4b7d6e3b20a968a2ce6916aadb1fb07eb993afa990a9a24c063ec95a28d7f732",
+      "bytes": 196107
+    },
+    {
+      "path": "app/assets/orange/cards/7220028.png",
+      "sha256": "2511373d40794b0ad0a4b9f0d808dd8ffd798927d8e88e2d21397a11aa13a231",
+      "bytes": 199319
+    },
+    {
+      "path": "app/assets/orange/cards/7220030.png",
+      "sha256": "93e4e5808caed4beb62653738a22e1dacd47e77d5fcd2212f23d94c37ebe672a",
+      "bytes": 206782
+    },
+    {
+      "path": "app/assets/orange/cards/7220031.png",
+      "sha256": "04b164b08f580304b9a6096a2e9e3d7cfa89ea3fed1a52a03676ff89c358922c",
+      "bytes": 201531
+    },
+    {
+      "path": "app/assets/orange/cards/7220032.png",
+      "sha256": "368dae3ef72b8b305b3a8db12b14e7bb5a6ba352334779950fcc0fb27c21791d",
+      "bytes": 208406
+    },
+    {
+      "path": "app/assets/orange/cards/7220033.png",
+      "sha256": "842bcdd5cc5387e9fffcb450df9778ad10aab569c32c4a73997f3158b3f18c27",
+      "bytes": 189111
+    },
+    {
+      "path": "app/assets/orange/cards/7220034.png",
+      "sha256": "abbce033aea63c93df908f420ab3b4a22dfa7dcfb05cb53b504d041d9c1e9123",
+      "bytes": 200159
+    },
+    {
+      "path": "app/assets/orange/cards/7220036.png",
+      "sha256": "5e5ca7bc9e7cb528a3383f9933a5b3078eae54e452f2f3023032ba94e6aa0cf7",
+      "bytes": 197846
+    },
+    {
+      "path": "app/assets/orange/cards/7220037.png",
+      "sha256": "f567133a80cc9a7dac76e2146107e88350677d970900a6e724a739977a1728a5",
+      "bytes": 205833
+    },
+    {
+      "path": "app/assets/orange/cards/7220038.png",
+      "sha256": "b5c6f1495f0628df1ecde899c9b51fa498776709055860c9758f95568728be37",
+      "bytes": 202296
+    },
+    {
+      "path": "app/assets/orange/cards/7220039.png",
+      "sha256": "ccc1eb00c29ed275c0166e1c9f7855ff5be0ef7dbe3897fdbedb2d734881f127",
+      "bytes": 210810
+    },
+    {
+      "path": "app/assets/orange/cards/7220040.png",
+      "sha256": "b6d7c2378409e9b2bef6c79c3c9299feff7559c400bca2d25c4f336fa63190d0",
+      "bytes": 208805
+    },
+    {
+      "path": "app/assets/orange/cards/7220042.png",
+      "sha256": "e45663f9226c4bc27d8c1bdd36bc7e156ae6b3acf1ec23e8454446f2deb2318d",
+      "bytes": 206548
+    },
+    {
+      "path": "app/assets/orange/cards/7220044.png",
+      "sha256": "31183ccb7a34681e888155908b8e120a8bd9d734ba73221452dcc84eaadeec9b",
+      "bytes": 188236
+    },
+    {
+      "path": "app/assets/orange/cards/7220045.png",
+      "sha256": "7a8f1d5c741e25f680927d0c0e918ff0e8b221e9734b1473de59b8c63c670dcb",
+      "bytes": 191602
+    },
+    {
+      "path": "app/assets/orange/cards/7220046.png",
+      "sha256": "1f58c9376e2126e9033b10d46b6199fe20b06c1959d15f58ab044aebe32ef5fb",
+      "bytes": 196030
+    },
+    {
+      "path": "app/assets/orange/cards/7220047.png",
+      "sha256": "88362b5fd5d05db938439e3021a248acab11e671d4025bf80585865ae6109eb0",
+      "bytes": 191284
+    },
+    {
+      "path": "app/assets/orange/cards/7220048.png",
+      "sha256": "8f126a4ce975c67412c5dbb9b3a9e4335bb895fda5705ae98bfeb6c337f6c43d",
+      "bytes": 192725
+    },
+    {
+      "path": "app/assets/orange/cards/7220049.png",
+      "sha256": "09f97cb362e35d01020ada88459f9fae9ed2cb545f858ace4ba9618bf5c5c836",
+      "bytes": 227177
+    },
+    {
+      "path": "app/assets/orange/cards/7220050.png",
+      "sha256": "7e959c7e4e8219fdc2482b8fd9edca3c3124eed52849a940551027f1850c1c19",
+      "bytes": 226100
+    },
+    {
+      "path": "app/assets/orange/cards/7220052.png",
+      "sha256": "f5b3c7321edee8b30d667ff53505fb9b2dc81aa043f714cac3fe6f6ecfcfc959",
+      "bytes": 208020
+    },
+    {
+      "path": "app/assets/orange/cards/7220053.png",
+      "sha256": "645b6bb755debd8299207e661cc843173e50b5c74972969fef3da56201017287",
+      "bytes": 219294
+    },
+    {
+      "path": "app/assets/orange/cards/7220054.png",
+      "sha256": "f7aa3603e70ca1b7eda7ef110856b567c0dcdf0994fbacacd6edb3b3be407ce7",
+      "bytes": 228050
+    },
+    {
+      "path": "app/assets/orange/cards/7220055.png",
+      "sha256": "2fa876cf0d55d6def967240a85befc2b9a6a06bfc4c51a7124a927ba786dbbbc",
+      "bytes": 249833
+    },
+    {
+      "path": "app/assets/orange/cards/7220056.png",
+      "sha256": "78c9e604813455b7c9e166586a0b3ae072b2585aa942e8671595ca650a7825c4",
+      "bytes": 227305
+    },
+    {
+      "path": "app/assets/orange/cards/7220057.png",
+      "sha256": "43ce620df8be67146af21d8511f7984dee25872f7388e3c5014a04c125202f3d",
+      "bytes": 231105
+    },
+    {
+      "path": "app/assets/orange/cards/7220058.png",
+      "sha256": "a0157eeb8cdea6b0da9c31fbe53ee19265d9094290772d1908fc51ac244d12ef",
+      "bytes": 190871
+    },
+    {
+      "path": "app/assets/orange/cards/7230005.png",
+      "sha256": "e044173a7aa6d6fe7b74870252a2af4b6cba905dcd6ebad35a91564a40de33b4",
+      "bytes": 213741
+    },
+    {
+      "path": "app/assets/orange/cards/7230032.png",
+      "sha256": "aedb34652a54a7f7ebd05b2a3f88b37f2e36869c1a0310815d17fcbdd51e57bc",
+      "bytes": 197522
+    },
+    {
+      "path": "app/assets/orange/cards/7230034.png",
+      "sha256": "e179dd18c1c0c4c327cd8cd82d3701e408b9119e10126770ad6dbaa27f448230",
+      "bytes": 217188
+    },
+    {
+      "path": "app/assets/orange/cards/7230035.png",
+      "sha256": "fe6022270426fb03fd7977a8a5097d415df37646a133bae11254ba6221e3d2c7",
+      "bytes": 207178
+    },
+    {
+      "path": "app/assets/orange/cards/7230036.png",
+      "sha256": "9a1c194d48071378348d713a8ed4e216d145b67027f1881ad62461684af0133b",
+      "bytes": 201216
+    },
+    {
+      "path": "app/assets/orange/cards/7230037.png",
+      "sha256": "6047f0394888057c68b8e762973cc56f7faaa2689a4f8cfdfc83a061c6a308b3",
+      "bytes": 207741
+    },
+    {
+      "path": "app/assets/orange/cards/7230038.png",
+      "sha256": "114e99c98c7c9a5b9808f9ef74aa16b10e92312d19dbc645bc17a62642e34dde",
+      "bytes": 205880
+    },
+    {
+      "path": "app/assets/orange/cards/7230039.png",
+      "sha256": "4ac2982dbf78fedbbb5526a1966f9e1841be1c06d38b6b924be5ed0f640eba24",
+      "bytes": 202964
+    },
+    {
+      "path": "app/assets/orange/cards/7230040.png",
+      "sha256": "3b9436efa3dc71c740e8c9ac79ba7335032f64ce0f94059c023bc2726efd42bf",
+      "bytes": 211722
+    },
+    {
+      "path": "app/assets/orange/cards/7230041.png",
+      "sha256": "f36f55cd98c311cc80d2c7be62350a5b5bacdbd51a964dee03a2f0b5df08ded5",
+      "bytes": 194908
+    },
+    {
+      "path": "app/assets/orange/cards/7230043.png",
+      "sha256": "803be448bbbb9a2d74e8cca457767ebed577471512b335fe27807d20ecec7776",
+      "bytes": 217091
+    },
+    {
+      "path": "app/assets/orange/cards/7230044.png",
+      "sha256": "c105eefbae56c7abbd4c3cfe90c10c4f1e0ff97b0b63e30e23cb7c115d808f5d",
+      "bytes": 215741
+    },
+    {
+      "path": "app/assets/orange/cards/7230045.png",
+      "sha256": "3384f092c888757fbfc1376477e46fb0d2cd15f1f167782b0c1907fd36a4d227",
+      "bytes": 205689
+    },
+    {
+      "path": "app/assets/orange/cards/7230047.png",
+      "sha256": "f99e49a7948c07d70d24a99c40eb59558d62fcf7010acb0bf92386bdf550705a",
+      "bytes": 190758
+    },
+    {
+      "path": "app/assets/orange/cards/7230048.png",
+      "sha256": "bf533a400bfdca1103a8ccf839641ee04b7100a1bfc8c2f1d6c0c8fe4437b899",
+      "bytes": 204846
+    },
+    {
+      "path": "app/assets/orange/cards/7230049.png",
+      "sha256": "b9050fcec30c2f53508ecdd74b7272b73d21878c994ec96d322fd0b725eb724a",
+      "bytes": 206241
+    },
+    {
+      "path": "app/assets/orange/cards/7230050.png",
+      "sha256": "18457dc1eff0750ea1ffddd7faf09ddcf756c5b8288d4593c94fff2e5094e1d8",
+      "bytes": 196001
+    },
+    {
+      "path": "app/assets/orange/cards/7230051.png",
+      "sha256": "77b93f936f5116b771fcfb1cbb7a0652ed6ecea1ba41cf3f44eb030327d2d85d",
+      "bytes": 209264
+    },
+    {
+      "path": "app/assets/orange/cards/7230052.png",
+      "sha256": "69b74629c24cc74011c464ae51e8f9d91ae556a70e65b1ade4aad24f614ebaa1",
+      "bytes": 194845
+    },
+    {
+      "path": "app/assets/orange/cards/7230053.png",
+      "sha256": "19495043b06b26888159787f62e5f4f1a31b917096ee7f892ff646fd7fe30ea1",
+      "bytes": 203033
+    },
+    {
+      "path": "app/assets/orange/cards/7230054.png",
+      "sha256": "6846d184cdc381a4b0935253486042db80d0aeda8dbaf40920eeb10daaa47cd1",
+      "bytes": 216677
+    },
+    {
+      "path": "app/assets/orange/cards/7230055.png",
+      "sha256": "8b2cb94d985283fcf6e1b9686c19bc8d90aac1361c727ef191af62fa3d44d54b",
+      "bytes": 214618
+    },
+    {
+      "path": "app/assets/orange/cards/7230057.png",
+      "sha256": "e79a150b4e980f9d98bb430f409e2a3302c3bc4c34c53881621333648d16cc55",
+      "bytes": 195069
+    },
+    {
+      "path": "app/assets/orange/cards/7230058.png",
+      "sha256": "979a52fda3deef15b0c6fd677028f51aa578c569af138d6b0bda7e2bd7d5ccfa",
+      "bytes": 207965
+    },
+    {
+      "path": "app/assets/orange/cards/7230060.png",
+      "sha256": "0a93085c160a5752ee4d89ea348c015ba20ad7947b73e5b147205dc25d1e7659",
+      "bytes": 190907
+    },
+    {
+      "path": "app/assets/orange/cards/7230061.png",
+      "sha256": "d7c57c4f13d3a19e931feb241c0c342c396ac23d69ed934f21cbed6445857c21",
+      "bytes": 188738
+    },
+    {
+      "path": "app/assets/orange/cards/7230062.png",
+      "sha256": "548b04791369b343cf1e74d53e7fec3a0fcbed0a232f9594b3e50d1ed0e06176",
+      "bytes": 195134
+    },
+    {
+      "path": "app/assets/orange/cards/7230063.png",
+      "sha256": "6fecb21f4a10c7b24c0c45449fd0b9edf436ea9e2a7e19e511d14d6744d46f40",
+      "bytes": 197379
+    },
+    {
+      "path": "app/assets/orange/cards/7230064.png",
+      "sha256": "2bd0efa4fb87227a2feb97bf333374b9c092079bc8ea9ab2d8bfebaae84334b1",
+      "bytes": 197067
+    },
+    {
+      "path": "app/assets/orange/cards/7230065.png",
+      "sha256": "8a7e76d76425f852c9636cc2104939f1af2fcb02bdb6ab2883d88b7022a4fe4b",
+      "bytes": 196052
+    },
+    {
+      "path": "app/assets/orange/cards/7230066.png",
+      "sha256": "371d8cf5becb6ce5f83677ee8bb32a282761792b061a94ed7c6332db86c290af",
+      "bytes": 207445
+    },
+    {
+      "path": "app/assets/orange/cards/7230067.png",
+      "sha256": "267a4644dae0aed1e05d9b08bdcbba6cfc62eb0ead80b7a533d675947973cb80",
+      "bytes": 176393
+    },
+    {
+      "path": "app/assets/orange/cards/7230068.png",
+      "sha256": "6b1e7031b719c1cbe3892180f194e0f2cd7cab89cdb52879886ff57a64be7d9d",
+      "bytes": 186305
+    },
+    {
+      "path": "app/assets/orange/cards/7230069.png",
+      "sha256": "cdfbd86d08f296e3d6669fe612a6cf1c48aadb2f0ebb747dabb9b57955ab8ad7",
+      "bytes": 186806
+    },
+    {
+      "path": "app/assets/orange/cards/7230070.png",
+      "sha256": "04ad374a1c6416eaa1032aec98faa42c9a7593817394455aa7c4dced077971f9",
+      "bytes": 194336
+    },
+    {
+      "path": "app/assets/orange/cards/7230071.png",
+      "sha256": "3748ae39b8e89e461945655a8dc39f057829df4533cd2e62afd4494f0ccea85b",
+      "bytes": 202240
+    },
+    {
+      "path": "app/assets/orange/cards/7230072.png",
+      "sha256": "a496ca5f976ea09e085537d0fcad19a46a5317d670a821abf0bc0f441a41b21f",
+      "bytes": 213520
+    },
+    {
+      "path": "app/assets/orange/cards/7230081.png",
+      "sha256": "ab060957c0f12b576a4303c9a2143a3b45159aeaf5ca578c3895af777d61bde8",
+      "bytes": 203833
+    },
+    {
+      "path": "app/assets/orange/cards/7230084.png",
+      "sha256": "7255eee8f4e7feb4abce7d4f51f0b36cf53f4c15a111c22818eec86f6f49ed93",
+      "bytes": 208358
+    },
+    {
+      "path": "app/assets/orange/cards/7230085.png",
+      "sha256": "40618abc694396314b6a39cfcad685b5092b6e5a0d0648f98741fc1b86b801c2",
+      "bytes": 196558
+    },
+    {
+      "path": "app/assets/orange/cards/7230087.png",
+      "sha256": "cbe8f949c4abde2a7e4a8e277471de584fce4bb72578269791c1c7e4c8c1460e",
+      "bytes": 213734
+    },
+    {
+      "path": "app/assets/orange/cards/7230088.png",
+      "sha256": "6e5b0ba51d6ba6db95b923e7b939e2b5fe896ecee2784157c013f1ee3c1ed45d",
+      "bytes": 229865
+    },
+    {
+      "path": "app/assets/orange/cards/7230089.png",
+      "sha256": "6031476b8ebad69311458f775b50be2fb5eba453339d821f259d5eb7e91d695e",
+      "bytes": 220402
+    },
+    {
+      "path": "app/assets/orange/cards/7230090.png",
+      "sha256": "79823ede21c012f166aa3e05c31fd1ea77512587d71bf3c80ea5ce14d256dcb5",
+      "bytes": 214815
+    },
+    {
+      "path": "app/assets/orange/cards/7230091.png",
+      "sha256": "ff5737c81f5fcac2c4c957efe02350419ec34ee2014ca2d31ddf66109e8af36a",
+      "bytes": 209493
+    },
+    {
+      "path": "app/assets/orange/cards/7230094.png",
+      "sha256": "84665dbd34b4330d45869f4341a7a7986af5c5f96f4c49f2e490178cf2f038fb",
+      "bytes": 195150
+    },
+    {
+      "path": "app/assets/orange/cards/7230096.png",
+      "sha256": "294e06ceb4b420d49bea9eae14dec413ea45607ce82ca8c5ee4789acbdbb1514",
+      "bytes": 187591
+    },
+    {
+      "path": "app/assets/orange/cards/7230103.png",
+      "sha256": "096012244ed6564b5f336ea1170038cc50cd8d4498634a89d250531f296a3945",
+      "bytes": 194839
+    },
+    {
+      "path": "app/assets/orange/cards/7230105.png",
+      "sha256": "471672008a5d88a5dd7dd09e7c69052cd7f1544bed8b3e836ed435e1621db400",
+      "bytes": 200776
+    },
+    {
+      "path": "app/assets/orange/cards/7230107.png",
+      "sha256": "60a3ecb35e9a14296d0c67169c5d01d473a111ec2af13821cbc2d56f3c396d21",
+      "bytes": 208521
+    },
+    {
+      "path": "app/assets/orange/cards/7230108.png",
+      "sha256": "27310784ed9e0547ce7f4ecfd94c983a1ae75e23f4629ac73d1c43e2760c97a0",
+      "bytes": 213104
+    },
+    {
+      "path": "app/assets/orange/cards/7230110.png",
+      "sha256": "a914030ec92db8411d22076adeac0b663187537da680c07ccb0ca28e5b65cb32",
+      "bytes": 188243
+    },
+    {
+      "path": "app/assets/orange/cards/7230111.png",
+      "sha256": "32d45767d82a3467ab109d943d514df3c2cbaf9d7049085b8536d47de56df6c9",
+      "bytes": 193893
+    },
+    {
+      "path": "app/assets/orange/cards/7230112.png",
+      "sha256": "247752b325b14ad712146c7de76486c8ece5105c9f7b6dd4c11470d32f05189b",
+      "bytes": 219849
+    },
+    {
+      "path": "app/assets/orange/cards/7230113.png",
+      "sha256": "454f79e133cd7e1f986b90efcedfdce22a14ae9d24afeff729fd8e6c6a188665",
+      "bytes": 209394
+    },
+    {
+      "path": "app/assets/orange/cards/7230114.png",
+      "sha256": "bf381d82ad932200645aaff7d789da9aec5c228400b2f743a886b0c3ebf7e423",
+      "bytes": 183278
+    },
+    {
+      "path": "app/assets/orange/cards/7240005.png",
+      "sha256": "afd051dcaf4be339247933b3b7e69889f8bb6b8a09e80b1cac0dcade56543bc5",
+      "bytes": 191260
+    },
+    {
+      "path": "app/assets/orange/cards/7240006.png",
+      "sha256": "c48c86705c31ca3b2186dbf1fd49c325cf1a64b1771dcd9723c158a0261bf934",
+      "bytes": 197658
+    },
+    {
+      "path": "app/assets/orange/cards/7240016.png",
+      "sha256": "a8bc8926e72f0d30e9a6f01488fda50ae5fed5d6fa128570286e3a081f64f76e",
+      "bytes": 190551
+    },
+    {
+      "path": "app/assets/orange/cards/7240017.png",
+      "sha256": "4c338d2b50683582c09839c009695a9b7bcfa0ec83f2cea5d3864fad4bbcc2be",
+      "bytes": 205243
+    },
+    {
+      "path": "app/assets/orange/cards/7240018.png",
+      "sha256": "180f8f14d1eb9df7b20459c4e2aaddb4aa482f9250496573aed2a7f2b5d23702",
+      "bytes": 210518
+    },
+    {
+      "path": "app/assets/orange/cards/7240019.png",
+      "sha256": "97493a11db59a9f816126c5a5e1f94a9803a25d5bf9c4d0b2292582a196b6ee2",
+      "bytes": 201237
+    },
+    {
+      "path": "app/assets/orange/cards/7240020.png",
+      "sha256": "ec5f0204d624f0463ad65ed5b8ded31dee25819900909f7f094ce682625189e7",
+      "bytes": 200247
+    },
+    {
+      "path": "app/assets/orange/cards/7240021.png",
+      "sha256": "e9e77f51c43e61dcd5d1555ee1f73014e98133e2a15e97b4034b8cc1f35400ca",
+      "bytes": 205959
+    },
+    {
+      "path": "app/assets/orange/cards/7240022.png",
+      "sha256": "42a30fa019895e86ed46e3eb237d22b1c9d4b5bd005d8fc0869becdf578e25e4",
+      "bytes": 206696
+    },
+    {
+      "path": "app/assets/orange/cards/7240023.png",
+      "sha256": "f8a6774a400a1af4a751aaecf17324412f2380f6edbd19023c66ef793909e0e3",
+      "bytes": 210381
+    },
+    {
+      "path": "app/assets/orange/cards/7240024.png",
+      "sha256": "a8d244b0204f2c642c9ea175979f387fd74076c2bbc09d3a9feaf2008b10f8c4",
+      "bytes": 192408
+    },
+    {
+      "path": "app/assets/orange/cards/7240025.png",
+      "sha256": "c033263f8dbe484219ee87c993dd61dfe1cabdbccb9e9b7b4e2ccc272e67db15",
+      "bytes": 206824
+    },
+    {
+      "path": "app/assets/orange/cards/7240026.png",
+      "sha256": "4d8b942fd31b744a8ec345cb539ee4e08c605b2d69882dae63de92172923887b",
+      "bytes": 202810
+    },
+    {
+      "path": "app/assets/orange/cards/7240027.png",
+      "sha256": "6fa8d19f2c0e338dd1835cdcef195dbeb39e45b7456785eb44a7c46de38d6903",
+      "bytes": 199534
+    },
+    {
+      "path": "app/assets/orange/cards/7240028.png",
+      "sha256": "399d606e197a50f436905259a313b20f8f1bc8ad7b568d4068f13a001b51c714",
+      "bytes": 196695
+    },
+    {
+      "path": "app/assets/orange/cards/7240030.png",
+      "sha256": "15a5216e0a3d78a0b1e65fa1832a43d8ef10e4a7527dc0f283aa6271f0f3c205",
+      "bytes": 200684
+    },
+    {
+      "path": "app/assets/orange/cards/7240031.png",
+      "sha256": "9add25112c559087f315401f46e73dc1cc7f0c128b82aa977ed400fdeadf592b",
+      "bytes": 191533
+    },
+    {
+      "path": "app/assets/orange/cards/7240032.png",
+      "sha256": "84b6fc5d27d80ebaaf5af3fe3d09226e6c883a62130b3050714e4caf4bdecd94",
+      "bytes": 201559
+    },
+    {
+      "path": "app/assets/orange/cards/7240033.png",
+      "sha256": "e4c219f541fd8f542aa81038384346f24fdf1cb43f8277722e1d0554a000cdb2",
+      "bytes": 184175
+    },
+    {
+      "path": "app/assets/orange/cards/7240034.png",
+      "sha256": "a0849bd186f6cee1e302d22fa172e663720ac194397a9938a1b7cce9e2055e34",
+      "bytes": 187875
+    },
+    {
+      "path": "app/assets/orange/cards/7240035.png",
+      "sha256": "f7d7425426870a5456e4c78fc7470ca1796222bf1060f69ff5196446a37dc614",
+      "bytes": 188819
+    },
+    {
+      "path": "app/assets/orange/cards/7240036.png",
+      "sha256": "285735adeabd4dd6f539755ef955fb15582c20d5af3c7fe69a84a357ff921bff",
+      "bytes": 198633
+    },
+    {
+      "path": "app/assets/orange/cards/7240037.png",
+      "sha256": "09ec7a3e6fa65f52f2b453e80711033236a60452abcb5d86fd0a8f3845bee49d",
+      "bytes": 200610
+    },
+    {
+      "path": "app/assets/orange/cards/7240038.png",
+      "sha256": "487465d6c617432486665322e18ea52a88f798a1073a8f2594658ab8a3e78f24",
+      "bytes": 183209
+    },
+    {
+      "path": "app/assets/orange/cards/7240039.png",
+      "sha256": "2ea2eb861986a60e6d06a67785f37582db998936ac3b7420d9c7b5f1bcaf98e4",
+      "bytes": 183528
+    },
+    {
+      "path": "app/assets/orange/cards/7240040.png",
+      "sha256": "5037b6c11f4a2ff9624fffc4c1fd95483af0b113c579563500d7efe948ff0cf5",
+      "bytes": 186320
+    },
+    {
+      "path": "app/assets/orange/cards/7240041.png",
+      "sha256": "053b3f527ded54b54a28d9077966496a79bf0ef1b29f63841c1eea156e2622bf",
+      "bytes": 193522
+    },
+    {
+      "path": "app/assets/orange/cards/7240042.png",
+      "sha256": "f89051b180346f0b8d454d6923ff6f8fb349b8fc963d074a081821b3e25b534a",
+      "bytes": 202737
+    },
+    {
+      "path": "app/assets/orange/cards/7240058.png",
+      "sha256": "7f5f74e58fada2a8727f69c70f16a033ab66c7db2374b6be3643108c64fc6826",
+      "bytes": 209010
+    },
+    {
+      "path": "app/assets/orange/cards/7240059.png",
+      "sha256": "883b8f41ed927b1137a08acafe6f5755aa3a492dc76dfcf2c98e8cce2b9fbb5e",
+      "bytes": 203210
+    },
+    {
+      "path": "app/assets/orange/cards/7240060.png",
+      "sha256": "25be2f491a57e3c56dff3b64cb7322de46257d2bae328740b864020166308175",
+      "bytes": 203179
+    },
+    {
+      "path": "app/assets/orange/cards/7240061.png",
+      "sha256": "b74293c0d086b3b0a6a4e617eeb9500543a11a59420e48e8032edc230f39fd44",
+      "bytes": 216780
+    },
+    {
+      "path": "app/assets/orange/cards/7240062.png",
+      "sha256": "937a753da9675b98d3bede251d8231a3b1d1ddcfca2505e1f6fcafce3c3e447a",
+      "bytes": 219089
+    },
+    {
+      "path": "app/assets/orange/cards/7240063.png",
+      "sha256": "f1735d87f616b0fc4ae44d644edd3eb8a4c4053431b7ddd0bfb937418059bfa6",
+      "bytes": 223347
+    },
+    {
+      "path": "app/assets/orange/cards/7240064.png",
+      "sha256": "448645d71073a087c15532579cd071608e6c9319fb5bb631c205bb6f68a9f65f",
+      "bytes": 201349
+    },
+    {
+      "path": "app/assets/orange/cards/7240068.png",
+      "sha256": "41dfe3fe6995b00b97425600c7029718359673ad05cea691a226150d94d42b5e",
+      "bytes": 224409
+    },
+    {
+      "path": "app/assets/orange/cards/7240069.png",
+      "sha256": "5c29f66e6f80b4122ce19e1d486e42338ed74612ea3ea8aad30dd7cb2d003f4e",
+      "bytes": 219933
+    },
+    {
+      "path": "app/assets/orange/cards/7240071.png",
+      "sha256": "60a4b398df962fe7631445db83932dcf39cdec253b1474e13783ba65f97747c7",
+      "bytes": 210174
+    },
+    {
+      "path": "app/assets/orange/cards/7240072.png",
+      "sha256": "856870a1300dc2b1fe42536aaf15b6f08aec52396b8f7be6b48de33c469e4eb7",
+      "bytes": 214741
+    },
+    {
+      "path": "app/assets/orange/cards/7240073.png",
+      "sha256": "0c06a04a22f3002e3a7e9f4a6d35a9dd9c28ec10e224246fed3b812bfc505042",
+      "bytes": 198754
+    },
+    {
+      "path": "app/assets/orange/cards/7240077.png",
+      "sha256": "05887081f13d05239bbb97118a5bd1a28370d07526c3281f817ba4fb0f79bb56",
+      "bytes": 188600
+    },
+    {
+      "path": "app/assets/orange/cards/7240080.png",
+      "sha256": "e3fcf8e8be2312758dbfd600665435487d44df298e6129054ba00c25289d0d20",
+      "bytes": 219390
+    },
+    {
+      "path": "app/assets/orange/cards/7240087.png",
+      "sha256": "b909e2ae80559d765d9392600bdb39662932ab607c0b8f4b89615bf81c184ba5",
+      "bytes": 183597
+    },
+    {
+      "path": "app/assets/orange/cards/7240088.png",
+      "sha256": "438a760a441aacf22d5b03bfcf5890d2d7614f4cc2a29ca22fc3e03525accd60",
+      "bytes": 197055
+    },
+    {
+      "path": "app/assets/orange/cards/7240089.png",
+      "sha256": "98c059b48269c7266e7417b59ec5d070b83dec8002373da5a0200b1252d97bda",
+      "bytes": 208565
+    },
+    {
+      "path": "app/assets/orange/cards/7240090.png",
+      "sha256": "b976c83b442c6608f33d4204a5f97a41db9f409da1f9e1effb8943869cd40722",
+      "bytes": 202141
+    },
+    {
+      "path": "app/assets/orange/cards/7240091.png",
+      "sha256": "8a6d3461f79e8f4db4d4eaa8fcc29bc9c347544201fd5e8dbc0b8164c45ea565",
+      "bytes": 207091
+    },
+    {
+      "path": "app/assets/orange/cards/7240092.png",
+      "sha256": "366f479e1126719f759fc66f13cd56b3fdeacd64a25bd8d4ea1c8b3783731afc",
+      "bytes": 217258
+    },
+    {
+      "path": "app/assets/orange/cards/7240093.png",
+      "sha256": "b04ea2bc3310ca14007e01ba91568d78b8b16fabb5ec0694d1d431d69e164699",
+      "bytes": 203857
+    },
+    {
+      "path": "app/assets/orange/cards/7240094.png",
+      "sha256": "b1912336b2a9e0000f60aeeae4674d0a78ccd567dafa95f35f51402837b1f01c",
+      "bytes": 230209
+    },
+    {
+      "path": "app/assets/orange/cards/7240095.png",
+      "sha256": "4b4970507b47b29839a4e389adbc5825a1c67d4f47b712a224f142e73985bff7",
+      "bytes": 216691
+    },
+    {
+      "path": "app/assets/orange/cards/7240096.png",
+      "sha256": "8e2a927a71d7937ca3fc65ff1f43689c77316ead92ce945bcf4c5283fcc1e898",
+      "bytes": 202634
+    },
+    {
+      "path": "app/assets/orange/cards/7240097.png",
+      "sha256": "29c1d3bc7996049fb1fced65872b1b54813f96f97218273525a417aa51ab9de2",
+      "bytes": 208471
+    },
+    {
+      "path": "app/assets/orange/cards/7250010.png",
+      "sha256": "af03a50c0e9b90e0a15922bd2a8493b83ae9b6767ad0569b5aa2c9724184f5d4",
+      "bytes": 214263
+    },
+    {
+      "path": "app/assets/orange/cards/7250011.png",
+      "sha256": "699a3c0e15d9ceb18d59872c5c5554a8efbe5b136b27605784ff74281e58071d",
+      "bytes": 204620
+    },
+    {
+      "path": "app/assets/orange/cards/7250012.png",
+      "sha256": "9000a90b4e895ba68b64b8c0f190268a77ebbe0edf92fe8742944c6ba2c4cce0",
+      "bytes": 205886
+    },
+    {
+      "path": "app/assets/orange/cards/7250013.png",
+      "sha256": "a024352e0b7d609976647755674318aef9fcdd82ff761edcbfff37014e59a561",
+      "bytes": 201776
+    },
+    {
+      "path": "app/assets/orange/cards/7250014.png",
+      "sha256": "dddd259680ae7ebe6936a379ce17efa05a9bbd0f3db1ea9517fda8cbfe8470f2",
+      "bytes": 196345
+    },
+    {
+      "path": "app/assets/orange/cards/7250015.png",
+      "sha256": "8ca56bb88c8e5fc92b6cc4ce87ffe52707c0d5fa17b0e20e9055de716d7f16b8",
+      "bytes": 205749
+    },
+    {
+      "path": "app/assets/orange/cards/7250016.png",
+      "sha256": "3c712907a1d4df71d372a88f99908345c5deee53657e741d9d2cd5d5bd239bb3",
+      "bytes": 194242
+    },
+    {
+      "path": "app/assets/orange/cards/7250017.png",
+      "sha256": "d68cd9b2195779fc2634f9ae2eebc6907eef39823d9d9a9c2955effe2cad3432",
+      "bytes": 211558
+    },
+    {
+      "path": "app/assets/orange/cards/7250018.png",
+      "sha256": "66343ef81985ddfdfd6638db0aa0c7106ab16b184de3751e24a2a807dae498da",
+      "bytes": 203701
+    },
+    {
+      "path": "app/assets/orange/cards/7250019.png",
+      "sha256": "101628485b9549c7882025ee81bf29d1d4298e1f16024532b2c5defc33b5204b",
+      "bytes": 223511
+    },
+    {
+      "path": "app/assets/orange/cards/7250020.png",
+      "sha256": "06410ea073e0a0536c0724ca9d0497b5502a39160eb0764e573d79ecb666ccdc",
+      "bytes": 190161
+    },
+    {
+      "path": "app/assets/orange/cards/7250021.png",
+      "sha256": "e11763b6e60e2b52f4a0cf785aad6f6bdaaba4793bb9a7bf405fe72174867fc8",
+      "bytes": 192411
+    },
+    {
+      "path": "app/assets/orange/cards/7250022.png",
+      "sha256": "4e837e0eedad1d2138416eb7f333786f151caa502d193da76c42ac2d9c5cf1a6",
+      "bytes": 201337
+    },
+    {
+      "path": "app/assets/orange/cards/7250023.png",
+      "sha256": "a4c36e5538648ca8cc762b87fd9bf2e1dd6bbf227ef1517d9c57f14d6acb55b4",
+      "bytes": 198660
+    },
+    {
+      "path": "app/assets/orange/cards/7250025.png",
+      "sha256": "0fad848924c03a79a83a0447bdc1babc32863b1b21c44e2c84f6b67ee7126c01",
+      "bytes": 191312
+    },
+    {
+      "path": "app/assets/orange/cards/7250026.png",
+      "sha256": "4eb4589dd698c9178eff7eb4efa815a36e2a19da03c1992681f47445d1bead82",
+      "bytes": 216042
+    },
+    {
+      "path": "app/assets/orange/cards/7250029.png",
+      "sha256": "a2645fe2c48b1d21f36c0222c0676ecb348edafbd680a9282957c9ab57243983",
+      "bytes": 230800
+    },
+    {
+      "path": "app/assets/orange/cards/7250031.png",
+      "sha256": "ce6629e47d9e7f9626247e3574880515837634363953702f4a103bdd30392699",
+      "bytes": 208976
+    },
+    {
+      "path": "app/assets/orange/cards/7250034.png",
+      "sha256": "a30c7bb5b550e227c6d3d29f62814629c88fc3394d059f7ff4c9c995364276ab",
+      "bytes": 225119
+    },
+    {
+      "path": "app/assets/orange/cards/7250035.png",
+      "sha256": "7a8334a4c4331144836fcda3bb178ccd7a3b0f5c1eac5d0659ad7522e7156f55",
+      "bytes": 211934
+    },
+    {
+      "path": "app/assets/orange/cards/7250036.png",
+      "sha256": "efaeb23e764c43bbfddfba5005789efe21c3eb1b52f590301ca24f36a9d003a8",
+      "bytes": 231900
+    },
+    {
+      "path": "app/assets/orange/cards/7250037.png",
+      "sha256": "f957ba3d45a48def21691f306068a46537835b79319e9f93baf27e3ad2844525",
+      "bytes": 184097
+    },
+    {
+      "path": "app/assets/orange/cards/7250039.png",
+      "sha256": "c9dcc43a174a29e2828a245ff380fd3b0f89aea4d98f45c458831325f6ae5f95",
+      "bytes": 224451
+    },
+    {
+      "path": "app/assets/orange/cards/7250040.png",
+      "sha256": "3c725e07342598a2c3dee4769eda5b2d79930bbcdabb3b7aa3eed1136bae6e57",
+      "bytes": 213713
+    },
+    {
+      "path": "app/assets/orange/cards/7250041.png",
+      "sha256": "049db68b38491579bf38a9dd0cf847fc24e46c0e2ed58ca468e99bc34cde6cdf",
+      "bytes": 209700
+    },
+    {
+      "path": "app/assets/orange/cards/7250042.png",
+      "sha256": "8bf36827945a8a76011972229854ddd32c7a37fcc6e0be1051d45ca5386566da",
+      "bytes": 243468
+    },
+    {
+      "path": "app/assets/orange/cards/7250044.png",
+      "sha256": "cfef9d7439958047dbe786b2243f4ff626372eb64359df4140ab6e3ed3a241b6",
+      "bytes": 231437
+    },
+    {
+      "path": "app/assets/orange/cards/7250045.png",
+      "sha256": "f61fda643bcb48c8a3b9a3ded4a2a2a2168582b9558abc51241525f88b4482bc",
+      "bytes": 220353
+    },
+    {
+      "path": "app/assets/orange/cards/7250046.png",
+      "sha256": "06554fde0c279e2ad10548830c385191203b64a4f636aeedb4e8cf82b85ac25f",
+      "bytes": 216577
+    },
+    {
+      "path": "app/assets/orange/cards/7250047.png",
+      "sha256": "581b469cbd63cef22170ea8cd7084efaf62bda5192a13daa4af500dfb226a3ae",
+      "bytes": 222103
+    },
+    {
+      "path": "app/assets/orange/cards/7250048.png",
+      "sha256": "ad6a08756a54d422bbf3a1d2f9d7b4bf83a2a20e53a36478b2e8d5ec30391dd7",
+      "bytes": 210872
+    },
+    {
+      "path": "app/assets/orange/cards/7250049.png",
+      "sha256": "2a859d234b5e55b9e5748f0d4c3b456e179af7a22ead08e3d6a7feb8f008c6f0",
+      "bytes": 227653
+    },
+    {
+      "path": "app/assets/orange/cards/7250050.png",
+      "sha256": "f0fc2845e2b67a5e275d0a1263c414282fb10fa20ef681e21ffe857482b94798",
+      "bytes": 215620
+    },
+    {
+      "path": "app/assets/orange/cards/7250051.png",
+      "sha256": "14c20e8943a862d586d7b85184fef1c3790a88f7cb2ebdfbc660126444d6fab6",
+      "bytes": 247380
+    },
+    {
+      "path": "app/assets/orange/cards/7250052.png",
+      "sha256": "f2306b07508dc9ba284a36b60ec9557e7753029f8bbf4d2dc4e8c6cd877fdbcc",
+      "bytes": 218850
+    },
+    {
+      "path": "app/assets/orange/cards/7250056.png",
+      "sha256": "820ddd7297e3367075193ef6cef63abdeb6cdc9d4235e31275e60c3f5f71855d",
+      "bytes": 224147
+    },
+    {
+      "path": "app/assets/orange/cards/7250059.png",
+      "sha256": "09580f996dd0489e325f33d772c56bec79b22ba3cde0370399ce0b8398f132f0",
+      "bytes": 212181
+    },
+    {
+      "path": "app/assets/orange/cards/7250060.png",
+      "sha256": "500476b0f168881aca1773c3f7f6438961d68eb2988e162d5cadc0ea56fb1aad",
+      "bytes": 208599
+    },
+    {
+      "path": "app/assets/orange/cards/7250061.png",
+      "sha256": "fc9807a1607063a51ea1dace0ac77502e91e6ed36e56bb5c78547e3397a801c1",
+      "bytes": 197149
+    },
+    {
+      "path": "app/assets/orange/cards/7250068.png",
+      "sha256": "a2da198acb6af9035daf28a35e577695dc305e28335d38deff323d1883a920dc",
+      "bytes": 226866
+    },
+    {
+      "path": "app/assets/orange/cards/7250069.png",
+      "sha256": "e2fc332b743304767475d15016d753eebd07d5825db055a9e8bb20cd29020c29",
+      "bytes": 215313
+    },
+    {
+      "path": "app/assets/orange/cards/7250071.png",
+      "sha256": "8247df4ef2dcee7a4d835432db54a81747f662b5a953f012cbfdf607c83ca07e",
+      "bytes": 216743
+    },
+    {
+      "path": "app/assets/orange/heros/11400.png",
+      "sha256": "075da9cef264f787e9e902255ba0fcbb5d4c0acb35ee545493608391b1dbcde5",
+      "bytes": 26807
+    },
+    {
+      "path": "app/assets/orange/heros/11401.png",
+      "sha256": "a20e730f96b356f17771f68d07b27a3190f5253aa021eb277e4aa304c63f72ae",
+      "bytes": 24981
+    },
+    {
+      "path": "app/assets/orange/heros/11402.png",
+      "sha256": "69e8cb3ee7727c52d16d52802bb561aaa0865ae176e97e0abb6e066aa06f0ea4",
+      "bytes": 21823
+    },
+    {
+      "path": "app/assets/orange/heros/11403.png",
+      "sha256": "003a81b8c46e72d3c523885a7c6e6c8921117e1960969d88bb66128b0816032f",
+      "bytes": 25866
+    },
+    {
+      "path": "app/assets/orange/heros/11404.png",
+      "sha256": "161ce75a721a2ac8a54c570e1022f40bbd6a2358229b6208cf935425c20e9c36",
+      "bytes": 26224
+    },
+    {
+      "path": "app/assets/orange/heros/11405.png",
+      "sha256": "7be2872e802498adec0b0189824ec1ba7821fab286815d21e82f5463f28bba11",
+      "bytes": 26372
+    },
+    {
+      "path": "app/assets/orange/heros/11406.png",
+      "sha256": "c01a76f651d997e99dada5a7332f558ccca3ddb19ab7ef1a4be9d31f0857026f",
+      "bytes": 23212
+    },
+    {
+      "path": "app/assets/orange/heros/11407.png",
+      "sha256": "46277f6e050d4cb6caf35e8b7857ddf5c1326648a1b7beecf4a490e2270ee536",
+      "bytes": 22322
+    },
+    {
+      "path": "app/assets/orange/heros/11408.png",
+      "sha256": "f8ac057081d18dd7865cad1e6b3d1367611d1d65b1b982ea6b23887268e1e43a",
+      "bytes": 24996
+    },
+    {
+      "path": "app/assets/orange/heros/11409.png",
+      "sha256": "e72350924f50e40cd7209afd561db1822090d5368e338b7e439f093dea5bd63b",
+      "bytes": 17896
+    },
+    {
+      "path": "app/assets/orange/heros/11410.png",
+      "sha256": "d3081a2c87a1e1cc7e6c1099e1dd5b164e66ebc0a839789320e30975808881c8",
+      "bytes": 24236
+    },
+    {
+      "path": "app/assets/orange/heros/11411.png",
+      "sha256": "2745e243d2a717829107ce125cdaaaec5f5521efe7d81c7ce92f608bd93e70a3",
+      "bytes": 25747
+    },
+    {
+      "path": "app/assets/orange/heros/11412.png",
+      "sha256": "620c8e83a7fca62396961ac98d8865f6895ab2c05fddf8605e525bef8d96dbf2",
+      "bytes": 22830
+    },
+    {
+      "path": "app/assets/orange/heros/11413.png",
+      "sha256": "9d82525dc8c7d41ed45cbc63dbe72a3ef0c6e0468d44e14e305f5931dc759bb0",
+      "bytes": 24226
+    },
+    {
+      "path": "app/assets/orange/heros/12400.png",
+      "sha256": "ff267a356ef936e966b836377a67e12447386bd40ff47558471e260a5c424779",
+      "bytes": 23001
+    },
+    {
+      "path": "app/assets/orange/heros/12401.png",
+      "sha256": "5e44e40539dcdeced17f1c93fc681af89284dc8241a8ad6d2e9f8d39baccb9e7",
+      "bytes": 21996
+    },
+    {
+      "path": "app/assets/orange/heros/12402.png",
+      "sha256": "3fa974c1c335925bfe8e187111ee931fe09f17464e71faad8c2cf75ef935204b",
+      "bytes": 24159
+    },
+    {
+      "path": "app/assets/orange/heros/12403.png",
+      "sha256": "5edb9414e17f053422883d8ed65e932b82c3efe1deb333a3e5e44d1e1012ee33",
+      "bytes": 22300
+    },
+    {
+      "path": "app/assets/orange/heros/12404.png",
+      "sha256": "3ff1bd098a6b61683c68f3c79aafa7dd58cc5f4f2be3e111c452fe6efdb5a6c3",
+      "bytes": 24079
+    },
+    {
+      "path": "app/assets/orange/heros/12405.png",
+      "sha256": "1555c9bb792d51f70e3dfd22557c8baf5c99e6a2d6a02930ac94e503b8aa44bd",
+      "bytes": 26328
+    },
+    {
+      "path": "app/assets/orange/heros/12406.png",
+      "sha256": "584406356db2e33bc85a8cce91c8796b0a4fc792563bf9fd7b2ba9d6a0db1596",
+      "bytes": 25694
+    },
+    {
+      "path": "app/assets/orange/heros/12407.png",
+      "sha256": "1c82fbe5b4a0dc0dfaa7dfb62a704c7e9e22dd2cd9c46df3126ccd3b1cb7978f",
+      "bytes": 25591
+    },
+    {
+      "path": "app/assets/orange/heros/12408.png",
+      "sha256": "52cc0158ba4d92ded62af768da4245a9c180a179083af1d86c7bede5ea857668",
+      "bytes": 21122
+    },
+    {
+      "path": "app/assets/orange/heros/12409.png",
+      "sha256": "bd20f243271541d76f1e3f098baf885bc9cfda4d4e0d1437467d848da243f089",
+      "bytes": 24181
+    },
+    {
+      "path": "app/assets/orange/heros/12410.png",
+      "sha256": "254004f8951b6c64414f26dcdf681d52867c6e6af0384507af39e495a258970c",
+      "bytes": 23417
+    },
+    {
+      "path": "app/assets/orange/heros/12411.png",
+      "sha256": "6e789b6a508f31387d6eb2b3a740ff68acfaae98ac0432d135424e5582429de2",
+      "bytes": 25452
+    },
+    {
+      "path": "app/assets/orange/heros/12412.png",
+      "sha256": "61fd793f0002e5a99571b27d26f82f98833943c0267d88a24b58cbb03a4a91ba",
+      "bytes": 22910
+    },
+    {
+      "path": "app/assets/orange/heros/12413.png",
+      "sha256": "dd2dac1ffe9fd8a211147af18e1fd5eb1de01bd3ef9b1b0360e718f89b0805f1",
+      "bytes": 27747
+    },
+    {
+      "path": "app/assets/orange/heros/12414.png",
+      "sha256": "ed3103c8d9fe35c5dae21d323e7d0c70e2695157745d1c6475d6c2b72255bbda",
+      "bytes": 27098
+    },
+    {
+      "path": "app/assets/orange/heros/12415.png",
+      "sha256": "728b7b2b8fb67725fe44a5270bafc9372bcc0de7013ab47aa2a0a8a5d3ce67ee",
+      "bytes": 25112
+    },
+    {
+      "path": "app/assets/orange/heros/12416.png",
+      "sha256": "1af58bf1cf69df4b0d57a34a0b97a59e1f3a259309b1d095cecb9be96832d332",
+      "bytes": 26385
+    },
+    {
+      "path": "app/assets/orange/heros/12417.png",
+      "sha256": "ae04be10e3dbbe63a59525112d646828b65018ab60f5c0dbe78857dc5eca4f85",
+      "bytes": 23155
+    },
+    {
+      "path": "app/assets/orange/heros/12420.png",
+      "sha256": "ffbfa96017ee37551feafd2fe28129f0cbf5565f0ac7acfa92a4f74bac6ea695",
+      "bytes": 24904
+    },
+    {
+      "path": "app/assets/orange/heros/12422.png",
+      "sha256": "7559b9a2a71b2afdb490351d1244bcdc383dd61a785aa8c18f3cf73763562283",
+      "bytes": 25986
+    },
+    {
+      "path": "app/assets/orange/heros/13320.png",
+      "sha256": "ab4cb26f262ef4dfbf43bdc2d4725ed4fa003dde3df445c4a487abda64b7cb5f",
+      "bytes": 24261
+    },
+    {
+      "path": "app/assets/orange/heros/13321.png",
+      "sha256": "75aa2acb617cc35f7e584d02c98582bb4fec500f88bf205c6ba90949d92dc2e9",
+      "bytes": 25009
+    },
+    {
+      "path": "app/assets/orange/heros/13322.png",
+      "sha256": "f7fa4c6d81efb0535f10e895d373cac70aa5718c3964a4db5bdcef449dfc5434",
+      "bytes": 23242
+    },
+    {
+      "path": "app/assets/orange/heros/13324.png",
+      "sha256": "1dc82146f662bf70a0f43431a5baedf512699a177bd6ff5ef0360fd5c8812994",
+      "bytes": 23108
+    },
+    {
+      "path": "app/assets/orange/heros/13325.png",
+      "sha256": "6e6555a69782558253c37f234c2818c7dd36410f56a368f4a03e2ad4c04c8eaf",
+      "bytes": 25011
+    },
+    {
+      "path": "app/assets/orange/heros/13326.png",
+      "sha256": "23b664b4fea5d124bd5bebda60388c9c2d2a02763ff38ba0a50c75487f5e50ec",
+      "bytes": 20740
+    },
+    {
+      "path": "app/assets/orange/heros/13327.png",
+      "sha256": "b1c1a7b3dbf045b775027af87e32fc32443a942091110e4d8b098376911f34d9",
+      "bytes": 25941
+    },
+    {
+      "path": "app/assets/orange/heros/13328.png",
+      "sha256": "578b62d9cec16169de845da79dbea2a6b44ab1df2eaf4046fbbfe514b4b8da92",
+      "bytes": 23198
+    },
+    {
+      "path": "app/assets/orange/heros/13329.png",
+      "sha256": "e9e47a184d4db62044b5c1d702e374ad00b6924d038641525e887549bd2e4496",
+      "bytes": 24210
+    },
+    {
+      "path": "app/assets/orange/heros/13330.png",
+      "sha256": "d33773f3c106329dbc69601c96fec34cb1839f161655b1dfc295fd1008fe7555",
+      "bytes": 26623
+    },
+    {
+      "path": "app/assets/orange/heros/13331.png",
+      "sha256": "44be2856e6afc50c124491d936696db95e058e3b992ed7d8e13e30fc3915bd38",
+      "bytes": 23726
+    },
+    {
+      "path": "app/assets/orange/heros/13332.png",
+      "sha256": "eb87fb98d4057c8b57d772428c780ae4cf401a14add23ca811631934723f5efd",
+      "bytes": 26732
+    },
+    {
+      "path": "app/assets/orange/heros/13333.png",
+      "sha256": "5ec0bbefbbf1ce622881260e186bbe3b1cf1d848fff197a88df4b8a9f9a963a2",
+      "bytes": 25743
+    },
+    {
+      "path": "app/assets/orange/heros/13334.png",
+      "sha256": "eb39b12bb23eaa6221d2a91587dd202b796d73b30c3cc2ec7b4abd7290fb63c6",
+      "bytes": 25490
+    },
+    {
+      "path": "app/assets/orange/heros/13335.png",
+      "sha256": "b6a81f7330e9d96dd9446dd52d0f9a9b04d7d89eaca9d1f1467a111eb40e26c4",
+      "bytes": 26189
+    },
+    {
+      "path": "app/assets/orange/heros/13336.png",
+      "sha256": "4219661f007240afa38dfe77f3a1acefe5b7a048088a56c9d8c4a73d74a16fd8",
+      "bytes": 24926
+    },
+    {
+      "path": "app/assets/orange/heros/13337.png",
+      "sha256": "59958a5654358a54657f192188c25e73566f6cf72d8ebcc414928f3ba2087b2a",
+      "bytes": 24545
+    },
+    {
+      "path": "app/assets/orange/heros/13338.png",
+      "sha256": "edc6f75ab2582810827ecce6fedc15e8bde1a32d892ae5e050f177ede8722a52",
+      "bytes": 24311
+    },
+    {
+      "path": "app/assets/orange/heros/13355.png",
+      "sha256": "3aba264a27e762382f7c45c8abe7dc023b492e5159f3769dc95f6442d8b57e09",
+      "bytes": 25061
+    },
+    {
+      "path": "app/assets/orange/heros/13356.png",
+      "sha256": "9c087f7d8a436444a50ffbee2be690b56a43bc087029dd139e0334d8b81f37b1",
+      "bytes": 21075
+    },
+    {
+      "path": "app/assets/orange/heros/13357.png",
+      "sha256": "0446a0452fe31c5b5b078436cc963f82cff086dd81664eed15914bce7121da4b",
+      "bytes": 23018
+    },
+    {
+      "path": "app/assets/orange/heros/13475.png",
+      "sha256": "2ddd1fc5e922ad4b586a30a04482e8dcd7de63920912adc1473ae6e1bbb5246a",
+      "bytes": 22343
+    },
+    {
+      "path": "app/assets/orange/heros/13476.png",
+      "sha256": "201f8a8569e670fb5e6785ef36dd7b152ba843c7cee62f1bba42fb26293610d4",
+      "bytes": 23773
+    },
+    {
+      "path": "app/assets/orange/heros/14330.png",
+      "sha256": "2833034545d051583bc0bb94a74af4956fb8c3fc05e7302f48514e306fe30f27",
+      "bytes": 25864
+    },
+    {
+      "path": "app/assets/orange/heros/14331.png",
+      "sha256": "e233afe0083416c85899ab8e745a4270deaf41d2b3f62934c82ffd00e3ec11f9",
+      "bytes": 26265
+    },
+    {
+      "path": "app/assets/orange/heros/14332.png",
+      "sha256": "fad6eeb277aff8875bd43dabbff5a7ec99e93a3a9ab958b94cf08b372ba3fc0f",
+      "bytes": 24872
+    },
+    {
+      "path": "app/assets/orange/heros/14333.png",
+      "sha256": "a5998e8c4674eda86d4cb529f185b428c2267310bc7bd50db7300481848b2fd5",
+      "bytes": 23369
+    },
+    {
+      "path": "app/assets/orange/heros/14334.png",
+      "sha256": "3e7a9343f24fbf0675f7bdf415f4466b4233facc6efe0489299bd60ddb70190c",
+      "bytes": 22756
+    },
+    {
+      "path": "app/assets/orange/heros/14335.png",
+      "sha256": "d098d874c4ecdd0638ed969aa72eb91995518fb6947ffca0e7316e91f10dc5b5",
+      "bytes": 23096
+    },
+    {
+      "path": "app/assets/orange/heros/14336.png",
+      "sha256": "a67979873c5f07738957507c9b294262b7dad3f84e2ad40a90911f77c43d5edb",
+      "bytes": 20149
+    },
+    {
+      "path": "app/assets/orange/heros/14337.png",
+      "sha256": "1a46883f64b7bfb8021a8547cf657167d50dbf4fd62a289da1f7fbb88d1c39b0",
+      "bytes": 24839
+    },
+    {
+      "path": "app/assets/orange/heros/14338.png",
+      "sha256": "8e27d82d6cc0ecacc7c39f2d2a2bae11ba015616c333b887ff8eb6792b79576a",
+      "bytes": 23189
+    },
+    {
+      "path": "app/assets/orange/heros/14339.png",
+      "sha256": "de98401fea4c2af6a610216f7d5e4d0e8f1b125890cb409e8b104177fc33c7a4",
+      "bytes": 25387
+    },
+    {
+      "path": "app/assets/orange/heros/14340.png",
+      "sha256": "64deeb95a38544c4e676439b14906b0dfcf3da0344b3009c80844b40eb48ba60",
+      "bytes": 21936
+    },
+    {
+      "path": "app/assets/orange/heros/14341.png",
+      "sha256": "740828adb09b0b1e9cd75b0e6444aab9945e10d6c0c9d3e120daea0633a4b31e",
+      "bytes": 25925
+    },
+    {
+      "path": "app/assets/orange/heros/14342.png",
+      "sha256": "c6ebd6b30ec79fb76829656c70f1bbb7db789a1f737c239fa5916647297434e7",
+      "bytes": 23476
+    },
+    {
+      "path": "app/assets/orange/heros/14343.png",
+      "sha256": "17b5b47916393147f01cfe1ab45a8a48007bd2cb7777a88e8332f2f2978601d5",
+      "bytes": 25834
+    },
+    {
+      "path": "app/assets/orange/heros/14344.png",
+      "sha256": "28c0f3929154766d51515e787379f3f99a6ce94f2a671dfbe05becd00988a7a6",
+      "bytes": 22413
+    },
+    {
+      "path": "app/assets/orange/heros/14345.png",
+      "sha256": "cb916ad24e8dc011fe3e1029f54110ea15a827468baad4f1b4080ee848a9f6e4",
+      "bytes": 26104
+    },
+    {
+      "path": "app/assets/orange/heros/14346.png",
+      "sha256": "174b95098a8d3630a50ff26bf11030c8e2dca7a6044e81ee66d890ee90bd6576",
+      "bytes": 23493
+    },
+    {
+      "path": "app/assets/orange/heros/14347.png",
+      "sha256": "31336259e7a6b57d9efcdc8dd3006bf79a254d196efb733008f12d8ba44732ba",
+      "bytes": 23566
+    },
+    {
+      "path": "app/assets/orange/heros/14349.png",
+      "sha256": "a9e3b273eeb8378852bda03c8cfc747c0b9c00e3b26ba8a9a6fdaf2bee01bb9e",
+      "bytes": 24856
+    },
+    {
+      "path": "app/assets/orange/heros/14350.png",
+      "sha256": "011b52106abe32443d70d9d72c6aa748a4f48580fe2c61e718489181171f63e0",
+      "bytes": 24759
+    },
+    {
+      "path": "app/assets/orange/heros/14351.png",
+      "sha256": "301a83d2ecf4a8ad9db8983f075c5ed2fe069d5f62fc6eb45ce89d64380092c0",
+      "bytes": 19369
+    },
+    {
+      "path": "app/assets/orange/heros/14352.png",
+      "sha256": "5d09cdc43e83928f6bd2daf9fc0e7cb744fdf935f3632d0b7bac2682e4906a97",
+      "bytes": 20687
+    },
+    {
+      "path": "app/assets/orange/heros/14353.png",
+      "sha256": "71d7aeb1ab3f61bd837ad8369435ba1f104c3accd3fb3b8909992218bd9ed035",
+      "bytes": 23984
+    },
+    {
+      "path": "app/assets/orange/heros/14354.png",
+      "sha256": "cededd6658725a047967fc7e2a2e94f78a3e1af86cecfa50771122960a8e449c",
+      "bytes": 21482
+    },
+    {
+      "path": "app/assets/orange/heros/14360.png",
+      "sha256": "9bc4cdf93bcc7ea0a9670da2506f3b4ffc3c5b8a9fa6c1de1813b10c624464fb",
+      "bytes": 24094
+    },
+    {
+      "path": "app/assets/orange/heros/14364.png",
+      "sha256": "91c1aefdbad1cce7ab8100b595dc36fb15c59053da2f07fe2cb96e9e2bf90acd",
+      "bytes": 27802
+    },
+    {
+      "path": "app/assets/orange/heros/14366.png",
+      "sha256": "6500f08f017e22ff9e2ec521eea655dbaac24b5261c6ed716f875223e7107497",
+      "bytes": 24441
+    },
+    {
+      "path": "app/assets/orange/heros/14368.png",
+      "sha256": "82e5634944a8dcb27de2bc1791d1edc8b6d64723b9a66c9033a7b8aae3658c50",
+      "bytes": 24367
+    },
+    {
+      "path": "app/assets/orange/heros/14369.png",
+      "sha256": "87d30c7d03d9ec2b3ce612b36d12ca008bac944f0b66e736777122a222416249",
+      "bytes": 26276
+    },
+    {
+      "path": "app/assets/orange/heros/14800.png",
+      "sha256": "8c1e4ca49693fede67b1fe415b498dec4e322a18e9c6e0c6b4ee0af16eef47a8",
+      "bytes": 25794
+    },
+    {
+      "path": "app/assets/orange/heros/15270.png",
+      "sha256": "d2c1e87ee1d9a913b8640acdbef809b9adf2838f8d7762eddb6243b857b7f0bd",
+      "bytes": 27693
+    },
+    {
+      "path": "app/assets/orange/heros/15271.png",
+      "sha256": "22bbf29060afe0c841418956a976fa876f8d8c3d564941e02d1f941b042bf6bc",
+      "bytes": 24989
+    },
+    {
+      "path": "app/assets/orange/heros/15272.png",
+      "sha256": "1261f4315f9b4d256b1e96f386edeafd5ccea79076bff2943fc928f0a88dff0b",
+      "bytes": 23540
+    },
+    {
+      "path": "app/assets/orange/heros/15273.png",
+      "sha256": "7417d655b42ce8b45b16c3c935736c7682c69ddf0f256e7113d0e477fc5f967b",
+      "bytes": 24391
+    },
+    {
+      "path": "app/assets/orange/heros/15274.png",
+      "sha256": "59583a89b0bb72ba7e4d8fbcc14c67a735e206e6c06df1fe5a9da6286e6eec65",
+      "bytes": 24611
+    },
+    {
+      "path": "app/assets/orange/heros/15275.png",
+      "sha256": "6b85168b9a52f9bef113e3ae80506490a626697244221c235a8b1a00387b826c",
+      "bytes": 24492
+    },
+    {
+      "path": "app/assets/orange/heros/15276.png",
+      "sha256": "eb0e7ada7f5379d9e3f073da044eb620cd651bd766726c5f576594a6bb6f7675",
+      "bytes": 23726
+    },
+    {
+      "path": "app/assets/orange/heros/15277.png",
+      "sha256": "8ffd3f1b42b13a8b3ef6084aee574f899c6b2d035f8d118781810547dfa441c5",
+      "bytes": 24116
+    },
+    {
+      "path": "app/assets/orange/heros/15278.png",
+      "sha256": "82b5e5ae9a0ecd192a7000b11ab4e9a2a1027d15574e6d3501a938f0c7ecbb51",
+      "bytes": 22509
+    },
+    {
+      "path": "app/assets/orange/heros/15279.png",
+      "sha256": "122a58b4f5827166e2ad3eb35c7b864d88879f25560fcc625d8c8e3b82008bbc",
+      "bytes": 24541
+    },
+    {
+      "path": "app/assets/orange/heros/15280.png",
+      "sha256": "040d28e5dc6055b538547fa6092188b4118e88f4a4e32055c559662f713a8ef0",
+      "bytes": 21671
+    },
+    {
+      "path": "app/assets/orange/heros/15281.png",
+      "sha256": "8991678a0d7eaffc2e4703780da72ddf37535aa1ce18390cca6715815fa31398",
+      "bytes": 24660
+    },
+    {
+      "path": "app/assets/orange/heros/15282.png",
+      "sha256": "2be79cc33d440300d6ce4633c4115974629e4042de1478dc954facf16553a985",
+      "bytes": 24534
+    },
+    {
+      "path": "app/assets/orange/heros/15284.png",
+      "sha256": "d2dbdc1faac63c967da278832077324dce003530017e22544f8054a9a138dd67",
+      "bytes": 16516
+    },
+    {
+      "path": "app/assets/orange/heros/15285.png",
+      "sha256": "09c4da545692e83d61936a81687a876d38aba2b0e9c4a62c71638b9256335f95",
+      "bytes": 22712
+    },
+    {
+      "path": "app/assets/orange/heros/15287.png",
+      "sha256": "fd774b59dcbdc92bc71ef00754490d3cfad0dc705d922674b1c9bee74f218943",
+      "bytes": 24522
+    },
+    {
+      "path": "app/assets/orange/heros/15288.png",
+      "sha256": "4855d7dcc263a48bdb3a8fa92ddf285469c086d8ddd4972b74017105dbebe83f",
+      "bytes": 24775
+    },
+    {
+      "path": "app/assets/orange/heros/15289.png",
+      "sha256": "2085c951dcff3c0c092b80ca5f77e8ebe2f287ff274eb7051e46072ade90ef0a",
+      "bytes": 28597
+    },
+    {
+      "path": "app/assets/orange/heros/15290.png",
+      "sha256": "5cb2ed1768db004131f7fcb79f776ee55b4bc2df3e19f6f6db840241aa33c020",
+      "bytes": 19948
+    },
+    {
+      "path": "app/assets/orange/heros/15291.png",
+      "sha256": "ba5acbd79bd02abf75ee6df838b8c8ef4bea8c2e6be684dd267606f19385fc18",
+      "bytes": 25402
+    },
+    {
+      "path": "app/assets/orange/heros/15292.png",
+      "sha256": "034580354543f9cfedc104451a5dd894e1b1a358a82544582304016d60f0bb42",
+      "bytes": 24099
+    },
+    {
+      "path": "app/assets/orange/heros/15296.png",
+      "sha256": "4ce3e67acc7904c728587910875aef7ae6eadcb201e8fc9342802b5a4dd94d3c",
+      "bytes": 21417
+    },
+    {
+      "path": "app/assets/orange/heros/15304.png",
+      "sha256": "56338660e90a223892099861bbe8aaa8790b7caf47f92462d86a04bd93a96e33",
+      "bytes": 24809
+    },
+    {
+      "path": "app/assets/orange/heros/15396.png",
+      "sha256": "5b002b57cbde55ed6e2fbc0505fc32c56248d158784cfb23580470b9b15e3006",
+      "bytes": 22331
+    },
+    {
+      "path": "app/assets/orange/heros/15397.png",
+      "sha256": "b6f1ff09b0fae8a4b6d76339704fd59c438ae5a69256c606034a24fa809fcbb0",
+      "bytes": 24714
+    },
+    {
+      "path": "app/assets/orange/heros/15398.png",
+      "sha256": "b6f1ff09b0fae8a4b6d76339704fd59c438ae5a69256c606034a24fa809fcbb0",
+      "bytes": 24714
+    },
+    {
+      "path": "app/assets/orange/heros/15400.png",
+      "sha256": "e018732633e8e5b52643a7cef2a767564a6b51550e12364dbd95f258577206d1",
+      "bytes": 22024
+    },
+    {
+      "path": "app/assets/orange/heros/15401.png",
+      "sha256": "9d83cba000842833f1d7a80ece3ad5bd1ab15231a706cd5008eb2fb9423eb291",
+      "bytes": 21743
+    },
+    {
+      "path": "app/assets/orange/heros/15402.png",
+      "sha256": "0390240403398a3bebe1d80856ec5e1288c1327801803a77cfca63ac8d24e24a",
+      "bytes": 23574
+    },
+    {
+      "path": "app/assets/orange/heros/15403.png",
+      "sha256": "b6c9ba2d283bddd668a92f859b2ac4f154a38c5f546409b468d7ef52edb193fb",
+      "bytes": 24647
+    },
+    {
+      "path": "app/assets/orange/heros/15404.png",
+      "sha256": "2e032d4f900c990e978af3b623bb066921650793b77d92f385653050aff7cc38",
+      "bytes": 8582
+    },
+    {
+      "path": "app/assets/orange/heros/15405.png",
+      "sha256": "483e01bb0de2913488d7b8a862b1886e0be073d7810b267aaf0745fc3278ccba",
+      "bytes": 10580
+    },
+    {
+      "path": "app/assets/orange/heros/15410.png",
+      "sha256": "d81a48f270218f171d0d0deb2f7eedaf4e7aa43d2c6e219d6582262aee08bdb4",
+      "bytes": 27192
+    },
+    {
+      "path": "app/assets/orange/heros/15412.png",
+      "sha256": "c944d8881b15dbaf21886eabcbc394c51798e3ac5ce4f2d60669b9de537b828e",
+      "bytes": 24519
+    },
+    {
+      "path": "app/assets/orange/heros/15413.png",
+      "sha256": "8ddaf5291a141ae26b55229bc5d79403d6d42b5ef7fc2e6a56efa36f2e7faecf",
+      "bytes": 25160
+    },
+    {
+      "path": "app/assets/orange/heros/18336.png",
+      "sha256": "383af92a8daeeb5ff1aedcc9a0a90d47c5129ef7d1bc50b60f2e6b731725d693",
+      "bytes": 23770
+    },
+    {
+      "path": "app/assets/orange/heros/18354.png",
+      "sha256": "a490f12c6f2fde46a73952994d575dcb0a28322c513e1cc72c987f25fe78b7a7",
+      "bytes": 23760
+    },
+    {
+      "path": "app/card_tier_model.py",
+      "sha256": "f9e51e14fd1560214ab2e7026673f2d956c564bc793015466448ab0fa6851c4f",
+      "bytes": 5990
+    },
+    {
+      "path": "app/card_title_reader.py",
+      "sha256": "c72a6d18954d4189fa7776d66b9a37fce3b59f32d2836c75c8982f5fd875479d",
+      "bytes": 16221
+    },
+    {
+      "path": "app/data/nature_facts.json",
+      "sha256": "3211d551a0eb71c031580cc1ba6926a7df06610a53e69499f9a3370a40c1c449",
+      "bytes": 1493377
+    },
+    {
+      "path": "app/data/orange_base_facts.json",
+      "sha256": "610dd1dfd468c023b86071ffef2074ffbc0a8322b4442921062868c0a1938272",
+      "bytes": 1193748
+    },
+    {
+      "path": "app/data/orange_official_facts.json",
+      "sha256": "96ece31c509946bed0828aa0f6789ab1cd185f453fd9613879950b66f3aafe41",
+      "bytes": 138345
+    },
+    {
+      "path": "app/data/orange_research.json",
+      "sha256": "08715ad7ce8c6087b2589cbfdc6cefa6fba4325140271e27b07c84f3c9b875d3",
+      "bytes": 16755
+    },
+    {
+      "path": "app/data/patch_watch.json",
+      "sha256": "96855995695ddf3ca6f46e2ca0df470cac4e4c879f813e8d03d67fb497d6f030",
+      "bytes": 1047
+    },
+    {
+      "path": "app/data/statistics_external.json",
+      "sha256": "1dd8d340eba8378a458e12b13519f0717fc70796050f1d1f0a51e34fbb7c3d2f",
+      "bytes": 835104
+    },
+    {
+      "path": "app/engine.py",
+      "sha256": "65419dac8ef5d7440f64c3781612ec390ea31279596b09046710825fc19c7a6d",
+      "bytes": 40018
+    },
+    {
+      "path": "app/field_model.py",
+      "sha256": "4d7631f2f2e6f1643f8a2a4c9fa7278eba90e4f9c6ca7e0416422d4475b49eb3",
+      "bytes": 10654
+    },
+    {
+      "path": "app/hud.py",
+      "sha256": "f47c7908b7268348b1d963b009ef493d80ed7a2f11265e7a4c48afa93b38eedd",
+      "bytes": 6399
+    },
+    {
+      "path": "app/main.py",
+      "sha256": "92bc5f70c2227a085bc32531257def70b387938653d91fdf64161dba6c4e40af",
+      "bytes": 16371
+    },
+    {
+      "path": "app/models.py",
+      "sha256": "a79111c3ee821eb6aade612d302e639d944d63e6196674aa78088cfc13c66ee0",
+      "bytes": 2502
+    },
+    {
+      "path": "app/ocr_backend.py",
+      "sha256": "19225812297a6f37b61833cb4dd904ee58c255acfa37ddc41b2d28090d7f2b3d",
+      "bytes": 10847
+    },
+    {
+      "path": "app/probability.py",
+      "sha256": "ee57f96a3cfa92bc22652de1649c86da790ac987605060ebe82e523771f5109c",
+      "bytes": 14090
+    },
+    {
+      "path": "app/recognition_feedback.py",
+      "sha256": "ad4583a3045869e6b0e284693759b383ccbaaebcd8ea37866f08c007aca67273",
+      "bytes": 7167
+    },
+    {
+      "path": "app/static/app.js",
+      "sha256": "c67101fa28b9d1649a4b0ac4db7995fa7328afa28048f17d45231691c20b7aed",
+      "bytes": 62820
+    },
+    {
+      "path": "app/static/index.html",
+      "sha256": "a8448e06b78d8c12e22922640b36649c6d0921bfa9db3b0fe29463d29af7ac07",
+      "bytes": 18280
+    },
+    {
+      "path": "app/static/styles.css",
+      "sha256": "918b59f7404267ef03310d7be3fc16a3a4bfbc569288e096490275e7c2e35b01",
+      "bytes": 28726
+    },
+    {
+      "path": "app/storage.py",
+      "sha256": "9de6877e5724c7cfebfc1d2ad04a098ffbd9ee2a6ceed7e9c2d946004931a197",
+      "bytes": 11602
+    },
+    {
+      "path": "app/tablet_access.py",
+      "sha256": "e75f48ab43dd7e613c1f8221ba45e09975fb7e2274a51fd353da8adce1870bed",
+      "bytes": 3411
+    },
+    {
+      "path": "app/vision.py",
+      "sha256": "3322fb5c0b804a81652f92b577f423f55436230b7f23fa90857b16aa5288f8cb",
+      "bytes": 47645
+    },
+    {
+      "path": "requirements-ocr.lock.txt",
+      "sha256": "83f01fbca5851f5c15fc530c26bb8ba7b7926d5d910fbf2dd30a2ce24c88a788",
+      "bytes": 415
+    },
+    {
+      "path": "requirements-ocr.txt",
+      "sha256": "d2218263f79a8eacb8b32a53aa0ded32f5be94c6039c3de54a276c81a8b53c5b",
+      "bytes": 118
+    },
+    {
+      "path": "requirements-tablet.txt",
+      "sha256": "4f014dad9f3d766038b95d220f3afa8235e8b6adff9aa872f42e1cff4c80e8a2",
+      "bytes": 72
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "4d5e5e72cdd93f5327e2346c2a3f1cc561d78781ac65a09d9c210d0f04518e90",
+      "bytes": 297
+    },
+    {
+      "path": "run-tablet.sh",
+      "sha256": "db571354bea442c7b1e7d4fc383c5a6adadfd658a9e4a28b7c709631c7113d1e",
+      "bytes": 204
+    },
+    {
+      "path": "run.sh",
+      "sha256": "73dedba2c3018c3023985a91cad1d79bb2c71cc51e6930df772d1d20580f2139",
+      "bytes": 262
+    },
+    {
+      "path": "scripts/build_expanded_report.py",
+      "sha256": "605adb8f4ea06536c02180d83359e7fa333f15c0a17b430ef684942c11b5380d",
+      "bytes": 31458
+    },
+    {
+      "path": "scripts/build_round3_report.py",
+      "sha256": "e5f1995330c4a0ffaab311663f32d0f982bd2beb0b48fcd9376ef927de5ac59f",
+      "bytes": 24266
+    },
+    {
+      "path": "scripts/download_assets.py",
+      "sha256": "b8865688a7bfed589924fd04fd9b049fec6901b029905a142ce686d67d76684d",
+      "bytes": 7936
+    },
+    {
+      "path": "scripts/evaluate_expanded.py",
+      "sha256": "0661d907ccdff2308f866586c77e48f42391128af8610a14593cf6cbc795c1f0",
+      "bytes": 4387
+    },
+    {
+      "path": "scripts/evaluate_screenshots.py",
+      "sha256": "8bb32b45d21ffd9b46035e98f4f80c6f90dabe2c2b3dde3e66ebdff6f0b9ca90",
+      "bytes": 31951
+    },
+    {
+      "path": "scripts/fetch_validation_samples.py",
+      "sha256": "41847266c5146ba74536cf4df761cc005111f4af11e3719c1ec5e7eaf3eeee20",
+      "bytes": 2529
+    },
+    {
+      "path": "scripts/install_ocr.sh",
+      "sha256": "8d11c29dc855e51be5e06e8a34d274c04c9aedd47dfe8248433e1bdeeb4b6b30",
+      "bytes": 266
+    },
+    {
+      "path": "scripts/reproduce_field_experiment.py",
+      "sha256": "b0f5e69eccab5c9582b2374227ac5a287bb2ab6f43ca7818c81ad2487e4dfb86",
+      "bytes": 2226
+    },
+    {
+      "path": "scripts/tablet_server.py",
+      "sha256": "85897843f7cbf36cfc0ffd10e6ebf21c01225fd18f47aeea19dba9bdd7b4d081",
+      "bytes": 3216
+    },
+    {
+      "path": "scripts/train_card_tier.py",
+      "sha256": "3231afb819e6f646f83f6b1210ca8909ded4e3fed0783a31b0ee89e6cd4893b9",
+      "bytes": 9025
+    },
+    {
+      "path": "scripts/train_field_model.py",
+      "sha256": "2362d7250719925a3bd13c55d1963594409d1476552a13917dc921b9a908fbad",
+      "bytes": 27014
+    },
+    {
+      "path": "tests/test_api.py",
+      "sha256": "2dd220ff5378959186d82411a9e13b6c0f8356de4181e80d20c4c58a7e12676f",
+      "bytes": 5064
+    },
+    {
+      "path": "tests/test_card_profile_guard.py",
+      "sha256": "35d1b5cef7f91d55acd25195e378b47462031b53b1ae7a02f8a5666f7554946c",
+      "bytes": 1052
+    },
+    {
+      "path": "tests/test_card_tier_model.py",
+      "sha256": "ed7750321793b2cab076c5d8571be8f2da9180f73eb2df9e2f0ddff04e07d990",
+      "bytes": 2114
+    },
+    {
+      "path": "tests/test_card_title_reader.py",
+      "sha256": "4b2d44c7e8fa09a6d8a0b5f3feb4c2f69d9a17ecec777b6eb40c489eca1746a9",
+      "bytes": 4963
+    },
+    {
+      "path": "tests/test_engine.py",
+      "sha256": "7a8eb81ff0b36dadc511605b41c0eafaada15bb512cc81e0b358b65a1719ff46",
+      "bytes": 11365
+    },
+    {
+      "path": "tests/test_expanded_vision.py",
+      "sha256": "4ee0e295991234c4aed9aff30f9b13a0b715714124bdd5423edd7f13a2e07634",
+      "bytes": 2906
+    },
+    {
+      "path": "tests/test_field_model.py",
+      "sha256": "39f316b98f34675be94ef092b5df9806c4abac055ba9d893633a40165f89dfc4",
+      "bytes": 9764
+    },
+    {
+      "path": "tests/test_mobile_hud.py",
+      "sha256": "1694f61d72d377baa4dffc9ee945ea3e49cf97fb459e486999fdb12e300ec5b1",
+      "bytes": 2201
+    },
+    {
+      "path": "tests/test_ocr_backend.py",
+      "sha256": "775381562f661efb9f42696e5d3c46d9b000ca31825f4ad95915618ca1970dab",
+      "bytes": 1353
+    },
+    {
+      "path": "tests/test_probability.py",
+      "sha256": "916d3680907bb13887af3461f1d7b51e94395f080992a71e605946205f64de24",
+      "bytes": 2743
+    },
+    {
+      "path": "tests/test_real_ui_guards.py",
+      "sha256": "4cd048cf45a1bbbe2ee2818895f9a0fc1725467a031251e93aec0521f868ad18",
+      "bytes": 3110
+    },
+    {
+      "path": "tests/test_recognition_annotation_protocol.py",
+      "sha256": "4fa035bf45ee373b10b6f20858c4c98c4f014f1fa4707cf8d6885f1ec9867150",
+      "bytes": 3337
+    },
+    {
+      "path": "tests/test_recognition_annotations_api.py",
+      "sha256": "e55f3f256ba94f0c83201b4b184580835dec76d7a2f5a23cfa4e77d92e1d2122",
+      "bytes": 3561
+    },
+    {
+      "path": "tests/test_recognition_feedback.py",
+      "sha256": "3404d88f9f7e6ea820d70740cefab7e6e3ebe610dc1c1e07a48c6caa2db75bbd",
+      "bytes": 14511
+    },
+    {
+      "path": "tests/test_resident_ocr.py",
+      "sha256": "65434b762ed0f132fa1f45833e1d06a00d52e5af8deaf27bfda910aeadd9a921",
+      "bytes": 1233
+    },
+    {
+      "path": "tests/test_screenshot_evaluation.py",
+      "sha256": "8cad05a9b2f5a6352118943e2f0fca5f7e2edfe5eef65c0a9e1d581107852878",
+      "bytes": 5012
+    },
+    {
+      "path": "tests/test_tablet_access.py",
+      "sha256": "007af2076756a7986804f87346e7617f77defdae83b1b714648bd611701221dd",
+      "bytes": 3458
+    },
+    {
+      "path": "tests/test_version_watch.py",
+      "sha256": "0305f6a31df27af6bde06c999495d2aac6611b4ade9aa5b9ba66bf9f0348d968",
+      "bytes": 2115
+    },
+    {
+      "path": "tests/test_vision.py",
+      "sha256": "e0ea52f919cf1b8941140adfec996cae7b1bad379a4bc36587bacdd8d41bd84f",
+      "bytes": 11062
+    },
+    {
+      "path": "training/card-tier-candidate/manifest.json",
+      "sha256": "456d4212a23fb43e386420bbd81a5e629ac0ec21e4c4fc24a81599556f5f3ef6",
+      "bytes": 1374
+    },
+    {
+      "path": "training/card-tier-candidate/report.json",
+      "sha256": "089e47f8a902feebbfc9681b2c74850d1a212adf54ad3d5e822c54e884322e51",
+      "bytes": 3802
+    },
+    {
+      "path": "training/card-tier-candidate/svm_I.xml",
+      "sha256": "69c88f4d893dc41a7d83b07a7585251fbe43a500764d8e957e45c51c89bd2779",
+      "bytes": 37706
+    },
+    {
+      "path": "training/card-tier-candidate/svm_II.xml",
+      "sha256": "e40c908969f58fdd678b6e7f093fda7142b83d6efd96266bc2bc6b3ebea5458a",
+      "bytes": 56193
+    },
+    {
+      "path": "training/card-tier-candidate/svm_III.xml",
+      "sha256": "e12ee79fa241861faccd163e06bd3a61358ccbb66e3ddf376372e9dc451cea1a",
+      "bytes": 68329
+    },
+    {
+      "path": "training/card-tier-candidate/svm_IV.xml",
+      "sha256": "0f5847f896359ef9919ab043ca5af70bd960efc2512b82d7c7589771218a42d5",
+      "bytes": 49355
+    },
+    {
+      "path": "training/card-tier-candidate/svm_V.xml",
+      "sha256": "8eca0d1aa99c4f1189031656f7dc1b8b52a1a56ffbe410f487b62491ddd141cb",
+      "bytes": 43044
+    },
+    {
+      "path": "training/card_training_audit.md",
+      "sha256": "5d7cc6346fb4a0438c00a656cdb01f8778cb1a973de00e10be3ef4ab812b081c",
+      "bytes": 3375
+    },
+    {
+      "path": "training/field-v3/experiments-comparison.json",
+      "sha256": "c51b6ab5b2bff4de792a232359a71b680ea287901d7ab80d7d370b08c25c92eb",
+      "bytes": 36805
+    },
+    {
+      "path": "training/field-v3/f3305870e83f49845ae6f55c.candidate.joblib",
+      "sha256": "1b580f5d86a76ed171e382cf2e1f2b86b3b81c73dd3fb7fe70ee3b1e4795563c",
+      "bytes": 4473
+    },
+    {
+      "path": "training/field-v3/f3305870e83f49845ae6f55c.candidate.json",
+      "sha256": "3e3ecac94cbaf6a026d248b231df9fdcb9709bb321d5215f4333ead798f083bd",
+      "bytes": 27687
+    },
+    {
+      "path": "training/field-v3/ocr-cache/0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe.json",
+      "sha256": "0701bca251803cca0a631529e1afc017cbdd826f88c455642995810228f689be",
+      "bytes": 14371
+    },
+    {
+      "path": "training/field-v3/ocr-cache/1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231.json",
+      "sha256": "269ec4a045d54a929c67b0b88c71e3654230995ae7e3027bec558e40f031c2cf",
+      "bytes": 7731
+    },
+    {
+      "path": "training/field-v3/ocr-cache/131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805.json",
+      "sha256": "0ec6ffce17bf9efa7ed39b109f4b657036d94e992cd21f1b22e8f7c6a0a4c414",
+      "bytes": 9274
+    },
+    {
+      "path": "training/field-v3/ocr-cache/2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531.json",
+      "sha256": "5131f70b6e38cd6c76d055e392d184cb86dbad4e2cb432166237177e72f4891f",
+      "bytes": 15229
+    },
+    {
+      "path": "training/field-v3/ocr-cache/265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a.json",
+      "sha256": "a22ed9987d935a204f0cffcd3deeca18565c17d3ef6c9fb92bd7e5bee7adefb1",
+      "bytes": 4093
+    },
+    {
+      "path": "training/field-v3/ocr-cache/283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6.json",
+      "sha256": "fab53fabba0a487a8d1d4d7aafe2183045d2df9ffee2111f8ef35d77e73504a8",
+      "bytes": 12250
+    },
+    {
+      "path": "training/field-v3/ocr-cache/2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b.json",
+      "sha256": "fe652474307b8063bbf6765c19eb358d86860450ff7b8884af29d867bfe925cf",
+      "bytes": 11668
+    },
+    {
+      "path": "training/field-v3/ocr-cache/3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038.json",
+      "sha256": "8af58aa5b20bd1e75864723397624d36967b633f5a93b18355431c6434bab2f3",
+      "bytes": 16704
+    },
+    {
+      "path": "training/field-v3/ocr-cache/508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9.json",
+      "sha256": "5b56006cf9bed221695a775c92649a92d415b9c0be758c6071cab09e7cbaa700",
+      "bytes": 9393
+    },
+    {
+      "path": "training/field-v3/ocr-cache/5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1.json",
+      "sha256": "aeef1aee74f1186ced80026cb17f071e87dc11f689dab22ebfb563e3ce01f60e",
+      "bytes": 6144
+    },
+    {
+      "path": "training/field-v3/ocr-cache/6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c.json",
+      "sha256": "09867b6b2f322ca8709c4170fa6f0c2ca6b1cbfc7019da8f602488b8f79c9698",
+      "bytes": 10907
+    },
+    {
+      "path": "training/field-v3/ocr-cache/6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7.json",
+      "sha256": "f6e6dea05072424623609d3227908b8ff7ed4fc125a0bc492016e9b21c6d9e0a",
+      "bytes": 10021
+    },
+    {
+      "path": "training/field-v3/ocr-cache/83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2.json",
+      "sha256": "8d76452ac33207b23aa3dcc3dba2f3762f472981010a4963911fccb32139e2df",
+      "bytes": 12443
+    },
+    {
+      "path": "training/field-v3/ocr-cache/ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9.json",
+      "sha256": "01e78bc1fe073c1569764005c94eb008370e9b6186f3f9babe864a97bedece64",
+      "bytes": 11521
+    },
+    {
+      "path": "training/field-v3/ocr-cache/af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7.json",
+      "sha256": "1ac8976a7bb5c5f641c4c472747e0e2b1444f2762b07cece8cf0366647e65430",
+      "bytes": 8505
+    },
+    {
+      "path": "training/field-v3/ocr-cache/b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167.json",
+      "sha256": "f50e73e9eb664a73e90b8086cbbf51fb0d54b10e67541d5fe04a35ae7ab3f671",
+      "bytes": 7481
+    },
+    {
+      "path": "training/field-v3/ocr-cache/c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b.json",
+      "sha256": "11de42c20937520d99e83735af9df4f7bb6fe609c6ec7de65b4b7ec5ae0d5986",
+      "bytes": 6437
+    },
+    {
+      "path": "training/field-v3/ocr-cache/c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75.json",
+      "sha256": "e0302b9177304ffd1aa8c7c99e9aa8a07135c6268a7f850d7f6fbfe67129a8df",
+      "bytes": 12015
+    },
+    {
+      "path": "training/field-v3/ocr-cache/c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90.json",
+      "sha256": "c4aeed42d7a4705ec6d1f8614a9310448b35fc349341b1489d2999bd7485fee3",
+      "bytes": 6516
+    },
+    {
+      "path": "training/field-v3/ocr-cache/c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee.json",
+      "sha256": "935ae6b96f0dd550b70fa138c36075e76b18c08d7559c2eda82cc8aba3051176",
+      "bytes": 13545
+    },
+    {
+      "path": "training/field-v3/ocr-cache/cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87.json",
+      "sha256": "74000058c1a5d52c55ab45c40fde651b70d0b47752b89056edd92be99b6dac95",
+      "bytes": 9743
+    },
+    {
+      "path": "training/field-v3/ocr-cache/d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1.json",
+      "sha256": "c4f9403639bf283b37b1a60fb4dfdcce97a44847ec2df83b653a043dbda5a8b2",
+      "bytes": 6802
+    },
+    {
+      "path": "training/field-v3/ocr-cache/d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a.json",
+      "sha256": "837ac1acc378dc00cf10380bc543367032ca9d8bc5b0ced6c7ac8eae6a4be76e",
+      "bytes": 10129
+    },
+    {
+      "path": "training/field-v3/ocr-cache/ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55.json",
+      "sha256": "b7623bad8c58000a7e044d21c52f6284c5bf63ca4a88b7a0f9761b058c5b8047",
+      "bytes": 10872
+    },
+    {
+      "path": "training/field-v3/ocr-cache/fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa.json",
+      "sha256": "7a8f801223799df8471fdde84d5e83f3a84a57514e302d1413fd05a24cd2af3d",
+      "bytes": 7109
+    },
+    {
+      "path": "training/field-v3/original-training-input.json",
+      "sha256": "fe3be72a6408d4bd86abf7049f5eae62594fd71244ae73be6ebf0c9c9b54bb82",
+      "bytes": 104856
+    },
+    {
+      "path": "training/field-v3/portable-training-input.json",
+      "sha256": "73b1ba246e1646038961b90ef0404f049b050a5aeeba9e3ec5fefed4b22f06cc",
+      "bytes": 104284
+    },
+    {
+      "path": "training/field-v3/training_report.json",
+      "sha256": "ae907d6bd939af26ecf7446699aede0a3a362132f77ca985800299aaa9f3dd81",
+      "bytes": 39536
+    },
+    {
+      "path": "training/field_training_audit.md",
+      "sha256": "1793e056252c64b31634bba2e3d15d7038cb4b49538351f47d38aeaa8e6f2e3a",
+      "bytes": 5476
+    },
+    {
+      "path": "training/index.html",
+      "sha256": "c1afb08c8bdc9e070aa183c55ee9350e765d7cc5f680b2fe47716ca58b66857b",
+      "bytes": 3161
+    },
+    {
+      "path": "training/round3/README.md",
+      "sha256": "5eb4f34de2f0f0ad11e74fb7a3db556fce3e1fb64715b77d9b15f5e25a222e3e",
+      "bytes": 9451
+    },
+    {
+      "path": "training/round3/annotations_consumed38.json",
+      "sha256": "207a91e15e933b59f5188075b1f0d6907c991a3f11100220fc151798ba17a07e",
+      "bytes": 129144
+    },
+    {
+      "path": "training/round3/baseline/f3305870e83f49845ae6f55c.candidate.joblib",
+      "sha256": "4742b8f494de04f88c7c2a98914b341eb7632785be1b958e9ba0c9938e3bdb41",
+      "bytes": 4473
+    },
+    {
+      "path": "training/round3/baseline/f3305870e83f49845ae6f55c.candidate.json",
+      "sha256": "ec550e1c2b61051bfdcd72246a2193f1cf19dd3cb5f52b330d72e446aa4185ad",
+      "bytes": 26574
+    },
+    {
+      "path": "training/round3/baseline/training_report.json",
+      "sha256": "8145d600e5f016ea942ab59890e6b8794d978e2074baf9b592d151b169b90c11",
+      "bytes": 37047
+    },
+    {
+      "path": "training/round3/baseline_field_model.py",
+      "sha256": "bda6bfb4d9eec88ffceb28fe83c6a2a93f9bcb45cfc76bc983df9f00570c88c9",
+      "bytes": 9365
+    },
+    {
+      "path": "training/round3/baseline_train_field_model.py",
+      "sha256": "eb3ab1e8ee0d02873c178cc79d9ee11b68922e3da17b2f9991c17ffcc9c62291",
+      "bytes": 23357
+    },
+    {
+      "path": "training/round3/comparison.json",
+      "sha256": "2c151a51043e4e763f4bd698bd4dc8a2b616501145525be4f6882cab784b3658",
+      "bytes": 92508
+    },
+    {
+      "path": "training/round3/enhanced/3561bda113759e5137e2ffb9.candidate.joblib",
+      "sha256": "3dd26045ba8c998056e497bc0b332ca1ad4c6e90252f1a6c1b5878cd6ac577e1",
+      "bytes": 4521
+    },
+    {
+      "path": "training/round3/enhanced/3561bda113759e5137e2ffb9.candidate.json",
+      "sha256": "8734a869593051ab65804cf878c2349dc21b157f7ae338f0fa618c259f68d1ab",
+      "bytes": 32570
+    },
+    {
+      "path": "training/round3/enhanced/training_report.json",
+      "sha256": "102a7742f072f523bd45c5e30328b37adcd99318683dc8075c79e427a172ed7d",
+      "bytes": 43043
+    },
+    {
+      "path": "training/round3/error_audit.json",
+      "sha256": "666c1cdfbcbd28da781bed0be44a6e1ed1549079c6ab5f65eb52f2883d38893a",
+      "bytes": 13785
+    },
+    {
+      "path": "training/round3/expanded_v3/annotations_consumed45.json",
+      "sha256": "0a92c159cfb129593c414c48400b40709a43614077dcf4163307bb9edbde8530",
+      "bytes": 151714
+    },
+    {
+      "path": "training/round3/expanded_v3/comparison.json",
+      "sha256": "aa3734833b1636cbbe24a6d6332f0d5bb49369b85a269cd49cd3d343da2a37b5",
+      "bytes": 7520
+    },
+    {
+      "path": "training/round3/expanded_v3/experiment_plan.json",
+      "sha256": "6ec9a4f2ece050cc1a81c9cdc72cda0dfa58a64dd7dfa799f33ec1b7c6d4f8cc",
+      "bytes": 1621
+    },
+    {
+      "path": "training/round3/expanded_v3/model/3561bda113759e5137e2ffb9.candidate.joblib",
+      "sha256": "0bd663c3b582dd5745730c1fb140db1898ab47ee592bd023eb0e8e409eccf6dc",
+      "bytes": 4521
+    },
+    {
+      "path": "training/round3/expanded_v3/model/3561bda113759e5137e2ffb9.candidate.json",
+      "sha256": "aa3ad40d361edd2c0b402a74ea48030ebc01ef9497170067d32bad3c6cbbbd5f",
+      "bytes": 35152
+    },
+    {
+      "path": "training/round3/expanded_v3/model/training_report.json",
+      "sha256": "7b9a6c689f5a082178e259a04ed12cd3c60e1b2686cd112400f652ee12b6fb4f",
+      "bytes": 48824
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/2a061ae180f129f7b97daff2d485cdedc658f76f6cbd2a72d85ecaf98540fd92.json",
+      "sha256": "58ef3f48e3e45d825073f8d44af0f598d1d0602a3dac98eff0fe19c17999fc1e",
+      "bytes": 12697
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/3a290a9aacb4588552cad5618f38eb9a64d1415811e1619e012088f7f61ccf09.json",
+      "sha256": "9ec0677d773052016877d104b1e879be3ee533fc4be1efd455d260d17cc823a1",
+      "bytes": 7456
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/55cca284b60eca49f3f8b417982fe69bee8edb8536bd51fe0d4697f1e2eccd8e.json",
+      "sha256": "b8b246d62e36306ba38062ea19ae7fb9f440cc479e96611a58bee0252695d80c",
+      "bytes": 10756
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/7737c089b7f50f39033454d282d11355413515277e84bb1eaf121293ec90cc23.json",
+      "sha256": "1630fd66489440f88dcd3656d14cec81552ec64a326fedccf9f9774483639dff",
+      "bytes": 5429
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/7f0459dac6ebd68e81a0da96ef2023f8453e1c47c01a1bee7bb97ba835921b04.json",
+      "sha256": "d8e25f3254171e50b0839f1b6fe9ebf6dd39b3f0d8ae6770ed0c46d047a1f602",
+      "bytes": 12543
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/87256fed0aea7184dbeb459b03244eb2c571a69ef1659ea0ce8316f643b4cc83.json",
+      "sha256": "e11736b895ea58bbead7c6ff14c45d2ef24ae81f2f6cebe90cd663765bd6f82e",
+      "bytes": 15050
+    },
+    {
+      "path": "training/round3/expanded_v3/ocr_cache/e7c92b417e87a3cd24b3a1b82682bbba133a054ffea2e227f684a709f52a355a.json",
+      "sha256": "04141e528fa67a8f0c5fbee1984d6c4c4651f4f9c8d88d94dbbc91e59b9c0381",
+      "bytes": 12815
+    },
+    {
+      "path": "training/round3/expanded_v3/trainer_snapshot.py",
+      "sha256": "390c561b86c3e5c9116295b4e6c9f6e125e32428d61b56ccf1c7b68e33f67cb2",
+      "bytes": 25665
+    },
+    {
+      "path": "training/round3/expanded_v4/annotations_consumed45.json",
+      "sha256": "0a92c159cfb129593c414c48400b40709a43614077dcf4163307bb9edbde8530",
+      "bytes": 151714
+    },
+    {
+      "path": "training/round3/expanded_v4/calibration_alignment_diagnostic.json",
+      "sha256": "c701421bf23c94bf3f166cf843f1b6da24a624a68a143dbbef3d5e0085dc6881",
+      "bytes": 4313
+    },
+    {
+      "path": "training/round3/expanded_v4/comparison.json",
+      "sha256": "e21858ddc19601fa1698e56f51d5ff6ee037e1614a25f4dac7ddba6ff7471185",
+      "bytes": 9996
+    },
+    {
+      "path": "training/round3/expanded_v4/experiment_plan.json",
+      "sha256": "c9d9f1c06e6e897549212c3ba4a85fff32fc91d5214dad07629b62a6e0622ee3",
+      "bytes": 1830
+    },
+    {
+      "path": "training/round3/expanded_v4/model/3561bda113759e5137e2ffb9.candidate.joblib",
+      "sha256": "2eface67c37fb60ef4943701c18a610ee6c99147cae8c71b236ea7f943bff2d0",
+      "bytes": 4521
+    },
+    {
+      "path": "training/round3/expanded_v4/model/3561bda113759e5137e2ffb9.candidate.json",
+      "sha256": "1951735db5b84c138e4820bc1ed1535f432627cd3bacdef4ee2402af37f31372",
+      "bytes": 37131
+    },
+    {
+      "path": "training/round3/expanded_v4/model/training_report.json",
+      "sha256": "9b303f84a4fd48819a4d916246a95dea1237c2736e40a9ac0baba8a211f5c35a",
+      "bytes": 51005
+    },
+    {
+      "path": "training/round3/expanded_v4/trainer_snapshot.py",
+      "sha256": "2362d7250719925a3bd13c55d1963594409d1476552a13917dc921b9a908fbad",
+      "bytes": 27014
+    },
+    {
+      "path": "training/round3/experiment_plan.json",
+      "sha256": "29c2d31ea96daba75bb0f0bdbd0c540adc41754a5b9c86b627bbb126c6a964f6",
+      "bytes": 913
+    },
+    {
+      "path": "training/round3/final_summary.json",
+      "sha256": "7ba45b44c7fee9a31547f58b5013b2a5cb314c329cd9351c0892f522de552f45",
+      "bytes": 11040
+    },
+    {
+      "path": "training/round3/replay_records.json",
+      "sha256": "d8b19fbc8825fdda982f29893a698c9f3bdd2b7d5a13746b1b63bc33a675d93c",
+      "bytes": 421245
+    },
+    {
+      "path": "training/round3/reproduction_report.json",
+      "sha256": "340a4b0700d5e5db4fc2ef2ae06a0b29100b26d70c05bfd9c1f03eaa535b50cf",
+      "bytes": 37467
+    },
+    {
+      "path": "training/round3/run_expanded_v3.py",
+      "sha256": "d0e3437e8795a218bd9ee2ec926d318864c50d3646b8c7655d240d22b764a2c9",
+      "bytes": 9475
+    },
+    {
+      "path": "training/round3/run_experiment.py",
+      "sha256": "d2c9b3f84e257733bd4d995bfe130d515f64e36eacf79e56d38eb169f870ed5f",
+      "bytes": 5658
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/FREEZE.json",
+      "sha256": "2f09c76bc65c6f627ef734100ff0bb06a8b9c76f658c629b87093c05190262e8",
+      "bytes": 5754
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/all-annotations.json",
+      "sha256": "96d37699d203961e903986693ae9c215f5001a1909f988c980b5ea84e1bd2f26",
+      "bytes": 124234
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/baseline-source/ocr_backend_v011.py",
+      "sha256": "b3edcb17e13d1f78f2d41549dabcb1ec7905e386f4e6d956c0046bb98056c511",
+      "bytes": 7693
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/baseline-source/vision_v011.py",
+      "sha256": "9921224ab6cb8a448d8963e6f3d171f5f5f8baabbf62ed05cccc2a450645d5b3",
+      "bytes": 35650
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/corpus_audit.md",
+      "sha256": "bd88a8ab2dd0f009e3ca47f3e5e448cbe619f08af0492ed0a342a66520ba53e9",
+      "bytes": 5237
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development-annotations.json",
+      "sha256": "3bdb103edb1893774d3ccf15bdd1f6e5f9ff5055f524ea06964105075695d917",
+      "bytes": 101196
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/consumed_nature_01-983f8c36-default.json",
+      "sha256": "6c4908e8e338ba0e34855873b31ce5f50f7916a258071322e87dfbfe63897218",
+      "bytes": 89821
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/consumed_nature_02-3565a4fb-default.json",
+      "sha256": "897e4bb1cd0c957f7a127eb36a68909c072762a3337b84f20740df6d380c7387",
+      "bytes": 87345
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/consumed_nature_03-a2a2fa2d-default.json",
+      "sha256": "75aaf096fbc8b85737500a53f4510908d0b462d37f7caef39b6207a92252c043",
+      "bytes": 83518
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/consumed_nature_04-8d37b780-default.json",
+      "sha256": "32ef4cf0a4feb723a799562a51fcbf6f7d1af4e6429c23eefd85dd4930578d48",
+      "bytes": 80404
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/consumed_nature_05-0ef3d29e-default.json",
+      "sha256": "97d16760deca8b0a9f8661e39cf0c37da0eb6236eabc8111f9d0ae9fa3153b6e",
+      "bytes": 87992
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_01-0e39fd72-default.json",
+      "sha256": "1a0e63de9796aa75d5494d54bc81826a1b5090c0a528bad2ab4595c3bd73080d",
+      "bytes": 92397
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_02-9d7247ee-default.json",
+      "sha256": "7d6ddd21947a23cf8a060e11f2980fdf2d1e546a94ca06d99255715369320042",
+      "bytes": 89876
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_03-b2e97515-default.json",
+      "sha256": "aea54b80dd8f7451e38168de7470dcc5049d3b278946805e4e2266711aae121f",
+      "bytes": 85425
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_04-c114b7a9-default.json",
+      "sha256": "8a5e02415506259e3bdcb00819ea1725e3d864e2b2a3c6746c86652391e964dc",
+      "bytes": 93155
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_05-23370045-default.json",
+      "sha256": "1596c7d198a22656cbf533bdfc4dcac5db9662c0b4e47e2e634119bcfab93668",
+      "bytes": 82423
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_06-86ebc3de-default.json",
+      "sha256": "151d8b427a34d6c975b75c561221b65ced1e70b5babb9267a925fab0cbe1d936",
+      "bytes": 79273
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_07-a5be60d1-default.json",
+      "sha256": "4bfe6751a05f95861ccc80f093908daa87aa43e3288da995237010fc15d11659",
+      "bytes": 91514
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_08-d3064a7a-default.json",
+      "sha256": "baee495dbfbe5fb7a3c03cf47ed331e6443b3d8bdf342fbc0b3cce31ddfbbd1e",
+      "bytes": 82557
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_09-a0997578-default.json",
+      "sha256": "7fa36c7ad0f5cabd85f89f33b3244a0d0583c15a9a366d762fb0a5eaf07e6265",
+      "bytes": 85831
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_10-c1672700-default.json",
+      "sha256": "38a91f06352579adbab8559c551a549932ae9e8f7e478ca7176952217d975192",
+      "bytes": 86321
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/nature_dev_11-4e9e60ad-default.json",
+      "sha256": "c719b02e57bc13cd1a5ddc7b432175b4d87ad142edfed9bbdeb6546724d27f89",
+      "bytes": 89512
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_azir_video_first-3b2e36cd-default.json",
+      "sha256": "4cbddbadf90eb01ef66531315704a7d12ebbcd7533a3484b289efdc89b9bab89",
+      "bytes": 24987
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_chuapp_03-da69453f-default.json",
+      "sha256": "2b9127328ee5e3a63b94fab4be4f13b9cdbb84f7f13351abd4ade460fa7418f5",
+      "bytes": 28627
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_chuapp_04-74eed507-default.json",
+      "sha256": "d73600ea7adeae397e21922cc6c386cf11840008521108ecff737d2657e30f60",
+      "bytes": 29295
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_chuapp_08-92dc33bb-default.json",
+      "sha256": "d06feb188843a9e93a30fb67cf1bedc310657c1eae6bec0f2cf10620043f96e7",
+      "bytes": 27577
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_exp_01-275ab742-default.json",
+      "sha256": "d51513dfef4a7eb171234b86303923e99d46bbf479d9ed6497f0f26717163c81",
+      "bytes": 31498
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_exp_02-ceb3ebc9-default.json",
+      "sha256": "f6e06ed7d6ad98b7d1318646f8809d14e1431ebb3eae1830b383c48a65da65d1",
+      "bytes": 26501
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_exp_03-eb092886-default.json",
+      "sha256": "3434128668b05c6180a028c3f00254bd5fffaa32390eef7ebd4215beef7d9523",
+      "bytes": 28637
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_exp_04-fc469c42-default.json",
+      "sha256": "51bc929b450227ada2afe462c4dfbdcada28d1f62a9674c3388566416a261917",
+      "bytes": 31578
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_exp_05-e3768f46-default.json",
+      "sha256": "89f576cd4ce72d53a1c8eee3958c55828d3b812e74de44c4aa4e06f058b42ac6",
+      "bytes": 26983
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_exp_06-c8b74051-default.json",
+      "sha256": "d622837a03ed30b4e846bd741bab08f72df33c19b887b13abc5db86bb5167e93",
+      "bytes": 23619
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/raw/orange_taptap_loadout-6b11089d-default.json",
+      "sha256": "db034f1806f09dcf4e05f0a69c211de2a7b26c0ccadc1c86764bf4e53156c513",
+      "bytes": 30254
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/report.html",
+      "sha256": "15d6a34937c3a510299873fd19f8f0ea0081fed3f98fdbb71a2c79acd634114f",
+      "bytes": 26724
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/baseline/report.json",
+      "sha256": "e83c8fa073e3260426a57739faccd154af9f9d7d288c8eebaf804afcd01c1751",
+      "bytes": 199530
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/checkpoint.json",
+      "sha256": "84a55e605316a771c3b44ee2eb662472de3348697e89d1bd9b46ca3fb5c4479e",
+      "bytes": 167160
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/comparison.json",
+      "sha256": "3da05a0010c9ea56cf6b0fd08e6d26faeb71e73e17c60f097e6ecc6e8f194c2c",
+      "bytes": 7088
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/consumed_nature_01-983f8c36-default.json",
+      "sha256": "52a54222d46d37c51a81fa56d1135c1bb5278810b039957cd6eeca2055e9313d",
+      "bytes": 89895
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/consumed_nature_02-3565a4fb-default.json",
+      "sha256": "28b387a65295b33dbb164d7cfbe94299e3ae40a98810562fcfca85f2c3fa062a",
+      "bytes": 90790
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/consumed_nature_03-a2a2fa2d-default.json",
+      "sha256": "4e03ac01215fe6c9c25c3568f2dbd8ca6686f41cf2c3084f9bf185e8ccf35f86",
+      "bytes": 84762
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/consumed_nature_04-8d37b780-default.json",
+      "sha256": "10c20b91d69d36b7ea8544a3f4fb804113ff9ac4be4975583a9e8a17e05f645e",
+      "bytes": 81646
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/consumed_nature_05-0ef3d29e-default.json",
+      "sha256": "8c0296687f171f7420fb861dbceb6a5498e4a6c8113afc564e03fc1e2f22cb40",
+      "bytes": 88623
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_01-0e39fd72-default.json",
+      "sha256": "7a0caa81445c8cc05b851b43eeb2657bf03b8e5220e29526e8d9521082001dd2",
+      "bytes": 93448
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_02-9d7247ee-default.json",
+      "sha256": "1bd1b1695b6a401889a07e3d3c3c74433874473fc4777af1a2dc314bd6a56f1c",
+      "bytes": 91053
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_03-b2e97515-default.json",
+      "sha256": "8b2c4d95a660c7d277e7de33c0f5dbfef1110ee815d883a97b9d626d33a9aec7",
+      "bytes": 87223
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_04-c114b7a9-default.json",
+      "sha256": "892d9c23db792e6f9c6174968205bd66e12ec8d5194cfd292a4379e421a3e5c8",
+      "bytes": 94325
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_05-23370045-default.json",
+      "sha256": "8d7a737ab8fa5f1280442b76a351731cb0158f9f6fc95b4415191d88dda2725f",
+      "bytes": 84182
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_06-86ebc3de-default.json",
+      "sha256": "373c79262a1b3bd517885d3ec71b3a9b4fc27bdbfe0b5ec88e9dae845405cfc5",
+      "bytes": 80489
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_07-a5be60d1-default.json",
+      "sha256": "05c6a7461246939648239979aa1f2c677b725f409c8a042735da92b675c1caeb",
+      "bytes": 92726
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_08-d3064a7a-default.json",
+      "sha256": "c5ea2b1fa72b73b94097c5dcc8dba3c5ffd59e152ed56bf03b87aa73ef5a5a74",
+      "bytes": 84349
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_09-a0997578-default.json",
+      "sha256": "ba0ce50fdda3ffd82f10d20ce4b53186175eaaaa9f79d71c68ee57c768730cec",
+      "bytes": 86718
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_10-c1672700-default.json",
+      "sha256": "dc67c99fc99a42204f9f4a1b4fc812fb20d844de392d68e25b919c3c82d7fa77",
+      "bytes": 86956
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/nature_dev_11-4e9e60ad-default.json",
+      "sha256": "9098613e5aa4e81ff23b8edf403d34170b65ba513a79fde69f09414abfb09342",
+      "bytes": 90686
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_azir_video_first-3b2e36cd-default.json",
+      "sha256": "cab0fd53495bb9de53dc85f10276718e35608fd598b04973313a5ad7c269461d",
+      "bytes": 25072
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_chuapp_03-da69453f-default.json",
+      "sha256": "8c3a8fc09813142a3bde4b0877bdc695056a28461efcc7486baa2aab17aef88a",
+      "bytes": 29311
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_chuapp_04-74eed507-default.json",
+      "sha256": "81356d3e7986ea8233ca748a6d3b59d1eb044bd9296888cdfe9edd0c58ad85c3",
+      "bytes": 29380
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_chuapp_08-92dc33bb-default.json",
+      "sha256": "8fa7f8b7f206bd001124a57dacfc3f5a36a5714336280a653658699e1be9006f",
+      "bytes": 27662
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_exp_01-275ab742-default.json",
+      "sha256": "d78d9f468482ca420852b5a9ed9d1a1bbfe6cc6cdd6c539944cee0a1d35d36b2",
+      "bytes": 31143
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_exp_02-ceb3ebc9-default.json",
+      "sha256": "c4cba7432af8d4375076fbe0efdf4a1e405152639b16005ec198c4a0aabd5625",
+      "bytes": 26747
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_exp_03-eb092886-default.json",
+      "sha256": "f1f382c3f2fa38f60e496e3d1d82f2d1c457e27d4e83b6ce09af5aa6627d375b",
+      "bytes": 28720
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_exp_04-fc469c42-default.json",
+      "sha256": "09a6c76153c7950e03b577feb482d773a8fbc0f053cba5996f259e65608465f1",
+      "bytes": 31455
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_exp_05-e3768f46-default.json",
+      "sha256": "89c5adbe1f613ba877dde396c2057932618e6974e96d8ec7c3a76af96cc3cbc9",
+      "bytes": 27343
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_exp_06-c8b74051-default.json",
+      "sha256": "f6341c2309e1ca78a50b1e1c4e1068b00bd9c1ae4e3e748dc9092275c4bd593d",
+      "bytes": 24227
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/raw/orange_taptap_loadout-6b11089d-default.json",
+      "sha256": "fc8699286a0e931d0b8bf56902a85b9dabb6baff281ccc44ea2f99f999ec1d8e",
+      "bytes": 30339
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/report.html",
+      "sha256": "37d420cf9230c277055f9cb75a18b0b9aeb6316beabf3af4aa3cc81ce7ea55af",
+      "bytes": 26707
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/development/optimized/report.json",
+      "sha256": "58309609f87679e988b78f7bc1b442fc1dea324b61e6600955d709ab938be42c",
+      "bytes": 199468
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/index.html",
+      "sha256": "1f993fde660627f949cfdb04486517c2a5a7adfaed50b908a65d2522511c27a0",
+      "bytes": 23644
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/live-final-checks.json",
+      "sha256": "2020dbbec2b52424d7e95de45b649b9c09b84cb19ca93e5b463d7777c264fe4d",
+      "bytes": 1088
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/live-smoke.json",
+      "sha256": "f0c377b833f3861f1fb865df5e642e2a41b95223c8b2b2abae410935d9f0a564",
+      "bytes": 88407
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/original-corpus-inventory.json",
+      "sha256": "43de4f752fc5d8f03297eacc3d5ba85f91fc7a192a4a8ae3aefe873db160701d",
+      "bytes": 20574
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed-annotations.json",
+      "sha256": "7f256169be7d8a05cb775aff6675a4789220a8acfe51d602515ecd5fc127cf2c",
+      "bytes": 23203
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/nature_sealed_01-90f4cfe7-default.json",
+      "sha256": "d4d24bec122229854e1595ee02f68d2adf4ef771fbae284ec5ac59c038472ce6",
+      "bytes": 78290
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/nature_sealed_02-356bf13d-default.json",
+      "sha256": "bc168165f7b4f87717847b329bd8d106962888b04e9348bc76fe71e2fc3288ee",
+      "bytes": 82419
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/nature_sealed_03-e702e97b-default.json",
+      "sha256": "633ac11244f53dc2f88542b15b8b4fad25d7640c7f0cd4c102238ba0a87d78b0",
+      "bytes": 77957
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/nature_sealed_04-4165e716-default.json",
+      "sha256": "562239b3c90651e4363129b8df47ccdf1d9dca6d6e3930fa70796278c5f33a3e",
+      "bytes": 87537
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/nature_sealed_05-5bc5d245-default.json",
+      "sha256": "8e7b5a43619cc62099248e8938a111dbefcc5f369a86c742cf0bcb12ed01d59a",
+      "bytes": 85523
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/nature_sealed_06-ed2f671a-default.json",
+      "sha256": "8065aabd06dabd36c144d18a27da1dd9845da1614fdc77f35364e36e74313216",
+      "bytes": 76423
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/orange_exp_07-cc6b1b69-default.json",
+      "sha256": "d35c41b4c95ddad405b14f1afb6f0bfd4a90d1cfb49c45a8f8212267d1fdb3f5",
+      "bytes": 25532
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/orange_exp_08-6869ef62-default.json",
+      "sha256": "e7ea170ea79b4fea063260f8d4e5a08317831026d4fd1cda00dd73cc47fb8eb5",
+      "bytes": 25755
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/orange_exp_09-497f438a-default.json",
+      "sha256": "67a497fae300adebd1e21dace59d2932dcaac8fdf4ddae18aecf74d57f853a27",
+      "bytes": 21892
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/orange_exp_10-68ecb9c6-default.json",
+      "sha256": "726e8d8b55943d36d451ef1a4e51d6cdb0ed87e345151c128b11541bea83c61c",
+      "bytes": 29859
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/raw/orange_exp_11-497dca61-default.json",
+      "sha256": "603514ec5d4089c2acdfc95bba9a5b4f489536b2ed7d656b1f8bdda1a0f1ff70",
+      "bytes": 26316
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/report.html",
+      "sha256": "a31dcf6555838e59be595dd56a8211df84627c8d8eeaa3557e7a37e6b8f1431d",
+      "bytes": 17475
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/baseline/report.json",
+      "sha256": "6fa2b93b45e21abf6b63c8c3dc81d5add904e5dab7df655dd3d39209c4f16cd1",
+      "bytes": 93244
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/checkpoint.json",
+      "sha256": "b519ee37e6dbc4b5d9cfb6862325d814902bcccf0f366e413f999e422288684d",
+      "bytes": 68165
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/comparison.json",
+      "sha256": "6bcfef99b1252c86ecea3fb4c495b0836964172f63946f3e1e06f39c9ba139aa",
+      "bytes": 6922
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/nature_sealed_01-90f4cfe7-default.json",
+      "sha256": "135e7e7c4fcd9475174b82c7bd7273ffb96379345770e7f1fd7d818782aaf1f3",
+      "bytes": 78376
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/nature_sealed_02-356bf13d-default.json",
+      "sha256": "2e787e4256e9fab8617f930a95dcbf68562ac58acd98e242eb420c77f94d701d",
+      "bytes": 82504
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/nature_sealed_03-e702e97b-default.json",
+      "sha256": "78745e7134eb0fd55e261e55fc22c43b47206e28bca36848c8a6e6186b0e7b33",
+      "bytes": 78043
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/nature_sealed_04-4165e716-default.json",
+      "sha256": "b333da016339c614d934721fab50ef5522831c2a5f4bcd0a41e51348121138d3",
+      "bytes": 88718
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/nature_sealed_05-5bc5d245-default.json",
+      "sha256": "2f0b6db229094b6915d73066361c456431f9335a821c97eb7208595041a782e9",
+      "bytes": 85608
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/nature_sealed_06-ed2f671a-default.json",
+      "sha256": "c5c5c5cb76d389a446437bf0034770793a5c645dfff3e210eaf1f855de66a2a0",
+      "bytes": 76510
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/orange_exp_07-cc6b1b69-default.json",
+      "sha256": "38fa7f052e3645534e4d5e635a613ac1c835d1ce7a8346878c235259a44a1076",
+      "bytes": 26177
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/orange_exp_08-6869ef62-default.json",
+      "sha256": "1025dd6b6e4dd7742cc64676129975a7046ef93fc98ff22a1ebfd91a1ac38c8e",
+      "bytes": 26883
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/orange_exp_09-497f438a-default.json",
+      "sha256": "d8116549f7c6808c3c28de443f51dbfc5d04cc3cacbe32ca560a21541d9f0578",
+      "bytes": 22513
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/orange_exp_10-68ecb9c6-default.json",
+      "sha256": "3098fb1adf34aea840d6438fefa36c0128aa67c7d1fca47200bc32759cb98cf3",
+      "bytes": 29497
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/raw/orange_exp_11-497dca61-default.json",
+      "sha256": "8c426edb33e629a4dd92c57f0f565c7a2419e17a91a745dd40200e7db8d9f3c6",
+      "bytes": 27198
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/report.html",
+      "sha256": "59439f202ac4e609a277b60704fbd9a98d51d5220f30f10a8468cd9726982880",
+      "bytes": 17460
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/sealed/optimized/report.json",
+      "sha256": "581a46691239d9ea1eabef95f331f9b0e57aba45b6ebc3b0f9f0ab8e48258fdd",
+      "bytes": 93232
+    },
+    {
+      "path": "validation/expanded-screens-2026-11-11/summary.json",
+      "sha256": "ba002c22b1043decd3ab1a5ad402d2c47ed312466b6020433fd422bcc365ebbd",
+      "bytes": 241159
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/benchmark.json",
+      "sha256": "add95ca2595bd1641e51d64962e2448f18ea638aa03f73107648998557f0c64e",
+      "bytes": 24738
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/fetch_images.py",
+      "sha256": "c838d271fa75197976ec55de2a7879e38f5930d3a0d60fabe4877ea7e42dd177",
+      "bytes": 2270
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/index.html",
+      "sha256": "dbb233689acec34d9401da766a5d72321144dcd948eb42b3f3ab1878f35f7a09",
+      "bytes": 10874
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/raw/nature_01-cb3a1b8f-default.json",
+      "sha256": "b2a8e81062b0615884f87f887dcd1ae1d74fe173e45412b500b69413a26e5667",
+      "bytes": 86390
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/raw/nature_02-1ee8a531-default.json",
+      "sha256": "56b3cf43c844b607e8772491ec052d2220c35ccc8b4452bd8e09291cf0371624",
+      "bytes": 81497
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/raw/nature_03-b4fe10a8-default.json",
+      "sha256": "eb184284358c5ee2154c823a2cc6a7c8bc086f84a7ce2485683c58a52b47a847",
+      "bytes": 80153
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/raw/nature_04-2fc34c84-default.json",
+      "sha256": "ab133cc58d66b5ee5662cac4dd0608e8a57374b7674aedf27edfeef02927c66d",
+      "bytes": 75764
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/raw/nature_05-b9f7d5f3-default.json",
+      "sha256": "f0eb35f6b1d653d141b7fa4072be45ec8ae71a2c53f183153ae04f0dc6c1d894",
+      "bytes": 81914
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/report.html",
+      "sha256": "22c91fb9b0b853e8f74eae80e43ccf0073c4bf8d487f8ed3a84730c413edb0f6",
+      "bytes": 15937
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_baseline/report.json",
+      "sha256": "fccaf3916e1cb1bc6e591ff99dc7568c4ec0342d906f0df4d20e78cb0eda42f0",
+      "bytes": 58914
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/raw/nature_01-cb3a1b8f-default.json",
+      "sha256": "978c350266a58a037018da5c356daaad763ae924a5c89edb7ec8b0e6da068d25",
+      "bytes": 89771
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/raw/nature_01-cb3a1b8f-profile.json",
+      "sha256": "494fa6bfb095b48c46248241736a1e14ad6ab52d4e305601abb4d46e4431440c",
+      "bytes": 90573
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/raw/nature_02-1ee8a531-default.json",
+      "sha256": "91892943b68209a084f14503d59c4c18c2455cd535a6dcbb4a612c6db4d4903b",
+      "bytes": 87292
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/raw/nature_03-b4fe10a8-default.json",
+      "sha256": "23e3b93efbcfe1f5f176d74af4f9ec4f5ff790ca076b6d048c0957f5348b6122",
+      "bytes": 83467
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/raw/nature_04-2fc34c84-default.json",
+      "sha256": "83d36563dcd4292445eaaa30b1dc0dcda1159edda20b1c32adb0687e38defdd5",
+      "bytes": 80352
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/raw/nature_05-b9f7d5f3-default.json",
+      "sha256": "9ed6c5844bd44384a85b858cea0b3f4d118abbfabbf7daaa92cdc84d6d117aad",
+      "bytes": 87940
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/report.html",
+      "sha256": "968b905bbe36750e340d5b6782f12fef76f49ed2caade59c1c9cd47ac737c95d",
+      "bytes": 16027
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/nature_final/report.json",
+      "sha256": "a9042e86db231acb5659f51bf952053c3479dcbe6bced789bc8521801b3612a0",
+      "bytes": 61405
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/card_annotation_audit.json",
+      "sha256": "15e6e89fba6f0709e361c88e6dc3a0c3e95e1929e23838e0bb9b5e4160b8541c",
+      "bytes": 1643
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_azir_video_first-3b2e36cd-default.json",
+      "sha256": "a8c3d138e4754f38be5ae0158384ecbe2f140c22164c75935aeb5fbb7fd273f9",
+      "bytes": 28827
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_azir_video_first-3b2e36cd-profile.json",
+      "sha256": "3601cd062e534d1bbca4708d93cd877b5d4b2f4f6d9cf3ef4320b308ddc41ff3",
+      "bytes": 28782
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_chuapp_03-da69453f-default.json",
+      "sha256": "75b77d43e2507cc280149138bd45f91fb7a39c149d4d14cb4a00379d7f74e44d",
+      "bytes": 27211
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_chuapp_04-74eed507-default.json",
+      "sha256": "8525ca27a7df038761790f4e9e00e9d310367416967b7be2b42da246288775d3",
+      "bytes": 23423
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_chuapp_04-74eed507-profile.json",
+      "sha256": "991811e2c9d818c5da4cfbec2dbac7fa7f0860eac90fe079a8e25e2becf1f274",
+      "bytes": 24090
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_chuapp_08-92dc33bb-default.json",
+      "sha256": "7736e4738218a65a2897592f822b9147b458073585e4d470ebfce005bc5f598b",
+      "bytes": 28820
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/raw/orange_taptap_loadout-6b11089d-default.json",
+      "sha256": "b80f34c4e06b8d6d21c59f4836a17bce99d612e623a5f7ae8072297b02873139",
+      "bytes": 26377
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/report.html",
+      "sha256": "afea63bc4c71d215fc6f6abbede1e2f1d66b62b6cad70a38cefbac8ee8598c14",
+      "bytes": 17855
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_baseline/report.json",
+      "sha256": "947cae3493be631e194291886e76d1b6b2aca98957bb9adfc6a88ce32c61bfca",
+      "bytes": 66758
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/card_annotation_audit.json",
+      "sha256": "d3e93ccc1185e843098ac16221062f6ef94c6c4ae5e381be3d4f385bbd7e5a5e",
+      "bytes": 1635
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_azir_video_first-3b2e36cd-default.json",
+      "sha256": "f44fb4362ae0928823227ebc8c5228efb343f183f4f5cd97cd06175b4ed7e5ec",
+      "bytes": 24983
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_azir_video_first-3b2e36cd-profile.json",
+      "sha256": "3f0a7af2b2a8578788b84f7573f8c6537123d4ac110a58c1db2b057dcd89ff92",
+      "bytes": 25049
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_chuapp_03-da69453f-default.json",
+      "sha256": "199aa8dd9a775c9d5e9e330dc4218d69bf59d499fa231a870e08cea4123cb949",
+      "bytes": 28629
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_chuapp_04-74eed507-default.json",
+      "sha256": "5160289d81488aa441be10e951659617625b2cccc081e54f102d4d091a68d659",
+      "bytes": 29296
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_chuapp_04-74eed507-profile.json",
+      "sha256": "454dfdf0eef5ac1e11c7c2f934036f868c81a71d156c6f7aff84ce975d50fbb4",
+      "bytes": 30100
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_chuapp_08-92dc33bb-default.json",
+      "sha256": "98772f98410362341e4371469f7ac9b0943f0876f9e742a101df6080c220cb6b",
+      "bytes": 27578
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/raw/orange_taptap_loadout-6b11089d-default.json",
+      "sha256": "a10e5b654122e2fc71628d85eff636e6318d01e188f711ad707d1cfa14bf4cbf",
+      "bytes": 30250
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/report.html",
+      "sha256": "7dae19a757dfe8de7c24a024db235f8290490df42324c69829d88ecf3dbb1176",
+      "bytes": 17742
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/orange_final/report.json",
+      "sha256": "6e36be91c0b9032f30c9dc5c81f45767aa6c953059bd5fdd0e8769b95e69bc89",
+      "bytes": 66501
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/sources.json",
+      "sha256": "186c384788e3d12462ff1ee570a3ec098a90a52f3e1a1ee9c3ecc7366aad7e41",
+      "bytes": 9242
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/summary.json",
+      "sha256": "57792d36b6e277a90ffe5d84b9eb3719fc69905e0cffe569ec35e7a29f8d654c",
+      "bytes": 6808
+    },
+    {
+      "path": "validation/real-screens-2026-11-11/vision_v010_baseline.py",
+      "sha256": "e56d704a41c4e092b0cae793d55be196deaa60695d75fcdefd2ebb6623caff02",
+      "bytes": 26218
+    },
+    {
+      "path": "validation/round3-2026-11-12/FREEZE.json",
+      "sha256": "80ec5b525d9c4f5e216811c26b1bb883b5c706532aef91f3050c54530bb69182",
+      "bytes": 5854
+    },
+    {
+      "path": "validation/round3-2026-11-12/all-annotations.json",
+      "sha256": "5a0390bb11e72e09b5ee8053f22d894b4ed3a4ec9e59784727d4ead9373140ed",
+      "bytes": 175976
+    },
+    {
+      "path": "validation/round3-2026-11-12/baseline-source/ocr_backend_v020.py",
+      "sha256": "19225812297a6f37b61833cb4dd904ee58c255acfa37ddc41b2d28090d7f2b3d",
+      "bytes": 10847
+    },
+    {
+      "path": "validation/round3-2026-11-12/baseline-source/vision_v020.py",
+      "sha256": "da33df0b78779768b0fa7edd88ec275da4ba185fa26accaddd5987d69966a5dc",
+      "bytes": 41459
+    },
+    {
+      "path": "validation/round3-2026-11-12/corpus-audit.json",
+      "sha256": "d63e5b7ebd7b8f226d54134bec1f577a1a3651073f20740ae7fe2f7f3d2e3964",
+      "bytes": 12954
+    },
+    {
+      "path": "validation/round3-2026-11-12/corpus_audit.md",
+      "sha256": "959001e9183efe51ff03419acbef4c40cc5d5ca15e6668d2b4e65c8efe192607",
+      "bytes": 1517
+    },
+    {
+      "path": "validation/round3-2026-11-12/development-annotations.json",
+      "sha256": "cda8a5b00d1b1b144a1e2161c25eec4c4f753eed202440a7cd5f083eebc0c1c8",
+      "bytes": 149121
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/consumed_nature_01-983f8c36-default.json",
+      "sha256": "de104404772ff6c6a1b813574c5a754d1114ccafe82bdb50648f4cbc2264ab58",
+      "bytes": 89894
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/consumed_nature_02-3565a4fb-default.json",
+      "sha256": "583b2b89704dabf43114ef4d62a37e5dd1150764531a1feca985638115ba99e5",
+      "bytes": 90790
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/consumed_nature_03-a2a2fa2d-default.json",
+      "sha256": "2a356166e99494084c952ee7ff866b5499b854d1fd1aaa1e68ae1126269132ac",
+      "bytes": 84764
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/consumed_nature_04-8d37b780-default.json",
+      "sha256": "07bec07e147814858c64f79126efa69a81f3c43dcf2eaee81201eec591006c87",
+      "bytes": 81647
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/consumed_nature_05-0ef3d29e-default.json",
+      "sha256": "acf8e75a9882bb68de1f4e2724f5faf29fd19fc01b9df9183bbe58ec5e31d8a6",
+      "bytes": 88622
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_01-0e39fd72-default.json",
+      "sha256": "c55808f9b3ab9bf0160dd9be1175e17b0af8e149db6ac4d5b8ed6ee75db54de5",
+      "bytes": 93448
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_02-9d7247ee-default.json",
+      "sha256": "2cf63f7c9a1b65d1c9a4c1bf795f65b66e971e61cd36c9ef9f6fbc74e1f0086a",
+      "bytes": 91052
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_03-b2e97515-default.json",
+      "sha256": "26d093ce40109eef893b000872a9f7fe5b95cd776184b72e266a6e3f0f3caae0",
+      "bytes": 87222
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_04-c114b7a9-default.json",
+      "sha256": "38a3367f1bcdae66358173be06417a30df98aa9097d07d77e4ded22ebec2ba6c",
+      "bytes": 94324
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_05-23370045-default.json",
+      "sha256": "bff3cdb5d508c923a0dd06fd11a52b985e94e7e4fb1e383cc0c02871a23fb7a3",
+      "bytes": 84181
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_06-86ebc3de-default.json",
+      "sha256": "4622ae7afb7eee547dfdd0fe8037a8d456973881c2f28035077f33528cda59d1",
+      "bytes": 80489
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_07-a5be60d1-default.json",
+      "sha256": "66ed2753663879b714a561fb7b3b6de5a2a5a775a2414c995674577dde978c0e",
+      "bytes": 92725
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_08-d3064a7a-default.json",
+      "sha256": "57a5ea8cdedee2988491526e9eef0fb96b65511a8bd8289bab220970641292ed",
+      "bytes": 84348
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_09-a0997578-default.json",
+      "sha256": "33255fad95164b887780a21da09395fc3a3078307327e9567a4cea3308711f9b",
+      "bytes": 86718
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_10-c1672700-default.json",
+      "sha256": "341ad2261a9dd963a02cf6fdaf19e7083779c777b4c41949409b76bebbcf010b",
+      "bytes": 86956
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_dev_11-4e9e60ad-default.json",
+      "sha256": "09488ba63a18d8f1324eb5507223c64d0db7450eeac94b31736748d4a04f170c",
+      "bytes": 90687
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_sealed_01-90f4cfe7-default.json",
+      "sha256": "ad1b68f6ed6af04439f03416fbb17fce57e940fb4a6266ea94561606b1881204",
+      "bytes": 78381
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_sealed_02-356bf13d-default.json",
+      "sha256": "1af383d1b411e9e229a2d71a8ba3c3d34db456cc35bb962ff5c27b1e530b4fad",
+      "bytes": 82509
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_sealed_03-e702e97b-default.json",
+      "sha256": "6688a2a73b3e97289d632d1233fdbbc07811cf033bd987548951b6f41d22a4f8",
+      "bytes": 78046
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_sealed_04-4165e716-default.json",
+      "sha256": "553d61aad6e79da66c7f7190aaae436acce254b0eca37d87804c039ca7b0fe16",
+      "bytes": 88722
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_sealed_05-5bc5d245-default.json",
+      "sha256": "2f0c09d8022da4e35e828d4e6d35a91bffbc8f9aa199d10a8c54fdbffaac813c",
+      "bytes": 85611
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/nature_sealed_06-ed2f671a-default.json",
+      "sha256": "2471f6d6f953fcd9c92afa99018f559741af291028bd6e321ce58b1f3bb40258",
+      "bytes": 76513
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_azir_video_first-3b2e36cd-default.json",
+      "sha256": "49cc521c2429c05e51038284f33d9211faa501f4c211a47da5f5cd49413ef3d8",
+      "bytes": 25072
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_chuapp_03-da69453f-default.json",
+      "sha256": "5f9cb18793fd51a341dc768e37914dbce7a38409fbc92f0896ca99dccb6d7f33",
+      "bytes": 29310
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_chuapp_04-74eed507-default.json",
+      "sha256": "d5969cb4736069d88c1ebbd9c759316ce8916823b0a72d4984493e197a1aa0a5",
+      "bytes": 29380
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_chuapp_08-92dc33bb-default.json",
+      "sha256": "c9966bceededf49321134c66bb70e1038328f2d9b4052bc8ed09fafa3edcfc87",
+      "bytes": 27662
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_01-275ab742-default.json",
+      "sha256": "e5e3989c8e1ee69c2a6cde62ae98a59a65b405d5d58677fad2a518319efd27fc",
+      "bytes": 31143
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_02-ceb3ebc9-default.json",
+      "sha256": "4b305be592e376df595f59cb85d56f17ec6fec65b37a4767ce2612808001d7eb",
+      "bytes": 26747
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_03-eb092886-default.json",
+      "sha256": "fed6b359a2f3206e0383b1f1fcae5f6b4390fe5bef7a5947dfd28c9b394f9628",
+      "bytes": 28721
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_04-fc469c42-default.json",
+      "sha256": "7b7fdfca50ed8a87e34754fd7b939a53614b1d7180e062dea2944e1f4d02f587",
+      "bytes": 31453
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_05-e3768f46-default.json",
+      "sha256": "54c31aaf0c44c0522c1799fd7f808a64e6138b07cba0cfdd89bb95051b24d853",
+      "bytes": 27344
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_06-c8b74051-default.json",
+      "sha256": "659f2f01dfcf2c79022f9fc06570398518bbf986b9180ecd53ba19c1d24e06c5",
+      "bytes": 24228
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_07-cc6b1b69-default.json",
+      "sha256": "6b1fff01096e3c118d77cc1f752f03d05e74189b33a3c31f18139743b1b26f4b",
+      "bytes": 26181
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_08-6869ef62-default.json",
+      "sha256": "07c685927f09e46dda847b22975d9c63e5816f32ab009d2e022913b5686e38b3",
+      "bytes": 26886
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_09-497f438a-default.json",
+      "sha256": "a5dde6524974b9c9224b072dd59c7b80014c089990d887fb278235b3930375cd",
+      "bytes": 22517
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_10-68ecb9c6-default.json",
+      "sha256": "10dfacaeb63f9bf7b64d11827616023f138155a2a892cab6bc0983ba4f66acb6",
+      "bytes": 29502
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_exp_11-497dca61-default.json",
+      "sha256": "b44252910db17c6c3f305d5ad2c25a60955eb1c9abfa21d8818a3e1526add732",
+      "bytes": 27203
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/orange_taptap_loadout-6b11089d-default.json",
+      "sha256": "83c8e9a464ffcaa7d9955014e3bef19428528450fbbcb23997c6bb809ea09e29",
+      "bytes": 30340
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_01-de09288f-default.json",
+      "sha256": "0f1ce282d8e2fb863ef8089159466c2bb0e9b02b35517776c3c34996ceb5abbc",
+      "bytes": 93208
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_02-d5401a8c-default.json",
+      "sha256": "be59c7d8965b1b588bd3a6df94eac76a0d8b6994b6795e5b84e2961e14ca47de",
+      "bytes": 91157
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_03-280d2e30-default.json",
+      "sha256": "ceddd1969c5c681cb0ff541027e1b4209da810830f64509ae8daaeb6bd08994f",
+      "bytes": 85316
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_04-1201923c-default.json",
+      "sha256": "e4f0aa5c5614ef7a518cf73d802c27c6719d6612c4be8e5de81f671ac13d7e33",
+      "bytes": 94390
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_05-e7bcb139-default.json",
+      "sha256": "80f0d84a75323d70ed2d714dac8c8a181235b3a62262e42a2a038076f324a55c",
+      "bytes": 88597
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_06-2f2b6ed8-default.json",
+      "sha256": "778f37b326cc969701efd9b41e97b9ff1ff54045106e0d4afede4b1cac705510",
+      "bytes": 78590
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/raw/r3_nature_dev_07-868e06ab-default.json",
+      "sha256": "8f6c2101058378e11c05ef4f7932585cefbec4d271d840f1c709b04583fc5c42",
+      "bytes": 81017
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/report.html",
+      "sha256": "6cd9f4fa620e904e49d5bf14e135d1b8408ebc8ea0bcd4dabf3155c869168b2a",
+      "bytes": 36897
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/baseline/report.json",
+      "sha256": "c1b025e80fe15d8b7069b357848d08c7ab8dfec005b944df625ff83e4282885f",
+      "bytes": 295189
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/comparison.json",
+      "sha256": "30c9f9558ebf616263cf9c23df5f3e713eb428e5a121c82d26b8e3b52ccffdff",
+      "bytes": 7291
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/consumed_nature_01-983f8c36-default.json",
+      "sha256": "6cd1f4bdbe29a09a06f0c4d52ab1366b70951c049b7ce897d5c34e0684f06edf",
+      "bytes": 90180
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/consumed_nature_02-3565a4fb-default.json",
+      "sha256": "49eafd3e0818804dc2c5701f9497d4eeed0d3685aa4561196e1c517a97f858a0",
+      "bytes": 93137
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/consumed_nature_03-a2a2fa2d-default.json",
+      "sha256": "157801477963f2a4cbce20196eef3b22b1515a02a0614ad8742c786bde332dc6",
+      "bytes": 87109
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/consumed_nature_04-8d37b780-default.json",
+      "sha256": "e6d00a65102266d193afd59ba4fd63aa96e322cdc248ada2dba144b3402ab160",
+      "bytes": 83970
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/consumed_nature_05-0ef3d29e-default.json",
+      "sha256": "58adbce15b63f90bbb91b38debfa50cdee7598c580e09857a0dc191bcad9845e",
+      "bytes": 93492
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_01-0e39fd72-default.json",
+      "sha256": "7b511588fa428e240212f563d65ecc04035d9798042c3ae4e36b819528f5bf3d",
+      "bytes": 94624
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_02-9d7247ee-default.json",
+      "sha256": "6314443760eba58b2aa6d550b7090abf409a48284c1ac6d030c211c682778ad9",
+      "bytes": 93400
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_03-b2e97515-default.json",
+      "sha256": "6b389d8674d0da03d916f2b730ae9ccaa412c80266bb281f5e827caaeec982a8",
+      "bytes": 88405
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_04-c114b7a9-default.json",
+      "sha256": "0e0c4f8545fffa91ce20b36cb6eb673483e3e41a070271ca577424342611aafb",
+      "bytes": 96647
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_05-23370045-default.json",
+      "sha256": "80c7bf1a2d74b8760f8f539035dd72dd571e569d562b770dfaf0c764c5ed72c7",
+      "bytes": 85361
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_06-86ebc3de-default.json",
+      "sha256": "68adc10f84cec29d3844ae7fb467ea11c35ba8cf59e8cb1a24c1c4f9bf916cb0",
+      "bytes": 82834
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_07-a5be60d1-default.json",
+      "sha256": "ac6c335f845ee8ccf991b4669b628d18e2bdd0e7c52c9020492513ddd27a2b65",
+      "bytes": 95069
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_08-d3064a7a-default.json",
+      "sha256": "73f72395ab5ecb29a324a736cc7260a80fd6c9cb3a80b9ba73bfc63465551aa2",
+      "bytes": 86691
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_09-a0997578-default.json",
+      "sha256": "258c79524dcd1abcc4f91547583576fa2b0a3a7a4fdc44dc524b1fb306ef4c81",
+      "bytes": 90522
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_10-c1672700-default.json",
+      "sha256": "802dd99f7c633e021f43e659bae4008f4aca713b41c778f35632bac81ce7fa5f",
+      "bytes": 88136
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_dev_11-4e9e60ad-default.json",
+      "sha256": "9effc5688d07e7418e333ff16ef3ffd9240042c20c455c98bdc425f086ae051e",
+      "bytes": 93032
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_sealed_01-90f4cfe7-default.json",
+      "sha256": "88237c1c6374a28494013caacea4349041e91d1ffe8e736988e902b57235da3c",
+      "bytes": 78671
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_sealed_02-356bf13d-default.json",
+      "sha256": "93b2f52036920326ee0c0b349c704a2c00240831e7c3a21850c4ab9f66e76bdc",
+      "bytes": 82800
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_sealed_03-e702e97b-default.json",
+      "sha256": "147679a5a7b14199c51816e950c74ace556491352f6e63c79520c3ebeda25ce4",
+      "bytes": 78337
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_sealed_04-4165e716-default.json",
+      "sha256": "ab16ecad8b95efa28a3d7ca441fa4c65a7cce6f6e5b2a7536eebde6786f86050",
+      "bytes": 91066
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_sealed_05-5bc5d245-default.json",
+      "sha256": "6d9ef83e5c8a67235052162a0505afb48e67ef1190314aeacb279bf2ab2f9c28",
+      "bytes": 85903
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/nature_sealed_06-ed2f671a-default.json",
+      "sha256": "dfe494548063dfcb8b0c4452d4c0db3c7971fcb5ef90e23d06349890ce56a89a",
+      "bytes": 76804
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_azir_video_first-3b2e36cd-default.json",
+      "sha256": "7aedb0082d51d928f84ab61164662a1ba97231300a1d9e1db40fd1ce293a2357",
+      "bytes": 26228
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_chuapp_03-da69453f-default.json",
+      "sha256": "e4fe6320ed65cd811aaf898bc22de73ab2682319c85752fb6452e2ea91456ab5",
+      "bytes": 31940
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_chuapp_04-74eed507-default.json",
+      "sha256": "432f33da08306821e7d1f7117f098db5bb9faca8e8c91065922c5d521df03c61",
+      "bytes": 31013
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_chuapp_08-92dc33bb-default.json",
+      "sha256": "0a298e413f3c1fd619a5a117a4b2b9d6c250f03947e32b3ead0d8e69817ecdee",
+      "bytes": 30011
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_01-275ab742-default.json",
+      "sha256": "771041b9d64873a191cec6ee8d7abe095108e0cc42da6ca3fb5f9238c245bc5e",
+      "bytes": 37696
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_02-ceb3ebc9-default.json",
+      "sha256": "a19faacbea5d3f7ab8e86be5c6fec13dafb992118275d20bff2b04c9d95a76bd",
+      "bytes": 29248
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_03-eb092886-default.json",
+      "sha256": "ac984fcd0e51d8b286ef7e7765ac1f1f746efa358f19bfa3d2bdd959d726193d",
+      "bytes": 32141
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_04-fc469c42-default.json",
+      "sha256": "7bda612f7d265d6a332461ced8a6ec182c911c1cdce2407ac378a967685dda1d",
+      "bytes": 35164
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_05-e3768f46-default.json",
+      "sha256": "c848a051eafcf6f1f235dafcc56ed32a355a0afeb345d2ffa20c1c5c087bdb7c",
+      "bytes": 29336
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_06-c8b74051-default.json",
+      "sha256": "c939513631bbb77b3966e015e29812b738fd1b887314723a6023bdd6ee2ae851",
+      "bytes": 25404
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_07-cc6b1b69-default.json",
+      "sha256": "a8409e5eea03e34a1f56638d931e0651350006f8e1321b65a6eaf0ed8e35e934",
+      "bytes": 28654
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_08-6869ef62-default.json",
+      "sha256": "ecdc680436aae50a8ce8fdc0bde6d38f1d781f981b9265f0b12514776262f7c2",
+      "bytes": 28432
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_09-497f438a-default.json",
+      "sha256": "c2a41d620da08acbcab2fc014b8c8db88cec0200ca4c9e14a5470fe870704639",
+      "bytes": 23133
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_10-68ecb9c6-default.json",
+      "sha256": "03a6a37afddb05ff01374c1c135a4f0a47857c2f13f55d4b3ac6a58aef36099f",
+      "bytes": 31265
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_exp_11-497dca61-default.json",
+      "sha256": "2cac6769b1d2944a71aa82bd5e3867d1083506d5a32dc91b4b9ab9acbf5a9fb7",
+      "bytes": 28848
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/orange_taptap_loadout-6b11089d-default.json",
+      "sha256": "f0d46cce57d7af832f29e6305c129500e1f88cefe8a540833bfb88050af9fa38",
+      "bytes": 31880
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_01-de09288f-default.json",
+      "sha256": "9d316d9dc8ad3dca62a80a004773a3665a4e8c6e9e910d85df8a18b75d0b5d89",
+      "bytes": 93497
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_02-d5401a8c-default.json",
+      "sha256": "635663fc2f0b02a1969cea5aa154aec845938275529efc5d8a5e0811193d15aa",
+      "bytes": 91449
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_03-280d2e30-default.json",
+      "sha256": "90479b0722fe12453c8e3ab18c18154564b7e072eafc42558109190a39a1f37b",
+      "bytes": 85607
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_04-1201923c-default.json",
+      "sha256": "4e4d9bdd46ae0b3d5518e43ce35ca60cf76ac4ad25342c49bb561971bdfd2f61",
+      "bytes": 94680
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_05-e7bcb139-default.json",
+      "sha256": "79f82014c796ee7b3a9c47cc0f74f8f2d8294736697d90bedce63bc7d7efa0c9",
+      "bytes": 92456
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_06-2f2b6ed8-default.json",
+      "sha256": "b57f38b570e3a9c74dac0c97d1188fd90f0e81bf0091736b847c698e6ccbba74",
+      "bytes": 78881
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/raw/r3_nature_dev_07-868e06ab-default.json",
+      "sha256": "3240f50f030ce2593593d19b489aead5e4f65f2398f7f7cfe88ebd207a721279",
+      "bytes": 81309
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/report.html",
+      "sha256": "9dbda57f20e2bd9d6a5c1adbcfbb061315c6d8816a3194e79be1c6801af02630",
+      "bytes": 37432
+    },
+    {
+      "path": "validation/round3-2026-11-12/development/optimized/report.json",
+      "sha256": "93c6a32768def0237a21c25ee7ac5b2f8f9cc5b7ccef62a66ca3a3b5e05bfa6e",
+      "bytes": 281126
+    },
+    {
+      "path": "validation/round3-2026-11-12/development_ocr_cache.json",
+      "sha256": "e26b0fe1a291b46ec0fea43a86a9bfa7e03b6b69ded915b8e96c95e94780db27",
+      "bytes": 478096
+    },
+    {
+      "path": "validation/round3-2026-11-12/index.html",
+      "sha256": "fd4cf41093a365cbd2e59fc85764032b3cdf12ef3c813d059a0c31ed98ce200d",
+      "bytes": 23667
+    },
+    {
+      "path": "validation/round3-2026-11-12/live-smoke.json",
+      "sha256": "2d3136c69f9dc88b7bc1d6ef72a62b56b31e1f7a49a396ec585a3eecdadfc727",
+      "bytes": 134749
+    },
+    {
+      "path": "validation/round3-2026-11-12/new-nature-curation.md",
+      "sha256": "cb515fcfa96e4e506c12c1fc9e81d1c361bece0aae8abfda306a45b715d26a96",
+      "bytes": 6432
+    },
+    {
+      "path": "validation/round3-2026-11-12/new-nature-sources.json",
+      "sha256": "5a6e7b9c851db00fef39a161940805995b2a26571b4a4a619afe04726e80411f",
+      "bytes": 5233
+    },
+    {
+      "path": "validation/round3-2026-11-12/new-orange-sources.json",
+      "sha256": "e22fb31930995d8166d81d7e2b3e2337c9a529eade5231db385891777fad788b",
+      "bytes": 2607
+    },
+    {
+      "path": "validation/round3-2026-11-12/patch-audit.json",
+      "sha256": "26372801e64c417e9b5deaa1c692b18112dab9fa68a7ce90d1507488c69dcb3f",
+      "bytes": 46096
+    },
+    {
+      "path": "validation/round3-2026-11-12/patch-audit.md",
+      "sha256": "0f41f007d98a9dec90ce171a42d6e3628b0cb9d4b4b225da7e2f750496b16a6f",
+      "bytes": 6233
+    },
+    {
+      "path": "validation/round3-2026-11-12/replay_v030.py",
+      "sha256": "76a6206ba34b041effdba9d1aeeaede0eb040e1c93fc0a0ab63c9323332eb721",
+      "bytes": 1285
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed-annotations.json",
+      "sha256": "e0e96079146473247c45f5d471000f5503edf1f7df8b7563361806ad16875fc9",
+      "bytes": 27106
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/orange_r3_01-2b6d76cc-default.json",
+      "sha256": "01b67bb3c061cc36e999203292c17b005af5049e9b35f2d0782f1e9258aa6e27",
+      "bytes": 32395
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/orange_r3_02-2cd8c7dd-default.json",
+      "sha256": "37cbd4dca91b3bb445e81be4c9cefa80c41e87e665273ecc6f7715808484bf29",
+      "bytes": 30278
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/r3_nature_sealed_01-74cf9668-default.json",
+      "sha256": "e1377b7eaea36e022de04a09da787d71286a7fe9bc8affc4447a0f7ccea8ebc2",
+      "bytes": 92434
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/r3_nature_sealed_02-86d60d14-default.json",
+      "sha256": "80b8203c4395965903cb8679c8390f3cf8da9a87f9c104e4416012fdad29c190",
+      "bytes": 87780
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/r3_nature_sealed_03-47ccd77c-default.json",
+      "sha256": "9812aa7df4b5e3c8b983ade9c17a56041eaf917360d2c42bf3925fa6ccfbdba8",
+      "bytes": 96775
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/r3_nature_sealed_04-caccc533-default.json",
+      "sha256": "bee2bc6bebbd15995dad379bcc859c44ebaa0df0147559a81d6c1f5046ed9dd7",
+      "bytes": 78903
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/raw/r3_nature_sealed_05-863af7ec-default.json",
+      "sha256": "d8dcab7a1f372a2beb339a4e38624396fc3eb63bd1d8776cc7214f8992a3b490",
+      "bytes": 78091
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/report.html",
+      "sha256": "56d1b4fe075a425b4d51310b0b2bda64c06332f9a1a5a8cee6f8d0cc745032ff",
+      "bytes": 15220
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/baseline/report.json",
+      "sha256": "34d1f1b503698b5c364dd29f325b4416dd5e770b686df17e7f5a3bec85b4bcdc",
+      "bytes": 86817
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/checkpoint.json",
+      "sha256": "a3629bf10044c62c5e3d6ffdd3825f9209d14cf21f907bafe281931eb3dccce9",
+      "bytes": 43374
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/comparison.json",
+      "sha256": "7c3541e98d640e0a2034a3ee57f53f8f74be518406168fca45696f422b15c972",
+      "bytes": 6879
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/orange_r3_01-2b6d76cc-default.json",
+      "sha256": "e3e246c7345231237908c337ccd48a280d89039a40c6e9b42449c4ede24dbbe8",
+      "bytes": 34182
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/orange_r3_02-2cd8c7dd-default.json",
+      "sha256": "9af4e94c40d1c93e2fa47f77238c8b431b119432ac36e3ace30652b4418024fe",
+      "bytes": 30846
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/r3_nature_sealed_01-74cf9668-default.json",
+      "sha256": "e21a9ef4bb4781c86caec7da38254713694bf48eaf50de47e9d23bdd66c885a5",
+      "bytes": 92699
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/r3_nature_sealed_02-86d60d14-default.json",
+      "sha256": "c6e70f38109a09cd5c1cdf4cb1d8b59a9952f6ae2508f1acef7bd11e5b05cf7c",
+      "bytes": 88044
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/r3_nature_sealed_03-47ccd77c-default.json",
+      "sha256": "7128d8911ca95d4dee00325154bf2051931d438e6fe95a0b9ac962ea2d649b00",
+      "bytes": 97039
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/r3_nature_sealed_04-caccc533-default.json",
+      "sha256": "8d7d90c22a3734d0ff2c346e54336a8d021d54355ffd22bf91beea746b165fc3",
+      "bytes": 79167
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/raw/r3_nature_sealed_05-863af7ec-default.json",
+      "sha256": "b77cd2b813d7b4faa57e669902458a0e02742460e2f1ab7bcf98c2625c307e0d",
+      "bytes": 78354
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/report.html",
+      "sha256": "1c84f32855edd9d6f692c7cdbf7440df13a2d9032433293bd15b46b205603de7",
+      "bytes": 15208
+    },
+    {
+      "path": "validation/round3-2026-11-12/sealed/optimized/report.json",
+      "sha256": "e8e2a2dabc06f58b04c020c5b7a466d5c23c72c2ee495c4e0b334187ababf09b",
+      "bytes": 86809
+    },
+    {
+      "path": "validation/round3-2026-11-12/summary.json",
+      "sha256": "fd1af1ad70315aa324dea3cf3509250b128c8b964ddd128b218b6c6dd6dcf89c",
+      "bytes": 316927
+    }
+  ]
+}

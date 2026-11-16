@@ -1,0 +1,184 @@
+{
+  "purpose": "Development-calibration-only diagnostic at preview threshold .5; not threshold selection or accuracy evidence; published strict evaluation left unchanged",
+  "new_round3_sealed_accessed": false,
+  "n_predictions_for_labelled_calibration_values": 8,
+  "value_correct_but_strict_region_rejected": 5,
+  "rows": [
+    {
+      "sample_id": "nature_dev_10",
+      "field": "stage",
+      "expected": "2-5",
+      "predicted": "2-5",
+      "value_correct": true,
+      "evaluation_region_match": true,
+      "supervision_region_match": true,
+      "model_score": 0.992769,
+      "predicted_bbox": [
+        0.375,
+        0.008016032064128256,
+        0.025925925925925925,
+        0.036072144288577156
+      ],
+      "manual_box": [
+        0.37963,
+        0.008016,
+        0.026852,
+        0.036072
+      ]
+    },
+    {
+      "sample_id": "nature_dev_11",
+      "field": "stage",
+      "expected": "4-7",
+      "predicted": "4-7",
+      "value_correct": true,
+      "evaluation_region_match": true,
+      "supervision_region_match": true,
+      "model_score": 0.992845,
+      "predicted_bbox": [
+        0.37681818181818183,
+        0.011788282447247436,
+        0.02181818181818182,
+        0.032417776729930445
+      ],
+      "manual_box": [
+        0.37963,
+        0.008016,
+        0.026852,
+        0.036072
+      ]
+    },
+    {
+      "sample_id": "r3_nature_dev_01",
+      "field": "stage",
+      "expected": "2-1",
+      "predicted": "2-1",
+      "value_correct": true,
+      "evaluation_region_match": false,
+      "supervision_region_match": true,
+      "model_score": 0.992433,
+      "predicted_bbox": [
+        0.34765625,
+        0.004166666666666667,
+        0.03984375,
+        0.03611111111111111
+      ],
+      "manual_box": [
+        0.365625,
+        0.011111,
+        0.019531,
+        0.022222
+      ]
+    },
+    {
+      "sample_id": "r3_nature_dev_01",
+      "field": "level",
+      "expected": 3,
+      "predicted": 3,
+      "value_correct": true,
+      "evaluation_region_match": false,
+      "supervision_region_match": true,
+      "model_score": 0.535523,
+      "predicted_bbox": [
+        0.1828125,
+        0.7763888888888889,
+        0.02578125,
+        0.03333333333333333
+      ],
+      "manual_box": [
+        0.185938,
+        0.784722,
+        0.007812,
+        0.023611
+      ]
+    },
+    {
+      "sample_id": "r3_nature_dev_02",
+      "field": "stage",
+      "expected": "2-6",
+      "predicted": "2-6",
+      "value_correct": true,
+      "evaluation_region_match": false,
+      "supervision_region_match": true,
+      "model_score": 0.992347,
+      "predicted_bbox": [
+        0.34765625,
+        0.004166666666666667,
+        0.040625,
+        0.03611111111111111
+      ],
+      "manual_box": [
+        0.365625,
+        0.011111,
+        0.019531,
+        0.022222
+      ]
+    },
+    {
+      "sample_id": "r3_nature_dev_02",
+      "field": "gold",
+      "expected": 40,
+      "predicted": 6,
+      "value_correct": false,
+      "evaluation_region_match": false,
+      "supervision_region_match": false,
+      "model_score": 0.633375,
+      "predicted_bbox": [
+        0.80078125,
+        0.7875,
+        0.0125,
+        0.02638888888888889
+      ],
+      "manual_box": [
+        0.502344,
+        0.783333,
+        0.014063,
+        0.022222
+      ]
+    },
+    {
+      "sample_id": "r3_nature_dev_03",
+      "field": "stage",
+      "expected": "3-4",
+      "predicted": "3-4",
+      "value_correct": true,
+      "evaluation_region_match": false,
+      "supervision_region_match": true,
+      "model_score": 0.992461,
+      "predicted_bbox": [
+        0.3484375,
+        0.004166666666666667,
+        0.03984375,
+        0.03611111111111111
+      ],
+      "manual_box": [
+        0.364844,
+        0.009722,
+        0.021094,
+        0.023611
+      ]
+    },
+    {
+      "sample_id": "r3_nature_dev_04",
+      "field": "stage",
+      "expected": "4-2",
+      "predicted": "4-2",
+      "value_correct": true,
+      "evaluation_region_match": false,
+      "supervision_region_match": true,
+      "model_score": 0.99243,
+      "predicted_bbox": [
+        0.3484375,
+        0.004166666666666667,
+        0.03984375,
+        0.03611111111111111
+      ],
+      "manual_box": [
+        0.365625,
+        0.011111,
+        0.019531,
+        0.022222
+      ]
+    }
+  ]
+}

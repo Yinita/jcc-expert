@@ -1,0 +1,1618 @@
+{
+  "kind": "supervised_OCR_line_field_assignment_not_win_probability",
+  "mode": "shared",
+  "patch": "18.6",
+  "feature_version": "ocr-field-geometry-2",
+  "created_at": "2026-11-12T08:03:53.665153+00:00",
+  "group_partitions": {
+    "train": [
+      "ali213_1032951",
+      "sohu_1068964903",
+      "source_chuapp_291737",
+      "source_taptap_867251881297052929",
+      "taptap_840465181304686223",
+      "wanplus_507000"
+    ],
+    "calibration": [
+      "bili_BV1uCti6oEk7",
+      "source_taptap_867151065470994551",
+      "source_taptap_867454613899445849",
+      "youxituoluo_534823"
+    ],
+    "validation": [
+      "17173_08242026_093003976",
+      "chuapp_291576",
+      "source_3dm_3746579",
+      "source_taptap_867484028389820540"
+    ]
+  },
+  "annotation_stats": {
+    "consumed_nature_01": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "other": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_02": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_03": {
+      "supervised_rows": 5,
+      "labels": {
+        "other": 2,
+        "hp": 1,
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 35
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_04": {
+      "supervised_rows": 3,
+      "labels": {
+        "gold": 1,
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 27,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "consumed_nature_05": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_chuapp_03": {
+      "supervised_rows": 35,
+      "labels": {
+        "other": 35
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_chuapp_04": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 38
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_chuapp_08": {
+      "supervised_rows": 25,
+      "labels": {
+        "other": 25
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_collection",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_azir_video_first": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 19
+      },
+      "annotation_context": "board_with_card_activation_overlay",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_taptap_loadout": {
+      "supervised_rows": 33,
+      "labels": {
+        "other": 33
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_dev_01": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 64
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_02": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 55
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_03": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_04": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 59
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_05": {
+      "supervised_rows": 2,
+      "labels": {
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 36
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_06": {
+      "supervised_rows": 4,
+      "labels": {
+        "hp": 1,
+        "level": 1,
+        "stage": 1,
+        "gold": 1
+      },
+      "ignored": {
+        "unlabelled_line": 24
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_07": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 52
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_08": {
+      "supervised_rows": 3,
+      "labels": {
+        "gold": 1,
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 37,
+        "duplicate_supervision_removed": 1
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_09": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 41
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_10": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 45
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_dev_11": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 43
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_01": {
+      "supervised_rows": 29,
+      "labels": {
+        "other": 29
+      },
+      "ignored": {},
+      "annotation_context": "orange_starter_deck_selection",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_02": {
+      "supervised_rows": 23,
+      "labels": {
+        "other": 23
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_repair",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_03": {
+      "supervised_rows": 26,
+      "labels": {
+        "other": 26
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_rewards",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_04": {
+      "supervised_rows": 37,
+      "labels": {
+        "other": 37
+      },
+      "ignored": {},
+      "annotation_context": "orange_deck_editor",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_05": {
+      "supervised_rows": 24,
+      "labels": {
+        "other": 24
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_06": {
+      "supervised_rows": 15,
+      "labels": {
+        "other": 15
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_01": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 17
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_02": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 34
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_sealed_03": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 9
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "nature_sealed_04": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 49
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_05": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 38
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "nature_sealed_06": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 7
+      },
+      "annotation_context": "unknown",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_07": {
+      "supervised_rows": 22,
+      "labels": {
+        "other": 22
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_08": {
+      "supervised_rows": 21,
+      "labels": {
+        "other": 21
+      },
+      "ignored": {},
+      "annotation_context": "orange_card_detail",
+      "effective_context": "unknown",
+      "context_mismatch_with_annotation": true
+    },
+    "orange_exp_09": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 13
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_10": {
+      "supervised_rows": 32,
+      "labels": {
+        "other": 32
+      },
+      "ignored": {},
+      "annotation_context": "orange_loadout",
+      "effective_context": "orange_menu",
+      "context_mismatch_with_annotation": false
+    },
+    "orange_exp_11": {
+      "supervised_rows": 0,
+      "labels": {},
+      "ignored": {
+        "unlabelled_line": 31
+      },
+      "annotation_context": "orange_super_time",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": false
+    },
+    "r3_nature_dev_01": {
+      "supervised_rows": 1,
+      "labels": {
+        "hp": 1
+      },
+      "ignored": {
+        "unlabelled_line": 56
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "r3_nature_dev_02": {
+      "supervised_rows": 1,
+      "labels": {
+        "hp": 1
+      },
+      "ignored": {
+        "unlabelled_line": 55
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "r3_nature_dev_03": {
+      "supervised_rows": 3,
+      "labels": {
+        "other": 1,
+        "hp": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 44
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "r3_nature_dev_04": {
+      "supervised_rows": 2,
+      "labels": {
+        "other": 1,
+        "hp": 1
+      },
+      "ignored": {
+        "unlabelled_line": 65
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "r3_nature_dev_05": {
+      "supervised_rows": 6,
+      "labels": {
+        "stage": 1,
+        "other": 4,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 45
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "r3_nature_dev_06": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "other": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 18
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    },
+    "r3_nature_dev_07": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "other": 1,
+        "gold": 1
+      },
+      "ignored": {
+        "unlabelled_line": 28
+      },
+      "annotation_context": "unknown",
+      "effective_context": "board",
+      "context_mismatch_with_annotation": true
+    }
+  },
+  "supervised_class_counts": {
+    "stage": 14,
+    "other": 226,
+    "gold": 10,
+    "level": 15,
+    "hp": 2
+  },
+  "n_supervised_rows": 390,
+  "n_training_rows": 267,
+  "context_policy": "OCR_only_context_derived_identically_for_training_and_serving; annotation.screen_type_is_diagnostic_only",
+  "data_quality": {
+    "positive_only_images": 14,
+    "source_groups_with_other": [
+      "bili_BV1uCti6oEk7",
+      "chuapp_291576",
+      "sohu_1068964903",
+      "source_3dm_3746579",
+      "source_chuapp_291737",
+      "source_taptap_867151065470994551",
+      "source_taptap_867251881297052929",
+      "source_taptap_867484028389820540",
+      "taptap_840465181304686223",
+      "wanplus_507000"
+    ],
+    "class_source_groups": {
+      "stage": [
+        "sohu_1068964903",
+        "taptap_840465181304686223",
+        "wanplus_507000"
+      ],
+      "gold": [
+        "sohu_1068964903",
+        "wanplus_507000"
+      ],
+      "hp": [
+        "sohu_1068964903"
+      ],
+      "level": [
+        "sohu_1068964903",
+        "taptap_840465181304686223",
+        "wanplus_507000"
+      ],
+      "other": [
+        "sohu_1068964903",
+        "source_chuapp_291737",
+        "source_taptap_867251881297052929",
+        "taptap_840465181304686223",
+        "wanplus_507000"
+      ]
+    },
+    "duplicate_rows_removed": 3,
+    "annotation_context_mismatch_images": 32
+  },
+  "limitations": [
+    "Only explicitly annotated lines supervise training; unknown labels are not negatives.",
+    "Temperature and thresholds are selected on development calibration groups. Validation groups are not used to tune thresholds.",
+    "Old consumed holdout groups are development validation, not a new unseen test. sealed_test is never opened.",
+    "This model assigns OCR lines to UI fields; values must parse from OCR. It does not predict wins.",
+    "Small or source-limited validation cannot establish deployment accuracy or real-match benefits."
+  ],
+  "status": "candidate_unvalidated",
+  "deployable": false,
+  "reason": "Separate validation coverage/precision has not met the declared minimum; Shared recognition requires separate sufficient nature and orange validation",
+  "calibration": {
+    "status": "development_temperature_fit",
+    "rows": 45,
+    "nll": 0.13165522866330454,
+    "equal_source_group_weights": true,
+    "groups": [
+      "bili_BV1uCti6oEk7",
+      "source_taptap_867151065470994551",
+      "youxituoluo_534823"
+    ]
+  },
+  "temperature": 0.4940693596448605,
+  "thresholds": {
+    "stage": 1.000001,
+    "gold": 1.000001,
+    "hp": 1.000001,
+    "level": 0.98
+  },
+  "threshold_selection_calibration": {
+    "level": {
+      "n_labelled": 7,
+      "correct": 2,
+      "wrong": 0,
+      "abstain": 5,
+      "false_positive_absent": 0,
+      "correct_absence": 1,
+      "coverage": 0.2857142857142857,
+      "precision": 1.0
+    }
+  },
+  "validation_metrics": {
+    "n_labelled": 10,
+    "correct": 2,
+    "wrong": 0,
+    "abstain": 8,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.2,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 5,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 6,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.14285714285714285,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": 5,
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": 6,
+        "outcome": "correct"
+      }
+    ]
+  },
+  "unvalidated_preview_validation_metrics": {
+    "n_labelled": 10,
+    "correct": 6,
+    "wrong": 0,
+    "abstain": 4,
+    "false_positive_absent": 0,
+    "correct_absence": 12,
+    "coverage": 0.6,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 5,
+        "correct": 5,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 0,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": null,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 3,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 7,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 4,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.42857142857142855,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 3,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 12,
+        "coverage": 1.0,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "2-6",
+        "predicted": "2-6",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "gold",
+        "expected": 27,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_04",
+        "group_id": "17173_08242026_093003976",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "nature_sealed_05",
+        "group_id": "17173_08242026_093003976",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_07",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_08",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_09",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "5-2",
+        "predicted": "5-2",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_10",
+        "group_id": "source_taptap_867484028389820540",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "stage",
+        "expected": "4-1",
+        "predicted": "4-1",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_exp_11",
+        "group_id": "source_3dm_3746579",
+        "field": "level",
+        "expected": 6,
+        "predicted": 6,
+        "outcome": "correct"
+      }
+    ]
+  },
+  "min_validation_answers": 20,
+  "target_precision": 0.98,
+  "trained_classes": [
+    "gold",
+    "hp",
+    "level",
+    "other",
+    "stage"
+  ],
+  "validated_modes": [],
+  "learned_feature_weights": {
+    "gold": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": 1.6540906504670159
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.7423190541970588
+      },
+      {
+        "feature": "cy",
+        "coefficient": 0.7352487328784294
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.7081694491933185
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": -0.6471279489853226
+      },
+      {
+        "feature": "pixel_height",
+        "coefficient": 0.5383842528080665
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.5033139245767638
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": -0.48592619776176516
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.4763429312501818
+      },
+      {
+        "feature": "line_aspect",
+        "coefficient": 0.3134242385708346
+      }
+    ],
+    "hp": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -1.2767267113221776
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": 1.141532248990825
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": 1.0093178142789923
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.9515776092543629
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": -0.7281055763504845
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": -0.5659785454027082
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.44151123322463115
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.43615569130545356
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.4333413497069277
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.43300017918806355
+      }
+    ],
+    "level": [
+      {
+        "feature": "y_bucket=9",
+        "coefficient": 1.1452134739588378
+      },
+      {
+        "feature": "x_bucket=1",
+        "coefficient": 1.1378933532455202
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": 0.6276702875387903
+      },
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.5787600169401993
+      },
+      {
+        "feature": "cx",
+        "coefficient": -0.5344740111532651
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.5342468717863962
+      },
+      {
+        "feature": "x",
+        "coefficient": -0.5270521144391102
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.39584154538097777
+      },
+      {
+        "feature": "cy",
+        "coefficient": 0.3927716877865234
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": 0.35956450325929923
+      }
+    ],
+    "other": [
+      {
+        "feature": "x_bucket=6",
+        "coefficient": 0.8549446017513296
+      },
+      {
+        "feature": "x_bucket=0",
+        "coefficient": 0.8262065760558165
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.8228733176074173
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": -0.6900332068366888
+      },
+      {
+        "feature": "mode=nature",
+        "coefficient": -0.6900332068366888
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": 0.6814411356941389
+      },
+      {
+        "feature": "x_bucket=3",
+        "coefficient": -0.6759306946060528
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": -0.6049299524629751
+      },
+      {
+        "feature": "y_bucket=9",
+        "coefficient": -0.6012369965949854
+      },
+      {
+        "feature": "x_bucket=1",
+        "coefficient": -0.5612131185162511
+      }
+    ],
+    "stage": [
+      {
+        "feature": "x_bucket=3",
+        "coefficient": 1.0709917895494097
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": 1.0499236494825293
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": 0.8075663653382269
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": -0.7129984658960901
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": -0.7129984658960901
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.5106725495773351
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.5081675065862983
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.3367764740576055
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": 0.29383512586558597
+      },
+      {
+        "feature": "mode=nature",
+        "coefficient": 0.29383512586558597
+      }
+    ]
+  },
+  "artifact": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/model/3561bda113759e5137e2ffb9.candidate.joblib",
+  "artifact_sha256": "0bd663c3b582dd5745730c1fb140db1898ab47ee592bd023eb0e8e409eccf6dc",
+  "metadata": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/model/3561bda113759e5137e2ffb9.candidate.json",
+  "experiment": "Round3 expanded candidate: frozen old38 plus seven new development images",
+  "scope": "Old38 consumed development plus seven explicitly authorized new development screenshots; no round3 sealed input",
+  "new_round3_sealed_accessed": false,
+  "independent_test_evidence": false,
+  "validation_is_independent_final_evidence": false,
+  "validation_reuse_experiments": [
+    "baseline_v1",
+    "enhanced_v2",
+    "expanded_v3"
+  ],
+  "old_validation_groups_unchanged": true,
+  "input_annotations_sha256": "0a92c159cfb129593c414c48400b40709a43614077dcf4163307bb9edbde8530",
+  "image_counts_by_partition": {
+    "validation": 9,
+    "train": 28,
+    "calibration": 8
+  },
+  "ocr_provenance": {
+    "consumed_nature_01": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/consumed_nature_01-983f8c36-default.json"
+    },
+    "consumed_nature_02": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/consumed_nature_02-3565a4fb-default.json"
+    },
+    "consumed_nature_03": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/consumed_nature_03-a2a2fa2d-default.json"
+    },
+    "consumed_nature_04": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/consumed_nature_04-8d37b780-default.json"
+    },
+    "consumed_nature_05": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/consumed_nature_05-0ef3d29e-default.json"
+    },
+    "orange_chuapp_03": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_chuapp_03-da69453f-default.json"
+    },
+    "orange_chuapp_04": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_chuapp_04-74eed507-default.json"
+    },
+    "orange_chuapp_08": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_chuapp_08-92dc33bb-default.json"
+    },
+    "orange_azir_video_first": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_azir_video_first-3b2e36cd-default.json"
+    },
+    "orange_taptap_loadout": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_taptap_loadout-6b11089d-default.json"
+    },
+    "nature_dev_01": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_01-0e39fd72-default.json"
+    },
+    "nature_dev_02": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_02-9d7247ee-default.json"
+    },
+    "nature_dev_03": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_03-b2e97515-default.json"
+    },
+    "nature_dev_04": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_04-c114b7a9-default.json"
+    },
+    "nature_dev_05": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_05-23370045-default.json"
+    },
+    "nature_dev_06": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_06-86ebc3de-default.json"
+    },
+    "nature_dev_07": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_07-a5be60d1-default.json"
+    },
+    "nature_dev_08": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_08-d3064a7a-default.json"
+    },
+    "nature_dev_09": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_09-a0997578-default.json"
+    },
+    "nature_dev_10": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_10-c1672700-default.json"
+    },
+    "nature_dev_11": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/nature_dev_11-4e9e60ad-default.json"
+    },
+    "orange_exp_01": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_exp_01-275ab742-default.json"
+    },
+    "orange_exp_02": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_exp_02-ceb3ebc9-default.json"
+    },
+    "orange_exp_03": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_exp_03-eb092886-default.json"
+    },
+    "orange_exp_04": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_exp_04-fc469c42-default.json"
+    },
+    "orange_exp_05": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_exp_05-e3768f46-default.json"
+    },
+    "orange_exp_06": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/development/optimized/raw/orange_exp_06-c8b74051-default.json"
+    },
+    "nature_sealed_01": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/nature_sealed_01-90f4cfe7-default.json"
+    },
+    "nature_sealed_02": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/nature_sealed_02-356bf13d-default.json"
+    },
+    "nature_sealed_03": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/nature_sealed_03-e702e97b-default.json"
+    },
+    "nature_sealed_04": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/nature_sealed_04-4165e716-default.json"
+    },
+    "nature_sealed_05": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/nature_sealed_05-5bc5d245-default.json"
+    },
+    "nature_sealed_06": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/nature_sealed_06-ed2f671a-default.json"
+    },
+    "orange_exp_07": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/orange_exp_07-cc6b1b69-default.json"
+    },
+    "orange_exp_08": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/orange_exp_08-6869ef62-default.json"
+    },
+    "orange_exp_09": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/orange_exp_09-497f438a-default.json"
+    },
+    "orange_exp_10": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/orange_exp_10-68ecb9c6-default.json"
+    },
+    "orange_exp_11": {
+      "source": "frozen_old38_raw_OCR",
+      "raw_file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_eval/sealed/optimized/raw/orange_exp_11-497dca61-default.json"
+    },
+    "r3_nature_dev_01": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/e7c92b417e87a3cd24b3a1b82682bbba133a054ffea2e227f684a709f52a355a.json",
+      "cache_sha256": "04141e528fa67a8f0c5fbee1984d6c4c4651f4f9c8d88d94dbbc91e59b9c0381",
+      "image_sha256": "e7c92b417e87a3cd24b3a1b82682bbba133a054ffea2e227f684a709f52a355a",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    },
+    "r3_nature_dev_02": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/7f0459dac6ebd68e81a0da96ef2023f8453e1c47c01a1bee7bb97ba835921b04.json",
+      "cache_sha256": "d8e25f3254171e50b0839f1b6fe9ebf6dd39b3f0d8ae6770ed0c46d047a1f602",
+      "image_sha256": "7f0459dac6ebd68e81a0da96ef2023f8453e1c47c01a1bee7bb97ba835921b04",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    },
+    "r3_nature_dev_03": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/55cca284b60eca49f3f8b417982fe69bee8edb8536bd51fe0d4697f1e2eccd8e.json",
+      "cache_sha256": "b8b246d62e36306ba38062ea19ae7fb9f440cc479e96611a58bee0252695d80c",
+      "image_sha256": "55cca284b60eca49f3f8b417982fe69bee8edb8536bd51fe0d4697f1e2eccd8e",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    },
+    "r3_nature_dev_04": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/87256fed0aea7184dbeb459b03244eb2c571a69ef1659ea0ce8316f643b4cc83.json",
+      "cache_sha256": "e11736b895ea58bbead7c6ff14c45d2ef24ae81f2f6cebe90cd663765bd6f82e",
+      "image_sha256": "87256fed0aea7184dbeb459b03244eb2c571a69ef1659ea0ce8316f643b4cc83",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    },
+    "r3_nature_dev_05": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/2a061ae180f129f7b97daff2d485cdedc658f76f6cbd2a72d85ecaf98540fd92.json",
+      "cache_sha256": "58ef3f48e3e45d825073f8d44af0f598d1d0602a3dac98eff0fe19c17999fc1e",
+      "image_sha256": "2a061ae180f129f7b97daff2d485cdedc658f76f6cbd2a72d85ecaf98540fd92",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    },
+    "r3_nature_dev_06": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/7737c089b7f50f39033454d282d11355413515277e84bb1eaf121293ec90cc23.json",
+      "cache_sha256": "1630fd66489440f88dcd3656d14cec81552ec64a326fedccf9f9774483639dff",
+      "image_sha256": "7737c089b7f50f39033454d282d11355413515277e84bb1eaf121293ec90cc23",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    },
+    "r3_nature_dev_07": {
+      "cache": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/expanded_v3/ocr_cache/3a290a9aacb4588552cad5618f38eb9a64d1415811e1619e012088f7f61ccf09.json",
+      "cache_sha256": "9ec0677d773052016877d104b1e879be3ee533fc4be1efd455d260d17cc823a1",
+      "image_sha256": "3a290a9aacb4588552cad5618f38eb9a64d1415811e1619e012088f7f61ccf09",
+      "backend": "rapidocr_onnx_cpu_offline",
+      "ocr_method_source_sha256": "83736cddbeb6d2ee501754fd3152f7ead2758843d4a979b611f4c51a12801799"
+    }
+  },
+  "input_hashes": {
+    "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_training/annotations_consumed38.json": "207a91e15e933b59f5188075b1f0d6907c991a3f11100220fc151798ba17a07e",
+    "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/round3_screens/nature/annotations.json": "9f35f9a2c4b9ca31687d3b6aa2302d96d77f57c18648b002f26487baec771eff"
+  },
+  "frozen_old_annotations_verified_after": true,
+  "feature_code_sha256": "4d7631f2f2e6f1643f8a2a4c9fa7278eba90e4f9c6ca7e0416422d4475b49eb3",
+  "trainer_sha256": "390c561b86c3e5c9116295b4e6c9f6e125e32428d61b56ccf1c7b68e33f67cb2"
+}

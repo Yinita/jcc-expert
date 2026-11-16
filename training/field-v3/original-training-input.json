@@ -1,0 +1,3500 @@
+{
+  "purpose": "仅显式授权的开发标注合并；旧holdout均已消费，不是新test；sealed文件未传入。",
+  "deduplication": {
+    "input_rows": 25,
+    "kept": 25,
+    "decoded_pixel_duplicates": [],
+    "same_mode_decoded_pixel_sha": true
+  },
+  "input_annotation_sha256": {
+    "work/expanded_screens/nature/old_consumed_training.json": "416f84f1956609b17f02b4b6e5a8a6bb873487dd33f036d4fbabb00a52d0a891",
+    "work/expanded_screens/nature/annotations_development_corrected.json": "3e45ecfbf29ae7a5d57199b6ff45b94dfd07456d18cb5c1794219c396f8e9c31",
+    "work/expanded_screens/orange/development_annotations.json": "17f6232aab9499bf15baa7136d12506d523bddecd5fefa46801d1cc99ed4b9f1",
+    "work/field_training_seed/annotations.json": "4dcbe798233cbb4a66840a68aa2661a008dd4a2efd6478b2d7b9343d6259311a"
+  },
+  "sealed_records_skipped": 0,
+  "samples": [
+    {
+      "id": "consumed_nature_01",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/nature/nature_01.jpg",
+      "mode": "nature",
+      "group_id": "chuapp_291576",
+      "split": "validation",
+      "evaluation_role": "consumed_development_validation",
+      "previous_evaluation_role": "consumed_previous_benchmark",
+      "labels": {
+        "stage": "3-5",
+        "gold": 50,
+        "hp": null,
+        "level": 5,
+        "xp": 4,
+        "shop": [
+          "12507",
+          "12500",
+          "12500",
+          {
+            "empty": true
+          },
+          "12514"
+        ]
+      },
+      "shop_names": [
+        "暗影狼",
+        "峡谷迅捷蟹",
+        "峡谷迅捷蟹",
+        null,
+        "提莫"
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "empty",
+        "hero"
+      ],
+      "source_url": "https://www.chuapp.com/article/291576.html",
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-08-19/5146a857f777fe72.jpg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "field_boxes": {
+        "stage": [
+          0.3587962962962963,
+          0.010185185185185186,
+          0.023726851851851853,
+          0.023148148148148147
+        ],
+        "gold": [
+          0.5,
+          0.7722222222222223,
+          0.02141203703703704,
+          0.026851851851851852
+        ],
+        "level": [
+          0.13483796296296297,
+          0.7712962962962963,
+          0.010416666666666666,
+          0.025
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.1574074074074074,
+            0.8629629629629629,
+            0.010416666666666666,
+            0.026851851851851852
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.15625,
+            0.9481481481481482,
+            0.011574074074074073,
+            0.026851851851851852
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.6331018518518519,
+            0.011111111111111112,
+            0.011574074074074073,
+            0.025
+          ],
+          "kind": "countdown",
+          "text": "5",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        }
+      ],
+      "annotation_method": "manual_view_image_rechecked_with_crop_QA",
+      "notes": [
+        "旧轮已经消费的真实图，明确转作训练补充；不覆盖原始benchmark。",
+        "正框仅实际玩家标量数值；负框仅明确价格和计时；未知HP没有当负样本。"
+      ],
+      "negative_box_coords": [
+        [
+          0.1574074074074074,
+          0.8629629629629629,
+          0.010416666666666666,
+          0.026851851851851852
+        ],
+        [
+          0.15625,
+          0.9481481481481482,
+          0.011574074074074073,
+          0.026851851851851852
+        ],
+        [
+          0.6331018518518519,
+          0.011111111111111112,
+          0.011574074074074073,
+          0.025
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/old_consumed_training.json",
+      "decoded_training_image_sha256": "3b7625a15989f136c05c3702990e106b78147f2e0cd7aebe85e5882cfe46f0c6",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "consumed_nature_02",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/nature/nature_02.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "previous_evaluation_role": "consumed_previous_benchmark",
+      "labels": {
+        "stage": "3-5",
+        "gold": 51,
+        "hp": null,
+        "level": 6,
+        "xp": 6,
+        "shop": [
+          "11508",
+          "11511",
+          "11508",
+          "12513",
+          "13509"
+        ]
+      },
+      "shop_names": [
+        "绯红树怪",
+        "苍蓝哨戒",
+        "绯红树怪",
+        "魔沼蛙",
+        "深红锋喙鸟"
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "hero"
+      ],
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q7.itc.cn/images01/20260828/1659763ba658445ea34471b5fe46c9e7.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "field_boxes": {
+        "stage": [
+          0.3416666666666667,
+          0.004073319755600814,
+          0.02962962962962963,
+          0.04073319755600815
+        ],
+        "gold": [
+          0.9101851851851852,
+          0.8676171079429735,
+          0.03148148148148148,
+          0.054989816700611
+        ],
+        "level": [
+          0.09814814814814815,
+          0.9287169042769857,
+          0.016666666666666666,
+          0.048879837067209775
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.06944444444444445,
+            0.8472505091649695,
+            0.01574074074074074,
+            0.04073319755600815
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.9212962962962963,
+            0.6232179226069247,
+            0.017592592592592594,
+            0.048879837067209775
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.612037037037037,
+            0.002036659877800407,
+            0.022222222222222223,
+            0.03665987780040733
+          ],
+          "kind": "countdown",
+          "text": "26",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        }
+      ],
+      "annotation_method": "manual_view_image_rechecked_with_crop_QA",
+      "notes": [
+        "旧轮已经消费的真实图，明确转作训练补充；不覆盖原始benchmark。",
+        "正框仅实际玩家标量数值；负框仅明确价格和计时；未知HP没有当负样本。"
+      ],
+      "negative_box_coords": [
+        [
+          0.06944444444444445,
+          0.8472505091649695,
+          0.01574074074074074,
+          0.04073319755600815
+        ],
+        [
+          0.9212962962962963,
+          0.6232179226069247,
+          0.017592592592592594,
+          0.048879837067209775
+        ],
+        [
+          0.612037037037037,
+          0.002036659877800407,
+          0.022222222222222223,
+          0.03665987780040733
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/old_consumed_training.json",
+      "decoded_training_image_sha256": "61f317166fe2534dbfe50841f9cc6aedcf5c4c469951f63f2b1744a4ac97f52d",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "consumed_nature_03",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/nature/nature_03.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "previous_evaluation_role": "consumed_previous_benchmark",
+      "labels": {
+        "stage": "2-1",
+        "gold": 9,
+        "hp": 100,
+        "level": 3,
+        "xp": 2,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q4.itc.cn/images01/20260828/68d30353d5b44fa3b9453d80783838c9.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "field_boxes": {
+        "stage": [
+          0.3592592592592593,
+          0.004073319755600814,
+          0.02962962962962963,
+          0.04073319755600815
+        ],
+        "gold": [
+          0.9305555555555556,
+          0.8676171079429735,
+          0.017592592592592594,
+          0.054989816700611
+        ],
+        "level": [
+          0.11481481481481481,
+          0.9307535641547862,
+          0.016666666666666666,
+          0.048879837067209775
+        ],
+        "hp": [
+          0.9055555555555556,
+          0.2953156822810591,
+          0.03148148148148148,
+          0.04276985743380855
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.08425925925925926,
+            0.8472505091649695,
+            0.01574074074074074,
+            0.04073319755600815
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.6287037037037037,
+            0.002036659877800407,
+            0.022222222222222223,
+            0.03665987780040733
+          ],
+          "kind": "countdown",
+          "text": "28",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        }
+      ],
+      "annotation_method": "manual_view_image_rechecked_with_crop_QA",
+      "notes": [
+        "旧轮已经消费的真实图，明确转作训练补充；不覆盖原始benchmark。",
+        "正框仅实际玩家标量数值；负框仅明确价格和计时；未知HP没有当负样本。"
+      ],
+      "negative_box_coords": [
+        [
+          0.08425925925925926,
+          0.8472505091649695,
+          0.01574074074074074,
+          0.04073319755600815
+        ],
+        [
+          0.6287037037037037,
+          0.002036659877800407,
+          0.022222222222222223,
+          0.03665987780040733
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/old_consumed_training.json",
+      "decoded_training_image_sha256": "f52e27ee2e9611509cb3cc0bc9d62fce1598acf490c53b9efc33cd35e0f232ac",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "consumed_nature_04",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/nature/nature_04.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "previous_evaluation_role": "consumed_previous_benchmark",
+      "labels": {
+        "stage": "3-1",
+        "gold": 39,
+        "hp": null,
+        "level": 5,
+        "xp": 6,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "shop_names": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q3.itc.cn/images01/20260828/faf3e31719b34db8b0dd2e64cb7accdf.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "field_boxes": {
+        "stage": [
+          0.37407407407407406,
+          0.004073319755600814,
+          0.02962962962962963,
+          0.04073319755600815
+        ],
+        "gold": [
+          0.9277777777777778,
+          0.8676171079429735,
+          0.03148148148148148,
+          0.054989816700611
+        ],
+        "level": [
+          0.11481481481481481,
+          0.9287169042769857,
+          0.016666666666666666,
+          0.048879837067209775
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.08333333333333333,
+            0.8472505091649695,
+            0.01574074074074074,
+            0.04073319755600815
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.6268518518518519,
+            0.002036659877800407,
+            0.022222222222222223,
+            0.03665987780040733
+          ],
+          "kind": "countdown",
+          "text": "15",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        }
+      ],
+      "annotation_method": "manual_view_image_rechecked_with_crop_QA",
+      "notes": [
+        "旧轮已经消费的真实图，明确转作训练补充；不覆盖原始benchmark。",
+        "正框仅实际玩家标量数值；负框仅明确价格和计时；未知HP没有当负样本。"
+      ],
+      "negative_box_coords": [
+        [
+          0.08333333333333333,
+          0.8472505091649695,
+          0.01574074074074074,
+          0.04073319755600815
+        ],
+        [
+          0.6268518518518519,
+          0.002036659877800407,
+          0.022222222222222223,
+          0.03665987780040733
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/old_consumed_training.json",
+      "decoded_training_image_sha256": "b5d87c45455863bf890c8b37e61867301e4a0f2d6ac7be82aa5b0fc613356434",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "consumed_nature_05",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/nature/nature_05.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "previous_evaluation_role": "consumed_previous_benchmark",
+      "labels": {
+        "stage": "5-5",
+        "gold": 18,
+        "hp": null,
+        "level": 7,
+        "xp": 16,
+        "shop": [
+          "12509",
+          "13506",
+          "13508",
+          "13505",
+          null
+        ]
+      },
+      "shop_names": [
+        "芸阿娜",
+        "黛安娜",
+        "崔丝塔娜",
+        "卡兹克",
+        null
+      ],
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "charm"
+      ],
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q4.itc.cn/images01/20260828/8e4e500894b94f0db85aea6b74b8aa27.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "field_boxes": {
+        "stage": [
+          0.3574074074074074,
+          0.004073319755600814,
+          0.032407407407407406,
+          0.04073319755600815
+        ],
+        "gold": [
+          0.9296296296296296,
+          0.8676171079429735,
+          0.030555555555555555,
+          0.054989816700611
+        ],
+        "level": [
+          0.11481481481481481,
+          0.9307535641547862,
+          0.016666666666666666,
+          0.048879837067209775
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "negative_boxes": [
+        {
+          "bbox": [
+            0.08333333333333333,
+            0.8472505091649695,
+            0.01574074074074074,
+            0.04073319755600815
+          ],
+          "kind": "xp_purchase_price",
+          "text": "4",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.9324074074074075,
+            0.6171079429735234,
+            0.016666666666666666,
+            0.05091649694501019
+          ],
+          "kind": "refresh_price",
+          "text": "2",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        },
+        {
+          "bbox": [
+            0.6287037037037037,
+            0.002036659877800407,
+            0.022222222222222223,
+            0.03665987780040733
+          ],
+          "kind": "countdown",
+          "text": "23",
+          "not_fields": [
+            "gold",
+            "hp",
+            "level",
+            "stage"
+          ]
+        }
+      ],
+      "annotation_method": "manual_view_image_rechecked_with_crop_QA",
+      "notes": [
+        "旧轮已经消费的真实图，明确转作训练补充；不覆盖原始benchmark。",
+        "正框仅实际玩家标量数值；负框仅明确价格和计时；未知HP没有当负样本。"
+      ],
+      "negative_box_coords": [
+        [
+          0.08333333333333333,
+          0.8472505091649695,
+          0.01574074074074074,
+          0.04073319755600815
+        ],
+        [
+          0.9324074074074075,
+          0.6171079429735234,
+          0.016666666666666666,
+          0.05091649694501019
+        ],
+        [
+          0.6287037037037037,
+          0.002036659877800407,
+          0.022222222222222223,
+          0.03665987780040733
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/old_consumed_training.json",
+      "decoded_training_image_sha256": "7845d3daf3612b36f352cc5cd8bdf6d39ce4432dc206a30b3dbe06db36f04016",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_01",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_01.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "2-6",
+        "gold": null,
+        "hp": null,
+        "level": 5,
+        "xp": 2,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q2.itc.cn/images01/20260828/ed8e73dce4014b768f39c09cd9fe29b8.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.360185,
+          0.008147,
+          0.027778,
+          0.032587
+        ],
+        "level": [
+          0.114815,
+          0.928717,
+          0.015741,
+          0.044807
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "英雄详情遮挡金币；字段4格表示所需人口，不是玩家等级。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "e437e3120fa2b32dd1931111ef8cd5e7152e65eaae95978cd853fc4a3f7a25c7",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_02",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_02.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "5-1",
+        "gold": 28,
+        "hp": null,
+        "level": 8,
+        "xp": 2,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q7.itc.cn/images01/20260828/c33624f8f3b74b3e959632905646a525.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.374074,
+          0.010183,
+          0.027778,
+          0.034623
+        ],
+        "gold": [
+          0.927778,
+          0.869654,
+          0.025926,
+          0.052953
+        ],
+        "level": [
+          0.114815,
+          0.928717,
+          0.016667,
+          0.044807
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "黑荆棘羁绊详情展开；不根据排行榜高亮猜本方HP。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "fff2c4b9adef721a332cc4c0e8070d1b2bc85bd6aa236ae23361700f63aca8ce",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_03",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_03.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "4-2",
+        "gold": null,
+        "hp": null,
+        "level": 7,
+        "xp": 8,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q3.itc.cn/images01/20260828/90d6301102c543149b817f4fe027eebd.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.374074,
+          0.010183,
+          0.027778,
+          0.034623
+        ],
+        "level": [
+          0.114815,
+          0.928717,
+          0.016667,
+          0.044807
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "维迦技能详情；右侧覆盖金币。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "54f19bfcdfc5fb14ee6b1ce0430dc809d0921f2b7ec2dc4e0a5183be5df3dadb",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_04",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_04.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "3-1",
+        "gold": 36,
+        "hp": null,
+        "level": 5,
+        "xp": 12,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q8.itc.cn/images01/20260828/0c8f5a34c8e04748a8ac2cf7772343bf.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.3574074074074074,
+          0.008146639511201629,
+          0.03333333333333333,
+          0.04073319755600815
+        ],
+        "gold": [
+          0.912963,
+          0.86558,
+          0.027778,
+          0.050916
+        ],
+        "level": [
+          0.094444,
+          0.928717,
+          0.016667,
+          0.044807
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "野怪羁绊详情；右侧排行榜不猜归属。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "ac27a7c1da07ef1969b8f0caebdaf0500460a7870c13f5728bfee175578923fd",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_05",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_05.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "2-2",
+        "gold": null,
+        "hp": null,
+        "level": 4,
+        "xp": 2,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q7.itc.cn/images01/20260828/e3644c6c835646b98aef80d58eb3fc51.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.3574074074074074,
+          0.008146639511201629,
+          0.03333333333333333,
+          0.04073319755600815
+        ],
+        "level": [
+          0.094444,
+          0.928717,
+          0.016667,
+          0.044807
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "苍蓝哨戒详情覆盖金币；售价1与玩家金币无关。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "5aeaee140f302eecf01e14d9d070bbb1cedf8580c652047eee4b839bd38d5d8b",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_06",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_06.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "2-1",
+        "gold": 2,
+        "hp": 100,
+        "level": 3,
+        "xp": 2,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q9.itc.cn/images01/20260828/ddbd0edae8494e068aa3c9f9a1420579.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.341667,
+          0.008147,
+          0.026852,
+          0.034623
+        ],
+        "gold": [
+          0.913889,
+          0.86558,
+          0.018519,
+          0.052953
+        ],
+        "level": [
+          0.094444,
+          0.928717,
+          0.016667,
+          0.044807
+        ],
+        "hp": [
+          0.887962962962963,
+          0.5437881873727087,
+          0.032407407407407406,
+          0.04480651731160896
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "右侧所有玩家均100血，可确定本方100；首领选择器详情。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "31f3c129700a73a80db0e63d7e0a98e5661972dfca34e073fdad9adf4fddb49d",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_07",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_07.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "6-2",
+        "gold": 11,
+        "hp": null,
+        "level": 10,
+        "xp": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q7.itc.cn/images01/20260828/710c0a1cd7d344e89ddf4a6fd546941b.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.360185,
+          0.008147,
+          0.027778,
+          0.034623
+        ],
+        "gold": [
+          0.918519,
+          0.867617,
+          0.025,
+          0.052953
+        ],
+        "level": [
+          0.098148,
+          0.928717,
+          0.024074,
+          0.04888
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "满级显示10，不从额外棋盘人口12推玩家等级。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "b40df3c208424959cd95d474f390de945508ee4b566e27a387ffa4fce50bbd33",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_08",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_08.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "4-7",
+        "gold": 47,
+        "hp": null,
+        "level": 7,
+        "xp": 12,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q5.itc.cn/images01/20260828/d8561d6533dc4da088ad4c763eb184f4.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.375,
+          0.008147,
+          0.027778,
+          0.034623
+        ],
+        "gold": [
+          0.92963,
+          0.867617,
+          0.027778,
+          0.052953
+        ],
+        "level": [
+          0.114815,
+          0.928717,
+          0.016667,
+          0.044807
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "真实战斗；未将排行榜35假定为本方HP。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "22610fd4784e3566d5c5e3a0b36870d3f9b9af5245365b57e4b8e5cb76fe2c03",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_09",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_09.jpg",
+      "mode": "nature",
+      "group_id": "sohu_1068964903",
+      "split": "train",
+      "evaluation_role": "consumed_development_train",
+      "labels": {
+        "stage": "4-6",
+        "gold": 58,
+        "hp": null,
+        "level": 8,
+        "xp": 6,
+        "shop": [
+          "12501",
+          "13515",
+          {
+            "empty": true
+          },
+          "15467",
+          null
+        ]
+      },
+      "source_url": "https://m.sohu.com/a/1068964903_121827626",
+      "source_image_url": "https://q6.itc.cn/images01/20260828/c2f3fdb59c394a93830f263d0d41136e.jpeg",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 491,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.341667,
+          0.008147,
+          0.027778,
+          0.034623
+        ],
+        "gold": [
+          0.9101851851851852,
+          0.8655804480651731,
+          0.03333333333333333,
+          0.054989816700611
+        ],
+        "level": [
+          0.09722222222222222,
+          0.9307535641547862,
+          0.018518518518518517,
+          0.048879837067209775
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "拉克丝日蚀形态可直接读卡面日蚀骑士+2；第五槽自然仙灵残酷交易，非英雄；第三槽真空。"
+      ],
+      "previous_round_group_role": "previous_holdout_now_unsealed_development_source",
+      "shop_kinds": [
+        "hero",
+        "hero",
+        "empty",
+        "hero",
+        "charm"
+      ],
+      "field_boxes_note": "人工按原图定位的紧邻数值框；不含经验分数、购买经验价格、英雄售价。",
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "ff732e61b6dba22c4394c57388244b570843f62eaac8296d6f3f1c46bfde2100",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_10",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_10.png",
+      "mode": "nature",
+      "group_id": "youxituoluo_534823",
+      "split": "calibration",
+      "evaluation_role": "consumed_development_calibration",
+      "labels": {
+        "stage": "2-5",
+        "gold": null,
+        "hp": null,
+        "level": 5,
+        "xp": 4,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "source_url": "https://youxituoluo.com/534823.html",
+      "source_image_url": "https://res.youxituoluo.com/production/admin/uploads/20260824/1787554786261640+-+2026-08-24T145936.558.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 499,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.37963,
+          0.008016,
+          0.026852,
+          0.036072
+        ],
+        "level": [
+          0.126852,
+          0.92986,
+          0.016667,
+          0.048096
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "奥恩英雄/技能详情遮挡金币，700/700是英雄生命不是玩家HP；商店关闭。",
+        "来源为游戏陀螺作者的一手试玩报道；未发现与前轮及本批其他来源完全相同帧，但无法由公开文章确认不同媒体帧是否来自不同真实对局。"
+      ],
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "1d27f1230172971e4d892618b27abf9058b86dcd6e0d39a2e5918f4a2b187a13",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "nature_dev_11",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/nature_dev_11.png",
+      "mode": "nature",
+      "group_id": "youxituoluo_534823",
+      "split": "calibration",
+      "evaluation_role": "consumed_development_calibration",
+      "labels": {
+        "stage": "4-7",
+        "gold": 44,
+        "hp": null,
+        "level": 8,
+        "xp": 12,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "source_url": "https://youxituoluo.com/534823.html",
+      "source_image_url": "https://res.youxituoluo.com/production/admin/uploads/20260824/1787554825024640+-+2026-08-24T150017.852.png",
+      "server_status": "pre_release_test_server",
+      "patch": null,
+      "season": "自然之力",
+      "season_confirmed": true,
+      "original_width": 1080,
+      "original_height": 499,
+      "annotation_method": "manual_view_image",
+      "annotation_date": "2026-11-11",
+      "field_boxes": {
+        "stage": [
+          0.37963,
+          0.008016,
+          0.026852,
+          0.036072
+        ],
+        "gold": [
+          0.931481,
+          0.871743,
+          0.028704,
+          0.0501
+        ],
+        "level": [
+          0.126852,
+          0.92986,
+          0.016667,
+          0.048096
+        ]
+      },
+      "field_boxes_coordinate_system": "normalized_xywh",
+      "notes": [
+        "与上一轮不同竞技场布局；右侧排行榜已被来源模糊，不标玩家HP；8/8棋盘数与等级8相符但等级由购买经验按钮确认。",
+        "来源为游戏陀螺作者的一手试玩报道；未发现与前轮及本批其他来源完全相同帧，但无法由公开文章确认不同媒体帧是否来自不同真实对局。"
+      ],
+      "field_boxes_qa": "每个框裁切放大人工检查；纠正阶段首位、金币首位、左下圆圈与本方排行榜HP数值框偏移。",
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/nature/annotations_development_corrected.json",
+      "decoded_training_image_sha256": "2c6a581b3a995715cbee2847350d44950937c5896962164358eccebde8db4818",
+      "screen_type": "board",
+      "screen_type_source": "manual_development_annotation"
+    },
+    {
+      "id": "orange_exp_01",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/orange_exp_01.jpg",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/7886aeb03b72e9ee.jpg",
+      "date": "2026-11-05",
+      "group_id": "source_chuapp_291737",
+      "split": "validation",
+      "screen_type": "orange_starter_deck_selection",
+      "image_size": {
+        "width": 2556,
+        "height": 1179
+      },
+      "file_sha256": "b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167",
+      "mode": "orange",
+      "source_id": "chuapp_291737",
+      "evaluation_role": "consumed_development_validation",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240095",
+            "entity_id": "7240095",
+            "card_id": "7240095",
+            "name": "破格征召",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.104,
+              0.195,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 4,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.112,
+              0.405,
+              0.085,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220055",
+            "entity_id": "7220055",
+            "card_id": "7220055",
+            "name": "双城故事",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.217,
+              0.195,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 2,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.225,
+              0.405,
+              0.085,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7210028",
+            "entity_id": "7210028",
+            "card_id": "7210028",
+            "name": "微型复制 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.161,
+              0.492,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 1,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.168,
+              0.7,
+              0.088,
+              0.045
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240005",
+            "entity_id": "7240005",
+            "card_id": "7240005",
+            "name": "暗裔之刃",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.395,
+              0.195,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 4,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.404,
+              0.405,
+              0.085,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220053",
+            "entity_id": "7220053",
+            "card_id": "7220053",
+            "name": "2星C位开局",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.506,
+              0.195,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 2,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.513,
+              0.405,
+              0.085,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7210019",
+            "entity_id": "7210019",
+            "card_id": "7210019",
+            "name": "反曲之弓",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.451,
+              0.492,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 1,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.459,
+              0.7,
+              0.088,
+              0.045
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240035",
+            "entity_id": "7240035",
+            "card_id": "7240035",
+            "name": "浮金门票",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.685,
+              0.195,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 4,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.693,
+              0.405,
+              0.085,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220040",
+            "entity_id": "7220040",
+            "card_id": "7220040",
+            "name": "次级复制 II",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.797,
+              0.195,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 2,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.805,
+              0.405,
+              0.085,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7210027",
+            "entity_id": "7210027",
+            "card_id": "7210027",
+            "name": "次级复制 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.742,
+              0.492,
+              0.1,
+              0.34
+            ],
+            "role": "preset_option",
+            "rarity_tier": 1,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.75,
+              0.7,
+              0.088,
+              0.045
+            ]
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240095",
+          "entity_id": "7240095",
+          "card_id": "7240095",
+          "name": "破格征召",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.104,
+            0.195,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 4,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.112,
+            0.405,
+            0.085,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220055",
+          "entity_id": "7220055",
+          "card_id": "7220055",
+          "name": "双城故事",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.217,
+            0.195,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 2,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.225,
+            0.405,
+            0.085,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7210028",
+          "entity_id": "7210028",
+          "card_id": "7210028",
+          "name": "微型复制 I",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.161,
+            0.492,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 1,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.168,
+            0.7,
+            0.088,
+            0.045
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240005",
+          "entity_id": "7240005",
+          "card_id": "7240005",
+          "name": "暗裔之刃",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.395,
+            0.195,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 4,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.404,
+            0.405,
+            0.085,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220053",
+          "entity_id": "7220053",
+          "card_id": "7220053",
+          "name": "2星C位开局",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.506,
+            0.195,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 2,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.513,
+            0.405,
+            0.085,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7210019",
+          "entity_id": "7210019",
+          "card_id": "7210019",
+          "name": "反曲之弓",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.451,
+            0.492,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 1,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.459,
+            0.7,
+            0.088,
+            0.045
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240035",
+          "entity_id": "7240035",
+          "card_id": "7240035",
+          "name": "浮金门票",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.685,
+            0.195,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 4,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.693,
+            0.405,
+            0.085,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220040",
+          "entity_id": "7220040",
+          "card_id": "7220040",
+          "name": "次级复制 II",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.797,
+            0.195,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 2,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.805,
+            0.405,
+            0.085,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7210027",
+          "entity_id": "7210027",
+          "card_id": "7210027",
+          "name": "次级复制 I",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.742,
+            0.492,
+            0.1,
+            0.34
+          ],
+          "role": "preset_option",
+          "rarity_tier": 1,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.75,
+            0.7,
+            0.088,
+            0.045
+          ]
+        }
+      ],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified.",
+        "deck_semantics": "Three alternative starter decks, no selected deck yet; all nine visible cards labelled as preset_option."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "082272bf241bf52442a54e60b71f73d4af6d47ae06d5cc41e6c450765942e33a",
+      "training_allowed": true,
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/development_annotations.json",
+      "decoded_training_image_sha256": "cfd403fd08a125d9d807f9f8ce95e1f86aedc565f60dff1cda9e32333579e92f",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true
+    },
+    {
+      "id": "orange_exp_02",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/orange_exp_02.jpg",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/4116aeaff848aa23.jpg",
+      "date": "2026-11-05",
+      "group_id": "source_chuapp_291737",
+      "split": "validation",
+      "screen_type": "orange_card_repair",
+      "image_size": {
+        "width": 2556,
+        "height": 1179
+      },
+      "file_sha256": "5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1",
+      "mode": "orange",
+      "source_id": "chuapp_291737",
+      "evaluation_role": "consumed_development_validation",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250036",
+            "entity_id": "7250036",
+            "card_id": "7250036",
+            "name": "黑玫瑰夜市",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.192,
+              0.16,
+              0.16,
+              0.56
+            ],
+            "role": "repair_inventory",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.21,
+              0.515,
+              0.126,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220053",
+            "entity_id": "7220053",
+            "card_id": "7220053",
+            "name": "2星C位开局",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.419,
+              0.16,
+              0.164,
+              0.56
+            ],
+            "role": "repair_inventory",
+            "rarity_tier": 2,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.438,
+              0.515,
+              0.126,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230047",
+            "entity_id": "7230047",
+            "card_id": "7230047",
+            "name": "扩军令 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.648,
+              0.16,
+              0.16,
+              0.56
+            ],
+            "role": "repair_inventory",
+            "rarity_tier": 3,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.666,
+              0.515,
+              0.126,
+              0.04
+            ]
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7250036",
+          "entity_id": "7250036",
+          "card_id": "7250036",
+          "name": "黑玫瑰夜市",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.192,
+            0.16,
+            0.16,
+            0.56
+          ],
+          "role": "repair_inventory",
+          "rarity_tier": 5,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.21,
+            0.515,
+            0.126,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220053",
+          "entity_id": "7220053",
+          "card_id": "7220053",
+          "name": "2星C位开局",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.419,
+            0.16,
+            0.164,
+            0.56
+          ],
+          "role": "repair_inventory",
+          "rarity_tier": 2,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.438,
+            0.515,
+            0.126,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230047",
+          "entity_id": "7230047",
+          "card_id": "7230047",
+          "name": "扩军令 I",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.648,
+            0.16,
+            0.16,
+            0.56
+          ],
+          "role": "repair_inventory",
+          "rarity_tier": 3,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.666,
+            0.515,
+            0.126,
+            0.04
+          ]
+        }
+      ],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "81263e6a13c84db75c6bfdd305e1a1aba586e6c12e93c1ac7276b3834fada83b",
+      "training_allowed": true,
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/development_annotations.json",
+      "decoded_training_image_sha256": "505780318df42d98b90c44cf83f68a72ead8e73e0acb709593f433c7199a6b32",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true
+    },
+    {
+      "id": "orange_exp_03",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/orange_exp_03.jpg",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/3046aeb01191900a.jpg",
+      "date": "2026-11-05",
+      "group_id": "source_chuapp_291737",
+      "split": "validation",
+      "screen_type": "orange_card_rewards",
+      "image_size": {
+        "width": 2556,
+        "height": 1179
+      },
+      "file_sha256": "d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1",
+      "mode": "orange",
+      "source_id": "chuapp_291737",
+      "evaluation_role": "consumed_development_validation",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250036",
+            "entity_id": "7250036",
+            "card_id": "7250036",
+            "name": "黑玫瑰夜市",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.07,
+              0.145,
+              0.168,
+              0.56
+            ],
+            "role": "reward_obtained",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.08700000000000001,
+              0.501,
+              0.132,
+              0.043
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240091",
+            "entity_id": "7240091",
+            "card_id": "7240091",
+            "name": "灼烧炼狱",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.247,
+              0.145,
+              0.168,
+              0.56
+            ],
+            "role": "reward_obtained",
+            "rarity_tier": 4,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.264,
+              0.501,
+              0.132,
+              0.043
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230047",
+            "entity_id": "7230047",
+            "card_id": "7230047",
+            "name": "扩军令 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.422,
+              0.145,
+              0.168,
+              0.56
+            ],
+            "role": "reward_obtained",
+            "rarity_tier": 3,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.439,
+              0.501,
+              0.132,
+              0.043
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230069",
+            "entity_id": "7230069",
+            "card_id": "7230069",
+            "name": "命运：棱彩阶",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.594,
+              0.145,
+              0.168,
+              0.56
+            ],
+            "role": "reward_obtained",
+            "rarity_tier": 3,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.611,
+              0.501,
+              0.132,
+              0.043
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230113",
+            "entity_id": "7230113",
+            "card_id": "7230113",
+            "name": "祖安试验",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.766,
+              0.145,
+              0.168,
+              0.56
+            ],
+            "role": "reward_obtained",
+            "rarity_tier": 3,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.783,
+              0.501,
+              0.132,
+              0.043
+            ]
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7250036",
+          "entity_id": "7250036",
+          "card_id": "7250036",
+          "name": "黑玫瑰夜市",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.07,
+            0.145,
+            0.168,
+            0.56
+          ],
+          "role": "reward_obtained",
+          "rarity_tier": 5,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.08700000000000001,
+            0.501,
+            0.132,
+            0.043
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240091",
+          "entity_id": "7240091",
+          "card_id": "7240091",
+          "name": "灼烧炼狱",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.247,
+            0.145,
+            0.168,
+            0.56
+          ],
+          "role": "reward_obtained",
+          "rarity_tier": 4,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.264,
+            0.501,
+            0.132,
+            0.043
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230047",
+          "entity_id": "7230047",
+          "card_id": "7230047",
+          "name": "扩军令 I",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.422,
+            0.145,
+            0.168,
+            0.56
+          ],
+          "role": "reward_obtained",
+          "rarity_tier": 3,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.439,
+            0.501,
+            0.132,
+            0.043
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230069",
+          "entity_id": "7230069",
+          "card_id": "7230069",
+          "name": "命运：棱彩阶",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.594,
+            0.145,
+            0.168,
+            0.56
+          ],
+          "role": "reward_obtained",
+          "rarity_tier": 3,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.611,
+            0.501,
+            0.132,
+            0.043
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230113",
+          "entity_id": "7230113",
+          "card_id": "7230113",
+          "name": "祖安试验",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.766,
+            0.145,
+            0.168,
+            0.56
+          ],
+          "role": "reward_obtained",
+          "rarity_tier": 3,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.783,
+            0.501,
+            0.132,
+            0.043
+          ]
+        }
+      ],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified.",
+        "deck_semantics": "Five newly drawn reward cards, not selected loadout."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "6c96f881239d31988f0762a68f3bcb43c6aebcdd9dcb2b0edd3874edba5ff613",
+      "training_allowed": true,
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/development_annotations.json",
+      "decoded_training_image_sha256": "0715a84d9b7cb36138d14fc9cd69f5331e26cd4b06423652e754ce193873bb5f",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true
+    },
+    {
+      "id": "orange_exp_04",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/orange_exp_04.jpg",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "source_image_url": "https://img2-tc.tapimg.com/video/cover/898399ad9e91950c26e2409c637b5207.jpg/_tap_ugc.jpg",
+      "date": null,
+      "group_id": "source_taptap_867251881297052929",
+      "split": "train",
+      "screen_type": "orange_deck_editor",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9",
+      "mode": "orange",
+      "source_id": "taptap_867251881297052929",
+      "evaluation_role": "consumed_development_train",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250036",
+            "entity_id": "7250036",
+            "card_id": "7250036",
+            "name": "黑玫瑰夜市",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.117,
+              0.11,
+              0.171,
+              0.59
+            ],
+            "role": "catalog",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.142,
+              0.478,
+              0.12,
+              0.045
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250071",
+            "entity_id": "7250071",
+            "card_id": "7250071",
+            "name": "永恒的心",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.294,
+              0.11,
+              0.171,
+              0.59
+            ],
+            "role": "catalog",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.318,
+              0.478,
+              0.12,
+              0.045
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240005",
+            "entity_id": "7240005",
+            "card_id": "7240005",
+            "name": "暗裔之刃",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.472,
+              0.11,
+              0.173,
+              0.59
+            ],
+            "role": "catalog",
+            "rarity_tier": 4,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.5,
+              0.478,
+              0.12,
+              0.045
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230005",
+            "entity_id": "7230005",
+            "card_id": "7230005",
+            "name": "金辉尽绘",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.678,
+              0.145,
+              0.105,
+              0.34
+            ],
+            "role": "selected_deck_card",
+            "rarity_tier": 3,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.695,
+              0.35,
+              0.075,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220053",
+            "entity_id": "7220053",
+            "card_id": "7220053",
+            "name": "2星C位开局",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.807,
+              0.145,
+              0.105,
+              0.34
+            ],
+            "role": "selected_deck_card",
+            "rarity_tier": 2,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.823,
+              0.35,
+              0.075,
+              0.04
+            ]
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7230047",
+            "entity_id": "7230047",
+            "card_id": "7230047",
+            "name": "扩军令 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.742,
+              0.45,
+              0.105,
+              0.33
+            ],
+            "role": "selected_deck_card",
+            "rarity_tier": 3,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.757,
+              0.65,
+              0.075,
+              0.04
+            ]
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7250036",
+          "entity_id": "7250036",
+          "card_id": "7250036",
+          "name": "黑玫瑰夜市",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.117,
+            0.11,
+            0.171,
+            0.59
+          ],
+          "role": "catalog",
+          "rarity_tier": 5,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.142,
+            0.478,
+            0.12,
+            0.045
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7250071",
+          "entity_id": "7250071",
+          "card_id": "7250071",
+          "name": "永恒的心",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.294,
+            0.11,
+            0.171,
+            0.59
+          ],
+          "role": "catalog",
+          "rarity_tier": 5,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.318,
+            0.478,
+            0.12,
+            0.045
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7240005",
+          "entity_id": "7240005",
+          "card_id": "7240005",
+          "name": "暗裔之刃",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.472,
+            0.11,
+            0.173,
+            0.59
+          ],
+          "role": "catalog",
+          "rarity_tier": 4,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.5,
+            0.478,
+            0.12,
+            0.045
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230005",
+          "entity_id": "7230005",
+          "card_id": "7230005",
+          "name": "金辉尽绘",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.678,
+            0.145,
+            0.105,
+            0.34
+          ],
+          "role": "selected_deck_card",
+          "rarity_tier": 3,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.695,
+            0.35,
+            0.075,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220053",
+          "entity_id": "7220053",
+          "card_id": "7220053",
+          "name": "2星C位开局",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.807,
+            0.145,
+            0.105,
+            0.34
+          ],
+          "role": "selected_deck_card",
+          "rarity_tier": 2,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.823,
+            0.35,
+            0.075,
+            0.04
+          ]
+        },
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7230047",
+          "entity_id": "7230047",
+          "card_id": "7230047",
+          "name": "扩军令 I",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.742,
+            0.45,
+            0.105,
+            0.33
+          ],
+          "role": "selected_deck_card",
+          "rarity_tier": 3,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.757,
+            0.65,
+            0.075,
+            0.04
+          ]
+        }
+      ],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified.",
+        "deck_semantics": "Left catalog and right three selected cards are labelled with different roles."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "dd1ee1ee825e3e67b035a3c38fbdcae05161b6579ab4201982e02d668eb7ec91",
+      "training_allowed": true,
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/development_annotations.json",
+      "decoded_training_image_sha256": "a4dda4242bb2c469ac71ac4edfe32ae95b9907f95478531e64e5953a37bc6b3d",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true
+    },
+    {
+      "id": "orange_exp_05",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/orange_exp_05.jpg",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "source_image_url": "https://img2-tc.tapimg.com/video/cover/b08607d5671345354a49828ce7281cd1.jpg/_tap_ugc.jpg",
+      "date": null,
+      "group_id": "source_taptap_867251881297052929",
+      "split": "train",
+      "screen_type": "orange_card_detail",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b",
+      "mode": "orange",
+      "source_id": "taptap_867251881297052929",
+      "evaluation_role": "consumed_development_train",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250047",
+            "entity_id": "7250047",
+            "card_id": "7250047",
+            "name": "流浪的救世者",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.4,
+              0.08,
+              0.205,
+              0.7
+            ],
+            "role": "detail_preview",
+            "rarity_tier": 5,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.425,
+              0.518,
+              0.155,
+              0.045
+            ]
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7250047",
+          "entity_id": "7250047",
+          "card_id": "7250047",
+          "name": "流浪的救世者",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.4,
+            0.08,
+            0.205,
+            0.7
+          ],
+          "role": "detail_preview",
+          "rarity_tier": 5,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.425,
+            0.518,
+            0.155,
+            0.045
+          ]
+        }
+      ],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Only main detail preview annotated; small base/foil variants share same identity and are intentionally not exhaustively boxed.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "a55dfb58fd38931a97102db2a33c45ba6db1dee4a20bf06206c369468019f2f0",
+      "training_allowed": true,
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/development_annotations.json",
+      "decoded_training_image_sha256": "d997478aa64ab7c99694d81504f4043027b9c93c119d7f184582c15636628b93",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true
+    },
+    {
+      "id": "orange_exp_06",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/orange_exp_06.jpg",
+      "source_url": "https://www.taptap.cn/moment/867251881297052929",
+      "source_image_url": "https://img2-tc.tapimg.com/video/cover/818bc2c0e09f179556114c5410c7170b.jpg/_tap_ugc.jpg",
+      "date": null,
+      "group_id": "source_taptap_867251881297052929",
+      "split": "train",
+      "screen_type": "orange_card_detail",
+      "image_size": {
+        "width": 1080,
+        "height": 498
+      },
+      "file_sha256": "265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a",
+      "mode": "orange",
+      "source_id": "taptap_867251881297052929",
+      "evaluation_role": "consumed_development_train",
+      "match_id": null,
+      "server_status": "unverified",
+      "patch": null,
+      "mode_confirmed": true,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220049",
+            "entity_id": "7220049",
+            "card_id": "7220049",
+            "name": "投资新手",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.4,
+              0.08,
+              0.205,
+              0.7
+            ],
+            "role": "detail_preview",
+            "rarity_tier": 2,
+            "box_precision": "manual_approximate",
+            "title_bbox": [
+              0.422,
+              0.51,
+              0.163,
+              0.045
+            ]
+          }
+        ]
+      },
+      "field_boxes": {},
+      "card_boxes": [
+        {
+          "kind": "card",
+          "entity_type": "card",
+          "id": "7220049",
+          "entity_id": "7220049",
+          "card_id": "7220049",
+          "name": "投资新手",
+          "field": "orange_card_ids",
+          "bbox": [
+            0.4,
+            0.08,
+            0.205,
+            0.7
+          ],
+          "role": "detail_preview",
+          "rarity_tier": 2,
+          "box_precision": "manual_approximate",
+          "title_bbox": [
+            0.422,
+            0.51,
+            0.163,
+            0.045
+          ]
+        }
+      ],
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "annotation_method": "manual_visual_inspection_view_image",
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "current_state": "Card activation rounds, menu card values and lobby currency are not current stage/gold.",
+        "visibility": "No complete shop or readable current gold/hp in this capture. Null is unknown, never an empty slot.",
+        "entity_semantics": "Entities are visible cards; gallery, reward, repair and preset cards are not automatically carried into a match.",
+        "box_quality": "Development boxes are hand-drawn approximate object/title ROIs, not pixel-exact segmentation.",
+        "server_status": "No independently verifiable exact client build or patch number; formal/test status unverified."
+      },
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "decoded_image_sha256": "c2c2c54a1f3fdf7a11156de8c15623bc3430697980778f3d8aebb5dca238bc29",
+      "training_allowed": true,
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/expanded_screens/orange/development_annotations.json",
+      "decoded_training_image_sha256": "d75fef1b1a5907bf0978ac8b20f32a26c3681e4f5d9fb21375c971d26128049e",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true
+    },
+    {
+      "id": "orange_chuapp_03",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/orange/chuapp-03.png",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "validation",
+      "match_id": null,
+      "screen_type": "orange_loadout",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240035",
+            "entity_id": "7240035",
+            "name": "浮金门票",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.2975,
+              0.0897,
+              0.1738,
+              0.5938
+            ],
+            "role": "displayed_deck_card"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7220040",
+            "entity_id": "7220040",
+            "name": "次级复制 II",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.4956,
+              0.0883,
+              0.1706,
+              0.591
+            ],
+            "role": "displayed_deck_card"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7210027",
+            "entity_id": "7210027",
+            "name": "次级复制 I",
+            "field": "orange_card_ids",
+            "bbox": [
+              0.69,
+              0.091,
+              0.1713,
+              0.5897
+            ],
+            "role": "displayed_deck_card"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外卡组方案界面，选中速升3星方案；只标出清楚可读的三张时间卡。",
+        "not_gold": "右上1.3万是局外余额，不标为对局gold。",
+        "not_stage": "卡片正文2-7、4-2、2-5是生效回合，不是当前对局回合。",
+        "server_status": "图片没有足够的正式服/测试服或补丁标识。"
+      },
+      "file_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "image_size": {
+        "width": 1600,
+        "height": 736
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/8046aeafc0d8903e.PNG",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true,
+      "negative_boxes": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/field_training_seed/annotations.json",
+      "decoded_training_image_sha256": "08456ab4574362637642a8bdd7789c12b682d8eb8d9e17fd53ce3bf2861df66a",
+      "evaluation_role": "consumed_development_validation"
+    },
+    {
+      "id": "orange_chuapp_04",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/orange/chuapp-04.png",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "validation",
+      "match_id": null,
+      "screen_type": "orange_super_time",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": "2-3",
+        "hp": 100,
+        "gold": null,
+        "level": 4,
+        "xp": 0,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": []
+      },
+      "shop_kinds": [
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible",
+        "not_visible"
+      ],
+      "profile_origin": "per_sample_manual",
+      "layout_profile": {
+        "name": "chuapp-04 scalar regions manually annotated",
+        "aspect_ratio": 2.174129353233831,
+        "slots": [
+          {
+            "field": "stage",
+            "bbox": [
+              0.364,
+              0.008,
+              0.031,
+              0.036
+            ],
+            "label": "顶部真实当前回合"
+          },
+          {
+            "field": "hp",
+            "bbox": [
+              0.899,
+              0.128,
+              0.038,
+              0.048
+            ],
+            "label": "右上单独高亮头像左侧本方100血"
+          },
+          {
+            "field": "level",
+            "bbox": [
+              0.136,
+              0.931,
+              0.021,
+              0.045
+            ],
+            "label": "左下经验购买按钮旁等级4"
+          }
+        ]
+      },
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "超级时间第一轮目标选择弹层；有真实对局背景，不是终局战绩。",
+        "stage": "顶部当前回合2-3清楚可见。",
+        "hp": "右上最大的独立金色圈高亮头像左侧显示100，以下其他玩家为红圈并显示姓名/名次列表。这里标本方高亮头像的100。",
+        "level": "左下购买经验按钮旁黑金圆圈显示4，上方经验0/10。",
+        "gold": "下方资源区域受弹层遮挡；卡片奖励总价值0和300不是当前对局金币，不据此猜测gold。",
+        "not_stage": "中央前7/前5是挑战目标，不是当前stage。",
+        "server_status": "体验文章中使用的客户端画面；无法确认正式服或具体开发版本。"
+      },
+      "file_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "image_size": {
+        "width": 2622,
+        "height": 1206
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/5606aeafe03d8e2a.png",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "field_boxes": {
+        "stage": [
+          0.364,
+          0.008,
+          0.031,
+          0.036
+        ],
+        "hp": [
+          0.899,
+          0.128,
+          0.038,
+          0.048
+        ],
+        "level": [
+          0.136,
+          0.931,
+          0.021,
+          0.045
+        ]
+      },
+      "negative_boxes": [
+        [
+          0.18,
+          0.12,
+          0.67,
+          0.73
+        ],
+        [
+          0.05,
+          0.08,
+          0.11,
+          0.56
+        ],
+        [
+          0.87,
+          0.2,
+          0.12,
+          0.59
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/field_training_seed/annotations.json",
+      "decoded_training_image_sha256": "2cd23b1d8c6c05983271d53871a697922d422e2368c2fc285415b9f7f5f0734d",
+      "evaluation_role": "consumed_development_validation"
+    },
+    {
+      "id": "orange_chuapp_08",
+      "file": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/real_screens/orange/chuapp-08.jpg",
+      "mode": "orange",
+      "source_url": "https://www.chuapp.com/?a=index&c=Article&id=291737",
+      "source_id": "chuapp_291737",
+      "group_id": "source_chuapp_291737",
+      "split": "validation",
+      "match_id": null,
+      "screen_type": "orange_card_collection",
+      "server_status": "unverified",
+      "patch": null,
+      "labels": {
+        "stage": null,
+        "hp": null,
+        "gold": null,
+        "level": null,
+        "shop": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "entities_complete": false,
+        "entities": [
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250036",
+            "entity_id": "7250036",
+            "name": "黑玫瑰夜市",
+            "field": "card_inventory",
+            "bbox": [
+              0.137,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7250071",
+            "entity_id": "7250071",
+            "name": "永恒的心",
+            "field": "card_inventory",
+            "bbox": [
+              0.343,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240005",
+            "entity_id": "7240005",
+            "name": "暗裔之刃",
+            "field": "card_inventory",
+            "bbox": [
+              0.55,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          },
+          {
+            "kind": "card",
+            "entity_type": "card",
+            "id": "7240006",
+            "entity_id": "7240006",
+            "name": "暗裔之怒",
+            "field": "card_inventory",
+            "bbox": [
+              0.757,
+              0.107,
+              0.176,
+              0.61
+            ],
+            "role": "collection_card_not_deck_confirmation"
+          }
+        ]
+      },
+      "shop_kinds": [
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable",
+        "not_applicable"
+      ],
+      "expected_absent_current_state_fields": [
+        "stage",
+        "hp",
+        "gold",
+        "level",
+        "shop"
+      ],
+      "annotation_date": "2026-11-11",
+      "notes": {
+        "page": "局外卡册；上排四张完整卡片名称可读，下排卡片只有局部画面，不标注。",
+        "not_deck": "卡册中显示4张以上卡片，不等于已经选择4张出战卡，也不能标为当前三卡。",
+        "not_stage": "卡片正文1-3、1-2、3-5均为效果生效回合。",
+        "server_status": "未见明确客户端服别/补丁号。"
+      },
+      "file_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "image_size": {
+        "width": 2556,
+        "height": 1179
+      },
+      "source_image_url": "https://img.chuapp.com/wp-content/Picture/2026-11-04/4526aeb07715c14c.jpg",
+      "source_manifest_claimed_page_date": "2026-11-05",
+      "known_absent_fields": [
+        "stage",
+        "gold",
+        "hp",
+        "level"
+      ],
+      "field_annotation_complete": true,
+      "negative_boxes": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "source_training_annotations": "/home/sti/Documents/Codex/2026-11-10/new-chat-3/work/field_training_seed/annotations.json",
+      "decoded_training_image_sha256": "efb5846e4c3c53b39f83b9db94e0e1bf41d0044579f92105f8b1b2b54e15ca44",
+      "evaluation_role": "consumed_development_validation"
+    }
+  ],
+  "experiment": {
+    "version": "V3",
+    "purpose": "Third candidate experiment; split fixed from development label coverage before refit, not selected using validation outcomes.",
+    "parent_annotations_sha256": "fe86670c133685638d11aa1728fe016ac4998fecc2ee2efd3bd3f7da0d733e5d",
+    "fixed_source_plan": {
+      "sohu_1068964903": "train",
+      "source_taptap_867251881297052929": "train",
+      "youxituoluo_534823": "calibration",
+      "chuapp_291576": "validation",
+      "source_chuapp_291737": "validation"
+    },
+    "validation_reused": true,
+    "validation_is_independent_final_evidence": false,
+    "sealed_test_read": false,
+    "deployment_gates_unchanged": {
+      "minimum_validation_answers_per_mode": 20,
+      "target_precision": 0.98,
+      "minimum_validation_source_groups": 2
+    }
+  }
+}

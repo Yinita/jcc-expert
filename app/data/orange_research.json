@@ -1,0 +1,529 @@
+{
+  "as_of": "2026-11-10",
+  "scope": "金铲铲之战 大橘大利；正式运营2026-11-04起；基于英雄联盟传奇，独立于自然之力。",
+  "sources": {
+    "launch": {
+      "url": "https://www.taptap.cn/moment/864871600091040348",
+      "type": "official_account",
+      "published": "2026-10-29"
+    },
+    "patch": {
+      "url": "https://news.17173.com/content/11042026/105243261.shtml",
+      "type": "official_content_mirror",
+      "published": "2026-11-04"
+    },
+    "four_decks": {
+      "url": "https://news.17173.com/content/11042026/105406213.shtml",
+      "type": "official_content_mirror",
+      "published": "2026-11-04"
+    },
+    "ornn": {
+      "url": "https://news.17173.com/content/10282026/113816156.shtml",
+      "type": "official_content_mirror_prelaunch",
+      "published": "2026-10-28"
+    },
+    "brand": {
+      "url": "https://news.17173.com/content/10292026/103252891.shtml",
+      "type": "official_content_mirror_prelaunch",
+      "published": "2026-10-29"
+    },
+    "loss": {
+      "url": "https://news.17173.com/content/10302026/211433402.shtml",
+      "type": "official_content_mirror_prelaunch",
+      "published": "2026-10-30"
+    },
+    "win": {
+      "url": "https://news.17173.com/content/11072026/104620957.shtml",
+      "type": "official_content_mirror",
+      "published": "2026-11-07"
+    },
+    "aphelios": {
+      "url": "https://news.17173.com/content/11072026/104718565.shtml",
+      "type": "official_content_mirror",
+      "published": "2026-11-07"
+    },
+    "ryze": {
+      "url": "https://www.sina.cn/news/detail/5363018025666309.html",
+      "type": "official_weibo_syndication_search_snippet",
+      "published": "2026-11-08"
+    },
+    "seven": {
+      "url": "https://www.sina.cn/media/7504806444",
+      "type": "official_weibo_syndication_search_snippet",
+      "published": "2026-11-06"
+    },
+    "fast": {
+      "url": "https://shouyou.3dmgame.com/gl/641364.html",
+      "type": "secondary_unknown_author_prelaunch",
+      "published": "2026-11-03"
+    },
+    "dev": {
+      "url": "https://news.17173.com/content/11072026/104756769.shtml",
+      "type": "official_developer_summary_mirror",
+      "published": "2026-11-07"
+    },
+    "catalog": {
+      "url": "https://jcc.np5.top/tools/orange-fortune",
+      "type": "community_test_server_catalog",
+      "published": null
+    },
+    "playtest": {
+      "url": "https://www.3dmgame.com/original/3746579.html",
+      "type": "first_hand_media_playtest",
+      "published": "2026-11-04"
+    },
+    "iyxtal": {
+      "url": "https://club.honor.com/cn/thread-30501030-1-1.html",
+      "type": "community_guide_no_sample_size",
+      "published": "2026-11-06"
+    },
+    "super": {
+      "url": "https://post.smzdm.com/p/am9vwq94/",
+      "type": "secondary_player_claim_not_client_verified",
+      "published": "2026-11-05"
+    },
+    "fees": {
+      "url": "https://i.y8l.com/g/58092.html",
+      "type": "secondary_contains_obvious_logic_error",
+      "published": "2026-11-05"
+    },
+    "official_cards": {
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/card.js",
+      "type": "official_machine_configuration",
+      "published": "2026-11-03 22:20:57"
+    }
+  },
+  "official_verified_rules": [
+    {
+      "fact": "11月4日18.6公告新增大橘大利，基底为英雄联盟传奇。",
+      "source_id": "patch"
+    },
+    {
+      "fact": "战前从卡册选择3张时间卡片；局内前、中、后期共3次超级时间，可选择提高排名目标。",
+      "source_id": "patch"
+    },
+    {
+      "fact": "挑战目标未达成时只获得基础排名奖励，并按传送门承受卡片损失。",
+      "source_id": "patch"
+    },
+    {
+      "fact": "时间卡片、强化符文、装备/纹章、棋子解锁是不同实体，需要独立建模。",
+      "source_id": "patch",
+      "classification": "engineering_inference"
+    },
+    {
+      "fact": "官方测试总结提及双城传说、夺魂海妖已作平衡调整，超级时间奖励也发生调整。",
+      "source_id": "dev"
+    },
+    {
+      "fact": "官网机器卡片配置201项；源文件时间2026-11-03 22:20:57，内部版本18.18.1-S400001。该内部版号与公告18.6不是同一命名体系。",
+      "source_id": "official_cards"
+    }
+  ],
+  "community_portal_claims_not_hard_rules": [
+    {
+      "portal": "稳定",
+      "energy_cap": 8,
+      "entry_fee_claim": 0,
+      "card_loss_if_target_failed": 0,
+      "source_ids": [
+        "catalog",
+        "playtest"
+      ],
+      "status": "client_verification_required"
+    },
+    {
+      "portal": "波动",
+      "energy_cap": 10,
+      "entry_fee_conflict": [
+        400,
+        500
+      ],
+      "card_loss_if_target_failed": 2,
+      "source_ids": [
+        "catalog",
+        "fees"
+      ],
+      "status": "conflicting_fee_do_not_use_as_hard_constraint"
+    },
+    {
+      "portal": "未知",
+      "energy_cap_claim": 15,
+      "entry_fee_claim": 2000,
+      "card_loss_if_target_failed": 3,
+      "source_ids": [
+        "catalog",
+        "playtest"
+      ],
+      "status": "client_verification_required"
+    }
+  ],
+  "super_time_rounds": {
+    "rounds_claim": [
+      "2-3",
+      "4-1",
+      "5-2"
+    ],
+    "source_id": "super",
+    "status": "secondary_only_client_verification_required"
+  },
+  "recipes": [
+    {
+      "name": "奥恩神器流",
+      "portal_claim": "稳定",
+      "card_names_as_published": [
+        "回响打捞术",
+        "铁匠铺 III",
+        "寻炉乡"
+      ],
+      "card_ids_exact_match": [
+        "7220018",
+        "7240019",
+        "7230072"
+      ],
+      "tier_sum_if_all_exact": 8,
+      "source_id": "ornn",
+      "logic_summary_ours": "装备供给推动奥恩与神器解锁；先看实际合成和触发进度。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "灼烧炼狱流",
+      "portal_claim": "稳定",
+      "card_names_as_published": [
+        "灼烧炼狱",
+        "次级复制 I",
+        "金辉尽绘"
+      ],
+      "card_ids_exact_match": [
+        "7240091",
+        "7210027",
+        "7230005"
+      ],
+      "tier_sum_if_all_exact": 8,
+      "source_id": "brand",
+      "logic_summary_ours": "先解锁并强化布兰德，再用复制资源提高低费单位质量。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "连败爆发流",
+      "portal_claim": "稳定",
+      "card_names_as_published": [
+        "有意失利",
+        "绝处逢生",
+        "棱彩法球 I"
+      ],
+      "card_ids_exact_match": [
+        "7220045",
+        "7230061",
+        "7230066"
+      ],
+      "tier_sum_if_all_exact": 8,
+      "source_id": "loss",
+      "logic_summary_ours": "用连败换经验，等待后段资源；血量与兑现回合必须动态评估。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "暮光试炼流",
+      "portal_claim": "波动",
+      "card_names_as_published": [
+        "宿命的抉择",
+        "次级复制 I",
+        "恶魔降世"
+      ],
+      "card_ids_exact_match": [
+        "7250044",
+        "7210027",
+        "7240061"
+      ],
+      "tier_sum_if_all_exact": 10,
+      "source_id": "four_decks",
+      "logic_summary_ours": "利用复制加速亚恒路径，再接亚托克斯形成暗裔组合。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "战力压制流",
+      "portal_claim": "波动",
+      "card_names_as_published": [
+        "中坚力量 II",
+        "拾荒人",
+        "掘金者"
+      ],
+      "card_ids_exact_match": [
+        "7220034",
+        "7240036",
+        "7240018"
+      ],
+      "tier_sum_if_all_exact": 10,
+      "source_id": "four_decks",
+      "logic_summary_ours": "前中期质量换击败收益，以额外资源继续维持强度。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "万血坦克流",
+      "portal_claim": "波动",
+      "card_names_as_published": [
+        "帝国反抗者",
+        "斗士之阵",
+        "能抗就能打"
+      ],
+      "card_ids_exact_match": [
+        "7230107",
+        "7240071",
+        "7230105"
+      ],
+      "tier_sum_if_all_exact": 10,
+      "source_id": "four_decks",
+      "logic_summary_ours": "阿利斯塔生命成长与生命转伤机制联动，需核验触发条件。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "灵活定阵流",
+      "portal_claim": "波动",
+      "card_names_as_published": [
+        "强力盟友",
+        "次级复制 I",
+        "四星的第一步"
+      ],
+      "card_ids_exact_match": [
+        null,
+        "7210027",
+        "7240077"
+      ],
+      "tier_sum_if_all_exact": null,
+      "source_id": "four_decks",
+      "logic_summary_ours": "先依据同羁绊来牌决定路线，再用复制提高关键单位质量。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": [
+        "强力盟友"
+      ]
+    },
+    {
+      "name": "连胜杰作流",
+      "portal_claim": "波动",
+      "card_names_as_published": [
+        "强力盟友 I",
+        "经验叠经验",
+        "凯旋熔炉"
+      ],
+      "card_ids_exact_match": [
+        "7230050",
+        "7230060",
+        "7240021"
+      ],
+      "tier_sum_if_all_exact": 10,
+      "source_id": "win",
+      "logic_summary_ours": "利用早期经验与来牌支撑连胜，连胜奖励进一步提升装备质量。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "月神厄斐琉斯流",
+      "portal_claim": "未知",
+      "card_names_as_published": [
+        "命运之轮：厄斐琉斯",
+        "暗裔之刃",
+        "暗裔之怒"
+      ],
+      "card_ids_exact_match": [
+        "7240080",
+        "7240005",
+        "7240006"
+      ],
+      "tier_sum_if_all_exact": 12,
+      "source_id": "aphelios",
+      "logic_summary_ours": "以厄斐琉斯专属强化和两件暗裔装备形成单核路线。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "recipe_source_verified_effects_and_performance_unverified",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "多地区瑞兹流",
+      "portal_claim": "未知",
+      "card_names_as_published": [
+        "流浪的救世者",
+        "三顾炉乡",
+        "熔炉之神的杰作"
+      ],
+      "card_ids_exact_match": [
+        "7250047",
+        "7240094",
+        null
+      ],
+      "tier_sum_if_all_exact": null,
+      "source_id": "ryze",
+      "logic_summary_ours": "瑞兹扩展地区计数，装备资源支持多方向转型；第三卡名称待标准化。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "provisional_search_or_secondary_source",
+      "alias_resolution_required": [
+        "熔炉之神的杰作"
+      ]
+    },
+    {
+      "name": "七费降临流",
+      "portal_claim": "未知",
+      "card_names_as_published": [
+        "黑玫瑰夜市",
+        "大神降临",
+        "德玛西亚巨像"
+      ],
+      "card_ids_exact_match": [
+        "7250036",
+        "7240093",
+        "7250046"
+      ],
+      "tier_sum_if_all_exact": 14,
+      "source_id": "seven",
+      "logic_summary_ours": "安排前三个解锁购买位置，让高费解锁吃到夜市升星。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "provisional_search_or_secondary_source",
+      "alias_resolution_required": []
+    },
+    {
+      "name": "快速成型流",
+      "portal_claim": "波动",
+      "card_names_as_published": [
+        "快乐开D II",
+        "混合复制",
+        "浮金门票"
+      ],
+      "card_ids_exact_match": [
+        "7230062",
+        "7230054",
+        "7240035"
+      ],
+      "tier_sum_if_all_exact": 10,
+      "source_id": "fast",
+      "logic_summary_ours": "免费刷新与复制资源加速追星；需按实际血量、同行与剩余牌池决定停搜。",
+      "statistical_claim": null,
+      "win_rate": null,
+      "sample_size": null,
+      "validation_status": "provisional_search_or_secondary_source",
+      "alias_resolution_required": []
+    }
+  ],
+  "community_operation_seed": {
+    "name": "双贪流以绪",
+    "source_id": "iyxtal",
+    "core_card_names_as_published": [
+      "投资新手",
+      "时光之力"
+    ],
+    "third_card_options_as_published": [
+      "次级辅助 I",
+      "微型复制 I",
+      "快乐开D I",
+      "后期D牌主义 I"
+    ],
+    "units_as_published": [
+      "奇亚娜",
+      "妮蔻",
+      "崔斯特",
+      "米利欧",
+      "斯卡纳",
+      "岩宝",
+      "奥恩",
+      "彗",
+      "千珏"
+    ],
+    "trait_goal_as_published": [
+      "5以绪塔尔",
+      "2迅击战士",
+      "1山隐之焰",
+      "1永猎双子",
+      "1异画师"
+    ],
+    "operation_summary_ours": "2-3后利用卡片来牌建立以绪塔尔任务路线，崔斯特承接时光纹章积累经验，奇亚娜打工；后段以血量、任务层数和岩宝质量决定升人口或搜牌。",
+    "item_seed_as_published": {
+      "妮蔻": [
+        "板甲"
+      ],
+      "崔斯特": [
+        "鬼索的狂暴之刃"
+      ],
+      "岩宝": [
+        "无尽之刃",
+        "死亡之刃",
+        "蓝色科技钥匙"
+      ]
+    },
+    "status": "community_heuristic_no_sample_no_guaranteed_level_timing",
+    "win_rate": null,
+    "sample_size": null
+  },
+  "data_gaps": [
+    "未取得可验证的逐局对局数据、样本量或条件吃鸡率；攻略中的稳前三、必胜、T0不得转换成概率。",
+    "传送门门票、损卡例外、保护券、回购价、超级时间具体目标/奖励表尚未实机核验。",
+    "201卡官网结构参数存在，但很多机制依赖装备/解锁/羁绊关系；需要跨配置表关联并用客户端验证。",
+    "同盟药水等可能存在上线后热修；未找到可核验的11月4日后官方完整变更，不能将未找到等同未更新。",
+    "需解锁的棋子可能改变商店候选池；牌库容量、各等级概率、特殊卡和复制器对卡池的影响应按本模式实测。",
+    "官方推荐部分卡片省略罗马数字或与配置名称不同，别名与具体等级必须解析。"
+  ],
+  "for_expert_system": {
+    "pre_match_inputs": [
+      "拥有的时间卡片及数量",
+      "可承受卡损",
+      "传送门规则与能量上限",
+      "吃鸡/收益目标"
+    ],
+    "in_match_inputs": [
+      "阶段与回合",
+      "金币/血量/等级/经验",
+      "场上与备战席弈子星级及数量",
+      "商店",
+      "散件与成装",
+      "强化符文选择项及已选",
+      "时间卡片已触发/未触发效果",
+      "棋子解锁状态与解锁任务进度",
+      "科技钥匙/以绪任务进度",
+      "7家对手阵容和卡组信息",
+      "超级时间目标与可保留奖励"
+    ],
+    "outputs": [
+      "当前最强可落地棋盘",
+      "备选转型路线",
+      "装备立即合成及携带者",
+      "买牌/留牌/卖牌",
+      "升级与搜牌预算及停搜条件",
+      "下一次时间卡片兑现前的保血操作",
+      "冲第一路线及失败条件",
+      "挑战目标建议单独展示"
+    ],
+    "design_note": "吃鸡概率与金橘/卡片保全收益分开建模；用户当前主目标为第一，不应默认将安全撤离替代吃鸡。"
+  }
+}

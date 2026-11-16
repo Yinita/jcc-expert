@@ -1,0 +1,2294 @@
+{
+  "baseline": [
+    {
+      "sample_id": "nature_sealed_01",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 6611.17305100197,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "6-3",
+          "predicted": "6-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 10,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_01-90f4cfe7-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_01",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_02",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 4880.091207000078,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 35,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_02-356bf13d-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_02",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_03",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 4781.840565992752,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 15,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_03-e702e97b-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_03",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_04",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 8469.576709991088,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-6",
+          "predicted": "2-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 27,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 51,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_04-4165e716-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_04",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_05",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "profile_origin": "unspecified",
+      "labelled_fields": 5,
+      "latency_ms": 5227.881602986599,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-1",
+          "predicted": "4-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12509",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12514",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "12511",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "13503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 44,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_05-5bc5d245-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_05",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "profile_origin": "unspecified",
+      "labelled_fields": 5,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_06",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 4619.84478199156,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 11,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_06-ed2f671a-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_06",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_07",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 18170.551744988188,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 23,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_07-cc6b1b69-default.json"
+    },
+    {
+      "sample_id": "orange_exp_07",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_08",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 19813.43311200908,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 23,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_08-6869ef62-default.json"
+    },
+    {
+      "sample_id": "orange_exp_08",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_09",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 16230.93239699665,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-2",
+          "predicted": "5-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 12,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_09-497f438a-default.json"
+    },
+    {
+      "sample_id": "orange_exp_09",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_10",
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 19667.992671995307,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 37,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_10-68ecb9c6-default.json"
+    },
+    {
+      "sample_id": "orange_exp_10",
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_11",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 13859.242662001634,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-1",
+          "predicted": "4-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 6,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 29,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_11-497dca61-default.json"
+    },
+    {
+      "sample_id": "orange_exp_11",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ],
+  "optimized": [
+    {
+      "sample_id": "nature_sealed_01",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 5419.873066988657,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "6-3",
+          "predicted": "6-3",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 10,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 20,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_01-90f4cfe7-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_01",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "9d9c96a5402f8d4d30ada635eac58349eea26b7fc4490c684d35542ab924a270",
+      "decoded_image_sha256": "ecd11fbe9408bc08cba83932695ef27ba900054effd7a2ad1433bc5e2af0dff8",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_02",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 3386.517062986968,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 35,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_02-356bf13d-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_02",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "f48e361fbc681ea2cdaaa0028b473e61fe80d655ab57fb00f7ad4956c6daee00",
+      "decoded_image_sha256": "30add490c6be1a999c0bdbcd83edbf5db0244b3621cbf20a86ecd7d7878d25bd",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_03",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 118.61915999907069,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 15,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_03-e702e97b-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_03",
+      "group_id": "ali213_1032951",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://3g.ali213.net/news/html/1032951.html",
+      "file_sha256": "594e9268c1f371daacffad2ce077932341a3b4362e315c87dafc8bb22c409d51",
+      "decoded_image_sha256": "8ce501ab68d1428ff542b429d607272f32b5e7e39de8c4df5e28c63aecd63b6a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_04",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "latency_ms": 8347.481869990588,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "2-6",
+          "predicted": "2-6",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": 27,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 5,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 55,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_04-4165e716-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_04",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "3c713c64319cf71597cd2116d082e405c2d940e1b76ec39fd748bd2503fb4baa",
+      "decoded_image_sha256": "c00715c99b47895a83869e0732f935384f32aa5077570c3b4ed2ecb73a8e878b",
+      "profile_origin": "unspecified",
+      "labelled_fields": 3,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_05",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "profile_origin": "unspecified",
+      "labelled_fields": 5,
+      "latency_ms": 264.4124090002151,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-1",
+          "predicted": "4-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": "12509",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[1]",
+          "expected": "12514",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[2]",
+          "expected": "12511",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[3]",
+          "expected": "13503",
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 44,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_05-5bc5d245-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_05",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "4a10915367e2e35a86bf71aab4b9d99cefdfbc96522bc264a210e3208e5b2033",
+      "decoded_image_sha256": "c757f014a0780fa7f7024430ef9f54473af363981fd0ea6d8c7bcc1afddafd52",
+      "profile_origin": "unspecified",
+      "labelled_fields": 5,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "nature_sealed_06",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "default",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 149.24963600060437,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 11,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/nature_sealed_06-ed2f671a-default.json"
+    },
+    {
+      "sample_id": "nature_sealed_06",
+      "group_id": "17173_08242026_093003976",
+      "split": "holdout",
+      "mode": "nature",
+      "track": "profile",
+      "source_url": "https://news.17173.com/content/08242026/093003976.shtml",
+      "file_sha256": "672a482a4fb1d43dc956c3e17ffd2b67fc647bb0fabd65a08c88fef9ded076f2",
+      "decoded_image_sha256": "73ecd7a50ee8cb0610e60ad65f612a3f7ba40281aabb8f8605413e8b9f5a6fc3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_07",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 18076.738148010918,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 25,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_07-cc6b1b69-default.json"
+    },
+    {
+      "sample_id": "orange_exp_07",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "ca36000707e57a0f397885dd0bdd0b77ad1f25f4f92da854da83c087786babc3",
+      "decoded_image_sha256": "5e7b2de0f577333de7dee3ce65ecda188169354f0b61fe8303427088dd16ab4d",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_08",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 15119.543959997827,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 26,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_08-6869ef62-default.json"
+    },
+    {
+      "sample_id": "orange_exp_08",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "96613d9f6a25b6f9fb7727a5cd5ed56e4d5c5b1d759bbfa30aea273c46f39a37",
+      "decoded_image_sha256": "ff1ee128fe991f39038ffacb023ede68d9c56843c9afa44ed3106eeb6791970a",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_09",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "latency_ms": 22775.406362998183,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "5-2",
+          "predicted": "5-2",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 14,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_09-497f438a-default.json"
+    },
+    {
+      "sample_id": "orange_exp_09",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "c5c07f38d96d8c83c1ec34792e6ae08955d1a90b4a7f9a7f11079ebcd72d3d33",
+      "decoded_image_sha256": "355dd1bf3bffb7617132a92a576d435819d4be4dde884d7255307360879107f3",
+      "profile_origin": "unspecified",
+      "labelled_fields": 1,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_10",
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "latency_ms": 492.9938309942372,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 36,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_10-68ecb9c6-default.json"
+    },
+    {
+      "sample_id": "orange_exp_10",
+      "group_id": "source_taptap_867484028389820540",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.taptap.cn/moment/867484028389820540",
+      "file_sha256": "84bac88304f049828a01fa3c5e29330a1f0cf9f2fb3056f87406b5b72dde56c2",
+      "decoded_image_sha256": "c1ff1deee7b3e1ada905fbdb07d33c2beaae0c4386ebfd364fe3d7545c9d1a01",
+      "profile_origin": "unspecified",
+      "labelled_fields": 0,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    },
+    {
+      "sample_id": "orange_exp_11",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "default",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "latency_ms": 12261.50576400687,
+      "status": "ok",
+      "outcomes": [
+        {
+          "field": "stage",
+          "expected": "4-1",
+          "predicted": "4-1",
+          "label_present": true,
+          "outcome": "correct"
+        },
+        {
+          "field": "gold",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "hp",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "level",
+          "expected": 6,
+          "predicted": null,
+          "label_present": true,
+          "outcome": "abstain"
+        },
+        {
+          "field": "shop[0]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[1]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[2]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[3]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        },
+        {
+          "field": "shop[4]",
+          "expected": null,
+          "predicted": null,
+          "label_present": false,
+          "outcome": "unlabelled"
+        }
+      ],
+      "evidence_count": 32,
+      "contract_check": {
+        "recommendation_status": "needs_confirmation",
+        "recognition_unconfirmed": true,
+        "personal_probability_is_null": true,
+        "model_status": "needs_confirmation",
+        "candidate_count": 3,
+        "passed": true
+      },
+      "raw_file": "raw/orange_exp_11-497dca61-default.json"
+    },
+    {
+      "sample_id": "orange_exp_11",
+      "group_id": "source_3dm_3746579",
+      "split": "holdout",
+      "mode": "orange",
+      "track": "profile",
+      "source_url": "https://www.3dmgame.com/original/3746579.html",
+      "file_sha256": "3e8e88585cf00ddcf62c4eb7d0005beda5b27543782d087ab273903339f6ff0a",
+      "decoded_image_sha256": "909c1740a09b4542878db622329906022131b6c95b16ab3b38a2a876520cb243",
+      "profile_origin": "unspecified",
+      "labelled_fields": 2,
+      "status": "not_run_no_profile",
+      "latency_ms": null,
+      "outcomes": []
+    }
+  ]
+}

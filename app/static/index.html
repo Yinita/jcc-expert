@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>弈策 · 金铲铲截图专家系统</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="主导航">
+      <a class="brand" href="#workspace"><span class="brand-mark" aria-hidden="true">弈</span><span>弈策<small>JCC STRATEGY LAB</small></span></a>
+      <div class="sidebar-label">决策工作台</div>
+      <nav>
+        <a class="nav-link active" href="#workspace"><span aria-hidden="true">◫</span> 截图与局面</a>
+        <a class="nav-link" href="#recommendations"><span aria-hidden="true">◇</span> 阵容与下一步</a>
+        <a class="nav-link" href="#learning"><span aria-hidden="true">↗</span> 对局与学习</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="ruleset-badge"><span class="status-dot"></span>规则包 <strong>18.6</strong></div>
+        <p>每次建议绑定当前局面。<br>信息确认后，再做下一步。</p>
+        <span id="service-status" class="service-status">正在连接本地服务…</span>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div class="breadcrumb">策略实验室 <span>/</span> 当前对局</div>
+        <div class="topbar-right"><span class="local-badge">LOCAL WORKSPACE</span><span id="catalog-status" class="muted">读取资料中</span></div>
+      </header>
+
+      <div class="page-content">
+        <section class="page-heading" id="workspace">
+          <div><div class="eyebrow">SEE THE BOARD. PLAN THE NEXT MOVE.</div><h1>从这局，选下一步<span class="heading-dot">.</span></h1><p>上传截图，校正来牌与资源，比较当前可达的三条路线。</p></div>
+          <div class="mode-switch" role="group" aria-label="选择玩法">
+            <button type="button" class="mode-button selected" data-mode="nature" aria-pressed="true">自然之力<span>标准阵容</span></button>
+            <button type="button" class="mode-button" data-mode="orange" aria-pressed="false">大橘大利<span>卡组 × 阵容</span></button>
+          </div>
+        </section>
+
+        <div id="version-notice" class="notice notice-amber hidden" role="status"></div>
+        <div id="app-message" class="notice hidden" role="status" aria-live="polite"></div>
+        <div id="demo-banner" class="notice notice-amber hidden"><strong>演示局面 · 无上传截图</strong><span>这是用于体验流程的示例输入，不代表真实对局或系统预测效果。</span><button type="button" id="clear-demo" class="text-button">清空演示</button></div>
+
+        <ol class="workflow" aria-label="决策流程">
+          <li class="current" id="step-upload"><span>01</span>上传截图</li>
+          <li id="step-confirm"><span>02</span>校正并确认</li>
+          <li id="step-recommend"><span>03</span>比较三条路线</li>
+          <li id="step-save"><span>04</span>记录对局结果</li>
+        </ol>
+
+        <div class="workspace-grid">
+          <section class="panel screenshot-panel" aria-labelledby="capture-title">
+            <div class="panel-heading"><div><span class="section-kicker">01 / CAPTURE</span><h2 id="capture-title">截图与识别证据</h2></div><span id="screen-type" class="tag">等待截图</span></div>
+            <div class="upload-zone" id="upload-zone" tabindex="0" role="button" aria-label="上传对局截图或拖入图片">
+              <div class="upload-symbol" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 16V4m0 0L7 9m5-5 5 5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <strong>拖入一张对局截图</strong><span>或点击选择图片 · PNG / JPG / WebP</span><small>建议保留完整商店、棋盘、资源栏；图片由本地服务处理</small>
+            </div>
+            <input id="screenshot-file" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+            <div id="image-container" class="image-container hidden">
+              <div class="image-tools"><span id="image-filename"></span><label class="toggle-label"><input id="show-evidence" type="checkbox" checked>显示识别框</label><button id="replace-image" class="text-button" type="button">更换截图</button></div>
+              <div class="image-stage" id="image-stage"><img id="screenshot-image" alt="当前上传的对局截图" draggable="false"><div id="evidence-overlay" class="evidence-overlay"></div><div id="layout-overlay" class="layout-overlay"></div></div>
+            </div>
+            <div id="recognition-progress" class="progress-message hidden"><span class="spinner"></span><span>正在识别截图与可见实体…</span></div>
+            <div class="capture-actions"><button id="load-demo" type="button" class="button button-subtle">体验演示局面 <span aria-hidden="true">↗</span></button><span>也可直接在右侧手动录入</span></div>
+            <div id="recognition-capabilities" class="capabilities muted">尚未调用识别服务。识别能力与不确定项会在上传后显示。</div>
+            <details class="editor-details layout-editor"><summary>校准截图布局 <span class="muted">按区域识别</span></summary><p class="field-help">每次框一个图标或一个数值。棋盘、备战席、商店可分别添加多个区域；已保存布局仅适用于相同界面与比例。</p><div class="layout-controls"><label>区域字段<select id="layout-field"><option value="board">棋盘单位图标</option><option value="bench">备战席单位图标</option><option value="shop">商店单位图标</option><option value="item_ids">装备 / 散件图标</option><option value="augment_ids">已选符文</option><option value="offered_augment_ids">本轮可选符文</option><option value="orange_card_ids">时间卡片</option><option value="stage">回合数值</option><option value="hp">生命数值</option><option value="gold">金币数值</option><option value="level">等级数值</option></select></label><button type="button" id="draw-layout" class="button button-small button-subtle">在截图上框选</button></div><div id="layout-slots" class="layout-slots"><p class="empty-note">尚未设置区域。</p></div><div class="layout-controls"><label>布局名称<input id="layout-name" value="我的截图布局" maxlength="80"></label><button type="button" id="save-layout" class="button button-small button-subtle">保存布局</button></div><label class="layout-saved-label">加载已保存布局<select id="saved-layout"><option value="">选择已保存布局</option></select></label><button type="button" id="recognize-layout" class="button button-small button-subtle" disabled>使用当前区域重新识别</button><p id="layout-message" class="field-help">先上传截图，再添加识别区域。</p></details>
+            <details class="editor-details"><summary>补充识别纠错区域 <span class="muted">经验价格、刷新费等</span></summary>
+              <p class="field-help">框出容易混淆的数字，帮助后续识别。每个区域都需确认：它不包含当前回合、金币、生命或等级。</p>
+              <label class="toggle-label"><input type="checkbox" id="negative-reviewed">我已核对，本次框选不是当前四项数值</label>
+              <div class="layout-controls"><label>区域内容<select id="negative-reason"><option value="xp_purchase_price">购买经验的价格</option><option value="refresh_price">刷新价格</option><option value="countdown">倒计时</option><option value="trait_count">羁绊数量</option><option value="other_player_hp">其他玩家的生命</option><option value="card_activation_round">卡片生效回合</option><option value="menu_currency">局外货币</option><option value="reward_value">奖励价值</option><option value="card_title_or_effect">卡片标题或效果文字</option><option value="other_confirmed_not_current_scalar">其他已核对的非当前数值</option></select></label><button type="button" id="draw-negative" class="button button-small button-subtle">框选排除区域</button></div>
+              <div id="negative-regions-list" class="layout-slots"></div><button type="button" id="clear-negative-regions" class="text-button">清空待保存排除区域</button>
+              <p class="field-help">这些框仅用于纠错，不影响当前局面。换图后需要重新核对；保存时会与已有数值区域一同保留。</p>
+            </details>
+            <div class="evidence-heading"><h3>识别结果</h3><span id="evidence-count" class="muted">0 条证据</span></div>
+            <div id="evidence-list" class="evidence-list"><p class="empty-note">截图中的识别结果将关联到原图位置。未知信息保持空白。</p></div>
+            <div id="uncertainty-panel" class="uncertainty-panel hidden"><h3>需要关注的不确定项</h3><ul id="uncertainty-list"></ul></div>
+          </section>
+
+          <section class="panel state-panel" aria-labelledby="state-title">
+            <div class="panel-heading"><div><span class="section-kicker">02 / REVIEW</span><h2 id="state-title">确认当前局面</h2></div><span id="state-status" class="tag">未确认</span></div>
+            <form id="state-form" autocomplete="off">
+              <div class="state-identity"><label>对局标识<input id="match-id" placeholder="保存纠错或结算时必填，如今晚第 1 局" maxlength="100"></label><label>对局补丁（请核对）<input id="patch" value="18.6" maxlength="30" aria-label="当前对局实际补丁"></label></div>
+              <div class="stat-inputs">
+                <label>回合<input id="stage" placeholder="如 2-1" inputmode="text" maxlength="12"></label>
+                <label>生命<input id="hp" type="number" min="0" max="999" placeholder="未知"></label>
+                <label>金币<input id="gold" type="number" min="0" max="9999" placeholder="未知"></label>
+                <label>等级<input id="level" type="number" min="1" max="20" placeholder="未知"></label>
+              </div>
+              <div class="subsection-heading"><h3>棋盘单位</h3><button type="button" class="text-button" data-add-unit="board">＋ 添加单位</button></div>
+              <div id="board-units" class="unit-list"></div>
+              <details class="editor-details"><summary>备战席 <span id="bench-count" class="count-label">0</span></summary><div id="bench-units" class="unit-list"></div><button type="button" class="button button-small button-subtle" data-add-unit="bench">＋ 添加备战单位</button></details>
+              <details class="editor-details"><summary>当前商店 <span class="muted">最多 5 格</span></summary><div id="shop-units" class="shop-grid"></div></details>
+              <div class="entity-section"><div class="subsection-heading"><h3>未分配装备 / 散件</h3><button type="button" class="text-button" data-picker="item_ids">＋ 选择</button></div><div id="inventory-chips" class="chip-list"></div></div>
+              <div class="entity-section"><div class="subsection-heading"><h3>已选强化符文</h3><button type="button" class="text-button" data-picker="augment_ids">＋ 选择</button></div><div id="augment-chips" class="chip-list"></div></div>
+              <div class="entity-section"><div class="subsection-heading"><h3>本轮可选强化</h3><button type="button" class="text-button" data-picker="offered_augment_ids">＋ 选择</button></div><div id="offered-augment-chips" class="chip-list"></div></div>
+              <div id="orange-editor" class="orange-editor hidden"><div class="subsection-heading"><h3>大橘大利出战卡片</h3><button type="button" class="text-button" data-picker="orange_card_ids">＋ 选择三张卡</button></div><div id="orange-card-chips" class="chip-list"></div><label>当前传送门<select id="portal"><option value="">未知 / 未确认</option><option value="稳定">稳定传送门</option><option value="波动">波动传送门</option><option value="未知">未知传送门（玩法名称）</option></select></label><p class="field-help">传送门名称与“信息未知”分别记录；卡片能量和损失规则以实际界面为准。</p></div>
+              <div class="confirmation-box"><label><input id="confirm-state" type="checkbox"><span><strong>我已核对当前可见信息和实际对局补丁</strong><small>未知字段仍可保留空白。修改任意信息后需要重新确认。</small></span></label></div>
+              <button id="recommend-button" type="submit" class="button button-primary" disabled><span>确认后生成路线</span><span aria-hidden="true">→</span></button>
+              <p class="field-help below-button">建议为规则引擎结果；外部终局统计与本局预测会分别展示。</p>
+              <button id="save-recognition-feedback" type="button" class="button button-subtle">保存已确认的识别纠错</button><label class="toggle-label"><input type="checkbox" id="replace-recognition-annotations">用本次数值与排除区域替换本图已存标注</label><p id="recognition-feedback-message" class="field-help">可保存已确认的数值区域与排除区域，用于后续识别训练。先填写对局编号，并核对本张截图。</p>
+            </form>
+          </section>
+        </div>
+
+        <section class="recommendation-section" id="recommendations" aria-labelledby="recommendation-title">
+          <div class="section-heading"><div><span class="section-kicker">03 / DECIDE</span><h2 id="recommendation-title">阵容与下一步</h2><p id="recommendation-subtitle">先确认局面，再比较适配、成型代价与当前动作。</p></div><span id="recommendation-snapshot" class="tag">等待输入</span></div>
+          <div class="probability-strip"><div><span class="status-dot muted-dot"></span><strong>本局第一名概率</strong><span id="state-probability">尚不可用</span></div><p id="probability-reason">未训练并校准的模型不输出个人吃鸡概率。规则评分用于比较候选，不代表胜率。</p></div>
+          <div id="recommendation-messages" aria-live="polite"></div>
+          <div id="candidate-grid" class="candidate-grid"><div class="recommendation-empty"><div class="empty-grid-icon" aria-hidden="true">◇</div><h3>你的下一步，从当前信息开始</h3><p>上传截图或手动填写。系统会给出候选阵容、装备计划、搜牌预算与停手条件。</p><span>当前没有生成推荐</span></div></div>
+        </section>
+
+        <section class="learning-section" id="learning" aria-labelledby="learning-title">
+          <div class="section-heading"><div><span class="section-kicker">04 / LEARN</span><h2 id="learning-title">让每一局留下证据</h2><p>记录真实决策状态与结果，为后续模型训练积累同版本样本。</p></div></div>
+          <div class="learning-grid">
+            <section class="panel result-panel"><h3>记录本局结果</h3><form id="result-form"><div class="result-inputs"><label>最终名次<select id="placement"><option value="">选择名次</option><option value="1">第 1 名</option><option value="2">第 2 名</option><option value="3">第 3 名</option><option value="4">第 4 名</option><option value="5">第 5 名</option><option value="6">第 6 名</option><option value="7">第 7 名</option><option value="8">第 8 名</option></select></label><label>实际采用路线<select id="selected-candidate"><option value="">未采用 / 未记录</option></select></label></div><button type="submit" id="save-result" class="button button-subtle">保存当前状态与名次</button><p id="result-message" class="field-help">演示状态不能作为真实对局保存。保存后仍可继续上传下一局。</p></form></section>
+            <section class="panel model-panel"><div class="subsection-heading"><h3>本地模型</h3><span id="model-status-tag" class="tag">读取中</span></div><p id="model-description" class="muted">正在读取样本与训练状态…</p><div id="model-metrics" class="model-metrics"></div><button type="button" id="train-model" class="button button-subtle">检查样本并训练</button><p class="field-help">数据不足或无法可靠校准时，继续使用规则建议。</p></section>
+          </div>
+          <section class="panel history-panel"><div class="subsection-heading"><h3>最近记录</h3><button type="button" id="refresh-history" class="text-button">刷新记录 ↻</button></div><div id="history-list"><p class="empty-note">正在读取本地记录…</p></div></section>
+        </section>
+        <footer><span>弈策 · 金铲铲专家系统原型</span><a href="/validation/real-screens-2026-11-11/" target="_blank" rel="noopener noreferrer">真实截图评测报告</a><span>自然之力 / 大橘大利分别计算 · 数据来源随建议展示</span><a href="/validation/expanded-screens-2026-11-11/" target="_blank" rel="noopener">扩展测试与训练报告</a><a href="/validation/round3-2026-11-12/" target="_blank" rel="noopener">本轮优化与新来源测试</a></footer>
+      </div>
+    </main>
+  </div>
+  <dialog id="entity-picker" class="entity-picker"><div class="picker-heading"><div><span class="section-kicker">EDIT ENTITIES</span><h2 id="picker-title">选择</h2></div><button type="button" id="close-picker" class="icon-button" aria-label="关闭选择器">×</button></div><input id="picker-search" type="search" placeholder="搜索名称或 ID" aria-label="搜索可选实体"><div id="picker-selection" class="picker-selection"></div><div id="picker-options" class="picker-options"></div><div class="picker-footer"><span id="picker-limit" class="muted"></span><button type="button" id="apply-picker" class="button button-primary">确认选择</button></div></dialog>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+</body>
+</html>

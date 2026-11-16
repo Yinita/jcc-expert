@@ -1,0 +1,1327 @@
+{
+  "kind": "supervised_OCR_line_field_assignment_not_win_probability",
+  "mode": "shared",
+  "patch": "18.6",
+  "feature_version": "ocr-field-geometry-1",
+  "created_at": "2026-11-11T08:12:35.959904+00:00",
+  "group_partitions": {
+    "train": [
+      "sohu_1068964903",
+      "source_taptap_867251881297052929"
+    ],
+    "calibration": [
+      "youxituoluo_534823"
+    ],
+    "validation": [
+      "chuapp_291576",
+      "source_chuapp_291737"
+    ]
+  },
+  "annotation_stats": {
+    "consumed_nature_01": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "other": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      }
+    },
+    "consumed_nature_02": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 42
+      }
+    },
+    "consumed_nature_03": {
+      "supervised_rows": 5,
+      "labels": {
+        "other": 2,
+        "hp": 1,
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 35
+      }
+    },
+    "consumed_nature_04": {
+      "supervised_rows": 4,
+      "labels": {
+        "stage": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 27
+      }
+    },
+    "consumed_nature_05": {
+      "supervised_rows": 5,
+      "labels": {
+        "stage": 1,
+        "other": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      }
+    },
+    "nature_dev_01": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 64
+      }
+    },
+    "nature_dev_02": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 55
+      }
+    },
+    "nature_dev_03": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 2,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 46
+      }
+    },
+    "nature_dev_04": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 59
+      }
+    },
+    "nature_dev_05": {
+      "supervised_rows": 2,
+      "labels": {
+        "level": 1,
+        "stage": 1
+      },
+      "ignored": {
+        "unlabelled_line": 36
+      }
+    },
+    "nature_dev_06": {
+      "supervised_rows": 4,
+      "labels": {
+        "hp": 1,
+        "level": 1,
+        "stage": 1,
+        "gold": 1
+      },
+      "ignored": {
+        "unlabelled_line": 24
+      }
+    },
+    "nature_dev_07": {
+      "supervised_rows": 2,
+      "labels": {
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 52
+      }
+    },
+    "nature_dev_08": {
+      "supervised_rows": 4,
+      "labels": {
+        "stage": 2,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 37
+      }
+    },
+    "nature_dev_09": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 41
+      }
+    },
+    "nature_dev_10": {
+      "supervised_rows": 2,
+      "labels": {
+        "stage": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 45
+      }
+    },
+    "nature_dev_11": {
+      "supervised_rows": 3,
+      "labels": {
+        "stage": 1,
+        "gold": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 43
+      }
+    },
+    "orange_exp_01": {
+      "supervised_rows": 29,
+      "labels": {
+        "other": 29
+      },
+      "ignored": {}
+    },
+    "orange_exp_02": {
+      "supervised_rows": 23,
+      "labels": {
+        "other": 23
+      },
+      "ignored": {}
+    },
+    "orange_exp_03": {
+      "supervised_rows": 26,
+      "labels": {
+        "other": 26
+      },
+      "ignored": {}
+    },
+    "orange_exp_04": {
+      "supervised_rows": 37,
+      "labels": {
+        "other": 37
+      },
+      "ignored": {}
+    },
+    "orange_exp_05": {
+      "supervised_rows": 24,
+      "labels": {
+        "other": 24
+      },
+      "ignored": {}
+    },
+    "orange_exp_06": {
+      "supervised_rows": 15,
+      "labels": {
+        "other": 15
+      },
+      "ignored": {}
+    },
+    "orange_chuapp_03": {
+      "supervised_rows": 35,
+      "labels": {
+        "other": 35
+      },
+      "ignored": {}
+    },
+    "orange_chuapp_04": {
+      "supervised_rows": 30,
+      "labels": {
+        "stage": 1,
+        "other": 27,
+        "hp": 1,
+        "level": 1
+      },
+      "ignored": {
+        "unlabelled_line": 8
+      }
+    },
+    "orange_chuapp_08": {
+      "supervised_rows": 25,
+      "labels": {
+        "other": 25
+      },
+      "ignored": {}
+    }
+  },
+  "supervised_class_counts": {
+    "stage": 14,
+    "other": 82,
+    "gold": 9,
+    "level": 13,
+    "hp": 2
+  },
+  "n_supervised_rows": 296,
+  "n_training_rows": 120,
+  "limitations": [
+    "Only explicitly annotated lines supervise training; unknown labels are not negatives.",
+    "Temperature and thresholds are selected on development calibration groups. Validation groups are not used to tune thresholds.",
+    "Old consumed holdout groups are development validation, not a new unseen test. sealed_test is never opened.",
+    "This model assigns OCR lines to UI fields; values must parse from OCR. It does not predict wins.",
+    "Small or source-limited validation cannot establish deployment accuracy or real-match benefits."
+  ],
+  "status": "candidate_unvalidated",
+  "deployable": false,
+  "reason": "Separate validation coverage/precision has not met the declared minimum; Shared recognition requires separate sufficient nature and orange validation",
+  "calibration": {
+    "status": "development_temperature_fit",
+    "rows": 5,
+    "nll": 0.00010608835642086734,
+    "groups": [
+      "youxituoluo_534823"
+    ]
+  },
+  "temperature": 0.3,
+  "thresholds": {
+    "stage": 0.5,
+    "gold": 1.000001,
+    "hp": 1.000001,
+    "level": 1.000001
+  },
+  "threshold_selection_calibration": {
+    "stage": {
+      "n_labelled": 2,
+      "correct": 2,
+      "wrong": 0,
+      "abstain": 0,
+      "false_positive_absent": 0,
+      "correct_absence": 0,
+      "coverage": 1.0,
+      "precision": 1.0
+    }
+  },
+  "validation_metrics": {
+    "n_labelled": 6,
+    "correct": 2,
+    "wrong": 0,
+    "abstain": 4,
+    "false_positive_absent": 0,
+    "correct_absence": 20,
+    "coverage": 0.3333333333333333,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 2,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 2,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 20,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "2-3",
+        "predicted": "2-3",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": 100,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": 4,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      }
+    ]
+  },
+  "unvalidated_preview_validation_metrics": {
+    "n_labelled": 6,
+    "correct": 3,
+    "wrong": 0,
+    "abstain": 3,
+    "false_positive_absent": 0,
+    "correct_absence": 20,
+    "coverage": 0.5,
+    "precision": 1.0,
+    "per_field": {
+      "stage": {
+        "n_labelled": 2,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 0,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 1.0,
+        "precision": 1.0
+      },
+      "gold": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "hp": {
+        "n_labelled": 1,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.0,
+        "precision": null
+      },
+      "level": {
+        "n_labelled": 2,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 5,
+        "coverage": 0.5,
+        "precision": 1.0
+      }
+    },
+    "per_mode": {
+      "nature": {
+        "n_labelled": 3,
+        "correct": 1,
+        "wrong": 0,
+        "abstain": 2,
+        "false_positive_absent": 0,
+        "correct_absence": 0,
+        "coverage": 0.3333333333333333,
+        "precision": 1.0
+      },
+      "orange": {
+        "n_labelled": 3,
+        "correct": 2,
+        "wrong": 0,
+        "abstain": 1,
+        "false_positive_absent": 0,
+        "correct_absence": 20,
+        "coverage": 0.6666666666666666,
+        "precision": 1.0
+      }
+    },
+    "details": [
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "stage",
+        "expected": "3-5",
+        "predicted": "3-5",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "gold",
+        "expected": 50,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "consumed_nature_01",
+        "group_id": "chuapp_291576",
+        "field": "level",
+        "expected": 5,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_01",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_02",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_exp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_03",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "2-3",
+        "predicted": "2-3",
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": 100,
+        "predicted": null,
+        "outcome": "abstain"
+      },
+      {
+        "sample_id": "orange_chuapp_04",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": 4,
+        "predicted": 4,
+        "outcome": "correct"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "stage",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "gold",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "hp",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      },
+      {
+        "sample_id": "orange_chuapp_08",
+        "group_id": "source_chuapp_291737",
+        "field": "level",
+        "expected": "explicitly_absent",
+        "predicted": null,
+        "outcome": "correct_absence"
+      }
+    ]
+  },
+  "min_validation_answers": 20,
+  "target_precision": 0.98,
+  "trained_classes": [
+    "gold",
+    "hp",
+    "level",
+    "other",
+    "stage"
+  ],
+  "validated_modes": [],
+  "learned_feature_weights": {
+    "gold": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": 1.428305489272661
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.6446239610381954
+      },
+      {
+        "feature": "cy",
+        "coefficient": 0.57935205605727
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.5676789006001915
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": -0.5663688162910852
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": -0.44964855570188755
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.4161599941498533
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.40477480653865666
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": -0.30832179457487296
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": -0.30832179457487296
+      }
+    ],
+    "hp": [
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.9991855878468866
+      },
+      {
+        "feature": "y_bucket=5",
+        "coefficient": 0.8882090041878623
+      },
+      {
+        "feature": "y_bucket=3",
+        "coefficient": 0.7858557648164931
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": 0.7725969966889547
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": -0.42363496754483304
+      },
+      {
+        "feature": "x",
+        "coefficient": 0.3697712380085565
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": -0.36948137507000683
+      },
+      {
+        "feature": "cx",
+        "coefficient": 0.36868305898440146
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.3669729704891562
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.3653878216873077
+      }
+    ],
+    "level": [
+      {
+        "feature": "y_bucket=9",
+        "coefficient": 0.8337442457966843
+      },
+      {
+        "feature": "x_bucket=1",
+        "coefficient": 0.8280756050163514
+      },
+      {
+        "feature": "parseable_level",
+        "coefficient": 0.5484658713273057
+      },
+      {
+        "feature": "near_xp",
+        "coefficient": 0.4570414987452504
+      },
+      {
+        "feature": "near_purchase",
+        "coefficient": 0.4570414987452504
+      },
+      {
+        "feature": "y_bucket=8",
+        "coefficient": -0.42799445988035484
+      },
+      {
+        "feature": "cx",
+        "coefficient": -0.3829959965533561
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.3816764813769806
+      },
+      {
+        "feature": "x",
+        "coefficient": -0.37514735077907607
+      },
+      {
+        "feature": "y",
+        "coefficient": 0.29979814829869866
+      }
+    ],
+    "other": [
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.7078640195870385
+      },
+      {
+        "feature": "mode=nature",
+        "coefficient": -0.6454385234745528
+      },
+      {
+        "feature": "screen=board",
+        "coefficient": -0.6454385234745528
+      },
+      {
+        "feature": "screen=orange_menu",
+        "coefficient": 0.6423181181189959
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": 0.6423181181189959
+      },
+      {
+        "feature": "x_bucket=0",
+        "coefficient": 0.4814736302215145
+      },
+      {
+        "feature": "x_bucket=6",
+        "coefficient": 0.46923408256973115
+      },
+      {
+        "feature": "x_bucket=3",
+        "coefficient": -0.38371435122553543
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": -0.3191089224233691
+      },
+      {
+        "feature": "y_bucket=9",
+        "coefficient": -0.3125202820977676
+      }
+    ],
+    "stage": [
+      {
+        "feature": "x_bucket=3",
+        "coefficient": 0.8085796487505077
+      },
+      {
+        "feature": "parseable_stage",
+        "coefficient": 0.7832607955057803
+      },
+      {
+        "feature": "y_bucket=0",
+        "coefficient": 0.6383222310628917
+      },
+      {
+        "feature": "parseable_hp",
+        "coefficient": -0.6100910747385095
+      },
+      {
+        "feature": "parseable_gold",
+        "coefficient": -0.6100910747385095
+      },
+      {
+        "feature": "cy",
+        "coefficient": -0.40287176625311344
+      },
+      {
+        "feature": "y",
+        "coefficient": -0.4021516747586939
+      },
+      {
+        "feature": "x_bucket=9",
+        "coefficient": -0.32768045676313023
+      },
+      {
+        "feature": "mode=orange",
+        "coefficient": -0.25409857523327234
+      },
+      {
+        "feature": "screen=orange_menu",
+        "coefficient": -0.25409857523327234
+      }
+    ]
+  },
+  "artifact": "work/field_training_expanded_v3/model/f3305870e83f49845ae6f55c.candidate.joblib",
+  "artifact_sha256": "1b580f5d86a76ed171e382cf2e1f2b86b3b81c73dd3fb7fe70ee3b1e4795563c",
+  "metadata": "work/field_training_expanded_v3/model/f3305870e83f49845ae6f55c.candidate.json",
+  "sealed_samples_skipped_without_file_or_label_access": 0,
+  "input_errors": [],
+  "group_split_plan": {
+    "chuapp_291576": "validation",
+    "sohu_1068964903": "train",
+    "youxituoluo_534823": "calibration",
+    "source_chuapp_291737": "validation",
+    "source_taptap_867251881297052929": "train"
+  },
+  "source_annotations_sha256": {
+    "work/field_training_expanded_v3/annotations.json": "fe3be72a6408d4bd86abf7049f5eae62594fd71244ae73be6ebf0c9c9b54bb82"
+  },
+  "ocr_provenance": {
+    "consumed_nature_01": {
+      "cache": "work/field_training_expanded_v2_cache/ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55.json",
+      "cache_sha256": "b7623bad8c58000a7e044d21c52f6284c5bf63ca4a88b7a0f9761b058c5b8047",
+      "image_sha256": "ea498fefa6c8079021354ef8ac9036da9a9ace77cbb9ed04e37c3ef16bde4d55",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "consumed_nature_02": {
+      "cache": "work/field_training_expanded_v2_cache/ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9.json",
+      "cache_sha256": "01e78bc1fe073c1569764005c94eb008370e9b6186f3f9babe864a97bedece64",
+      "image_sha256": "ac875e7d97091ef73ffdcec562853949986718b84587bc3e3ad16933fc309bf9",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "consumed_nature_03": {
+      "cache": "work/field_training_expanded_v2_cache/6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7.json",
+      "cache_sha256": "f6e6dea05072424623609d3227908b8ff7ed4fc125a0bc492016e9b21c6d9e0a",
+      "image_sha256": "6c9cabfee840b7361a219bb527b8f9c6df65514ba5aa32f3dc39aaa7e9ca63a7",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "consumed_nature_04": {
+      "cache": "work/field_training_expanded_v2_cache/1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231.json",
+      "cache_sha256": "269ec4a045d54a929c67b0b88c71e3654230995ae7e3027bec558e40f031c2cf",
+      "image_sha256": "1023d7bb435223343003faf9ef81b0eac6aa1b10453ced39f272442181c71231",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "consumed_nature_05": {
+      "cache": "work/field_training_expanded_v2_cache/83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2.json",
+      "cache_sha256": "8d76452ac33207b23aa3dcc3dba2f3762f472981010a4963911fccb32139e2df",
+      "image_sha256": "83ea22469b45241f13831e4e1130a1b123093602058c5cfea439d0b6e88ae1a2",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_01": {
+      "cache": "work/field_training_expanded_v2_cache/3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038.json",
+      "cache_sha256": "8af58aa5b20bd1e75864723397624d36967b633f5a93b18355431c6434bab2f3",
+      "image_sha256": "3abb1f69c1e83b95631ca8f220dcdca5c6b6c2ca5536770e009d78ff8d3de038",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_02": {
+      "cache": "work/field_training_expanded_v2_cache/0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe.json",
+      "cache_sha256": "0701bca251803cca0a631529e1afc017cbdd826f88c455642995810228f689be",
+      "image_sha256": "0e6a827450f221f6bfbdd7140910e6437d1f959a6e1d0da94b5cb7f570290dbe",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_03": {
+      "cache": "work/field_training_expanded_v2_cache/283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6.json",
+      "cache_sha256": "fab53fabba0a487a8d1d4d7aafe2183045d2df9ffee2111f8ef35d77e73504a8",
+      "image_sha256": "283d5f5dfa4566c78289bc20766cc99abe6060eaf808f2e849eafe885d3bfbd6",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_04": {
+      "cache": "work/field_training_expanded_v2_cache/2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531.json",
+      "cache_sha256": "5131f70b6e38cd6c76d055e392d184cb86dbad4e2cb432166237177e72f4891f",
+      "image_sha256": "2199f09ee1e8d84de3e531518920904737abe3310a18b15a653b32bd64167531",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_05": {
+      "cache": "work/field_training_expanded_v2_cache/cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87.json",
+      "cache_sha256": "74000058c1a5d52c55ab45c40fde651b70d0b47752b89056edd92be99b6dac95",
+      "image_sha256": "cb4e41ebeb801a1bc45c7af7ab66ed9d14f2977496603e792fbd1596886e1e87",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_06": {
+      "cache": "work/field_training_expanded_v2_cache/fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa.json",
+      "cache_sha256": "7a8f801223799df8471fdde84d5e83f3a84a57514e302d1413fd05a24cd2af3d",
+      "image_sha256": "fc6d06a93f07a1887a851ae6bbd19ec62bd9ab00a765a73dc6658bbc37f195aa",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_07": {
+      "cache": "work/field_training_expanded_v2_cache/c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee.json",
+      "cache_sha256": "935ae6b96f0dd550b70fa138c36075e76b18c08d7559c2eda82cc8aba3051176",
+      "image_sha256": "c7e472c7abf4c8adb131bfd1baad1f22c233a39650556ecaa960422df6e83bee",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_08": {
+      "cache": "work/field_training_expanded_v2_cache/d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a.json",
+      "cache_sha256": "837ac1acc378dc00cf10380bc543367032ca9d8bc5b0ced6c7ac8eae6a4be76e",
+      "image_sha256": "d94424ae562b80049ce27231e6efec47124c0f0b986f849fcf026cad9b967d4a",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_09": {
+      "cache": "work/field_training_expanded_v2_cache/6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c.json",
+      "cache_sha256": "09867b6b2f322ca8709c4170fa6f0c2ca6b1cbfc7019da8f602488b8f79c9698",
+      "image_sha256": "6429d142ff93558bbaf03565085022f6d01cce8cc84cb360e85ea437d8dab10c",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_10": {
+      "cache": "work/field_training_expanded_v2_cache/c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75.json",
+      "cache_sha256": "e0302b9177304ffd1aa8c7c99e9aa8a07135c6268a7f850d7f6fbfe67129a8df",
+      "image_sha256": "c5016b2ccfe4c6816376d0e0f989ad5cceee0e7de3c665985ccce2968a9fbb75",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "nature_dev_11": {
+      "cache": "work/field_training_expanded_v2_cache/2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b.json",
+      "cache_sha256": "fe652474307b8063bbf6765c19eb358d86860450ff7b8884af29d867bfe925cf",
+      "image_sha256": "2e27f788c959d3916a9b77b9c24fbaaa089640d74b76ee63e70ec129878eb48b",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_exp_01": {
+      "cache": "work/field_training_expanded_v2_cache/b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167.json",
+      "cache_sha256": "f50e73e9eb664a73e90b8086cbbf51fb0d54b10e67541d5fe04a35ae7ab3f671",
+      "image_sha256": "b6ff81a24c8ce7724a6ef435966a9ba7d4414eb177c98ee87bdeb9fff3d84167",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_exp_02": {
+      "cache": "work/field_training_expanded_v2_cache/5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1.json",
+      "cache_sha256": "aeef1aee74f1186ced80026cb17f071e87dc11f689dab22ebfb563e3ce01f60e",
+      "image_sha256": "5eca3c2cb37d5744a894bb6055d72cfb2c09845780291290fceb2a3167adabd1",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_exp_03": {
+      "cache": "work/field_training_expanded_v2_cache/d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1.json",
+      "cache_sha256": "c4f9403639bf283b37b1a60fb4dfdcce97a44847ec2df83b653a043dbda5a8b2",
+      "image_sha256": "d007e5f2809ad2c2dee64ba2f8a32b80dc039a5173a549c049d1d1c6aadacbf1",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_exp_04": {
+      "cache": "work/field_training_expanded_v2_cache/508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9.json",
+      "cache_sha256": "5b56006cf9bed221695a775c92649a92d415b9c0be758c6071cab09e7cbaa700",
+      "image_sha256": "508f215c55937fea410922364682a9194b5455d8a5f9e62a00f85eb1164884c9",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_exp_05": {
+      "cache": "work/field_training_expanded_v2_cache/c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b.json",
+      "cache_sha256": "11de42c20937520d99e83735af9df4f7bb6fe609c6ec7de65b4b7ec5ae0d5986",
+      "image_sha256": "c4740ca9a47b6c3534bec92c03b1f89315381e01d86a485e11aa738d149d580b",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_exp_06": {
+      "cache": "work/field_training_expanded_v2_cache/265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a.json",
+      "cache_sha256": "a22ed9987d935a204f0cffcd3deeca18565c17d3ef6c9fb92bd7e5bee7adefb1",
+      "image_sha256": "265622c9dd0bb5d3932dcb85f9d69e3456933fdac36aa6c4b8f32815c576271a",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_chuapp_03": {
+      "cache": "work/field_training_expanded_v2_cache/af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7.json",
+      "cache_sha256": "1ac8976a7bb5c5f641c4c472747e0e2b1444f2762b07cece8cf0366647e65430",
+      "image_sha256": "af2edeb0f0136d0dd6857aa537a60685b397588a4cb9e5678f719614d9a418c7",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_chuapp_04": {
+      "cache": "work/field_training_expanded_v2_cache/131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805.json",
+      "cache_sha256": "0ec6ffce17bf9efa7ed39b109f4b657036d94e992cd21f1b22e8f7c6a0a4c414",
+      "image_sha256": "131027b1473a424c4e80ad8206749a76ed49f0108709133458058fbc03f6f805",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    },
+    "orange_chuapp_08": {
+      "cache": "work/field_training_expanded_v2_cache/c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90.json",
+      "cache_sha256": "c4aeed42d7a4705ec6d1f8614a9310448b35fc349341b1489d2999bd7485fee3",
+      "image_sha256": "c66f871e9741123ac12f16893005215b5afc19052ab960b7de03678e20b98a90",
+      "backend": "RapidOCR-3.10.0+automatic-small-UI-v1",
+      "cache_image_hash_verified": true
+    }
+  },
+  "command": [
+    "/usr/bin/python3",
+    "/home/sti/Documents/Codex/2026-11-10/new-chat-3/outputs/jcc-expert/scripts/train_field_model.py",
+    "--annotations",
+    "work/field_training_expanded_v3/annotations.json",
+    "--output",
+    "work/field_training_expanded_v3/model",
+    "--ocr-cache-dir",
+    "work/field_training_expanded_v2_cache",
+    "--mode",
+    "both"
+  ],
+  "experiment": {
+    "version": "V3",
+    "purpose": "Third candidate experiment; split fixed from development label coverage before refit, not selected using validation outcomes.",
+    "parent_annotations_sha256": "fe86670c133685638d11aa1728fe016ac4998fecc2ee2efd3bd3f7da0d733e5d",
+    "fixed_source_plan": {
+      "sohu_1068964903": "train",
+      "source_taptap_867251881297052929": "train",
+      "youxituoluo_534823": "calibration",
+      "chuapp_291576": "validation",
+      "source_chuapp_291737": "validation"
+    },
+    "validation_reused": true,
+    "validation_is_independent_final_evidence": false,
+    "sealed_test_read": false,
+    "deployment_gates_unchanged": {
+      "minimum_validation_answers_per_mode": 20,
+      "target_precision": 0.98,
+      "minimum_validation_source_groups": 2
+    },
+    "validation_check_number": 3,
+    "final_evidence_eligible": false,
+    "description": "The validation source groups are reused development evidence. Thresholds were selected on the declared calibration source only; no new sealed labels or images were passed to training."
+  }
+}

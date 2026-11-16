@@ -1,0 +1,3916 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T10:31:04.690746+00:00",
+  "notice": "Official image cache; recognition scores are similarity scores, not calibrated accuracy.",
+  "assets": [
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11500",
+      "name": "奥恩",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ornn.png",
+      "path": "nature/heros/11500.png",
+      "sha256": "63be1dfdd9891191d1fe7758d430e861e058f6a4b0c9a5bdaf3827ce471f0fb5",
+      "bytes": 22816
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11501",
+      "name": "洛",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_rakan.png",
+      "path": "nature/heros/11501.png",
+      "sha256": "e1ba20205cd80d6136dc56e9645ba4950a21e1defcc31c6735c9127242e4e246",
+      "bytes": 23427
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11502",
+      "name": "蕾欧娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_leona.png",
+      "path": "nature/heros/11502.png",
+      "sha256": "84c5920193246355035c32f916c30a6963edc723fa0d268ede995153f198736c",
+      "bytes": 24264
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11503",
+      "name": "可酷伯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kobuko.png",
+      "path": "nature/heros/11503.png",
+      "sha256": "a7bb677dd23e5a9425ea633c4ee6269b0c2984c410563ee813ee7be5752485f6",
+      "bytes": 26178
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11504",
+      "name": "雷克塞",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_reksai.png",
+      "path": "nature/heros/11504.png",
+      "sha256": "badeeb1092e3975f8eab960324e4edbbe02a2a12132498a0691c48417c222fc3",
+      "bytes": 24435
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11505",
+      "name": "卡蜜尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_camille.png",
+      "path": "nature/heros/11505.png",
+      "sha256": "685c89d40d24f001060768af8dd8a1d66619dad7feb97f86c9484cfeebbfb080",
+      "bytes": 23219
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11506",
+      "name": "阿卡丽",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_akali.png",
+      "path": "nature/heros/11506.png",
+      "sha256": "4eca4f959ef655408566c8a34e8aadfdd4ab4bf5e8960668f328be3d6b69bd4f",
+      "bytes": 21206
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11507",
+      "name": "韦鲁斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_varus.png",
+      "path": "nature/heros/11507.png",
+      "sha256": "4a92741f29d1c176e7ca602f30b80fb9bb754f3ebccf7acd937405b56fd2c387",
+      "bytes": 23659
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11508",
+      "name": "绯红树怪",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_cinderling.png",
+      "path": "nature/heros/11508.png",
+      "sha256": "8e201a4a9558f0755a209c84cb2369a9064f2af35813e11473c689f60b9bec03",
+      "bytes": 23570
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11509",
+      "name": "霞",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_xayah.png",
+      "path": "nature/heros/11509.png",
+      "sha256": "cd6a6f472758c3f3728370a54f1545979d7a552662c025205e0f0c6d35fd5f0f",
+      "bytes": 22024
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11510",
+      "name": "卡尔玛",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_karma.png",
+      "path": "nature/heros/11510.png",
+      "sha256": "a9d66cf7e546468107af1d1557852d993d794c3a844598c3acd064df26031787",
+      "bytes": 25831
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11511",
+      "name": "苍蓝哨戒",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sentry.png",
+      "path": "nature/heros/11511.png",
+      "sha256": "7c1c525533c937230bcf4df2c3865cf835a9c281ce9e938031e832dd4224dd48",
+      "bytes": 22085
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "11512",
+      "name": "维迦",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_veigar.png",
+      "path": "nature/heros/11512.png",
+      "sha256": "f9a8c5f8c14b1f3e0bb76ab1c20c9565a7e13189cb429aa7e9c807f5980ca819",
+      "bytes": 21300
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12500",
+      "name": "峡谷迅捷蟹",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_scuttle.png",
+      "path": "nature/heros/12500.png",
+      "sha256": "4d3e124473edbc8911a8640cb43f2e6d785498e599b16186109f4a6fc8da489d",
+      "bytes": 25815
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12501",
+      "name": "阿利斯塔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_alistar.png",
+      "path": "nature/heros/12501.png",
+      "sha256": "00839dcb928861beb8bc6eba14db6d323a7a24b2fc1c6392013494819d676a74",
+      "bytes": 24525
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12502",
+      "name": "瑟庄妮",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sejuani.png",
+      "path": "nature/heros/12502.png",
+      "sha256": "83232e5efb873628b93b8157ed76f479ad1bbe4f63b94e12ad459e28a177e738",
+      "bytes": 26409
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12503",
+      "name": "慎",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_shen.png",
+      "path": "nature/heros/12503.png",
+      "sha256": "d9d0968db4c3137096490fc3be76b3af7f6f99510392a0f5b8a347b08e1e297d",
+      "bytes": 21576
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12504",
+      "name": "伊莉丝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_elise.png",
+      "path": "nature/heros/12504.png",
+      "sha256": "4703a1d5a484b6df91237068ade9d69ea4bb87079926de05cb9a0ac8079fa186",
+      "bytes": 24843
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12505",
+      "name": "约里克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_yorick.png",
+      "path": "nature/heros/12505.png",
+      "sha256": "c1550c77fe1cacf25225fe7e9d28423158cb8d7a4987f5c3f343ddd161fd7624",
+      "bytes": 23960
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12507",
+      "name": "暗影狼",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_murkwolf.png",
+      "path": "nature/heros/12507.png",
+      "sha256": "154fb3229fe404ffeb8453f1c7c3937dd4fc5b8de3757e3a1d33814203fbdb32",
+      "bytes": 26133
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12508",
+      "name": "沃里克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_warwick.png",
+      "path": "nature/heros/12508.png",
+      "sha256": "b6e3dd43445d271f104ef1bc1ff679088f7827a1bfb421991621364589c22257",
+      "bytes": 23106
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12509",
+      "name": "芸阿娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_yunara.png",
+      "path": "nature/heros/12509.png",
+      "sha256": "3e076e50607afa21a225cbf803f9041e69861198a67588c1bbc828139d56aa68",
+      "bytes": 26671
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12510",
+      "name": "凯特琳",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_caitlyn.png",
+      "path": "nature/heros/12510.png",
+      "sha256": "a334717e128e6c4391070d2cabbeba0d8aeec9995dedfcbbdf2425836422c9ab",
+      "bytes": 25247
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12511",
+      "name": "乐芙兰",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_leblanc.png",
+      "path": "nature/heros/12511.png",
+      "sha256": "194321b196d06b1af9ae7ab6b1f63a1b4cef131aee5433d6af4819e50337da45",
+      "bytes": 24493
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12512",
+      "name": "凯尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kayle.png",
+      "path": "nature/heros/12512.png",
+      "sha256": "57c2e6e4b87c1eab157881e27b4e5c4b0d9c13a14d2a11b955f2c923073052d0",
+      "bytes": 23138
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12513",
+      "name": "魔沼蛙",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_gromp.png",
+      "path": "nature/heros/12513.png",
+      "sha256": "a4d777f3a09aa8c798b1dc7d8f2a1bc4fd498a884fa6a56895f2a3f7a86ddead",
+      "bytes": 23617
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "12514",
+      "name": "提莫",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_teemo.png",
+      "path": "nature/heros/12514.png",
+      "sha256": "30ef6dfa398869e401ce33355f5f1cebe7bf75f82807abcda7c009ad9cb67484",
+      "bytes": 25412
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13500",
+      "name": "赫卡里姆",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_hecarim.png",
+      "path": "nature/heros/13500.png",
+      "sha256": "b48ca822aa219860f820c51f85c843ab224b256de2d55a2666322010fe8ef24a",
+      "bytes": 25815
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13501",
+      "name": "蔚",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_vi.png",
+      "path": "nature/heros/13501.png",
+      "sha256": "c41fdc59c6e735ab16f416db565b5f72cc8221fea31ffefa2a3c8568b49c6153",
+      "bytes": 25186
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13502",
+      "name": "费德提克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_fiddlesticks.png",
+      "path": "nature/heros/13502.png",
+      "sha256": "9bb9305e72e47f41f6e0a6fff1871e8f46ba765f0381369995537dd52ae5e6e9",
+      "bytes": 24875
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13503",
+      "name": "远古石甲虫",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_krug.png",
+      "path": "nature/heros/13503.png",
+      "sha256": "ed71a11c1a89896b6a212909f89f43ffd2efa1fec6b39a7f94f4263c719ae40c",
+      "bytes": 23749
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13504",
+      "name": "雷恩加尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_rengar.png",
+      "path": "nature/heros/13504.png",
+      "sha256": "3be8a7d549942166f21e23f9d6e3864158fadf52a4ca2291ece3817640704a03",
+      "bytes": 26120
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13505",
+      "name": "卡兹克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_khazix.png",
+      "path": "nature/heros/13505.png",
+      "sha256": "596abf0c6d7b450b8c9607b1aafc8226a3b41cf571311697d6f9e552142ab86e",
+      "bytes": 21968
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13506",
+      "name": "黛安娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_diana.png",
+      "path": "nature/heros/13506.png",
+      "sha256": "ae026b8b08da4809e09354f9154c7e0d2f6191184c02c6d44fab198da1d634b6",
+      "bytes": 24460
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13507",
+      "name": "易",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_masteryi.png",
+      "path": "nature/heros/13507.png",
+      "sha256": "0dbb0ee2ed3f37b2dbb1a040e282244f317460242cdfab4a1c05dd74eca75253",
+      "bytes": 26474
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13508",
+      "name": "崔丝塔娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_tristana.png",
+      "path": "nature/heros/13508.png",
+      "sha256": "b6c01dac95f05404a78ddd16e5c6454e789588fa7b27f03a9b7a20171fb311b5",
+      "bytes": 22844
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13509",
+      "name": "深红锋喙鸟",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_raptor.png",
+      "path": "nature/heros/13509.png",
+      "sha256": "f8e62702ef883ea0bb98a775feafe9ca15feae433a41c6a6c017e4484cb13bed",
+      "bytes": 24485
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13510",
+      "name": "阿兹尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_azir.png",
+      "path": "nature/heros/13510.png",
+      "sha256": "a56cf8738169121f77b8763d3c6e8aaaf1f71c6d846bca78970bed9399b0d50e",
+      "bytes": 25408
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13511",
+      "name": "卡西奥佩娅",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_cassiopeia.png",
+      "path": "nature/heros/13511.png",
+      "sha256": "7680ac29f62c0e0630105b7bc513dc63cb152366c254d22d2c4790226d851d27",
+      "bytes": 24390
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13512",
+      "name": "克格莫",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kogmaw.png",
+      "path": "nature/heros/13512.png",
+      "sha256": "f88b1808fdda0cb1822ccdb339e0595eb0b2213a5654c3ac4f4c26b8701245c5",
+      "bytes": 26341
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "13515",
+      "name": "拉莫斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_rammus.png",
+      "path": "nature/heros/13515.png",
+      "sha256": "f149360f28b7dfd046ba31a45f682ad3bd617fea751b2ef43620888890b1b998",
+      "bytes": 23557
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14500",
+      "name": "苍蓝雕纹魔像",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sentinel.png",
+      "path": "nature/heros/14500.png",
+      "sha256": "0f4f9a033de57175895960e19c3aee2a9b17ad55f7b091fa2422bc00b1109c7e",
+      "bytes": 24240
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14501",
+      "name": "莫甘娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_morgana.png",
+      "path": "nature/heros/14501.png",
+      "sha256": "331f153200158462628eedad375dd885bef5f8ec884ba2096209410b329ca589",
+      "bytes": 24446
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14502",
+      "name": "莉莉娅",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lillia.png",
+      "path": "nature/heros/14502.png",
+      "sha256": "0852e394037e4c457bd2038847aa0355f405a8f83e053973b268473d4deb8dcf",
+      "bytes": 26707
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14503",
+      "name": "阿木木",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_amumu.png",
+      "path": "nature/heros/14503.png",
+      "sha256": "64e77afb3fb0199af65f9e6791f19a8748e83f87ae3336c8b725cee25310d30d",
+      "bytes": 24865
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14504",
+      "name": "墨菲特",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_malphite.png",
+      "path": "nature/heros/14504.png",
+      "sha256": "b2d6abcbe560090810ee48abc886e5180a4e3a474b4f208a80125a6c562885c1",
+      "bytes": 24662
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14505",
+      "name": "瑟提",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sett.png",
+      "path": "nature/heros/14505.png",
+      "sha256": "886aeb68f503b17c780ee3598cdde094cc930029a2de0dd22e95474a9745d0a2",
+      "bytes": 23052
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14506",
+      "name": "绯红印记树怪",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_brambleback.png",
+      "path": "nature/heros/14506.png",
+      "sha256": "86d1afd32e3b08458f982001be81688d278a8ba44deae8aaf9b8251b77135418",
+      "bytes": 25124
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14507",
+      "name": "奈德丽",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_nidalee.png",
+      "path": "nature/heros/14507.png",
+      "sha256": "7d8d3d44e43b2e63e97ffaefb74fcca99dc94f65f5f8d5c9816966a610c9a8bd",
+      "bytes": 24494
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14508",
+      "name": "伊泽瑞尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ezreal.png",
+      "path": "nature/heros/14508.png",
+      "sha256": "d4e3bcc88947f44e224a7350c203e25632e8f970ddfb18d99a8748c7395405b5",
+      "bytes": 25380
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14509",
+      "name": "厄斐琉斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_aphelios.png",
+      "path": "nature/heros/14509.png",
+      "sha256": "0a4428e9ee693e6f74d46c92e77af4d3e338f6ac4e8f5e7d6dfc8552811738be",
+      "bytes": 23770
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14510",
+      "name": "希维尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_sivir.png",
+      "path": "nature/heros/14510.png",
+      "sha256": "b059c522a50e416e13ad416efc2755ffdf4e97043f2548db9a25be12370ac307",
+      "bytes": 27233
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14511",
+      "name": "阿狸",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ahri.png",
+      "path": "nature/heros/14511.png",
+      "sha256": "7764ca867c1176d2845a645e5a57ea2dcf0269b9a13e3a440dcfce91a8b5baac",
+      "bytes": 25618
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14512",
+      "name": "婕拉",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_zyra.png",
+      "path": "nature/heros/14512.png",
+      "sha256": "eb1a0b74c036de20388d74dd8fd52acfc402dc2f6ae3cf5b4775580467f171c1",
+      "bytes": 26017
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "14513",
+      "name": "索拉卡",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_soraka.png",
+      "path": "nature/heros/14513.png",
+      "sha256": "8486d3fc15cf8bb8e6386be806f6b3f628e47805e1e4cf559859bd9d7f84d1af",
+      "bytes": 27330
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15450",
+      "name": "茂凯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_maokai.png",
+      "path": "nature/heros/15450.png",
+      "sha256": "3f092ecf66728b06595e20f17e3a43792c454ce48316a2e4ef846673878a6f08",
+      "bytes": 23927
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15451",
+      "name": "塔里克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_taric.png",
+      "path": "nature/heros/15451.png",
+      "sha256": "f03a1889056171a436415d3813938936ba2875a0ad31dc4bbb50b25dad133ff9",
+      "bytes": 23519
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15452",
+      "name": "纳尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_gnar.png",
+      "path": "nature/heros/15452.png",
+      "sha256": "6ad00a2441d8a0258d6ec20e9beb9e45cc15ec179d586c2390d30f186f253b0c",
+      "bytes": 24583
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15453",
+      "name": "凯南",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_kennen.png",
+      "path": "nature/heros/15453.png",
+      "sha256": "3866d885ee733f3c887b6731a68ed79521559efe4622d682d112c813a755a568",
+      "bytes": 24092
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15454",
+      "name": "艾希",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ashe.png",
+      "path": "nature/heros/15454.png",
+      "sha256": "133f509f5648fbaa6e0cd1e14663e6dd28eb43180e38d0592b216189194708ef",
+      "bytes": 25813
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15455",
+      "name": "德莱文",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_draven.png",
+      "path": "nature/heros/15455.png",
+      "sha256": "41132a2304135b1870fa0b4ec51aa101b570dfdf2d5ca0daf508d00767874126",
+      "bytes": 24171
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15456",
+      "name": "拉露恩",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_alune.png",
+      "path": "nature/heros/15456.png",
+      "sha256": "b8e877c180582079b8540b45996072e8cad2fe58fe654501e2deed9517ead65e",
+      "bytes": 24097
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15457",
+      "name": "艾翁",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_ivern.png",
+      "path": "nature/heros/15457.png",
+      "sha256": "4f4090b8fdb5dc1718e76d7e27c71b9ad2bff117e757bd02861c1be21c9b9fac",
+      "bytes": 25262
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15458",
+      "name": "远古巨龙",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_elderdragon.png",
+      "path": "nature/heros/15458.png",
+      "sha256": "6bb1940bee5399074fb50c1aa0315f4ffef72b2ba0710955f612739cdea52847",
+      "bytes": 21468
+    },
+    {
+      "mode": "nature",
+      "kind": "hero",
+      "entity_id": "15459",
+      "name": "拉克丝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode18s19/hero/s18_head_lux_base.png",
+      "path": "nature/heros/15459.png",
+      "sha256": "260db08c27a56ec2d025d19780454376d453f4797eeb828f50ba8b7d4962d953",
+      "bytes": 25271
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210014",
+      "name": "小额奖金 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210014_icon.png",
+      "path": "orange/cards/7210014.png",
+      "sha256": "fd5457db3f3c796ec4206680667d452b5fcd028595a8a7adf54b1169d743802a",
+      "bytes": 175667
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210015",
+      "name": "金币流 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210015_icon.png",
+      "path": "orange/cards/7210015.png",
+      "sha256": "9b9887c6b439e7937a235f124016ba2727b1c8bd98b5d0f63884b49208462d9a",
+      "bytes": 187458
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210016",
+      "name": "财源滚滚 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210016_icon.png",
+      "path": "orange/cards/7210016.png",
+      "sha256": "3b73b9d9bec0441f9db4a8da9f0ece9a6353ea30e7dde6aeaaf7dc01841d0114",
+      "bytes": 181940
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210017",
+      "name": "散件补给 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210017_icon.png",
+      "path": "orange/cards/7210017.png",
+      "sha256": "0abb7b799251fb3d625c1b905c02913beb7f1044d594171dc31e021f05f50850",
+      "bytes": 183059
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210018",
+      "name": "铁匠铺 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210018_icon.png",
+      "path": "orange/cards/7210018.png",
+      "sha256": "17eb11549234715ce9cd6c91e1ffe0821abbd918f153763a6d59046cad6a1492",
+      "bytes": 181828
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210019",
+      "name": "反曲之弓",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210019_icon.png",
+      "path": "orange/cards/7210019.png",
+      "sha256": "ea4c2b37bb17e79b2fe20a2249200144da3b9b964bf5c9665197b9acc1badc49",
+      "bytes": 166280
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210020",
+      "name": "侦察小队",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210020_icon.png",
+      "path": "orange/cards/7210020.png",
+      "sha256": "ce539141a2eae860acb1a569763bc9fcf0980e8dcb6cb2f85b89f671761b96db",
+      "bytes": 165895
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210021",
+      "name": "中坚力量 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210021_icon.png",
+      "path": "orange/cards/7210021.png",
+      "sha256": "2152d28c93077e7743db0b31fe11e6f4ab1ed64bf9c2f965188fde7ed329d1fb",
+      "bytes": 185275
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210022",
+      "name": "四费援兵 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210022_icon.png",
+      "path": "orange/cards/7210022.png",
+      "sha256": "be7991bb8b8582e89349a4da2cbefcb6cd17fb945596bab0df40b942d1f4fa79",
+      "bytes": 184296
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210023",
+      "name": "王牌猎手 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210023_icon.png",
+      "path": "orange/cards/7210023.png",
+      "sha256": "41c6925fc192318e9fe9f80e80b9bd182a9129253a7127178e0b7f83cb1b2070",
+      "bytes": 183452
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210024",
+      "name": "精锐援兵 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210025_icon.png",
+      "path": "orange/cards/7210024.png",
+      "sha256": "1462063b4f0cb97ea5f914c83ce13f9b4abb36e51e645001890dbb857d10bbe9",
+      "bytes": 186872
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210025",
+      "name": "帮忙，好伙计！ I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210026_icon.png",
+      "path": "orange/cards/7210025.png",
+      "sha256": "de827864c85f1b0814dfa11ef2152197fc725961663f9f659e19a036f9827a40",
+      "bytes": 180645
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210026",
+      "name": "金色军团 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210027_icon.png",
+      "path": "orange/cards/7210026.png",
+      "sha256": "3d42d6d7eedf42e8b652074cd4d11cc0d83190c79e199f2033172e12dbc89b13",
+      "bytes": 185852
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210027",
+      "name": "次级复制 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210128_icon.png",
+      "path": "orange/cards/7210027.png",
+      "sha256": "6d80ec372568b06a3b20adcd6dcdfca22ab456bd42375d6b9651c7f499fb244c",
+      "bytes": 185813
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210028",
+      "name": "微型复制 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210028_icon.png",
+      "path": "orange/cards/7210028.png",
+      "sha256": "a07528ee89eadb8964e455d79436565f906ca58d2157266f6ee0177fe66f04a8",
+      "bytes": 187284
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210030",
+      "name": "纹章补给 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210030_icon.png",
+      "path": "orange/cards/7210030.png",
+      "sha256": "3765ef279dec56926388819c24638e52a1d084199759f2cffbcaeed593a0f2f7",
+      "bytes": 188033
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210032",
+      "name": "升级 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210032_icon.png",
+      "path": "orange/cards/7210032.png",
+      "sha256": "6fa834d2f1d2f475d47f8d3ff72e8260d44b7e19291db391917f414260f0f7a3",
+      "bytes": 174797
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210033",
+      "name": "经验盛宴 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210033_icon.png",
+      "path": "orange/cards/7210033.png",
+      "sha256": "29e1199cf2a0b26175f45feba60f1c760346a2226dc73c71c34d753350e90e19",
+      "bytes": 181204
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7210034",
+      "name": "虚张声势",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7210034_icon.png",
+      "path": "orange/cards/7210034.png",
+      "sha256": "481c3f138574478186a7fe1e7579cad245f2a5b3cebed572d79240efb8401ae2",
+      "bytes": 162356
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220015",
+      "name": "假人朋友",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220015_icon.png",
+      "path": "orange/cards/7220015.png",
+      "sha256": "833cd6e84c964d7abacd4270df67780c80dd1ae7e2d3335bbec43e5e377c630a",
+      "bytes": 203561
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220018",
+      "name": "回响打捞术",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220018_icon.png",
+      "path": "orange/cards/7220018.png",
+      "sha256": "8d2eaf6667f5be2538470f35cdeca4eb2fe143c05f2d2bff7a27ea6f44d18556",
+      "bytes": 159327
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220024",
+      "name": "小额奖金 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220024_icon.png",
+      "path": "orange/cards/7220024.png",
+      "sha256": "da79c5d32b840fc651cf4d2f1c33b5209d66bc01373ffb65ca1a38782124ec23",
+      "bytes": 197042
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220026",
+      "name": "财源滚滚 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220026_icon.png",
+      "path": "orange/cards/7220026.png",
+      "sha256": "7419dcd4f43bcfabb980d98469199f540c2caff87d5a016b7f5dbe2413c92771",
+      "bytes": 206077
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220027",
+      "name": "散件补给 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220027_icon.png",
+      "path": "orange/cards/7220027.png",
+      "sha256": "4b7d6e3b20a968a2ce6916aadb1fb07eb993afa990a9a24c063ec95a28d7f732",
+      "bytes": 196107
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220028",
+      "name": "铁匠铺 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220028_icon.png",
+      "path": "orange/cards/7220028.png",
+      "sha256": "2511373d40794b0ad0a4b9f0d808dd8ffd798927d8e88e2d21397a11aa13a231",
+      "bytes": 199319
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220030",
+      "name": "杰作熔铸 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220030_icon.png",
+      "path": "orange/cards/7220030.png",
+      "sha256": "93e4e5808caed4beb62653738a22e1dacd47e77d5fcd2212f23d94c37ebe672a",
+      "bytes": 206782
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220031",
+      "name": "物法皆防 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220031_icon.png",
+      "path": "orange/cards/7220031.png",
+      "sha256": "04b164b08f580304b9a6096a2e9e3d7cfa89ea3fed1a52a03676ff89c358922c",
+      "bytes": 201531
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220032",
+      "name": "物法皆攻 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220032_icon.png",
+      "path": "orange/cards/7220032.png",
+      "sha256": "368dae3ef72b8b305b3a8db12b14e7bb5a6ba352334779950fcc0fb27c21791d",
+      "bytes": 208406
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220033",
+      "name": "手套高手 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220033_icon.png",
+      "path": "orange/cards/7220033.png",
+      "sha256": "842bcdd5cc5387e9fffcb450df9778ad10aab569c32c4a73997f3158b3f18c27",
+      "bytes": 189111
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220034",
+      "name": "中坚力量 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220034_icon.png",
+      "path": "orange/cards/7220034.png",
+      "sha256": "abbce033aea63c93df908f420ab3b4a22dfa7dcfb05cb53b504d041d9c1e9123",
+      "bytes": 200159
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220036",
+      "name": "王牌猎手 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220036_icon.png",
+      "path": "orange/cards/7220036.png",
+      "sha256": "5e5ca7bc9e7cb528a3383f9933a5b3078eae54e452f2f3023032ba94e6aa0cf7",
+      "bytes": 197846
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220037",
+      "name": "先遣小队",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220037_icon.png",
+      "path": "orange/cards/7220037.png",
+      "sha256": "f567133a80cc9a7dac76e2146107e88350677d970900a6e724a739977a1728a5",
+      "bytes": 205833
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220038",
+      "name": "精锐援兵 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220038_icon.png",
+      "path": "orange/cards/7220038.png",
+      "sha256": "b5c6f1495f0628df1ecde899c9b51fa498776709055860c9758f95568728be37",
+      "bytes": 202296
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220039",
+      "name": "微型复制 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220039_icon.png",
+      "path": "orange/cards/7220039.png",
+      "sha256": "ccc1eb00c29ed275c0166e1c9f7855ff5be0ef7dbe3897fdbedb2d734881f127",
+      "bytes": 210810
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220040",
+      "name": "次级复制 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220139_icon.png",
+      "path": "orange/cards/7220040.png",
+      "sha256": "b6d7c2378409e9b2bef6c79c3c9299feff7559c400bca2d25c4f336fa63190d0",
+      "bytes": 208805
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220042",
+      "name": "纹章补给 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220042_icon.png",
+      "path": "orange/cards/7220042.png",
+      "sha256": "e45663f9226c4bc27d8c1bdd36bc7e156ae6b3acf1ec23e8454446f2deb2318d",
+      "bytes": 206548
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220044",
+      "name": "百炼成钢",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220044_icon.png",
+      "path": "orange/cards/7220044.png",
+      "sha256": "31183ccb7a34681e888155908b8e120a8bd9d734ba73221452dcc84eaadeec9b",
+      "bytes": 188236
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220045",
+      "name": "有意失利",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220045_icon.png",
+      "path": "orange/cards/7220045.png",
+      "sha256": "7a8f1d5c741e25f680927d0c0e918ff0e8b221e9734b1473de59b8c63c670dcb",
+      "bytes": 191602
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220046",
+      "name": "快乐开D I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220046_icon.png",
+      "path": "orange/cards/7220046.png",
+      "sha256": "1f58c9376e2126e9033b10d46b6199fe20b06c1959d15f58ab044aebe32ef5fb",
+      "bytes": 196030
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220047",
+      "name": "后期D牌主义 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220047_icon.png",
+      "path": "orange/cards/7220047.png",
+      "sha256": "88362b5fd5d05db938439e3021a248acab11e671d4025bf80585865ae6109eb0",
+      "bytes": 191284
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220048",
+      "name": "命运卡片 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220048_icon.png",
+      "path": "orange/cards/7220048.png",
+      "sha256": "8f126a4ce975c67412c5dbb9b3a9e4335bb895fda5705ae98bfeb6c337f6c43d",
+      "bytes": 192725
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220049",
+      "name": "投资新手",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220049_icon.png",
+      "path": "orange/cards/7220049.png",
+      "sha256": "09f97cb362e35d01020ada88459f9fae9ed2cb545f858ace4ba9618bf5c5c836",
+      "bytes": 227177
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220050",
+      "name": "熔铸之神的馈赠",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220050_icon.png",
+      "path": "orange/cards/7220050.png",
+      "sha256": "7e959c7e4e8219fdc2482b8fd9edca3c3124eed52849a940551027f1850c1c19",
+      "bytes": 226100
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220052",
+      "name": "买一赠二 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220052_icon.png",
+      "path": "orange/cards/7220052.png",
+      "sha256": "f5b3c7321edee8b30d667ff53505fb9b2dc81aa043f714cac3fe6f6ecfcfc959",
+      "bytes": 208020
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220053",
+      "name": "2星C位开局",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220053_icon.png",
+      "path": "orange/cards/7220053.png",
+      "sha256": "645b6bb755debd8299207e661cc843173e50b5c74972969fef3da56201017287",
+      "bytes": 219294
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220054",
+      "name": "停火协议",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220054_icon.png",
+      "path": "orange/cards/7220054.png",
+      "sha256": "f7aa3603e70ca1b7eda7ef110856b567c0dcdf0994fbacacd6edb3b3be407ce7",
+      "bytes": 228050
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220055",
+      "name": "双城故事",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220056_icon.png",
+      "path": "orange/cards/7220055.png",
+      "sha256": "2fa876cf0d55d6def967240a85befc2b9a6a06bfc4c51a7124a927ba786dbbbc",
+      "bytes": 249833
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220056",
+      "name": "极境之民",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220055_icon.png",
+      "path": "orange/cards/7220056.png",
+      "sha256": "78c9e604813455b7c9e166586a0b3ae072b2585aa942e8671595ca650a7825c4",
+      "bytes": 227305
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220057",
+      "name": "常世之外",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220057_icon.png",
+      "path": "orange/cards/7220057.png",
+      "sha256": "43ce620df8be67146af21d8511f7984dee25872f7388e3c5014a04c125202f3d",
+      "bytes": 231105
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7220058",
+      "name": "口袋变形",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7220058_icon.png",
+      "path": "orange/cards/7220058.png",
+      "sha256": "a0157eeb8cdea6b0da9c31fbe53ee19265d9094290772d1908fc51ac244d12ef",
+      "bytes": 190871
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230005",
+      "name": "金辉尽绘",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230005_icon.png",
+      "path": "orange/cards/7230005.png",
+      "sha256": "e044173a7aa6d6fe7b74870252a2af4b6cba905dcd6ebad35a91564a40de33b4",
+      "bytes": 213741
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230032",
+      "name": "小额奖金 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230032_icon.png",
+      "path": "orange/cards/7230032.png",
+      "sha256": "aedb34652a54a7f7ebd05b2a3f88b37f2e36869c1a0310815d17fcbdd51e57bc",
+      "bytes": 197522
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230034",
+      "name": "财源滚滚 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230034_icon.png",
+      "path": "orange/cards/7230034.png",
+      "sha256": "e179dd18c1c0c4c327cd8cd82d3701e408b9119e10126770ad6dbaa27f448230",
+      "bytes": 217188
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230035",
+      "name": "基础锻造",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230035_icon.png",
+      "path": "orange/cards/7230035.png",
+      "sha256": "fe6022270426fb03fd7977a8a5097d415df37646a133bae11254ba6221e3d2c7",
+      "bytes": 207178
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230036",
+      "name": "散件大礼包",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230036_icon.png",
+      "path": "orange/cards/7230036.png",
+      "sha256": "9a1c194d48071378348d713a8ed4e216d145b67027f1881ad62461684af0133b",
+      "bytes": 201216
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230037",
+      "name": "杰作熔铸 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230037_icon.png",
+      "path": "orange/cards/7230037.png",
+      "sha256": "6047f0394888057c68b8e762973cc56f7faaa2689a4f8cfdfc83a061c6a308b3",
+      "bytes": 207741
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230038",
+      "name": "神器补给",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230038_icon.png",
+      "path": "orange/cards/7230038.png",
+      "sha256": "114e99c98c7c9a5b9808f9ef74aa16b10e92312d19dbc645bc17a62642e34dde",
+      "bytes": 205880
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230039",
+      "name": "物法皆防 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230039_icon.png",
+      "path": "orange/cards/7230039.png",
+      "sha256": "4ac2982dbf78fedbbb5526a1966f9e1841be1c06d38b6b924be5ed0f640eba24",
+      "bytes": 202964
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230040",
+      "name": "物法皆攻 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230040_icon.png",
+      "path": "orange/cards/7230040.png",
+      "sha256": "3b9436efa3dc71c740e8c9ac79ba7335032f64ce0f94059c023bc2726efd42bf",
+      "bytes": 211722
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230041",
+      "name": "手套高手 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230041_icon.png",
+      "path": "orange/cards/7230041.png",
+      "sha256": "f36f55cd98c311cc80d2c7be62350a5b5bacdbd51a964dee03a2f0b5df08ded5",
+      "bytes": 194908
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230043",
+      "name": "双重暴击",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230043_icon.png",
+      "path": "orange/cards/7230043.png",
+      "sha256": "803be448bbbb9a2d74e8cca457767ebed577471512b335fe27807d20ecec7776",
+      "bytes": 217091
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230044",
+      "name": "离子巨杀",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230044_icon.png",
+      "path": "orange/cards/7230044.png",
+      "sha256": "c105eefbae56c7abbd4c3cfe90c10c4f1e0ff97b0b63e30e23cb7c115d808f5d",
+      "bytes": 215741
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230045",
+      "name": "幸运宝箱",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230045_icon.png",
+      "path": "orange/cards/7230045.png",
+      "sha256": "3384f092c888757fbfc1376477e46fb0d2cd15f1f167782b0c1907fd36a4d227",
+      "bytes": 205689
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230047",
+      "name": "扩军令 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230047_icon.png",
+      "path": "orange/cards/7230047.png",
+      "sha256": "f99e49a7948c07d70d24a99c40eb59558d62fcf7010acb0bf92386bdf550705a",
+      "bytes": 190758
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230048",
+      "name": "四费援兵 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230048_icon.png",
+      "path": "orange/cards/7230048.png",
+      "sha256": "bf533a400bfdca1103a8ccf839641ee04b7100a1bfc8c2f1d6c0c8fe4437b899",
+      "bytes": 204846
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230049",
+      "name": "王牌猎手 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230049_icon.png",
+      "path": "orange/cards/7230049.png",
+      "sha256": "b9050fcec30c2f53508ecdd74b7272b73d21878c994ec96d322fd0b725eb724a",
+      "bytes": 206241
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230050",
+      "name": "强力盟友 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230050_icon.png",
+      "path": "orange/cards/7230050.png",
+      "sha256": "18457dc1eff0750ea1ffddd7faf09ddcf756c5b8288d4593c94fff2e5094e1d8",
+      "bytes": 196001
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230051",
+      "name": "援兵组合",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230051_icon.png",
+      "path": "orange/cards/7230051.png",
+      "sha256": "77b93f936f5116b771fcfb1cbb7a0652ed6ecea1ba41cf3f44eb030327d2d85d",
+      "bytes": 209264
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230052",
+      "name": "帮忙，好伙计！ II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230052_icon.png",
+      "path": "orange/cards/7230052.png",
+      "sha256": "69b74629c24cc74011c464ae51e8f9d91ae556a70e65b1ade4aad24f614ebaa1",
+      "bytes": 194845
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230053",
+      "name": "金色军团 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230053_icon.png",
+      "path": "orange/cards/7230053.png",
+      "sha256": "19495043b06b26888159787f62e5f4f1a31b917096ee7f892ff646fd7fe30ea1",
+      "bytes": 203033
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230054",
+      "name": "混合复制",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230054_icon.png",
+      "path": "orange/cards/7230054.png",
+      "sha256": "6846d184cdc381a4b0935253486042db80d0aeda8dbaf40920eeb10daaa47cd1",
+      "bytes": 216677
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230055",
+      "name": "次级复制 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230055_icon.png",
+      "path": "orange/cards/7230055.png",
+      "sha256": "8b2cb94d985283fcf6e1b9686c19bc8d90aac1361c727ef191af62fa3d44d54b",
+      "bytes": 214618
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230057",
+      "name": "纹章补给 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230058_icon.png",
+      "path": "orange/cards/7230057.png",
+      "sha256": "e79a150b4e980f9d98bb430f409e2a3302c3bc4c34c53881621333648d16cc55",
+      "bytes": 195069
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230058",
+      "name": "纹章之书 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230057_icon.png",
+      "path": "orange/cards/7230058.png",
+      "sha256": "979a52fda3deef15b0c6fd677028f51aa578c569af138d6b0bda7e2bd7d5ccfa",
+      "bytes": 207965
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230060",
+      "name": "经验叠经验",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230060_icon.png",
+      "path": "orange/cards/7230060.png",
+      "sha256": "0a93085c160a5752ee4d89ea348c015ba20ad7947b73e5b147205dc25d1e7659",
+      "bytes": 190907
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230061",
+      "name": "绝处逢生",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230061_icon.png",
+      "path": "orange/cards/7230061.png",
+      "sha256": "d7c57c4f13d3a19e931feb241c0c342c396ac23d69ed934f21cbed6445857c21",
+      "bytes": 188738
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230062",
+      "name": "快乐开D II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230062_icon.png",
+      "path": "orange/cards/7230062.png",
+      "sha256": "548b04791369b343cf1e74d53e7fec3a0fcbed0a232f9594b3e50d1ed0e06176",
+      "bytes": 195134
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230063",
+      "name": "后期D牌主义 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230063_icon.png",
+      "path": "orange/cards/7230063.png",
+      "sha256": "6fecb21f4a10c7b24c0c45449fd0b9edf436ea9e2a7e19e511d14d6744d46f40",
+      "bytes": 197379
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230064",
+      "name": "蓝色法球",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230064_icon.png",
+      "path": "orange/cards/7230064.png",
+      "sha256": "2bd0efa4fb87227a2feb97bf333374b9c092079bc8ea9ab2d8bfebaae84334b1",
+      "bytes": 197067
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230065",
+      "name": "金球之礼",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230065_icon.png",
+      "path": "orange/cards/7230065.png",
+      "sha256": "8a7e76d76425f852c9636cc2104939f1af2fcb02bdb6ab2883d88b7022a4fe4b",
+      "bytes": 196052
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230066",
+      "name": "棱彩法球 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230066_icon.png",
+      "path": "orange/cards/7230066.png",
+      "sha256": "371d8cf5becb6ce5f83677ee8bb32a282761792b061a94ed7c6332db86c290af",
+      "bytes": 207445
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230067",
+      "name": "白银之选",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230067_icon.png",
+      "path": "orange/cards/7230067.png",
+      "sha256": "267a4644dae0aed1e05d9b08bdcbba6cfc62eb0ead80b7a533d675947973cb80",
+      "bytes": 176393
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230068",
+      "name": "命运：黄金阶",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230068_icon.png",
+      "path": "orange/cards/7230068.png",
+      "sha256": "6b1e7031b719c1cbe3892180f194e0f2cd7cab89cdb52879886ff57a64be7d9d",
+      "bytes": 186305
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230069",
+      "name": "命运：棱彩阶",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230069_icon.png",
+      "path": "orange/cards/7230069.png",
+      "sha256": "cdfbd86d08f296e3d6669fe612a6cf1c48aadb2f0ebb747dabb9b57955ab8ad7",
+      "bytes": 186806
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230070",
+      "name": "符文强化 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230070_icon.png",
+      "path": "orange/cards/7230070.png",
+      "sha256": "04ad374a1c6416eaa1032aec98faa42c9a7593817394455aa7c4dced077971f9",
+      "bytes": 194336
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230071",
+      "name": "命运卡片 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230071_icon.png",
+      "path": "orange/cards/7230071.png",
+      "sha256": "3748ae39b8e89e461945655a8dc39f057829df4533cd2e62afd4494f0ccea85b",
+      "bytes": 202240
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230072",
+      "name": "寻炉乡",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230072_icon.png",
+      "path": "orange/cards/7230072.png",
+      "sha256": "a496ca5f976ea09e085537d0fcad19a46a5317d670a821abf0bc0f441a41b21f",
+      "bytes": 213520
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230081",
+      "name": "炉家人 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230081_icon.png",
+      "path": "orange/cards/7230081.png",
+      "sha256": "ab060957c0f12b576a4303c9a2143a3b45159aeaf5ca578c3895af777d61bde8",
+      "bytes": 203833
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230084",
+      "name": "时光之力 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230084_icon.png",
+      "path": "orange/cards/7230084.png",
+      "sha256": "7255eee8f4e7feb4abce7d4f51f0b36cf53f4c15a111c22818eec86f6f49ed93",
+      "bytes": 208358
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230085",
+      "name": "贪欲恶魔 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230085_icon.png",
+      "path": "orange/cards/7230085.png",
+      "sha256": "40618abc694396314b6a39cfcad685b5092b6e5a0d0648f98741fc1b86b801c2",
+      "bytes": 196558
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230087",
+      "name": "范德尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230087_icon.png",
+      "path": "orange/cards/7230087.png",
+      "sha256": "cbe8f949c4abde2a7e4a8e277471de584fce4bb72578269791c1c7e4c8c1460e",
+      "bytes": 213734
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230088",
+      "name": "上古守护者",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230088_icon.png",
+      "path": "orange/cards/7230088.png",
+      "sha256": "6e5b0ba51d6ba6db95b923e7b939e2b5fe896ecee2784157c013f1ee3c1ed45d",
+      "bytes": 229865
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230089",
+      "name": "世界最大“恶人”",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230089_icon.png",
+      "path": "orange/cards/7230089.png",
+      "sha256": "6031476b8ebad69311458f775b50be2fb5eba453339d821f259d5eb7e91d695e",
+      "bytes": 220402
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230090",
+      "name": "日月光华",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230090_icon.png",
+      "path": "orange/cards/7230090.png",
+      "sha256": "79823ede21c012f166aa3e05c31fd1ea77512587d71bf3c80ea5ce14d256dcb5",
+      "bytes": 214815
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230091",
+      "name": "买一赠二 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230091_icon.png",
+      "path": "orange/cards/7230091.png",
+      "sha256": "ff5737c81f5fcac2c4c957efe02350419ec34ee2014ca2d31ddf66109e8af36a",
+      "bytes": 209493
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230094",
+      "name": "坚决之阵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230094_icon.png",
+      "path": "orange/cards/7230094.png",
+      "sha256": "84665dbd34b4330d45869f4341a7a7986af5c5f96f4c49f2e490178cf2f038fb",
+      "bytes": 195150
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230096",
+      "name": "汲取之阵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230096_icon.png",
+      "path": "orange/cards/7230096.png",
+      "sha256": "294e06ceb4b420d49bea9eae14dec413ea45607ce82ca8c5ee4789acbdbb1514",
+      "bytes": 187591
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230103",
+      "name": "同盟药水",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230103_icon.png",
+      "path": "orange/cards/7230103.png",
+      "sha256": "096012244ed6564b5f336ea1170038cc50cd8d4498634a89d250531f296a3945",
+      "bytes": 194839
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230105",
+      "name": "能抗就能打",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230105_icon.png",
+      "path": "orange/cards/7230105.png",
+      "sha256": "471672008a5d88a5dd7dd09e7c69052cd7f1544bed8b3e836ed435e1621db400",
+      "bytes": 200776
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230107",
+      "name": "帝国反抗者",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230107_icon.png",
+      "path": "orange/cards/7230107.png",
+      "sha256": "60a3ecb35e9a14296d0c67169c5d01d473a111ec2af13821cbc2d56f3c396d21",
+      "bytes": 208521
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230108",
+      "name": "重峦叠嶂",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230108_icon.png",
+      "path": "orange/cards/7230108.png",
+      "sha256": "27310784ed9e0547ce7f4ecfd94c983a1ae75e23f4629ac73d1c43e2760c97a0",
+      "bytes": 213104
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230110",
+      "name": "升星药水",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230110_icon.png",
+      "path": "orange/cards/7230110.png",
+      "sha256": "a914030ec92db8411d22076adeac0b663187537da680c07ccb0ca28e5b65cb32",
+      "bytes": 188243
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230111",
+      "name": "天衣药水",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230111_icon.png",
+      "path": "orange/cards/7230111.png",
+      "sha256": "32d45767d82a3467ab109d943d514df3c2cbaf9d7049085b8536d47de56df6c9",
+      "bytes": 193893
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230112",
+      "name": "王国后裔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230112_icon.png",
+      "path": "orange/cards/7230112.png",
+      "sha256": "247752b325b14ad712146c7de76486c8ece5105c9f7b6dd4c11470d32f05189b",
+      "bytes": 219849
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230113",
+      "name": "祖安试验",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230113_icon.png",
+      "path": "orange/cards/7230113.png",
+      "sha256": "454f79e133cd7e1f986b90efcedfdce22a14ae9d24afeff729fd8e6c6a188665",
+      "bytes": 209394
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7230114",
+      "name": "坚毅药水",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7230114_icon.png",
+      "path": "orange/cards/7230114.png",
+      "sha256": "bf381d82ad932200645aaff7d789da9aec5c228400b2f743a886b0c3ebf7e423",
+      "bytes": 183278
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240005",
+      "name": "暗裔之刃",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240006_icon.png",
+      "path": "orange/cards/7240005.png",
+      "sha256": "afd051dcaf4be339247933b3b7e69889f8bb6b8a09e80b1cac0dcade56543bc5",
+      "bytes": 191260
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240006",
+      "name": "暗裔之怒",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240005_icon.png",
+      "path": "orange/cards/7240006.png",
+      "sha256": "c48c86705c31ca3b2186dbf1fd49c325cf1a64b1771dcd9723c158a0261bf934",
+      "bytes": 197658
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240016",
+      "name": "小额奖金 IV",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240016_icon.png",
+      "path": "orange/cards/7240016.png",
+      "sha256": "a8bc8926e72f0d30e9a6f01488fda50ae5fed5d6fa128570286e3a081f64f76e",
+      "bytes": 190551
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240017",
+      "name": "金币流 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240017_icon.png",
+      "path": "orange/cards/7240017.png",
+      "sha256": "4c338d2b50683582c09839c009695a9b7bcfa0ec83f2cea5d3864fad4bbcc2be",
+      "bytes": 205243
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240018",
+      "name": "掘金者",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240018_icon.png",
+      "path": "orange/cards/7240018.png",
+      "sha256": "180f8f14d1eb9df7b20459c4e2aaddb4aa482f9250496573aed2a7f2b5d23702",
+      "bytes": 210518
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240019",
+      "name": "铁匠铺 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240019_icon.png",
+      "path": "orange/cards/7240019.png",
+      "sha256": "97493a11db59a9f816126c5a5e1f94a9803a25d5bf9c4d0b2292582a196b6ee2",
+      "bytes": 201237
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240020",
+      "name": "光明宝箱",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240020_icon.png",
+      "path": "orange/cards/7240020.png",
+      "sha256": "ec5f0204d624f0463ad65ed5b8ded31dee25819900909f7f094ce682625189e7",
+      "bytes": 200247
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240021",
+      "name": "凯旋熔炉",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240021_icon.png",
+      "path": "orange/cards/7240021.png",
+      "sha256": "e9e77f51c43e61dcd5d1555ee1f73014e98133e2a15e97b4034b8cc1f35400ca",
+      "bytes": 205959
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240022",
+      "name": "辅助三宝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240022_icon.png",
+      "path": "orange/cards/7240022.png",
+      "sha256": "42a30fa019895e86ed46e3eb237d22b1c9d4b5bd005d8fc0869becdf578e25e4",
+      "bytes": 206696
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240023",
+      "name": "极致攻防",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240023_icon.png",
+      "path": "orange/cards/7240023.png",
+      "sha256": "f8a6774a400a1af4a751aaecf17324412f2380f6edbd19023c66ef793909e0e3",
+      "bytes": 210381
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240024",
+      "name": "扩军令 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240024_icon.png",
+      "path": "orange/cards/7240024.png",
+      "sha256": "a8d244b0204f2c642c9ea175979f387fd74076c2bbc09d3a9feaf2008b10f8c4",
+      "bytes": 192408
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240025",
+      "name": "幸运宝箱堆 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240025_icon.png",
+      "path": "orange/cards/7240025.png",
+      "sha256": "c033263f8dbe484219ee87c993dd61dfe1cabdbccb9e9b7b4e2ccc272e67db15",
+      "bytes": 206824
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240026",
+      "name": "四费援军",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240026_icon.png",
+      "path": "orange/cards/7240026.png",
+      "sha256": "4d8b942fd31b744a8ec345cb539ee4e08c605b2d69882dae63de92172923887b",
+      "bytes": 202810
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240027",
+      "name": "王牌猎手团",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240027_icon.png",
+      "path": "orange/cards/7240027.png",
+      "sha256": "6fa8d19f2c0e338dd1835cdcef195dbeb39e45b7456785eb44a7c46de38d6903",
+      "bytes": 199534
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240028",
+      "name": "双子星",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240028_icon.png",
+      "path": "orange/cards/7240028.png",
+      "sha256": "399d606e197a50f436905259a313b20f8f1bc8ad7b568d4068f13a001b51c714",
+      "bytes": 196695
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240030",
+      "name": "纹章补给 IV",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240030_icon.png",
+      "path": "orange/cards/7240030.png",
+      "sha256": "15a5216e0a3d78a0b1e65fa1832a43d8ef10e4a7527dc0f283aa6271f0f3c205",
+      "bytes": 200684
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240031",
+      "name": "金锅铲冠冕",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240031_icon.png",
+      "path": "orange/cards/7240031.png",
+      "sha256": "9add25112c559087f315401f46e73dc1cc7f0c128b82aa977ed400fdeadf592b",
+      "bytes": 191533
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240032",
+      "name": "羁绊大师",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240032_icon.png",
+      "path": "orange/cards/7240032.png",
+      "sha256": "84b6fc5d27d80ebaaf5af3fe3d09226e6c883a62130b3050714e4caf4bdecd94",
+      "bytes": 201559
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240033",
+      "name": "升级 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240033_icon.png",
+      "path": "orange/cards/7240033.png",
+      "sha256": "e4c219f541fd8f542aa81038384346f24fdf1cb43f8277722e1d0554a000cdb2",
+      "bytes": 184175
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240034",
+      "name": "经验盛宴 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240034_icon.png",
+      "path": "orange/cards/7240034.png",
+      "sha256": "a0849bd186f6cee1e302d22fa172e663720ac194397a9938a1b7cce9e2055e34",
+      "bytes": 187875
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240035",
+      "name": "浮金门票",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240035_icon.png",
+      "path": "orange/cards/7240035.png",
+      "sha256": "f7d7425426870a5456e4c78fc7470ca1796222bf1060f69ff5196446a37dc614",
+      "bytes": 188819
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240036",
+      "name": "拾荒人",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240036_icon.png",
+      "path": "orange/cards/7240036.png",
+      "sha256": "285735adeabd4dd6f539755ef955fb15582c20d5af3c7fe69a84a357ff921bff",
+      "bytes": 198633
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240037",
+      "name": "彩球之礼",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240037_icon.png",
+      "path": "orange/cards/7240037.png",
+      "sha256": "09ec7a3e6fa65f52f2b453e80711033236a60452abcb5d86fd0a8f3845bee49d",
+      "bytes": 200610
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240038",
+      "name": "黄金之选",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240038_icon.png",
+      "path": "orange/cards/7240038.png",
+      "sha256": "487465d6c617432486665322e18ea52a88f798a1073a8f2594658ab8a3e78f24",
+      "bytes": 183209
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240039",
+      "name": "棱彩之选 I",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240039_icon.png",
+      "path": "orange/cards/7240039.png",
+      "sha256": "2ea2eb861986a60e6d06a67785f37582db998936ac3b7420d9c7b5f1bcaf98e4",
+      "bytes": 183528
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240040",
+      "name": "符文强化 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240040_icon.png",
+      "path": "orange/cards/7240040.png",
+      "sha256": "5037b6c11f4a2ff9624fffc4c1fd95483af0b113c579563500d7efe948ff0cf5",
+      "bytes": 186320
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240041",
+      "name": "时间引擎保险",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240041_icon.png",
+      "path": "orange/cards/7240041.png",
+      "sha256": "053b3f527ded54b54a28d9077966496a79bf0ef1b29f63841c1eea156e2622bf",
+      "bytes": 193522
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240042",
+      "name": "命运卡片 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240042_icon.png",
+      "path": "orange/cards/7240042.png",
+      "sha256": "f89051b180346f0b8d454d6923ff6f8fb349b8fc963d074a081821b3e25b534a",
+      "bytes": 202737
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240058",
+      "name": "多重投资",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240058_icon.png",
+      "path": "orange/cards/7240058.png",
+      "sha256": "7f5f74e58fada2a8727f69c70f16a033ab66c7db2374b6be3643108c64fc6826",
+      "bytes": 209010
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240059",
+      "name": "夺魂海怪",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240059_icon.png",
+      "path": "orange/cards/7240059.png",
+      "sha256": "883b8f41ed927b1137a08acafe6f5755aa3a492dc76dfcf2c98e8cce2b9fbb5e",
+      "bytes": 203210
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240060",
+      "name": "力量的召唤",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240060_icon.png",
+      "path": "orange/cards/7240060.png",
+      "sha256": "25be2f491a57e3c56dff3b64cb7322de46257d2bae328740b864020166308175",
+      "bytes": 203179
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240061",
+      "name": "恶魔降世",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240061_icon.png",
+      "path": "orange/cards/7240061.png",
+      "sha256": "b74293c0d086b3b0a6a4e617eeb9500543a11a59420e48e8032edc230f39fd44",
+      "bytes": 216780
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240062",
+      "name": "旧日蛮神",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240062_icon.png",
+      "path": "orange/cards/7240062.png",
+      "sha256": "937a753da9675b98d3bede251d8231a3b1d1ddcfca2505e1f6fcafce3c3e447a",
+      "bytes": 219089
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240063",
+      "name": "苦痛典狱",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240063_icon.png",
+      "path": "orange/cards/7240063.png",
+      "sha256": "f1735d87f616b0fc4ae44d644edd3eb8a4c4053431b7ddd0bfb937418059bfa6",
+      "bytes": 223347
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240064",
+      "name": "买一赠二 III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240064_icon.png",
+      "path": "orange/cards/7240064.png",
+      "sha256": "448645d71073a087c15532579cd071608e6c9319fb5bb631c205bb6f68a9f65f",
+      "bytes": 201349
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240068",
+      "name": "峡谷先锋奇袭！",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240068_icon.png",
+      "path": "orange/cards/7240068.png",
+      "sha256": "41dfe3fe6995b00b97425600c7029718359673ad05cea691a226150d94d42b5e",
+      "bytes": 224409
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240069",
+      "name": "迅捷蟹奇袭！",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240069_icon.png",
+      "path": "orange/cards/7240069.png",
+      "sha256": "5c29f66e6f80b4122ce19e1d486e42338ed74612ea3ea8aad30dd7cb2d003f4e",
+      "bytes": 219933
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240071",
+      "name": "斗士之阵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240071_icon.png",
+      "path": "orange/cards/7240071.png",
+      "sha256": "60a4b398df962fe7631445db83932dcf39cdec253b1474e13783ba65f97747c7",
+      "bytes": 210174
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240072",
+      "name": "不屈之阵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240072_icon.png",
+      "path": "orange/cards/7240072.png",
+      "sha256": "856870a1300dc2b1fe42536aaf15b6f08aec52396b8f7be6b48de33c469e4eb7",
+      "bytes": 214741
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240073",
+      "name": "败者的智慧",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240073_icon.png",
+      "path": "orange/cards/7240073.png",
+      "sha256": "0c06a04a22f3002e3a7e9f4a6d35a9dd9c28ec10e224246fed3b812bfc505042",
+      "bytes": 198754
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240077",
+      "name": "四星的第一步",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240077_icon.png",
+      "path": "orange/cards/7240077.png",
+      "sha256": "05887081f13d05239bbb97118a5bd1a28370d07526c3281f817ba4fb0f79bb56",
+      "bytes": 188600
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240080",
+      "name": "命运之轮：厄斐琉斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240080_icon.png",
+      "path": "orange/cards/7240080.png",
+      "sha256": "e3fcf8e8be2312758dbfd600665435487d44df298e6129054ba00c25289d0d20",
+      "bytes": 219390
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240087",
+      "name": "暗裔之风",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240087_icon.png",
+      "path": "orange/cards/7240087.png",
+      "sha256": "b909e2ae80559d765d9392600bdb39662932ab607c0b8f4b89615bf81c184ba5",
+      "bytes": 183597
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240088",
+      "name": "暗裔之霸符",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240088_icon.png",
+      "path": "orange/cards/7240088.png",
+      "sha256": "438a760a441aacf22d5b03bfcf5890d2d7614f4cc2a29ca22fc3e03525accd60",
+      "bytes": 197055
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240089",
+      "name": "富贵险中求",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240089_icon.png",
+      "path": "orange/cards/7240089.png",
+      "sha256": "98c059b48269c7266e7417b59ec5d070b83dec8002373da5a0200b1252d97bda",
+      "bytes": 208565
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240090",
+      "name": "伊莉丝夫人",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240090_icon.png",
+      "path": "orange/cards/7240090.png",
+      "sha256": "b976c83b442c6608f33d4204a5f97a41db9f409da1f9e1effb8943869cd40722",
+      "bytes": 202141
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240091",
+      "name": "灼烧炼狱",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240091_icon.png",
+      "path": "orange/cards/7240091.png",
+      "sha256": "8a6d3461f79e8f4db4d4eaa8fcc29bc9c347544201fd5e8dbc0b8164c45ea565",
+      "bytes": 207091
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240092",
+      "name": "部分变形重组",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240092_icon.png",
+      "path": "orange/cards/7240092.png",
+      "sha256": "366f479e1126719f759fc66f13cd56b3fdeacd64a25bd8d4ea1c8b3783731afc",
+      "bytes": 217258
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240093",
+      "name": "大神降临",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240093_icon.png",
+      "path": "orange/cards/7240093.png",
+      "sha256": "b04ea2bc3310ca14007e01ba91568d78b8b16fabb5ec0694d1d431d69e164699",
+      "bytes": 203857
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240094",
+      "name": "三顾炉乡",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240094_icon.png",
+      "path": "orange/cards/7240094.png",
+      "sha256": "b1912336b2a9e0000f60aeeae4674d0a78ccd567dafa95f35f51402837b1f01c",
+      "bytes": 230209
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240095",
+      "name": "破格征召",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240095_icon.png",
+      "path": "orange/cards/7240095.png",
+      "sha256": "4b4970507b47b29839a4e389adbc5825a1c67d4f47b712a224f142e73985bff7",
+      "bytes": 216691
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240096",
+      "name": "解锁天梯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240096_icon.png",
+      "path": "orange/cards/7240096.png",
+      "sha256": "8e2a927a71d7937ca3fc65ff1f43689c77316ead92ce945bcf4c5283fcc1e898",
+      "bytes": 202634
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7240097",
+      "name": "中庸之道",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7240097_icon.png",
+      "path": "orange/cards/7240097.png",
+      "sha256": "29c1d3bc7996049fb1fced65872b1b54813f96f97218273525a417aa51ab9de2",
+      "bytes": 208471
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250010",
+      "name": "利滚利",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250010_icon.png",
+      "path": "orange/cards/7250010.png",
+      "sha256": "af03a50c0e9b90e0a15922bd2a8493b83ae9b6767ad0569b5aa2c9724184f5d4",
+      "bytes": 214263
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250011",
+      "name": "自选神器",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250011_icon.png",
+      "path": "orange/cards/7250011.png",
+      "sha256": "699a3c0e15d9ceb18d59872c5c5554a8efbe5b136b27605784ff74281e58071d",
+      "bytes": 204620
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250012",
+      "name": "熔铸之神的杰作 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250012_icon.png",
+      "path": "orange/cards/7250012.png",
+      "sha256": "9000a90b4e895ba68b64b8c0f190268a77ebbe0edf92fe8742944c6ba2c4cce0",
+      "bytes": 205886
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250013",
+      "name": "幸运宝箱堆 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250013_icon.png",
+      "path": "orange/cards/7250013.png",
+      "sha256": "a024352e0b7d609976647755674318aef9fcdd82ff761edcbfff37014e59a561",
+      "bytes": 201776
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250014",
+      "name": "手套专家",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250014_icon.png",
+      "path": "orange/cards/7250014.png",
+      "sha256": "dddd259680ae7ebe6936a379ce17efa05a9bbd0f3db1ea9517fda8cbfe8470f2",
+      "bytes": 196345
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250015",
+      "name": "王牌猎手 IV",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250015_icon.png",
+      "path": "orange/cards/7250015.png",
+      "sha256": "8ca56bb88c8e5fc92b6cc4ce87ffe52707c0d5fa17b0e20e9055de716d7f16b8",
+      "bytes": 205749
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250016",
+      "name": "强力盟友 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250016_icon.png",
+      "path": "orange/cards/7250016.png",
+      "sha256": "3c712907a1d4df71d372a88f99908345c5deee53657e741d9d2cd5d5bd239bb3",
+      "bytes": 194242
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250017",
+      "name": "复制复制复制…",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250017_icon.png",
+      "path": "orange/cards/7250017.png",
+      "sha256": "d68cd9b2195779fc2634f9ae2eebc6907eef39823d9d9a9c2955effe2cad3432",
+      "bytes": 211558
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250018",
+      "name": "纹章之书 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250018_icon.png",
+      "path": "orange/cards/7250018.png",
+      "sha256": "66343ef81985ddfdfd6638db0aa0c7106ab16b184de3751e24a2a807dae498da",
+      "bytes": 203701
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250019",
+      "name": "羁绊神树",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250019_icon.png",
+      "path": "orange/cards/7250019.png",
+      "sha256": "101628485b9549c7882025ee81bf29d1d4298e1f16024532b2c5defc33b5204b",
+      "bytes": 223511
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250020",
+      "name": "经验流",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250020_icon.png",
+      "path": "orange/cards/7250020.png",
+      "sha256": "06410ea073e0a0536c0724ca9d0497b5502a39160eb0764e573d79ecb666ccdc",
+      "bytes": 190161
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250021",
+      "name": "快乐开D III",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250021_icon.png",
+      "path": "orange/cards/7250021.png",
+      "sha256": "e11763b6e60e2b52f4a0cf785aad6f6bdaaba4793bb9a7bf405fe72174867fc8",
+      "bytes": 192411
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250022",
+      "name": "金色法球 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250022_icon.png",
+      "path": "orange/cards/7250022.png",
+      "sha256": "4e837e0eedad1d2138416eb7f333786f151caa502d193da76c42ac2d9c5cf1a6",
+      "bytes": 201337
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250023",
+      "name": "棱彩法球 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250023_icon.png",
+      "path": "orange/cards/7250023.png",
+      "sha256": "a4c36e5538648ca8cc762b87fd9bf2e1dd6bbf227ef1517d9c57f14d6acb55b4",
+      "bytes": 198660
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250025",
+      "name": "棱彩之选 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250025_icon.png",
+      "path": "orange/cards/7250025.png",
+      "sha256": "0fad848924c03a79a83a0447bdc1babc32863b1b21c44e2c84f6b67ee7126c01",
+      "bytes": 191312
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250026",
+      "name": "登峰烈阳",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250026_icon.png",
+      "path": "orange/cards/7250026.png",
+      "sha256": "4eb4589dd698c9178eff7eb4efa815a36e2a19da03c1992681f47445d1bead82",
+      "bytes": 216042
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250029",
+      "name": "行走于棱彩之道",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250029_icon.png",
+      "path": "orange/cards/7250029.png",
+      "sha256": "a2645fe2c48b1d21f36c0222c0676ecb348edafbd680a9282957c9ab57243983",
+      "bytes": 230800
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250031",
+      "name": "炉家人 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250031_icon.png",
+      "path": "orange/cards/7250031.png",
+      "sha256": "ce6629e47d9e7f9626247e3574880515837634363953702f4a103bdd30392699",
+      "bytes": 208976
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250034",
+      "name": "时光之力 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250034_icon.png",
+      "path": "orange/cards/7250034.png",
+      "sha256": "a30c7bb5b550e227c6d3d29f62814629c88fc3394d059f7ff4c9c995364276ab",
+      "bytes": 225119
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250035",
+      "name": "贪欲恶魔 II",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250035_icon.png",
+      "path": "orange/cards/7250035.png",
+      "sha256": "7a8334a4c4331144836fcda3bb178ccd7a3b0f5c1eac5d0659ad7522e7156f55",
+      "bytes": 211934
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250036",
+      "name": "黑玫瑰夜市",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250036_icon.png",
+      "path": "orange/cards/7250036.png",
+      "sha256": "efaeb23e764c43bbfddfba5005789efe21c3eb1b52f590301ca24f36a9d003a8",
+      "bytes": 231900
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250037",
+      "name": "穿梭未来",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250037_icon.png",
+      "path": "orange/cards/7250037.png",
+      "sha256": "f957ba3d45a48def21691f306068a46537835b79319e9f93baf27e3ad2844525",
+      "bytes": 184097
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250039",
+      "name": "投资高手",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250039_icon.png",
+      "path": "orange/cards/7250039.png",
+      "sha256": "c9dcc43a174a29e2828a245ff380fd3b0f89aea4d98f45c458831325f6ae5f95",
+      "bytes": 224451
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250040",
+      "name": "少女的炎魔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250040_icon.png",
+      "path": "orange/cards/7250040.png",
+      "sha256": "3c725e07342598a2c3dee4769eda5b2d79930bbcdabb3b7aa3eed1136bae6e57",
+      "bytes": 213713
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250041",
+      "name": "黑夜恐惧",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250041_icon.png",
+      "path": "orange/cards/7250041.png",
+      "sha256": "049db68b38491579bf38a9dd0cf847fc24e46c0e2ed58ca468e99bc34cde6cdf",
+      "bytes": 209700
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250042",
+      "name": "系魂圣枪",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250042_icon.png",
+      "path": "orange/cards/7250042.png",
+      "sha256": "8bf36827945a8a76011972229854ddd32c7a37fcc6e0be1051d45ca5386566da",
+      "bytes": 243468
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250044",
+      "name": "宿命的抉择",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250044_icon.png",
+      "path": "orange/cards/7250044.png",
+      "sha256": "cfef9d7439958047dbe786b2243f4ff626372eb64359df4140ab6e3ed3a241b6",
+      "bytes": 231437
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250045",
+      "name": "全职高手",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250045_icon.png",
+      "path": "orange/cards/7250045.png",
+      "sha256": "f61fda643bcb48c8a3b9a3ded4a2a2a2168582b9558abc51241525f88b4482bc",
+      "bytes": 220353
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250046",
+      "name": "德玛西亚巨像",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250046_icon.png",
+      "path": "orange/cards/7250046.png",
+      "sha256": "06554fde0c279e2ad10548830c385191203b64a4f636aeedb4e8cf82b85ac25f",
+      "bytes": 216577
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250047",
+      "name": "流浪的救世者",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250047_icon.png",
+      "path": "orange/cards/7250047.png",
+      "sha256": "581b469cbd63cef22170ea8cd7084efaf62bda5192a13daa4af500dfb226a3ae",
+      "bytes": 222103
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250048",
+      "name": "虚空入侵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250048_icon.png",
+      "path": "orange/cards/7250048.png",
+      "sha256": "ad6a08756a54d422bbf3a1d2f9d7b4bf83a2a20e53a36478b2e8d5ec30391dd7",
+      "bytes": 210872
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250049",
+      "name": "量身定制",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250049_icon.png",
+      "path": "orange/cards/7250049.png",
+      "sha256": "2a859d234b5e55b9e5748f0d4c3b456e179af7a22ead08e3d6a7feb8f008c6f0",
+      "bytes": 227653
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250050",
+      "name": "无极之道",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250050_icon.png",
+      "path": "orange/cards/7250050.png",
+      "sha256": "f0fc2845e2b67a5e275d0a1263c414282fb10fa20ef681e21ffe857482b94798",
+      "bytes": 215620
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250051",
+      "name": "登神长阶",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250051_icon.png",
+      "path": "orange/cards/7250051.png",
+      "sha256": "14c20e8943a862d586d7b85184fef1c3790a88f7cb2ebdfbc660126444d6fab6",
+      "bytes": 247380
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250052",
+      "name": "力量之阵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250052_icon.png",
+      "path": "orange/cards/7250052.png",
+      "sha256": "f2306b07508dc9ba284a36b60ec9557e7753029f8bbf4d2dc4e8c6cd877fdbcc",
+      "bytes": 218850
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250056",
+      "name": "传说的主角",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250056_icon.png",
+      "path": "orange/cards/7250056.png",
+      "sha256": "820ddd7297e3367075193ef6cef63abdeb6cdc9d4235e31275e60c3f5f71855d",
+      "bytes": 224147
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250059",
+      "name": "万物落笔端",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250059_icon.png",
+      "path": "orange/cards/7250059.png",
+      "sha256": "09580f996dd0489e325f33d772c56bec79b22ba3cde0370399ce0b8398f132f0",
+      "bytes": 212181
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250060",
+      "name": "塔利斯议员",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250060_icon.png",
+      "path": "orange/cards/7250060.png",
+      "sha256": "500476b0f168881aca1773c3f7f6438961d68eb2988e162d5cadc0ea56fb1aad",
+      "bytes": 208599
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250061",
+      "name": "远古巨龙",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250061_icon.png",
+      "path": "orange/cards/7250061.png",
+      "sha256": "fc9807a1607063a51ea1dace0ac77502e91e6ed36e56bb5c78547e3397a801c1",
+      "bytes": 197149
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250068",
+      "name": "高处不胜寒",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250068_icon.png",
+      "path": "orange/cards/7250068.png",
+      "sha256": "a2da198acb6af9035daf28a35e577695dc305e28335d38deff323d1883a920dc",
+      "bytes": 226866
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250069",
+      "name": "双城传说",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250069_icon.png",
+      "path": "orange/cards/7250069.png",
+      "sha256": "e2fc332b743304767475d15016d753eebd07d5825db055a9e8bb20cd29020c29",
+      "bytes": 215313
+    },
+    {
+      "mode": "orange",
+      "kind": "card",
+      "entity_id": "7250071",
+      "name": "永恒的心",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/tomato/7250071_icon.png",
+      "path": "orange/cards/7250071.png",
+      "sha256": "8247df4ef2dcee7a4d835432db54a81747f662b5a953f012cbfdf607c83ca07e",
+      "bytes": 216743
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11400",
+      "name": "佛耶戈",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_viego.png",
+      "path": "orange/heros/11400.png",
+      "sha256": "075da9cef264f787e9e902255ba0fcbb5d4c0acb35ee545493608391b1dbcde5",
+      "bytes": 26807
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11401",
+      "name": "娑娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_sona.png",
+      "path": "orange/heros/11401.png",
+      "sha256": "a20e730f96b356f17771f68d07b27a3190f5253aa021eb277e4aa304c63f72ae",
+      "bytes": 24981
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11402",
+      "name": "慎",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_shen.png",
+      "path": "orange/heros/11402.png",
+      "sha256": "69e8cb3ee7727c52d16d52802bb561aaa0865ae176e97e0abb6e066aa06f0ea4",
+      "bytes": 21823
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11403",
+      "name": "兰博",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_rumble.png",
+      "path": "orange/heros/11403.png",
+      "sha256": "003a81b8c46e72d3c523885a7c6e6c8921117e1960969d88bb66128b0816032f",
+      "bytes": 25866
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11404",
+      "name": "奇亚娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_qiyana.png",
+      "path": "orange/heros/11404.png",
+      "sha256": "161ce75a721a2ac8a54c570e1022f40bbd6a2358229b6208cf935425c20e9c36",
+      "bytes": 26224
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11405",
+      "name": "璐璐",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_lulu.png",
+      "path": "orange/heros/11405.png",
+      "sha256": "7be2872e802498adec0b0189824ec1ba7821fab286815d21e82f5463f28bba11",
+      "bytes": 26372
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11406",
+      "name": "克格莫",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kogmaw.png",
+      "path": "orange/heros/11406.png",
+      "sha256": "c01a76f651d997e99dada5a7332f558ccca3ddb19ab7ef1a4be9d31f0857026f",
+      "bytes": 23212
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11407",
+      "name": "烬",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_jhin.png",
+      "path": "orange/heros/11407.png",
+      "sha256": "46277f6e050d4cb6caf35e8b7857ddf5c1326648a1b7beecf4a490e2270ee536",
+      "bytes": 22322
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11408",
+      "name": "嘉文四世",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_jarvan.png",
+      "path": "orange/heros/11408.png",
+      "sha256": "f8ac057081d18dd7865cad1e6b3d1367611d1d65b1b982ea6b23887268e1e43a",
+      "bytes": 24996
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11409",
+      "name": "俄洛伊",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_illaoi.png",
+      "path": "orange/heros/11409.png",
+      "sha256": "e72350924f50e40cd7209afd561db1822090d5368e338b7e439f093dea5bd63b",
+      "bytes": 17896
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11410",
+      "name": "凯特琳",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_caitlyn.png",
+      "path": "orange/heros/11410.png",
+      "sha256": "d3081a2c87a1e1cc7e6c1099e1dd5b164e66ebc0a839789320e30975808881c8",
+      "bytes": 24236
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11411",
+      "name": "贝蕾亚",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_briar.png",
+      "path": "orange/heros/11411.png",
+      "sha256": "2745e243d2a717829107ce125cdaaaec5f5521efe7d81c7ce92f608bd93e70a3",
+      "bytes": 25747
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11412",
+      "name": "布里茨",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_blitzcrank.png",
+      "path": "orange/heros/11412.png",
+      "sha256": "620c8e83a7fca62396961ac98d8865f6895ab2c05fddf8605e525bef8d96dbf2",
+      "bytes": 22830
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "11413",
+      "name": "艾尼维亚",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_anivia.png",
+      "path": "orange/heros/11413.png",
+      "sha256": "9d82525dc8c7d41ed45cbc63dbe72a3ef0c6e0468d44e14e305f5931dc759bb0",
+      "bytes": 24226
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12400",
+      "name": "约里克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_yorick.png",
+      "path": "orange/heros/12400.png",
+      "sha256": "ff267a356ef936e966b836377a67e12447386bd40ff47558471e260a5c424779",
+      "bytes": 23001
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12401",
+      "name": "亚索",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_yasuo.png",
+      "path": "orange/heros/12401.png",
+      "sha256": "5e44e40539dcdeced17f1c93fc681af89284dc8241a8ad6d2e9f8d39baccb9e7",
+      "bytes": 21996
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12402",
+      "name": "赵信",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_xinzhao.png",
+      "path": "orange/heros/12402.png",
+      "sha256": "3fa974c1c335925bfe8e187111ee931fe09f17464e71faad8c2cf75ef935204b",
+      "bytes": 24159
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12403",
+      "name": "蔚",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_vi.png",
+      "path": "orange/heros/12403.png",
+      "sha256": "5edb9414e17f053422883d8ed65e932b82c3efe1deb333a3e5e44d1e1012ee33",
+      "bytes": 22300
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12404",
+      "name": "崔斯特",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_twistedfate.png",
+      "path": "orange/heros/12404.png",
+      "sha256": "3ff1bd098a6b61683c68f3c79aafa7dd58cc5f4f2be3e111c452fe6efdb5a6c3",
+      "bytes": 24079
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12405",
+      "name": "泰达米尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_tryndamere.png",
+      "path": "orange/heros/12405.png",
+      "sha256": "1555c9bb792d51f70e3dfd22557c8baf5c99e6a2d6a02930ac94e503b8aa44bd",
+      "bytes": 26328
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12406",
+      "name": "崔丝塔娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_tristana.png",
+      "path": "orange/heros/12406.png",
+      "sha256": "584406356db2e33bc85a8cce91c8796b0a4fc792563bf9fd7b2ba9d6a0db1596",
+      "bytes": 25694
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12407",
+      "name": "提莫",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_teemo.png",
+      "path": "orange/heros/12407.png",
+      "sha256": "1c82fbe5b4a0dc0dfaa7dfb62a704c7e9e22dd2cd9c46df3126ccd3b1cb7978f",
+      "bytes": 25591
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12408",
+      "name": "赛恩",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_sion.png",
+      "path": "orange/heros/12408.png",
+      "sha256": "52cc0158ba4d92ded62af768da4245a9c180a179083af1d86c7bede5ea857668",
+      "bytes": 21122
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12409",
+      "name": "雷克塞",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_reksai.png",
+      "path": "orange/heros/12409.png",
+      "sha256": "bd20f243271541d76f1e3f098baf885bc9cfda4d4e0d1437467d848da243f089",
+      "bytes": 24181
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12410",
+      "name": "奥莉安娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_orianna.png",
+      "path": "orange/heros/12410.png",
+      "sha256": "254004f8951b6c64414f26dcdf681d52867c6e6af0384507af39e495a258970c",
+      "bytes": 23417
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12411",
+      "name": "妮蔻",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_neeko.png",
+      "path": "orange/heros/12411.png",
+      "sha256": "6e789b6a508f31387d6eb2b3a740ff68acfaae98ac0432d135424e5582429de2",
+      "bytes": 25452
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12412",
+      "name": "格雷福斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_graves.png",
+      "path": "orange/heros/12412.png",
+      "sha256": "61fd793f0002e5a99571b27d26f82f98833943c0267d88a24b58cbb03a4a91ba",
+      "bytes": 22910
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12413",
+      "name": "艾克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ekko.png",
+      "path": "orange/heros/12413.png",
+      "sha256": "dd2dac1ffe9fd8a211147af18e1fd5eb1de01bd3ef9b1b0360e718f89b0805f1",
+      "bytes": 27747
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12414",
+      "name": "科加斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_chogath.png",
+      "path": "orange/heros/12414.png",
+      "sha256": "ed3103c8d9fe35c5dae21d323e7d0c70e2695157745d1c6475d6c2b72255bbda",
+      "bytes": 27098
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12415",
+      "name": "巴德",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_bard.png",
+      "path": "orange/heros/12415.png",
+      "sha256": "728b7b2b8fb67725fe44a5270bafc9372bcc0de7013ab47aa2a0a8a5d3ce67ee",
+      "bytes": 25112
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12416",
+      "name": "艾希",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ashe.png",
+      "path": "orange/heros/12416.png",
+      "sha256": "1af58bf1cf69df4b0d57a34a0b97a59e1f3a259309b1d095cecb9be96832d332",
+      "bytes": 26385
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12417",
+      "name": "厄斐琉斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_aphelios.png",
+      "path": "orange/heros/12417.png",
+      "sha256": "ae04be10e3dbbe63a59525112d646828b65018ab60f5c0dbe78857dc5eca4f85",
+      "bytes": 23155
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12420",
+      "name": "波比",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_poppy.png",
+      "path": "orange/heros/12420.png",
+      "sha256": "ffbfa96017ee37551feafd2fe28129f0cbf5565f0ac7acfa92a4f74bac6ea695",
+      "bytes": 24904
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "12422",
+      "name": "布兰德",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_brand.png",
+      "path": "orange/heros/12422.png",
+      "sha256": "7559b9a2a71b2afdb490351d1244bcdc383dd61a785aa8c18f3cf73763562283",
+      "bytes": 25986
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13320",
+      "name": "佐伊",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_zoe.png",
+      "path": "orange/heros/13320.png",
+      "sha256": "ab4cb26f262ef4dfbf43bdc2d4725ed4fa003dde3df445c4a487abda64b7cb5f",
+      "bytes": 24261
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13321",
+      "name": "薇恩",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_vayne.png",
+      "path": "orange/heros/13321.png",
+      "sha256": "75aa2acb617cc35f7e584d02c98582bb4fec500f88bf205c6ba90949d92dc2e9",
+      "bytes": 25009
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13322",
+      "name": "瑟庄妮",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_sejuani.png",
+      "path": "orange/heros/13322.png",
+      "sha256": "f7fa4c6d81efb0535f10e895d373cac70aa5718c3964a4db5bdcef449dfc5434",
+      "bytes": 23242
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13324",
+      "name": "诺提勒斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_nautilus.png",
+      "path": "orange/heros/13324.png",
+      "sha256": "1dc82146f662bf70a0f43431a5baedf512699a177bd6ff5ef0360fd5c8812994",
+      "bytes": 23108
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13325",
+      "name": "米利欧",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_milio.png",
+      "path": "orange/heros/13325.png",
+      "sha256": "6e6555a69782558253c37f234c2818c7dd36410f56a368f4a03e2ad4c04c8eaf",
+      "bytes": 25011
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13326",
+      "name": "玛尔扎哈",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_malzahar.png",
+      "path": "orange/heros/13326.png",
+      "sha256": "23b664b4fea5d124bd5bebda60388c9c2d2a02763ff38ba0a50c75487f5e50ec",
+      "bytes": 20740
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13327",
+      "name": "洛里斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_loris.png",
+      "path": "orange/heros/13327.png",
+      "sha256": "b1c1a7b3dbf045b775027af87e32fc32443a942091110e4d8b098376911f34d9",
+      "bytes": 25941
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13328",
+      "name": "蕾欧娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_leona.png",
+      "path": "orange/heros/13328.png",
+      "sha256": "578b62d9cec16169de845da79dbea2a6b44ab1df2eaf4046fbbfe514b4b8da92",
+      "bytes": 23198
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13329",
+      "name": "乐芙兰",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_leblanc.png",
+      "path": "orange/heros/13329.png",
+      "sha256": "e9e47a184d4db62044b5c1d702e374ad00b6924d038641525e887549bd2e4496",
+      "bytes": 24210
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13330",
+      "name": "可酷伯与悠米",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kobukoyuumi.png",
+      "path": "orange/heros/13330.png",
+      "sha256": "d33773f3c106329dbc69601c96fec34cb1839f161655b1dfc295fd1008fe7555",
+      "bytes": 26623
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13331",
+      "name": "凯南",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kennen.png",
+      "path": "orange/heros/13331.png",
+      "sha256": "44be2856e6afc50c124491d936696db95e058e3b992ed7d8e13e30fc3915bd38",
+      "bytes": 23726
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13332",
+      "name": "金克丝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_jinx.png",
+      "path": "orange/heros/13332.png",
+      "sha256": "eb87fb98d4057c8b57d772428c780ae4cf401a14add23ca811631934723f5efd",
+      "bytes": 26732
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13333",
+      "name": "格温",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_gwen.png",
+      "path": "orange/heros/13333.png",
+      "sha256": "5ec0bbefbbf1ce622881260e186bbe3b1cf1d848fff197a88df4b8a9f9a963a2",
+      "bytes": 25743
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13334",
+      "name": "普朗克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_gangplank.png",
+      "path": "orange/heros/13334.png",
+      "sha256": "eb39b12bb23eaa6221d2a91587dd202b796d73b30c3cc2ec7b4abd7290fb63c6",
+      "bytes": 25490
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13335",
+      "name": "德莱文",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_draven.png",
+      "path": "orange/heros/13335.png",
+      "sha256": "b6a81f7330e9d96dd9446dd52d0f9a9b04d7d89eaca9d1f1467a111eb40e26c4",
+      "bytes": 26189
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13336",
+      "name": "蒙多医生",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_drmundo.png",
+      "path": "orange/heros/13336.png",
+      "sha256": "4219661f007240afa38dfe77f3a1acefe5b7a048088a56c9d8c4a73d74a16fd8",
+      "bytes": 24926
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13337",
+      "name": "德莱厄斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_darius.png",
+      "path": "orange/heros/13337.png",
+      "sha256": "59958a5654358a54657f192188c25e73566f6cf72d8ebcc414928f3ba2087b2a",
+      "bytes": 24545
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13338",
+      "name": "阿狸",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ahri.png",
+      "path": "orange/heros/13338.png",
+      "sha256": "edc6f75ab2582810827ecce6fedc15e8bde1a32d892ae5e050f177ede8722a52",
+      "bytes": 24311
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13355",
+      "name": "阿利斯塔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_alistar.png",
+      "path": "orange/heros/13355.png",
+      "sha256": "3aba264a27e762382f7c45c8abe7dc023b492e5159f3769dc95f6442d8b57e09",
+      "bytes": 25061
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13356",
+      "name": "希维尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_sivir.png",
+      "path": "orange/heros/13356.png",
+      "sha256": "9c087f7d8a436444a50ffbee2be690b56a43bc087029dd139e0334d8b81f37b1",
+      "bytes": 21075
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13357",
+      "name": "墨菲特",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_malphite.png",
+      "path": "orange/heros/13357.png",
+      "sha256": "0446a0452fe31c5b5b078436cc963f82cff086dd81664eed15914bce7121da4b",
+      "bytes": 23018
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13475",
+      "name": "维克托",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_viktor.png",
+      "path": "orange/heros/13475.png",
+      "sha256": "2ddd1fc5e922ad4b586a30a04482e8dcd7de63920912adc1473ae6e1bbb5246a",
+      "bytes": 22343
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "13476",
+      "name": "萨科",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_shaco.png",
+      "path": "orange/heros/13476.png",
+      "sha256": "201f8a8569e670fb5e6785ef36dd7b152ba843c7cee62f1bba42fb26293610d4",
+      "bytes": 23773
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14330",
+      "name": "芸阿娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_yunara.png",
+      "path": "orange/heros/14330.png",
+      "sha256": "2833034545d051583bc0bb94a74af4956fb8c3fc05e7302f48514e306fe30f27",
+      "bytes": 25864
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14331",
+      "name": "永恩",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_yone.png",
+      "path": "orange/heros/14331.png",
+      "sha256": "e233afe0083416c85899ab8e745a4270deaf41d2b3f62934c82ffd00e3ec11f9",
+      "bytes": 26265
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14332",
+      "name": "孙悟空",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_wukong.png",
+      "path": "orange/heros/14332.png",
+      "sha256": "fad6eeb277aff8875bd43dabbff5a7ec99e93a3a9ab958b94cf08b372ba3fc0f",
+      "bytes": 24872
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14333",
+      "name": "沃里克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_warwick.png",
+      "path": "orange/heros/14333.png",
+      "sha256": "a5998e8c4674eda86d4cb529f185b428c2267310bc7bd50db7300481848b2fd5",
+      "bytes": 23369
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14334",
+      "name": "维迦",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_veigar.png",
+      "path": "orange/heros/14334.png",
+      "sha256": "3e7a9343f24fbf0675f7bdf415f4466b4233facc6efe0489299bd60ddb70190c",
+      "bytes": 22756
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14335",
+      "name": "塔里克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_taric.png",
+      "path": "orange/heros/14335.png",
+      "sha256": "d098d874c4ecdd0638ed969aa72eb91995518fb6947ffca0e7316e91f10dc5b5",
+      "bytes": 23096
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14336",
+      "name": "斯维因",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_swain.png",
+      "path": "orange/heros/14336.png",
+      "sha256": "a67979873c5f07738957507c9b294262b7dad3f84e2ad40a90911f77c43d5edb",
+      "bytes": 20149
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14337",
+      "name": "斯卡纳",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_skarner.png",
+      "path": "orange/heros/14337.png",
+      "sha256": "1a46883f64b7bfb8021a8547cf657167d50dbf4fd62a289da1f7fbb88d1c39b0",
+      "bytes": 24839
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14338",
+      "name": "辛吉德",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_singed.png",
+      "path": "orange/heros/14338.png",
+      "sha256": "8e27d82d6cc0ecacc7c39f2d2a2bae11ba015616c333b887ff8eb6792b79576a",
+      "bytes": 23189
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14339",
+      "name": "萨勒芬妮",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_seraphine.png",
+      "path": "orange/heros/14339.png",
+      "sha256": "de98401fea4c2af6a610216f7d5e4d0e8f1b125890cb409e8b104177fc33c7a4",
+      "bytes": 25387
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14340",
+      "name": "峡谷先锋",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_riftherald.png",
+      "path": "orange/heros/14340.png",
+      "sha256": "64deeb95a38544c4e676439b14906b0dfcf3da0344b3009c80844b40eb48ba60",
+      "bytes": 21936
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14341",
+      "name": "雷克顿",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_renekton.png",
+      "path": "orange/heros/14341.png",
+      "sha256": "740828adb09b0b1e9cd75b0e6444aab9945e10d6c0c9d3e120daea0633a4b31e",
+      "bytes": 25925
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14342",
+      "name": "奈德丽",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_nidalee.png",
+      "path": "orange/heros/14342.png",
+      "sha256": "c6ebd6b30ec79fb76829656c70f1bbb7db789a1f737c239fa5916647297434e7",
+      "bytes": 23476
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14343",
+      "name": "内瑟斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_nasus.png",
+      "path": "orange/heros/14343.png",
+      "sha256": "17b5b47916393147f01cfe1ab45a8a48007bd2cb7777a88e8332f2f2978601d5",
+      "bytes": 25834
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14344",
+      "name": "厄运小姐",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_missfortune.png",
+      "path": "orange/heros/14344.png",
+      "sha256": "28c0f3929154766d51515e787379f3f99a6ce94f2a671dfbe05becd00988a7a6",
+      "bytes": 22413
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14345",
+      "name": "拉克丝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_lux.png",
+      "path": "orange/heros/14345.png",
+      "sha256": "cb916ad24e8dc011fe3e1029f54110ea15a827468baad4f1b4080ee848a9f6e4",
+      "bytes": 26104
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14346",
+      "name": "丽桑卓",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_lissandra.png",
+      "path": "orange/heros/14346.png",
+      "sha256": "174b95098a8d3630a50ff26bf11030c8e2dca7a6044e81ee66d890ee90bd6576",
+      "bytes": 23493
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14347",
+      "name": "卡莉丝塔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kalista.png",
+      "path": "orange/heros/14347.png",
+      "sha256": "31336259e7a6b57d9efcdc8dd3006bf79a254d196efb733008f12d8ba44732ba",
+      "bytes": 23566
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14349",
+      "name": "盖伦",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_garen.png",
+      "path": "orange/heros/14349.png",
+      "sha256": "a9e3b273eeb8378852bda03c8cfc747c0b9c00e3b26ba8a9a6fdaf2bee01bb9e",
+      "bytes": 24856
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14350",
+      "name": "菲兹",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_fizz.png",
+      "path": "orange/heros/14350.png",
+      "sha256": "011b52106abe32443d70d9d72c6aa748a4f48580fe2c61e718489181171f63e0",
+      "bytes": 24759
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14351",
+      "name": "黛安娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_diana.png",
+      "path": "orange/heros/14351.png",
+      "sha256": "301a83d2ecf4a8ad9db8983f075c5ed2fe069d5f62fc6eb45ce89d64380092c0",
+      "bytes": 19369
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14352",
+      "name": "布隆",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_braum.png",
+      "path": "orange/heros/14352.png",
+      "sha256": "5d09cdc43e83928f6bd2daf9fc0e7cb744fdf935f3632d0b7bac2682e4906a97",
+      "bytes": 20687
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14353",
+      "name": "卑尔维斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_belveth.png",
+      "path": "orange/heros/14353.png",
+      "sha256": "71d7aeb1ab3f61bd837ad8369435ba1f104c3accd3fb3b8909992218bd9ed035",
+      "bytes": 23984
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14354",
+      "name": "安蓓萨",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ambessa.png",
+      "path": "orange/heros/14354.png",
+      "sha256": "cededd6658725a047967fc7e2a2e94f78a3e1af86cecfa50771122960a8e449c",
+      "bytes": 21482
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14360",
+      "name": "卡莎",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kaisa.png",
+      "path": "orange/heros/14360.png",
+      "sha256": "9bc4cdf93bcc7ea0a9670da2506f3b4ffc3c5b8a9fa6c1de1813b10c624464fb",
+      "bytes": 24094
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14364",
+      "name": "库奇",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_corki.png",
+      "path": "orange/heros/14364.png",
+      "sha256": "91c1aefdbad1cce7ab8100b595dc36fb15c59053da2f07fe2cb96e9e2bf90acd",
+      "bytes": 27802
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14366",
+      "name": "伊莉丝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_elise.png",
+      "path": "orange/heros/14366.png",
+      "sha256": "6500f08f017e22ff9e2ec521eea655dbaac24b5261c6ed716f875223e7107497",
+      "bytes": 24441
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14368",
+      "name": "凯隐",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kayn.png",
+      "path": "orange/heros/14368.png",
+      "sha256": "82e5634944a8dcb27de2bc1791d1edc8b6d64723b9a66c9033a7b8aae3658c50",
+      "bytes": 24367
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14369",
+      "name": "努努和威朗普",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_nunu.png",
+      "path": "orange/heros/14369.png",
+      "sha256": "87d30c7d03d9ec2b3ce612b36d12ca008bac944f0b66e736777122a222416249",
+      "bytes": 26276
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "14800",
+      "name": "伊泽瑞尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ezreal.png",
+      "path": "orange/heros/14800.png",
+      "sha256": "8c1e4ca49693fede67b1fe415b498dec4e322a18e9c6e0c6b4ee0af16eef47a8",
+      "bytes": 25794
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15270",
+      "name": "基兰",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_zilean.png",
+      "path": "orange/heros/15270.png",
+      "sha256": "d2c1e87ee1d9a913b8640acdbef809b9adf2838f8d7762eddb6243b857b7f0bd",
+      "bytes": 27693
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15271",
+      "name": "吉格斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ziggs.png",
+      "path": "orange/heros/15271.png",
+      "sha256": "22bbf29060afe0c841418956a976fa876f8d8c3d564941e02d1f941b042bf6bc",
+      "bytes": 24989
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15272",
+      "name": "泽拉斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_xerath.png",
+      "path": "orange/heros/15272.png",
+      "sha256": "1261f4315f9b4d256b1e96f386edeafd5ccea79076bff2943fc928f0a88dff0b",
+      "bytes": 23540
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15273",
+      "name": "沃利贝尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_volibear.png",
+      "path": "orange/heros/15273.png",
+      "sha256": "7417d655b42ce8b45b16c3c935736c7682c69ddf0f256e7113d0e477fc5f967b",
+      "bytes": 24391
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15274",
+      "name": "锤石",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_thresh.png",
+      "path": "orange/heros/15274.png",
+      "sha256": "59583a89b0bb72ba7e4d8fbcc14c67a735e206e6c06df1fe5a9da6286e6eec65",
+      "bytes": 24611
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15275",
+      "name": "海克斯霸龙",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_thex.png",
+      "path": "orange/heros/15275.png",
+      "sha256": "6b85168b9a52f9bef113e3ae80506490a626697244221c235a8b1a00387b826c",
+      "bytes": 24492
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15276",
+      "name": "塔姆",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_tahmkench.png",
+      "path": "orange/heros/15276.png",
+      "sha256": "eb0e7ada7f5379d9e3f073da044eb620cd651bd766726c5f576594a6bb6f7675",
+      "bytes": 23726
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15277",
+      "name": "塞拉斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_sylas.png",
+      "path": "orange/heros/15277.png",
+      "sha256": "8ffd3f1b42b13a8b3ef6084aee574f899c6b2d035f8d118781810547dfa441c5",
+      "bytes": 24116
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15278",
+      "name": "希瓦娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_shyvana.png",
+      "path": "orange/heros/15278.png",
+      "sha256": "82b5e5ae9a0ecd192a7000b11ab4e9a2a1027d15574e6d3501a938f0c7ecbb51",
+      "bytes": 22509
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15279",
+      "name": "瑟提",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_sett.png",
+      "path": "orange/heros/15279.png",
+      "sha256": "122a58b4f5827166e2ad3eb35c7b864d88879f25560fcc625d8c8e3b82008bbc",
+      "bytes": 24541
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15280",
+      "name": "瑞兹",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ryze.png",
+      "path": "orange/heros/15280.png",
+      "sha256": "040d28e5dc6055b538547fa6092188b4118e88f4a4e32055c559662f713a8ef0",
+      "bytes": 21671
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15281",
+      "name": "奥恩",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_ornn.png",
+      "path": "orange/heros/15281.png",
+      "sha256": "8991678a0d7eaffc2e4703780da72ddf37535aa1ce18390cca6715815fa31398",
+      "bytes": 24660
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15282",
+      "name": "梅尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_mel.png",
+      "path": "orange/heros/15282.png",
+      "sha256": "2be79cc33d440300d6ce4633c4115974629e4042de1478dc954facf16553a985",
+      "bytes": 24534
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15284",
+      "name": "千珏",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kindred.png",
+      "path": "orange/heros/15284.png",
+      "sha256": "d2dbdc1faac63c967da278832077324dce003530017e22544f8054a9a138dd67",
+      "bytes": 16516
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15285",
+      "name": "加里奥",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_galio.png",
+      "path": "orange/heros/15285.png",
+      "sha256": "09c4da545692e83d61936a81687a876d38aba2b0e9c4a62c71638b9256335f95",
+      "bytes": 22712
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15287",
+      "name": "费德提克",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_fiddlesticks.png",
+      "path": "orange/heros/15287.png",
+      "sha256": "fd774b59dcbdc92bc71ef00754490d3cfad0dc705d922674b1c9bee74f218943",
+      "bytes": 24522
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15288",
+      "name": "岩宝",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_brock.png",
+      "path": "orange/heros/15288.png",
+      "sha256": "4855d7dcc263a48bdb3a8fa92ddf285469c086d8ddd4972b74017105dbebe83f",
+      "bytes": 24775
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15289",
+      "name": "纳什男爵",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_baronnashor.png",
+      "path": "orange/heros/15289.png",
+      "sha256": "2085c951dcff3c0c092b80ca5f77e8ebe2f287ff274eb7051e46072ade90ef0a",
+      "bytes": 28597
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15290",
+      "name": "阿兹尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_azir.png",
+      "path": "orange/heros/15290.png",
+      "sha256": "5cb2ed1768db004131f7fcb79f776ee55b4bc2df3e19f6f6db840241aa33c020",
+      "bytes": 19948
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15291",
+      "name": "奥瑞利安·索尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_aurelionsol.png",
+      "path": "orange/heros/15291.png",
+      "sha256": "ba5acbd79bd02abf75ee6df838b8c8ef4bea8c2e6be684dd267606f19385fc18",
+      "bytes": 25402
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15292",
+      "name": "安妮",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_annie.png",
+      "path": "orange/heros/15292.png",
+      "sha256": "034580354543f9cfedc104451a5dd894e1b1a358a82544582304016d60f0bb42",
+      "bytes": 24099
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15296",
+      "name": "亚托克斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_aatrox.png",
+      "path": "orange/heros/15296.png",
+      "sha256": "4ce3e67acc7904c728587910875aef7ae6eadcb201e8fc9342802b5a4dd94d3c",
+      "bytes": 21417
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15304",
+      "name": "亚恒",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_zaahen.png",
+      "path": "orange/heros/15304.png",
+      "sha256": "56338660e90a223892099861bbe8aaa8790b7caf47f92462d86a04bd93a96e33",
+      "bytes": 24809
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15396",
+      "name": "彗",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_hwei.png",
+      "path": "orange/heros/15396.png",
+      "sha256": "5b002b57cbde55ed6e2fbc0505fc32c56248d158784cfb23580470b9b15e3006",
+      "bytes": 22331
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15397",
+      "name": "卢锡安与赛娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_senna.png",
+      "path": "orange/heros/15397.png",
+      "sha256": "b6f1ff09b0fae8a4b6d76339704fd59c438ae5a69256c606034a24fa809fcbb0",
+      "bytes": 24714
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15398",
+      "name": "卢锡安与赛娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_lucian.png",
+      "path": "orange/heros/15398.png",
+      "sha256": "b6f1ff09b0fae8a4b6d76339704fd59c438ae5a69256c606034a24fa809fcbb0",
+      "bytes": 24714
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15400",
+      "name": "远古巨龙",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_elder_dragon.png",
+      "path": "orange/heros/15400.png",
+      "sha256": "e018732633e8e5b52643a7cef2a767564a6b51550e12364dbd95f258577206d1",
+      "bytes": 22024
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15401",
+      "name": "艾瑞莉娅",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_irelia.png",
+      "path": "orange/heros/15401.png",
+      "sha256": "9d83cba000842833f1d7a80ece3ad5bd1ab15231a706cd5008eb2fb9423eb291",
+      "bytes": 21743
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15402",
+      "name": "杰斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_jayce.png",
+      "path": "orange/heros/15402.png",
+      "sha256": "0390240403398a3bebe1d80856ec5e1288c1327801803a77cfca63ac8d24e24a",
+      "bytes": 23574
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15403",
+      "name": "莫德凯撒",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_mordekaiser.png",
+      "path": "orange/heros/15403.png",
+      "sha256": "b6c9ba2d283bddd668a92f859b2ac4f154a38c5f546409b468d7ef52edb193fb",
+      "bytes": 24647
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15404",
+      "name": "易",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_masteryi.png",
+      "path": "orange/heros/15404.png",
+      "sha256": "2e032d4f900c990e978af3b623bb066921650793b77d92f385653050aff7cc38",
+      "bytes": 8582
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15405",
+      "name": "凯尔",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_kayle.png",
+      "path": "orange/heros/15405.png",
+      "sha256": "483e01bb0de2913488d7b8a862b1886e0be073d7810b267aaf0745fc3278ccba",
+      "bytes": 10580
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15410",
+      "name": "斯莫德",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_smolder.png",
+      "path": "orange/heros/15410.png",
+      "sha256": "d81a48f270218f171d0d0deb2f7eedaf4e7aa43d2c6e219d6582262aee08bdb4",
+      "bytes": 27192
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15412",
+      "name": "阿木木",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_amumu.png",
+      "path": "orange/heros/15412.png",
+      "sha256": "c944d8881b15dbaf21886eabcbc394c51798e3ac5ce4f2d60669b9de537b828e",
+      "bytes": 24519
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "15413",
+      "name": "迦娜",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_janna.png",
+      "path": "orange/heros/15413.png",
+      "sha256": "8ddaf5291a141ae26b55229bc5d79403d6d42b5ef7fc2e6a56efa36f2e7faecf",
+      "bytes": 25160
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "18336",
+      "name": "提伯斯",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s16_head_tibbers.png",
+      "path": "orange/heros/18336.png",
+      "sha256": "383af92a8daeeb5ff1aedcc9a0a90d47c5129ef7d1bc50b60f2e6b731725d693",
+      "bytes": 23770
+    },
+    {
+      "mode": "orange",
+      "kind": "hero",
+      "entity_id": "18354",
+      "name": "迅捷蟹",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/m_head_scuttle.png",
+      "path": "orange/heros/18354.png",
+      "sha256": "a490f12c6f2fde46a73952994d575dcb0a28322c513e1cc72c987f25fe78b7a7",
+      "bytes": 23760
+    }
+  ],
+  "errors": [
+    {
+      "entity_id": "18352",
+      "mode": "orange",
+      "kind": "hero",
+      "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/hero/s4_head_redpacket.png",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
