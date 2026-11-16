@@ -8,18 +8,21 @@
 
 [打开在线工具箱](https://yinita.github.io/jcc-expert/) · [直接进入棋子图鉴](https://yinita.github.io/jcc-expert/guide/)
 
+[羁绊与阵容运营](https://yinita.github.io/jcc-expert/strategy/) 将体系牌、核心与挂件、前中后期过渡、搜牌和升级条件、替代转型、装备与站位放在一个页面中。职业与特质分别查询；完整阵容模板、卡组路线和条件性建议分别标记。
+
 图鉴可以在电脑或平板浏览器中直接使用，支持自然之力与大橘大利棋子搜索、费用/羁绊筛选、装备组合、神器、纹章和站位查询。官方阵容模板与技能规则推断分别标注；没有英雄与装备组合样本的内容不标为高胜率。资料版本及来源在页面中展示。
 
-截图工作台侧栏也有图鉴入口。GitHub Pages托管静态图鉴；截图识别、数据库和训练仍由下述本地服务运行。静态发布目录只包含精选图鉴和英雄/装备图标，不包含用户截图、访问码或运行数据。
+截图工作台侧栏也有图鉴入口。GitHub Pages托管静态图鉴；截图识别、数据库和训练仍由下述本地服务运行。静态发布目录只包含精选静态资料和英雄/装备/卡片图标，不包含用户截图、访问码或运行数据。
 
 更新资料后重新生成并提交发布目录：
 
 ```bash
 python3 scripts/build_hero_guide.py
+python3 scripts/build_strategy_guide.py
 python3 scripts/build_pages.py
 ```
 
-GitHub仓库 `Settings → Pages` 选择 `Deploy from a branch`、`main`、`/docs`。发布入口为 `docs/index.html`，图鉴位于 `docs/guide/index.html`，资源使用相对路径以适配 `/jcc-expert/` 项目站点。
+GitHub仓库 `Settings → Pages` 选择 `Deploy from a branch`、`main`、`/docs`。发布入口为 `docs/index.html`，棋子图鉴位于 `docs/guide/index.html`，阵容运营位于 `docs/strategy/index.html`，资源使用相对路径以适配 `/jcc-expert/` 项目站点。
 
 ## 平板访问
 

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="按职业、特质查找金铲铲体系牌与阵容，查看前中后期过渡、搜牌升级条件、装备及站位来源。">
+  <title>羁绊与阵容运营 · 弈策</title>
+  <link rel="stylesheet" href="./strategy.css">
+  <script src="./strategy.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#strategy-detail">跳到体系与运营详情</a>
+  <header class="site-header"><a class="brand" href="../"><span class="brand-mark">弈</span><span>弈策<small>STRATEGY LIBRARY</small></span></a><nav aria-label="页面导航"><a id="guide-link" href="./guide.html">棋子装备图鉴 ↗</a><a href="../">首页 ↗</a></nav></header>
+  <main class="page-shell">
+    <section class="page-heading"><div><p class="eyebrow">TRAITS / COMPOSITIONS / GAME PLAN</p><h1>从一个羁绊，搭出运营路线<span>.</span></h1><p class="heading-description">先找体系牌，再看过渡、搜牌与成型。职业、特质和独有挂件分清楚。</p></div><div class="mode-switch" role="group" aria-label="选择玩法"><button type="button" data-mode="nature" class="selected" aria-pressed="true">自然之力<small>阵容与过渡</small></button><button type="button" data-mode="orange" aria-pressed="false">大橘大利<small>卡组与任务核心</small></button></div></section>
+    <div class="version-strip"><span id="version-badge">规则资料载入中</span><p id="version-notice">明确阵容与条件性推导会分别标注，运营建议保留来源。</p></div>
+    <div id="load-message" class="load-message" role="status" aria-live="polite"><span class="loading-dot"></span>正在整理羁绊与运营路线…</div>
+    <div class="strategy-workspace" id="strategy-workspace" hidden>
+      <aside class="index-panel" aria-label="羁绊与阵容索引">
+        <div class="index-tabs" role="group" aria-label="浏览类型"><button type="button" class="selected" data-index="traits" aria-pressed="true">羁绊索引</button><button type="button" data-index="comps" aria-pressed="false">阵容总览</button></div>
+        <label class="search-field"><span aria-hidden="true">⌕</span><input id="strategy-search" type="search" placeholder="搜索羁绊、棋子或阵容" aria-label="搜索羁绊、棋子或阵容" autocomplete="off"><kbd>/</kbd></label>
+        <label class="kind-filter">羁绊类型<select id="trait-kind"><option value="">全部类型</option><option value="class">职业</option><option value="origin">特质</option></select></label>
+        <div class="index-summary"><span id="index-title">羁绊索引</span><span id="index-count">—</span></div>
+        <div id="strategy-index" class="strategy-index"></div>
+        <div id="index-empty" class="empty-index" hidden><strong>没有找到匹配条目</strong><p>试试其他名称，或清除筛选。</p><button type="button" id="reset-search" class="text-button">清除筛选</button></div>
+      </aside>
+      <section id="strategy-detail" class="strategy-detail" tabindex="-1" aria-label="体系与运营详情"></section>
+    </div>
+    <footer><span>弈策 · 羁绊与阵容运营</span><p>来牌、装备、血量与对手会改变路线。来源不完整的步骤保留为条件性参考。</p><a href="https://github.com/Yinita/jcc-expert" target="_blank" rel="noopener noreferrer">项目与数据说明 ↗</a></footer>
+  </main>
+  <dialog id="unit-dialog" class="unit-dialog" aria-labelledby="unit-dialog-title"><div class="dialog-heading"><span class="eyebrow">UNIT & ITEM DETAILS</span><button type="button" id="close-unit" class="icon-button" aria-label="关闭详情">×</button></div><div id="unit-dialog-body"></div></dialog>
+</body>
+</html>

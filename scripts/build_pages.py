@@ -10,6 +10,12 @@ import shutil
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
+BUNDLES = {
+    "guide": {"guide.html": "index.html", "guide.css": "guide.css",
+              "guide.js": "guide.js", "guide-data.json": "guide-data.json"},
+    "strategy": {"strategy.html": "index.html", "strategy.css": "strategy.css",
+                 "strategy.js": "strategy.js", "strategy-data.json": "strategy-data.json"},
+}
 
 
 def build(destination: Path | None = None) -> dict:
@@ -19,15 +25,13 @@ def build(destination: Path | None = None) -> dict:
     if destination.exists() and any(destination.iterdir()) and not (destination / "build-manifest.json").is_file():
         raise ValueError("Refusing to replace an existing directory not created by this builder")
     static = ROOT / "app" / "static"
-    required = {"guide.html": "index.html", "guide.css": "guide.css",
-                "guide.js": "guide.js", "guide-data.json": "guide-data.json"}
-    for name in [*required, "pages-home.html"]:
+    for name in [*(name for files in BUNDLES.values() for name in files), "pages-home.html"]:
         if not (static / name).is_file():
             raise FileNotFoundError(f"Generate the guide first: {static / name}")
     destination.parent.mkdir(parents=True, exist_ok=True)
     staging = Path(tempfile.mkdtemp(prefix=f".{destination.name}-build-", dir=destination.parent))
     try:
-        report = _build_files(staging, static, required)
+        report = _build_files(staging, static, BUNDLES)
         backup = destination.with_name(f".{destination.name}-previous")
         if backup.exists():
             raise ValueError(f"Previous publication backup exists; inspect it before retrying: {backup}")
@@ -47,24 +51,29 @@ def build(destination: Path | None = None) -> dict:
             shutil.rmtree(staging)
 
 
-def _build_files(destination: Path, static: Path, required: dict) -> dict:
-    guide = destination / "guide"
-    guide.mkdir(parents=True, exist_ok=True)
-    for source, target in required.items():
-        shutil.copyfile(static / source, guide / target)
-    revision = hashlib.sha256(b"".join((guide / name).read_bytes() for name in
-                                     ("guide.css", "guide.js", "guide-data.json"))).hexdigest()[:12]
-    html = (guide / "index.html").read_text()
-    for name in ("guide.css", "guide.js"):
-        html = html.replace(f'"./{name}"', f'"./{name}?v={revision}"')
-    (guide / "index.html").write_text(html)
+def _build_files(destination: Path, static: Path, bundles: dict) -> dict:
+    revisions = {}
+    for bundle, files in bundles.items():
+        directory = destination / bundle
+        directory.mkdir(parents=True, exist_ok=True)
+        for source, target in files.items():
+            shutil.copyfile(static / source, directory / target)
+        revision = hashlib.sha256(b"".join((directory / name).read_bytes() for name in
+                                         (f"{bundle}.css", f"{bundle}.js", f"{bundle}-data.json"))).hexdigest()[:12]
+        revisions[bundle] = revision
+        html = (directory / "index.html").read_text()
+        for name in (f"{bundle}.css", f"{bundle}.js"):
+            html = html.replace(f'"./{name}"', f'"./{name}?v={revision}"')
+        for sibling in bundles:
+            html = html.replace(f'"./{sibling}.html', f'"../{sibling}/')
+        (directory / "index.html").write_text(html)
     shutil.copyfile(static / "pages-home.html", destination / "index.html")
     (destination / ".nojekyll").write_text("")
     asset_root = (ROOT / "app" / "assets").resolve()
     manifest = json.loads((asset_root / "manifest.json").read_text())
     copied = []
     for row in manifest["assets"]:
-        if row.get("kind") not in {"hero", "item"}:
+        if row.get("kind") not in {"hero", "item", "card"}:
             continue
         relative = Path(row["path"])
         source = (asset_root / relative).resolve()
@@ -92,9 +101,11 @@ def _build_files(destination: Path, static: Path, required: dict) -> dict:
         elif isinstance(value, list):
             for item in value:
                 check_icons(item)
-    check_icons(json.loads((guide / "guide-data.json").read_text()))
+    for bundle in bundles:
+        check_icons(json.loads((destination / bundle / f"{bundle}-data.json").read_text()))
     report = {"schema_version": 1, "entry": "index.html", "guide": "guide/",
-              "guide_revision": revision,
+              "strategy": "strategy/", "guide_revision": revisions["guide"],
+              "strategy_revision": revisions["strategy"],
               "publication": "GitHub Pages: main /docs",
               "assets": copied, "asset_count": len(copied),
               "excluded": ["uploads", "var", "databases", "access tokens", "source screenshots", "training"]}

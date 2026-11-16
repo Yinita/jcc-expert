@@ -1,7 +1,7 @@
 {
   "version": "0.3.1",
   "publication": "Yinita/jcc-expert",
-  "notice": "Tracked source, static guide and research artifacts. Local uploads, SQLite data, access codes/QR, environments and screenshot archives are excluded. Candidate models remain inactive. GitHub Pages publishes docs/ only.",
+  "notice": "Tracked source, static champion and strategy guides, and research artifacts. Local uploads, SQLite data, access codes/QR, environments and screenshot archives are excluded. Candidate models remain inactive. GitHub Pages publishes docs/ only.",
   "files": [
     {
       "path": ".gitignore",
@@ -15,8 +15,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "506c5edf082e15ee2d9293033032d15b75618e7c92166f767a77665e1f091acc",
-      "bytes": 11273
+      "sha256": "99555e3fe83f5d448aa54602bdbda79fa372c9a4a54da4aa08e48f3364abb85b",
+      "bytes": 11681
+    },
+    {
+      "path": "STRATEGY_GUIDE_DATA.md",
+      "sha256": "68d6cf9cc9274932ded8751e238bdf634010377e985f8c2186613a3eb2e72989",
+      "bytes": 5373
     },
     {
       "path": "TABLET.md",
@@ -3869,6 +3874,11 @@
       "bytes": 835104
     },
     {
+      "path": "app/data/strategy_reference.json",
+      "sha256": "4032f4deba8c7b9edbc6d314ae438b39ba3ff29ac1a63ad2255bad3c5a160287",
+      "bytes": 181439
+    },
+    {
       "path": "app/engine.py",
       "sha256": "65419dac8ef5d7440f64c3781612ec390ea31279596b09046710825fc19c7a6d",
       "bytes": 40018
@@ -3925,8 +3935,8 @@
     },
     {
       "path": "app/static/guide.html",
-      "sha256": "6cfe82b12112c2eea82d0c9bfa6c13c007b98d46311b111c2f9a58284165b2aa",
-      "bytes": 4513
+      "sha256": "7e93175258752989702ab4a9d6e81b21136dc72440f6a8871cd1c23c6ca8a067",
+      "bytes": 4561
     },
     {
       "path": "app/static/guide.js",
@@ -3935,13 +3945,33 @@
     },
     {
       "path": "app/static/index.html",
-      "sha256": "5edda36488bd757a619d736a18d4d69a99581a6ceca1eb5a1fc1bd67e2fe8d7a",
-      "bytes": 18396
+      "sha256": "89f21b7dad6237bbfc61d9d1faaa5c6076f16f02016faf149d5e7a8470e9dd11",
+      "bytes": 18515
     },
     {
       "path": "app/static/pages-home.html",
-      "sha256": "0ab1f8fa01a5b562cfeb6825bf4e7102f5679a8744165414e1915fb20ecf45ec",
-      "bytes": 4832
+      "sha256": "6a848631ed30e124bc04ac64e828a6acda2bdb517da564256a3209cec39d3d48",
+      "bytes": 5489
+    },
+    {
+      "path": "app/static/strategy-data.json",
+      "sha256": "bf8dce8cc17651b3c965ab7ff8530689e01c01801a191364c5ca734ae443706d",
+      "bytes": 3914412
+    },
+    {
+      "path": "app/static/strategy.css",
+      "sha256": "00c933536778fa12b6dc6539e30dd48215aeb41dc6ab7fa0ffc2159690d58b04",
+      "bytes": 23608
+    },
+    {
+      "path": "app/static/strategy.html",
+      "sha256": "7da0c5e9a6bbbda1c900cd94678d6068ff61f727a61bc8667754e5f11ebd2ea5",
+      "bytes": 3888
+    },
+    {
+      "path": "app/static/strategy.js",
+      "sha256": "2e38a50b50babb7d886730878eb0805a58f76b49e8d8b08cb0a2b1f4095574df",
+      "bytes": 44200
     },
     {
       "path": "app/static/styles.css",
@@ -5082,6 +5112,1011 @@
       "path": "docs/assets/nature/items/9472.png",
       "sha256": "3574ea9de73f0be1b7139f2808285579690ca29ee525521659bda1856106cb03",
       "bytes": 6591
+    },
+    {
+      "path": "docs/assets/orange/cards/7210014.png",
+      "sha256": "fd5457db3f3c796ec4206680667d452b5fcd028595a8a7adf54b1169d743802a",
+      "bytes": 175667
+    },
+    {
+      "path": "docs/assets/orange/cards/7210015.png",
+      "sha256": "9b9887c6b439e7937a235f124016ba2727b1c8bd98b5d0f63884b49208462d9a",
+      "bytes": 187458
+    },
+    {
+      "path": "docs/assets/orange/cards/7210016.png",
+      "sha256": "3b73b9d9bec0441f9db4a8da9f0ece9a6353ea30e7dde6aeaaf7dc01841d0114",
+      "bytes": 181940
+    },
+    {
+      "path": "docs/assets/orange/cards/7210017.png",
+      "sha256": "0abb7b799251fb3d625c1b905c02913beb7f1044d594171dc31e021f05f50850",
+      "bytes": 183059
+    },
+    {
+      "path": "docs/assets/orange/cards/7210018.png",
+      "sha256": "17eb11549234715ce9cd6c91e1ffe0821abbd918f153763a6d59046cad6a1492",
+      "bytes": 181828
+    },
+    {
+      "path": "docs/assets/orange/cards/7210019.png",
+      "sha256": "ea4c2b37bb17e79b2fe20a2249200144da3b9b964bf5c9665197b9acc1badc49",
+      "bytes": 166280
+    },
+    {
+      "path": "docs/assets/orange/cards/7210020.png",
+      "sha256": "ce539141a2eae860acb1a569763bc9fcf0980e8dcb6cb2f85b89f671761b96db",
+      "bytes": 165895
+    },
+    {
+      "path": "docs/assets/orange/cards/7210021.png",
+      "sha256": "2152d28c93077e7743db0b31fe11e6f4ab1ed64bf9c2f965188fde7ed329d1fb",
+      "bytes": 185275
+    },
+    {
+      "path": "docs/assets/orange/cards/7210022.png",
+      "sha256": "be7991bb8b8582e89349a4da2cbefcb6cd17fb945596bab0df40b942d1f4fa79",
+      "bytes": 184296
+    },
+    {
+      "path": "docs/assets/orange/cards/7210023.png",
+      "sha256": "41c6925fc192318e9fe9f80e80b9bd182a9129253a7127178e0b7f83cb1b2070",
+      "bytes": 183452
+    },
+    {
+      "path": "docs/assets/orange/cards/7210024.png",
+      "sha256": "1462063b4f0cb97ea5f914c83ce13f9b4abb36e51e645001890dbb857d10bbe9",
+      "bytes": 186872
+    },
+    {
+      "path": "docs/assets/orange/cards/7210025.png",
+      "sha256": "de827864c85f1b0814dfa11ef2152197fc725961663f9f659e19a036f9827a40",
+      "bytes": 180645
+    },
+    {
+      "path": "docs/assets/orange/cards/7210026.png",
+      "sha256": "3d42d6d7eedf42e8b652074cd4d11cc0d83190c79e199f2033172e12dbc89b13",
+      "bytes": 185852
+    },
+    {
+      "path": "docs/assets/orange/cards/7210027.png",
+      "sha256": "6d80ec372568b06a3b20adcd6dcdfca22ab456bd42375d6b9651c7f499fb244c",
+      "bytes": 185813
+    },
+    {
+      "path": "docs/assets/orange/cards/7210028.png",
+      "sha256": "a07528ee89eadb8964e455d79436565f906ca58d2157266f6ee0177fe66f04a8",
+      "bytes": 187284
+    },
+    {
+      "path": "docs/assets/orange/cards/7210030.png",
+      "sha256": "3765ef279dec56926388819c24638e52a1d084199759f2cffbcaeed593a0f2f7",
+      "bytes": 188033
+    },
+    {
+      "path": "docs/assets/orange/cards/7210032.png",
+      "sha256": "6fa834d2f1d2f475d47f8d3ff72e8260d44b7e19291db391917f414260f0f7a3",
+      "bytes": 174797
+    },
+    {
+      "path": "docs/assets/orange/cards/7210033.png",
+      "sha256": "29e1199cf2a0b26175f45feba60f1c760346a2226dc73c71c34d753350e90e19",
+      "bytes": 181204
+    },
+    {
+      "path": "docs/assets/orange/cards/7210034.png",
+      "sha256": "481c3f138574478186a7fe1e7579cad245f2a5b3cebed572d79240efb8401ae2",
+      "bytes": 162356
+    },
+    {
+      "path": "docs/assets/orange/cards/7220015.png",
+      "sha256": "833cd6e84c964d7abacd4270df67780c80dd1ae7e2d3335bbec43e5e377c630a",
+      "bytes": 203561
+    },
+    {
+      "path": "docs/assets/orange/cards/7220018.png",
+      "sha256": "8d2eaf6667f5be2538470f35cdeca4eb2fe143c05f2d2bff7a27ea6f44d18556",
+      "bytes": 159327
+    },
+    {
+      "path": "docs/assets/orange/cards/7220024.png",
+      "sha256": "da79c5d32b840fc651cf4d2f1c33b5209d66bc01373ffb65ca1a38782124ec23",
+      "bytes": 197042
+    },
+    {
+      "path": "docs/assets/orange/cards/7220026.png",
+      "sha256": "7419dcd4f43bcfabb980d98469199f540c2caff87d5a016b7f5dbe2413c92771",
+      "bytes": 206077
+    },
+    {
+      "path": "docs/assets/orange/cards/7220027.png",
+      "sha256": "4b7d6e3b20a968a2ce6916aadb1fb07eb993afa990a9a24c063ec95a28d7f732",
+      "bytes": 196107
+    },
+    {
+      "path": "docs/assets/orange/cards/7220028.png",
+      "sha256": "2511373d40794b0ad0a4b9f0d808dd8ffd798927d8e88e2d21397a11aa13a231",
+      "bytes": 199319
+    },
+    {
+      "path": "docs/assets/orange/cards/7220030.png",
+      "sha256": "93e4e5808caed4beb62653738a22e1dacd47e77d5fcd2212f23d94c37ebe672a",
+      "bytes": 206782
+    },
+    {
+      "path": "docs/assets/orange/cards/7220031.png",
+      "sha256": "04b164b08f580304b9a6096a2e9e3d7cfa89ea3fed1a52a03676ff89c358922c",
+      "bytes": 201531
+    },
+    {
+      "path": "docs/assets/orange/cards/7220032.png",
+      "sha256": "368dae3ef72b8b305b3a8db12b14e7bb5a6ba352334779950fcc0fb27c21791d",
+      "bytes": 208406
+    },
+    {
+      "path": "docs/assets/orange/cards/7220033.png",
+      "sha256": "842bcdd5cc5387e9fffcb450df9778ad10aab569c32c4a73997f3158b3f18c27",
+      "bytes": 189111
+    },
+    {
+      "path": "docs/assets/orange/cards/7220034.png",
+      "sha256": "abbce033aea63c93df908f420ab3b4a22dfa7dcfb05cb53b504d041d9c1e9123",
+      "bytes": 200159
+    },
+    {
+      "path": "docs/assets/orange/cards/7220036.png",
+      "sha256": "5e5ca7bc9e7cb528a3383f9933a5b3078eae54e452f2f3023032ba94e6aa0cf7",
+      "bytes": 197846
+    },
+    {
+      "path": "docs/assets/orange/cards/7220037.png",
+      "sha256": "f567133a80cc9a7dac76e2146107e88350677d970900a6e724a739977a1728a5",
+      "bytes": 205833
+    },
+    {
+      "path": "docs/assets/orange/cards/7220038.png",
+      "sha256": "b5c6f1495f0628df1ecde899c9b51fa498776709055860c9758f95568728be37",
+      "bytes": 202296
+    },
+    {
+      "path": "docs/assets/orange/cards/7220039.png",
+      "sha256": "ccc1eb00c29ed275c0166e1c9f7855ff5be0ef7dbe3897fdbedb2d734881f127",
+      "bytes": 210810
+    },
+    {
+      "path": "docs/assets/orange/cards/7220040.png",
+      "sha256": "b6d7c2378409e9b2bef6c79c3c9299feff7559c400bca2d25c4f336fa63190d0",
+      "bytes": 208805
+    },
+    {
+      "path": "docs/assets/orange/cards/7220042.png",
+      "sha256": "e45663f9226c4bc27d8c1bdd36bc7e156ae6b3acf1ec23e8454446f2deb2318d",
+      "bytes": 206548
+    },
+    {
+      "path": "docs/assets/orange/cards/7220044.png",
+      "sha256": "31183ccb7a34681e888155908b8e120a8bd9d734ba73221452dcc84eaadeec9b",
+      "bytes": 188236
+    },
+    {
+      "path": "docs/assets/orange/cards/7220045.png",
+      "sha256": "7a8f1d5c741e25f680927d0c0e918ff0e8b221e9734b1473de59b8c63c670dcb",
+      "bytes": 191602
+    },
+    {
+      "path": "docs/assets/orange/cards/7220046.png",
+      "sha256": "1f58c9376e2126e9033b10d46b6199fe20b06c1959d15f58ab044aebe32ef5fb",
+      "bytes": 196030
+    },
+    {
+      "path": "docs/assets/orange/cards/7220047.png",
+      "sha256": "88362b5fd5d05db938439e3021a248acab11e671d4025bf80585865ae6109eb0",
+      "bytes": 191284
+    },
+    {
+      "path": "docs/assets/orange/cards/7220048.png",
+      "sha256": "8f126a4ce975c67412c5dbb9b3a9e4335bb895fda5705ae98bfeb6c337f6c43d",
+      "bytes": 192725
+    },
+    {
+      "path": "docs/assets/orange/cards/7220049.png",
+      "sha256": "09f97cb362e35d01020ada88459f9fae9ed2cb545f858ace4ba9618bf5c5c836",
+      "bytes": 227177
+    },
+    {
+      "path": "docs/assets/orange/cards/7220050.png",
+      "sha256": "7e959c7e4e8219fdc2482b8fd9edca3c3124eed52849a940551027f1850c1c19",
+      "bytes": 226100
+    },
+    {
+      "path": "docs/assets/orange/cards/7220052.png",
+      "sha256": "f5b3c7321edee8b30d667ff53505fb9b2dc81aa043f714cac3fe6f6ecfcfc959",
+      "bytes": 208020
+    },
+    {
+      "path": "docs/assets/orange/cards/7220053.png",
+      "sha256": "645b6bb755debd8299207e661cc843173e50b5c74972969fef3da56201017287",
+      "bytes": 219294
+    },
+    {
+      "path": "docs/assets/orange/cards/7220054.png",
+      "sha256": "f7aa3603e70ca1b7eda7ef110856b567c0dcdf0994fbacacd6edb3b3be407ce7",
+      "bytes": 228050
+    },
+    {
+      "path": "docs/assets/orange/cards/7220055.png",
+      "sha256": "2fa876cf0d55d6def967240a85befc2b9a6a06bfc4c51a7124a927ba786dbbbc",
+      "bytes": 249833
+    },
+    {
+      "path": "docs/assets/orange/cards/7220056.png",
+      "sha256": "78c9e604813455b7c9e166586a0b3ae072b2585aa942e8671595ca650a7825c4",
+      "bytes": 227305
+    },
+    {
+      "path": "docs/assets/orange/cards/7220057.png",
+      "sha256": "43ce620df8be67146af21d8511f7984dee25872f7388e3c5014a04c125202f3d",
+      "bytes": 231105
+    },
+    {
+      "path": "docs/assets/orange/cards/7220058.png",
+      "sha256": "a0157eeb8cdea6b0da9c31fbe53ee19265d9094290772d1908fc51ac244d12ef",
+      "bytes": 190871
+    },
+    {
+      "path": "docs/assets/orange/cards/7230005.png",
+      "sha256": "e044173a7aa6d6fe7b74870252a2af4b6cba905dcd6ebad35a91564a40de33b4",
+      "bytes": 213741
+    },
+    {
+      "path": "docs/assets/orange/cards/7230032.png",
+      "sha256": "aedb34652a54a7f7ebd05b2a3f88b37f2e36869c1a0310815d17fcbdd51e57bc",
+      "bytes": 197522
+    },
+    {
+      "path": "docs/assets/orange/cards/7230034.png",
+      "sha256": "e179dd18c1c0c4c327cd8cd82d3701e408b9119e10126770ad6dbaa27f448230",
+      "bytes": 217188
+    },
+    {
+      "path": "docs/assets/orange/cards/7230035.png",
+      "sha256": "fe6022270426fb03fd7977a8a5097d415df37646a133bae11254ba6221e3d2c7",
+      "bytes": 207178
+    },
+    {
+      "path": "docs/assets/orange/cards/7230036.png",
+      "sha256": "9a1c194d48071378348d713a8ed4e216d145b67027f1881ad62461684af0133b",
+      "bytes": 201216
+    },
+    {
+      "path": "docs/assets/orange/cards/7230037.png",
+      "sha256": "6047f0394888057c68b8e762973cc56f7faaa2689a4f8cfdfc83a061c6a308b3",
+      "bytes": 207741
+    },
+    {
+      "path": "docs/assets/orange/cards/7230038.png",
+      "sha256": "114e99c98c7c9a5b9808f9ef74aa16b10e92312d19dbc645bc17a62642e34dde",
+      "bytes": 205880
+    },
+    {
+      "path": "docs/assets/orange/cards/7230039.png",
+      "sha256": "4ac2982dbf78fedbbb5526a1966f9e1841be1c06d38b6b924be5ed0f640eba24",
+      "bytes": 202964
+    },
+    {
+      "path": "docs/assets/orange/cards/7230040.png",
+      "sha256": "3b9436efa3dc71c740e8c9ac79ba7335032f64ce0f94059c023bc2726efd42bf",
+      "bytes": 211722
+    },
+    {
+      "path": "docs/assets/orange/cards/7230041.png",
+      "sha256": "f36f55cd98c311cc80d2c7be62350a5b5bacdbd51a964dee03a2f0b5df08ded5",
+      "bytes": 194908
+    },
+    {
+      "path": "docs/assets/orange/cards/7230043.png",
+      "sha256": "803be448bbbb9a2d74e8cca457767ebed577471512b335fe27807d20ecec7776",
+      "bytes": 217091
+    },
+    {
+      "path": "docs/assets/orange/cards/7230044.png",
+      "sha256": "c105eefbae56c7abbd4c3cfe90c10c4f1e0ff97b0b63e30e23cb7c115d808f5d",
+      "bytes": 215741
+    },
+    {
+      "path": "docs/assets/orange/cards/7230045.png",
+      "sha256": "3384f092c888757fbfc1376477e46fb0d2cd15f1f167782b0c1907fd36a4d227",
+      "bytes": 205689
+    },
+    {
+      "path": "docs/assets/orange/cards/7230047.png",
+      "sha256": "f99e49a7948c07d70d24a99c40eb59558d62fcf7010acb0bf92386bdf550705a",
+      "bytes": 190758
+    },
+    {
+      "path": "docs/assets/orange/cards/7230048.png",
+      "sha256": "bf533a400bfdca1103a8ccf839641ee04b7100a1bfc8c2f1d6c0c8fe4437b899",
+      "bytes": 204846
+    },
+    {
+      "path": "docs/assets/orange/cards/7230049.png",
+      "sha256": "b9050fcec30c2f53508ecdd74b7272b73d21878c994ec96d322fd0b725eb724a",
+      "bytes": 206241
+    },
+    {
+      "path": "docs/assets/orange/cards/7230050.png",
+      "sha256": "18457dc1eff0750ea1ffddd7faf09ddcf756c5b8288d4593c94fff2e5094e1d8",
+      "bytes": 196001
+    },
+    {
+      "path": "docs/assets/orange/cards/7230051.png",
+      "sha256": "77b93f936f5116b771fcfb1cbb7a0652ed6ecea1ba41cf3f44eb030327d2d85d",
+      "bytes": 209264
+    },
+    {
+      "path": "docs/assets/orange/cards/7230052.png",
+      "sha256": "69b74629c24cc74011c464ae51e8f9d91ae556a70e65b1ade4aad24f614ebaa1",
+      "bytes": 194845
+    },
+    {
+      "path": "docs/assets/orange/cards/7230053.png",
+      "sha256": "19495043b06b26888159787f62e5f4f1a31b917096ee7f892ff646fd7fe30ea1",
+      "bytes": 203033
+    },
+    {
+      "path": "docs/assets/orange/cards/7230054.png",
+      "sha256": "6846d184cdc381a4b0935253486042db80d0aeda8dbaf40920eeb10daaa47cd1",
+      "bytes": 216677
+    },
+    {
+      "path": "docs/assets/orange/cards/7230055.png",
+      "sha256": "8b2cb94d985283fcf6e1b9686c19bc8d90aac1361c727ef191af62fa3d44d54b",
+      "bytes": 214618
+    },
+    {
+      "path": "docs/assets/orange/cards/7230057.png",
+      "sha256": "e79a150b4e980f9d98bb430f409e2a3302c3bc4c34c53881621333648d16cc55",
+      "bytes": 195069
+    },
+    {
+      "path": "docs/assets/orange/cards/7230058.png",
+      "sha256": "979a52fda3deef15b0c6fd677028f51aa578c569af138d6b0bda7e2bd7d5ccfa",
+      "bytes": 207965
+    },
+    {
+      "path": "docs/assets/orange/cards/7230060.png",
+      "sha256": "0a93085c160a5752ee4d89ea348c015ba20ad7947b73e5b147205dc25d1e7659",
+      "bytes": 190907
+    },
+    {
+      "path": "docs/assets/orange/cards/7230061.png",
+      "sha256": "d7c57c4f13d3a19e931feb241c0c342c396ac23d69ed934f21cbed6445857c21",
+      "bytes": 188738
+    },
+    {
+      "path": "docs/assets/orange/cards/7230062.png",
+      "sha256": "548b04791369b343cf1e74d53e7fec3a0fcbed0a232f9594b3e50d1ed0e06176",
+      "bytes": 195134
+    },
+    {
+      "path": "docs/assets/orange/cards/7230063.png",
+      "sha256": "6fecb21f4a10c7b24c0c45449fd0b9edf436ea9e2a7e19e511d14d6744d46f40",
+      "bytes": 197379
+    },
+    {
+      "path": "docs/assets/orange/cards/7230064.png",
+      "sha256": "2bd0efa4fb87227a2feb97bf333374b9c092079bc8ea9ab2d8bfebaae84334b1",
+      "bytes": 197067
+    },
+    {
+      "path": "docs/assets/orange/cards/7230065.png",
+      "sha256": "8a7e76d76425f852c9636cc2104939f1af2fcb02bdb6ab2883d88b7022a4fe4b",
+      "bytes": 196052
+    },
+    {
+      "path": "docs/assets/orange/cards/7230066.png",
+      "sha256": "371d8cf5becb6ce5f83677ee8bb32a282761792b061a94ed7c6332db86c290af",
+      "bytes": 207445
+    },
+    {
+      "path": "docs/assets/orange/cards/7230067.png",
+      "sha256": "267a4644dae0aed1e05d9b08bdcbba6cfc62eb0ead80b7a533d675947973cb80",
+      "bytes": 176393
+    },
+    {
+      "path": "docs/assets/orange/cards/7230068.png",
+      "sha256": "6b1e7031b719c1cbe3892180f194e0f2cd7cab89cdb52879886ff57a64be7d9d",
+      "bytes": 186305
+    },
+    {
+      "path": "docs/assets/orange/cards/7230069.png",
+      "sha256": "cdfbd86d08f296e3d6669fe612a6cf1c48aadb2f0ebb747dabb9b57955ab8ad7",
+      "bytes": 186806
+    },
+    {
+      "path": "docs/assets/orange/cards/7230070.png",
+      "sha256": "04ad374a1c6416eaa1032aec98faa42c9a7593817394455aa7c4dced077971f9",
+      "bytes": 194336
+    },
+    {
+      "path": "docs/assets/orange/cards/7230071.png",
+      "sha256": "3748ae39b8e89e461945655a8dc39f057829df4533cd2e62afd4494f0ccea85b",
+      "bytes": 202240
+    },
+    {
+      "path": "docs/assets/orange/cards/7230072.png",
+      "sha256": "a496ca5f976ea09e085537d0fcad19a46a5317d670a821abf0bc0f441a41b21f",
+      "bytes": 213520
+    },
+    {
+      "path": "docs/assets/orange/cards/7230081.png",
+      "sha256": "ab060957c0f12b576a4303c9a2143a3b45159aeaf5ca578c3895af777d61bde8",
+      "bytes": 203833
+    },
+    {
+      "path": "docs/assets/orange/cards/7230084.png",
+      "sha256": "7255eee8f4e7feb4abce7d4f51f0b36cf53f4c15a111c22818eec86f6f49ed93",
+      "bytes": 208358
+    },
+    {
+      "path": "docs/assets/orange/cards/7230085.png",
+      "sha256": "40618abc694396314b6a39cfcad685b5092b6e5a0d0648f98741fc1b86b801c2",
+      "bytes": 196558
+    },
+    {
+      "path": "docs/assets/orange/cards/7230087.png",
+      "sha256": "cbe8f949c4abde2a7e4a8e277471de584fce4bb72578269791c1c7e4c8c1460e",
+      "bytes": 213734
+    },
+    {
+      "path": "docs/assets/orange/cards/7230088.png",
+      "sha256": "6e5b0ba51d6ba6db95b923e7b939e2b5fe896ecee2784157c013f1ee3c1ed45d",
+      "bytes": 229865
+    },
+    {
+      "path": "docs/assets/orange/cards/7230089.png",
+      "sha256": "6031476b8ebad69311458f775b50be2fb5eba453339d821f259d5eb7e91d695e",
+      "bytes": 220402
+    },
+    {
+      "path": "docs/assets/orange/cards/7230090.png",
+      "sha256": "79823ede21c012f166aa3e05c31fd1ea77512587d71bf3c80ea5ce14d256dcb5",
+      "bytes": 214815
+    },
+    {
+      "path": "docs/assets/orange/cards/7230091.png",
+      "sha256": "ff5737c81f5fcac2c4c957efe02350419ec34ee2014ca2d31ddf66109e8af36a",
+      "bytes": 209493
+    },
+    {
+      "path": "docs/assets/orange/cards/7230094.png",
+      "sha256": "84665dbd34b4330d45869f4341a7a7986af5c5f96f4c49f2e490178cf2f038fb",
+      "bytes": 195150
+    },
+    {
+      "path": "docs/assets/orange/cards/7230096.png",
+      "sha256": "294e06ceb4b420d49bea9eae14dec413ea45607ce82ca8c5ee4789acbdbb1514",
+      "bytes": 187591
+    },
+    {
+      "path": "docs/assets/orange/cards/7230103.png",
+      "sha256": "096012244ed6564b5f336ea1170038cc50cd8d4498634a89d250531f296a3945",
+      "bytes": 194839
+    },
+    {
+      "path": "docs/assets/orange/cards/7230105.png",
+      "sha256": "471672008a5d88a5dd7dd09e7c69052cd7f1544bed8b3e836ed435e1621db400",
+      "bytes": 200776
+    },
+    {
+      "path": "docs/assets/orange/cards/7230107.png",
+      "sha256": "60a3ecb35e9a14296d0c67169c5d01d473a111ec2af13821cbc2d56f3c396d21",
+      "bytes": 208521
+    },
+    {
+      "path": "docs/assets/orange/cards/7230108.png",
+      "sha256": "27310784ed9e0547ce7f4ecfd94c983a1ae75e23f4629ac73d1c43e2760c97a0",
+      "bytes": 213104
+    },
+    {
+      "path": "docs/assets/orange/cards/7230110.png",
+      "sha256": "a914030ec92db8411d22076adeac0b663187537da680c07ccb0ca28e5b65cb32",
+      "bytes": 188243
+    },
+    {
+      "path": "docs/assets/orange/cards/7230111.png",
+      "sha256": "32d45767d82a3467ab109d943d514df3c2cbaf9d7049085b8536d47de56df6c9",
+      "bytes": 193893
+    },
+    {
+      "path": "docs/assets/orange/cards/7230112.png",
+      "sha256": "247752b325b14ad712146c7de76486c8ece5105c9f7b6dd4c11470d32f05189b",
+      "bytes": 219849
+    },
+    {
+      "path": "docs/assets/orange/cards/7230113.png",
+      "sha256": "454f79e133cd7e1f986b90efcedfdce22a14ae9d24afeff729fd8e6c6a188665",
+      "bytes": 209394
+    },
+    {
+      "path": "docs/assets/orange/cards/7230114.png",
+      "sha256": "bf381d82ad932200645aaff7d789da9aec5c228400b2f743a886b0c3ebf7e423",
+      "bytes": 183278
+    },
+    {
+      "path": "docs/assets/orange/cards/7240005.png",
+      "sha256": "afd051dcaf4be339247933b3b7e69889f8bb6b8a09e80b1cac0dcade56543bc5",
+      "bytes": 191260
+    },
+    {
+      "path": "docs/assets/orange/cards/7240006.png",
+      "sha256": "c48c86705c31ca3b2186dbf1fd49c325cf1a64b1771dcd9723c158a0261bf934",
+      "bytes": 197658
+    },
+    {
+      "path": "docs/assets/orange/cards/7240016.png",
+      "sha256": "a8bc8926e72f0d30e9a6f01488fda50ae5fed5d6fa128570286e3a081f64f76e",
+      "bytes": 190551
+    },
+    {
+      "path": "docs/assets/orange/cards/7240017.png",
+      "sha256": "4c338d2b50683582c09839c009695a9b7bcfa0ec83f2cea5d3864fad4bbcc2be",
+      "bytes": 205243
+    },
+    {
+      "path": "docs/assets/orange/cards/7240018.png",
+      "sha256": "180f8f14d1eb9df7b20459c4e2aaddb4aa482f9250496573aed2a7f2b5d23702",
+      "bytes": 210518
+    },
+    {
+      "path": "docs/assets/orange/cards/7240019.png",
+      "sha256": "97493a11db59a9f816126c5a5e1f94a9803a25d5bf9c4d0b2292582a196b6ee2",
+      "bytes": 201237
+    },
+    {
+      "path": "docs/assets/orange/cards/7240020.png",
+      "sha256": "ec5f0204d624f0463ad65ed5b8ded31dee25819900909f7f094ce682625189e7",
+      "bytes": 200247
+    },
+    {
+      "path": "docs/assets/orange/cards/7240021.png",
+      "sha256": "e9e77f51c43e61dcd5d1555ee1f73014e98133e2a15e97b4034b8cc1f35400ca",
+      "bytes": 205959
+    },
+    {
+      "path": "docs/assets/orange/cards/7240022.png",
+      "sha256": "42a30fa019895e86ed46e3eb237d22b1c9d4b5bd005d8fc0869becdf578e25e4",
+      "bytes": 206696
+    },
+    {
+      "path": "docs/assets/orange/cards/7240023.png",
+      "sha256": "f8a6774a400a1af4a751aaecf17324412f2380f6edbd19023c66ef793909e0e3",
+      "bytes": 210381
+    },
+    {
+      "path": "docs/assets/orange/cards/7240024.png",
+      "sha256": "a8d244b0204f2c642c9ea175979f387fd74076c2bbc09d3a9feaf2008b10f8c4",
+      "bytes": 192408
+    },
+    {
+      "path": "docs/assets/orange/cards/7240025.png",
+      "sha256": "c033263f8dbe484219ee87c993dd61dfe1cabdbccb9e9b7b4e2ccc272e67db15",
+      "bytes": 206824
+    },
+    {
+      "path": "docs/assets/orange/cards/7240026.png",
+      "sha256": "4d8b942fd31b744a8ec345cb539ee4e08c605b2d69882dae63de92172923887b",
+      "bytes": 202810
+    },
+    {
+      "path": "docs/assets/orange/cards/7240027.png",
+      "sha256": "6fa8d19f2c0e338dd1835cdcef195dbeb39e45b7456785eb44a7c46de38d6903",
+      "bytes": 199534
+    },
+    {
+      "path": "docs/assets/orange/cards/7240028.png",
+      "sha256": "399d606e197a50f436905259a313b20f8f1bc8ad7b568d4068f13a001b51c714",
+      "bytes": 196695
+    },
+    {
+      "path": "docs/assets/orange/cards/7240030.png",
+      "sha256": "15a5216e0a3d78a0b1e65fa1832a43d8ef10e4a7527dc0f283aa6271f0f3c205",
+      "bytes": 200684
+    },
+    {
+      "path": "docs/assets/orange/cards/7240031.png",
+      "sha256": "9add25112c559087f315401f46e73dc1cc7f0c128b82aa977ed400fdeadf592b",
+      "bytes": 191533
+    },
+    {
+      "path": "docs/assets/orange/cards/7240032.png",
+      "sha256": "84b6fc5d27d80ebaaf5af3fe3d09226e6c883a62130b3050714e4caf4bdecd94",
+      "bytes": 201559
+    },
+    {
+      "path": "docs/assets/orange/cards/7240033.png",
+      "sha256": "e4c219f541fd8f542aa81038384346f24fdf1cb43f8277722e1d0554a000cdb2",
+      "bytes": 184175
+    },
+    {
+      "path": "docs/assets/orange/cards/7240034.png",
+      "sha256": "a0849bd186f6cee1e302d22fa172e663720ac194397a9938a1b7cce9e2055e34",
+      "bytes": 187875
+    },
+    {
+      "path": "docs/assets/orange/cards/7240035.png",
+      "sha256": "f7d7425426870a5456e4c78fc7470ca1796222bf1060f69ff5196446a37dc614",
+      "bytes": 188819
+    },
+    {
+      "path": "docs/assets/orange/cards/7240036.png",
+      "sha256": "285735adeabd4dd6f539755ef955fb15582c20d5af3c7fe69a84a357ff921bff",
+      "bytes": 198633
+    },
+    {
+      "path": "docs/assets/orange/cards/7240037.png",
+      "sha256": "09ec7a3e6fa65f52f2b453e80711033236a60452abcb5d86fd0a8f3845bee49d",
+      "bytes": 200610
+    },
+    {
+      "path": "docs/assets/orange/cards/7240038.png",
+      "sha256": "487465d6c617432486665322e18ea52a88f798a1073a8f2594658ab8a3e78f24",
+      "bytes": 183209
+    },
+    {
+      "path": "docs/assets/orange/cards/7240039.png",
+      "sha256": "2ea2eb861986a60e6d06a67785f37582db998936ac3b7420d9c7b5f1bcaf98e4",
+      "bytes": 183528
+    },
+    {
+      "path": "docs/assets/orange/cards/7240040.png",
+      "sha256": "5037b6c11f4a2ff9624fffc4c1fd95483af0b113c579563500d7efe948ff0cf5",
+      "bytes": 186320
+    },
+    {
+      "path": "docs/assets/orange/cards/7240041.png",
+      "sha256": "053b3f527ded54b54a28d9077966496a79bf0ef1b29f63841c1eea156e2622bf",
+      "bytes": 193522
+    },
+    {
+      "path": "docs/assets/orange/cards/7240042.png",
+      "sha256": "f89051b180346f0b8d454d6923ff6f8fb349b8fc963d074a081821b3e25b534a",
+      "bytes": 202737
+    },
+    {
+      "path": "docs/assets/orange/cards/7240058.png",
+      "sha256": "7f5f74e58fada2a8727f69c70f16a033ab66c7db2374b6be3643108c64fc6826",
+      "bytes": 209010
+    },
+    {
+      "path": "docs/assets/orange/cards/7240059.png",
+      "sha256": "883b8f41ed927b1137a08acafe6f5755aa3a492dc76dfcf2c98e8cce2b9fbb5e",
+      "bytes": 203210
+    },
+    {
+      "path": "docs/assets/orange/cards/7240060.png",
+      "sha256": "25be2f491a57e3c56dff3b64cb7322de46257d2bae328740b864020166308175",
+      "bytes": 203179
+    },
+    {
+      "path": "docs/assets/orange/cards/7240061.png",
+      "sha256": "b74293c0d086b3b0a6a4e617eeb9500543a11a59420e48e8032edc230f39fd44",
+      "bytes": 216780
+    },
+    {
+      "path": "docs/assets/orange/cards/7240062.png",
+      "sha256": "937a753da9675b98d3bede251d8231a3b1d1ddcfca2505e1f6fcafce3c3e447a",
+      "bytes": 219089
+    },
+    {
+      "path": "docs/assets/orange/cards/7240063.png",
+      "sha256": "f1735d87f616b0fc4ae44d644edd3eb8a4c4053431b7ddd0bfb937418059bfa6",
+      "bytes": 223347
+    },
+    {
+      "path": "docs/assets/orange/cards/7240064.png",
+      "sha256": "448645d71073a087c15532579cd071608e6c9319fb5bb631c205bb6f68a9f65f",
+      "bytes": 201349
+    },
+    {
+      "path": "docs/assets/orange/cards/7240068.png",
+      "sha256": "41dfe3fe6995b00b97425600c7029718359673ad05cea691a226150d94d42b5e",
+      "bytes": 224409
+    },
+    {
+      "path": "docs/assets/orange/cards/7240069.png",
+      "sha256": "5c29f66e6f80b4122ce19e1d486e42338ed74612ea3ea8aad30dd7cb2d003f4e",
+      "bytes": 219933
+    },
+    {
+      "path": "docs/assets/orange/cards/7240071.png",
+      "sha256": "60a4b398df962fe7631445db83932dcf39cdec253b1474e13783ba65f97747c7",
+      "bytes": 210174
+    },
+    {
+      "path": "docs/assets/orange/cards/7240072.png",
+      "sha256": "856870a1300dc2b1fe42536aaf15b6f08aec52396b8f7be6b48de33c469e4eb7",
+      "bytes": 214741
+    },
+    {
+      "path": "docs/assets/orange/cards/7240073.png",
+      "sha256": "0c06a04a22f3002e3a7e9f4a6d35a9dd9c28ec10e224246fed3b812bfc505042",
+      "bytes": 198754
+    },
+    {
+      "path": "docs/assets/orange/cards/7240077.png",
+      "sha256": "05887081f13d05239bbb97118a5bd1a28370d07526c3281f817ba4fb0f79bb56",
+      "bytes": 188600
+    },
+    {
+      "path": "docs/assets/orange/cards/7240080.png",
+      "sha256": "e3fcf8e8be2312758dbfd600665435487d44df298e6129054ba00c25289d0d20",
+      "bytes": 219390
+    },
+    {
+      "path": "docs/assets/orange/cards/7240087.png",
+      "sha256": "b909e2ae80559d765d9392600bdb39662932ab607c0b8f4b89615bf81c184ba5",
+      "bytes": 183597
+    },
+    {
+      "path": "docs/assets/orange/cards/7240088.png",
+      "sha256": "438a760a441aacf22d5b03bfcf5890d2d7614f4cc2a29ca22fc3e03525accd60",
+      "bytes": 197055
+    },
+    {
+      "path": "docs/assets/orange/cards/7240089.png",
+      "sha256": "98c059b48269c7266e7417b59ec5d070b83dec8002373da5a0200b1252d97bda",
+      "bytes": 208565
+    },
+    {
+      "path": "docs/assets/orange/cards/7240090.png",
+      "sha256": "b976c83b442c6608f33d4204a5f97a41db9f409da1f9e1effb8943869cd40722",
+      "bytes": 202141
+    },
+    {
+      "path": "docs/assets/orange/cards/7240091.png",
+      "sha256": "8a6d3461f79e8f4db4d4eaa8fcc29bc9c347544201fd5e8dbc0b8164c45ea565",
+      "bytes": 207091
+    },
+    {
+      "path": "docs/assets/orange/cards/7240092.png",
+      "sha256": "366f479e1126719f759fc66f13cd56b3fdeacd64a25bd8d4ea1c8b3783731afc",
+      "bytes": 217258
+    },
+    {
+      "path": "docs/assets/orange/cards/7240093.png",
+      "sha256": "b04ea2bc3310ca14007e01ba91568d78b8b16fabb5ec0694d1d431d69e164699",
+      "bytes": 203857
+    },
+    {
+      "path": "docs/assets/orange/cards/7240094.png",
+      "sha256": "b1912336b2a9e0000f60aeeae4674d0a78ccd567dafa95f35f51402837b1f01c",
+      "bytes": 230209
+    },
+    {
+      "path": "docs/assets/orange/cards/7240095.png",
+      "sha256": "4b4970507b47b29839a4e389adbc5825a1c67d4f47b712a224f142e73985bff7",
+      "bytes": 216691
+    },
+    {
+      "path": "docs/assets/orange/cards/7240096.png",
+      "sha256": "8e2a927a71d7937ca3fc65ff1f43689c77316ead92ce945bcf4c5283fcc1e898",
+      "bytes": 202634
+    },
+    {
+      "path": "docs/assets/orange/cards/7240097.png",
+      "sha256": "29c1d3bc7996049fb1fced65872b1b54813f96f97218273525a417aa51ab9de2",
+      "bytes": 208471
+    },
+    {
+      "path": "docs/assets/orange/cards/7250010.png",
+      "sha256": "af03a50c0e9b90e0a15922bd2a8493b83ae9b6767ad0569b5aa2c9724184f5d4",
+      "bytes": 214263
+    },
+    {
+      "path": "docs/assets/orange/cards/7250011.png",
+      "sha256": "699a3c0e15d9ceb18d59872c5c5554a8efbe5b136b27605784ff74281e58071d",
+      "bytes": 204620
+    },
+    {
+      "path": "docs/assets/orange/cards/7250012.png",
+      "sha256": "9000a90b4e895ba68b64b8c0f190268a77ebbe0edf92fe8742944c6ba2c4cce0",
+      "bytes": 205886
+    },
+    {
+      "path": "docs/assets/orange/cards/7250013.png",
+      "sha256": "a024352e0b7d609976647755674318aef9fcdd82ff761edcbfff37014e59a561",
+      "bytes": 201776
+    },
+    {
+      "path": "docs/assets/orange/cards/7250014.png",
+      "sha256": "dddd259680ae7ebe6936a379ce17efa05a9bbd0f3db1ea9517fda8cbfe8470f2",
+      "bytes": 196345
+    },
+    {
+      "path": "docs/assets/orange/cards/7250015.png",
+      "sha256": "8ca56bb88c8e5fc92b6cc4ce87ffe52707c0d5fa17b0e20e9055de716d7f16b8",
+      "bytes": 205749
+    },
+    {
+      "path": "docs/assets/orange/cards/7250016.png",
+      "sha256": "3c712907a1d4df71d372a88f99908345c5deee53657e741d9d2cd5d5bd239bb3",
+      "bytes": 194242
+    },
+    {
+      "path": "docs/assets/orange/cards/7250017.png",
+      "sha256": "d68cd9b2195779fc2634f9ae2eebc6907eef39823d9d9a9c2955effe2cad3432",
+      "bytes": 211558
+    },
+    {
+      "path": "docs/assets/orange/cards/7250018.png",
+      "sha256": "66343ef81985ddfdfd6638db0aa0c7106ab16b184de3751e24a2a807dae498da",
+      "bytes": 203701
+    },
+    {
+      "path": "docs/assets/orange/cards/7250019.png",
+      "sha256": "101628485b9549c7882025ee81bf29d1d4298e1f16024532b2c5defc33b5204b",
+      "bytes": 223511
+    },
+    {
+      "path": "docs/assets/orange/cards/7250020.png",
+      "sha256": "06410ea073e0a0536c0724ca9d0497b5502a39160eb0764e573d79ecb666ccdc",
+      "bytes": 190161
+    },
+    {
+      "path": "docs/assets/orange/cards/7250021.png",
+      "sha256": "e11763b6e60e2b52f4a0cf785aad6f6bdaaba4793bb9a7bf405fe72174867fc8",
+      "bytes": 192411
+    },
+    {
+      "path": "docs/assets/orange/cards/7250022.png",
+      "sha256": "4e837e0eedad1d2138416eb7f333786f151caa502d193da76c42ac2d9c5cf1a6",
+      "bytes": 201337
+    },
+    {
+      "path": "docs/assets/orange/cards/7250023.png",
+      "sha256": "a4c36e5538648ca8cc762b87fd9bf2e1dd6bbf227ef1517d9c57f14d6acb55b4",
+      "bytes": 198660
+    },
+    {
+      "path": "docs/assets/orange/cards/7250025.png",
+      "sha256": "0fad848924c03a79a83a0447bdc1babc32863b1b21c44e2c84f6b67ee7126c01",
+      "bytes": 191312
+    },
+    {
+      "path": "docs/assets/orange/cards/7250026.png",
+      "sha256": "4eb4589dd698c9178eff7eb4efa815a36e2a19da03c1992681f47445d1bead82",
+      "bytes": 216042
+    },
+    {
+      "path": "docs/assets/orange/cards/7250029.png",
+      "sha256": "a2645fe2c48b1d21f36c0222c0676ecb348edafbd680a9282957c9ab57243983",
+      "bytes": 230800
+    },
+    {
+      "path": "docs/assets/orange/cards/7250031.png",
+      "sha256": "ce6629e47d9e7f9626247e3574880515837634363953702f4a103bdd30392699",
+      "bytes": 208976
+    },
+    {
+      "path": "docs/assets/orange/cards/7250034.png",
+      "sha256": "a30c7bb5b550e227c6d3d29f62814629c88fc3394d059f7ff4c9c995364276ab",
+      "bytes": 225119
+    },
+    {
+      "path": "docs/assets/orange/cards/7250035.png",
+      "sha256": "7a8334a4c4331144836fcda3bb178ccd7a3b0f5c1eac5d0659ad7522e7156f55",
+      "bytes": 211934
+    },
+    {
+      "path": "docs/assets/orange/cards/7250036.png",
+      "sha256": "efaeb23e764c43bbfddfba5005789efe21c3eb1b52f590301ca24f36a9d003a8",
+      "bytes": 231900
+    },
+    {
+      "path": "docs/assets/orange/cards/7250037.png",
+      "sha256": "f957ba3d45a48def21691f306068a46537835b79319e9f93baf27e3ad2844525",
+      "bytes": 184097
+    },
+    {
+      "path": "docs/assets/orange/cards/7250039.png",
+      "sha256": "c9dcc43a174a29e2828a245ff380fd3b0f89aea4d98f45c458831325f6ae5f95",
+      "bytes": 224451
+    },
+    {
+      "path": "docs/assets/orange/cards/7250040.png",
+      "sha256": "3c725e07342598a2c3dee4769eda5b2d79930bbcdabb3b7aa3eed1136bae6e57",
+      "bytes": 213713
+    },
+    {
+      "path": "docs/assets/orange/cards/7250041.png",
+      "sha256": "049db68b38491579bf38a9dd0cf847fc24e46c0e2ed58ca468e99bc34cde6cdf",
+      "bytes": 209700
+    },
+    {
+      "path": "docs/assets/orange/cards/7250042.png",
+      "sha256": "8bf36827945a8a76011972229854ddd32c7a37fcc6e0be1051d45ca5386566da",
+      "bytes": 243468
+    },
+    {
+      "path": "docs/assets/orange/cards/7250044.png",
+      "sha256": "cfef9d7439958047dbe786b2243f4ff626372eb64359df4140ab6e3ed3a241b6",
+      "bytes": 231437
+    },
+    {
+      "path": "docs/assets/orange/cards/7250045.png",
+      "sha256": "f61fda643bcb48c8a3b9a3ded4a2a2a2168582b9558abc51241525f88b4482bc",
+      "bytes": 220353
+    },
+    {
+      "path": "docs/assets/orange/cards/7250046.png",
+      "sha256": "06554fde0c279e2ad10548830c385191203b64a4f636aeedb4e8cf82b85ac25f",
+      "bytes": 216577
+    },
+    {
+      "path": "docs/assets/orange/cards/7250047.png",
+      "sha256": "581b469cbd63cef22170ea8cd7084efaf62bda5192a13daa4af500dfb226a3ae",
+      "bytes": 222103
+    },
+    {
+      "path": "docs/assets/orange/cards/7250048.png",
+      "sha256": "ad6a08756a54d422bbf3a1d2f9d7b4bf83a2a20e53a36478b2e8d5ec30391dd7",
+      "bytes": 210872
+    },
+    {
+      "path": "docs/assets/orange/cards/7250049.png",
+      "sha256": "2a859d234b5e55b9e5748f0d4c3b456e179af7a22ead08e3d6a7feb8f008c6f0",
+      "bytes": 227653
+    },
+    {
+      "path": "docs/assets/orange/cards/7250050.png",
+      "sha256": "f0fc2845e2b67a5e275d0a1263c414282fb10fa20ef681e21ffe857482b94798",
+      "bytes": 215620
+    },
+    {
+      "path": "docs/assets/orange/cards/7250051.png",
+      "sha256": "14c20e8943a862d586d7b85184fef1c3790a88f7cb2ebdfbc660126444d6fab6",
+      "bytes": 247380
+    },
+    {
+      "path": "docs/assets/orange/cards/7250052.png",
+      "sha256": "f2306b07508dc9ba284a36b60ec9557e7753029f8bbf4d2dc4e8c6cd877fdbcc",
+      "bytes": 218850
+    },
+    {
+      "path": "docs/assets/orange/cards/7250056.png",
+      "sha256": "820ddd7297e3367075193ef6cef63abdeb6cdc9d4235e31275e60c3f5f71855d",
+      "bytes": 224147
+    },
+    {
+      "path": "docs/assets/orange/cards/7250059.png",
+      "sha256": "09580f996dd0489e325f33d772c56bec79b22ba3cde0370399ce0b8398f132f0",
+      "bytes": 212181
+    },
+    {
+      "path": "docs/assets/orange/cards/7250060.png",
+      "sha256": "500476b0f168881aca1773c3f7f6438961d68eb2988e162d5cadc0ea56fb1aad",
+      "bytes": 208599
+    },
+    {
+      "path": "docs/assets/orange/cards/7250061.png",
+      "sha256": "fc9807a1607063a51ea1dace0ac77502e91e6ed36e56bb5c78547e3397a801c1",
+      "bytes": 197149
+    },
+    {
+      "path": "docs/assets/orange/cards/7250068.png",
+      "sha256": "a2da198acb6af9035daf28a35e577695dc305e28335d38deff323d1883a920dc",
+      "bytes": 226866
+    },
+    {
+      "path": "docs/assets/orange/cards/7250069.png",
+      "sha256": "e2fc332b743304767475d15016d753eebd07d5825db055a9e8bb20cd29020c29",
+      "bytes": 215313
+    },
+    {
+      "path": "docs/assets/orange/cards/7250071.png",
+      "sha256": "8247df4ef2dcee7a4d835432db54a81747f662b5a953f012cbfdf607c83ca07e",
+      "bytes": 216743
     },
     {
       "path": "docs/assets/orange/heros/11400.png",
@@ -6740,8 +7775,8 @@
     },
     {
       "path": "docs/build-manifest.json",
-      "sha256": "1a1e22f130da45bfccd38347bb0e639c0935856da70ce19b9d1412b090169b33",
-      "bytes": 79222
+      "sha256": "c5bc4520d95a35c9ccb5680e5f3a42e4e02f63288c152d80fbcadc1c5d70f1b3",
+      "bytes": 108433
     },
     {
       "path": "docs/guide/guide-data.json",
@@ -6760,13 +7795,33 @@
     },
     {
       "path": "docs/guide/index.html",
-      "sha256": "b3fd2b9c2c886eda32b4edb0d9c1c2f21f699b6f1bb6295f6b8d983999522a13",
-      "bytes": 4543
+      "sha256": "30f4d10d8b562adf3f7522845639b42b9783fe69555966af2808791fad933145",
+      "bytes": 4588
     },
     {
       "path": "docs/index.html",
-      "sha256": "0ab1f8fa01a5b562cfeb6825bf4e7102f5679a8744165414e1915fb20ecf45ec",
-      "bytes": 4832
+      "sha256": "6a848631ed30e124bc04ac64e828a6acda2bdb517da564256a3209cec39d3d48",
+      "bytes": 5489
+    },
+    {
+      "path": "docs/strategy/index.html",
+      "sha256": "1601b26091595bb594502c9ac2ee1c7384415790cbc3e7b3b5e06da073b7497f",
+      "bytes": 3915
+    },
+    {
+      "path": "docs/strategy/strategy-data.json",
+      "sha256": "bf8dce8cc17651b3c965ab7ff8530689e01c01801a191364c5ca734ae443706d",
+      "bytes": 3914412
+    },
+    {
+      "path": "docs/strategy/strategy.css",
+      "sha256": "00c933536778fa12b6dc6539e30dd48215aeb41dc6ab7fa0ffc2159690d58b04",
+      "bytes": 23608
+    },
+    {
+      "path": "docs/strategy/strategy.js",
+      "sha256": "2e38a50b50babb7d886730878eb0805a58f76b49e8d8b08cb0a2b1f4095574df",
+      "bytes": 44200
     },
     {
       "path": "requirements-ocr.lock.txt",
@@ -6810,13 +7865,18 @@
     },
     {
       "path": "scripts/build_pages.py",
-      "sha256": "b7e82bd00ecc4cb3e62b6bece0684d2bd88e80a1fa9adaea094eb5830d5e8e4c",
-      "bytes": 5241
+      "sha256": "ba60bc3e0d6561e42a2d89974938a5402e672deb6b556769679c015e827b104c",
+      "bytes": 5902
     },
     {
       "path": "scripts/build_round3_report.py",
       "sha256": "e5f1995330c4a0ffaab311663f32d0f982bd2beb0b48fcd9376ef927de5ac59f",
       "bytes": 24266
+    },
+    {
+      "path": "scripts/build_strategy_guide.py",
+      "sha256": "6d95a1fd1d67c981f96c5ea78000c0d40a4c0b52792652bbb2592956c7d3b8c4",
+      "bytes": 37559
     },
     {
       "path": "scripts/download_assets.py",
@@ -6919,6 +7979,11 @@
       "bytes": 1353
     },
     {
+      "path": "tests/test_pages_build.py",
+      "sha256": "8208bd98e8413a20107b283974f1252d8a2f740927a175a2f27f348266f13e87",
+      "bytes": 4080
+    },
+    {
       "path": "tests/test_probability.py",
       "sha256": "916d3680907bb13887af3461f1d7b51e94395f080992a71e605946205f64de24",
       "bytes": 2743
@@ -6952,6 +8017,11 @@
       "path": "tests/test_screenshot_evaluation.py",
       "sha256": "8cad05a9b2f5a6352118943e2f0fca5f7e2edfe5eef65c0a9e1d581107852878",
       "bytes": 5012
+    },
+    {
+      "path": "tests/test_strategy_guide.py",
+      "sha256": "99c5768cab6a416f5359a94a790818b057458ca3743d2edd9c326ccd1afce8a3",
+      "bytes": 10094
     },
     {
       "path": "tests/test_tablet_access.py",
