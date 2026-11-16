@@ -1,0 +1,2235 @@
+{
+  "schema_version": "hero-guide-statistics-v1",
+  "source": {
+    "title": "金铲铲大数据 · 英雄三件套公开统计",
+    "url": "https://www.dataj.cc/hero",
+    "patch": "18.6",
+    "set_id": 18,
+    "retrieved_at": "2026-11-16T17:28:17+08:00",
+    "hero_table_sha256": "c6503f35e9ee8a6a18b1def876d4352ba7c0b3f54eb44522b75c40276a4bc905",
+    "provider": "third_party",
+    "method": "Public same-site web endpoints, hero ID and name verified against public table, no login.",
+    "rate_unit": "percent_0_100",
+    "population": "站点称高分段；具体队列、段位边界、时间窗、去重及星级混合口径未披露。"
+  },
+  "minimum_sample_count": 100,
+  "notice": "第三方18.6历史观察，未独立核验。高第一率可能来自星级、阵容、成型时机与玩家选择，不能证明装备带来因果胜率提升。",
+  "heroes": {
+    "11500": {
+      "official_hero_id": "11500",
+      "name": "奥恩",
+      "provider_hero_id": "1500",
+      "combos": [
+        {
+          "id": "2018-2025-2028",
+          "item_ids": [
+            "2018",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 397,
+          "first_rate": 16.62,
+          "top4_rate": 57.93,
+          "avg_placement": 4.03
+        },
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 564,
+          "first_rate": 15.43,
+          "top4_rate": 57.98,
+          "avg_placement": 4.1
+        },
+        {
+          "id": "2018-2028-2032",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2032"
+          ],
+          "sample_count": 214,
+          "first_rate": 14.49,
+          "top4_rate": 55.14,
+          "avg_placement": 4.25
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1500/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "0ca6c98b11c6b7ca025917ce5707b57cde6e187badf600c24f5fe85849f37e8d",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:01:17+08:00"
+    },
+    "11501": {
+      "official_hero_id": "11501",
+      "name": "洛",
+      "provider_hero_id": "1501",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1501/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "ca2ef605d932dc2d8664a2c9d6cac430246db007d8c656f9f8d86302c71deec7",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:01:18+08:00"
+    },
+    "11502": {
+      "official_hero_id": "11502",
+      "name": "蕾欧娜",
+      "provider_hero_id": "1502",
+      "combos": [
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 288,
+          "first_rate": 19.44,
+          "top4_rate": 61.81,
+          "avg_placement": 3.9
+        },
+        {
+          "id": "2018-2025-2028",
+          "item_ids": [
+            "2018",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 229,
+          "first_rate": 17.47,
+          "top4_rate": 63.76,
+          "avg_placement": 3.86
+        },
+        {
+          "id": "2027-2028-2034",
+          "item_ids": [
+            "2027",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 103,
+          "first_rate": 15.53,
+          "top4_rate": 56.31,
+          "avg_placement": 4.12
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1502/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "524d5eccc255ce54ff5fa093bdbc94e7d9e46173df18a2f0040664f43315ea96",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:01:19+08:00"
+    },
+    "11503": {
+      "official_hero_id": "11503",
+      "name": "可酷伯",
+      "provider_hero_id": "1503",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1503/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "ec2f031bd85c305f1674613dd422320acaac3dee0b65e43a948f09f004c9624b",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:01:20+08:00"
+    },
+    "11504": {
+      "official_hero_id": "11504",
+      "name": "雷克塞",
+      "provider_hero_id": "1504",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1504/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "bb1ed49f649883ca19db26041cc630203ffe9aa3c01edb42988ce18a37d50243",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:28:23+08:00"
+    },
+    "11505": {
+      "official_hero_id": "11505",
+      "name": "卡蜜尔",
+      "provider_hero_id": "1505",
+      "combos": [
+        {
+          "id": "2001-2005-6073",
+          "item_ids": [
+            "2001",
+            "2005",
+            "6073"
+          ],
+          "sample_count": 111,
+          "first_rate": 23.42,
+          "top4_rate": 81.08,
+          "avg_placement": 3
+        },
+        {
+          "id": "2001-2039-6073",
+          "item_ids": [
+            "2001",
+            "2039",
+            "6073"
+          ],
+          "sample_count": 189,
+          "first_rate": 19.05,
+          "top4_rate": 76.19,
+          "avg_placement": 3.32
+        },
+        {
+          "id": "2001-2007-2039",
+          "item_ids": [
+            "2001",
+            "2007",
+            "2039"
+          ],
+          "sample_count": 138,
+          "first_rate": 10.14,
+          "top4_rate": 50,
+          "avg_placement": 4.62
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1505/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "50f711a15bb566cd839dd96007cb10c516dbfdfcbadb4f10c5e4be1886bded64",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:01:22+08:00"
+    },
+    "11506": {
+      "official_hero_id": "11506",
+      "name": "阿卡丽",
+      "provider_hero_id": "1506",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1506/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "279437daadc4a6b56f4454ca0dd983df3a4e5b20b1642c5acfe22bad51a2a8ea",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:01:23+08:00"
+    },
+    "11507": {
+      "official_hero_id": "11507",
+      "name": "韦鲁斯",
+      "provider_hero_id": "1507",
+      "combos": [
+        {
+          "id": "2001-2045-41808",
+          "item_ids": [
+            "2001",
+            "2045",
+            "41808"
+          ],
+          "sample_count": 1506,
+          "first_rate": 25.37,
+          "top4_rate": 66.73,
+          "avg_placement": 3.53
+        },
+        {
+          "id": "2001-2022-41808",
+          "item_ids": [
+            "2001",
+            "2022",
+            "41808"
+          ],
+          "sample_count": 262,
+          "first_rate": 23.28,
+          "top4_rate": 60.31,
+          "avg_placement": 3.8
+        },
+        {
+          "id": "2001-2042-41808",
+          "item_ids": [
+            "2001",
+            "2042",
+            "41808"
+          ],
+          "sample_count": 238,
+          "first_rate": 20.17,
+          "top4_rate": 63.03,
+          "avg_placement": 3.73
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1507/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "0a7fc473623e1550d9a44c11572aae58c4cbed628beda012dd7e8d43d036d354",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:01:25+08:00"
+    },
+    "11508": {
+      "official_hero_id": "11508",
+      "name": "绯红树怪",
+      "provider_hero_id": "1508",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1508/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "c243687db570ffaf024f181499e6cc8f707e4c4fd7de58badcde184236c6522b",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:01:26+08:00"
+    },
+    "11509": {
+      "official_hero_id": "11509",
+      "name": "霞",
+      "provider_hero_id": "1509",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1509/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "bdfd62e7e9c783d25de12a592d16d84ccfb4a099a09bd7593e9825c4feb7d3cd",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:01:27+08:00"
+    },
+    "11510": {
+      "official_hero_id": "11510",
+      "name": "卡尔玛",
+      "provider_hero_id": "1510",
+      "combos": [
+        {
+          "id": "2016-2022-2038",
+          "item_ids": [
+            "2016",
+            "2022",
+            "2038"
+          ],
+          "sample_count": 128,
+          "first_rate": 15.63,
+          "top4_rate": 55.47,
+          "avg_placement": 4.05
+        },
+        {
+          "id": "2004-2016-2038",
+          "item_ids": [
+            "2004",
+            "2016",
+            "2038"
+          ],
+          "sample_count": 106,
+          "first_rate": 7.55,
+          "top4_rate": 47.17,
+          "avg_placement": 4.61
+        },
+        {
+          "id": "2004-2011-2038",
+          "item_ids": [
+            "2004",
+            "2011",
+            "2038"
+          ],
+          "sample_count": 113,
+          "first_rate": 4.42,
+          "top4_rate": 49.56,
+          "avg_placement": 4.62
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1510/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "a9058a69feb82ed73b4498878e3425f53c4bba47397d3f24a15b997ba6d3698f",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:28:23+08:00"
+    },
+    "11511": {
+      "official_hero_id": "11511",
+      "name": "苍蓝哨戒",
+      "provider_hero_id": "1511",
+      "combos": [
+        {
+          "id": "2016-2024-2038",
+          "item_ids": [
+            "2016",
+            "2024",
+            "2038"
+          ],
+          "sample_count": 264,
+          "first_rate": 17.8,
+          "top4_rate": 62.88,
+          "avg_placement": 3.78
+        },
+        {
+          "id": "2017-2022-2046",
+          "item_ids": [
+            "2017",
+            "2022",
+            "2046"
+          ],
+          "sample_count": 178,
+          "first_rate": 17.42,
+          "top4_rate": 63.48,
+          "avg_placement": 3.8
+        },
+        {
+          "id": "2011-2016-2022",
+          "item_ids": [
+            "2011",
+            "2016",
+            "2022"
+          ],
+          "sample_count": 203,
+          "first_rate": 17.24,
+          "top4_rate": 60.1,
+          "avg_placement": 3.93
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1511/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "2850b787a1c36a4efe18e9a8b9b136f1e6d9b76317b9e7f484de1d5d70a2a2bd",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:01:55+08:00"
+    },
+    "11512": {
+      "official_hero_id": "11512",
+      "name": "维迦",
+      "provider_hero_id": "1512",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/1512/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "24d6ed42a36c25aa2b9bcc6e6edab6a0722f8918e5a5f03f57fa413843befd3b",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:28:29+08:00"
+    },
+    "12500": {
+      "official_hero_id": "12500",
+      "name": "峡谷迅捷蟹",
+      "provider_hero_id": "2500",
+      "combos": [
+        {
+          "id": "2025-2028-2034",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 159,
+          "first_rate": 5.66,
+          "top4_rate": 49.06,
+          "avg_placement": 4.53
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2500/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "2f550dc9c6c9b9890326ea76c98dfcfdf1dd534fa9ea131c802ebe0dbfe40b82",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:03+08:00"
+    },
+    "12501": {
+      "official_hero_id": "12501",
+      "name": "阿利斯塔",
+      "provider_hero_id": "2501",
+      "combos": [
+        {
+          "id": "2028-2034-2040",
+          "item_ids": [
+            "2028",
+            "2034",
+            "2040"
+          ],
+          "sample_count": 157,
+          "first_rate": 21.02,
+          "top4_rate": 70.7,
+          "avg_placement": 3.39
+        },
+        {
+          "id": "2018-2032-2034",
+          "item_ids": [
+            "2018",
+            "2032",
+            "2034"
+          ],
+          "sample_count": 120,
+          "first_rate": 11.67,
+          "top4_rate": 60.83,
+          "avg_placement": 3.93
+        },
+        {
+          "id": "2025-2028-2040",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2040"
+          ],
+          "sample_count": 133,
+          "first_rate": 11.28,
+          "top4_rate": 70.68,
+          "avg_placement": 3.54
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2501/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "7f6abe5cbc68a0e316e21fe31a30bfaebe6b503d457b0293cd6afb528b47e108",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:07+08:00"
+    },
+    "12502": {
+      "official_hero_id": "12502",
+      "name": "瑟庄妮",
+      "provider_hero_id": "2502",
+      "combos": [
+        {
+          "id": "2027-2028-2034",
+          "item_ids": [
+            "2027",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 259,
+          "first_rate": 22.01,
+          "top4_rate": 69.11,
+          "avg_placement": 3.44
+        },
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 685,
+          "first_rate": 21.61,
+          "top4_rate": 70.36,
+          "avg_placement": 3.48
+        },
+        {
+          "id": "2025-2028-2040",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2040"
+          ],
+          "sample_count": 184,
+          "first_rate": 19.57,
+          "top4_rate": 64.13,
+          "avg_placement": 3.67
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2502/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "defd28461d154d8ccb123df255f8d9879493db6567e09442331841401b93accd",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:10+08:00"
+    },
+    "12503": {
+      "official_hero_id": "12503",
+      "name": "慎",
+      "provider_hero_id": "2503",
+      "combos": [
+        {
+          "id": "2018-2025-2028",
+          "item_ids": [
+            "2018",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 376,
+          "first_rate": 23.4,
+          "top4_rate": 65.43,
+          "avg_placement": 3.62
+        },
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 543,
+          "first_rate": 21.36,
+          "top4_rate": 67.22,
+          "avg_placement": 3.62
+        },
+        {
+          "id": "2025-2028-2040",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2040"
+          ],
+          "sample_count": 125,
+          "first_rate": 20.8,
+          "top4_rate": 60,
+          "avg_placement": 3.64
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2503/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "9ccdb60f03825458d1753993cfd43610a579e5dd0a5b6e5714fcff6abdf9e515",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:13+08:00"
+    },
+    "12504": {
+      "official_hero_id": "12504",
+      "name": "伊莉丝",
+      "provider_hero_id": "2504",
+      "combos": [
+        {
+          "id": "2010-2012-2028",
+          "item_ids": [
+            "2010",
+            "2012",
+            "2028"
+          ],
+          "sample_count": 411,
+          "first_rate": 12.9,
+          "top4_rate": 44.28,
+          "avg_placement": 4.76
+        },
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 253,
+          "first_rate": 11.46,
+          "top4_rate": 54.55,
+          "avg_placement": 4.28
+        },
+        {
+          "id": "2018-2028-2032",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2032"
+          ],
+          "sample_count": 117,
+          "first_rate": 10.26,
+          "top4_rate": 40.17,
+          "avg_placement": 4.87
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2504/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "01f828c12adb9c289cfde3c48809ec368d45950b3f7e803f0aa96bac59ffe434",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:15+08:00"
+    },
+    "12505": {
+      "official_hero_id": "12505",
+      "name": "约里克",
+      "provider_hero_id": "2505",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2505/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "37eba931f9357fc94096c487c830c4dd0b9e5ff91e8e69ae2e6286f04ec2944b",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:18+08:00"
+    },
+    "12507": {
+      "official_hero_id": "12507",
+      "name": "暗影狼",
+      "provider_hero_id": "2507",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2507/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "afb452a16d444fabb50a498157f985825a61339f98bdc0a95dc02932b642574b",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:28:30+08:00"
+    },
+    "12508": {
+      "official_hero_id": "12508",
+      "name": "沃里克",
+      "provider_hero_id": "2508",
+      "combos": [
+        {
+          "id": "2001-2039-6073",
+          "item_ids": [
+            "2001",
+            "2039",
+            "6073"
+          ],
+          "sample_count": 922,
+          "first_rate": 25.92,
+          "top4_rate": 86.33,
+          "avg_placement": 2.66
+        },
+        {
+          "id": "2001-2041-6073",
+          "item_ids": [
+            "2001",
+            "2041",
+            "6073"
+          ],
+          "sample_count": 482,
+          "first_rate": 24.9,
+          "top4_rate": 86.93,
+          "avg_placement": 2.57
+        },
+        {
+          "id": "2001-2005-6073",
+          "item_ids": [
+            "2001",
+            "2005",
+            "6073"
+          ],
+          "sample_count": 146,
+          "first_rate": 15.07,
+          "top4_rate": 90.41,
+          "avg_placement": 2.63
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2508/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "d8e792d9ceb520d1773e25ba5b9c997f846075c21f4baa14f8a17c2f28761dfb",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:28+08:00"
+    },
+    "12509": {
+      "official_hero_id": "12509",
+      "name": "芸阿娜",
+      "provider_hero_id": "2509",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2509/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "9fedc51fbfb57dc4c28233946d6d7c8b8e1aeef0494410001a0985de3406c869",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:30+08:00"
+    },
+    "12510": {
+      "official_hero_id": "12510",
+      "name": "凯特琳",
+      "provider_hero_id": "2510",
+      "combos": [
+        {
+          "id": "2003-2013-2066",
+          "item_ids": [
+            "2003",
+            "2013",
+            "2066"
+          ],
+          "sample_count": 197,
+          "first_rate": 14.72,
+          "top4_rate": 56.35,
+          "avg_placement": 4.18
+        },
+        {
+          "id": "2001-2045-2066",
+          "item_ids": [
+            "2001",
+            "2045",
+            "2066"
+          ],
+          "sample_count": 165,
+          "first_rate": 14.55,
+          "top4_rate": 61.82,
+          "avg_placement": 4.05
+        },
+        {
+          "id": "2013-2045-2066",
+          "item_ids": [
+            "2013",
+            "2045",
+            "2066"
+          ],
+          "sample_count": 138,
+          "first_rate": 14.49,
+          "top4_rate": 55.8,
+          "avg_placement": 4.14
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2510/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "b1d173dea3785aa681004ef3de38d966734170dd58f94696417a40730e7fe1d7",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:32+08:00"
+    },
+    "12511": {
+      "official_hero_id": "12511",
+      "name": "乐芙兰",
+      "provider_hero_id": "2511",
+      "combos": [
+        {
+          "id": "2004-2038-6058",
+          "item_ids": [
+            "2004",
+            "2038",
+            "6058"
+          ],
+          "sample_count": 100,
+          "first_rate": 12,
+          "top4_rate": 60,
+          "avg_placement": 4.18
+        },
+        {
+          "id": "2004-2011-2038",
+          "item_ids": [
+            "2004",
+            "2011",
+            "2038"
+          ],
+          "sample_count": 205,
+          "first_rate": 6.83,
+          "top4_rate": 46.34,
+          "avg_placement": 4.7
+        },
+        {
+          "id": "2004-2038-6091",
+          "item_ids": [
+            "2004",
+            "2038",
+            "6091"
+          ],
+          "sample_count": 115,
+          "first_rate": 6.09,
+          "top4_rate": 51.3,
+          "avg_placement": 4.58
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2511/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "34d332f0fd94d0d2b26e8089729e157e9139c8cea172d06739a033836b60113a",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:34+08:00"
+    },
+    "12512": {
+      "official_hero_id": "12512",
+      "name": "凯尔",
+      "provider_hero_id": "2512",
+      "combos": [
+        {
+          "id": "2010-2046-41808",
+          "item_ids": [
+            "2010",
+            "2046",
+            "41808"
+          ],
+          "sample_count": 153,
+          "first_rate": 28.76,
+          "top4_rate": 64.05,
+          "avg_placement": 3.49
+        },
+        {
+          "id": "2010-2016-41808",
+          "item_ids": [
+            "2010",
+            "2016",
+            "41808"
+          ],
+          "sample_count": 152,
+          "first_rate": 28.29,
+          "top4_rate": 74.34,
+          "avg_placement": 3.18
+        },
+        {
+          "id": "2003-2010-2016",
+          "item_ids": [
+            "2003",
+            "2010",
+            "2016"
+          ],
+          "sample_count": 203,
+          "first_rate": 25.62,
+          "top4_rate": 74.88,
+          "avg_placement": 3.11
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2512/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "ebfd0a83814018cabecf2c2172142488c7a3bd241da28f0058ac920fe4829cce",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:35+08:00"
+    },
+    "12513": {
+      "official_hero_id": "12513",
+      "name": "魔沼蛙",
+      "provider_hero_id": "2513",
+      "combos": [
+        {
+          "id": "2004-2011-2020",
+          "item_ids": [
+            "2004",
+            "2011",
+            "2020"
+          ],
+          "sample_count": 117,
+          "first_rate": 27.35,
+          "top4_rate": 72.65,
+          "avg_placement": 3.28
+        },
+        {
+          "id": "2004-2011-2016",
+          "item_ids": [
+            "2004",
+            "2011",
+            "2016"
+          ],
+          "sample_count": 127,
+          "first_rate": 25.98,
+          "top4_rate": 74.8,
+          "avg_placement": 3.17
+        },
+        {
+          "id": "2004-2016-2038",
+          "item_ids": [
+            "2004",
+            "2016",
+            "2038"
+          ],
+          "sample_count": 229,
+          "first_rate": 18.34,
+          "top4_rate": 64.63,
+          "avg_placement": 3.71
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2513/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "fc3a593e8fa44f90bffef60e2ddbbd96e7905e2bced5c6ba43f9b56d1668823e",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:37+08:00"
+    },
+    "12514": {
+      "official_hero_id": "12514",
+      "name": "提莫",
+      "provider_hero_id": "2514",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/2514/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "ea4d8155d86182056261f972ef5bba492743bc848d30d14e0e6c3a95f7acd1bb",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:38+08:00"
+    },
+    "13500": {
+      "official_hero_id": "13500",
+      "name": "赫卡里姆",
+      "provider_hero_id": "3500",
+      "combos": [
+        {
+          "id": "2023-2029-2032",
+          "item_ids": [
+            "2023",
+            "2029",
+            "2032"
+          ],
+          "sample_count": 118,
+          "first_rate": 16.1,
+          "top4_rate": 53.39,
+          "avg_placement": 4.33
+        },
+        {
+          "id": "2025-2028-2034",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 126,
+          "first_rate": 8.73,
+          "top4_rate": 42.06,
+          "avg_placement": 4.86
+        },
+        {
+          "id": "2025-2028-2032",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2032"
+          ],
+          "sample_count": 111,
+          "first_rate": 7.21,
+          "top4_rate": 42.34,
+          "avg_placement": 4.99
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3500/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "f8d0c7808b72b32434ec1c9dfc7837ec476f916cafe7947823305d3b9a24b7d1",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:28:34+08:00"
+    },
+    "13501": {
+      "official_hero_id": "13501",
+      "name": "蔚",
+      "provider_hero_id": "3501",
+      "combos": [
+        {
+          "id": "2028-2032-2034",
+          "item_ids": [
+            "2028",
+            "2032",
+            "2034"
+          ],
+          "sample_count": 156,
+          "first_rate": 5.77,
+          "top4_rate": 28.21,
+          "avg_placement": 5.63
+        },
+        {
+          "id": "2018-2025-2028",
+          "item_ids": [
+            "2018",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 124,
+          "first_rate": 5.65,
+          "top4_rate": 21.77,
+          "avg_placement": 5.81
+        },
+        {
+          "id": "2025-2028-2034",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 230,
+          "first_rate": 3.48,
+          "top4_rate": 30.87,
+          "avg_placement": 5.38
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3501/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "4a5804c062230fdcd6fc8d2c7d6d6a60d41cbef67ef2840c336bdad7c5135839",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:50+08:00"
+    },
+    "13502": {
+      "official_hero_id": "13502",
+      "name": "费德提克",
+      "provider_hero_id": "3502",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3502/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "b03ea4110432ca85d33285fbb7bb087ea771bdd83fc6dfc632d3caa1dac804c5",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:52+08:00"
+    },
+    "13503": {
+      "official_hero_id": "13503",
+      "name": "远古石甲虫",
+      "provider_hero_id": "3503",
+      "combos": [
+        {
+          "id": "2025-2027-2028",
+          "item_ids": [
+            "2025",
+            "2027",
+            "2028"
+          ],
+          "sample_count": 155,
+          "first_rate": 18.06,
+          "top4_rate": 65.81,
+          "avg_placement": 3.66
+        },
+        {
+          "id": "2007-2025-2028",
+          "item_ids": [
+            "2007",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 135,
+          "first_rate": 17.78,
+          "top4_rate": 58.52,
+          "avg_placement": 3.9
+        },
+        {
+          "id": "2007-2028-2029",
+          "item_ids": [
+            "2007",
+            "2028",
+            "2029"
+          ],
+          "sample_count": 121,
+          "first_rate": 17.36,
+          "top4_rate": 54.55,
+          "avg_placement": 4.1
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3503/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "c17af06a6fc70c18834ae2e9c8ecde103140b8eaca2ca710ad24a2a27c3b2b74",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:02:53+08:00"
+    },
+    "13504": {
+      "official_hero_id": "13504",
+      "name": "雷恩加尔",
+      "provider_hero_id": "3504",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3504/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "66c33aa45992b7ae3af746eb958217b2705a4963985ea01a1fb0fb9f5c1788dc",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:55+08:00"
+    },
+    "13505": {
+      "official_hero_id": "13505",
+      "name": "卡兹克",
+      "provider_hero_id": "3505",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3505/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "d46f5192b533c715fd00e7e15a4745aac4c7cf6f755531e878dc39b40a6bc000",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:56+08:00"
+    },
+    "13506": {
+      "official_hero_id": "13506",
+      "name": "黛安娜",
+      "provider_hero_id": "3506",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3506/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "a91aeabc5803bd4a9bf5ca4b32768c3300dedebd300982223f405824ad716432",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:57+08:00"
+    },
+    "13507": {
+      "official_hero_id": "13507",
+      "name": "易",
+      "provider_hero_id": "3507",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3507/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "767290607b7d8013aea515eb95c7f1ec872b3d067a7a3bee8923f0d050405ba3",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:02:59+08:00"
+    },
+    "13508": {
+      "official_hero_id": "13508",
+      "name": "崔丝塔娜",
+      "provider_hero_id": "3508",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3508/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "7eba52db9598729a5ec81d8ec6c9c68eba302465871392e7ce797971a1dd9f80",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:03:00+08:00"
+    },
+    "13509": {
+      "official_hero_id": "13509",
+      "name": "深红锋喙鸟",
+      "provider_hero_id": "3509",
+      "combos": [
+        {
+          "id": "2010-2013-2037",
+          "item_ids": [
+            "2010",
+            "2013",
+            "2037"
+          ],
+          "sample_count": 119,
+          "first_rate": 12.61,
+          "top4_rate": 52.94,
+          "avg_placement": 4.35
+        },
+        {
+          "id": "2003-2010-2013",
+          "item_ids": [
+            "2003",
+            "2010",
+            "2013"
+          ],
+          "sample_count": 155,
+          "first_rate": 8.39,
+          "top4_rate": 57.42,
+          "avg_placement": 4.04
+        },
+        {
+          "id": "2010-2013-2045",
+          "item_ids": [
+            "2010",
+            "2013",
+            "2045"
+          ],
+          "sample_count": 185,
+          "first_rate": 8.11,
+          "top4_rate": 50.81,
+          "avg_placement": 4.52
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3509/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "278b8901bebdcb391c2eea86a64be508517ce2ab52ffb9d02164457af63ebb05",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:02+08:00"
+    },
+    "13510": {
+      "official_hero_id": "13510",
+      "name": "阿兹尔",
+      "provider_hero_id": "3510",
+      "combos": [
+        {
+          "id": "2003-2010-2016",
+          "item_ids": [
+            "2003",
+            "2010",
+            "2016"
+          ],
+          "sample_count": 120,
+          "first_rate": 2.5,
+          "top4_rate": 45.83,
+          "avg_placement": 4.96
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3510/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "a4837a0b59f17a8823f9c54391e96c2eb4ce15bb7d98e0a90e2f692c9a8fd1ae",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:03+08:00"
+    },
+    "13511": {
+      "official_hero_id": "13511",
+      "name": "卡西奥佩娅",
+      "provider_hero_id": "3511",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3511/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "d38809b95abf7acc690d4f730c88632b3c4aac65a745920a535acba01835e400",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:28:35+08:00"
+    },
+    "13512": {
+      "official_hero_id": "13512",
+      "name": "克格莫",
+      "provider_hero_id": "3512",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3512/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "f2883d08d26ab3706c483aecc848ea0aa0068e29d18cd4395f36f9614f4c0284",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:03:10+08:00"
+    },
+    "13515": {
+      "official_hero_id": "13515",
+      "name": "拉莫斯",
+      "provider_hero_id": "3515",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/3515/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "1439c49fbcf36d802b51b1a8b2b9c6ebc587b3eca2da9a8334965a6aed0b63d0",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:03:12+08:00"
+    },
+    "14500": {
+      "official_hero_id": "14500",
+      "name": "苍蓝雕纹魔像",
+      "provider_hero_id": "4500",
+      "combos": [
+        {
+          "id": "2018-2023-2028",
+          "item_ids": [
+            "2018",
+            "2023",
+            "2028"
+          ],
+          "sample_count": 259,
+          "first_rate": 20.08,
+          "top4_rate": 53.28,
+          "avg_placement": 4.28
+        },
+        {
+          "id": "2018-2023-2032",
+          "item_ids": [
+            "2018",
+            "2023",
+            "2032"
+          ],
+          "sample_count": 268,
+          "first_rate": 19.78,
+          "top4_rate": 61.94,
+          "avg_placement": 3.91
+        },
+        {
+          "id": "2019-2023-2032",
+          "item_ids": [
+            "2019",
+            "2023",
+            "2032"
+          ],
+          "sample_count": 198,
+          "first_rate": 19.7,
+          "top4_rate": 76.77,
+          "avg_placement": 3.25
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4500/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "92df7e68a532ac3f2cdcdcba4f26b378f7b4e9bb5e0aee07e85cc72723c60e57",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:13+08:00"
+    },
+    "14501": {
+      "official_hero_id": "14501",
+      "name": "莫甘娜",
+      "provider_hero_id": "4501",
+      "combos": [
+        {
+          "id": "2011-2016-2020",
+          "item_ids": [
+            "2011",
+            "2016",
+            "2020"
+          ],
+          "sample_count": 218,
+          "first_rate": 20.18,
+          "top4_rate": 56.88,
+          "avg_placement": 4.01
+        },
+        {
+          "id": "2003-2011-2020",
+          "item_ids": [
+            "2003",
+            "2011",
+            "2020"
+          ],
+          "sample_count": 103,
+          "first_rate": 18.45,
+          "top4_rate": 60.19,
+          "avg_placement": 3.96
+        },
+        {
+          "id": "2011-2020-2038",
+          "item_ids": [
+            "2011",
+            "2020",
+            "2038"
+          ],
+          "sample_count": 344,
+          "first_rate": 16.28,
+          "top4_rate": 50.29,
+          "avg_placement": 4.4
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4501/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "31caceda1bebdda07aba9e5f836ca82a1a368e2ec55db67b4f60a945d28ec01c",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:15+08:00"
+    },
+    "14502": {
+      "official_hero_id": "14502",
+      "name": "莉莉娅",
+      "provider_hero_id": "4502",
+      "combos": [
+        {
+          "id": "2025-2032-41801",
+          "item_ids": [
+            "2025",
+            "2032",
+            "41801"
+          ],
+          "sample_count": 174,
+          "first_rate": 17.82,
+          "top4_rate": 50.57,
+          "avg_placement": 4.22
+        },
+        {
+          "id": "2029-2032-41801",
+          "item_ids": [
+            "2029",
+            "2032",
+            "41801"
+          ],
+          "sample_count": 220,
+          "first_rate": 17.73,
+          "top4_rate": 57.27,
+          "avg_placement": 4.06
+        },
+        {
+          "id": "2032-2034-41801",
+          "item_ids": [
+            "2032",
+            "2034",
+            "41801"
+          ],
+          "sample_count": 138,
+          "first_rate": 17.39,
+          "top4_rate": 65.22,
+          "avg_placement": 3.77
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4502/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "7aa248706e5a17e13b49f6bbf0d95bb7453873146ad272ca7431afb4404884a5",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:16+08:00"
+    },
+    "14503": {
+      "official_hero_id": "14503",
+      "name": "阿木木",
+      "provider_hero_id": "4503",
+      "combos": [
+        {
+          "id": "2028-2032-2034",
+          "item_ids": [
+            "2028",
+            "2032",
+            "2034"
+          ],
+          "sample_count": 1266,
+          "first_rate": 18.88,
+          "top4_rate": 50.16,
+          "avg_placement": 4.39
+        },
+        {
+          "id": "2027-2028-2034",
+          "item_ids": [
+            "2027",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 751,
+          "first_rate": 18.24,
+          "top4_rate": 57.52,
+          "avg_placement": 4.08
+        },
+        {
+          "id": "2028-2029-2032",
+          "item_ids": [
+            "2028",
+            "2029",
+            "2032"
+          ],
+          "sample_count": 322,
+          "first_rate": 15.84,
+          "top4_rate": 45.03,
+          "avg_placement": 4.68
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4503/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "5184abf323dd3c19f409625a934d27b887d77cf8921202bc8bf14b6f0ff2dbd3",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:17+08:00"
+    },
+    "14504": {
+      "official_hero_id": "14504",
+      "name": "墨菲特",
+      "provider_hero_id": "4504",
+      "combos": [
+        {
+          "id": "2025-2028-2040",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2040"
+          ],
+          "sample_count": 403,
+          "first_rate": 11.17,
+          "top4_rate": 51.86,
+          "avg_placement": 4.43
+        },
+        {
+          "id": "2018-2027-2028",
+          "item_ids": [
+            "2018",
+            "2027",
+            "2028"
+          ],
+          "sample_count": 198,
+          "first_rate": 11.11,
+          "top4_rate": 65.15,
+          "avg_placement": 3.95
+        },
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 1532,
+          "first_rate": 10.84,
+          "top4_rate": 55.22,
+          "avg_placement": 4.24
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4504/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "e68dc41ecc9c32bbbdbf92b48537236252b96b41d44edfad63f29545d5965f82",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:19+08:00"
+    },
+    "14505": {
+      "official_hero_id": "14505",
+      "name": "瑟提",
+      "provider_hero_id": "4505",
+      "combos": [
+        {
+          "id": "2007-2025-2028",
+          "item_ids": [
+            "2007",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 420,
+          "first_rate": 20.95,
+          "top4_rate": 62.62,
+          "avg_placement": 3.84
+        },
+        {
+          "id": "2023-2025-2028",
+          "item_ids": [
+            "2023",
+            "2025",
+            "2028"
+          ],
+          "sample_count": 244,
+          "first_rate": 17.62,
+          "top4_rate": 55.33,
+          "avg_placement": 4.07
+        },
+        {
+          "id": "2023-2028-2034",
+          "item_ids": [
+            "2023",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 475,
+          "first_rate": 17.26,
+          "top4_rate": 56.21,
+          "avg_placement": 4.16
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4505/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "5ee027c46d095d1bd9d62729d5be59176e2924e07c2a4da2ce7fdd1c6741ce83",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:20+08:00"
+    },
+    "14506": {
+      "official_hero_id": "14506",
+      "name": "绯红印记树怪",
+      "provider_hero_id": "4506",
+      "combos": [
+        {
+          "id": "2005-2010-41802",
+          "item_ids": [
+            "2005",
+            "2010",
+            "41802"
+          ],
+          "sample_count": 177,
+          "first_rate": 15.82,
+          "top4_rate": 78.53,
+          "avg_placement": 3.05
+        },
+        {
+          "id": "2005-2039-2041",
+          "item_ids": [
+            "2005",
+            "2039",
+            "2041"
+          ],
+          "sample_count": 148,
+          "first_rate": 15.54,
+          "top4_rate": 68.24,
+          "avg_placement": 3.58
+        },
+        {
+          "id": "2005-2010-2012",
+          "item_ids": [
+            "2005",
+            "2010",
+            "2012"
+          ],
+          "sample_count": 226,
+          "first_rate": 15.04,
+          "top4_rate": 69.03,
+          "avg_placement": 3.56
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4506/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "a1595a6d79bdae730761d37b541c2a5b73b8aca757e4a986c230ac23934a5b77",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:21+08:00"
+    },
+    "14507": {
+      "official_hero_id": "14507",
+      "name": "奈德丽",
+      "provider_hero_id": "4507",
+      "combos": [
+        {
+          "id": "2010-2011-2038",
+          "item_ids": [
+            "2010",
+            "2011",
+            "2038"
+          ],
+          "sample_count": 140,
+          "first_rate": 12.14,
+          "top4_rate": 52.86,
+          "avg_placement": 4.32
+        },
+        {
+          "id": "2004-2010-2038",
+          "item_ids": [
+            "2004",
+            "2010",
+            "2038"
+          ],
+          "sample_count": 155,
+          "first_rate": 11.61,
+          "top4_rate": 49.68,
+          "avg_placement": 4.63
+        },
+        {
+          "id": "2010-2016-2038",
+          "item_ids": [
+            "2010",
+            "2016",
+            "2038"
+          ],
+          "sample_count": 319,
+          "first_rate": 10.97,
+          "top4_rate": 55.8,
+          "avg_placement": 4.21
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4507/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "58b61e77ce8033ff4bb446d2ec3a98128ac6f35f7379255bec2433d288c95128",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:23+08:00"
+    },
+    "14508": {
+      "official_hero_id": "14508",
+      "name": "伊泽瑞尔",
+      "provider_hero_id": "4508",
+      "combos": [
+        {
+          "id": "2001-2022-2045",
+          "item_ids": [
+            "2001",
+            "2022",
+            "2045"
+          ],
+          "sample_count": 103,
+          "first_rate": 21.36,
+          "top4_rate": 62.14,
+          "avg_placement": 3.74
+        },
+        {
+          "id": "2001-2004-2045",
+          "item_ids": [
+            "2001",
+            "2004",
+            "2045"
+          ],
+          "sample_count": 147,
+          "first_rate": 17.69,
+          "top4_rate": 70.75,
+          "avg_placement": 3.55
+        },
+        {
+          "id": "2001-2004-2009",
+          "item_ids": [
+            "2001",
+            "2004",
+            "2009"
+          ],
+          "sample_count": 145,
+          "first_rate": 13.79,
+          "top4_rate": 57.24,
+          "avg_placement": 4.16
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4508/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "5690a462859ad57ecd92096f0b8d715748e7c69e660158e5969195af3596ed1b",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:24+08:00"
+    },
+    "14509": {
+      "official_hero_id": "14509",
+      "name": "厄斐琉斯",
+      "provider_hero_id": "4509",
+      "combos": [
+        {
+          "id": "2010-2013-41801",
+          "item_ids": [
+            "2010",
+            "2013",
+            "41801"
+          ],
+          "sample_count": 354,
+          "first_rate": 16.38,
+          "top4_rate": 66.1,
+          "avg_placement": 3.71
+        },
+        {
+          "id": "2001-2010-41801",
+          "item_ids": [
+            "2001",
+            "2010",
+            "41801"
+          ],
+          "sample_count": 1326,
+          "first_rate": 14.25,
+          "top4_rate": 53.32,
+          "avg_placement": 4.31
+        },
+        {
+          "id": "2001-2010-41804",
+          "item_ids": [
+            "2001",
+            "2010",
+            "41804"
+          ],
+          "sample_count": 1108,
+          "first_rate": 13.81,
+          "top4_rate": 49.1,
+          "avg_placement": 4.53
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4509/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "6d4d7bb56399c291593e651880b00359c7ae72247ef33ccd13d54fa23575f764",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:26+08:00"
+    },
+    "14510": {
+      "official_hero_id": "14510",
+      "name": "希维尔",
+      "provider_hero_id": "4510",
+      "combos": [
+        {
+          "id": "2001-2037-41809",
+          "item_ids": [
+            "2001",
+            "2037",
+            "41809"
+          ],
+          "sample_count": 484,
+          "first_rate": 20.45,
+          "top4_rate": 52.27,
+          "avg_placement": 4.26
+        },
+        {
+          "id": "2001-2009-41809",
+          "item_ids": [
+            "2001",
+            "2009",
+            "41809"
+          ],
+          "sample_count": 968,
+          "first_rate": 19.32,
+          "top4_rate": 52.07,
+          "avg_placement": 4.27
+        },
+        {
+          "id": "2001-2022-41806",
+          "item_ids": [
+            "2001",
+            "2022",
+            "41806"
+          ],
+          "sample_count": 503,
+          "first_rate": 18.09,
+          "top4_rate": 56.26,
+          "avg_placement": 4.11
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4510/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "c0d9ca868d4486fec76b7dab2806c5093236e855cffc63dd0ce85ebc56e77cfa",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:27+08:00"
+    },
+    "14511": {
+      "official_hero_id": "14511",
+      "name": "阿狸",
+      "provider_hero_id": "4511",
+      "combos": [
+        {
+          "id": "2004-2022-2038",
+          "item_ids": [
+            "2004",
+            "2022",
+            "2038"
+          ],
+          "sample_count": 533,
+          "first_rate": 21.2,
+          "top4_rate": 58.16,
+          "avg_placement": 3.97
+        },
+        {
+          "id": "2004-2024-2038",
+          "item_ids": [
+            "2004",
+            "2024",
+            "2038"
+          ],
+          "sample_count": 290,
+          "first_rate": 20.34,
+          "top4_rate": 50.69,
+          "avg_placement": 4.28
+        },
+        {
+          "id": "2004-2011-2016",
+          "item_ids": [
+            "2004",
+            "2011",
+            "2016"
+          ],
+          "sample_count": 180,
+          "first_rate": 18.33,
+          "top4_rate": 53.33,
+          "avg_placement": 4.31
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4511/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "831e9c6cb75eabc84855a89b5aa12cf85102a7e40283610e203e7c585df604fd",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:28+08:00"
+    },
+    "14512": {
+      "official_hero_id": "14512",
+      "name": "婕拉",
+      "provider_hero_id": "4512",
+      "combos": [
+        {
+          "id": "2004-2009-2017",
+          "item_ids": [
+            "2004",
+            "2009",
+            "2017"
+          ],
+          "sample_count": 273,
+          "first_rate": 13.92,
+          "top4_rate": 61.54,
+          "avg_placement": 3.93
+        },
+        {
+          "id": "2004-2011-2016",
+          "item_ids": [
+            "2004",
+            "2011",
+            "2016"
+          ],
+          "sample_count": 193,
+          "first_rate": 13.47,
+          "top4_rate": 63.21,
+          "avg_placement": 3.92
+        },
+        {
+          "id": "2011-2017-2022",
+          "item_ids": [
+            "2011",
+            "2017",
+            "2022"
+          ],
+          "sample_count": 189,
+          "first_rate": 12.7,
+          "top4_rate": 61.9,
+          "avg_placement": 3.93
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4512/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "fdbc56736a7c0e8e70412bf737760d4b56626849a552336452069cb61469abf9",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:30+08:00"
+    },
+    "14513": {
+      "official_hero_id": "14513",
+      "name": "索拉卡",
+      "provider_hero_id": "4513",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/4513/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "2c5f7028839ebb94ac1a20810c5cd59c7e3376bd4218b6fe14e38250b9990db5",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:03:31+08:00"
+    },
+    "15450": {
+      "official_hero_id": "15450",
+      "name": "茂凯",
+      "provider_hero_id": "5450",
+      "combos": [
+        {
+          "id": "2025-2028-2034",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 390,
+          "first_rate": 41.03,
+          "top4_rate": 75.13,
+          "avg_placement": 2.93
+        },
+        {
+          "id": "2028-2032-2034",
+          "item_ids": [
+            "2028",
+            "2032",
+            "2034"
+          ],
+          "sample_count": 245,
+          "first_rate": 38.78,
+          "top4_rate": 70.2,
+          "avg_placement": 3.15
+        },
+        {
+          "id": "2027-2028-2034",
+          "item_ids": [
+            "2027",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 116,
+          "first_rate": 37.07,
+          "top4_rate": 76.72,
+          "avg_placement": 3.1
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5450/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "e1401e12a45a37c10c6253679d05c9264ed50086ae546c3437bb908b725a7ac4",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:33+08:00"
+    },
+    "15451": {
+      "official_hero_id": "15451",
+      "name": "塔里克",
+      "provider_hero_id": "5451",
+      "combos": [
+        {
+          "id": "2018-2028-2034",
+          "item_ids": [
+            "2018",
+            "2028",
+            "2034"
+          ],
+          "sample_count": 308,
+          "first_rate": 28.9,
+          "top4_rate": 64.61,
+          "avg_placement": 3.52
+        },
+        {
+          "id": "2025-2028-2029",
+          "item_ids": [
+            "2025",
+            "2028",
+            "2029"
+          ],
+          "sample_count": 104,
+          "first_rate": 26.92,
+          "top4_rate": 63.46,
+          "avg_placement": 3.72
+        },
+        {
+          "id": "2028-2029-2034",
+          "item_ids": [
+            "2028",
+            "2029",
+            "2034"
+          ],
+          "sample_count": 112,
+          "first_rate": 25,
+          "top4_rate": 59.82,
+          "avg_placement": 3.87
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5451/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "94bf144750d4c296cf17b1d302d7af38df1af9d2067b341997931b5d5eb2d251",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:34+08:00"
+    },
+    "15452": {
+      "official_hero_id": "15452",
+      "name": "纳尔",
+      "provider_hero_id": "5452",
+      "combos": [],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5452/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "d0eea9299d9e8b3f56be21d4179448c72d642e8eb1eca6c4f7ed40380a01bc6d",
+      "rows_received": 20,
+      "status": "insufficient_samples",
+      "reason": "没有达到100样本且装备可映射的三件套；不展示低样本高第一率。",
+      "retrieved_at": "2026-11-16T17:03:35+08:00"
+    },
+    "15453": {
+      "official_hero_id": "15453",
+      "name": "凯南",
+      "provider_hero_id": "5453",
+      "combos": [
+        {
+          "id": "2005-2016-2019",
+          "item_ids": [
+            "2005",
+            "2016",
+            "2019"
+          ],
+          "sample_count": 111,
+          "first_rate": 32.43,
+          "top4_rate": 71.17,
+          "avg_placement": 3.22
+        },
+        {
+          "id": "2005-2011-2020",
+          "item_ids": [
+            "2005",
+            "2011",
+            "2020"
+          ],
+          "sample_count": 148,
+          "first_rate": 31.76,
+          "top4_rate": 76.35,
+          "avg_placement": 2.9
+        },
+        {
+          "id": "2005-2020-2038",
+          "item_ids": [
+            "2005",
+            "2020",
+            "2038"
+          ],
+          "sample_count": 193,
+          "first_rate": 31.61,
+          "top4_rate": 77.72,
+          "avg_placement": 3.02
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5453/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "3eeaa4ac3637baeb311a80b74de491f7f205d283fe347ba08d3a36586c85f890",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:36+08:00"
+    },
+    "15454": {
+      "official_hero_id": "15454",
+      "name": "艾希",
+      "provider_hero_id": "5454",
+      "combos": [
+        {
+          "id": "2004-2009-2037",
+          "item_ids": [
+            "2004",
+            "2009",
+            "2037"
+          ],
+          "sample_count": 113,
+          "first_rate": 28.32,
+          "top4_rate": 76.99,
+          "avg_placement": 3.06
+        },
+        {
+          "id": "2004-2009-41806",
+          "item_ids": [
+            "2004",
+            "2009",
+            "41806"
+          ],
+          "sample_count": 177,
+          "first_rate": 27.12,
+          "top4_rate": 71.19,
+          "avg_placement": 3.32
+        },
+        {
+          "id": "2001-2004-2009",
+          "item_ids": [
+            "2001",
+            "2004",
+            "2009"
+          ],
+          "sample_count": 201,
+          "first_rate": 23.38,
+          "top4_rate": 64.18,
+          "avg_placement": 3.73
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5454/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "9be454a1853b35ed0a3d59cbfc782c2add2ea95ab45624cc30d874b8d742a5a5",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:37+08:00"
+    },
+    "15455": {
+      "official_hero_id": "15455",
+      "name": "德莱文",
+      "provider_hero_id": "5455",
+      "combos": [
+        {
+          "id": "2010-2045-2046",
+          "item_ids": [
+            "2010",
+            "2045",
+            "2046"
+          ],
+          "sample_count": 106,
+          "first_rate": 38.68,
+          "top4_rate": 68.87,
+          "avg_placement": 3.29
+        },
+        {
+          "id": "2010-2013-6065",
+          "item_ids": [
+            "2010",
+            "2013",
+            "6065"
+          ],
+          "sample_count": 100,
+          "first_rate": 36,
+          "top4_rate": 66,
+          "avg_placement": 3.51
+        },
+        {
+          "id": "2010-2013-2046",
+          "item_ids": [
+            "2010",
+            "2013",
+            "2046"
+          ],
+          "sample_count": 202,
+          "first_rate": 31.19,
+          "top4_rate": 70.3,
+          "avg_placement": 3.29
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5455/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "17a973060f5e08c157a42a4f6940adefe148a3a13f340345ba5488cd36ad6c0d",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:38+08:00"
+    },
+    "15456": {
+      "official_hero_id": "15456",
+      "name": "拉露恩",
+      "provider_hero_id": "5456",
+      "combos": [
+        {
+          "id": "2004-2017-2022",
+          "item_ids": [
+            "2004",
+            "2017",
+            "2022"
+          ],
+          "sample_count": 127,
+          "first_rate": 25.2,
+          "top4_rate": 65.35,
+          "avg_placement": 3.64
+        },
+        {
+          "id": "2004-2017-2024",
+          "item_ids": [
+            "2004",
+            "2017",
+            "2024"
+          ],
+          "sample_count": 146,
+          "first_rate": 21.23,
+          "top4_rate": 60.96,
+          "avg_placement": 3.84
+        },
+        {
+          "id": "2004-2016-2017",
+          "item_ids": [
+            "2004",
+            "2016",
+            "2017"
+          ],
+          "sample_count": 134,
+          "first_rate": 20.15,
+          "top4_rate": 62.69,
+          "avg_placement": 3.88
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5456/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "5cbdf506263c7398d216dacfd424d956f2ece031c5ca44708ec1950d815ab40e",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:39+08:00"
+    },
+    "15457": {
+      "official_hero_id": "15457",
+      "name": "艾翁",
+      "provider_hero_id": "5457",
+      "combos": [
+        {
+          "id": "2004-2010-2017",
+          "item_ids": [
+            "2004",
+            "2010",
+            "2017"
+          ],
+          "sample_count": 197,
+          "first_rate": 32.49,
+          "top4_rate": 68.53,
+          "avg_placement": 3.32
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5457/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "d1b8862d5c6c095606eeaaee984e7faecd531e51bf6ab072c967700c8f02afb3",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:40+08:00"
+    },
+    "15458": {
+      "official_hero_id": "15458",
+      "name": "远古巨龙",
+      "provider_hero_id": "5458",
+      "combos": [
+        {
+          "id": "2001-2009-2042",
+          "item_ids": [
+            "2001",
+            "2009",
+            "2042"
+          ],
+          "sample_count": 371,
+          "first_rate": 29.92,
+          "top4_rate": 66.85,
+          "avg_placement": 3.44
+        },
+        {
+          "id": "2001-2009-2039",
+          "item_ids": [
+            "2001",
+            "2009",
+            "2039"
+          ],
+          "sample_count": 429,
+          "first_rate": 29.14,
+          "top4_rate": 63.87,
+          "avg_placement": 3.59
+        },
+        {
+          "id": "2001-2009-2045",
+          "item_ids": [
+            "2001",
+            "2009",
+            "2045"
+          ],
+          "sample_count": 962,
+          "first_rate": 28.9,
+          "top4_rate": 68.3,
+          "avg_placement": 3.45
+        }
+      ],
+      "source_url": "https://www.dataj.cc/api/web/stats/hero/5458/three-equip-combos?setId=18&gameVersion=18.6",
+      "response_sha256": "c655185490c37f2c34a88dc609ead9b881783d98f5ead7adf3451e499ab29073",
+      "rows_received": 20,
+      "status": "observations",
+      "retrieved_at": "2026-11-16T17:03:41+08:00"
+    },
+    "15459": {
+      "official_hero_id": "15459",
+      "name": "拉克丝",
+      "provider_hero_id": "5459",
+      "combos": [],
+      "status": "unmapped",
+      "reason": "公开表的英雄ID与名称未同时对应，未抓取该英雄组合。"
+    }
+  }
+}
