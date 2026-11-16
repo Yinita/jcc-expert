@@ -10,8 +10,8 @@
     },
     {
       "path": "HERO_GUIDE_DATA.md",
-      "sha256": "2d55c84d9e90b5aa21d9e05757216560ff7c624b15319cb525af8fb1ecf721a6",
-      "bytes": 4251
+      "sha256": "3e92f51aa65000e02e0f5181b7f31760880fbb92d9dc9c6d1d88832fd26c357f",
+      "bytes": 6037
     },
     {
       "path": "README.md",
@@ -3915,23 +3915,23 @@
     },
     {
       "path": "app/static/guide-data.json",
-      "sha256": "da44934a6185b8b0bdd0a1aad8b39132b9fb0813bc3229e37da9855439f08e78",
-      "bytes": 2859445
+      "sha256": "c2b6b84b624370f05579b5137aab0455671ee38cc6d097ba8d164937c2d25095",
+      "bytes": 2876392
     },
     {
       "path": "app/static/guide.css",
-      "sha256": "89b8de5bc6f50d0c1c9a4a45f6a253b9785818fa9d3bfb951e27d4d1e853bd1e",
-      "bytes": 22909
+      "sha256": "9302799e491656826552b7c72625cfd95889d5163342cbc8acc96ef93eb36379",
+      "bytes": 23438
     },
     {
       "path": "app/static/guide.html",
-      "sha256": "cb41dd839dfbb4064b36b7f6239c4e7c5e5e7aada47b5be6bd2594aa1f50fa15",
-      "bytes": 4495
+      "sha256": "6cfe82b12112c2eea82d0c9bfa6c13c007b98d46311b111c2f9a58284165b2aa",
+      "bytes": 4513
     },
     {
       "path": "app/static/guide.js",
-      "sha256": "e794cfba89b5564f8972874cbb1341aecffb461503b172a5b0a78d00046ad4aa",
-      "bytes": 31196
+      "sha256": "9c4be3a35e58178369bff54d7fa92cb4a42373cef55de8f57d1559133f07a71b",
+      "bytes": 33967
     },
     {
       "path": "app/static/index.html",
@@ -6740,28 +6740,28 @@
     },
     {
       "path": "docs/build-manifest.json",
-      "sha256": "6a3297d7184bbd8452d49aed21a0693d8333e3a9a34590ae2d41714bb2c8df3c",
-      "bytes": 79186
+      "sha256": "1a1e22f130da45bfccd38347bb0e639c0935856da70ce19b9d1412b090169b33",
+      "bytes": 79222
     },
     {
       "path": "docs/guide/guide-data.json",
-      "sha256": "da44934a6185b8b0bdd0a1aad8b39132b9fb0813bc3229e37da9855439f08e78",
-      "bytes": 2859445
+      "sha256": "c2b6b84b624370f05579b5137aab0455671ee38cc6d097ba8d164937c2d25095",
+      "bytes": 2876392
     },
     {
       "path": "docs/guide/guide.css",
-      "sha256": "89b8de5bc6f50d0c1c9a4a45f6a253b9785818fa9d3bfb951e27d4d1e853bd1e",
-      "bytes": 22909
+      "sha256": "9302799e491656826552b7c72625cfd95889d5163342cbc8acc96ef93eb36379",
+      "bytes": 23438
     },
     {
       "path": "docs/guide/guide.js",
-      "sha256": "e794cfba89b5564f8972874cbb1341aecffb461503b172a5b0a78d00046ad4aa",
-      "bytes": 31196
+      "sha256": "9c4be3a35e58178369bff54d7fa92cb4a42373cef55de8f57d1559133f07a71b",
+      "bytes": 33967
     },
     {
       "path": "docs/guide/index.html",
-      "sha256": "cb41dd839dfbb4064b36b7f6239c4e7c5e5e7aada47b5be6bd2594aa1f50fa15",
-      "bytes": 4495
+      "sha256": "b3fd2b9c2c886eda32b4edb0d9c1c2f21f699b6f1bb6295f6b8d983999522a13",
+      "bytes": 4543
     },
     {
       "path": "docs/index.html",
@@ -6805,13 +6805,13 @@
     },
     {
       "path": "scripts/build_hero_guide.py",
-      "sha256": "480b8c940c4b2ba4ec97407fb48c183293b2e533bab3a265294e67f7e4e1dea7",
-      "bytes": 23842
+      "sha256": "c988f3decc20d0eb1adb735e9ac1ebdcb34f986bfcd6953245c826d8c3e08158",
+      "bytes": 34921
     },
     {
       "path": "scripts/build_pages.py",
-      "sha256": "84fbdb424aef1f3db4f187c8c4f71d102ff9d02003658c38b41ff4a08b7462ed",
-      "bytes": 4815
+      "sha256": "b7e82bd00ecc4cb3e62b6bece0684d2bd88e80a1fa9adaea094eb5830d5e8e4c",
+      "bytes": 5241
     },
     {
       "path": "scripts/build_round3_report.py",
@@ -6905,8 +6905,8 @@
     },
     {
       "path": "tests/test_hero_guide.py",
-      "sha256": "0b46b498d8ffc013ace71945c0673b51deedeab0287e529e7ad31e9c4eaa6717",
-      "bytes": 7415
+      "sha256": "f486fdbc527381a1e62845f6959d778bd371d588ccb2d4ca1ccf091dcdd3ebcf",
+      "bytes": 12748
     },
     {
       "path": "tests/test_mobile_hud.py",
@@ -7872,6 +7872,21 @@
       "path": "validation/expanded-screens-2026-11-11/summary.json",
       "sha256": "ba002c22b1043decd3ab1a5ad402d2c47ed312466b6020433fd422bcc365ebbd",
       "bytes": 241159
+    },
+    {
+      "path": "validation/hero-guide-roles-2026-11-16/README.md",
+      "sha256": "8eb68dde6db303a3f41edaef68a77dc63157918972280b9bc20bfc68d06aac76",
+      "bytes": 14045
+    },
+    {
+      "path": "validation/hero-guide-roles-2026-11-16/audit.json",
+      "sha256": "bcf1f52ad5fe754ca1cd36f10985dc240f92bc4f127d4c66e816c08a1bbc905c",
+      "bytes": 417664
+    },
+    {
+      "path": "validation/hero-guide-roles-2026-11-16/source-checks.json",
+      "sha256": "22068e82509776fbff666ce2d100e97b469ff337bce361986067a1eaece8a1d1",
+      "bytes": 2832
     },
     {
       "path": "validation/real-screens-2026-11-11/benchmark.json",

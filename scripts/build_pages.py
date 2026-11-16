@@ -52,6 +52,12 @@ def _build_files(destination: Path, static: Path, required: dict) -> dict:
     guide.mkdir(parents=True, exist_ok=True)
     for source, target in required.items():
         shutil.copyfile(static / source, guide / target)
+    revision = hashlib.sha256(b"".join((guide / name).read_bytes() for name in
+                                     ("guide.css", "guide.js", "guide-data.json"))).hexdigest()[:12]
+    html = (guide / "index.html").read_text()
+    for name in ("guide.css", "guide.js"):
+        html = html.replace(f'"./{name}"', f'"./{name}?v={revision}"')
+    (guide / "index.html").write_text(html)
     shutil.copyfile(static / "pages-home.html", destination / "index.html")
     (destination / ".nojekyll").write_text("")
     asset_root = (ROOT / "app" / "assets").resolve()
@@ -88,6 +94,7 @@ def _build_files(destination: Path, static: Path, required: dict) -> dict:
                 check_icons(item)
     check_icons(json.loads((guide / "guide-data.json").read_text()))
     report = {"schema_version": 1, "entry": "index.html", "guide": "guide/",
+              "guide_revision": revision,
               "publication": "GitHub Pages: main /docs",
               "assets": copied, "asset_count": len(copied),
               "excluded": ["uploads", "var", "databases", "access tokens", "source screenshots", "training"]}

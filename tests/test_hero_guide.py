@@ -86,8 +86,11 @@ class HeroGuideTests(unittest.TestCase):
         self.assertIn("6079", {r["item_id"] for r in explicit})
         for mode in self.guide["modes"].values():
             for h in mode["heroes"]:
-                if h["regular_shop_unit"]:
+                if h["regular_shop_unit"] and not h["role"].get("ambiguous"):
                     self.assertTrue(h["builds"])
+                elif h["regular_shop_unit"]:
+                    self.assertFalse(any(b["kind"] == "mechanic" for b in h["builds"]))
+                    self.assertFalse(h["emblems"])
                 else:
                     self.assertFalse(h["builds"])
                     self.assertFalse(h["artifacts"])
@@ -115,7 +118,87 @@ class HeroGuideTests(unittest.TestCase):
                         if build["kind"] == "mechanic":
                             self.assertNotIn("2004", build["item_ids"])
                             self.assertNotIn("2022", build["item_ids"])
+                            self.assertNotIn("2014", build["item_ids"])
                     self.assertNotIn("6058", {a["item_id"] for a in hero["artifacts"]})
+
+    def test_fifteen_real_hero_role_regressions(self):
+        # Expectations come from each concrete official skill, not profession
+        # names. Same-name units are intentionally tested in both modes.
+        cases = [
+            ("nature", "11500", "奥恩", "tank", "magic", False),
+            ("nature", "14503", "阿木木", "tank", "magic", False),
+            ("nature", "12512", "凯尔", "ap", "magic", False),
+            ("nature", "12514", "提莫", "ap", "magic", False),
+            ("nature", "14505", "瑟提", "tank", "physical", True),
+            ("orange", "12407", "提莫", "ap", "magic", False),
+            ("orange", "11406", "克格莫", "ap", "magic", False),
+            ("orange", "15271", "吉格斯", "ap", "magic", False),
+            ("orange", "12404", "崔斯特", "ap", "magic", False),
+            ("orange", "15404", "易", "ap", "magic", False),
+            ("orange", "15405", "凯尔", "ad", "mixed", True),
+            ("orange", "14352", "布隆", "tank", "magic", False),
+            ("orange", "14343", "内瑟斯", "tank", "magic", False),
+            ("orange", "15279", "瑟提", "ap", "magic", False),
+            ("orange", "15412", "阿木木", "tank", "magic", False),
+        ]
+        for mode, id, name, role, damage, ambiguous in cases:
+            with self.subTest(mode=mode, hero=id):
+                hero = next(h for h in self.guide["modes"][mode]["heroes"] if h["id"] == id)
+                self.assertEqual(hero["name"], name)
+                self.assertEqual(hero["role"]["id"], role)
+                self.assertEqual(hero["role"]["damage_profile"], damage)
+                self.assertEqual(hero["role"]["ambiguous"], ambiguous)
+                if damage == "magic":
+                    for build in hero["builds"]:
+                        if build["kind"] == "mechanic":
+                            self.assertNotIn("2037", build["item_ids"])
+
+    def test_profession_kind_and_none_are_preserved_and_missing_trait_kept(self):
+        for mode, file in [("nature", "nature_facts.json"), ("orange", "orange_base_facts.json")]:
+            facts = json.loads((BASE / "app/data" / file).read_text())
+            trait_map = {(t["kind"], str(t["id"])): t for t in facts["traits"]}
+            for hero in self.guide["modes"][mode]["heroes"]:
+                if hero["official_class_raw"] in ("0", "-1"):
+                    self.assertEqual(hero["profession_status"], "none")
+                    self.assertFalse([t for t in hero["traits"] if t["kind"] == "class"])
+                for trait in hero["traits"]:
+                    expected = trait_map.get((trait["kind"], trait["id"]))
+                    if expected:
+                        self.assertTrue(trait["verified"])
+                        self.assertEqual(trait["name"], expected["name"])
+                    else:
+                        self.assertFalse(trait["verified"])
+                        self.assertIn(trait["id"], trait["name"])
+        orange = {h["id"]: h for h in self.guide["modes"]["orange"]["heroes"]}
+        self.assertIn(("origin", "482", False), [(t["kind"], t["id"], t["verified"]) for t in orange["15404"]["traits"]])
+        self.assertIn(("origin", "483", False), [(t["kind"], t["id"], t["verified"]) for t in orange["15405"]["traits"]])
+
+    def test_no_cast_synergy_emblems_for_manaless_passives(self):
+        for data in self.guide["modes"].values():
+            items = {i["id"]: i for i in data["items"]}
+            for hero in data["heroes"]:
+                if not hero["stats"].get("max_mana"):
+                    for entry in hero["emblems"]:
+                        self.assertNotIn(items[entry["item_id"]]["name"].removesuffix("纹章"), {"法师", "神谕", "神谕者", "耀光使"})
+
+    def test_review_does_not_apply_to_a_new_source_snapshot(self):
+        reference = json.loads((BASE / "app/data/hero_guide_reference.json").read_text())
+        facts = json.loads((BASE / "app/data/orange_base_facts.json").read_text())
+        hero = next(h for h in facts["champion_star_form_records"] if h["official_id"] == "12407")
+        raw = reference["modes"]["orange"]["herourl"]["data"]["12407"]
+        result = _builder.infer_role(hero, raw, [], mode="orange", source_sha256="a-different-snapshot")
+        self.assertFalse(result["reviewed"])
+        self.assertTrue(result["ambiguous"])
+        self.assertIsNone(result["review_snapshot_sha256"])
+
+    def test_control_trigger_distinguishes_applying_from_benefiting(self):
+        heroes = {h["id"]: h for h in self.guide["modes"]["nature"]["heroes"]}
+        for id in ["11502", "12501"]:
+            self.assertIn("6079", {i["item_id"] for i in heroes[id]["artifacts"]})
+        elise = next(h for h in self.guide["modes"]["orange"]["heroes"] if h["id"] == "14366")
+        self.assertNotIn("6079", {i["item_id"] for i in elise["artifacts"]})
+        jayce = next(h for h in self.guide["modes"]["orange"]["heroes"] if h["id"] == "15402")
+        self.assertNotIn("6076", {i["item_id"] for i in jayce["artifacts"]})
 
     def test_statistical_snapshot_rejects_rare_and_unmapped_equipment(self):
         def row(id, ids, n, rate):

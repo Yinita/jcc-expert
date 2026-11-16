@@ -2,6 +2,7 @@
   "schema_version": 1,
   "entry": "index.html",
   "guide": "guide/",
+  "guide_revision": "990d25cf2321",
   "publication": "GitHub Pages: main /docs",
   "assets": [
     {

@@ -17,6 +17,43 @@
     return element;
   }
 
+  function traitKind(trait) {
+    if (['origin', 'race'].includes(trait?.kind)) return 'origin';
+    if (['class', 'job'].includes(trait?.kind)) return 'class';
+    return 'unknown';
+  }
+
+  function traitKey(trait) {
+    return trait?.key || `${traitKind(trait)}:${trait?.id ?? ''}`;
+  }
+
+  function traitTypeName(trait) {
+    return traitKind(trait) === 'class' ? '职业' : traitKind(trait) === 'origin' ? '特质' : '羁绊';
+  }
+
+  function orderedTraits(hero) {
+    return arr(hero.traits).slice().sort((a, b) => Number(traitKind(b) === 'class') - Number(traitKind(a) === 'class'));
+  }
+
+  function traitCopy(trait) {
+    return `${traitTypeName(trait)}：${trait.name ?? `ID ${trait.id} · 待核验`}`;
+  }
+
+  function professionCopy(hero) {
+    return hero.profession_status === 'none' ? '无常规职业' : '职业待核验';
+  }
+
+  function directionCopy(hero) {
+    return hero.role?.ambiguous
+      ? '出装方向参考：待核验'
+      : `出装方向参考（推断）：${hero.role?.label ?? '待核验'}`;
+  }
+
+  function itemTraitName(id) {
+    const matches = [...state.traits.values()].filter((trait) => String(trait.id) === String(id));
+    return matches.length === 1 ? matches[0].name : `羁绊 ID ${id} · 待核验`;
+  }
+
   function safeLink(url) {
     try { const parsed = new URL(url); return parsed.protocol === 'https:' ? parsed.href : null; }
     catch { return null; }
@@ -122,7 +159,7 @@
     state.positionBuild = '';
     state.items = new Map(arr(state.data.modes[mode].items).map((item) => [String(item.id), item]));
     state.heroes = new Map(arr(state.data.modes[mode].heroes).map((hero) => [String(hero.id), hero]));
-    state.traits = new Map(arr(state.data.modes[mode].traits).map((trait) => [String(trait.id), trait]));
+    state.traits = new Map(arr(state.data.modes[mode].traits).map((trait) => [traitKey(trait), trait]));
     document.body.dataset.mode = mode;
     document.querySelectorAll('[data-mode]').forEach((button) => {
       const selected = button.dataset.mode === mode;
@@ -132,11 +169,12 @@
     resetFilters(false);
     const heroes = [...state.heroes.values()];
     const costs = [...new Set(heroes.map((hero) => Number(hero.cost)).filter(Number.isFinite))].sort((a, b) => a - b);
-    const roles = new Map(heroes.filter((hero) => hero.role?.id).map((hero) => [hero.role.id, hero.role.label]));
+    const roles = new Map(heroes.filter((hero) => hero.role?.id && !hero.role.ambiguous).map((hero) => [hero.role.id, hero.role.label]));
+    if (heroes.some((hero) => hero.role?.ambiguous)) roles.set('__unverified__', '方向待核验');
     const traits = new Map();
-    heroes.forEach((hero) => arr(hero.traits).forEach((trait) => traits.set(String(trait.id), trait.name)));
+    heroes.forEach((hero) => arr(hero.traits).forEach((trait) => traits.set(traitKey(trait), `${trait.name} · ${traitTypeName(trait)}`)));
     fillSelect('cost-filter', costs.map((cost) => [String(cost), `${cost} 费`]), '全部费用');
-    fillSelect('role-filter', [...roles.entries()], '全部定位');
+    fillSelect('role-filter', [...roles.entries()], '全部参考方向');
     fillSelect('trait-filter', [...traits.entries()].sort((a, b) => a[1].localeCompare(b[1], 'zh-CN')), '全部羁绊');
     state.heroId = state.heroes.has(String(requestedHero)) ? String(requestedHero) : String(heroes[0]?.id ?? '');
     if (!requestedHero) state.heroId = String(heroes.find((hero) => hero.regular_shop_unit !== false)?.id ?? state.heroId);
@@ -158,9 +196,10 @@
     const role = $('role-filter').value;
     const trait = $('trait-filter').value;
     const heroes = [...state.heroes.values()].filter((hero) => {
-      const haystack = [hero.name, hero.id, hero.role?.label, ...arr(hero.traits).map((entry) => entry.name)].join(' ').toLocaleLowerCase();
+      const haystack = [hero.name, hero.id, hero.role?.ambiguous ? '方向待核验' : hero.role?.label, ...arr(hero.traits).map((entry) => entry.name)].join(' ').toLocaleLowerCase();
       return (!query || haystack.includes(query)) && (!cost || String(hero.cost) === cost)
-        && (!role || hero.role?.id === role) && (!trait || arr(hero.traits).some((entry) => String(entry.id) === trait))
+        && (!role || (role === '__unverified__' ? hero.role?.ambiguous : !hero.role?.ambiguous && hero.role?.id === role))
+        && (!trait || arr(hero.traits).some((entry) => traitKey(entry) === trait))
         && ($('special-units').checked || hero.regular_shop_unit !== false);
     }).sort((a, b) => (Number(a.cost) - Number(b.cost)) || String(a.name).localeCompare(String(b.name), 'zh-CN'));
     $('hero-count').textContent = `${heroes.length} / ${state.heroes.size} 位`;
@@ -172,10 +211,14 @@
       button.type = 'button'; button.dataset.heroId = String(hero.id);
       button.style.setProperty('--cost-color', costColors[Math.max(0, Math.min(7, Number(hero.cost) || 0))]);
       button.setAttribute('aria-pressed', String(selected));
-      button.setAttribute('aria-label', `${hero.name}，${hero.cost}费，${hero.role?.label ?? '定位待核验'}`);
+      const officialTraits = orderedTraits(hero);
+      const professionPrefix = officialTraits.some((trait) => traitKind(trait) === 'class') ? '' : `${professionCopy(hero)}，`;
+      button.setAttribute('aria-label', `${hero.name}，${hero.cost}费，${professionPrefix}${officialTraits.map(traitCopy).join('，') || '特质资料未提供'}`);
       button.append(icon('portrait', hero));
       const copy = node('span', 'hero-choice-text');
-      copy.append(node('strong', '', hero.name), node('small', '', arr(hero.traits).map((entry) => entry.name).join(' / ') || '特殊单位'));
+      const traitsText = `${professionPrefix}${officialTraits.map(traitCopy).join(' · ') || '特质资料未提供'}`;
+      const traitsLabel = node('small', '', traitsText); traitsLabel.title = traitsText;
+      copy.append(node('strong', '', hero.name), traitsLabel);
       button.append(copy, node('span', 'cost-pip', hero.cost));
       list.append(button);
     });
@@ -190,11 +233,18 @@
     const identity = node('div', 'hero-identity');
     identity.append(node('p', 'eyebrow', `${state.data.modes[state.mode].name} / CHAMPION ${hero.id}`));
     const title = node('div', 'hero-title-line');
-    title.append(node('h2', '', hero.name), node('span', 'role-tag', hero.role?.label ?? '定位待核验'));
+    title.append(node('h2', '', hero.name));
+    const classes = arr(hero.traits).filter((trait) => traitKind(trait) === 'class');
+    if (classes.length) classes.forEach((trait) => title.append(node('span', `class-tag${trait.verified === false ? ' unverified' : ''}`, `职业 · ${trait.name}`)));
+    else title.append(node('span', `class-tag${hero.profession_status === 'none' ? '' : ' unverified'}`, professionCopy(hero)));
     identity.append(title);
     const traits = node('div', 'traits');
-    arr(hero.traits).forEach((trait) => traits.append(node('span', 'trait-chip', trait.name)));
+    arr(hero.traits).filter((trait) => traitKind(trait) !== 'class').forEach((trait) => {
+      const chip = node('span', `trait-chip${trait.verified === false ? ' unverified' : ''}`, `${traitTypeName(trait)} · ${trait.name}`);
+      traits.append(chip);
+    });
     identity.append(traits); summary.append(identity);
+    identity.append(node('p', `role-reference${hero.role?.ambiguous ? ' uncertain' : ''}`, directionCopy(hero)));
     const meta = node('div', 'hero-summary-meta');
     meta.append(node('strong', '', `${hero.cost} 费`), node('small', '', '依据阵容与机制选择装备'));
     summary.append(meta);
@@ -205,7 +255,8 @@
     const element = panel('推荐装备组合', 'BUILD THE CORE');
     element.append(node('p', 'section-note', '先看适用阵容与承担的角色，再选择组合。点击装备查看属性、效果与合成路径。'));
     const builds = arr(hero.builds).filter((build) => arr(build.item_ids).length > 0);
-    if (!builds.length) element.append(node('p', 'empty-note', '这位棋子暂缺可核验的装备组合。可参考技能与定位，等待更多资料补充。'));
+    if (!builds.length) element.append(node('p', 'empty-note', hero.recommendation_note || '暂缺可核验的装备组合，当前保持待核验；这不表示没有适配装备。'));
+    else if (hero.role?.ambiguous && hero.recommendation_note) element.append(node('p', 'section-note', hero.recommendation_note));
     builds.forEach((build) => {
       const card = node('article', 'build-card');
       const title = node('div', 'build-title');
@@ -264,7 +315,7 @@
       : '纹章价值取决于全队羁绊断点。先确认目标羁绊与棋子职责，再考虑把纹章交给谁。'));
     const list = node('div', 'recommendation-list');
     const rows = arr(hero[kind]);
-    if (!rows.length) list.append(node('p', 'empty-note', isArtifact ? '这位棋子暂无有依据的神器适配条目。没有资料的选择不会补成“必拿”。' : '这位棋子暂无明确的纹章推荐。仅有纹章名称不能证明适合携带。'));
+    if (!rows.length) list.append(node('p', 'empty-note', hero.recommendation_note || (isArtifact ? '这位棋子的神器适配尚待核验；没有条目不表示不存在适配选择。' : '这位棋子的纹章适配尚待核验；仅有纹章名称不能证明适合携带。')));
     rows.forEach((row) => {
       const item = state.items.get(String(row.item_id));
       const card = node('article', 'item-recommendation');
@@ -359,7 +410,7 @@
   }
 
   function renderSkill(hero, full = false) {
-    const element = panel('技能与定位', 'KNOW YOUR UNIT');
+    const element = panel('技能与出装方向', 'KNOW YOUR UNIT');
     element.append(node('h4', 'skill-name', hero.skill?.name ?? '技能资料待补充'));
     element.append(node('p', 'skill-description', hero.skill?.description || '暂无完整技能描述，请以客户端技能说明为准。'));
     if (hero.skill?.scaling) {
@@ -367,15 +418,15 @@
       details.append(node('summary', '', '查看星级成长数值'), node('p', 'skill-description', String(hero.skill.scaling).replaceAll('|', '\n')));
       element.append(details);
     }
-    if (hero.role?.reason) element.append(node('p', 'role-reason', `${hero.role.label}：${hero.role.reason}`));
+    if (hero.role?.reason) element.append(node('p', 'role-reason', `${directionCopy(hero)}。${hero.role.reason}`));
     const skillSource = sourceLine(hero.skill?.source); if (skillSource) element.append(skillSource);
     if (full && arr(hero.traits).length) {
-      const heading = node('div', 'section-header'); heading.style.marginTop = '25px'; heading.append(node('h3', '', '所属羁绊')); element.append(heading);
+      const heading = node('div', 'section-header'); heading.style.marginTop = '25px'; heading.append(node('h3', '', '官方职业与特质')); element.append(heading);
       const list = node('div', 'related-traits');
-      arr(hero.traits).forEach((entry) => {
-        const trait = state.traits.get(String(entry.id)) ?? entry;
+      orderedTraits(hero).forEach((entry) => {
+        const trait = state.traits.get(traitKey(entry)) ?? entry;
         const card = node('article', 'trait-detail');
-        card.append(node('h4', '', trait.name), node('p', '', trait.description || trait.effect || trait.desc || '具体效果与断点以客户端当前版本为准。'));
+        card.append(node('h4', '', `${traitTypeName(trait)} · ${trait.name}`), node('p', '', trait.description || trait.effect || trait.desc || (trait.verified === false ? '官方特质列表尚未提供此 ID 的名称，暂不推测。' : '具体效果与断点以客户端当前版本为准。')));
         if (arr(trait.breakpoints).length) card.append(node('p', 'trait-breakpoints', `激活档位：${trait.breakpoints.join(' / ')}`));
         list.append(card);
       });
@@ -418,7 +469,7 @@
     if (item.base_stats) body.append(node('p', 'item-base-stats', item.base_stats));
     body.append(node('p', 'item-description', item.description || '暂无完整效果说明，请以客户端为准。'));
     if (arr(item.components).length) { body.append(node('h3', 'components-heading', '合成路径'), itemStrip(item.components, true)); }
-    if (item.trait_ids?.length) body.append(node('p', 'dialog-note', `关联羁绊：${item.trait_ids.map((trait) => state.traits.get(String(trait))?.name ?? trait).join('、')}`));
+    if (item.trait_ids?.length) body.append(node('p', 'dialog-note', `关联羁绊：${item.trait_ids.map(itemTraitName).join('、')}`));
     const source = sourceLine(item.source); if (source) body.append(source);
     body.append(node('p', 'dialog-note', `装备 ID ${item.id} · 规则资料 ${state.data.meta?.rules_patch ?? '18.6'}。不同玩法和补丁中的效果可能不同。`));
     if (!$('item-dialog').open) $('item-dialog').showModal();

@@ -14,7 +14,35 @@ from pathlib import Path
 import re
 
 BASE = Path(__file__).resolve().parents[1]
-ROLE_LABELS = {"tank": "前排承伤", "fighter": "近战输出", "ad": "物理后排", "ap": "法术输出", "support": "辅助施法"}
+ROLE_LABELS = {"tank": "承伤与生存", "fighter": "近战持续作战", "ad": "普攻 / 物理加成", "ap": "法强 / 技能增伤", "support": "辅助与施法"}
+ROLE_REVIEW_SOURCE_HASHES = {
+    "nature": "e5723a64c6a0eb87984e633d2a0bc1c5d23845d29167849d3e151d3b09215260",
+    "orange": "64092922d8a5c2e05020d3a9dd3f152b1274d756797effa965544b8a23dcf56c",
+}
+
+# Development review of concrete official skill text. These are equipment
+# directions, not replacements for the game's actual class/origin metadata.
+ROLE_REVIEWS = {
+    ("nature", "11500"): ("tank", False, "奥恩技能先获得自身护盾，近战护卫以承伤为明确职责；魔法伤害不等于法师职业。"),
+    ("nature", "14503"): ("tank", False, "阿木木持续自我回复、近身范围伤害与控制，按承伤和反复施法参考。"),
+    ("nature", "12512"): ("ap", False, "凯尔没有法力值，普攻附带法术加成魔法伤害；按法术普攻参考，不使用回蓝装。"),
+    ("nature", "12514"): ("ap", False, "提莫的蘑菇技能明确为法术加成魔法伤害，按施法增伤参考。"),
+    ("nature", "14505"): ("tank", True, "瑟提具有生命/物理加成的物理伤害和生命/法术加成的自疗；这是混合加成，不等于混合伤害。承伤与输出分工依阵容而变。"),
+    ("nature", "11506"): ("ap", True, "阿卡丽造成物理伤害，同时有物理与法术加成的魔战士分支；官方阵容有法强出装，不能据此归为官方法师或强推统一三件套。"),
+    ("orange", "11406"): ("ap", False, "克格莫技能为法术加成魔法伤害；狙神职业不能作为物理出装的充分证据。"),
+    ("orange", "12407"): ("ap", False, "提莫的命中和持续中毒均为法术加成魔法伤害；狙神不改变这段伤害类型。"),
+    ("orange", "15271"): ("ap", False, "吉格斯的普攻已替换为魔法炸弹，主动也造成魔法伤害；需要区分魔法普攻与纯施法路线。"),
+    ("orange", "12404"): ("ap", False, "崔斯特没有法力值，普攻与每三次攻击的卡牌均为法术加成魔法伤害。"),
+    ("orange", "15404"): ("ap", False, "易在冥想后普攻附带法术加成魔法伤害并自疗，按近战法术普攻参考，不能因裁决战士就强推物理三件套。"),
+    ("orange", "15405"): ("ad", True, "凯尔无蓝条，早期神阶为物理加成真伤/物伤，后期剑雨为法术加成魔伤；阶段和成型时间影响装备，保留混合普攻歧义。"),
+    ("orange", "14352"): ("tank", False, "布隆的技能含伤害减免、拦截弹体与护甲反伤，抗性承伤是明确的机制方向。"),
+    ("orange", "14343"): ("tank", False, "内瑟斯窃取生命、获得双抗，持续伤害按生命上限；优先生命与承伤，不按魔法伤害字样强推纯法强。"),
+    ("orange", "15285"): ("tank", True, "加里奥的魔法伤害按魔抗/双抗，且有团队护盾；抗性输出、承伤与保护职责并存，通用三件套待核验。"),
+    ("orange", "15402"): ("fighter", True, "杰斯的主攻击为攻击力加成物理伤害，锻炉另有友军护盾；不能把一段团队护盾当作纯法术辅助。"),
+    ("orange", "15279"): ("ap", False, "本模式瑟提的抓摔为法术加成魔法伤害，与自然之力瑟提的物理伤害及自疗机制不同。"),
+    ("orange", "15412"): ("tank", False, "阿木木为近战大范围控制单位；技能魔法伤害不消除其承伤和启动需求。"),
+    ("orange", "15413"): ("support", False, "迦娜轮换友军护盾、攻速、群体治疗和控制，按团队保护与施法参考。"),
+}
 
 
 def clean(text):
@@ -29,35 +57,76 @@ def position(value):
         return None
 
 
-def infer_role(hero, raw, traits):
-    """Conservative, explained archetype; this is not an official role label."""
-    names = {t["name"] for t in traits}
-    desc = clean(raw.get("skillDesc"))
-    attack_range = float(hero.get("stats", {}).get("attack_range") or 1)
-    front = attack_range <= 2
-    protects_allies = bool(re.search(r"友军.{0,24}(治疗|护盾|攻击速度)|为.{0,12}友军", desc))
-    defensive_trait = bool(names & {"护卫", "重装战士", "主宰", "斗士"})
-    physical_trait = bool(names & {"迅捷射手", "猎人", "枪手", "狙神", "征服者"})
-    fighter_trait = bool(names & {"狂战士", "迅击战士", "裁决战士"})
-    magic = "魔法伤害" in desc
-    physical = "物理伤害" in desc
-    if protects_allies and not defensive_trait:
-        role, reason = "support", "技能文本包含对友军的治疗、护盾或增益；优先保证施法和存活。"
-    elif front and defensive_trait and not fighter_trait:
-        role, reason = "tank", "近战射程及承伤羁绊提示前排职责；装备方向先考虑生命、抗性和持续作战。"
-    elif front and (fighter_trait or physical):
-        role, reason = "fighter", "近战射程与输出技能提示近战作战；输出装需要搭配续航或生存。"
-    elif not front and (physical_trait or (physical and not magic)):
-        role, reason = "ad", "远程射程与物理输出线索提示后排普攻/物理输出方向。"
-    elif front and ("护盾" in desc or "治疗自身" in desc):
-        role, reason = "tank", "近战且技能提供自身生存手段，先以承伤和反复施法为参考。"
-    elif magic:
-        role, reason = "ap", "技能明确造成魔法伤害，可考虑法强、施法频率及技能增伤。"
-    elif front:
-        role, reason = "fighter", "近战射程；缺少可靠角色专属出装时，以输出与生存平衡作为参考。"
+def skill_mechanics(hero, raw):
+    text = clean(raw.get("skillDesc"))
+    # Explanatory glossary definitions are not damage dealt by this hero.
+    text = re.split(r"\s{2,}(?:灼烧|重伤|冰冷|护甲击碎|魔抗击碎|缓速)[：:]", text, maxsplit=1)[0]
+    damage_types = [key for word, key in [("物理伤害", "physical"), ("魔法伤害", "magic"), ("真实伤害", "true")] if word in text]
+    profile = "mixed" if len(damage_types) > 1 else damage_types[0] if damage_types else "none" if text else "unknown"
+    damage_clauses = [clause for clause in re.split(r"[。；\n]", text) if any(word in clause for word in ["物理伤害", "魔法伤害", "真实伤害"])]
+    damage_text = "。".join(damage_clauses)
+    scaling = [key for words, key in [(["【物理加成】", "【攻击力】"], "physical"), (["【法术加成】"], "ability"),
+               (["【生命上限】", "【最大生命值】"], "health"), (["【护甲】", "【魔抗】", "【双抗】"], "resistance")]
+               if any(word in damage_text for word in words)]
+    on_hit = bool(re.search(r"普攻|普通攻击|攻击(?:造成|会|被替换|额外)|每第.{0,4}次攻击|每.{0,4}次攻击|下.{0,4}次攻击", text))
+    ally = bool(re.search(r"友军.{0,40}(?:回复|治疗|护盾|攻击速度|增益)|(?:回复|治疗|护盾).{0,20}友军", text))
+    survival = bool(re.search(r"(?:获得|回复|窃取|治疗自身|为自身).{0,45}(?:生命|护盾|护甲|魔抗)|伤害减免|减伤|拦截.{0,10}(?:弹|攻击)", text))
+    return {"damage_profile": profile, "damage_types": damage_types, "damage_scaling": scaling,
+            "attack_pattern": "on_hit" if on_hit else "caster" if damage_types else "utility",
+            "has_normal_mana": float(hero.get("stats", {}).get("max_mana") or 0) > 0,
+            "ally_support": ally, "self_survival": survival,
+            "evidence": [f"技能伤害类型：{','.join(damage_types) or '未标明'}", f"伤害加成：{','.join(scaling) or '未标明'}",
+                         "明确普攻/攻击特效文本" if on_hit else "未据职业名称假定普攻伤害类型"]}
+
+
+def infer_role(hero, raw, traits, mode=None, source_sha256=None):
+    """Skill-first equipment direction, never the game's official profession."""
+    names = {t["name"] for t in traits if t.get("verified", True)}
+    front = float(hero.get("stats", {}).get("attack_range") or 1) <= 2
+    m = skill_mechanics(hero, raw)
+    defensive_trait = bool(names & {"护卫", "重装战士", "主宰", "斗士", "神盾使"})
+    ambiguous = False
+    review = ROLE_REVIEWS.get((mode, str(hero.get("official_id"))))
+    review_matches = source_sha256 == ROLE_REVIEW_SOURCE_HASHES.get(mode) and source_sha256 is not None
+    reviewed = review if review_matches else None
+    if reviewed:
+        role, ambiguous, reason = reviewed
+    elif m["damage_profile"] == "unknown":
+        role, ambiguous, reason = "support", True, "技能资料不足，无法确定出装方向；不据职业名补猜。"
+    elif front and ("resistance" in m["damage_scaling"] or "health" in m["damage_scaling"]) and m["self_survival"]:
+        role, reason = "tank", "近战生存机制与生命/抗性伤害加成共同支持承伤方向；魔法伤害不等于法强最优。"
+    elif front and defensive_trait and m["self_survival"] and m["attack_pattern"] != "on_hit":
+        role, reason = "tank", "近战、自身生存技能与承伤羁绊共同支持承伤方向。"
+    elif m["ally_support"]:
+        role, reason = "support", "技能明确保护、治疗或增益友军，按团队施法与存活参考。"
+        ambiguous = bool(m["damage_types"])
+        if ambiguous:
+            reason += "同时具有伤害，辅助与输出分工依阵容而变，暂停泛用出装。"
+    elif m["damage_profile"] == "magic" and "ability" in m["damage_scaling"]:
+        role, reason = "ap", "技能明确为法术加成魔法伤害；不因狙神、枪手等职业名改判为物理。"
+        if m["attack_pattern"] == "on_hit":
+            reason += "包含普攻法伤，需按攻击频率而非只按回蓝考虑。"
+        if front and m["self_survival"] and defensive_trait:
+            ambiguous = True
+            reason += "也有承伤与自保线索，分工待核验。"
+    elif m["damage_profile"] == "physical" and "physical" in m["damage_scaling"]:
+        role = "fighter" if front else "ad"
+        reason = "技能明确含物理伤害与攻击/物理加成，结合射程作为输出方向参考。"
+        ambiguous = "ability" in m["damage_scaling"]
+        if ambiguous:
+            reason += "同段伤害也有法术加成，不能仅凭伤害类型确定物理装优先级。"
+    elif m["damage_profile"] in ("mixed", "true"):
+        role = "fighter" if front else "ad"
+        ambiguous, reason = True, "技能有混合/真实伤害或多种加成，单一物理/法强分类不足；保留候选方向，暂停泛用出装。"
+    elif front and m["self_survival"]:
+        role, ambiguous, reason = "tank", True, "有近战生存线索，但输出与承伤分工证据不足，暂停泛用出装。"
     else:
-        role, reason = "support", "技能机制不适合仅凭面板判定主输出；以施法和保护站位作为参考。"
-    return {"id": role, "label": ROLE_LABELS[role], "reason": reason, "frontline": front, "kind": "mechanic"}
+        role, ambiguous, reason = "support", True, "现有技能证据不能唯一支持某类出装，保留待核验状态。"
+    if review and not review_matches:
+        ambiguous = True
+        reason += "旧开发校准与当前官方英雄快照hash不一致，旧校准未应用，通用出装待重新核验。"
+    return {"id": role, "label": ROLE_LABELS[role], "reason": reason, "frontline": front, "kind": "mechanic",
+            "ambiguous": ambiguous, "reviewed": bool(reviewed), "review_snapshot_sha256": source_sha256 if reviewed else None, **m}
 
 
 def item_category(row):
@@ -88,6 +157,8 @@ def build_items(mode, facts, reference, assets):
 
 
 def fallback_build(hero, items, source):
+    if hero["role"].get("ambiguous"):
+        return None
     names = {r["name"]: r["id"] for r in items if r["category"] == "standard"}
     role = hero["role"]["id"]
     choices = {
@@ -101,9 +172,15 @@ def fallback_build(hero, items, source):
     if role == "ap" and hero["role"]["frontline"]:
         wanted = ["正义之手", "珠光护手", "冕卫"]
         reason = "近战法术参考：续航、技能增伤与开战保护。需要接近敌人，不能照搬后排法师的三件纯输出装。"
-    if role == "ap" and not hero["stats"].get("max_mana"):
+    if role == "ap" and hero["role"].get("attack_pattern") == "on_hit":
         wanted = ["鬼索的狂暴之刃", "纳什之牙", "班克斯的魔法帽"]
-        reason = "无法力值的普攻/被动法术参考：攻速与法强方向；回蓝装备不能解决不存在的法力需求。需核对各星级或形态的实际伤害加成。"
+        reason = "普攻附带法术伤害参考：攻速与法强方向。若无法力值，不用回蓝装解决不存在的法力需求；有主动技能时还需另核启动。"
+        if hero["role"]["frontline"]:
+            wanted = ["鬼索的狂暴之刃", "正义之手", "珠光护手"]
+            reason = "近战法术普攻参考：攻速、法强与续航需要兼顾；不能按职业名直接给物理穿甲或血手三件套。"
+        elif not hero["stats"].get("max_mana"):
+            wanted = ["鬼索的狂暴之刃", "班克斯的魔法帽", "巨人捕手"]
+            reason = "无法力值的法术普攻参考：攻速、法强和通用增伤。当前纳什之牙的核心效果是普攻回蓝，已与朔极之矛、蓝霸符一并排除。"
     return {"id": "mechanic-" + role, "title": "按机制选择的装备骨架", "kind": "mechanic", "item_ids": [names[n] for n in wanted if n in names],
             "reason": reason, "conditions": ["未根据对局统计排序；需结合实际技能、对手、强化和现有装备调整。"], "source": source, "position": None, "board": []}
 
@@ -135,8 +212,24 @@ def refine_role_from_builds(role, builds, items):
     kind = ranked[0][0]
     if kind == "ad" and role["frontline"]:
         kind = "fighter"
-    return {**role, "id": kind, "label": ROLE_LABELS[kind],
-            "reason": f"已发布阵容的{'主C' if carry else '完整'}出装中，{ROLE_LABELS[kind]}方向的装备更常出现；这是出装证据归纳，仍需按具体阵容分工调整。"}
+    evidence = f"官方发布阵容的{'主C' if carry else '完整'}出装偏向{ROLE_LABELS[kind]}。"
+    if kind != role["id"]:
+        return {**role, "ambiguous": True, "lineup_direction": kind,
+                "reason": role["reason"] + evidence + "与技能方向存在差异，通用出装暂停，保留具体阵容实例。",
+                "evidence": role.get("evidence", []) + [evidence]}
+    return {**role, "evidence": role.get("evidence", []) + [evidence]}
+
+
+def applies_stun(text):
+    """Require applying stun, rather than benefiting from already-stunned foes."""
+    for clause in re.split(r"[。；]", text):
+        if not re.search(r"晕眩|眩晕", clause):
+            continue
+        if re.search(r"(?:对抗|攻击|命中).{0,8}被(?:晕眩|眩晕)|免疫.{0,5}(?:晕眩|眩晕)", clause):
+            continue
+        if re.search(r"(?:使|令|将)(?:其|目标|敌人|敌方|所有|命中|这些|附近|当前|生命).{0,70}(?:晕眩|眩晕)|(?:造成|施加).{0,90}(?:晕眩|眩晕)|(?:晕眩|眩晕)(?:目标|敌人|命中)", clause):
+            return True
+    return False
 
 
 def artifact_suggestions(hero, items, raw, source):
@@ -148,10 +241,20 @@ def artifact_suggestions(hero, items, raw, source):
     def add(item_id, reason, condition):
         if item_id in by_id and item_id not in {s["item_id"] for s in suggestions}:
             suggestions.append({"item_id": item_id, "kind": "mechanic", "reason": reason, "conditions": [condition], "source": source})
-    if "晕眩" in text:
+    if applies_stun(text):
         add("6079", "技能明确包含晕眩，可触发视界专注的晕眩伤害效果。", "需要实际施加晕眩；免疫控制的目标及触发间隔会影响收益。")
-    if "护盾" in text and front:
+    self_shield = False
+    for clause in re.split(r"[。；，]", text):
+        if re.search(r"为(?:自身|自己|这个单位|【" + re.escape(hero.get("name", "")) + r"】).{0,65}护盾", clause):
+            self_shield = True
+        for match in re.finditer(r"获得.{0,65}护盾", clause):
+            # '3名友军获得护盾' is not evidence that this hero receives it.
+            if not re.search(r"友军|他们|友方", clause[:match.start()]):
+                self_shield = True
+    if self_shield and front:
         add("6076", "技能含护盾，禁忌雕像可将部分护盾转化为最大生命值。", "确认护盾实际施加给携带者；护盾转生命会改变承伤方式。")
+    if hero["role"].get("ambiguous"):
+        return suggestions
     if role == "tank":
         add("6085", "光盾徽章利用护甲和魔抗生成友军护盾，与前排抗性方向相容。", "携带者需要足够抗性；它偏保护，不等于最高单体伤害。")
         add("6092", "黎明圣盾从近邻敌人获取护甲并回复生命，适合持续近战承伤。", "需要接近敌人并存活；对方重伤和魔法爆发会降低适配。")
@@ -186,6 +289,8 @@ def artifact_suggestions(hero, items, raw, source):
 
 
 def emblem_suggestions(hero, items, source):
+    if hero["role"].get("ambiguous"):
+        return []
     native = {t["id"] for t in hero["traits"]}
     native_names = {t["name"] for t in hero["traits"]}
     role = hero["role"]["id"]
@@ -200,6 +305,8 @@ def emblem_suggestions(hero, items, source):
     for item in items:
         name = item["name"].removesuffix("纹章")
         if item["category"] != "emblem" or name not in wanted or name in native_names or native.intersection(item["trait_ids"]):
+            continue
+        if not hero["stats"].get("max_mana") and name in {"法师", "神谕", "神谕者", "耀光使"}:
             continue
         result.append({"item_id": item["id"], "kind": "mechanic", "reason": f"{name}方向与{hero['role']['label']}存在机制匹配，可作为外援补羁绊的候选。",
                        "conditions": [f"仅在本局正在构筑{name}、纹章能跨关键档位时考虑。", "携带者原本不具有该羁绊；还需比较它占用的装备槽价值。"], "source": source})
@@ -246,26 +353,47 @@ def build_guide(base=BASE):
         facts = json.loads((base / "app/data" / filename).read_text())
         items = build_items(mode, facts, reference, assets)
         item_ids = {i["id"] for i in items}
-        traits_by_id = {str(t["id"]): {"id": str(t["id"]), "name": t["name"], "breakpoints": t.get("breakpoints", [])} for t in facts["traits"]}
+        traits_by_key = {(t["kind"], str(t["id"])): {"id": str(t["id"]), "kind": t["kind"],
+            "key": f'{t["kind"]}:{t["id"]}', "name": t["name"], "verified": True,
+            "breakpoints": t.get("breakpoints", [])} for t in facts["traits"]}
         heroes = []
         for fact in facts["champion_star_form_records"]:
             if fact.get("observed_star_level") != 1 or not fact.get("shows_in_official_gallery"):
                 continue
             hero_id = str(fact["official_id"])
             raw = reference["modes"][mode]["herourl"]["data"].get(hero_id, {})
-            traits = [traits_by_id[str(t)] for t in fact.get("origin_ids", []) + fact.get("class_ids", []) if str(t) in traits_by_id]
+            traits = []
+            for kind, ids in [("origin", fact.get("origin_ids", [])), ("class", fact.get("class_ids", []))]:
+                for trait_id in ids:
+                    key = (kind, str(trait_id))
+                    if key not in traits_by_key:
+                        traits_by_key[key] = {"id": str(trait_id), "kind": kind, "key": f"{kind}:{trait_id}",
+                            "name": f"{'特质' if kind == 'origin' else '职业'} ID {trait_id} · 待核验", "verified": False,
+                            "breakpoints": [], "source": mechanic_source(mode, reference, "herourl")}
+                    traits.append(traits_by_key[key])
             hero = {"id": hero_id, "name": fact["name"], "cost": fact["cost"], "icon": assets.get((mode, "hero", hero_id)),
                     "traits": traits, "stats": fact.get("stats", {}), "skill": {"name": fact.get("skill_name"), "description": clean(raw.get("skillDesc")),
                     "scaling": clean(raw.get("skillValueDesc")), "source": mechanic_source(mode, reference, "herourl")},
                     "statistics": None, "statistics_url": "https://www.dataj.cc/hero" if mode == "nature" else None}
+            hero["official_class_raw"] = raw.get("class")
+            hero["official_origin_raw"] = raw.get("species")
+            hero["official_class_ids"] = [str(t) for t in fact.get("class_ids", [])]
+            hero["official_origin_ids"] = [str(t) for t in fact.get("origin_ids", [])]
+            hero["profession_status"] = ("none" if str(raw.get("class", "")).strip() in ("0", "-1") else
+                "known" if hero["official_class_ids"] and all(traits_by_key[("class", t)]["verified"] for t in hero["official_class_ids"]) else "unresolved")
             regular = (float(raw.get("price") or 0) > 0 and raw.get("heroType") == "0")
             hero["regular_shop_unit"] = regular
             hero["equipment_eligibility"] = "regular_unit" if regular else "unverified_special_unit"
             hero["equipment_note"] = "特殊单位：官方配置标价/出售价格为0，可装备性与获取机制未核验，因此不提供普通装备、神器或纹章建议。" if not regular else None
-            hero["role"] = infer_role(fact, raw, traits)
+            hero["role"] = infer_role(fact, raw, traits, mode=mode,
+                source_sha256=reference["modes"][mode]["herourl"]["original_file_sha256"])
+            hero["role"]["source"] = mechanic_source(mode, reference, "herourl")
             builds = official_builds(hero_id, facts.get("official_published_lineups", []), item_ids)
             hero["role"] = refine_role_from_builds(hero["role"], builds, items)
-            hero["builds"] = builds[:6] + [fallback_build(hero, items, mechanic_source(mode, reference))]
+            fallback = fallback_build(hero, items, mechanic_source(mode, reference))
+            hero["builds"] = builds[:6] + ([fallback] if fallback else [])
+            hero["recommendation_note"] = ("出装方向存在歧义或证据冲突，暂停泛用三件套与泛用纹章；保留官方阵容实例、历史统计和明确技能触发证据。" if hero["role"]["ambiguous"] else
+                "出装方向是按当前技能资料作的参考，不能代替官方职业或证明最优。")
             hero["official_build_count"] = len(builds)
             hero["artifacts"] = artifact_suggestions(hero, items, raw, mechanic_source(mode, reference))
             hero["emblems"] = emblem_suggestions(hero, items, mechanic_source(mode, reference))
@@ -295,7 +423,7 @@ def build_guide(base=BASE):
             heroes.append(hero)
         heroes.sort(key=lambda h: (h["cost"], h["id"]))
         output["modes"][mode] = {"id": mode, "name": facts["scope"]["mode"], "official_version": facts["scope"]["official_version"],
-            "heroes": heroes, "items": items, "traits": list(traits_by_id.values()), "sources": [mechanic_source(mode, reference, k) for k in ("herourl", "equipurl")],
+            "heroes": heroes, "items": items, "traits": list(traits_by_key.values()), "sources": [mechanic_source(mode, reference, k) for k in ("herourl", "equipurl")],
             "coverage": {"heroes": len(heroes), "regular_shop_units": sum(h["regular_shop_unit"] for h in heroes), "heroes_with_official_builds": sum(bool(h["official_build_count"]) for h in heroes), "items": len(items), "missing_hero_icons": sum(not h["icon"] for h in heroes),
                          "heroes_with_statistics": sum(bool(h["statistics"] and h["statistics"]["combos"]) for h in heroes)}}
     return output

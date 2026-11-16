@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-16T20:18:35.839924+08:00",
+  "sources": [
+    {
+      "mode": "nature",
+      "source_key": "herourl",
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/chess.js",
+      "archived_version": "18.18.6",
+      "archived_sha256": "e5723a64c6a0eb87984e633d2a0bc1c5d23845d29167849d3e151d3b09215260",
+      "status": "read",
+      "sha256": "e5723a64c6a0eb87984e633d2a0bc1c5d23845d29167849d3e151d3b09215260",
+      "version": "18.18.6",
+      "matches_archived_sha256": true
+    },
+    {
+      "mode": "nature",
+      "source_key": "raceurl",
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/race.js",
+      "archived_version": "18.18.6",
+      "archived_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210",
+      "status": "read",
+      "sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210",
+      "version": "18.18.6",
+      "matches_archived_sha256": true
+    },
+    {
+      "mode": "nature",
+      "source_key": "joburl",
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//18/18.18.6-S19/job.js",
+      "archived_version": "18.18.6",
+      "archived_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb",
+      "status": "read",
+      "sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb",
+      "version": "18.18.6",
+      "matches_archived_sha256": true
+    },
+    {
+      "mode": "orange",
+      "source_key": "raceurl",
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/race.js",
+      "archived_version": "18.18.1",
+      "archived_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927",
+      "status": "read",
+      "sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927",
+      "version": "18.18.1",
+      "matches_archived_sha256": true
+    },
+    {
+      "mode": "orange",
+      "source_key": "joburl",
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/job.js",
+      "archived_version": "18.18.1",
+      "archived_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d",
+      "status": "read",
+      "sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d",
+      "version": "18.18.1",
+      "matches_archived_sha256": true
+    },
+    {
+      "mode": "orange",
+      "source_key": "herourl",
+      "url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/chess.js",
+      "archived_version": "18.18.1",
+      "archived_sha256": "64092922d8a5c2e05020d3a9dd3f152b1274d756797effa965544b8a23dcf56c",
+      "status": "read",
+      "sha256": "64092922d8a5c2e05020d3a9dd3f152b1274d756797effa965544b8a23dcf56c",
+      "version": "18.18.1",
+      "matches_archived_sha256": true
+    }
+  ]
+}
