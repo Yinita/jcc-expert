@@ -28,7 +28,14 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "451",
@@ -46,7 +53,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "452",
@@ -66,7 +78,14 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "453",
@@ -85,7 +104,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "454",
@@ -104,7 +129,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3"
+          ]
         },
         {
           "id": "455",
@@ -121,7 +152,11 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "3"
+          ]
         },
         {
           "id": "456",
@@ -139,7 +174,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "457",
@@ -156,7 +196,11 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "3"
+          ]
         },
         {
           "id": "458",
@@ -175,7 +219,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3"
+          ]
         },
         {
           "id": "459",
@@ -191,7 +241,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "3"
+          ]
         },
         {
           "id": "460",
@@ -210,7 +263,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "461",
@@ -226,7 +285,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "3"
+          ]
         },
         {
           "id": "462",
@@ -243,7 +305,11 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "3"
+          ]
         },
         {
           "id": "463",
@@ -260,7 +326,11 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "3",
+            "3"
+          ]
         },
         {
           "id": "464",
@@ -276,7 +346,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "465",
@@ -292,7 +365,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "466",
@@ -308,7 +384,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "467",
@@ -324,7 +403,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "468",
@@ -340,7 +422,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "469",
@@ -356,7 +441,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "471",
@@ -372,7 +460,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "472",
@@ -388,7 +479,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "473",
@@ -404,7 +498,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "486",
@@ -420,7 +517,10 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "raceurl",
             "original_file_sha256": "42940cb6a4b0b28530237b77a1cd55367d38bc1e878ba1bf1f3dc76ca3cbe210"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "340",
@@ -438,7 +538,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "341",
@@ -456,7 +561,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "342",
@@ -474,7 +584,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "343",
@@ -492,7 +607,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "344",
@@ -511,7 +631,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "345",
@@ -530,7 +656,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "346",
@@ -548,7 +680,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "347",
@@ -566,7 +703,11 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2"
+          ]
         },
         {
           "id": "348",
@@ -584,7 +725,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "349",
@@ -602,7 +748,12 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "350",
@@ -621,7 +772,13 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "351",
@@ -638,7 +795,11 @@
             "generated_at": "2026-11-03 22:28:18",
             "source_key": "joburl",
             "original_file_sha256": "9d537d3f7e14ac9953a3ab7ab41133db0a6f0ed277c13cb60af191344d24fefb"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "3"
+          ]
         }
       ]
     },
@@ -661,7 +822,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "341",
@@ -680,7 +847,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "342",
@@ -698,7 +871,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "343",
@@ -717,7 +895,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "344",
@@ -735,7 +919,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "345",
@@ -754,7 +943,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "346",
@@ -772,7 +967,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "347",
@@ -791,7 +991,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3"
+          ]
         },
         {
           "id": "348",
@@ -809,7 +1015,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "4"
+          ]
         },
         {
           "id": "349",
@@ -830,7 +1041,15 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
         },
         {
           "id": "350",
@@ -849,7 +1068,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3"
+          ]
         },
         {
           "id": "351",
@@ -869,7 +1094,14 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3",
+            "3",
+            "4"
+          ]
         },
         {
           "id": "352",
@@ -887,7 +1119,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "353",
@@ -903,7 +1140,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "354",
@@ -919,7 +1159,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "355",
@@ -935,7 +1178,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "356",
@@ -951,7 +1197,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "357",
@@ -967,7 +1216,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "358",
@@ -983,7 +1235,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "359",
@@ -999,7 +1254,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "360",
@@ -1015,7 +1273,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "361",
@@ -1031,7 +1292,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "362",
@@ -1047,7 +1311,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "363",
@@ -1063,7 +1330,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "364",
@@ -1079,7 +1349,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "365",
@@ -1095,7 +1368,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "366",
@@ -1111,7 +1387,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "367",
@@ -1127,7 +1406,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "368",
@@ -1143,7 +1425,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "369",
@@ -1159,7 +1444,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "370",
@@ -1175,7 +1463,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "372",
@@ -1191,7 +1482,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "373",
@@ -1207,7 +1501,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "381",
@@ -1223,7 +1520,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "382",
@@ -1243,7 +1543,14 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "388",
@@ -1259,7 +1566,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "397",
@@ -1275,7 +1585,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "398",
@@ -1291,7 +1604,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "475",
@@ -1307,7 +1623,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "476",
@@ -1323,7 +1642,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "477",
@@ -1339,7 +1661,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "478",
@@ -1355,7 +1680,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "479",
@@ -1371,7 +1699,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "480",
@@ -1387,7 +1718,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "481",
@@ -1403,7 +1737,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "484",
@@ -1419,7 +1756,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "487",
@@ -1435,7 +1775,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "488",
@@ -1451,7 +1794,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "489",
@@ -1467,7 +1813,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "490",
@@ -1483,7 +1832,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "491",
@@ -1499,7 +1851,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "492",
@@ -1515,7 +1870,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "raceurl",
             "original_file_sha256": "8394deda72f3a766b47190ccc831b22dba0c2e9960313792a85b4abb40ed3927"
-          }
+          },
+          "tier_styles_source": [
+            "5"
+          ]
         },
         {
           "id": "291",
@@ -1533,7 +1891,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "292",
@@ -1550,7 +1913,11 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2"
+          ]
         },
         {
           "id": "293",
@@ -1568,7 +1935,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "294",
@@ -1585,7 +1957,11 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "3"
+          ]
         },
         {
           "id": "295",
@@ -1602,7 +1978,11 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "3"
+          ]
         },
         {
           "id": "296",
@@ -1620,7 +2000,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "297",
@@ -1639,7 +2024,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "298",
@@ -1658,7 +2049,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "299",
@@ -1676,7 +2073,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "300",
@@ -1694,7 +2096,12 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "301",
@@ -1713,7 +2120,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "302",
@@ -1732,7 +2145,13 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2",
+            "2",
+            "3"
+          ]
         },
         {
           "id": "308",
@@ -1748,7 +2167,10 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1"
+          ]
         },
         {
           "id": "309",
@@ -1765,7 +2187,11 @@
             "generated_at": "2026-11-03 22:20:56",
             "source_key": "joburl",
             "original_file_sha256": "37c439484c300560238c100ddb3080f6ebf8a2c4d8c2de9c063ebbd31f92705d"
-          }
+          },
+          "tier_styles_source": [
+            "1",
+            "2"
+          ]
         }
       ]
     }
@@ -4053,7 +4479,7 @@
           "7240061"
         ]
       },
-      "caveat": "卡片4-3直接解锁亚托克斯，不能把普通任务的8级条件强加于直接解锁卡；镜像称高暗裔，但raw恶魔降世描述是额外裁决战士，不能混算。"
+      "caveat": "卡片4-3直接解锁亚托克斯，普通任务的8级条件不强加于时间卡直接解锁；镜像称高暗裔，但官方卡片效果是亚托克斯总计提供2裁决战士，不能混算为暗裔。"
     },
     {
       "name": "战力压制流",
@@ -4169,6 +4595,46 @@
       "published": "2026-11-04",
       "kind": "official_account_content_mirror",
       "verified_with_web": true
+    },
+    {
+      "id": "orange-regional-ryze",
+      "url": "https://news.17173.com/content/11102026/140606880.shtml",
+      "published": "2026-11-10",
+      "kind": "official_account_content_mirror",
+      "verified_with_web": true,
+      "checked_at": "2026-11-17"
+    },
+    {
+      "id": "orange-prismatic",
+      "url": "https://news.17173.com/content/11102026/162212645.shtml",
+      "published": "2026-11-10",
+      "kind": "official_account_content_mirror",
+      "verified_with_web": true,
+      "checked_at": "2026-11-17"
+    },
+    {
+      "id": "orange-seven-cost",
+      "url": "https://news.17173.com/content/11102026/135954034.shtml",
+      "published": "2026-11-10",
+      "kind": "official_account_content_mirror",
+      "verified_with_web": true,
+      "checked_at": "2026-11-17"
+    },
+    {
+      "id": "orange-author-river-tryndamere",
+      "url": "https://news.17173.com/content/11152026/143636200.shtml",
+      "published": "2026-11-15",
+      "kind": "official_published_author_image_template",
+      "verified_with_web": true,
+      "checked_at": "2026-11-17"
+    },
+    {
+      "id": "orange-author-zaun-darius",
+      "url": "https://news.17173.com/content/11142026/135821709.shtml",
+      "published": "2026-11-14",
+      "kind": "official_published_author_image_template",
+      "verified_with_web": true,
+      "checked_at": "2026-11-17"
     }
   ],
   "orange_card_reference": {
@@ -4320,6 +4786,72 @@
         "name": "寻炉乡",
         "description": "当你首次合成8件成装时，获得1个【奥恩】和1件随机神器。",
         "args_source": "count=8^equipnum=1^round=1-2"
+      },
+      "7250047": {
+        "id": "7250047",
+        "name": "流浪的救世者",
+        "description": "解锁【瑞兹】。【符文法师】羁绊新增使所有地区羁绊+1的效果（除部分地区）。",
+        "args_source": "plus=1^round=4-5^detail=20049"
+      },
+      "7240094": {
+        "id": "7240094",
+        "name": "三顾炉乡",
+        "description": "当你到达7、8、9级时，分别获得1个【奥恩】。",
+        "args_source": "level=7、8、9^round=1-3"
+      },
+      "7250029": {
+        "id": "7250029",
+        "name": "行走于棱彩之道",
+        "description": "获得1个【兰博】和【慎】。6-1时，解锁【约德尔人】和【艾欧尼亚】棱彩层级。",
+        "args_source": "itemCount=1^count=1^traitTier=10^traitTier1=10^round=1-4^round2=6-1"
+      },
+      "7250059": {
+        "id": "7250059",
+        "name": "万物落笔端",
+        "description": "解锁【彗】。【异画师】羁绊现在复制3费及以下的弈子时可额外复制1个。",
+        "args_source": "round=3-5^cost=3"
+      },
+      "7250036": {
+        "id": "7250036",
+        "name": "黑玫瑰夜市",
+        "description": "你接下来解锁并购买的3个弈子升至2星。",
+        "args_source": "star=2^sellStar=1^round=1-3^num=3"
+      },
+      "7240093": {
+        "id": "7240093",
+        "name": "大神降临",
+        "description": "解锁1个随机7费弈子。",
+        "args_source": "round=3-7^cost=7"
+      },
+      "7250046": {
+        "id": "7250046",
+        "name": "德玛西亚巨像",
+        "description": "解锁加里奥。加里奥基于击败数获得额外护甲和魔抗。",
+        "args_source": "round=3-5^detail=20041"
+      },
+      "7230085": {
+        "id": "7230085",
+        "name": "贪欲恶魔 I",
+        "description": "获得1个【河流之王纹章】。",
+        "args_source": "count=1^round=2-7^detail=20001|20002"
+      },
+      "7250056": {
+        "id": "7250056",
+        "name": "传说的主角",
+        "description": "获得1个【基础装备锻造器】和1个【主角选择器】。",
+        "args_source": "itemCount=1^count=1^flatCount=1^round=3-1^detail=20032"
+      },
+      "7230037": {
+        "id": "7230037",
+        "name": "杰作熔铸 II",
+        "description": "获得2个【杰作升级】。",
+        "args_source": "count=2^round=5-3"
+      },
+      "7230114": {
+        "id": "7230114",
+        "name": "坚毅药水",
+        "description": "立刻以及每阶段开始时获得1个【坚毅药水】。",
+        "args_source": "count=1^round=2-1^detail=20039"
       }
     }
   },
@@ -4505,5 +5037,3154 @@
         "source_version": "18.18.1"
       }
     }
-  }
+  },
+  "orange_unlock_reference": {
+    "version": "18.18.1",
+    "generated_at": "2026-11-05 18:48:14",
+    "source_url": "https://game.gtimg.cn/images/lol/act/jkzlk/js//16/18.18.1-S400001/mission.js",
+    "source_sha256": "a2ad1671b2212988bd08f0cf149305f05177bd4960b69c16e5e9890f3ae0e52b",
+    "checked_at": "2026-11-17T01:20:32+08:00",
+    "source_verification": "verified",
+    "tasks_by_hero": {
+      "12400": {
+        "heroid": 12400,
+        "mission": [
+          {
+            "id": 1240001,
+            "tasktips": "在战斗中登场",
+            "sort": 39,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着1件装备的【佛耶戈】",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "12405": {
+        "heroid": 12405,
+        "mission": [
+          {
+            "id": 1240501,
+            "tasktips": "在战斗中登场",
+            "sort": 40,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着1件装备的【艾希】",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "12410": {
+        "heroid": 12410,
+        "mission": [
+          {
+            "id": 1241001,
+            "tasktips": "在战斗中登场",
+            "sort": 37,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个配备着2件装备的【皮尔特沃夫】单位",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "12412": {
+        "heroid": 12412,
+        "mission": [
+          {
+            "id": 1241201,
+            "tasktips": "在战斗中登场",
+            "sort": 38,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个配备着2件装备的【比尔吉沃特】单位",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "12415": {
+        "heroid": 12415,
+        "mission": [
+          {
+            "id": 1241501,
+            "tasktips": "",
+            "sort": 36,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "在第2阶段选秀前刷新3次",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "12420": {
+        "heroid": 12420,
+        "mission": [
+          {
+            "id": 1242001,
+            "tasktips": "在战斗中登场",
+            "sort": 35,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个配备着2件装备的【德玛西亚】或【约德尔人】弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "12422": {
+        "heroid": 12422,
+        "mission": [
+          {
+            "id": 1242201,
+            "tasktips": "完成以下任务",
+            "sort": 48,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "战斗中登场配备着1件【日炎斗篷】的一个【非坦克】单位",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13329": {
+        "heroid": 13329,
+        "mission": [
+          {
+            "id": 1332901,
+            "tasktips": "在战斗中登场",
+            "sort": 34,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着2件装备的【赛恩】",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13330": {
+        "heroid": 13330,
+        "mission": [
+          {
+            "id": 1333001,
+            "tasktips": "在战斗中登场",
+            "sort": 33,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "6独特星级总数的【约德尔人】、【斗士】或【神谕者】参加战斗。;6级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13331": {
+        "heroid": 13331,
+        "mission": [
+          {
+            "id": 1333101,
+            "tasktips": "在战斗中登场",
+            "sort": 32,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "8独特星级总数的【艾欧尼亚】、【约德尔人】或【护卫】参加战斗。;5级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13333": {
+        "heroid": 13333,
+        "mission": [
+          {
+            "id": 1333301,
+            "tasktips": "完成以下任务",
+            "sort": 31,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着1件装备的【约里克】;5级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13337": {
+        "heroid": 13337,
+        "mission": [
+          {
+            "id": 1333701,
+            "tasktips": "在战斗中登场",
+            "sort": 30,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着1件装备的【德莱文】;5级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13355": {
+        "heroid": 13355,
+        "mission": [
+          {
+            "id": 1335501,
+            "tasktips": "完成以下任务",
+            "sort": 47,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "5级且在后2排没有友军的情况下主动刷新2次商店",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13356": {
+        "heroid": 13356,
+        "mission": [
+          {
+            "id": 1335601,
+            "tasktips": "完成以下任务",
+            "sort": 49,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "5级且在前2排没有友军的情况下主动刷新2次商店",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13357": {
+        "heroid": 13357,
+        "mission": [
+          {
+            "id": 1335701,
+            "tasktips": "完成以下任务",
+            "sort": 51,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "在3-1至3-3回合，上阵一个护甲大于100的非坦克单位",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "13476": {
+        "heroid": 13476,
+        "mission": [
+          {
+            "id": 1347601,
+            "tasktips": "完成以下任务",
+            "sort": 46,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "在2-7回合刷新2次",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14331": {
+        "heroid": 14331,
+        "mission": [
+          {
+            "id": 1433101,
+            "tasktips": "在战斗中登场",
+            "sort": 29,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着3件装备的2星【亚索】;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14333": {
+        "heroid": 14333,
+        "mission": [
+          {
+            "id": 1433301,
+            "tasktips": "在战斗中登场",
+            "sort": 28,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "【金克丝】配备着1件装备;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14334": {
+        "heroid": 14334,
+        "mission": [
+          {
+            "id": 1433401,
+            "tasktips": "在战斗中登场",
+            "sort": 27,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个配备着1件【班克斯的魔法帽】的【约德尔人】单位;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14337": {
+        "heroid": 14337,
+        "mission": [
+          {
+            "id": 1433701,
+            "tasktips": "在战斗中登场",
+            "sort": 26,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个携带着至少1件【锁子甲】的术师或射手定位弈子;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14338": {
+        "heroid": 14338,
+        "mission": [
+          {
+            "id": 1433801,
+            "tasktips": "",
+            "sort": 25,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "失去35玩家生命值;失去10玩家生命值",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14340": {
+        "heroid": 14340,
+        "mission": [
+          {
+            "id": 1434001,
+            "tasktips": "完成以下任务",
+            "sort": 24,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "在2场玩家对战中让【虚空】处于已激活状态。;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14341": {
+        "heroid": 14341,
+        "mission": [
+          {
+            "id": 1434101,
+            "tasktips": "",
+            "sort": 23,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "带着【阿兹尔】连续赢得2/4/5场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);带着【阿兹尔】连续赢得2/4/5场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14342": {
+        "heroid": 14342,
+        "mission": [
+          {
+            "id": 1434201,
+            "tasktips": "在战斗中登场",
+            "sort": 21,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着3件装备的2星【妮蔻】;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14343": {
+        "heroid": 14343,
+        "mission": [
+          {
+            "id": 1434301,
+            "tasktips": "",
+            "sort": 22,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "带着【阿兹尔】连续输掉2/4/5场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);带着【阿兹尔】连续输掉2/4/5场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14347": {
+        "heroid": 14347,
+        "mission": [
+          {
+            "id": 1434701,
+            "tasktips": "完成以下任务",
+            "sort": 20,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "收集30个【暗影岛】灵魂;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14350": {
+        "heroid": 14350,
+        "mission": [
+          {
+            "id": 1435001,
+            "tasktips": "在战斗中登场",
+            "sort": 18,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "5个独特的【约德尔人】或【比尔吉沃特】单位。;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14351": {
+        "heroid": 14351,
+        "mission": [
+          {
+            "id": 1435101,
+            "tasktips": "在战斗中登场",
+            "sort": 17,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着3件装备的【蕾欧娜】;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14360": {
+        "heroid": 14360,
+        "mission": [
+          {
+            "id": 1434801,
+            "tasktips": "在战斗中登场",
+            "sort": 19,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着2件装备的一个【狙神】单位;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14364": {
+        "heroid": 14364,
+        "mission": [
+          {
+            "id": 1436401,
+            "tasktips": "完成以下任务",
+            "sort": 45,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "7级起;战斗中登场配备着2件装备的【崔丝塔娜】",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14366": {
+        "heroid": 14366,
+        "mission": [
+          {
+            "id": 1436601,
+            "tasktips": "完成以下任务",
+            "sort": 50,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "7级起;战斗中登场配备着1件【狂徒铠甲】的一个【术师】单位",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "14369": {
+        "heroid": 14369,
+        "mission": [
+          {
+            "id": 1436901,
+            "tasktips": "完成以下任务",
+            "sort": 55,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "8级起;登场参战：3个3星弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15271": {
+        "heroid": 15271,
+        "mission": [
+          {
+            "id": 1527101,
+            "tasktips": "在战斗中登场",
+            "sort": 16,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "配备着2件装备的一个【约德尔人】或【祖安】弈子;9级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15272": {
+        "heroid": 15272,
+        "mission": [
+          {
+            "id": 1527201,
+            "tasktips": "",
+            "sort": 15,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "带着【阿兹尔】以胜负交替的方式进行3/5/6场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);带着【阿兹尔】以胜负交替的方式进行2/4/5场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);带着【阿兹尔】以胜负交替的方式进行3/5/6场玩家战斗。 (会在你每次解锁一个【恕瑞玛】弈子后变得更困难！);8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15273": {
+        "heroid": 15273,
+        "mission": [
+          {
+            "id": 1527301,
+            "tasktips": "在战斗中登场",
+            "sort": 14,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个在战斗开始时拥有3800【生命上限】生命值的单位;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15274": {
+        "heroid": 15274,
+        "mission": [
+          {
+            "id": 1527401,
+            "tasktips": "在战斗中登场",
+            "sort": 13,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "5独特星级总数的【暗影岛】;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15275": {
+        "heroid": 15275,
+        "mission": [
+          {
+            "id": 1527501,
+            "tasktips": "在战斗中登场",
+            "sort": 11,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "7独特星级总数的【皮尔特沃夫】;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15276": {
+        "heroid": 15276,
+        "mission": [
+          {
+            "id": 1527601,
+            "tasktips": "完成以下任务",
+            "sort": 12,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "用掉350枚【比尔吉沃特】银蛇币;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15277": {
+        "heroid": 15277,
+        "mission": [
+          {
+            "id": 1527701,
+            "tasktips": "完成以下任务",
+            "sort": 5,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "售出1个2星【盖伦】;9级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15279": {
+        "heroid": 15279,
+        "mission": [
+          {
+            "id": 1527901,
+            "tasktips": "战斗中满足以下条件",
+            "sort": 10,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "仅1个单位处在战场的前两排;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15280": {
+        "heroid": 15280,
+        "mission": [
+          {
+            "id": 1528001,
+            "tasktips": "完成以下任务",
+            "sort": 4,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "3个地区羁绊处于激活状态;9级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15282": {
+        "heroid": 15282,
+        "mission": [
+          {
+            "id": 1528201,
+            "tasktips": "完成以下任务",
+            "sort": 9,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "携带着一件装备的【安蓓萨】在战斗中阵亡;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15285": {
+        "heroid": 15285,
+        "mission": [
+          {
+            "id": 1528501,
+            "tasktips": "在战斗中登场",
+            "sort": 8,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "8独特星级总数的【德玛西亚】;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15288": {
+        "heroid": 15288,
+        "mission": [
+          {
+            "id": 1528801,
+            "tasktips": "",
+            "sort": 3,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "在本局游戏的过程中收集500个【以绪塔尔】【太阳碎片】",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15289": {
+        "heroid": 15289,
+        "mission": [
+          {
+            "id": 1528901,
+            "tasktips": "完成以下任务",
+            "sort": 2,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "登场总数为7的独特【虚空】弈子。;10级",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15291": {
+        "heroid": 15291,
+        "mission": [
+          {
+            "id": 1529101,
+            "tasktips": "在战斗中登场",
+            "sort": 1,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "5个独特的【巨神峰】弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15296": {
+        "heroid": 15296,
+        "mission": [
+          {
+            "id": 1529601,
+            "tasktips": "在战斗中登场",
+            "sort": 7,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "一个在开始战斗时拥有30%【全能吸血】全能吸血的弈子;8级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15304": {
+        "heroid": 15304,
+        "mission": [
+          {
+            "id": 1530401,
+            "tasktips": "",
+            "sort": 6,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "拥有【暮光试炼】强化符文;拥有【暮光试炼】强化符文",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15396": {
+        "heroid": 15396,
+        "mission": [
+          {
+            "id": 1539601,
+            "tasktips": "完成以下任务",
+            "sort": 42,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "在一回合内出售2个5费弈子;7级起",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15400": {
+        "heroid": 15400,
+        "mission": [
+          {
+            "id": 1540001,
+            "tasktips": "完成以下任务",
+            "sort": 41,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "10级时;出售2个上一场战斗中登场的弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15401": {
+        "heroid": 15401,
+        "mission": [
+          {
+            "id": 1540101,
+            "tasktips": "完成以下任务",
+            "sort": 43,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "9级起;战斗中登场配备着1件【鬼索的狂暴之刃】的一个【射手】或【术师】",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15403": {
+        "heroid": 15403,
+        "mission": [
+          {
+            "id": 1540301,
+            "tasktips": "完成以下任务",
+            "sort": 44,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "9级起;累计造成85玩家伤害",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15410": {
+        "heroid": 15410,
+        "mission": [
+          {
+            "id": 1541001,
+            "tasktips": "完成以下任务",
+            "sort": 52,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "9级起;已解锁过1名2费弈子;已解锁过1名3费弈子;已解锁过1名4费弈子;已解锁过1名5费弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15412": {
+        "heroid": 15412,
+        "mission": [
+          {
+            "id": 1541201,
+            "tasktips": "完成以下任务",
+            "sort": 53,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "8级起;战斗开始时：所有友军邻格均无己方弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      },
+      "15413": {
+        "heroid": 15413,
+        "mission": [
+          {
+            "id": 1541301,
+            "tasktips": "完成以下任务",
+            "sort": 54,
+            "difficulty": 0,
+            "conditionId": 0,
+            "show": 1,
+            "desc": "8级起;登场参战：1个携带着1个【蓝霸符】的【祖安】弈子",
+            "heroinfo": "",
+            "equipinfo": "",
+            "equipfull": "https://game.gtimg.cn/images/lol/act/jkzlk/gamedata/",
+            "herofull": "https://game.gtimg.cn/images/lol/act/jkzlk/mode16s400001/"
+          }
+        ]
+      }
+    },
+    "direct_unlock_cards": {
+      "7220052": {
+        "id": "7220052",
+        "name": "买一赠二 I",
+        "description_source": "解锁2费弈子后，下次商店刷新时，该弈子会以2星版本出现。",
+        "args_source": "star=2^unlockCost=2^sellStar=1^round=1-3"
+      },
+      "7230087": {
+        "id": "7230087",
+        "name": "范德尔",
+        "description_source": "解锁【沃里克】。他的技能现在额外获得20%伤害减免和不可阻挡效果。",
+        "args_source": "round=3-1^pct=20"
+      },
+      "7230088": {
+        "id": "7230088",
+        "name": "上古守护者",
+        "description_source": "解锁【斯卡纳】。战斗开始时，基于他的护甲和最大生命值为所有友军提供护盾。",
+        "args_source": "round=3-1"
+      },
+      "7230089": {
+        "id": "7230089",
+        "name": "世界最大“恶人”",
+        "description_source": "解锁【维迦】。他的技能现在额外发射治愈流星，为命中的友军回复生命值。",
+        "args_source": "round=3-1"
+      },
+      "7230090": {
+        "id": "7230090",
+        "name": "日月光华",
+        "description_source": "解锁【黛安娜】。获得1个【蕾欧娜】。【黛安娜】现在的被动效果翻倍。",
+        "args_source": "count=1^round=3-3"
+      },
+      "7230091": {
+        "id": "7230091",
+        "name": "买一赠二 II",
+        "description_source": "解锁3费弈子后，下次商店刷新时，该弈子会以2星版本出现。",
+        "args_source": "star=2^unlockCost=3^sellStar=1^round=1-3"
+      },
+      "7230107": {
+        "id": "7230107",
+        "name": "帝国反抗者",
+        "description_source": "解锁【阿利斯塔】。【牛头酋长】羁绊现在为【阿利斯塔】提供永久最大生命值。",
+        "args_source": "round=2-5^maxhp=25/40/60/100^detail=20018"
+      },
+      "7230108": {
+        "id": "7230108",
+        "name": "重峦叠嶂",
+        "description_source": "解锁【墨菲特】。【熔岩巨兽】羁绊新增【金橘格】相关效果。",
+        "args_source": "round=2-5^pct=100^detail=20019"
+      },
+      "7230112": {
+        "id": "7230112",
+        "name": "王国后裔",
+        "description_source": "解锁并获得2个【希维尔】。【战争女神】羁绊现在也会增幅【希维尔】。",
+        "args_source": "round=2-5^count=2^detail=20006"
+      },
+      "7240060": {
+        "id": "7240060",
+        "name": "力量的召唤",
+        "description_source": "解锁【瑞兹】。获得2个【瑞兹】。",
+        "args_source": "count=2^copyStar=1^round=4-3"
+      },
+      "7240061": {
+        "id": "7240061",
+        "name": "恶魔降世",
+        "description_source": "解锁【亚托克斯】。获得2个【亚托克斯】。他现在总计提供+2【裁决战士】羁绊。",
+        "args_source": "count=2^plus=2^copyStar=1^round=4-3"
+      },
+      "7240062": {
+        "id": "7240062",
+        "name": "旧日蛮神",
+        "description_source": "解锁【沃利贝尔】。获得2个【沃利贝尔】。他现在总计提供+2【斗士】羁绊。",
+        "args_source": "count=2^plus=2^copyStar=1^round=4-3"
+      },
+      "7240063": {
+        "id": "7240063",
+        "name": "苦痛典狱",
+        "description_source": "解锁【锤石】。获得2个【锤石】。他现在总计提供+2【神盾使】羁绊。",
+        "args_source": "count=2^plus=2^copyStar=1^round=4-3"
+      },
+      "7240064": {
+        "id": "7240064",
+        "name": "买一赠二 III",
+        "description_source": "解锁4费弈子后，下次商店刷新时，该弈子会以2星版本出现。",
+        "args_source": "star=2^unlockCost=4^sellStar=1^round=1-3"
+      },
+      "7240090": {
+        "id": "7240090",
+        "name": "伊莉丝夫人",
+        "description_source": "解锁【伊莉丝】。【伊莉丝】基于其形态获得强化。",
+        "args_source": "round=2-7^detail=20031"
+      },
+      "7240093": {
+        "id": "7240093",
+        "name": "大神降临",
+        "description_source": "解锁1个随机7费弈子。",
+        "args_source": "round=3-7^cost=7"
+      },
+      "7240095": {
+        "id": "7240095",
+        "name": "破格征召",
+        "description_source": "获得4次刷新。你的海克斯霸龙、加里奥和锤石的解锁条件不再有等级限制。",
+        "args_source": "num=4^round=3-1"
+      },
+      "7240096": {
+        "id": "7240096",
+        "name": "解锁天梯",
+        "description_source": "每当你解锁1个弈子时，获得2金币。总计解锁25个弈子后，获得终极大奖！",
+        "args_source": "gold=2^heronum=25^round=1-3"
+      },
+      "7250029": {
+        "id": "7250029",
+        "name": "行走于棱彩之道",
+        "description_source": "获得1个【兰博】和【慎】。6-1时，解锁【约德尔人】和【艾欧尼亚】棱彩层级。",
+        "args_source": "itemCount=1^count=1^traitTier=10^traitTier1=10^round=1-4^round2=6-1"
+      },
+      "7250036": {
+        "id": "7250036",
+        "name": "黑玫瑰夜市",
+        "description_source": "你接下来解锁并购买的3个弈子升至2星。",
+        "args_source": "star=2^sellStar=1^round=1-3^num=3"
+      },
+      "7250045": {
+        "id": "7250045",
+        "name": "全职高手",
+        "description_source": "解锁【塞拉斯】。他额外拥有7种职业羁绊。",
+        "args_source": "count=7^round=4-5^detail=20044"
+      },
+      "7250046": {
+        "id": "7250046",
+        "name": "德玛西亚巨像",
+        "description_source": "解锁加里奥。加里奥基于击败数获得额外护甲和魔抗。",
+        "args_source": "round=3-5^detail=20041"
+      },
+      "7250047": {
+        "id": "7250047",
+        "name": "流浪的救世者",
+        "description_source": "解锁【瑞兹】。【符文法师】羁绊新增使所有地区羁绊+1的效果（除部分地区）。",
+        "args_source": "plus=1^round=4-5^detail=20049"
+      },
+      "7250048": {
+        "id": "7250048",
+        "name": "虚空入侵",
+        "description_source": "解锁【峡谷先锋】，获得3个【突变】。【突变】现在可以用于所有友军。",
+        "args_source": "count=3^round=3-1"
+      },
+      "7250049": {
+        "id": "7250049",
+        "name": "量身定制",
+        "description_source": "可解锁弈子自带1件临时推荐成装，或将其携带的1件装备升为光明版。",
+        "args_source": "round=3-5^equipNum=1^detail=20048"
+      },
+      "7250059": {
+        "id": "7250059",
+        "name": "万物落笔端",
+        "description_source": "解锁【彗】。【异画师】羁绊现在复制3费及以下的弈子时可额外复制1个。",
+        "args_source": "round=3-5^cost=3"
+      },
+      "7250061": {
+        "id": "7250061",
+        "name": "远古巨龙",
+        "description_source": "解锁【远古巨龙】。【远古巨龙】获得20%伤害增幅，且溅射效果获得强化。",
+        "args_source": "pct=20^pct1=20^round=4-3^detail=20027"
+      }
+    }
+  },
+  "nature_action_summaries": [
+    {
+      "lineup_id": "4932",
+      "opening": "先用3永森配斗士、神谕打工，通常存钱走连败；有装备与强化支撑连胜时才提前升级。",
+      "midgame": "3-2升6搜体系两星，质量够后留约30金币吃利息，慢搜提莫、阿利斯塔等核心三星。",
+      "endgame": "作者希望4-3前提莫与阿利斯塔达到三星；完成追星再升人口，8级按来牌补莫甘娜、艾翁或拉克丝。",
+      "risk": "追星时点是作者参考，同行多或数量差时不能为赶进度花光钱。",
+      "roll_actions": [
+        "3-2升6后集中补体系两星；补齐便停止大搜，保留约30金币慢追核心三星。"
+      ],
+      "stop_conditions": [
+        "体系两星先停大搜；核心追星完成后把经济用于升级。"
+      ],
+      "pivot_conditions": [
+        "同行争牌且核心数量不足时放弃硬追；没有连胜质量就不要提前花钱升级。"
+      ],
+      "position_notes": [
+        "阿利斯塔独自承伤；提莫避开卡兹克切入和沃里克接近，并尽量避开敌方控制。"
+      ]
+    },
+    {
+      "lineup_id": "4838",
+      "opening": "永森配迅捷射手过渡，霞先接鬼索等输出装；能维持连胜便升级，乐芙兰用于补经济。",
+      "midgame": "通常4-1升8搜牌抢四费；经济落后可延至4-2。先把四费核心与前排搜到两星，再考虑升级。",
+      "endgame": "关键四费均两星后升9，补两星五费提高上限；取得永森拉克丝形态或纹章才走高永森路线。",
+      "risk": "8级既无永森拉克丝又无永森纹章时，应改走重装厄斐琉斯等承接方案。",
+      "roll_actions": [
+        "4-1（经济不足则4-2）升8搜关键四费到两星，再存钱升9。"
+      ],
+      "stop_conditions": [
+        "四费输出与前排质量均到两星后停止继续消耗。"
+      ],
+      "pivot_conditions": [
+        "缺少永森纹章和指定拉克丝形态，不强开高永森。"
+      ],
+      "position_notes": [
+        "双输出与主坦同侧，纳尔及永森守卫后置；面对阿狸范围伤害调整聚集程度。"
+      ]
+    },
+    {
+      "lineup_id": "4830",
+      "opening": "卡尔玛或乐芙兰带法装，以3永森过渡；有卡兹克就上场积累机制，蛇女及装备到位时才积极保连胜。",
+      "midgame": "3-5升7，先补3永森、2重装、2护卫并取得体系两星；7级慢搜赫卡里姆、卡兹克、卡西奥佩娅三星。",
+      "endgame": "作者通常在三名追星目标中已有两名三星后才升人口补体系；卡兹克首个进化选择法师可配4法师。",
+      "risk": "核心三费被同行争抢时追三压力很大；不能把卡兹克当主坦，近战输出同样需要保护。",
+      "roll_actions": [
+        "3-5升7先搜体系质量，再在7级保留利息追赫卡里姆、卡兹克和卡西奥佩娅。"
+      ],
+      "stop_conditions": [
+        "通常已有两个追星目标三星后停止7级追三并升级补体系。"
+      ],
+      "pivot_conditions": [
+        "同行多且三费数量少时，不为凑全员三星耗尽经济。"
+      ],
+      "position_notes": [
+        "赫卡里姆站在蛇女与卡兹克前方承伤；对易时把卡兹克后移，避免开局被切。"
+      ]
+    },
+    {
+      "lineup_id": "4791",
+      "opening": "法系打工棋子先拿婕拉装备，优先维持连胜积累经济；三阶段主要存钱与补羁绊。",
+      "midgame": "4-1前通常不搜；有同行4-1升8抢牌，无同行可4-2升8，补齐四费核心两星。",
+      "endgame": "8级质量够后再升9，补艾翁、塔里克等功能五费；相关纹章与凯南是否到位决定路线完整度。",
+      "risk": "来源依赖裁决或花妖等转职与关键五费，不能只按阵容标题硬凑。",
+      "roll_actions": [
+        "有同行时4-1、无同行时4-2升8开始搜四费体系，关键单位两星后再存钱。"
+      ],
+      "stop_conditions": [
+        "关键四费两星且当前战力能稳血后停搜，转为积累升9经济。"
+      ],
+      "pivot_conditions": [
+        "关键转职或核心不到位时，用现有法装选择可成型的法系路线。"
+      ],
+      "position_notes": [
+        "黑棘刺对约里克使用；墨菲特单顶，后排双输出同侧集火。"
+      ]
+    },
+    {
+      "lineup_id": "4765",
+      "opening": "永森、迅捷射手构成过渡底盘；升级节奏取决于连胜与经济强化，不能为了九五目标牺牲即时战力。",
+      "midgame": "来源采取高经济升9路线，9级搜两星远古巨龙或德莱文，并给两星塔里克或阿木木配齐承伤装备。",
+      "endgame": "先让主输出和主坦两星、吃满装备，再补其他单位质量；有余力才升10补索拉卡或艾希。",
+      "risk": "高费阵容成本高，前中期经济和血量不足时应先在当前人口稳住，不能照抄成型强度承诺。",
+      "roll_actions": [
+        "经济和血量允许升9时再集中找主输出与主坦两星，优先级高于把所有挂件一并补齐。"
+      ],
+      "stop_conditions": [
+        "两星主输出与主坦配装完成后，重新评估补全两星或升级的收益。"
+      ],
+      "pivot_conditions": [
+        "无法安全升9时，优先用当前两星底盘承接，不继续强攒九五。"
+      ],
+      "position_notes": [
+        "输出常以对角线威胁后排；对拉克丝和阿狸避开直线与密集站位。"
+      ]
+    },
+    {
+      "lineup_id": "4805",
+      "opening": "有斗士纹章时围绕4斗士过渡，亚索未到可用阿卡丽、暗影狼或沃里克接装备。",
+      "midgame": "7级搜4斗士3魔战士的基础阵容，追易、远古石甲虫、蔚、克格莫；搜牌期间可用3莲华获取精灵。",
+      "endgame": "先把关键追星目标与承伤质量做稳，再用新增人口补体系，不要求同时完成所有候选三星。",
+      "risk": "斗士纹章影响成型；面对凯尔或崔丝塔娜等持续普攻阵容需重新评估承伤和对位。",
+      "roll_actions": [
+        "到7级后建立4斗士3魔战士，再在该人口追易、石甲虫、蔚、克格莫的关键三星。"
+      ],
+      "stop_conditions": [
+        "核心与前排质量足够时停止为低数量的次要追星目标消耗。"
+      ],
+      "pivot_conditions": [
+        "缺少斗士纹章时不能按带转职模板直接计算羁绊。"
+      ],
+      "position_notes": [
+        "易与敌方主输出同侧切入，远古石甲虫贴近易承担保护作用。"
+      ]
+    },
+    {
+      "lineup_id": "4808",
+      "opening": "霞暂拿鬼索，奥恩暂拿石板甲；同等星级时比较凯尔装扮带来的实际收益。",
+      "midgame": "作者在3-1、仍为4级时开始搜一费；备战席压力大才升5，随后用满利息慢搜一费三星。",
+      "endgame": "关键一费完成追星后再逐步升人口；瑟庄妮质量起来后接替奥恩单顶。",
+      "risk": "不能把需要备战席空间而升人口误解为固定升级回合；对奈德丽需要额外注意后排安全。",
+      "roll_actions": [
+        "3-1在4级搜一费；升5后保留满利息继续追星，备战席空间不足再考虑升6。"
+      ],
+      "stop_conditions": [
+        "主要一费追星完成后停止继续停留低人口搜牌。"
+      ],
+      "pivot_conditions": [
+        "关键一费数量长期不足或被争抢时，重新评估追星预算。"
+      ],
+      "position_notes": [
+        "奥恩前期单顶积累收益，后期把主要承伤位置交给更高质量的瑟庄妮。"
+      ]
+    },
+    {
+      "lineup_id": "4774",
+      "opening": "拿到乐芙兰就用于复制机制补牌，来源通常采取连败存钱，前期不主动买经验。",
+      "midgame": "2-7野怪后可留50金币慢搜低费；一费与二费目标应分别考虑5级、6级搜牌效率，不必同时强追。",
+      "endgame": "作者参考4-1前完成三个三星，再升人口补体系；后期按实际形态选择拉克丝。",
+      "risk": "追星时限并非保证；同行多时不要锁死装备和经济。",
+      "roll_actions": [
+        "野怪后经济足够再以50金币利息慢搜；根据要追的一费或二费目标选择5级或6级停留。"
+      ],
+      "stop_conditions": [
+        "主要追星目标完成后转为升级，不继续为全部低费追三。"
+      ],
+      "pivot_conditions": [
+        "同行争抢严重且尚未锁装时，及时保留可转型装备与两星底盘。"
+      ],
+      "position_notes": [
+        "注意永恒之森召唤物类型及位置，树与花的用途不能混用。"
+      ]
+    },
+    {
+      "lineup_id": "4835",
+      "opening": "法系棋子接索拉卡装备过渡，能连胜则升级保质量，三阶段重点保持经济并补功能。",
+      "midgame": "4-1前不主动搜；有同行4-1升8抢四费，无同行可4-2升8，搜核心与前排两星。",
+      "endgame": "作者以8级作为主要成型点；质量稳定后比较追三星四费和升9收益，不把升9当必选。",
+      "risk": "此类法系需要战力强化与配装支撑，对高爆发单点需加强主坦和站位。",
+      "roll_actions": [
+        "4-1或4-2升8后集中补四费体系两星，优先完成8级质量。"
+      ],
+      "stop_conditions": [
+        "8级关键两星成型后停大搜，再决定存钱追四费还是升级。"
+      ],
+      "pivot_conditions": [
+        "前排无法承受单点爆发时，先补坦度和保护，不继续只增加后排。"
+      ],
+      "position_notes": [
+        "黑棘刺对约里克使用，墨菲特单顶；后排双输出同侧，并防范围伤害。"
+      ]
+    },
+    {
+      "lineup_id": "4828",
+      "opening": "卡西奥佩娅与法装早到时，配法师、斗士或护卫保连胜；质量不足则存钱准备7级启动。",
+      "midgame": "3-5升7抢牌，来源建议保留约20金币；体系两星后先看同行和数量，再决定是否追三。",
+      "endgame": "难追三星时可同时上两张两星蛇女作为战力替代，再升8补6护卫；同名重复不增加羁绊人数。",
+      "risk": "同行与范围伤害影响稳定性；双蛇女是战斗质量方案，不能重复计羁绊。",
+      "roll_actions": [
+        "3-5升7先找体系两星；数量与经济不支持追三时改用双两星蛇女并升级。"
+      ],
+      "stop_conditions": [
+        "全二后先观察场外数量，停止无预算追三。"
+      ],
+      "pivot_conditions": [
+        "前后排都缺追星数量或同行过多，优先上8补护卫与即战力。"
+      ],
+      "position_notes": [
+        "主输出和主坦同侧，尽量对齐敌方主C一侧，使毒伤更早覆盖后排。"
+      ]
+    },
+    {
+      "lineup_id": "4785",
+      "opening": "先做易或克格莫的装备，5峡谷野怪可平滑过渡；有两星与装备时才用升级保连胜。",
+      "midgame": "3-5或3-7升7，搜两星易、克格莫、蔚；达标后存钱，在7级慢追主要输出三星。",
+      "endgame": "作者以5-1前双输出三星为参考；8级即可补齐主要体系，经济富余再升9挂艾翁等五费。",
+      "risk": "易是近战输出而非单纯承伤位；双三星参考时限不保证达成，不能牺牲全部经济硬赶。",
+      "roll_actions": [
+        "3-5或3-7升7补两星易、克格莫与蔚，随后保留利息慢搜关键三星。"
+      ],
+      "stop_conditions": [
+        "三名关键牌两星先停大搜；双输出追星完成后升级补体系。"
+      ],
+      "pivot_conditions": [
+        "缺乏关键数量或血量容错时，比较升8补即战力与继续追三的成本。"
+      ],
+      "position_notes": [
+        "易从与敌方主C同侧的边角切入，克格莫与奈德丽同侧集火。"
+      ]
+    },
+    {
+      "lineup_id": "4768",
+      "opening": "3永森带物理攻速装过渡，尽量保住二、三阶段质量；来源不建议高连败硬冲八四。",
+      "midgame": "有同行或血量低时4-1升8搜牌，通常可4-2升8；关键四费与前排两星后再考虑升9。",
+      "endgame": "厄斐琉斯、婕拉、深红锋喙鸟、黛安娜及苍蓝雕纹魔像构成主要框架，其他前排按来牌调整。",
+      "risk": "来源提供多种前排组合，需要重算羁绊与装备，不应把一张图当唯一固定答案。",
+      "roll_actions": [
+        "4-1或4-2到8级搜关键四费与前排两星；补齐后再比较升9和追四费。"
+      ],
+      "stop_conditions": [
+        "主要两星框架完成后停止继续为所有挂件消耗经济。"
+      ],
+      "pivot_conditions": [
+        "主坦不来时可围绕墨菲特、阿木木或瑟提调整承伤组合，但必须保留输出框架。"
+      ],
+      "position_notes": [
+        "后排输出同侧，厄斐琉斯对位敌方主C；注意刺客和关键控制。"
+      ]
+    },
+    {
+      "lineup_id": "4833",
+      "opening": "优先开5峡谷野怪，利用每三场玩家对战后的商店机制补质量；连胜且经济允许可3-2升7开7野怪。",
+      "midgame": "3-1通常不搜，急需质量最多小搜；先实现5到7野怪，有同行时更应升8找两星苍蓝雕纹魔像。",
+      "endgame": "8级远古巨龙到来即可替换承接，优先保7野怪；深红锋喙鸟追三并非硬性要求。",
+      "risk": "不要为了次要三星耽误7野怪；高费未到前先维持前排质量与机制收益。",
+      "roll_actions": [
+        "先升人口实现7野怪；同行多时以8级两星苍蓝雕纹魔像为稳定点，而非低人口硬追。"
+      ],
+      "stop_conditions": [
+        "野怪机制可持续补牌时减少主动搜牌，深红锋喙鸟只在数量顺时追三。"
+      ],
+      "pivot_conditions": [
+        "远古巨龙未到时保持当前质量，不卖掉两星主输出等待未知来牌。"
+      ],
+      "position_notes": [
+        "印记可给单顶石甲虫；塔里克连接远古巨龙，输出防卡兹克并适当分散。"
+      ]
+    },
+    {
+      "lineup_id": "4794",
+      "opening": "神谕配小精灵过渡，装备与两星前排到位才用升级续连胜；否则存利息，避免硬拉人口。",
+      "midgame": "法系同行多时争取4-1升8；经济不足可延至4-2，并给升8后的搜牌留出约30金币。",
+      "endgame": "关键牌两星后再升9补艾翁或塔里克；战力强化与法装质量影响这套多核法系的上限。",
+      "risk": "不应把4-1升8当强制时点，若升级后无钱补质量，应先稳住经济与血量。",
+      "roll_actions": [
+        "在升8后仍有约30金币可用的前提下启动，先把关键输出和前排补两星。"
+      ],
+      "stop_conditions": [
+        "体系关键牌两星后停大搜，转为考虑升9补功能五费。"
+      ],
+      "pivot_conditions": [
+        "强化与装备不适配或升级后没有搜牌预算时，优先稳质量而非强行赶回合。"
+      ],
+      "position_notes": [
+        "主坦承担前排压力，双输出可分边或同侧，随对手控制和范围伤害调整。"
+      ]
+    },
+    {
+      "lineup_id": "4801",
+      "opening": "神谕配小精灵打工，法装与两星前排够强才升级保连胜；同时保留不同法系终局选择。",
+      "midgame": "4-1或4-2升8搜体系，同行较多时优先抢牌；升级前确认仍有约30金币可补质量。",
+      "endgame": "体系两星后再升9，拉露恩、艾翁或拉克丝按来牌补强，不必全部购买。",
+      "risk": "路线要求合适法装和战力支撑；不要把经济不足时的强升8误作必要操作。",
+      "roll_actions": [
+        "四阶段有足够升级及搜牌预算时升8，搜齐关键两星后再存钱上9。"
+      ],
+      "stop_conditions": [
+        "输出、前排及关键羁绊质量够用后停止继续消耗。"
+      ],
+      "pivot_conditions": [
+        "根据已合成装备与强化选择法系方向，核心不来时保留可承接的两星牌。"
+      ],
+      "position_notes": [
+        "前排围绕黛安娜吃加成，后排双输出通常同侧；面对范围伤害需调整。"
+      ]
+    },
+    {
+      "lineup_id": "4836",
+      "opening": "3魔女配法师、重装过渡，法装先交给打工牌；蛇女早到时用来稳定连胜和魔女层数。",
+      "midgame": "3-5可小搜至两星卡西奥佩娅便停，4-2升8继续补体系，重点是两星主坦与核心。",
+      "endgame": "8级体系全二后再考虑升9补塔里克或艾翁；不把追三蛇女作为上人口前的硬性条件。",
+      "risk": "这是偏八四的蛇女路线；三星难度和同行状况需要独立评估，不能套用七级死追的节奏。",
+      "roll_actions": [
+        "3-5只为两星蛇女小搜，达标停手；4-2升8后补齐体系两星。"
+      ],
+      "stop_conditions": [
+        "蛇女两星先停小搜；8级关键牌两星后再积累升9经济。"
+      ],
+      "pivot_conditions": [
+        "三星数量不顺时保持两星蛇女战力，不因追三拖延关键前排补强。"
+      ],
+      "position_notes": [
+        "黑棘刺对伊莉丝使用，墨菲特单顶；蛇女对位主C同侧，阿狸在后排中部输出。"
+      ]
+    },
+    {
+      "lineup_id": "4825",
+      "opening": "3莲华或3魔女可承担经济过渡；质量差且无经济羁绊时要保留启动预算，质量高则可晚到4-1升7。",
+      "midgame": "连败较多时3-5升7搜三费两星，正常过渡可4-1启动；全二后减少搜牌，利用法杖并按数量追三星。",
+      "endgame": "主要三费数量接近三星时才考虑集中补齐；输出同侧集火，前排质量提升后再补人口。",
+      "risk": "有莲华或经济强化时可在6级少量找基础牌和法杖；不能把连败空城当所有开局的必选。",
+      "roll_actions": [
+        "较深连败在3-5、正常过渡在4-1升7，先搜三费体系两星，再依数量决定追三预算。"
+      ],
+      "stop_conditions": [
+        "体系全二后停大搜，以法杖和利息改善质量；接近三星才集中投入。"
+      ],
+      "pivot_conditions": [
+        "没有经济支撑或核心数量少时避免同时追全部三费。"
+      ],
+      "position_notes": [
+        "易与另一输出同侧；用前排牵引对手站位，主坦尽量对位敌方主C。"
+      ]
+    },
+    {
+      "lineup_id": "4829",
+      "opening": "蛇女、法装早来时配法师加斗士或护卫过渡；能开3莲华可用经济法杖减轻搜牌压力。",
+      "midgame": "3-5升7抢关键三费，莲华版本还依赖阿狸与瑟提，需实际拿到后再确定终局。",
+      "endgame": "7级质量和关键四费到位后再追星或补人口；与护卫蛇女之间按来牌承接，不预设固定优劣。",
+      "risk": "7级没阿狸和瑟提时不应强行丢掉现成护卫前排。",
+      "roll_actions": [
+        "3-5升7补蛇女体系两星，同时检查阿狸、瑟提是否可用，再决定切入莲华版本。"
+      ],
+      "stop_conditions": [
+        "已达稳定两星质量后，先观察追星数量及同行再继续投入。"
+      ],
+      "pivot_conditions": [
+        "关键莲华四费缺失时保留护卫或斗士底盘，不强凑莲华标题。"
+      ],
+      "position_notes": [
+        "主坦单顶，后排可分侧，蛇女尽量对位敌方主C同侧；避开范围爆发。"
+      ]
+    },
+    {
+      "lineup_id": "4824",
+      "opening": "法师配莲华过渡，乐芙兰兼顾质量和经济；有多张两星且装备合适时用升级保连胜。",
+      "midgame": "4-2升8找两星瑟提与阿狸；有纳尔可先换下婕拉，人口富余再补回功能。",
+      "endgame": "独家且四费数量有潜力时可在8级用莲华经济追四费；是否升9取决于数量与战力，而非固定必升。",
+      "risk": "吸血型战士会给这套范围法系带来压力；不要把作者的独家追四费建议当抽牌保证。",
+      "roll_actions": [
+        "4-2升8优先瑟提、阿狸两星，再比较8级追四费与升9收益。"
+      ],
+      "stop_conditions": [
+        "两星双核心稳定后停大搜；无足够四费数量时不为追三持续耗钱。"
+      ],
+      "pivot_conditions": [
+        "同行争抢或缺少莲华经济收益时，改以补人口和高质量单位为主。"
+      ],
+      "position_notes": [
+        "阿狸通常与敌方主C同侧，艾希用对角位置威胁另一侧后排。"
+      ]
+    },
+    {
+      "lineup_id": "4810",
+      "opening": "魔女可用来连败积累收益，启动后再转重装与猎人；层数是增益，不是开局必须亏血追求的门槛。",
+      "midgame": "3-2升6搜低费体系两星，再用利息及法杖慢追凯特琳、伊莉丝三星。",
+      "endgame": "凯特琳和伊莉丝追星完成后再升人口；高重装或高猎人的取舍按来牌，后期不必强保魔女。",
+      "risk": "同行、刺客和范围控制会影响成型与站位；已做物理装备仍可转八四射手。",
+      "roll_actions": [
+        "3-2升6补低费体系两星，之后慢搜凯特琳与伊莉丝三星。"
+      ],
+      "stop_conditions": [
+        "两名主要追星目标完成后停止停留6级，升级补重装或猎人。"
+      ],
+      "pivot_conditions": [
+        "同行争牌且数量不足时，用物理装备转重装物理八四。"
+      ],
+      "position_notes": [
+        "凯特琳等后排与伊莉丝同侧，避免关键输出开局吃控制。"
+      ]
+    },
+    {
+      "lineup_id": "4793",
+      "opening": "3约德尔配斗士过渡，崔丝塔娜作为骑手；有仙灵转职更容易中期达到4仙灵，否则需要莉莉娅到位。",
+      "midgame": "通常3-5升7找两星崔丝塔娜与前排；经济不足或没同行可延至3-7，随后7级追崔丝塔娜、拉莫斯三星。",
+      "endgame": "关键三星完成后升8找希维尔；机制奖励与经济充裕再升9补高费，不以九级替代七级质量。",
+      "risk": "早期没装备可考虑连败选装，但连续大败只在有相应强化及容错时考虑，不能盲目复制。",
+      "roll_actions": [
+        "3-5或3-7升7搜主C与前排两星，之后在7级慢追崔丝塔娜和拉莫斯。"
+      ],
+      "stop_conditions": [
+        "关键三星完成后停留7级收益降低，升8补希维尔。"
+      ],
+      "pivot_conditions": [
+        "没有转职且莉莉娅不来时，不把4仙灵视为已成型。"
+      ],
+      "position_notes": [
+        "按来源站位保护崔丝塔娜；仙灵转职给雷恩加尔的替换须实际持有转职。"
+      ]
+    },
+    {
+      "lineup_id": "4766",
+      "opening": "迅捷射手、护卫与永森作为过渡；只在经济和连胜质量足够时规划九五。",
+      "midgame": "8级先找两星伊泽瑞尔和赫卡里姆，阿木木可替代部分承伤；有纳尔时可临时开高永森。",
+      "endgame": "伊泽瑞尔两星后再考虑升9，逐步用两星塔里克等高费替换，视拉克丝形态选择高永森或3永森九五。",
+      "risk": "上不了9时以8级质量和战力强化稳住，不能为终局清空现有底盘。",
+      "roll_actions": [
+        "8级先补两星伊泽瑞尔与可用主坦，再积累升9经济。"
+      ],
+      "stop_conditions": [
+        "主C和主坦质量够用后停搜，不为临时羁绊挂件消耗升级预算。"
+      ],
+      "pivot_conditions": [
+        "血量与经济不支持九五时留8级补质量。"
+      ],
+      "position_notes": [
+        "伊泽瑞尔可对角威胁后排；凯南、纳尔的控制覆盖需根据敌方主C位置调整。"
+      ]
+    },
+    {
+      "lineup_id": "4800",
+      "opening": "峡谷野怪体系过渡，尽早利用5野怪的商店补牌机制；冲10人口需要连胜经济与足够血量。",
+      "midgame": "4-2升8找7野怪、两星苍蓝雕纹魔像和绯红印记树怪稳血，再考虑升9找远古巨龙。",
+      "endgame": "9级拿到远古巨龙且经济血量允许才向10人口推进；来源人口图含额外单位，须核对真实人口容量。",
+      "risk": "这是昂贵的条件终局，容错不足时应在8或9级改走伊泽瑞尔八四或巨龙九五。",
+      "roll_actions": [
+        "4-2升8补关键两星前后排；稳血后升9找远古巨龙，最后才评估升10。"
+      ],
+      "stop_conditions": [
+        "不能稳定存到下一人口时，先把预算用于当前人口的两星质量。"
+      ],
+      "pivot_conditions": [
+        "血量或经济不够升10，改走8级伊泽瑞尔或9级巨龙方案。"
+      ],
+      "position_notes": [
+        "绯红印记树怪与巨龙同侧集火，塔里克连接巨龙；额外人口未确认前不能照搬超人口源图。"
+      ]
+    },
+    {
+      "lineup_id": "4795",
+      "opening": "按来牌使用主宰、重装、护卫或斗士承伤，优先给雷恩加尔装备打钱，卡兹克后续再补装备。",
+      "midgame": "3-5升7搜三费体系两星，然后留利息追雷恩加尔、卡兹克与赫卡里姆三星。",
+      "endgame": "通常至少两个核心三星后升8补体系；主要追星完成且经济允许再升9补艾翁。",
+      "risk": "来源围绕宿敌变挚友强化展开，必须核对该前置；不把所有三费都列为主坦。",
+      "roll_actions": [
+        "3-5升7补三费体系两星，随后卡利息追雷恩加尔、卡兹克与赫卡里姆。"
+      ],
+      "stop_conditions": [
+        "至少两个主要追星目标三星后转向升级，完成关键追星再评估升9。"
+      ],
+      "pivot_conditions": [
+        "缺少所需强化或三费被大量争抢时，不按标题强行启动。"
+      ],
+      "position_notes": [
+        "输出围绕厄斐琉斯和黛安娜吃月光加成，赫卡里姆在外侧承担伤害。"
+      ]
+    },
+    {
+      "lineup_id": "4790",
+      "opening": "法装且有3莲华时，约里克拿肉装、卡尔玛拿法装；莲华转职可帮助中期更早实现经济档位。",
+      "midgame": "作者常规参考2-1升4、2-5升5、3-2升6、3-6升7、4-2升8，需随连胜和经济调整。8级没7莲华时先补两星瑟提与阿狸。",
+      "endgame": "有高莲华经济且质量稳住后再升9；缺莲华拉克丝时可用塔里克承接。",
+      "risk": "升级表是参考而非强制，经济血量差时应在8级搜质量，不因购买精灵破坏关键利息。",
+      "roll_actions": [
+        "按经济推进至8级；没有7莲华经济时先把瑟提、阿狸补两星，再决定升9。"
+      ],
+      "stop_conditions": [
+        "关键双核心两星并能稳血后停止8级大搜。"
+      ],
+      "pivot_conditions": [
+        "经济与血量不足时留8级补质量，暂停九五目标。"
+      ],
+      "position_notes": [
+        "中期瑟提单顶聚怪帮助阿狸输出，后期增加前排阻挡战士接近后排。"
+      ]
+    },
+    {
+      "lineup_id": "4788",
+      "opening": "3峡谷或3永森打工，早来雷恩加尔可单挂；有两星和装备支撑时才拉人口保连胜。",
+      "midgame": "有同行通常3-5升7、独家可3-7；先搜两星雷恩加尔、赫卡里姆、深红锋喙鸟，再以20至30金币利息追三。",
+      "endgame": "至少两个目标三星且包含雷恩加尔后，再升人口补齐重装与功能单位。",
+      "risk": "雷恩加尔怕被主C直接锁定，面对高坦度阵容需检查破甲与输出环境。",
+      "roll_actions": [
+        "3-5或3-7升7补三名关键牌两星，再留20至30金币慢搜主要三星。"
+      ],
+      "stop_conditions": [
+        "包含雷恩加尔的两个关键三星完成后转为升级。"
+      ],
+      "pivot_conditions": [
+        "同行太多或数量不支持追三时，停止仅为打钱收益追加搜牌。"
+      ],
+      "position_notes": [
+        "雷恩加尔从边角切入，塔里克与其连线；后排同侧协助集火。"
+      ]
+    },
+    {
+      "lineup_id": "4799",
+      "opening": "黑荆棘配斗士前排和法师后排，不主动搜牌；两星前后排及法装足够时才升级续胜。",
+      "midgame": "4-1或4-2按经济升8，找6黑荆棘框架与阿狸、瑟提、芸阿娜，再补墨菲特和阿狸两星。",
+      "endgame": "关键两星与低费功能牌就绪后升9，按来牌补凯南、对应形态拉克丝或艾翁；阿兹尔非大量来牌不强追三。",
+      "risk": "来源要求黑荆棘转职，没转职不能直接视作6黑荆棘成型。",
+      "roll_actions": [
+        "4-1或4-2升8建立带转职的6黑荆棘，先搜墨菲特、阿狸等核心两星。"
+      ],
+      "stop_conditions": [
+        "主输出、主坦和低费功能质量到位后停搜升9。"
+      ],
+      "pivot_conditions": [
+        "没有黑荆棘纹章时改用能实际达到断点的法系框架。"
+      ],
+      "position_notes": [
+        "墨菲特单顶，阿狸与敌方主C同侧，阿兹尔同侧协助清理前排挂件。"
+      ]
+    },
+    {
+      "lineup_id": "4780",
+      "opening": "3永森配两星奥恩、蕾欧娜打工，后续费德提克可接4法师；先确认法装组合可用。",
+      "midgame": "4-1或4-2升8搜两星阿狸与瑟提，达标便停；纳尔、拉露恩按来牌替换低阶承接牌。",
+      "endgame": "前中期有强经济和连胜再升9；否则在8级以高莲华阿狸框架稳血，不强求五费齐全。",
+      "risk": "高费替换不等于无条件更强，需保留装备、羁绊和即时质量。",
+      "roll_actions": [
+        "4-1或4-2到8级找阿狸、瑟提两星，达标后停止大搜。"
+      ],
+      "stop_conditions": [
+        "两星双核心到位先停手，根据实际经济决定是否升9。"
+      ],
+      "pivot_conditions": [
+        "缺少九五预算时留8级玩可成型的莲华法系。"
+      ],
+      "position_notes": [
+        "常规对局阿狸与敌方主C同侧；对战士切入时改至另一侧保护。"
+      ]
+    },
+    {
+      "lineup_id": "4815",
+      "opening": "优先保证鬼索等攻速装和启动经济，来牌装备顺时可用永森保连胜；深连败只在对应强化与容错下考虑。",
+      "midgame": "通常在3-5或4-1升7启动，先补体系两星，再慢追三费与三星前排。",
+      "endgame": "同行多、经济不足以追后排三星时升8补体系，随后再择机追三；一般不以升9作为主要目标。",
+      "risk": "需要多名三费三星的路线容易受同行影响，缺复制器或经济支撑时应提前考虑转向。",
+      "roll_actions": [
+        "升7后先补体系两星，再留利息追关键三星；资源不足时先升8补即时质量。"
+      ],
+      "stop_conditions": [
+        "体系全二后停大搜，不为多个低数量三费同时追三。"
+      ],
+      "pivot_conditions": [
+        "同行争抢且经济强化不合适时，可用装备承接重装厄斐琉斯八四。"
+      ],
+      "position_notes": [
+        "后期黑棘刺可对卡兹克使用；前排主坦单顶，后排分边或同侧视对手而定。"
+      ]
+    },
+    {
+      "lineup_id": "4767",
+      "opening": "法师配莲华过渡，乐芙兰兼顾质量经济；有多个两星和合适法装再升级保连胜。",
+      "midgame": "4-2升8补瑟提、阿狸两星；艾希到来时尝试高莲华经济，质量稳定再升9。",
+      "endgame": "9级找两星纳尔及前排高费，可转3莲华九五或补拉克丝、凯南解决后排；高莲华不是唯一终局。",
+      "risk": "面对持续回血战士要补单点或后排威胁，不能只增加相同范围伤害。",
+      "roll_actions": [
+        "4-2升8先搜瑟提和阿狸两星，稳住后再用莲华收益支持升9。"
+      ],
+      "stop_conditions": [
+        "双核心两星先停搜，优先积累升级及五费补强预算。"
+      ],
+      "pivot_conditions": [
+        "高莲华高费条件不齐时，可转3莲华加法师或通用九五。"
+      ],
+      "position_notes": [
+        "阿狸通常与敌方主C同侧，艾希用对角线打后排。"
+      ]
+    },
+    {
+      "lineup_id": "4798",
+      "opening": "卡兹克早来尽早上场积累机制，其他位置用黑荆棘配斗士、法师过渡；未确定路线时保留装备转型空间。",
+      "midgame": "3-5或4-1升7找墨菲特、开6黑荆棘并补三费两星，再卡利息追卡兹克和阿兹尔。",
+      "endgame": "双核心三星后升8补婕拉，找两星墨菲特与瑟提；经济允许再升9加艾翁或塔里克。",
+      "risk": "必须有黑荆棘转职；雷克塞只在数量多时顺追，不要同时追所有目标。",
+      "roll_actions": [
+        "3-5或4-1到7级补6黑荆棘两星框架，之后慢追卡兹克、阿兹尔三星。"
+      ],
+      "stop_conditions": [
+        "双核心三星后停止留7级，升8补两星前排。"
+      ],
+      "pivot_conditions": [
+        "没转职或同行多时不要过早锁死装备硬玩。"
+      ],
+      "position_notes": [
+        "墨菲特单顶，卡兹克按敌方主C同侧寻找切入，其他单位后置避免抢承伤。"
+      ]
+    },
+    {
+      "lineup_id": "4770",
+      "opening": "魔女高层奖励或强连胜经济支持九五；条件不足时保留转莫甘娜八四或阿狸八四的空间。",
+      "midgame": "4-2升8搜两星莫甘娜与墨菲特，先保证能稳住血量，再存钱冲9。",
+      "endgame": "来源通常以5-1升9为参考；血量不足时留8级补即时战力，不为五费终局继续挨打。",
+      "risk": "能否升9取决于剩余血量和经济，魔女层数高也不代表可以跳过前排两星。",
+      "roll_actions": [
+        "4-2升8先补莫甘娜、墨菲特两星，稳血后才考虑5-1附近升9。"
+      ],
+      "stop_conditions": [
+        "两星输出和主坦到位后先存钱；不稳血则继续补当前人口质量。"
+      ],
+      "pivot_conditions": [
+        "血量不够冲9时改玩8级莫甘娜框架。"
+      ],
+      "position_notes": [
+        "前后排分别围绕月光加成布置，莫甘娜可靠前加快施法，墨菲特与塔里克分侧承伤。"
+      ]
+    },
+    {
+      "lineup_id": "4772",
+      "opening": "可用低费体系存钱并选韦鲁斯装备；连胜玩法需要真实质量支撑，诅咒冠冕等高风险强化不是新手固定选择。",
+      "midgame": "3阶段在5级慢搜韦鲁斯三星，完成后才升6继续追其他低费；不要一波花空破坏后续追星。",
+      "endgame": "主要低费累计约五个三星后升人口，补出3日蚀加3月蚀触发日月双蚀；阿卡丽质量不足可由阿木木承接。",
+      "risk": "需要同时核对日、月两侧数量，不能仅凭没有原生单位的日月双蚀条目猜激活。",
+      "roll_actions": [
+        "5级先追韦鲁斯三星，再升6追其他关键低费；主要追星完成后升级补双蚀。"
+      ],
+      "stop_conditions": [
+        "韦鲁斯三星后停止5级搜牌，其他关键追星结束后转为补人口。"
+      ],
+      "pivot_conditions": [
+        "数量不足时控制每轮搜牌预算，不为凑五个三星一波耗尽经济。"
+      ],
+      "position_notes": [
+        "韦鲁斯与敌方主C对角；前排围绕黛安娜，利用月蚀邻格加成。"
+      ]
+    },
+    {
+      "lineup_id": "4773",
+      "opening": "用主宰或重装前排配克格莫过渡，克格莫暂接奈德丽装备维持质量。",
+      "midgame": "4-2搜两星奈德丽及两星前排，达到基本稳定质量后再存钱。",
+      "endgame": "核心与承伤到位后升9补高费功能，塔里克连接奈德丽。",
+      "risk": "来源属于昂贵终局，升级前先验证两星前后排，不把九五成型强度当过渡保证。",
+      "roll_actions": [
+        "4-2补两星奈德丽和前排，达标后才转入升9。"
+      ],
+      "stop_conditions": [
+        "两星主输出与主坦到位后停大搜，积累升9预算。"
+      ],
+      "pivot_conditions": [
+        "无法稳血时先补当前人口质量，暂停升9。"
+      ],
+      "position_notes": [
+        "远古巨龙位于第二排，奈德丽放安全角落，塔里克与其连线。"
+      ]
+    },
+    {
+      "lineup_id": "4775",
+      "opening": "3永森配3莲华存钱过渡，来源通常准备3-2启动，前期不靠主动搜牌维持全员质量。",
+      "midgame": "3-2升6找芸阿娜和阿利斯塔两星，再保留约30金币慢追两名核心三星。",
+      "endgame": "双核心三星后升人口，8级基本补全；经济充足才升9按装备补艾翁、塔里克或拉露恩。",
+      "risk": "作者希望4-2前双三是进度参考，数量不足时不能不计成本赶时点。",
+      "roll_actions": [
+        "3-2升6补芸阿娜、阿利斯塔两星，随后以约30金币利息慢搜三星。"
+      ],
+      "stop_conditions": [
+        "两星双核心先停大搜，双三星完成后转为升级。"
+      ],
+      "pivot_conditions": [
+        "同行或数量差时重估追三，不为达到参考回合把经济花空。"
+      ],
+      "position_notes": [
+        "芸阿娜与伊泽瑞尔同侧集中输出，前排保护其输出路径。"
+      ]
+    },
+    {
+      "lineup_id": "4776",
+      "opening": "莲华或其他法系输出配前排打工，按实际来牌保留终局弹性。",
+      "midgame": "4-2先找两星索拉卡、阿木木再升9；血量高且质量够时可存到4-5或5-1直接升9。",
+      "endgame": "高费组合随装备调整，有物装或窃贼手套时保留德莱文、纳尔等两星承接，不必强凑同一张图。",
+      "risk": "血量经济不健康且莲华来牌多时，直接转莲华阿狸八四更实际。",
+      "roll_actions": [
+        "4-2补两星索拉卡与主坦，或在血量足够时延后升9；不能两种路线同时无预算执行。"
+      ],
+      "stop_conditions": [
+        "前后排能稳定战斗后停当前人口大搜，保留九级预算。"
+      ],
+      "pivot_conditions": [
+        "资源不足以完成九五时，利用已来的莲华牌转阿狸八四。"
+      ],
+      "position_notes": [
+        "拉露恩、黛安娜与艾翁的加成关系按来源棋盘确认，不把五费随意堆在同一格附近。"
+      ]
+    },
+    {
+      "lineup_id": "4777",
+      "opening": "魔女过渡但重视保血，来源不建议为了奖励进行纯连败。",
+      "midgame": "4-2升8领取机制收益并换入体系，搜两星莫甘娜和前排。",
+      "endgame": "8级关键牌全二后再考虑升9补两星五费；升9前不能跳过主坦质量。",
+      "risk": "魔女奖励并不消除连败风险，过渡血量过低时需要提前稳定。",
+      "roll_actions": [
+        "4-2升8后补莫甘娜与承伤两星，关键质量到位再存钱升9。"
+      ],
+      "stop_conditions": [
+        "8级关键牌两星、能够稳血后停止继续消耗。"
+      ],
+      "pivot_conditions": [
+        "血量不支持升9时留8级补战力。"
+      ],
+      "position_notes": [
+        "莫甘娜可放倒数第二排，兼顾施法速度与避免过早被集火。"
+      ]
+    },
+    {
+      "lineup_id": "4827",
+      "opening": "乐芙兰配法师、莲华或永森过渡；适合乐芙兰、阿利斯塔数量较顺且装备契合的开局。",
+      "midgame": "3-2升6慢搜，先补体系两星稳血，随后追阿利斯塔与乐芙兰三星。",
+      "endgame": "双核心三星后升人口，8级补全即可，后续更多依赖战力法杖，不必固定追9。",
+      "risk": "关键低费来牌差时不应强赌，莲华八四可以承接部分法装与体系牌。",
+      "roll_actions": [
+        "3-2升6先补体系两星，稳住后再慢追阿利斯塔和乐芙兰三星。"
+      ],
+      "stop_conditions": [
+        "全二先停大搜；双核心三星完成后升级。"
+      ],
+      "pivot_conditions": [
+        "开局数量不顺或同行多时保留转莲华八四空间。"
+      ],
+      "position_notes": [
+        "阿利斯塔单顶，后排双输出同侧。"
+      ]
+    },
+    {
+      "lineup_id": "4802",
+      "opening": "斗士转职到位时围绕4斗士打工，易未到可由阿卡丽或双狼接装备。",
+      "midgame": "3-5或4-1升7，先补两星框架，再在7级追易、克格莫、远古石甲虫三星；6斗士需实际纹章。",
+      "endgame": "8级补阿狸形成3莲华，经济允许再升9挂艾翁等功能五费。",
+      "risk": "不要因易站前排就把他当主坦，石甲虫负责保护；斗士转职是带转模板的必要前提。",
+      "roll_actions": [
+        "3-5或4-1升7搜体系两星，再按数量慢追易、克格莫及石甲虫。"
+      ],
+      "stop_conditions": [
+        "全二后停止大搜，关键追星完成便升8补阿狸。"
+      ],
+      "pivot_conditions": [
+        "缺斗士纹章时调整实际可开档位，不照搬6斗士标题。"
+      ],
+      "position_notes": [
+        "易从敌方主C同侧切入，石甲虫贴身保护。"
+      ]
+    },
+    {
+      "lineup_id": "4814",
+      "opening": "3-2前通常只拿体系牌并存钱，不主动搜牌或买经验；法装过多或同行明显时应保留转型空间。",
+      "midgame": "3-2升6找暗影狼、沃里克两星及两星前排，达标后慢搜三星。",
+      "endgame": "独家可继续追双狼，同行多时有一个狼三星就优先升级补体系；未追成的装备可转绯红印记树怪。",
+      "risk": "不要把追双三视作所有局的硬条件，群体控制也会影响双狼输出。",
+      "roll_actions": [
+        "3-2升6补双狼与前排两星，之后按同行情况决定继续追双三或先升级。"
+      ],
+      "stop_conditions": [
+        "双狼及主坦两星后停大搜；同行多且一只狼已三星时可结束追三。"
+      ],
+      "pivot_conditions": [
+        "追星受阻时将输出装交给绯红印记树怪、肉装交给墨菲特承接。"
+      ],
+      "position_notes": [
+        "主坦单顶，双狼同侧，其余单位后置以减少前排拥挤。"
+      ]
+    },
+    {
+      "lineup_id": "4813",
+      "opening": "低费体系存钱选法装，通常准备2-7后启动；只有二星维迦和前排且装备合适时才提前保连胜。",
+      "midgame": "2-7野怪后可集中补维迦数量与前排，三阶段继续慢追维迦和一个主要承伤三星；主要追星前不升6。",
+      "endgame": "主要输出与前排三星后逐步升级，8级可成型，经济富余再补五费。",
+      "risk": "作者的搜牌数量目标不是随机商店保证；同行多时追一费成本会显著变化。",
+      "roll_actions": [
+        "2-7后在低人口找维迦及主要前排，三阶段慢搜到关键三星再升人口。"
+      ],
+      "stop_conditions": [
+        "维迦和主要承伤三星后结束低人口追三。"
+      ],
+      "pivot_conditions": [
+        "未接近核心数量时避免一次抽干，重新比较追三与现成法系承接。"
+      ],
+      "position_notes": [
+        "维迦作为骑手；面对阿狸等范围伤害适当分散，保持主要输出安全。"
+      ]
+    },
+    {
+      "lineup_id": "4820",
+      "opening": "需要对应符文支持小蓝主C；2-1三人口可先小搜维迦、雷克塞与小蓝，组成2斗士2神谕保血。",
+      "midgame": "通常3-1四人口追三星小蓝，同时找两星远古石甲虫，补3峡谷、2黑荆棘、2斗士。",
+      "endgame": "只把小蓝作为必须追三目标，完成后快速升级补体系，不继续为全部一费留低人口。",
+      "risk": "没有对应强化或合适神器时强度依据不足，不应把普通神谕羁绊当同一玩法。",
+      "roll_actions": [
+        "对应强化到位后，3-1四人口集中追小蓝三星并补石甲虫两星。"
+      ],
+      "stop_conditions": [
+        "小蓝三星后停止低人口搜牌，转为升级补体系。"
+      ],
+      "pivot_conditions": [
+        "缺所需符文、神器或来牌数量时，选择常规峡谷或法系承接。"
+      ],
+      "position_notes": [
+        "根据中后期来牌重排野怪与前排，不能把早期站位固定到终局。"
+      ]
+    },
+    {
+      "lineup_id": "4826",
+      "opening": "峡谷野怪过渡，尽早开5野怪靠对战补牌；深红锋喙鸟早来且装备匹配时可保连胜。",
+      "midgame": "前中期通常不主动搜，4-2升8开7野怪，先补苍蓝雕纹魔像与深红锋喙鸟两星。",
+      "endgame": "关键两星后升9，补远古巨龙及合适斗士、重装五费，后续用战力法杖提升质量。",
+      "risk": "同行多时很难追三星，不应以鸡哥三星作为所有局升9前的门槛。",
+      "roll_actions": [
+        "4-2升8开7野怪，搜两星苍蓝雕纹魔像、深红锋喙鸟后存钱升9。"
+      ],
+      "stop_conditions": [
+        "两名关键野怪两星后停止为三星鸡哥持续消耗。"
+      ],
+      "pivot_conditions": [
+        "没有升9容错时先补8级质量，防止为高费终局继续掉血。"
+      ],
+      "position_notes": [
+        "主要输出同侧，塔里克连巨龙；选择器按巨龙或锋喙鸟的实际输出贡献分配。"
+      ]
+    },
+    {
+      "lineup_id": "4882",
+      "opening": "小蓝数量多或石甲虫早到较适合；在不破坏连胜的前提下尽早开5野怪，连败时可在2-7前后补质量转稳。",
+      "midgame": "常规在7级追关键野怪，远古石甲虫三星负责拖时间；天然来牌好时可少搜，四阶段直接升8补羁绊。",
+      "endgame": "质量和经济允许升9找远古巨龙，再用机制补石甲虫三星及巨龙两星。",
+      "risk": "这套为多核野怪，不能把作者主C强度排序当实时胜率或保证。",
+      "roll_actions": [
+        "先建立5野怪，再按来牌选择7级追石甲虫或提前升8；稳住后升9找巨龙。"
+      ],
+      "stop_conditions": [
+        "机制已能持续补质量时减少主动搜牌，为更高人口保留预算。"
+      ],
+      "pivot_conditions": [
+        "关键野怪数量少时不用同时追所有三星，优先补主坦和可用输出。"
+      ],
+      "position_notes": [
+        "石甲虫常规单顶并带印记；若后排先于石甲虫阵亡，可按对手范围伤害临场调整印记。"
+      ]
+    },
+    {
+      "lineup_id": "4884",
+      "opening": "3魔女可积累资源，来源3-2升6后用两星凯特琳和伊莉丝稳定血量。",
+      "midgame": "6级配合法杖慢搜凯特琳、伊莉丝，作者以4-2附近双三星作为参考。",
+      "endgame": "两名主要追星目标完成后升人口，补6重装与猎人功能。",
+      "risk": "原文较简略，未给详细经济预算；不要把参考回合写成必定双三星的承诺。",
+      "roll_actions": [
+        "3-2升6先找凯特琳、伊莉丝两星，再以法杖和利息追双三星。"
+      ],
+      "stop_conditions": [
+        "主要双三星完成后停止留6级搜牌并升级。"
+      ],
+      "pivot_conditions": [
+        "核心数量不顺时重估追三，不按4-2时点强行抽空。"
+      ],
+      "position_notes": [
+        "苍蓝雕纹魔像尽量对位敌方主要输出，限制其启动。"
+      ]
+    },
+    {
+      "lineup_id": "4891",
+      "opening": "2阶段魔女配重装，伊莉丝装备齐可保连胜；要为三阶段稳血和魔女奖励窗口保留血量。",
+      "midgame": "3-2升6搜体系两星，常用4重装3魔女；莫甘娜到来可改5魔女，随后慢追伊莉丝三星。",
+      "endgame": "7级有拉露恩即可建立主要框架；经济与容错足够才追更高魔女收益或升9补6重装及五费。",
+      "risk": "血量不足时应及时兑现机制奖励，不为了层数拖到出局；伊莉丝和蛇女追三是不同资源目标。",
+      "roll_actions": [
+        "3-2升6先补全二稳住，再慢追伊莉丝；有莫甘娜时比较高魔女与重装配置。"
+      ],
+      "stop_conditions": [
+        "体系全二先停大搜；血量危险时优先兑现魔女收益和当前战力。"
+      ],
+      "pivot_conditions": [
+        "容错不足时提前结束攒奖励，不强求高层数及双三星同时达成。"
+      ],
+      "position_notes": [
+        "伊莉丝避开敌方强侧主C，莫甘娜、蛇女与伊莉丝同侧；防止伊莉丝开局被爆发击杀。"
+      ]
+    },
+    {
+      "lineup_id": "4886",
+      "opening": "优先做前排装备与乐芙兰装备，来源适合装备多且能保质量的局。",
+      "midgame": "5级可少量搜牌补质量，6级追主要低费三星；蕾欧娜、凯尔、阿兹尔不要求全部追三。",
+      "endgame": "主要追星完成再补人口与功能，别为了所有挂件三星拖延。",
+      "risk": "原文没有固定启动回合或预算，页面应保留缺口，不能补造强制升级表。",
+      "roll_actions": [
+        "5级必要时小搜，6级追核心三星；蕾欧娜、凯尔和阿兹尔按质量承接即可。"
+      ],
+      "stop_conditions": [
+        "主要输出及承伤追星完成后，停止为次要挂件消耗。"
+      ],
+      "pivot_conditions": [
+        "装备与来牌不支持多低费追星时，不按选手标题硬玩。"
+      ],
+      "position_notes": [
+        "瑟庄妮单顶承伤，其余单位围绕输出和加成调整。"
+      ]
+    },
+    {
+      "lineup_id": "4888",
+      "opening": "来源使用所列五张低费体系过渡，但没有给出固定回合或必须升人口的操作。",
+      "midgame": "以50金币利息慢搜，主要目标接近三星时可适当增加单轮搜牌投入。",
+      "endgame": "先完成关键低费追星，再用新增人口补体系；不把源五星开局名单当任意阶段完整棋盘。",
+      "risk": "作者文字简短，缺少退出条件；预算管理属于本页编辑建议。",
+      "roll_actions": [
+        "通常保留50金币慢搜；只有关键牌接近三星时才增加搜牌预算。"
+      ],
+      "stop_conditions": [
+        "主要追星目标完成后停止继续追所有挂件。"
+      ],
+      "pivot_conditions": [
+        "长期未接近三星时保留经济，不因一句‘都能打’持续投入。"
+      ],
+      "position_notes": [
+        "奥恩单顶，卡米尔后置；根据对手切入再调整。"
+      ]
+    },
+    {
+      "lineup_id": "4892",
+      "opening": "可用5峡谷野怪过渡并通过机制补苍蓝雕纹魔像，先保证前排和输出装承接。",
+      "midgame": "作者在3-5升7启动，搜克格莫及对应体系质量。",
+      "endgame": "核心质量就绪后再补人口与功能，来源未给出完整追星预算和固定升8回合。",
+      "risk": "原文简短，不能从‘成型强度高’推算当前胜率或编造三星时限。",
+      "roll_actions": [
+        "3-5升7搜关键体系牌，先补主输出和承伤质量。"
+      ],
+      "stop_conditions": [
+        "完成可稳定战斗的两星核心后重新检查预算与追星数量。"
+      ],
+      "pivot_conditions": [
+        "数量与装备不支持克格莫时，保留野怪底盘选择其他输出。"
+      ],
+      "position_notes": [
+        "克格莫与奈德丽同侧集火前排，为后续伤害创造路径。"
+      ]
+    },
+    {
+      "lineup_id": "4894",
+      "opening": "3-2前以体系牌存钱过渡，通常不主动搜牌和升级；装备差或同行多时不要过早定阵。",
+      "midgame": "3-2升6补体系两星后慢搜沃里克与主坦三星；伊莉丝被争抢时可提前用赫卡里姆承接。",
+      "endgame": "来源常在4-1附近升7补体系，但前提是主要质量已能支撑；有狂战纹章才按6狂战计数，无转职可补裁决。",
+      "risk": "这套依赖献祭与对位，三星主输出和前排优先，不能把所有候选同时追三。",
+      "roll_actions": [
+        "3-2升6补全二后慢搜沃里克及主坦，质量允许再升7补羁绊。"
+      ],
+      "stop_conditions": [
+        "核心与前排完成主要追星后停止6级继续消耗。"
+      ],
+      "pivot_conditions": [
+        "伊莉丝被争抢时换赫卡里姆；没狂战纹章就用可达档位，不强凑6狂战。"
+      ],
+      "position_notes": [
+        "暗影狼作为献祭对象，沃里克与卡兹克寻找敌方主C同侧切入，需随对手换位。"
+      ]
+    },
+    {
+      "lineup_id": "4909",
+      "opening": "前期保经济拿体系牌，装备不适配或同行明显时保留转型空间。",
+      "midgame": "3-2升6搜体系两星，再慢搜沃里克与主要前排三星；阿利斯塔或伊莉丝的选择按数量决定。",
+      "endgame": "至少两个关键三星后再升7，补3野怪、功能五费或更高狂战档位。",
+      "risk": "没有三星前排时沃里克输出环境更差，不能只追主C而忽略承伤。",
+      "roll_actions": [
+        "3-2升6先全二稳血，再追沃里克与选定主坦；完成至少两个关键三星后升7。"
+      ],
+      "stop_conditions": [
+        "主要输出和承伤追星完成后转为补人口。"
+      ],
+      "pivot_conditions": [
+        "前排争抢时按来牌在阿利斯塔、伊莉丝方向间切换，不同时锁死两条追星线。"
+      ],
+      "position_notes": [
+        "献祭暗影狼；沃里克可与阿利斯塔同侧切入，也可在阿利斯塔单顶时后置求稳。"
+      ]
+    },
+    {
+      "lineup_id": "4885",
+      "opening": "野怪配神谕过渡，法装先给小蓝、物装给小红，莫甘娜和克格莫到来后再转装。",
+      "midgame": "经济好且能续连胜时3-5升7，经济不足可3-7再启动；重点追克格莫三星，前排追三并非硬性要求。",
+      "endgame": "作者以4-5前克格莫三星为参考；数量和经济不支持时应改用可成型的物理八四。",
+      "risk": "克格莫被争抢时不能无预算追三；卡兹克切入会影响输出安全。",
+      "roll_actions": [
+        "3-5或3-7升7补体系，优先为克格莫三星保留追星预算。"
+      ],
+      "stop_conditions": [
+        "主C三星后结束主要追星；前排只在数量顺时继续追三。"
+      ],
+      "pivot_conditions": [
+        "同行多或克格莫数量不足时，转主宰物理八四或野兽莲华。"
+      ],
+      "position_notes": [
+        "可用主坦单顶或分边输出；有卡兹克和战士时减少后排被直接接近的路径。"
+      ]
+    },
+    {
+      "lineup_id": "4879",
+      "opening": "3野怪或3莲华打工并保留主宰牌，法装可交给两星小蓝；逐步补4主宰，不为追5野怪偏离核心。",
+      "midgame": "作者4-1升8争阿木木，优先两星婕拉、两星阿木木和低费主宰两星，并核对6主宰与野兽祝福。",
+      "endgame": "血量高而阿木木被争抢时，可先让蔚拿肉装并升9找茂凯、艾翁；高费输出根据转职与装备灵活替换。",
+      "risk": "没有足够主宰计数或关键前排时不能按完整标题视作成型，婕拉还需防切后。",
+      "roll_actions": [
+        "4-1升8搜婕拉与阿木木两星并补低费主宰质量，先保住输出和承伤。"
+      ],
+      "stop_conditions": [
+        "关键两星及6主宰实际达成后停大搜，评估升9。"
+      ],
+      "pivot_conditions": [
+        "阿木木被大量争抢且血量足时，用蔚承装后升9找替代；血量低则先补当前战力。"
+      ],
+      "position_notes": [
+        "前排使用森林或岩石格，婕拉及艾翁优先蘑菇或回蓝格；警惕卡兹克与地狱火艾希。"
+      ]
+    },
+    {
+      "lineup_id": "4839",
+      "opening": "魔女可提供前期经济，启动后转主宰猎人；同时保留伊莉丝，按来牌比较主宰与重装版本。",
+      "midgame": "3-2升6搜体系低费两星，再用法杖和利息慢追凯特琳、主坦三星。",
+      "endgame": "主C和主坦三星后升人口，8级补全；经济有余再升9加艾翁等功能五费。",
+      "risk": "野兽祝福、野怪改件与主坦选择需配套，不能混用另一版本的前排说明。",
+      "roll_actions": [
+        "3-2升6补两星凯特琳和主坦，达标后慢追关键三星。"
+      ],
+      "stop_conditions": [
+        "双关键三星完成后停止6级追星并升级。"
+      ],
+      "pivot_conditions": [
+        "主宰和重装低费均被争抢时，可用物装转厄斐琉斯八四。"
+      ],
+      "position_notes": [
+        "凯特琳等输出与迅捷蟹同侧，避开范围控制和刺客；改件优先级按实际主坦确定。"
+      ]
+    },
+    {
+      "lineup_id": "4840",
+      "opening": "神谕、重装与小精灵打工，装备和两星前排够强才升级保胜；卡兹克早来可上场积累进化。",
+      "midgame": "有同行通常3-5升7抢牌，独家可4-1启动；搜体系全二后，慢追黛安娜、卡兹克、赫卡里姆。",
+      "endgame": "主要追星目标至少两个三星后再升人口；经济允许最后升9加凯南或艾翁。",
+      "risk": "这是输出黛安娜路线，装备取向和常规纯肉主坦不同；对位要求高。",
+      "roll_actions": [
+        "3-5或4-1升7先补体系两星，再按数量追黛安娜、卡兹克与赫卡里姆。"
+      ],
+      "stop_conditions": [
+        "至少两个主要追星目标三星后升级补体系，不继续为全部三费锁死经济。"
+      ],
+      "pivot_conditions": [
+        "同行多且核心数量差时先保留可转装与两星质量。"
+      ],
+      "position_notes": [
+        "主要输出与敌方主C同侧，克格莫也同侧提供配合；随对手频繁调整。"
+      ]
+    },
+    {
+      "lineup_id": "4871",
+      "opening": "3永森用物理攻速装过渡，尽量维持二、三阶段质量，避免高连败硬冲八四。",
+      "midgame": "需要迅捷射手转职；同行多或血量低则4-1升8，通常可4-2升8找关键四费两星。",
+      "endgame": "8级主框架全二后再升9补黛安娜等功能；是否追四费取决于场外数量和预算。",
+      "risk": "没有迅射转职时不能按5迅捷模板成型，亦需防刺客及阿狸范围伤害。",
+      "roll_actions": [
+        "有转职前提下4-1或4-2升8，优先完成关键四费和主坦两星。"
+      ],
+      "stop_conditions": [
+        "关键框架两星后停止大搜，转为升9或有条件追四费。"
+      ],
+      "pivot_conditions": [
+        "转职缺失时使用其他厄斐琉斯框架，不为标题硬塞挂件。"
+      ],
+      "position_notes": [
+        "后排输出同侧，厄斐琉斯对位敌方主C，并避开切后及范围伤害。"
+      ]
+    },
+    {
+      "lineup_id": "4872",
+      "opening": "低费体系以高经济开局为主，通常存钱准备野怪后启动；诅咒冠冕玩法有额外操作要求。",
+      "midgame": "2-7后作者建议投入约20至30金币补低费，三阶段继续追星；有三个主要三星后升6开3日蚀，再慢追其余关键低费。",
+      "endgame": "主要三星约五个后升7补体系，经济允许再升8补阿木木或五费；奥恩和韦鲁斯是主要追星点。",
+      "risk": "跟同行硬卷、遇范围爆发都增加风险；预算数字是参考，不能忽略实际数量。",
+      "roll_actions": [
+        "2-7后小规模集中补质量，三阶段慢追；三个关键三星后升6继续完善低费体系。"
+      ],
+      "stop_conditions": [
+        "主要低费追星完成后停止6级追三，升级补强。"
+      ],
+      "pivot_conditions": [
+        "同行多且关键一费数量低时控制投入，避免同时追满所有单位。"
+      ],
+      "position_notes": [
+        "韦鲁斯与敌方主C对角，主坦单顶，其余后置；随对手范围伤害调整。"
+      ]
+    },
+    {
+      "lineup_id": "4859",
+      "opening": "地狱火配护卫、迅捷过渡，韦鲁斯暂接装备；二星韦鲁斯且装备合适时才升级续胜。",
+      "midgame": "通常4-2升8，找至少一张艾希并补其他关键四费两星；地狱火拉克丝没来时用两张地狱火挂件维持5档。",
+      "endgame": "实际5地狱火和关键两星稳定后升人口补两星五费；艾希不到时装备可交婕拉或希维尔承接。",
+      "risk": "8级找不到艾希时不要持续按五费主C终局耗钱，及时改用已来的八四输出。",
+      "roll_actions": [
+        "4-2升8优先艾希一张和关键四费两星，同时检查5地狱火是否真正激活。"
+      ],
+      "stop_conditions": [
+        "艾希、前排质量及5地狱火到位后停止当前人口大搜。"
+      ],
+      "pivot_conditions": [
+        "艾希长期不来时，把输出装交婕拉或希维尔稳血。"
+      ],
+      "position_notes": [
+        "艾希对角威胁主C，前排展开、后排分侧；没有地狱火拉克丝时不能过早撤掉羁绊挂件。"
+      ]
+    },
+    {
+      "lineup_id": "4875",
+      "opening": "地狱火、永森或莲华均可打工，但这条九五路线需要较强连胜经济；没有这种条件就优先八四。",
+      "midgame": "前中期通常不搜，4-1血量高时可少量补质量，四阶段保留升9预算。",
+      "endgame": "来源以5-1升9为参考，之后集中搜高费两星并用战力法杖补即时质量。",
+      "risk": "九五未成型阶段容易掉血，不能把作者的后期强度描述当保血保证。",
+      "roll_actions": [
+        "四阶段先判断能否安全升9；可以时在5-1附近启动高费搜牌，否则转八四。"
+      ],
+      "stop_conditions": [
+        "前期补质量搜牌应有限额，避免把升9预算全部用在临时牌上。"
+      ],
+      "pivot_conditions": [
+        "四阶段血量不足或经济太差时停九五计划，改为8级补质量。"
+      ],
+      "position_notes": [
+        "来源只给示例棋盘，需按切后、控制与范围伤害重新调整，不补造固定克制站位。"
+      ]
+    },
+    {
+      "lineup_id": "4873",
+      "opening": "地狱火纹章开局可让霞持有，韦鲁斯、慎配永森组成护卫迅捷过渡，尽早开3地狱火。",
+      "midgame": "作者常规参考2-1升4、2-5升5、3-2升6、3-5升7、4-2升8；8级可找阿木木开5地狱火。",
+      "endgame": "大连胜且质量够时用临时输出承装升9，再找远古巨龙等高费两星；连败则优先搜中期框架稳血。",
+      "risk": "地狱火纹章是来源前提，固定升级表也必须服从真实经济和血量。",
+      "roll_actions": [
+        "4-2到8级后按连胜与血量决定小搜阿木木后升9，或留8级补中期质量。"
+      ],
+      "stop_conditions": [
+        "关键地狱火档位与承伤稳定后才停止补质量，保留升级预算。"
+      ],
+      "pivot_conditions": [
+        "没有安全升9条件时用8级输出承接，不空等巨龙。"
+      ],
+      "position_notes": [
+        "阿木木在外侧、茂凯居中，凯南靠敌方主C一侧，巨龙对角威胁后排。"
+      ]
+    },
+    {
+      "lineup_id": "4876",
+      "opening": "地狱火配永森或莲华配主宰裁决过渡均可，分别用韦鲁斯或芸阿娜承装；九五目标需要较强经济与连胜支撑。",
+      "midgame": "通常少搜，4-2补质量的投入控制在约20金币以内；随后判断是否能在5-1附近升9。",
+      "endgame": "9级集中补两星高费框架，经济有余才升10加艾翁、拉克丝或拉露恩。",
+      "risk": "四阶段必须决定继续九五还是转主宰猎人八四，不得为五费终局无限放容错。",
+      "roll_actions": [
+        "4-2有限预算补质量，判断能否5-1附近升9；不能则结束九五计划。"
+      ],
+      "stop_conditions": [
+        "临时补质量达到预算上限便停手，不继续挤占升级资金。"
+      ],
+      "pivot_conditions": [
+        "血量与经济不足以升9时，转主宰猎人八四稳住。"
+      ],
+      "position_notes": [
+        "艾希与巨龙分侧，艾希对角威胁敌方主C；前排展开，避免同侧范围爆发。"
+      ]
+    },
+    {
+      "lineup_id": "4912",
+      "opening": "沃里克数量多或有暗行者之爪时更适合选这条路线，优先做其输出装备并尽量保血。",
+      "midgame": "3-2升6，通常留50金币利息慢搜暗影狼、沃里克与阿利斯塔三星。",
+      "endgame": "关键追星完成后补体系和人口；三星暗影狼可作为献祭对象，强化沃里克而非作为第二个常规主C照搬。",
+      "risk": "神器和数量都是条件，不能仅因有沃里克就保证能复现冠军局。",
+      "roll_actions": [
+        "3-2升6后以50金币利息慢搜沃里克、暗影狼和阿利斯塔。"
+      ],
+      "stop_conditions": [
+        "主要输出、主坦及献祭目标完成后停止低人口追星。"
+      ],
+      "pivot_conditions": [
+        "关键数量不足时重新评估追三投入，不因为阵容作者头衔追加无预算搜牌。"
+      ],
+      "position_notes": [
+        "阿利斯塔单顶，其他单位后置；三星暗影狼用于献祭，苍蓝雕纹魔像对位敌方后排。"
+      ]
+    },
+    {
+      "lineup_id": "4933",
+      "opening": "三阶段已有月蚀纹章才考虑此路线；地狱火与3日蚀打工，二星韦鲁斯有装备时可升级保胜。",
+      "midgame": "4-1或4-2升8，确认升级后仍有约30金币搜牌；先补两星四费主坦，并实际凑出3日蚀加3月蚀。",
+      "endgame": "双蚀与两星前排稳定后再升9，补两星凯南、艾翁等功能高费。",
+      "risk": "关键是月蚀纹章及双侧断点，不能把日月双蚀当能直接购买的独立棋子羁绊。",
+      "roll_actions": [
+        "升8且仍有搜牌预算后，优先两星主坦与双蚀激活，再补厄斐琉斯及其他核心质量。"
+      ],
+      "stop_conditions": [
+        "双蚀和关键两星质量稳定后停止8级大搜，评估升9。"
+      ],
+      "pivot_conditions": [
+        "没有月蚀纹章或升级后无钱搜牌时，改用常规厄斐琉斯框架。"
+      ],
+      "position_notes": [
+        "阿木木单顶，前排围绕月蚀邻格；后期厄斐琉斯避开卡兹克切入和范围爆发。"
+      ]
+    },
+    {
+      "lineup_id": "4934",
+      "opening": "3永森打工，二阶段卡兹克早来才考虑主追，尽早上场积累进化；装备不足时先保经济。",
+      "midgame": "通常3-5升7搜，经济落后可延至4-1；优先追卡兹克三星，赫卡里姆和黛安娜不要求同时三星。",
+      "endgame": "卡兹克三星后先升人口补体系，8级再按数量比较继续追前排或升9加两星五费。",
+      "risk": "主C依赖早期发育与对位，不能等到后期才拿一张卡兹克照抄终局。",
+      "roll_actions": [
+        "3-5或4-1升7搜体系并追卡兹克三星，达标后优先升8补体系。"
+      ],
+      "stop_conditions": [
+        "卡兹克三星后停止为全部三费留7级，转为升级。"
+      ],
+      "pivot_conditions": [
+        "二阶段没有卡兹克或同行过多时，不强行选定这条追星路线。"
+      ],
+      "position_notes": [
+        "卡兹克尽量与敌方主C同侧，进化顺序参考狂战、裁决、法师，需频繁观察并换位。"
+      ]
+    }
+  ],
+  "orange_supplemental_recipes": [
+    {
+      "id": "orange-regional-ryze",
+      "name": "多地区瑞兹流",
+      "core_hero_ids": [
+        "15280"
+      ],
+      "card_names": [
+        "流浪的救世者",
+        "三顾炉乡",
+        "熔炉之神的杰作"
+      ],
+      "url": "https://news.17173.com/content/11102026/140606880.shtml",
+      "summary_ours": "先让地区小羁绊实际激活，再利用瑞兹地区加成及奥恩/神器资源补强；地区方向随来牌选择，不要求凑齐所有地区。",
+      "caveat": "流浪的救世者在4-5启用并明确排除部分地区；未列出排除清单，不能给每个地区无条件加1。三顾炉乡是到达7/8/9级分别给奥恩，启用1-3不等于当场到账。熔炉之神的杰作未在当前配置找到精确同名，不擅自替换。",
+      "card_ids": [
+        "7250047",
+        "7240094"
+      ],
+      "unresolved_card_names": [
+        "熔炉之神的杰作"
+      ],
+      "published_at": "2026-11-10",
+      "source_verification": "official_account_mirror_read_2026-11-17",
+      "mechanism_trait_keys": [
+        "origin:363"
+      ]
+    },
+    {
+      "id": "orange-prismatic",
+      "name": "棱彩羁绊流",
+      "core_hero_ids": [
+        "11403",
+        "11402"
+      ],
+      "card_names": [
+        "行走于棱彩之道",
+        "迅捷蟹奇袭 I",
+        "万物落笔端"
+      ],
+      "url": "https://news.17173.com/content/11102026/162212645.shtml",
+      "summary_ours": "围绕约德尔或艾欧尼亚二选一积累原生牌，复制低费牌提高质量；棱彩层级要等行走于棱彩之道的6-1解锁，再核对实际计数。",
+      "caveat": "解锁棱彩层级不是自动凑满10羁绊。当前配置只有迅捷蟹奇袭！且无I后缀，与发布配方同名不完全对应，保留未解析。",
+      "card_ids": [
+        "7250029",
+        "7250059"
+      ],
+      "unresolved_card_names": [
+        "迅捷蟹奇袭 I"
+      ],
+      "published_at": "2026-11-10",
+      "source_verification": "official_account_mirror_read_2026-11-17",
+      "mechanism_trait_keys": [
+        "origin:351",
+        "origin:343"
+      ]
+    },
+    {
+      "id": "orange-seven-cost",
+      "name": "七费降临流",
+      "core_hero_ids": [
+        "15285"
+      ],
+      "card_names": [
+        "黑玫瑰夜市",
+        "大神降临",
+        "德玛西亚巨像"
+      ],
+      "url": "https://news.17173.com/content/11102026/135954034.shtml",
+      "summary_ours": "预留接下来三次解锁并购买的名额给可落地的关键牌；3-5加里奥与3-7随机七费解锁后，再用实际奖励决定阵容承接。",
+      "caveat": "黑玫瑰夜市要求解锁并购买，前三个名额可能已被其他任务牌消耗。加里奥在备战区提供德玛计数，不能当普通前排放入人口图；大神降临结果随机，不预设七费姓名。",
+      "card_ids": [
+        "7250036",
+        "7240093",
+        "7250046"
+      ],
+      "unresolved_card_names": [],
+      "published_at": "2026-11-10",
+      "source_verification": "official_account_mirror_read_2026-11-17",
+      "mechanism_trait_keys": [
+        "origin:341",
+        "origin:367"
+      ]
+    }
+  ],
+  "orange_author_lineups": [
+    {
+      "key": "orange-author-river-tryndamere",
+      "name": "河流蛮王",
+      "kind": "author_complete_lineup",
+      "source": {
+        "article_url": "https://news.17173.com/content/11152026/143636200.shtml",
+        "publisher": "金铲铲之战（17173公众号镜像）",
+        "published_at": "2026-11-15",
+        "content_attribution": "来源作者投稿；官方号收录的作者推荐示例，不是对局统计或官方平衡结论",
+        "image_urls": [
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/TbfkUKbuhoExFFe.png",
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/GOJhAFbuhoExFEk.png",
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/VMnLfFbuhoExFCc.png",
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/lXdxdobuhoExFBw.png"
+        ],
+        "local_image_paths": [
+          "work/strategy_research/orange-river-2026-11-15-1.png",
+          "work/strategy_research/orange-river-2026-11-15-2.png",
+          "work/strategy_research/orange-river-2026-11-15-3.png",
+          "work/strategy_research/orange-river-2026-11-15-4.png"
+        ],
+        "review_method": "逐图可视阅读；英雄ID/卡片ID/装备ID对照归档官方配置，冲突单列",
+        "patch_status": "文章未明确写强度补丁；晚于18.6a发布日期不等于已验证18.6a最优"
+      },
+      "portal_claim": [
+        "稳定",
+        "波动"
+      ],
+      "card_ids": [
+        "7230085",
+        "7250056",
+        "7230037"
+      ],
+      "published_card_names": [
+        "贪欲恶魔 I",
+        "传说的主角",
+        "杰作熔铸 II"
+      ],
+      "core_ids": [
+        "12405",
+        "12416",
+        "13322"
+      ],
+      "carry_ids": [
+        "12405",
+        "12416"
+      ],
+      "frontline_ids": [
+        "13322"
+      ],
+      "early_board": [
+        {
+          "hero_id": "13322",
+          "hero_name": "瑟庄妮",
+          "row": 1,
+          "col": 6,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12405",
+          "hero_name": "泰达米尔",
+          "row": 3,
+          "col": 6,
+          "is_pet": false,
+          "item_ids": [
+            "41629"
+          ]
+        },
+        {
+          "hero_id": "14353",
+          "hero_name": "卑尔维斯",
+          "row": 3,
+          "col": 7,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12416",
+          "hero_name": "艾希",
+          "row": 4,
+          "col": 7,
+          "is_pet": false,
+          "item_ids": []
+        }
+      ],
+      "mid_board": [
+        {
+          "hero_id": "13322",
+          "hero_name": "瑟庄妮",
+          "row": 1,
+          "col": 6,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12411",
+          "hero_name": "妮蔻",
+          "row": 1,
+          "col": 7,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12405",
+          "hero_name": "泰达米尔",
+          "row": 3,
+          "col": 6,
+          "is_pet": false,
+          "item_ids": [
+            "41629",
+            "2006",
+            "2012"
+          ]
+        },
+        {
+          "hero_id": "14353",
+          "hero_name": "卑尔维斯",
+          "row": 3,
+          "col": 7,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "13335",
+          "hero_name": "德莱文",
+          "row": 4,
+          "col": 6,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12416",
+          "hero_name": "艾希",
+          "row": 4,
+          "col": 7,
+          "is_pet": false,
+          "item_ids": []
+        }
+      ],
+      "final_board": [
+        {
+          "hero_id": "15281",
+          "hero_name": "奥恩",
+          "row": 1,
+          "col": 2,
+          "is_pet": false
+        },
+        {
+          "hero_id": "14352",
+          "hero_name": "布隆",
+          "row": 1,
+          "col": 3,
+          "is_pet": false
+        },
+        {
+          "hero_id": "13322",
+          "hero_name": "瑟庄妮",
+          "row": 1,
+          "col": 6,
+          "is_pet": false
+        },
+        {
+          "hero_id": "12411",
+          "hero_name": "妮蔻",
+          "row": 1,
+          "col": 7,
+          "is_pet": false
+        },
+        {
+          "hero_id": "14336",
+          "hero_name": "斯维因",
+          "row": 2,
+          "col": 5,
+          "is_pet": false
+        },
+        {
+          "hero_id": "14353",
+          "hero_name": "卑尔维斯",
+          "row": 3,
+          "col": 2,
+          "is_pet": false
+        },
+        {
+          "hero_id": "12405",
+          "hero_name": "泰达米尔",
+          "row": 3,
+          "col": 6,
+          "is_pet": false
+        },
+        {
+          "hero_id": "13335",
+          "hero_name": "德莱文",
+          "row": 4,
+          "col": 1,
+          "is_pet": false
+        },
+        {
+          "hero_id": "12416",
+          "hero_name": "艾希",
+          "row": 4,
+          "col": 7,
+          "is_pet": false
+        }
+      ],
+      "source_entity_counts": {
+        "early": 4,
+        "mid": 6,
+        "final": 9
+      },
+      "source_population": null,
+      "unidentified_schematic_markers": [
+        {
+          "board": "early",
+          "row": 2,
+          "col": 6,
+          "description": "蓝色护甲轮廓标记，下面有泰达米尔文字。未命名，不映射木桩假人或计算人口。"
+        },
+        {
+          "board": "mid",
+          "row": 2,
+          "col": 6,
+          "description": "同上；图中另有泰达米尔头像，不重复计英雄。"
+        },
+        {
+          "board": "final",
+          "row": 2,
+          "col": 2,
+          "description": "蓝色护甲轮廓，无标题。身份待核，不作为可购买英雄。"
+        },
+        {
+          "board": "final",
+          "row": 2,
+          "col": 6,
+          "description": "蓝色护甲轮廓，无标题。身份待核，不作为可购买英雄。"
+        }
+      ],
+      "equipment": [
+        {
+          "hero_id": "12405",
+          "hero_name": "泰达米尔",
+          "preferred_item_ids": [
+            "2006",
+            "2012",
+            "2005"
+          ],
+          "alternative_item_ids": [
+            "2039",
+            "2007"
+          ],
+          "emblem_item_ids": [
+            "41629"
+          ],
+          "evidence": "source_image_3_preferred_and_alternative_icons_compared_with_archived_official_item_icons",
+          "notes": [
+            "作者原文指定主角给泰达米尔，杰作升级优先汲取剑与泰坦。"
+          ]
+        },
+        {
+          "hero_id": "13322",
+          "hero_name": "瑟庄妮",
+          "preferred_item_ids": [
+            "2028",
+            "2025",
+            "2019"
+          ],
+          "alternative_item_ids": [
+            "2034",
+            "2031"
+          ],
+          "emblem_item_ids": [],
+          "evidence": "source_image_3_preferred_and_alternative_icons_compared_with_archived_official_item_icons",
+          "notes": []
+        },
+        {
+          "hero_id": "12416",
+          "hero_name": "艾希",
+          "preferred_item_ids": [
+            "2010",
+            "2013",
+            "2046"
+          ],
+          "alternative_item_ids": [
+            "2037",
+            "2045"
+          ],
+          "emblem_item_ids": [],
+          "evidence": "source_image_3_preferred_and_alternative_icons_compared_with_archived_official_item_icons",
+          "notes": []
+        }
+      ],
+      "actions_reviewed": [
+        {
+          "stage": "opening",
+          "condition": "采用该作者卡组且需要先解锁泰达米尔",
+          "action": "作者前期不主动买经验，先让艾希带一件装备参加战斗完成解锁。",
+          "source_image": 4
+        },
+        {
+          "stage": "card_2-7",
+          "condition": "已携带贪欲恶魔 I且其奖励实际出现",
+          "action": "把河流之王纹章交给泰达米尔；作者随后每回合喂给他物理射手弈子（客户端战斗定位，不等同于职业羁绊）推进河流成长。",
+          "source_image": 4
+        },
+        {
+          "stage": "3-2_author_reference",
+          "condition": "血量经济允许；已完成前置解锁",
+          "action": "作者在3-2升6，留利息追泰达米尔和艾希三星；不是该卡组对所有局必然可实现的回合。",
+          "source_image": 4
+        },
+        {
+          "stage": "after_core_three_star",
+          "condition": "泰达米尔与艾希均三星",
+          "action": "再升7追瑟庄妮三星；完成后保利息升级补终局体系牌。",
+          "source_image": 4
+        }
+      ],
+      "unlock_evidence": [
+        {
+          "hero_id": "12405",
+          "image_summary": "战斗登场带一件装备的艾希。",
+          "official_mission_archive": "在战斗中登场：配备着1件装备的艾希",
+          "conflict": false
+        }
+      ],
+      "claims_not_supported": [
+        "未给出胜率、样本量、同行条件下成功率或最优装备概率。",
+        "前期图未标人口，只有4个可确认英雄头像。",
+        "蓝色标记身份未证实，不得填入普通池或宣称其占用槽位。"
+      ],
+      "stage_equipment_note": "阶段装备仅按该阶段来源图标记录，未标装备留空，不从终局推荐继承。"
+    },
+    {
+      "key": "orange-author-zaun-darius",
+      "name": "祖安诺手",
+      "kind": "author_complete_lineup",
+      "source": {
+        "article_url": "https://news.17173.com/content/11142026/135821709.shtml",
+        "publisher": "金铲铲之战（17173公众号镜像）",
+        "published_at": "2026-11-14",
+        "content_attribution": "来源作者投稿；官方号收录的作者推荐示例，不是对局统计或官方平衡结论",
+        "image_urls": [
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/lJtbXRbuhmkfizq.png",
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/KMiDkBbuhmkfiuo.png",
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/nCNzoubuhmkfiwf.png",
+          "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/DmzSyVbuhmkfitz.png"
+        ],
+        "local_image_paths": [
+          "work/strategy_research/orange-zaun-2026-11-14-1.png",
+          "work/strategy_research/orange-zaun-2026-11-14-2.png",
+          "work/strategy_research/orange-zaun-2026-11-14-3.png",
+          "work/strategy_research/orange-zaun-2026-11-14-4.png"
+        ],
+        "review_method": "逐图可视阅读；英雄ID/卡片ID/装备ID对照归档官方配置，冲突单列",
+        "patch_status": "文章未明确写强度补丁；晚于18.6a发布日期不等于已验证18.6a最优"
+      },
+      "portal_claim": [
+        "稳定",
+        "波动"
+      ],
+      "card_ids": [
+        "7250056",
+        "7230114",
+        "7230037"
+      ],
+      "published_card_names": [
+        "传说的主角",
+        "坚毅药水",
+        "杰作熔铸 II"
+      ],
+      "core_ids": [
+        "13337",
+        "13332",
+        "13336"
+      ],
+      "carry_ids": [
+        "13337",
+        "13332"
+      ],
+      "frontline_ids": [
+        "13336"
+      ],
+      "early_board": [
+        {
+          "hero_id": "13337",
+          "hero_name": "德莱厄斯",
+          "row": 1,
+          "col": 1,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12403",
+          "hero_name": "蔚",
+          "row": 1,
+          "col": 2,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "13336",
+          "hero_name": "蒙多医生",
+          "row": 1,
+          "col": 3,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12408",
+          "hero_name": "赛恩",
+          "row": 1,
+          "col": 4,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "13332",
+          "hero_name": "金克丝",
+          "row": 4,
+          "col": 1,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "13335",
+          "hero_name": "德莱文",
+          "row": 4,
+          "col": 2,
+          "is_pet": false,
+          "item_ids": []
+        }
+      ],
+      "mid_board": [
+        {
+          "hero_id": "13337",
+          "hero_name": "德莱厄斯",
+          "row": 1,
+          "col": 4,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "12403",
+          "hero_name": "蔚",
+          "row": 2,
+          "col": 2,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "13336",
+          "hero_name": "蒙多医生",
+          "row": 2,
+          "col": 3,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "11412",
+          "hero_name": "布里茨",
+          "row": 2,
+          "col": 4,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "14338",
+          "hero_name": "辛吉德",
+          "row": 2,
+          "col": 5,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "14333",
+          "hero_name": "沃里克",
+          "row": 2,
+          "col": 6,
+          "is_pet": false,
+          "item_ids": []
+        },
+        {
+          "hero_id": "13332",
+          "hero_name": "金克丝",
+          "row": 4,
+          "col": 1,
+          "is_pet": false,
+          "item_ids": []
+        }
+      ],
+      "final_board": [
+        {
+          "hero_id": "13337",
+          "hero_name": "德莱厄斯",
+          "row": 1,
+          "col": 4,
+          "is_pet": false
+        },
+        {
+          "hero_id": "12403",
+          "hero_name": "蔚",
+          "row": 2,
+          "col": 2,
+          "is_pet": false
+        },
+        {
+          "hero_id": "14333",
+          "hero_name": "沃里克",
+          "row": 2,
+          "col": 3,
+          "is_pet": false
+        },
+        {
+          "hero_id": "11412",
+          "hero_name": "布里茨",
+          "row": 2,
+          "col": 4,
+          "is_pet": false
+        },
+        {
+          "hero_id": "13336",
+          "hero_name": "蒙多医生",
+          "row": 2,
+          "col": 5,
+          "is_pet": false
+        },
+        {
+          "hero_id": "14338",
+          "hero_name": "辛吉德",
+          "row": 2,
+          "col": 6,
+          "is_pet": false
+        },
+        {
+          "hero_id": "13332",
+          "hero_name": "金克丝",
+          "row": 4,
+          "col": 1,
+          "is_pet": false
+        },
+        {
+          "hero_id": "13335",
+          "hero_name": "德莱文",
+          "row": 4,
+          "col": 3,
+          "is_pet": false
+        },
+        {
+          "hero_id": "15397",
+          "hero_name": "卢锡安与赛娜",
+          "row": 4,
+          "col": 7,
+          "is_pet": false
+        }
+      ],
+      "source_entity_counts": {
+        "early": 6,
+        "mid": 7,
+        "final": 9
+      },
+      "source_population": null,
+      "identity_notes": [
+        "终局卢锡安与赛娜使用基础canonical ID15397；归档15398为同名另一技能形态且头像相同，图像本身不能区分技能形态。生产方若需要精确形态，必须追加机制证据，不得以头像宣称已判定。"
+      ],
+      "equipment": [
+        {
+          "hero_id": "13337",
+          "hero_name": "德莱厄斯",
+          "preferred_item_ids": [
+            "2006",
+            "2012",
+            "2005"
+          ],
+          "alternative_item_ids": [
+            "2039",
+            "2007"
+          ],
+          "emblem_item_ids": [
+            "41613"
+          ],
+          "evidence": "source_image_3_preferred_and_alternative_icons_compared_with_archived_official_item_icons",
+          "notes": [
+            "作者图示主角选择器与坚毅药水给德莱厄斯；杰作升级优先汲取剑与泰坦。"
+          ]
+        },
+        {
+          "hero_id": "13336",
+          "hero_name": "蒙多医生",
+          "preferred_item_ids": [
+            "2025",
+            "2034",
+            "2019"
+          ],
+          "alternative_item_ids": [
+            "2028",
+            "2031"
+          ],
+          "emblem_item_ids": [],
+          "evidence": "source_image_3_preferred_and_alternative_icons_compared_with_archived_official_item_icons",
+          "notes": []
+        },
+        {
+          "hero_id": "13332",
+          "hero_name": "金克丝",
+          "preferred_item_ids": [
+            "2010",
+            "2004",
+            "6088"
+          ],
+          "alternative_item_ids": [
+            "2046"
+          ],
+          "emblem_item_ids": [],
+          "evidence": "source_image_3_preferred_and_alternative_icons_compared_with_archived_official_item_icons",
+          "notes": [
+            "图中还有第二备选金色箭头图标，未在本次对照中确定ID，省略而不猜。"
+          ]
+        }
+      ],
+      "actions_reviewed": [
+        {
+          "stage": "opening",
+          "condition": "该作者牌路成立且可凑3祖安",
+          "action": "先用3祖安累计作者所述11场战斗取得科技钥匙；这不是固定第11回合或无条件获得。",
+          "source_image": 4
+        },
+        {
+          "stage": "level5_unlock",
+          "condition": "达到5级且有德莱文和至少一件装备",
+          "action": "让带装德莱文参加战斗解锁德莱厄斯；前期输出装备先由金克丝承接。",
+          "source_image": 4
+        },
+        {
+          "stage": "3-2_author_reference",
+          "condition": "资源允许且已按任务取得需要的单位",
+          "action": "作者3-2升6优先开5祖安，多余肉装交给两星前排。",
+          "source_image": 4
+        },
+        {
+          "stage": "3-5_author_reference",
+          "condition": "可升7且德莱厄斯已解锁；追牌和血量允许",
+          "action": "作者3-5升7找德莱厄斯两星，钥匙到手后赋给他开7祖安，留利息追德莱厄斯和金克丝三星。",
+          "source_image": 4
+        },
+        {
+          "stage": "after_core_three_star",
+          "condition": "主力三星且有升级余力",
+          "action": "再升级补卢锡安与赛娜；保留德莱文作体系补强。",
+          "source_image": 4
+        }
+      ],
+      "unlock_evidence": [
+        {
+          "hero_id": "13337",
+          "image_summary": "5级起，登场带一件装备的德莱文。",
+          "official_mission_archive": "在战斗中登场：配备着1件装备的德莱文;5级起",
+          "conflict": false
+        },
+        {
+          "hero_id": "14338",
+          "image_summary": "失去35玩家生命值；战斗登场4个独特的祖安或主宰弈子。",
+          "official_mission_archive": "失去35玩家生命值;失去10玩家生命值",
+          "conflict": true,
+          "handling": "保留作者图与11月5日任务配置两种证据，不将其中一个无声覆盖另一个；实际客户端确认前标任务条件冲突。"
+        },
+        {
+          "hero_id": "14333",
+          "image_summary": "7级起，战斗登场金克丝与蔚，二者分别带一件装备。",
+          "official_mission_archive": "在战斗中登场：【金克丝】配备着1件装备;7级起",
+          "conflict": true,
+          "handling": "图比归档多出蔚带装条件，实际客户端确认前标条件冲突；不可默称官方配置原文含蔚。"
+        }
+      ],
+      "claims_not_supported": [
+        "未给出对局胜率、样本量或当前版本最优结论。",
+        "11场战斗需关联祖安生效及科技钥匙机制，不能压成固定回合领钥匙。",
+        "辛吉德和沃里克任务图与官方任务归档有冲突，不能把作者图当当前官方配置。"
+      ],
+      "stage_equipment_note": "阶段装备仅按该阶段来源图标记录，未标装备留空，不从终局推荐继承。"
+    }
+  ]
 }

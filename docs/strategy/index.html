@@ -6,8 +6,8 @@
   <meta name="color-scheme" content="dark">
   <meta name="description" content="按职业、特质查找金铲铲体系牌与阵容，查看前中后期过渡、搜牌升级条件、装备及站位来源。">
   <title>羁绊与阵容运营 · 弈策</title>
-  <link rel="stylesheet" href="./strategy.css?v=02349c94ada7">
-  <script src="./strategy.js?v=02349c94ada7" defer></script>
+  <link rel="stylesheet" href="./strategy.css?v=4f23e8a9b145">
+  <script src="./strategy.js?v=4f23e8a9b145" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#strategy-detail">跳到体系与运营详情</a>
@@ -15,20 +15,25 @@
   <main class="page-shell">
     <section class="page-heading"><div><p class="eyebrow">TRAITS / COMPOSITIONS / GAME PLAN</p><h1>从一个羁绊，搭出运营路线<span>.</span></h1><p class="heading-description">先找体系牌，再看过渡、搜牌与成型。职业、特质和独有挂件分清楚。</p></div><div class="mode-switch" role="group" aria-label="选择玩法"><button type="button" data-mode="nature" class="selected" aria-pressed="true">自然之力<small>阵容与过渡</small></button><button type="button" data-mode="orange" aria-pressed="false">大橘大利<small>卡组与任务核心</small></button></div></section>
     <div class="version-strip"><span id="version-badge">规则资料载入中</span><p id="version-notice">明确阵容与条件性推导会分别标注，运营建议保留来源。</p></div>
+    <div id="coverage-summary" class="coverage-summary" aria-label="资料覆盖情况" hidden></div>
+    <div id="capstone-entry" class="capstone-entry" hidden><div><strong>高阶 / 棱彩羁绊路线</strong><span id="capstone-summary"></span></div><button type="button" id="show-prismatic">筛选棱彩羁绊 ↗</button></div>
     <div id="load-message" class="load-message" role="status" aria-live="polite"><span class="loading-dot"></span>正在整理羁绊与运营路线…</div>
     <div class="strategy-workspace" id="strategy-workspace" hidden>
-      <aside class="index-panel" aria-label="羁绊与阵容索引">
+      <aside class="index-panel" id="index-panel" aria-label="羁绊与阵容索引" tabindex="-1">
         <div class="index-tabs" role="group" aria-label="浏览类型"><button type="button" class="selected" data-index="traits" aria-pressed="true">羁绊索引</button><button type="button" data-index="comps" aria-pressed="false">阵容总览</button></div>
         <label class="search-field"><span aria-hidden="true">⌕</span><input id="strategy-search" type="search" placeholder="搜索羁绊、棋子或阵容" aria-label="搜索羁绊、棋子或阵容" autocomplete="off"><kbd>/</kbd></label>
         <label class="kind-filter">羁绊类型<select id="trait-kind"><option value="">全部类型</option><option value="class">职业</option><option value="origin">特质</option></select></label>
+        <label class="kind-filter">内容完整度<select id="coverage-filter"><option value="">全部资料</option><option value="full">有完整终局图</option><option value="partial">仅不完整棋盘</option><option value="core">有卡片核心路线</option><option value="mechanism">仅机制 / 计数参考</option></select></label>
+        <label class="prismatic-toggle" id="prismatic-toggle" hidden><input type="checkbox" id="prismatic-only">仅看有棱彩档位的羁绊</label>
         <div class="index-summary"><span id="index-title">羁绊索引</span><span id="index-count">—</span></div>
         <div id="strategy-index" class="strategy-index"></div>
         <div id="index-empty" class="empty-index" hidden><strong>没有找到匹配条目</strong><p>试试其他名称，或清除筛选。</p><button type="button" id="reset-search" class="text-button">清除筛选</button></div>
       </aside>
-      <section id="strategy-detail" class="strategy-detail" tabindex="-1" aria-label="体系与运营详情"></section>
+      <div class="detail-column"><div id="selection-notice" class="selection-notice" role="status" aria-live="polite" hidden><p id="selection-notice-text"></p><button type="button" id="clear-active-filter" class="text-button">清除筛选，显示当前条目</button></div><section id="strategy-detail" class="strategy-detail" tabindex="-1" aria-label="体系与运营详情"></section></div>
     </div>
     <footer><span>弈策 · 羁绊与阵容运营</span><p>来牌、装备、血量与对手会改变路线。来源不完整的步骤保留为条件性参考。</p><a href="https://github.com/Yinita/jcc-expert" target="_blank" rel="noopener noreferrer">项目与数据说明 ↗</a></footer>
   </main>
+  <button id="return-to-index" class="return-to-index" type="button" data-scroll-target="index-panel" hidden>切换羁绊 / 阵容 ↑</button>
   <dialog id="unit-dialog" class="unit-dialog" aria-labelledby="unit-dialog-title"><div class="dialog-heading"><span class="eyebrow">UNIT & ITEM DETAILS</span><button type="button" id="close-unit" class="icon-button" aria-label="关闭详情">×</button></div><div id="unit-dialog-body"></div></dialog>
 </body>
 </html>

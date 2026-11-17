@@ -15,13 +15,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "99555e3fe83f5d448aa54602bdbda79fa372c9a4a54da4aa08e48f3364abb85b",
-      "bytes": 11681
+      "sha256": "4bfbb8ca05ad39cc74944f90f66de61c351219e7ab9eb4bd4ba755519f73da2f",
+      "bytes": 12184
+    },
+    {
+      "path": "RED_TEAM_REVIEW.md",
+      "sha256": "bda6800bd96c8f2e7e07be0e91d87b983d3c330d5c6c32bf80dc19c8aaa650da",
+      "bytes": 16650
     },
     {
       "path": "STRATEGY_GUIDE_DATA.md",
-      "sha256": "68d6cf9cc9274932ded8751e238bdf634010377e985f8c2186613a3eb2e72989",
-      "bytes": 5373
+      "sha256": "f23405cb05849ec349d3077bc43222ee7be1bb1decb4e49a5694f21b36eb48f3",
+      "bytes": 10011
     },
     {
       "path": "TABLET.md",
@@ -3875,8 +3880,8 @@
     },
     {
       "path": "app/data/strategy_reference.json",
-      "sha256": "4032f4deba8c7b9edbc6d314ae438b39ba3ff29ac1a63ad2255bad3c5a160287",
-      "bytes": 181439
+      "sha256": "fae2585108e06e9b7ba5cbb6bc1df3ad4d7469be76a7ea896dbaa085e21ec9c1",
+      "bytes": 325711
     },
     {
       "path": "app/engine.py",
@@ -3955,23 +3960,23 @@
     },
     {
       "path": "app/static/strategy-data.json",
-      "sha256": "bf8dce8cc17651b3c965ab7ff8530689e01c01801a191364c5ca734ae443706d",
-      "bytes": 3914412
+      "sha256": "5b00f8b5de4dffcf73378288c48ab6e7db23d7deafef8df652f4b47d21678f1e",
+      "bytes": 4853651
     },
     {
       "path": "app/static/strategy.css",
-      "sha256": "00c933536778fa12b6dc6539e30dd48215aeb41dc6ab7fa0ffc2159690d58b04",
-      "bytes": 23608
+      "sha256": "a4e0cc22aa79fd4bd52dfc3486c8719874d3d4d2b4171222d081ba518db5d6b5",
+      "bytes": 34550
     },
     {
       "path": "app/static/strategy.html",
-      "sha256": "7da0c5e9a6bbbda1c900cd94678d6068ff61f727a61bc8667754e5f11ebd2ea5",
-      "bytes": 3888
+      "sha256": "c4cd5ed70206f0765d5677554adfbf449c9b307ce0bd881c1d7c3184a4cb8543",
+      "bytes": 5163
     },
     {
       "path": "app/static/strategy.js",
-      "sha256": "2e38a50b50babb7d886730878eb0805a58f76b49e8d8b08cb0a2b1f4095574df",
-      "bytes": 44200
+      "sha256": "f2185f58b1745671a31867539a1157b49cb0099dc588fd07a99846a7ad315f27",
+      "bytes": 76272
     },
     {
       "path": "app/static/styles.css",
@@ -7775,7 +7780,7 @@
     },
     {
       "path": "docs/build-manifest.json",
-      "sha256": "c5bc4520d95a35c9ccb5680e5f3a42e4e02f63288c152d80fbcadc1c5d70f1b3",
+      "sha256": "5fbe950de57e3108f1b94b1470ffa044ffaf407ef485cb0a3df3ce00dbcf700b",
       "bytes": 108433
     },
     {
@@ -7805,23 +7810,23 @@
     },
     {
       "path": "docs/strategy/index.html",
-      "sha256": "1601b26091595bb594502c9ac2ee1c7384415790cbc3e7b3b5e06da073b7497f",
-      "bytes": 3915
+      "sha256": "83360a59f2f0af154229b194c5c409ebf85a8a9f23a26e65aef7c8d7bac0b5d9",
+      "bytes": 5190
     },
     {
       "path": "docs/strategy/strategy-data.json",
-      "sha256": "bf8dce8cc17651b3c965ab7ff8530689e01c01801a191364c5ca734ae443706d",
-      "bytes": 3914412
+      "sha256": "5b00f8b5de4dffcf73378288c48ab6e7db23d7deafef8df652f4b47d21678f1e",
+      "bytes": 4853651
     },
     {
       "path": "docs/strategy/strategy.css",
-      "sha256": "00c933536778fa12b6dc6539e30dd48215aeb41dc6ab7fa0ffc2159690d58b04",
-      "bytes": 23608
+      "sha256": "a4e0cc22aa79fd4bd52dfc3486c8719874d3d4d2b4171222d081ba518db5d6b5",
+      "bytes": 34550
     },
     {
       "path": "docs/strategy/strategy.js",
-      "sha256": "2e38a50b50babb7d886730878eb0805a58f76b49e8d8b08cb0a2b1f4095574df",
-      "bytes": 44200
+      "sha256": "f2185f58b1745671a31867539a1157b49cb0099dc588fd07a99846a7ad315f27",
+      "bytes": 76272
     },
     {
       "path": "requirements-ocr.lock.txt",
@@ -7875,8 +7880,8 @@
     },
     {
       "path": "scripts/build_strategy_guide.py",
-      "sha256": "6d95a1fd1d67c981f96c5ea78000c0d40a4c0b52792652bbb2592956c7d3b8c4",
-      "bytes": 37559
+      "sha256": "4fbd64cbb24ddb41c72c79b6bd0ea79b759dd779e09cd010b47c9333dd830541",
+      "bytes": 76781
     },
     {
       "path": "scripts/download_assets.py",
@@ -8020,8 +8025,8 @@
     },
     {
       "path": "tests/test_strategy_guide.py",
-      "sha256": "99c5768cab6a416f5359a94a790818b057458ca3743d2edd9c326ccd1afce8a3",
-      "bytes": 10094
+      "sha256": "bc4661b9349ec9b880dfaec186abb22c98cdfbe9a6d3450a2b630590ca15285e",
+      "bytes": 21604
     },
     {
       "path": "tests/test_tablet_access.py",
